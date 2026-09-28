@@ -49,6 +49,9 @@ background:linear-gradient(135deg,#ffd76a,#f0a92e);border-radius:8px;padding:3px
 .cfloor b{background:linear-gradient(135deg,#ffd76a,#f0a92e);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .cfloor i{font-style:normal;font-size:10.5px;font-weight:800;color:#f0a92e;margin-left:5px;letter-spacing:.06em}
 .na{color:#4d5f85}
+.ch{font-style:normal;font-size:10.5px;font-weight:800;margin-left:4px}
+.ch.g24{color:#34e39a}
+.ch.r24{color:#ff7a7a}
 .lst{font-size:10.5px;color:#8ea3c9;font-weight:600}
 .lst.dim{color:#4d5f85}
 .bar{height:4px;border-radius:4px;background:rgba(96,130,191,.18);margin:9px 0 5px;overflow:hidden}
@@ -111,15 +114,15 @@ background:linear-gradient(135deg,#ffd76a,#f0a92e);-webkit-background-clip:text;
 <h1>Рынок подарков Telegram</h1>
 <div class="sub" id="sub">загружаю живые данные…</div>
 <div class="stats">
-<div class="st"><div class="v" id="st1">…</div><div class="l">Улучшено всего</div></div>
+<div class="st"><div class="v" id="st1">…</div><div class="l">Коллекций</div></div>
 <div class="st"><div class="v" id="st2">…</div><div class="l">С ценой</div></div>
 <div class="st"><div class="v" id="st3">…</div><div class="l">Лотов</div></div>
 </div>
 </div>
 <div class="sr"><input id="q" type="search" placeholder="🔍  Поиск подарка…" autocomplete="off"></div>
-<div class="sect"><b>🆕 Только что минтили</b><small>последние минты в Telegram</small></div>
+<div class="sect"><b>🚀 Движение флоера за 24 ч</b><small>живые данные маркетплейса Portals</small></div>
 <div class="grid" id="fresh"></div>
-<div class="sect"><b>💎 Топ по флоеру</b><small>золотая рамка · точка = цена свежая</small></div>
+<div class="sect"><b>💎 Топ по флоеру</b><small>золотая рамка · точка = растёт за сутки</small></div>
 <div class="grid" id="top"></div>
 <div class="sect"><b>📚 Все подарки</b></div>
 <div class="grid" id="all"></div>
@@ -174,7 +177,7 @@ background:linear-gradient(135deg,#ffd76a,#f0a92e);-webkit-background-clip:text;
 </div>
 
 <script>
-var API='https://base44.app/api/apps/6a98178ea237b1c35cce824e/functions/giftWebApp';
+var API='https://portal-market.com/api/collections?limit=500';
 try{var tg=window.Telegram&&window.Telegram.WebApp;if(tg){tg.ready();tg.expand();if(tg.setHeaderColor)try{tg.setHeaderColor('#060a13');}catch(e){}}}catch(e){}
 var USER=null;
 try{USER=tg&&tg.initDataUnsafe&&tg.initDataUnsafe.user||null;}catch(e){}
@@ -195,32 +198,30 @@ document.querySelectorAll('#all .card').forEach(function(c){var m=!v||c.getAttri
 document.getElementById('none').style.display=n?'none':'block';}
 q.addEventListener('input',fl);
 function cardHtml(c,rank){
-var freshP=c.ft&&Date.now()/1000-c.ft<10800;
-var gg=c.addr?'https://getgems.io/collection/'+c.addr:'';
-var pct=c.total>0?Math.min(100,Math.round(c.issued/c.total*100)):0;
-var link='https://t.me/nft/'+c.slug+'-'+Math.max(1,c.issued);
-var btns='<a class="btn m" href="https://t.me/mrkt?startapp='+c.slug+'" target="_blank">MRKT</a>'+
-'<a class="btn p" href="https://t.me/portals/market?startapp='+c.slug+'" target="_blank">Portals</a>';
-if(gg)btns+='<a class="btn g" href="'+gg+'" target="_blank">GetGems</a>';
-btns+='<a class="btn v" href="'+link+'" target="_blank">👁</a>';
+var chg=c.chgc?Math.round(c.chgc*1000)/10:0;
+var pct=c.supply>0?Math.min(100,Math.round(c.listed/c.supply*100)):0;
+var btns='<a class="btn p" href="https://t.me/portals/market?startapp='+esc(c.slug)+'" target="_blank">Portals</a>'+
+'<a class="btn m" href="https://t.me/mrkt?startapp='+esc(c.slug)+'" target="_blank">MRKT</a>';
 return '<div class="card'+(rank?' rk':'')+'"'+(rank?' data-r="'+rank+'"':'')+' data-n="'+esc(c.name.toLowerCase())+'">'+
 (rank?'<div class="rank">'+rank+'</div>':'')+
-'<div class="cname">'+esc(c.name)+(freshP?' <span class="dot"></span>':'')+'</div>'+
-'<div class="cfloor">'+(c.floor>0?'<b>'+Number(c.floor).toFixed(2)+'</b><i>TON</i>':'<span class="na">—</span>')+'</div>'+
+'<div class="cname">'+esc(c.name)+(chg>0?' <span class="dot"></span>':'')+'</div>'+
+'<div class="cfloor">'+(c.floor>0?'<b>'+c.floor.toFixed(2)+'</b><i>TON</i>':'<span class="na">—</span>')+
+(chg>0?'<span class="ch g24">+'+chg+'%</span>':(chg<0?'<span class="ch r24">'+chg+'%</span>':''))+'</div>'+
 (c.listed>0?'<div class="lst">'+fmt(c.listed)+' лотов</div>':'<div class="lst dim">нет лотов</div>')+
 '<div class="bar"><i style="width:'+pct+'%"></i></div>'+
-'<div class="cmeta">'+fmt(c.issued)+' / '+fmt(c.total)+' · '+pct+'%</div>'+
+'<div class="cmeta">'+fmt(c.listed)+' из '+fmt(c.supply)+' · '+pct+'% на продаже</div>'+
 '<div class="btns">'+btns+'</div></div>';
 }
-fetch(API+'?data=1').then(function(r){return r.json();}).then(function(d){
-if(!d||!d.ok){document.getElementById('sub').textContent='не удалось загрузить данные — обнови страницу';return;}
-var cards=(d.cards||[]).slice().sort(function(a,b){return b.floor-a.floor;});
-document.getElementById('sub').textContent=cards.length+' коллекций · флоор обновлён в '+d.upd;
-document.getElementById('st1').textContent=fmt(d.totalUpgraded);
+fetch(API).then(function(r){return r.json();}).then(function(d){
+if(!d||!d.collections||!d.collections.length){document.getElementById('sub').textContent='не удалось загрузить данные — обнови страницу';return;}
+var fc=d.floor_changes||{};
+var cards=d.collections.map(function(c){return{name:c.name,slug:c.short_name,floor:parseFloat(c.floor_price)||0,listed:c.listed_count||0,supply:c.supply||0,chgc:parseFloat(fc[c.id])||0};}).sort(function(a,b){return b.floor-a.floor;});
+document.getElementById('sub').textContent=cards.length+' коллекций · флоеры Portals · обновлено '+new Date().toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'});
+document.getElementById('st1').textContent=fmt(cards.length);
 document.getElementById('st2').textContent=fmt(cards.filter(function(c){return c.floor>0;}).length);
 document.getElementById('st3').textContent=fmt(cards.reduce(function(a,c){return a+(c.listed||0);},0));
-var fr=cards.slice().sort(function(a,b){return b.mt-a.mt;}).slice(0,6);
-document.getElementById('fresh').innerHTML=fr.map(function(c){return cardHtml(c,0);}).join('');
+var mv=cards.slice().sort(function(a,b){return Math.abs(b.chgc)-Math.abs(a.chgc);}).slice(0,6);
+document.getElementById('fresh').innerHTML=mv.map(function(c){return cardHtml(c,0);}).join('');
 document.getElementById('top').innerHTML=cards.slice(0,12).map(function(c,i){return cardHtml(c,i+1);}).join('');
 document.getElementById('all').innerHTML=cards.map(function(c){return cardHtml(c,0);}).join('');
 }).catch(function(){document.getElementById('sub').textContent='не удалось загрузить данные — обнови страницу';});
@@ -236,23 +237,12 @@ document.getElementById('copybtn').onclick=function(){
 try{navigator.clipboard.writeText(rl);}catch(e){}
 try{if(tg&&tg.HapticFeedback)tg.HapticFeedback.impactOccurred('medium');}catch(e){}
 this.textContent='✅';var b=this;setTimeout(function(){b.textContent='📋';},1500);};
-fetch(API+'?uid='+USER.id).then(function(r){return r.json();}).then(function(p){
-if(!p||!p.found){document.getElementById('pbadge').textContent='Free — начни в боте';document.getElementById('pmodes').innerHTML='🤖 Нажми /start в боте — профиль подхватится автоматически.';document.getElementById('vipcta').innerHTML='👑 <b>VIP</b> — 118 алертов мгновенно<br><a class="btn m" href="https://t.me/Trackingonebot?start=vip_webapp" target="_blank">Подключить за 500 Stars</a>';return;}
-var b=document.getElementById('pbadge');
-if(p.vip){b.className='badge vip';b.textContent='👑 VIP · до '+p.vip_expires;
-document.getElementById('vipcta').innerHTML='✅ <b>VIP активен до '+p.vip_expires+'</b><div class="hint">Автоплатёж продлевает сам. Управлять — в боте /vip</div>';}
-else{b.className='badge free';b.textContent='Free · 1 подарок бесплатно';
-document.getElementById('vipcta').innerHTML='👑 <b>VIP — 118 алертов мгновенно</b><br>Киты, снайпы, стоп-лоссы, три цены<div class="hint"></div><a class="btn m" href="https://t.me/Trackingonebot?start=vip_webapp" target="_blank">Подключить за 500 Stars</a>';}
-document.getElementById('tport').innerHTML=(p.portfolio_ton>0?p.portfolio_ton+'<small> TON</small>':(p.portfolio_nfts>0?p.portfolio_nfts+'<small> шт</small>':'—'));
-document.getElementById('talerts').textContent=p.alerts;
-document.getElementById('tmuted').textContent=p.muted;
-document.getElementById('trefs').textContent=p.refs;
-var md='⚙️ <b>Настройки</b><br>🌙 Ночной режим: '+(p.night_mode?'<b style="color:#34e39a">вкл</b>':'выкл')+' · 📡 Радар: '+(p.radar_mode?'<b style="color:#34e39a">вкл</b>':'выкл')+(p.free_gift?'<br>⭐️ Бесплатный подарок: <b>'+esc(p.free_gift)+'</b>':'');
-document.getElementById('pmodes').innerHTML=md;
-if(tg&&tg.MainButton){tg.MainButton.setText(p.vip?'🤖 Открыть бота':'⚡️ Подключить VIP');tg.MainButton.show();
-tg.MainButton.onClick(function(){tg.openTelegramLink(p.vip?'https://t.me/Trackingonebot':'https://t.me/Trackingonebot?start=vip_webapp');});
+document.getElementById('pbadge').textContent='Free — начни в боте';
+document.getElementById('pmodes').innerHTML='🤖 Алерты, стоп-лоссы, снайп-радар и портфель живут в боте — нажми /start, и профиль подхватится там.';
+document.getElementById('vipcta').innerHTML='👑 <b>VIP — 118 алертов мгновенно</b><br>Киты, снайпы, стоп-лоссы, три цены<div class="hint">Автоплатёж в один тап, отмена когда хочешь</div><a class="btn m" href="https://t.me/Trackingonebot?start=vip_webapp" target="_blank">Подключить за 500 Stars</a>';
+if(tg&&tg.MainButton){tg.MainButton.setText('⚡️ Подключить VIP');tg.MainButton.show();
+tg.MainButton.onClick(function(){tg.openTelegramLink('https://t.me/Trackingonebot?start=vip_webapp');});
 document.getElementById('cta').style.display='none';}
-}).catch(function(){});
 }else{
 document.getElementById('pguest').style.display='';
 document.getElementById('pmain').style.display='none';
