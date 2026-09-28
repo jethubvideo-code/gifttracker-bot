@@ -1,0 +1,16 @@
+services:
+  web:
+    image: python:3.12-slim
+    working_dir: /site
+    command: python -m http.server 3000 --bind 0.0.0.0
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/site:ro
+    restart: on-failure
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request,sys;sys.exit(0 if b'<html' in urllib.request.urlopen('http://127.0.0.1:3000/',timeout=3).read() else 1)\""]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
