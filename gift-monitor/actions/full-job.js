@@ -164,7 +164,7 @@ function fmtOwner(addr, name) {
 }
 
 // диапазонное обогащение: последние `count` трансферов коллекции (по возрастанию времени)
-async function enrichRange(b, count) {
+async function enrichRange(b, count, winStart, winEnd) {
   const out = [];
   if (!b.col.address) return out;
   const events = await tonapi(`/v2/accounts/${b.col.address}/events?limit=50`);
@@ -179,7 +179,10 @@ async function enrichRange(b, count) {
     }
   }
   transfers.sort((x, y) => x.ts - y.ts);
-  const chosen = transfers.slice(-count);
+  // ОКНО БАМПА: берём только трансферы, случившиеся между свипами — именно этот апгрейд.
+  // Протухший тонапи (трансферы на 10-20 мин старьё) — шум, его номера/время/владелец НЕ прикрепляются к свежему номеру.
+  const inWin = transfers.filter((t) => t.ts && t.ts >= winStart && t.ts <= winEnd);
+  const chosen = inWin.slice(-count);
   for (let i = 0; i < chosen.length; i++) {
     const t = chosen[i];
     const ev = { number: 0, ownerAddr: "", ownerName: "", mintTime: t.ts, giftDisplay: "" };
@@ -325,7 +328,7 @@ async function main() {
   const cols = require(COLS_FILE);
   let subs = await freshSubs();
   if (!subs) subs = decryptSubs();
-  console.log(`full-job v5: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
+  console.log(`full-job v6: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
 
   const hour = hourSamarkand();
   const night = hour >= 23 || hour < 8;
@@ -351,6 +354,7 @@ async function main() {
       return;
     }
     checked++;
+    st.prevSweepTs = st.lastSweepTs || 0; // окно бампа = [prevSweep..now] — бамп случился внутри него
     st.lastSweepTs = NOW();
     gifts.push({ slug: c.name, name: c.display_name || c.name, issued: cnt.issued, total: cnt.total });
     if (!st.issued) {
@@ -375,25 +379,40 @@ async function main() {
   // 2) обогащение + доставка: ВСЕ номера диапазона (не только последний счётчик)
   for (const b of bumps) {
     const st = state[b.col.name];
+    // ДВОЙНАЯ ПРОВЕРКА НОМЕРА: t.me мог отдать протухший кэш — перепроверяем счётчик в момент доставки,
+    // юзер видит именно тот номер, который улучшен СЕЙЧАС
+    try {
+      const re = await tgCounter(b.col.name, st.sample || 1);
+      if (re && re.issued > b.issued) {
+        console.log(`уточнение счётчика ${b.col.name}: ${b.issued} → ${re.issued}`);
+        b.issued = re.issued;
+        st.issued = re.issued;
+      }
+    } catch {}
+    const winStart = (st.prevSweepTs || NOW() - 180) - 120; // окно бампа с запасом
+    const winEnd = NOW() + 120;
     let from = (st.lastSentNum || b.prev || 0) + 1; // от последнего ДОСТАВЛЕННОГО+1: бэклог не теряется
     if (from > b.issued) { skipped++; continue; } // дубль — уже всё доставлено
     let overflow = 0;
     if (b.issued - from + 1 > 8) { overflow = b.issued - from + 1 - 8; from = b.issued - 7; }
     if (overflow) console.log(`кэтч-ап ${b.col.name}: доставляю последние 8 (пропущено ${overflow})`);
     const count = b.issued - from + 1;
-    const metas = await enrichRange(b, count);
+    const metas = await enrichRange(b, count, winStart, winEnd);
     const img = await giftImage(b.col.name, b.issued);
     for (let i = 0; i < count; i++) {
       const n = from + i;
       const mIdx = i - (count - metas.length); // тонапи может дать меньше трансферов — выравниваю по свежести
       const m = mIdx >= 0 && mIdx < metas.length ? metas[mIdx] : {};
+      // мета валидна только если её минт внутри окна бампа — иначе это старый трансфер тонапи
+      const mOk = !!(m.mintTime && m.mintTime >= winStart && m.mintTime <= winEnd);
       const ev = {
         slug: b.col.name,
-        giftDisplay: m.giftDisplay || b.col.display_name || b.col.name,
-        number: m.number || n,
-        ownerAddr: m.ownerAddr || "",
-        ownerName: m.ownerName || "",
-        mintTime: m.mintTime || 0,
+        giftDisplay: (mOk ? m.giftDisplay || "" : "") || b.col.display_name || b.col.name,
+        number: n, // ← ЕДИНСТВЕННАЯ ПРАВДА: официальный номер счётчика (как на t.me).
+                   // Номер копии из метаданных НЕ показывается нигде — иначе юзер видит «старый» номер
+        ownerAddr: mOk ? m.ownerAddr || "" : "",
+        ownerName: mOk ? m.ownerName || "" : "",
+        mintTime: mOk ? m.mintTime : 0,
         counter: { issued: n, total: b.total },
       };
       // СВЕЖЕСТЬ: доставляем ТОЛЬКО новые апгрейды (жалоба: «старых вообще не было, только свежие»).
@@ -402,8 +421,8 @@ async function main() {
       // молча пропускаем и двигаем маркер, уведомление НЕ уходит.
       const FRESH_SEC = 1200;
       const metaFresh = ev.mintTime && NOW() - ev.mintTime <= FRESH_SEC;
-      const sweepFresh = st.lastSweepTs && NOW() - st.lastSweepTs <= FRESH_SEC;
-      if (!metaFresh && !sweepFresh) {
+      const windowFresh = st.prevSweepTs && NOW() - st.prevSweepTs <= FRESH_SEC; // окно бампа свежее?
+      if (!metaFresh && !windowFresh) {
         st.lastSentNum = n;
         st.lastSentTime = NOW();
         skipped++;
