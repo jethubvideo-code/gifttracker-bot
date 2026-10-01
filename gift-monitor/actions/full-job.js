@@ -39,22 +39,24 @@ function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-let lastTon = 0;
-async function tonapi(url) {
-  for (let i = 1; i <= 2; i++) {
-    const w = Math.max(0, lastTon + 1050 - Date.now());
-    if (w > 0) await sleep(w);
-    lastTon = Date.now();
-    try {
-      const res = await fetch(`https://tonapi.io${url}`, {
-        headers: TONAPI_KEY ? { Authorization: `Bearer ${TONAPI_KEY}` } : {},
-        signal: AbortSignal.timeout(12000),
-      });
-      if (res.ok) return await res.json().catch(() => null);
-    } catch {}
-    if (i < 2) await sleep(2000);
-  }
-  return null;
+let tonChain = Promise.resolve();
+function tonapi(url) {
+  const p = tonChain.then(async () => {
+    await sleep(1100);
+    for (let i = 1; i <= 2; i++) {
+      try {
+        const res = await fetch(`https://tonapi.io${url}`, {
+          headers: TONAPI_KEY ? { Authorization: `Bearer ${TONAPI_KEY}` } : {},
+          signal: AbortSignal.timeout(12000),
+        });
+        if (res.ok) return await res.json().catch(() => null);
+      } catch {}
+      if (i < 2) await sleep(2000);
+    }
+    return null;
+  });
+  tonChain = p.catch(() => {});
+  return p;
 }
 
 async function tg(method, body) {
