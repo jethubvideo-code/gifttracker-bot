@@ -259,6 +259,51 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
   padding:10px 16px;border-radius:8px;opacity:0;transition:all .3s;pointer-events:none;box-shadow:var(--shadow);white-space:nowrap}
 .toast.on{opacity:1;transform:translateX(-50%)}
 #canv{position:fixed;left:-9999px;top:0}
+
+/* ═══ v8.4 POLISH LAYER — только поверх, ничего не ломает ═══ */
+/* глубина карточек: многослойные тени с золотым свечением */
+.card{box-shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 10px 30px rgba(0,0,0,.35), 0 22px 60px -30px rgba(212,168,71,.14);transition:transform .25s cubic-bezier(.2,.8,.3,1), box-shadow .3s, border-color .3s}
+.card:active{transform:scale(.985)}
+/* хало вокруг логотипа — живое дыхание */
+@keyframes logoHalo{0%,100%{box-shadow:0 0 22px rgba(212,168,71,.35),0 0 0 1px rgba(212,168,71,.25)}50%{box-shadow:0 0 34px rgba(212,168,71,.55),0 0 0 1px rgba(212,168,71,.4)}}
+.hd .logo, .hd img{animation:logoHalo 3.6s ease-in-out infinite}
+/* заголовок: разрежённый трекинг, золотой отлив */
+.hd .tt{letter-spacing:.14em;text-shadow:0 0 26px rgba(212,168,71,.35)}
+/* большие числа: золотой градиент по тексту */
+.num{background:linear-gradient(175deg,var(--gold2),var(--gold) 55%,var(--goldD));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.val.num{filter:drop-shadow(0 2px 10px rgba(212,168,71,.25))}
+/* плитки статов: блик сверху */
+.stat{position:relative;overflow:hidden}
+.stat::before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(212,168,71,.5),transparent);opacity:.7}
+.stat:hover{border-color:var(--goldD);transform:translateY(-1px)}
+/* строки ленты/рынка: золотой след при касании */
+.mrow,.frow,.mini-ev,.ev{transition:background .25s,border-color .25s,transform .2s}
+.mrow:hover,.frow:hover{border-color:var(--goldD);background:linear-gradient(90deg,rgba(212,168,71,.06),transparent 30%)}
+.mrow:active,.frow:active{transform:scale(.99)}
+/* таб-бар: активная кнопка — золотая таблетка со свечением */
+.tabbar button{transition:color .25s,background .25s,box-shadow .3s}
+.tabbar button.on{background:linear-gradient(180deg,rgba(212,168,71,.22),rgba(212,168,71,.08));box-shadow:0 0 18px rgba(212,168,71,.35),0 6px 16px rgba(0,0,0,.4) inset}
+/* панели: мягкое появление при переключении */
+.pane{animation:none}
+.pane.on{animation:paneIn .3s cubic-bezier(.2,.8,.3,1)}
+@keyframes paneIn{from{opacity:.25;transform:translateY(7px)}to{opacity:1;transform:none}}
+/* шит: въезд снизу с пружинкой */
+.sheet{animation:sheetIn .32s cubic-bezier(.2,.9,.3,1.04)}
+@keyframes sheetIn{from{transform:translateY(40px);opacity:0}to{transform:none;opacity:1}}
+/* кнопки: живой отклик */
+.btn,.chip{transition:transform .18s,box-shadow .25s,border-color .25s,background .25s}
+.btn:active,.chip:active{transform:scale(.96)}
+.btn:not(.ghost){box-shadow:0 8px 22px -8px rgba(212,168,71,.5)}
+.btn:not(.ghost):hover{filter:brightness(1.08)}
+/* LIVE: деликатный пульс */
+@keyframes livePulse{0%,100%{box-shadow:0 0 10px rgba(74,222,128,.5)}50%{box-shadow:0 0 20px rgba(74,222,128,.85)}}
+/* тонкий золотистый скроллбар */
+*::-webkit-scrollbar{width:8px;height:8px}
+*::-webkit-scrollbar-thumb{background:linear-gradient(var(--goldD),var(--line2));border-radius:8px;border:2px solid var(--bg)}
+*::-webkit-scrollbar-track{background:transparent}
+/* плавные переходы темы */
+body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
+@media (hover:none){.stat:hover,.mrow:hover,.frow:hover{transform:none}}
 </style>
 </head>
 <body>
