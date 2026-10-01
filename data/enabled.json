@@ -1,1 +1,1 @@
-{"enabled": false, "note": "false = Base44 бот главный. true = GitHub Actions шлёт уведомления (сначала отключить Monitor A на Base44, чтобы не было дублей!)"}
+{"enabled": true, "note": "GitHub Actions следит за счётчиками 120 коллекций каждые 5 мин. При апгрейде вызывает giftRelay на Base44 (проверка+рассылка). false = выключить."}
