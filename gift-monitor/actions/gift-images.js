@@ -29,10 +29,24 @@ async function fetchOgImage(slug, num) {
       });
       if (!res.ok) continue;
       const m = (await res.text()).match(/property="og:image"\s+content="([^"]+)"|content="([^"]+)"\s+property="og:image"/);
-      return m ? m[1] || m[2] || "" : "";
+      const url = m ? m[1] || m[2] || "" : "";
+      // ЩИТ: страница-заглушка t.me отдаёт ДЕФОЛТНЫЙ ЛОГОТИП Telegram (telegram.org/img/*)
+      // как og:image — это НЕ картинка подарка, в обложки её брать нельзя (баг «чужое фото»)
+      if (url && !url.includes("telegram.org/img")) return url;
+      break; // заглушка/без og:image — ретраи бессмысленны, идём в фолбэк Fragment
     } catch {}
     await new Promise((r) => setTimeout(r, 800));
   }
+  // ФОЛБЭК: у части коллекций нет og:image на t.me (например MagicPotion) или страниц NFT
+  // вообще нет (intelligencecup) — берём официальную обложку коллекции с Fragment
+  const slugL = String(slug).toLowerCase();
+  try {
+    const res = await fetch(`https://nft.fragment.com/collection/${slugL}.webp`, {
+      method: "HEAD",
+      signal: AbortSignal.timeout(8000),
+    });
+    if (res.ok) return `https://nft.fragment.com/collection/${slugL}.webp`;
+  } catch {}
   return "";
 }
 
