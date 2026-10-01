@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T20:29:00.978Z",
- "updated_unix": 1790886540,
- "runs": 1346,
+ "updated": "2026-10-01T20:29:30.813Z",
+ "updated_unix": 1790886570,
+ "runs": 1347,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 990,
- "sent_total": 32499,
+ "detected_total": 991,
+ "sent_total": 32532,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 188816,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790885523,
-   "counter_issued": 188816,
-   "counter_total": 243771,
-   "img": "https://cdn4.telesco.pe/file/J6e28K1VTQbZXMT0wQB94teOsbUvaTQ9M14EOrv9Pn7r0Wou9dVgza_ZlyV1-fJZLkkjkDbvcJakTIIUmQ3o03f8eSUWKjWoyCIjDGTH22XUln7kP_llg4MFBck92ZmVVF4WEr3fUV1eNIsfMwIrmof2NiDoWYFfqUXd5lzpBRyWb-MDH1W3PYEgo7OSE6SzCr0_p5-imPd6OMpokVJ2oxNwJax34gRVA1F_sfoE4M4DT22irzLSXHu_rRRTUsD6PJY2yFu7beCk8lTVxZdBCj0pG6qgKM11O0jq7lNT2FA5U03ZqUZxnfocRU8HPpIL4BrPwrOVSgeQIYvmS7IOWQ.jpg",
-   "sent": 33,
-   "time": "2026-10-01T20:13:09.971Z"
-  },
   {
    "slug": "PetSnake",
    "gift": "PetSnake",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T20:28:24.575Z"
+  },
+  {
+   "slug": "MoneyPot",
+   "gift": "MoneyPot",
+   "number": 74376,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790886504,
+   "counter_issued": 74376,
+   "counter_total": 91779,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T20:29:30.812Z"
   }
  ]
 }
