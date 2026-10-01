@@ -117,7 +117,9 @@ async function giftImage(slug, num) {
     });
     if (!res.ok) return "";
     const m = (await res.text()).match(/property="og:image"\s+content="([^"]+)"|content="([^"]+)"\s+property="og:image"/);
-    return m ? m[1] || m[2] || "" : "";
+    const url = m ? m[1] || m[2] || "" : "";
+    // ЩИТ: og:image = дефолтный логотип Telegram → страница-заглушка, НЕ картинка подарка
+    return url && !url.includes("telegram.org/img") ? url : "";
   } catch { return ""; }
 }
 
