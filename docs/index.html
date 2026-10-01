@@ -94,22 +94,30 @@ h1{font-size:17px;font-weight:800;letter-spacing:.06em}
 .lnks a{font-size:11.5px;font-weight:700;letter-spacing:.02em}
 .lnks a::before{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--gold2);margin-right:5px;vertical-align:2px}
 
-/* ── подарки ── */
+/* ── подарки (маркетплейс-сетка с фото) ── */
 .search{display:flex;align-items:center;gap:9px;background:var(--sur);border:1px solid var(--line);
   border-radius:14px;padding:11px 14px;margin-bottom:12px}
 .search svg{flex:none;opacity:.5}
 .search input{flex:1;background:none;border:none;outline:none;color:var(--tx);font-size:14px;font-weight:500}
 .search input::placeholder{color:var(--tx3)}
-.gwrap{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-.gc{background:var(--sur);border:1px solid var(--line);border-radius:16px;padding:12px 13px;cursor:pointer;transition:transform .15s}
+.gwrap{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+@media(min-width:520px){.gwrap{grid-template-columns:repeat(3,1fr)}}
+.gc{position:relative;background:var(--sur);border:1px solid var(--line);border-radius:16px;padding:9px;cursor:pointer;
+  transition:transform .15s,border-color .2s;overflow:hidden}
 .gc:active{transform:scale(.97)}
-.gart{height:34px;display:flex;align-items:center;gap:9px;margin-bottom:8px}
-.gico{width:34px;height:34px;border-radius:10px;flex:none;display:grid;place-items:center;font-size:13px;font-weight:800;
-  color:#1a130a;background:linear-gradient(135deg,#f3dd9a,#c8963e)}
-.gart b{font-size:12.5px;font-weight:700;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.gc .cnt{font-size:15px;font-weight:800;margin:4px 0 7px}
+@media(hover:hover){.gc:hover{border-color:var(--line2);transform:translateY(-2px)}}
+.gim{width:100%;aspect-ratio:1;border-radius:11px;overflow:hidden;position:relative;background:linear-gradient(135deg,rgba(233,196,106,.12),rgba(255,255,255,.04))}
+.gim img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;transition:opacity .4s}
+.gim img.ld{opacity:1}
+.gim .gini{position:absolute;inset:0;display:grid;place-items:center;font-size:30px;font-weight:800;color:rgba(244,241,234,.35)}
+.gim::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 42%,rgba(233,196,106,.09) 50%,transparent 58%);pointer-events:none}
+.ghot{position:absolute;top:14px;left:14px;z-index:2;font-size:9.5px;font-weight:900;letter-spacing:.06em;
+  color:#1a130a;border-radius:7px;padding:3px 8px;background:linear-gradient(135deg,#ffb38a,#ff8a5c);
+  box-shadow:0 3px 12px rgba(255,138,92,.45)}
+.gnm{font-size:12.5px;font-weight:800;line-height:1.3;margin:9px 2px 0;min-height:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gc .cnt{font-size:15.5px;font-weight:800;margin:3px 2px 8px}
 .gc .cnt span{font-size:11px;color:var(--tx3);font-weight:600}
-.gc .pb{margin:0}
+.gc .pb{margin:0 2px 2px}
 
 /* ── инфо ── */
 .hero-info{background:linear-gradient(135deg,rgba(233,196,106,.12),rgba(255,255,255,.03));
@@ -235,7 +243,7 @@ var feedEl = document.getElementById('feed'), gridEl = document.getElementById('
 var qEl = document.getElementById('q'), updEl = document.getElementById('upd');
 var ringEl = document.getElementById('ringc'), ringCtx = 2 * Math.PI * 9.6;
 ringEl.style.strokeDasharray = ringCtx;
-var giftsData = [], lastFeedTs = 0, ringTimer = null, ringT0 = Date.now();
+var giftsData = [], imagesData = {}, hotMap = {}, lastFeedTs = 0, ringTimer = null, ringT0 = Date.now();
 
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 function fmtNum(n){return Number(n||0).toLocaleString('ru-RU')}
@@ -323,26 +331,45 @@ function renderFeed(evts){
   document.getElementById('fcount').textContent = 'последние ' + evts.length;
 }
 
-function giftCard(g){
+function giftCard(g, hot){
   var pct = g.total ? Math.min(100, Math.round((g.issued / g.total) * 100)) : 0;
+  var slug = String(g.slug || g.name || '').trim();
+  var img = imagesData[slug] || imagesData[slug.toLowerCase()] || '';
+  var ini = ((g.name||'?').trim().split(/\s+/).map(function(w){return w.charAt(0);}).join('') || '?').slice(0,2).toUpperCase();
+  var imgHtml = img
+    ? '<img src="' + esc(img) + '" loading="lazy" alt="" onload="this.classList.add(\'ld\')" onerror="this.outerHTML=\'<div class=gini>' + esc(ini) + '</div>\'">'
+    : '<div class="gini">' + esc(ini) + '</div>';
   var dv = document.createElement('div');
   dv.className = 'gc';
   dv.innerHTML =
-    '<div class="gart"><div class="gico">' + esc(((g.name||'?').trim().split(/\s+/).map(function(w){return w.charAt(0);}).join('') || '?').slice(0,2).toUpperCase()) + '</div><b>' + esc(g.name) + '</b></div>' +
+    (hot ? '<span class="ghot">🔥 ГОРЯЧЕЕ</span>' : '') +
+    '<div class="gim">' + imgHtml + '</div>' +
+    '<div class="gnm">' + esc(g.name) + '</div>' +
     '<div class="cnt num">' + fmtNum(g.issued) + ' <span>из ' + fmtNum(g.total) + '</span></div>' +
     '<div class="pb"><i style="width:' + pct + '%"></i></div>';
-  dv.onclick = function(){ haptic(); openLink('https://t.me/nft/' + (g.slug||g.name).toLowerCase() + '-' + Math.max(1, g.issued)); };
+  dv.onclick = function(){ haptic(); openLink('https://t.me/nft/' + slug.toLowerCase() + '-' + Math.max(1, g.issued)); };
   return dv;
 }
 
 function renderGrid(filter){
   var f = (filter||'').trim().toLowerCase();
-  var list = f ? giftsData.filter(function(g){ return (g.name||'').toLowerCase().indexOf(f) >= 0; }) : giftsData;
+  var list = f ? giftsData.filter(function(g){ return (g.name||'').toLowerCase().indexOf(f) >= 0; }) : giftsData.slice();
+  // маркетплейс-сортировка: недавно улучшавшиеся коллекции — первыми, дальше по алфавиту
+  list.sort(function(a,b){
+    var ha = hotMap[String(a.slug||a.name).trim()] || 0;
+    var hb = hotMap[String(b.slug||b.name).trim()] || 0;
+    if (hb !== ha) return hb - ha;
+    return String(a.name||'').localeCompare(String(b.name||''));
+  });
   gridEl.innerHTML = '';
   var frag = document.createDocumentFragment();
-  list.forEach(function(g){ frag.appendChild(giftCard(g)); });
+  list.forEach(function(g){
+    var slug = String(g.slug||g.name||'').trim();
+    frag.appendChild(giftCard(g, !!hotMap[slug]));
+  });
   gridEl.appendChild(frag);
-  document.getElementById('gcount').textContent = list.length + ' коллекций';
+  var hotN = list.filter(function(g){ return hotMap[String(g.slug||g.name).trim()]; }).length;
+  document.getElementById('gcount').textContent = list.length + ' коллекций' + (hotN ? ' · ' + hotN + ' горячих' : '');
 }
 
 function countUp(el, target){
@@ -357,8 +384,9 @@ function countUp(el, target){
 
 function refresh(first){
   ringT0 = Date.now();
-  Promise.all([jget('status.json'), jget('gifts.json')]).then(function(res){
+  Promise.all([jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; })]).then(function(res){
     var st = res[0], gf = res[1];
+    imagesData = (res[2] && res[2].images) ? res[2].images : {};
     giftsData = (gf && gf.gifts) ? gf.gifts : [];
     var sumIssued = 0;
     giftsData.forEach(function(g){ sumIssued += Number(g.issued)||0; });
@@ -376,6 +404,14 @@ function refresh(first){
       var ta = a.mint || (a.time ? new Date(a.time).getTime()/1000 : 0);
       var tb = b.mint || (b.time ? new Date(b.time).getTime()/1000 : 0);
       return tb - ta;
+    });
+    hotMap = {};
+    var dayAgo = Date.now()/1000 - 86400;
+    evts.forEach(function(e){
+      var t = e.mint || (e.time ? new Date(e.time).getTime()/1000 : 0);
+      var key = String(e.slug||'').trim();
+      if (!key || t < dayAgo) return;
+      if (!hotMap[key] || t > hotMap[key]) hotMap[key] = t;
     });
     renderFeed(evts);
     renderGrid(qEl.value);
