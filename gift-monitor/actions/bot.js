@@ -127,10 +127,10 @@ async function handleMessage(tg, subs, msg) {
         `🛠 /api — открытые данные для разработчиков\n\n` +
         `🌙 /night — тихий режим 23:00–08:00\n` +
         `🙈 /mute Имя — скрыть подарок, /unmute Имя — вернуть\n\n` +
-        `🌐 Мини-апп: меню бота → «Мини Апп»` });
+        `🌐 Мини-апп: меню бота → «Мини Апп»`, reply_markup: menuKb() });
       return changed;
     }
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: WELCOME });
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: WELCOME, reply_markup: menuKb() });
     return changed;
   }
 
@@ -378,6 +378,15 @@ async function handleMessage(tg, subs, msg) {
   return changed;
 }
 
+function menuKb() {
+  return { inline_keyboard: [
+    [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "📅 Календарь", callback_data: "menu:cal" }],
+    [{ text: "📊 GM INDEX", callback_data: "menu:idx" }, { text: "🏆 Топ", callback_data: "menu:top" }],
+    [{ text: "🎮 Игра", callback_data: "menu:game" }, { text: "🌙 Режим", callback_data: "menu:night" }],
+    [{ text: "📖 Все команды", callback_data: "menu:help" }],
+  ] };
+}
+
 async function handleCallback(tg, subs, q) {
   const fromId = String(q.from && q.from.id);
   const chatId = String(q.message && q.message.chat && q.message.chat.id) || fromId;
@@ -389,9 +398,16 @@ async function handleCallback(tg, subs, q) {
       if (!sub) { sub = newSub(fromId, chatId); subs.push(sub); changed = true; }
       sub.is_active = true; changed = true;
       await tg("answerCallbackQuery", { callback_query_id: q.id, text: "✅ Подписка подтверждена!" });
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: WELCOME });
+      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: WELCOME, reply_markup: menuKb() });
     } else {
       await tg("answerCallbackQuery", { callback_query_id: q.id, text: "❌ Подписки на канал ещё нет", show_alert: true });
+    }
+  } else if (String(q.data).indexOf("menu:") === 0) {
+    const cmd = ({ "menu:mine": "/mine", "menu:cal": "/calendar", "menu:idx": "/index", "menu:top": "/top", "menu:game": "/game", "menu:night": "/night", "menu:help": "/help" })[String(q.data)];
+    await tg("answerCallbackQuery", { callback_query_id: q.id });
+    if (cmd) {
+      const t = await handleMessage(tg, subs, { from: { id: Number(fromId) }, chat: { id: Number(chatId) }, text: cmd });
+      changed = t || changed;
     }
   } else {
     await tg("answerCallbackQuery", { callback_query_id: q.id });
