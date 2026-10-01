@@ -372,11 +372,11 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
       <div style="font-size:11px;color:var(--tx3);font-weight:700;margin-top:5px" data-i18n="subtitle">апгрейды Telegram Gifts · онлайн</div>
       <div style="display:inline-flex;align-items:center;gap:6px;margin-top:13px;font-size:9.5px;font-weight:900;
         letter-spacing:.1em;color:var(--ok);background:rgba(74,222,128,.1);border:1.5px solid rgba(74,222,128,.3);
-        border-radius:6px;padding:5px 10px">LIVE · GITHUB ACTIONS</div>
+        border-radius:6px;padding:5px 10px">LIVE · 24/7</div>
     </div>
     <div class="blk" style="line-height:1.7;font-size:12.5px" data-i18n="aboutText">
       🚀 <b>Gift Monitor</b> — живой трекер апгрейдов Telegram Gifts → NFT.<br><br>
-      Движок работает на GitHub Actions: 120 коллекций, официальные счётчики Telegram, свежесть 1-2 минуты.<br><br>
+      Движок работает 24/7: 120 коллекций, официальные счётчики Telegram, свежесть 1-2 минуты.<br><br>
       Уведомления в Telegram: <b>@Trackingonebot</b><br>
       Все апгрейды — <b>бесплатно для всех</b>.
     </div>
@@ -407,9 +407,9 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 "use strict";
 /* ═══ ядро ═══ */
 var $ = function(id){ return document.getElementById(id); };
-var BASE = 'https://jethubvideo-code.github.io/gifttracker-bot/';
-/* данные — напрямую из raw.githubusercontent (отражает пуш за секунды, без ожидания сборки GitHub Pages) */
-var RAW = 'https://raw.githubusercontent.com/jethubvideo-code/gifttracker-bot/main/';
+var BASE = './';
+/* данные тянутся напрямую из источника — свежесть за секунды, без CDN-кэша */
+var RAW = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90L21haW4v');
 var tg = null;
 try { tg = window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null; if (tg){ tg.ready(); tg.expand(); } } catch(e){}
 function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
@@ -449,7 +449,7 @@ var I18N = {
   cmp:{ru:'Сравнение коллекций', uz:'Kolleksiyalarni solishtirish', en:'Compare collections'},
   exp:{ru:'Экспорт данных', uz:'Ma\'lumotlarni eksport', en:'Export data'},
   about:{ru:'О сервисе', uz:'Xizmat haqida', en:'About'},
-  aboutText:{ru:'🚀 <b>Gift Monitor</b> — живой трекер апгрейдов Telegram Gifts → NFT.<br><br>Движок работает на GitHub Actions: 120 коллекций, официальные счётчики Telegram, свежесть 1-2 минуты.<br><br>Уведомления в Telegram: <b>@Trackingonebot</b><br>Все апгрейды — <b>бесплатно для всех</b>.', uz:'🚀 <b>Gift Monitor</b> — Telegram Gifts → NFT yangilanishlarini jonli kuzatuvchi.<br><br>Dvigatel GitHub Actions\'da ishlaydi: 120 kolleksiya, rasmiy Telegram hisoblagichlari, yangilik 1-2 daqiqa.<br><br>Telegram bildirishnomalari: <b>@Trackingonebot</b><br>Barcha yangilanishlar — <b>hamma uchun bepul</b>.', en:'🚀 <b>Gift Monitor</b> — live tracker of Telegram Gifts → NFT upgrades.<br><br>Engine runs on GitHub Actions: 120 collections, official Telegram counters, 1-2 min freshness.<br><br>Telegram notifications: <b>@Trackingonebot</b><br>All upgrades — <b>free for everyone</b>.'},
+  aboutText:{ru:'🚀 <b>Gift Monitor</b> — живой трекер апгрейдов Telegram Gifts → NFT.<br><br>Движок работает 24/7: 120 коллекций, официальные счётчики Telegram, свежесть 1-2 минуты.<br><br>Уведомления в Telegram: <b>@Trackingonebot</b><br>Все апгрейды — <b>бесплатно для всех</b>.', uz:'🚀 <b>Gift Monitor</b> — Telegram Gifts → NFT yangilanishlarini jonli kuzatuvchi.<br><br>Dvigatel 24/7 rejimda ishlaydi: 120 kolleksiya, rasmiy Telegram hisoblagichlari, yangilik 1-2 daqiqa.<br><br>Telegram bildirishnomalari: <b>@Trackingonebot</b><br>Barcha yangilanishlar — <b>hamma uchun bepul</b>.', en:'🚀 <b>Gift Monitor</b> — live tracker of Telegram Gifts → NFT upgrades.<br><br>Engine runs 24/7: 120 collections, official Telegram counters, 1-2 min freshness.<br><br>Telegram notifications: <b>@Trackingonebot</b><br>All upgrades — <b>free for everyone</b>.'},
   openBot:{ru:'Открыть бота — все апгрейды бесплатно', uz:'Botni ochish — barchasi bepul', en:'Open bot — all free'},
   tFeed:{ru:'ЛЕНТА', uz:'LENTA', en:'FEED'},
   tGifts:{ru:'ПОДАРКИ', uz:'SOVG\'ALAR', en:'GIFTS'},
