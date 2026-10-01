@@ -90,6 +90,7 @@ function card(e) {
   var mrkt = "https://t.me/mrkt?startapp=" + slug.toLowerCase();
   var portals = "https://t.me/portals/market?startapp=" + slug.toLowerCase();
   var h = '<div class="card">';
+  if (e.img) h += '<img src="' + esc(e.img) + '" alt="' + esc(gift) + '" loading="lazy" style="width:100%;max-height:420px;object-fit:contain;border-radius:10px;margin-bottom:12px;background:#21262d" onerror="this.style.display=\'none\'">';
   h += '<div class="title">🚀 НОВОЕ УЛУЧШЕНИЕ: ' + esc(gift) + (e.counter_issued ? " #" + fmt(e.counter_issued) : "") + "</div>";
   h += '<div class="row"><span class="ic">🎁</span><span class="tx">Подарок: <b>' + esc(gift) + "</b></span></div>";
   if (num) h += '<div class="row"><span class="ic">🏷️</span><span class="tx">NFT: <b>#' + fmt(num) + "</b></span></div>";
