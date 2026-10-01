@@ -319,7 +319,18 @@ async function main() {
       if (r && r.error_code === 429) await sleep(Math.min(3, Number(r.parameters?.retry_after) || 1) * 1000);
     }
     sent += sentThis;
-    bumpLogs.push({ slug: b.col.name, number: ev.number || b.issued, sent: sentThis, time: new Date().toISOString() });
+    bumpLogs.push({
+      slug: b.col.name,
+      gift: ev.giftDisplay || b.col.display_name || b.col.name,
+      number: ev.number || b.issued,
+      owner: ev.ownerName || "",
+      owner_addr: ev.ownerAddr || "",
+      mint: ev.mintTime || 0,
+      counter_issued: ev.counter ? ev.counter.issued : b.issued,
+      counter_total: ev.counter ? ev.counter.total : b.total,
+      sent: sentThis,
+      time: new Date().toISOString(),
+    });
     st.lastSentTime = NOW();
     st.lastSentNum = b.issued;
     console.log(`апгрейд: ${b.col.name} #${b.issued}, отправлено: ${sentThis}`);
@@ -341,7 +352,7 @@ async function main() {
       errors: errors,
       detected_total: (prev.detected_total || 0) + detected,
       sent_total: (prev.sent_total || 0) + sent,
-      last_upgrades: [...(prev.last_upgrades || []), ...bumpLogs].slice(-20),
+      last_upgrades: [...(prev.last_upgrades || []), ...bumpLogs].slice(-30),
     }, null, 1));
   } catch (e) { console.log("status.json:", String(e).slice(0, 80)); }
 
