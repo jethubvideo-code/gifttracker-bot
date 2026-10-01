@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T17:50:05.304Z",
- "updated_unix": 1790877005,
- "runs": 924,
+ "updated": "2026-10-01T17:50:35.940Z",
+ "updated_unix": 1790877035,
+ "runs": 925,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 726,
- "sent_total": 23858,
+ "detected_total": 727,
+ "sent_total": 23890,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 445568,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790875493,
-   "counter_issued": 445568,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 32,
-   "time": "2026-10-01T17:26:01.906Z"
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 32,
    "time": "2026-10-01T17:49:36.241Z"
+  },
+  {
+   "slug": "MousseCake",
+   "gift": "MousseCake",
+   "number": 179050,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790876967,
+   "counter_issued": 179050,
+   "counter_total": 230505,
+   "img": "",
+   "sent": 32,
+   "time": "2026-10-01T17:50:35.939Z"
   }
  ]
 }
