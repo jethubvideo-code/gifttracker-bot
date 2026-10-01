@@ -251,6 +251,28 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 .spark{width:58px;height:20px;flex:none;opacity:.95}
 .mtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
 .mk-note{font-size:10px;color:var(--tx3);font-weight:600;text-align:center;margin:12px 2px 74px}
+/* ═══ ПРО-таб ═══ */
+.prcard{background:var(--sur2);border:1.5px solid var(--line2);border-radius:16px;padding:14px;margin-top:12px}
+.prh{font-size:13.5px;font-weight:900;letter-spacing:.4px;display:flex;align-items:center;gap:6px}
+.prcnt,.prpts{font-size:11px;color:var(--tx2);font-weight:700;margin-left:auto}
+.prnote{font-size:11px;color:var(--tx2);line-height:1.45;margin-top:5px}
+.pradd{display:flex;gap:8px;margin-top:10px}
+.pradd input{flex:1;min-width:0;background:var(--sur);border:1.5px solid var(--line2);border-radius:10px;padding:9px 10px;color:var(--tx);font-size:12px;font-weight:600;outline:none}
+.pradd input:focus{border-color:var(--gold)}
+.pradd input[type=number]{max-width:96px}
+.prrow{display:flex;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid var(--line);font-size:12px}
+.prrow:last-child{border-bottom:none}
+.prrow .nm{font-weight:800}
+.prrow .st{margin-left:auto;font-size:11px;font-weight:700;white-space:nowrap}
+.prdel{width:26px;height:26px;border-radius:8px;border:1.5px solid var(--line2);background:transparent;color:var(--tx2);font-size:13px;cursor:pointer;flex:none}
+.prdel:active{transform:scale(.92)}
+.heatgrid{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.hchip{font-size:10px;font-weight:800;padding:5px 7px;border-radius:8px;border:1px solid transparent;cursor:pointer}
+.prcode{font-family:ui-monospace,SFMono-Regular,monospace;font-size:10.5px;background:var(--sur);border:1px solid var(--line);border-radius:9px;padding:8px 9px;margin-top:6px;color:var(--tx2);word-break:break-all;user-select:all}
+.prcal{display:flex;flex-direction:column;gap:9px;margin-top:10px}
+.prcalrow{display:flex;align-items:center;gap:9px;font-size:12px}
+.prcalrow .nm{font-weight:800;max-width:46%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prcalrow .meta{margin-left:auto;text-align:right;font-size:10.5px;color:var(--tx2);line-height:1.35;white-space:nowrap}
 /* ── конфетти ── */
 .cf{position:fixed;top:-14px;z-index:60;width:8px;height:13px;border-radius:2px;pointer-events:none;animation:confetti 2.6s ease-in forwards}
 .empty{text-align:center;color:var(--tx3);font-weight:700;padding:26px 0;font-size:12.5px}
@@ -407,6 +429,69 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
     <div class="mk-note" data-i18n="mkNote">≈ минимальная цена в выборке лотов GetGems · скан каждые 15 минут · цены в TON</div>
   </section>
 
+  <!-- ПРО -->
+  <section class="pane" id="p-pro">
+    <div class="sec"><h2 data-i18n="prTitle">Про-инструменты</h2><span class="sub" id="prUpd">—</span></div>
+
+    <div class="prcard">
+      <div class="prh">🎯 <span data-i18n="prMine">Мои подарки</span><span class="prcnt" id="prMineCnt"></span></div>
+      <div class="prnote" data-i18n="prMineNote">Укажи свой номер #N — узнаешь первым, когда именно ТВОЙ подарок улучшат до NFT</div>
+      <div class="pradd">
+        <input id="prMineName" list="prDl" placeholder="PoolFloat" autocomplete="off">
+        <input id="prMineNum" type="number" inputmode="numeric" placeholder="#12345">
+        <button class="btn jelly" id="prMineAdd" data-i18n="prAdd">добавить</button>
+      </div>
+      <datalist id="prDl"></datalist>
+      <div id="prMineList" style="margin-top:4px"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">📅 <span data-i18n="prCal">Календарь лимиток</span></div>
+      <div class="prcal" id="prCalList"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">📊 <span data-i18n="prIdx">Индекс рынка</span></div>
+      <div class="mtiles" style="margin-top:8px">
+        <div class="stat"><div class="lbl">Σ TON</div><div class="val gold num" id="prIdxTon">—</div></div>
+        <div class="stat"><div class="lbl">≈ USD</div><div class="val num" id="prIdxUsd">—</div></div>
+        <div class="stat"><div class="lbl" data-i18n="prMed">медиана</div><div class="val num" id="prIdxMed">—</div></div>
+      </div>
+      <canvas id="prIdxSpark" height="56" style="width:100%;margin-top:8px"></canvas>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🏆 <span data-i18n="prTop">Топ улучшителей</span></div>
+      <div id="prTopList" style="margin-top:4px"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🔥 <span data-i18n="prHeat">Тепловая карта флоров</span></div>
+      <div class="prnote" data-i18n="prHeatNote">цвет = изменение флора за доступный период наблюдений</div>
+      <div class="heatgrid" id="prHeatGrid"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🎮 <span data-i18n="prGame">Угадай флор</span><span class="prpts" id="prPts"></span></div>
+      <div class="prnote" data-i18n="prGameNote">Назови флор на завтра: промах до 5% = 10 очков, до 15% = 6, до 30% = 3, иначе 1</div>
+      <div class="pradd">
+        <input id="prGameName" list="prDl" placeholder="PlushPepe" autocomplete="off">
+        <input id="prGameTon" type="number" inputmode="decimal" placeholder="5000">
+        <button class="btn jelly" id="prGameGo" data-i18n="prGo">прогноз</button>
+      </div>
+      <div id="prGameSt" style="margin-top:8px"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🛠 <span data-i18n="prApi">Открытый API</span></div>
+      <div class="prnote" data-i18n="prApiNote">JSON-эндпоинты обновляются автоматически — без ключей и лимитов</div>
+      <div class="prcode">status.json · gifts.json · floors.json · floors-hist.json · history.json · images.json · leaders.json</div>
+      <div class="prnote" style="margin-top:8px">embed-виджет для любого сайта:</div>
+      <div class="prcode" id="prEmbed">&#60;script src="<span id="prEmbedUrl">…</span>embed.js" data-gift="PlushPepe"&#62;&#60;/script&#62;</div>
+      <button class="btn jelly" id="prCopy" style="margin-top:8px">📋 <span data-i18n="prCopy">копировать код виджета</span></button>
+    </div>
+  </section>
+
   <!-- ИНФО -->
   <section class="pane" id="p-info">
     <div class="sec"><h2 data-i18n="about">О сервисе</h2></div>
@@ -434,6 +519,7 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
   <button class="tab jelly" id="t-gifts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg><span data-i18n="tGifts">ПОДАРКИ</span></button>
   <button class="tab jelly" id="t-stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg><span data-i18n="tStats">АНАЛИТИКА</span></button>
   <button class="tab jelly" id="t-market"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><span data-i18n="tMarket">РЫНОК</span></button>
+<button class="tab jelly" id="t-pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-i18n="tPro">ПРО</span></button>
 <button class="tab jelly" id="t-info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span data-i18n="tInfo">ИНФО</span></button>
 </nav>
 
@@ -501,6 +587,28 @@ var I18N = {
   tStats:{ru:'АНАЛИТИКА', uz:'ANALITIKA', en:'ANALYTICS'},
   tInfo:{ru:'ИНФО', uz:'INFO', en:'INFO'},
   tMarket:{ru:'РЫНОК', uz:'BOZOR', en:'MARKET'},
+  tPro:{ru:'ПРО', uz:'PRO', en:'PRO'},
+  prTitle:{ru:'Про-инструменты', uz:'Pro vositalar', en:'Pro tools'},
+  prMine:{ru:'Мои подарки', uz:"Mening sovg'alarim", en:'My gifts'},
+  prMineNote:{ru:'Укажи свой номер #N — узнаешь первым, когда именно ТВОЙ подарок улучшат до NFT. То же самое умеет бот: /mine', uz:"Raqamingizni kiriting — sovg'angiz NFTga aylanganda birinchi bilasiz", en:'Add your copy #N — get alerted the moment YOUR gift is upgraded to NFT'},
+  prAdd:{ru:'добавить', uz:"qo'shish", en:'add'},
+  prDel:{ru:'удалить', uz:"o'chirish", en:'delete'},
+  prCal:{ru:'Календарь лимиток', uz:'Limitli kalendar', en:'Limited drops'},
+  prIdx:{ru:'Индекс рынка', uz:'Bozor indeksi', en:'Market index'},
+  prMed:{ru:'медиана', uz:'mediana', en:'median'},
+  prTop:{ru:'Топ улучшителей', uz:'Top yaxshilovchilar', en:'Top upgraders'},
+  prHeat:{ru:'Тепловая карта флоров', uz:'Flevrlar xaritasi', en:'Floor heatmap'},
+  prHeatNote:{ru:'цвет = изменение флора за доступный период наблюдений', uz:'rang = flevr o‘zgarishi', en:'color = floor change over available window'},
+  prGame:{ru:'Угадай флор', uz:'Flevrni top', en:'Guess the floor'},
+  prGameNote:{ru:'Назови флор на завтра: промах до 5% = 10 очков, до 15% = 6, до 30% = 3, иначе 1', uz:"Ertaga uchun flevrni ayting: 5% gacha xato = 10 ball", en:'Predict tomorrow\'s floor: within 5% = 10 pts, 15% = 6, 30% = 3, else 1'},
+  prGo:{ru:'прогноз', uz:'bashorat', en:'predict'},
+  prCheck:{ru:'проверить', uz:'tekshirish', en:'check'},
+  prApi:{ru:'Открытый API', uz:'Ochiq API', en:'Open API'},
+  prApiNote:{ru:'JSON-эндпоинты обновляются автоматически — без ключей и лимитов', uz:"JSONlar avtomatik yangilanadi, kalitsiz", en:'JSON endpoints update automatically — no keys, no limits'},
+  prCopy:{ru:'копировать код виджета', uz:'vidjet kodini nusxalash', en:'copy widget code'},
+  prEmpty:{ru:'Пока пусто', uz:"Hozircha bo'sh", en:'Nothing yet'},
+  prDone:{ru:'улучшен!', uz:"yaxshilandi!", en:'upgraded!'},
+  prWait:{ru:'ждём', uz:'kutish', en:'waiting'},
   market:{ru:'Рынок подарков', uz:'Sovg\'alar bozori', en:'Gift market'},
   mkSum:{ru:'Σ флор цен', uz:'Σ floor', en:'Σ floors'},
   mkAvg:{ru:'средний', uz:'o\'rtacha', en:'average'},
@@ -607,7 +715,7 @@ function newUpgradeAlert(evts){
 }
 
 /* ═══ вкладки ═══ */
-var PANES = ['feed','gifts','stats','market','info'];
+var PANES = ['feed','gifts','stats','market','pro','info'];
 function switchTab(p){
   for (var i=0;i<PANES.length;i++){
     var id = PANES[i];
@@ -617,7 +725,7 @@ function switchTab(p){
   window.scrollTo(0,0);
 }
 for (var ti=0;ti<PANES.length;ti++){
-  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); }); })(PANES[ti]);
+  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); if(p==='pro') renderPro(); }); })(PANES[ti]);
 }
 
 /* ═══ листы (sheets) ═══ */
@@ -1331,7 +1439,227 @@ ringIv = setInterval(function(){
 /* PWA: service worker */
 try {
   if ('serviceWorker' in navigator && location.protocol === 'https:'){
-    navigator.serviceWorker.register(BASE + 'sw.js').catch(function(){});
+    /* ═══════════ ПРО-ТАБ: мои подарки, календарь, индекс, топ, heatmap, игра, API ═══════════ */
+var proMine = [], proGame = { slug:'', guess:0, target:0 }, proPts = 0, proTop = [];
+try { proMine = JSON.parse(localStorage.getItem('gm_mine') || '[]'); } catch(e){ proMine = []; }
+try { proGame = JSON.parse(localStorage.getItem('gm_game') || '{}') || {}; } catch(e){ proGame = {}; }
+proPts = Number(localStorage.getItem('gm_points') || 0);
+function proSave(){ localStorage.setItem('gm_mine', JSON.stringify(proMine)); }
+function proSaveGame(){ localStorage.setItem('gm_game', JSON.stringify(proGame)); localStorage.setItem('gm_points', String(proPts)); }
+function proFindGift(q){
+  var t = String(q||'').trim().toLowerCase().replace(/\s+/g,'');
+  if (!t) return null;
+  for (var i=0;i<giftsData.length;i++){
+    var gs = String(giftsData[i].slug||giftsData[i].name).toLowerCase().replace(/\s+/g,'');
+    if (gs === t) return giftsData[i];
+  }
+  for (var j=0;j<giftsData.length;j++){
+    var gs2 = String(giftsData[j].slug||giftsData[j].name).toLowerCase().replace(/\s+/g,'');
+    if (gs2.indexOf(t) >= 0) return giftsData[j];
+  }
+  return null;
+}
+function renderPro(){
+  var upd = $('prUpd');
+  if (upd) upd.textContent = floorsData.updated ? fmtDate(floorsData.updated_unix || Math.floor(new Date(floorsData.updated).getTime()/1000)) : '—';
+  renderMine(); renderProCal(); renderProIdx(); renderProHeat(); renderProGame();
+  jget('leaders.json').then(function(d){
+    proTop = (d && d.leaders) || [];
+    renderProTop();
+  }).catch(function(){ renderProTop(); });
+}
+function renderMine(){
+  var dl = $('prDl'); var opts = [];
+  for (var i=0;i<giftsData.length;i++) opts.push('<option value="'+esc(giftsData[i].slug||giftsData[i].name)+'">');
+  if (dl) dl.innerHTML = opts.join('');
+  $('prMineCnt').textContent = proMine.length ? (proMine.length + '/20') : '';
+  var box = $('prMineList');
+  if (!proMine.length){ box.innerHTML = '<div class="prnote" style="padding-top:8px">'+esc(T('prEmpty'))+'</div>'; return; }
+  var h = '';
+  for (var k=0;k<proMine.length;k++){
+    var parts = proMine[k].split(':');
+    var slug = parts[0], num = parseInt(parts[1],10) || 0;
+    var g = proFindGift(slug);
+    var issued = g ? Number(g.issued)||0 : 0;
+    var done = issued >= num && num > 0;
+    h += '<div class="prrow"><span class="nm">'+esc(slug)+'</span><span style="color:var(--tx2)">#'+fmtNum(num)+'</span>'
+      + '<span class="st" style="color:'+(done?'var(--ok)':'var(--tx2)')+'">'+(done?'✅ '+esc(T('prDone')):'⏳ '+esc(T('prWait'))+' · '+fmtNum(issued))+'</span>'
+      + '<button class="prdel" data-mi="'+k+'" title="'+esc(T('prDel'))+'">✕</button></div>';
+  }
+  box.innerHTML = h;
+  var btns = box.querySelectorAll('.prdel');
+  for (var b=0;b<btns.length;b++) btns[b].addEventListener('click', function(){
+    haptic();
+    proMine.splice(Number(this.getAttribute('data-mi')), 1);
+    proSave(); renderMine();
+  });
+}
+$('prMineAdd').addEventListener('click', function(){
+  var g = proFindGift($('prMineName').value);
+  var num = parseInt($('prMineNum').value, 10);
+  if (!g){ toast('⚠️ ' + esc($('prMineName').value)); return; }
+  if (!num || num < 1 || num > 9999999){ toast('⚠️ #'); return; }
+  if (proMine.length >= 20){ toast('20 max'); return; }
+  var slug = String(g.slug||g.name);
+  var entry = slug + ':' + num;
+  for (var i=0;i<proMine.length;i++) if (proMine[i].toLowerCase() === entry.toLowerCase()){ toast('✓'); return; }
+  proMine.push(entry); proSave();
+  $('prMineName').value = ''; $('prMineNum').value = '';
+  haptic(); toast(T('saved')); renderMine();
+});
+function renderProCal(){
+  var list = giftsData.slice().sort(function(a,b){ return (Number(b.added)||0) - (Number(a.added)||0); }).slice(0, 12);
+  var hours = histData || [];
+  var rateOf = {};
+  if (hours.length >= 2){
+    var last = hours[hours.length-1], first = hours[Math.max(0, hours.length-24)];
+    for (var i=0;i<list.length;i++){
+      var s2 = String(list[i].slug||list[i].name);
+      var a = first.issued ? first.issued[s2] : undefined;
+      var b2 = last.issued ? last.issued[s2] : undefined;
+      if (a !== undefined && b2 !== undefined && b2 > a) rateOf[s2] = b2 - a;
+    }
+  }
+  var h = '';
+  for (var k=0;k<list.length;k++){
+    var g = list[k];
+    var s3 = String(g.slug||g.name);
+    var rest = (Number(g.total)||0) - (Number(g.issued)||0);
+    var rate = rateOf[s3] || 0;
+    var eta = (rate > 0 && rest > 0) ? '~' + fmtNum(Math.round(rest/rate*10)/10) + '/д' : '';
+    var isNew = g.added && (Date.now()/1000 - g.added < 7*86400) ? ' <span style="color:var(--hot);font-size:10px">NEW</span>' : '';
+    h += '<div class="prcalrow"><span class="nm">'+esc(g.name||s3)+isNew+'</span>'
+      + '<span class="meta">'+fmtNum(g.issued)+' / '+fmtNum(g.total)+' · '+(rest>0?esc(T('prWait'))+' '+fmtNum(rest):'sold out')+(eta?' · ⚡'+eta:'')+'</span></div>';
+  }
+  $('prCalList').innerHTML = h;
+}
+function renderProIdx(){
+  var vals = [];
+  var F = floorsData.floors || {};
+  for (var k in F) if (F.hasOwnProperty(k) && F[k] && F[k].f > 0) vals.push(F[k].f);
+  if (!vals.length){ $('prIdxTon').textContent = '—'; return; }
+  var sum = 0; for (var i=0;i<vals.length;i++) sum += vals[i];
+  var sorted = vals.slice().sort(function(a,b){ return a-b; });
+  var med = sorted[Math.floor(sorted.length/2)];
+  $('prIdxTon').textContent = fmtNum(Math.round(sum*10)/10);
+  $('prIdxUsd').textContent = usdOf(sum);
+  $('prIdxMed').textContent = fmtNum(med);
+  var cv = $('prIdxSpark');
+  if (cv && floorsHist && floorsHist.length){
+    var ctx = cv.getContext('2d');
+    var w = cv.width = cv.offsetWidth || 320; var hh = cv.height = 56;
+    var sums = [];
+    for (var t=0;t<floorsHist.length;t++){
+      var fs = floorsHist[t].floors || {}; var sm = 0;
+      for (var kk in fs) if (fs.hasOwnProperty(kk)) sm += Number(fs[kk])||0;
+      sums.push(sm);
+    }
+    if (sums.length >= 2 && sums[0] > 0){
+      var mn = Math.min.apply(null, sums), mx = Math.max.apply(null, sums);
+      if (mx === mn) mx = mn + 1;
+      var g1 = (usdRate() || '#d4a847');
+      ctx.clearRect(0,0,w,hh);
+      ctx.beginPath();
+      ctx.strokeStyle = '#d4a847'; ctx.lineWidth = 2; ctx.lineJoin = 'round';
+      for (var p=0;p<sums.length;p++){
+        var x = p/(sums.length-1)*(w-4)+2;
+        var y = hh-4 - (sums[p]-mn)/(mx-mn)*(hh-10);
+        if (p===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    }
+  }
+}
+function usdRate(){ return Number(floorsData.rate_usd)||0; }
+function renderProTop(){
+  var box = $('prTopList');
+  if (!proTop.length){ box.innerHTML = '<div class="prnote" style="padding-top:8px">'+esc(T('prEmpty'))+'</div>'; return; }
+  var medals = ['🥇','🥈','🥉'];
+  var h = '';
+  for (var i=0;i<Math.min(proTop.length,15);i++){
+    var e = proTop[i];
+    h += '<div class="prrow"><span style="width:26px">'+(medals[i]||((i+1)+'.'))+'</span><span class="nm">'+esc(e.name||e.owner||'?')+'</span><span class="st">'+fmtNum(e.count)+' ⚡</span></div>';
+  }
+  box.innerHTML = h;
+}
+function renderProHeat(){
+  var grid = $('prHeatGrid');
+  var F = floorsData.floors || {};
+  var old = (floorsHist && floorsHist.length) ? (floorsHist[0].floors || {}) : {};
+  var items = [];
+  for (var k in F) if (F.hasOwnProperty(k) && F[k] && F[k].f > 0){
+    var cur = F[k].f;
+    var was = old[k];
+    var d = (was && was > 0) ? (cur-was)/was*100 : null;
+    items.push({ s:k, f:cur, d:d });
+  }
+  items.sort(function(a,b){ return (b.d===null?-999:b.d) - (a.d===null?-999:a.d); });
+  var h = '';
+  for (var i=0;i<items.length;i++){
+    var it = items[i];
+    var bg, bc, tx = 'var(--tx2)';
+    if (it.d === null){ bg = 'var(--sur)'; bc = 'var(--line2)'; }
+    else if (it.d > 0.05){ var i1 = Math.min(1, it.d/12); bg = 'rgba(74,222,128,'+(0.10+i1*0.32)+')'; bc = 'rgba(74,222,128,'+(0.25+i1*0.45)+')'; tx = '#3fd68f'; }
+    else if (it.d < -0.05){ var i2 = Math.min(1, -it.d/12); bg = 'rgba(248,113,113,'+(0.10+i2*0.32)+')'; bc = 'rgba(248,113,113,'+(0.25+i2*0.45)+')'; tx = 'var(--err)'; }
+    else { bg = 'var(--sur)'; bc = 'var(--line2)'; }
+    h += '<span class="hchip" style="background:'+bg+';border-color:'+bc+';color:'+tx+'" data-hs="'+esc(it.s)+'">'+esc(it.s)+(it.d!==null?' '+(it.d>0?'+':'')+Math.round(it.d*10)/10+'%':'')+'</span>';
+  }
+  grid.innerHTML = h;
+  var chips = grid.querySelectorAll('.hchip');
+  for (var c=0;c<chips.length;c++) chips[c].addEventListener('click', function(){
+    haptic(); openColSheet(this.getAttribute('data-hs'));
+  });
+}
+function renderProGame(){
+  $('prPts').textContent = proPts ? (proPts + ' ⭐') : '';
+  var st = $('prGameSt');
+  var now = Date.now();
+  if (proGame.slug && proGame.target && now < proGame.target){
+    var hrs = Math.ceil((proGame.target-now)/3600000);
+    st.innerHTML = '<div class="prnote">🎯 '+esc(proGame.slug)+' → '+fmtNum(proGame.guess)+' TON · ⏳ '+hrs+'ч</div>';
+    $('prGameGo').textContent = T('prGo');
+  } else if (proGame.slug && proGame.target && now >= proGame.target){
+    var F2 = floorsData.floors || {};
+    var e2 = F2[proGame.slug];
+    var actual = e2 ? e2.f : 0;
+    if (!actual){ st.innerHTML = '<div class="prnote">⏳ флор недоступен, попробуй позже</div>'; }
+    else {
+      var myGuess = Number(proGame.guess)||0;
+      var dd = Math.abs(actual - myGuess) / actual;
+      var score = dd <= 0.05 ? 10 : dd <= 0.15 ? 6 : dd <= 0.3 ? 3 : 1;
+      proPts += score; proGame = { slug:'', guess:0, target:0 }; proSaveGame();
+      $('prPts').textContent = proPts ? (proPts + ' ⭐') : '';
+      st.innerHTML = '<div class="prnote">🎯 прогноз '+fmtNum(myGuess)+' vs флор '+fmtNum(actual)+' · промах '+Math.round(dd*100)+'% → <b>+'+score+' ⭐</b> (всего '+proPts+')</div>';
+      renderProGame();
+      return;
+    }
+  } else {
+    st.innerHTML = '';
+  }
+}
+$('prGameGo').addEventListener('click', function(){
+  var now = Date.now();
+  if (proGame.slug && proGame.target && now < proGame.target){ renderProGame(); return; }
+  var g = proFindGift($('prGameName').value);
+  var ton = parseFloat($('prGameTon').value);
+  if (!g){ toast('⚠️'); return; }
+  if (!(ton > 0)){ toast('⚠️ TON'); return; }
+  proGame = { slug: String(g.slug||g.name), guess: ton, target: Date.now() + 24*3600*1000 };
+  proSaveGame(); haptic(); toast(T('saved')); renderProGame();
+});
+$('prCopy').addEventListener('click', function(){
+  var snippet = '<script src="' + location.origin + '/embed.js" data-gift="PlushPepe"><\/script>';
+  var done = function(){ toast('✓ ' + T('prCopy')); haptic(); };
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(snippet).then(done, done); }
+    else {
+      var ta = document.createElement('textarea'); ta.value = snippet; document.body.appendChild(ta);
+      ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();
+    }
+  } catch(e){ done(); }
+});
+
+navigator.serviceWorker.register(BASE + 'sw.js').catch(function(){});
   }
 } catch(e){}
 </script>
