@@ -6,7 +6,8 @@
 <title>Gift Monitor Ultra — апгрейды Telegram Gifts</title>
 <meta name="theme-color" content="#0c0a09">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
 :root{
@@ -51,9 +52,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .jelly:active{transform:scale(.9)}
 /* ── header ── */
 .hd{display:flex;align-items:center;gap:11px;margin-bottom:12px}
-.hlogo{width:44px;height:44px;border-radius:13px;flex:none;display:grid;place-items:center;
-  background:linear-gradient(135deg,var(--gold2),var(--goldD));box-shadow:0 6px 18px rgba(200,150,62,.35);
+.hlogo{width:44px;height:44px;border-radius:13px;flex:none;overflow:hidden;
+  box-shadow:0 6px 18px rgba(200,150,62,.35);border:1px solid var(--line2);
   transition:transform .15s cubic-bezier(.34,1.56,.64,1)}
+.hlogo img{width:100%;height:100%;object-fit:cover;display:block}
 .hlogo:active{transform:scale(.88) rotate(-6deg)}
 .ht h1{font-size:15px;font-weight:900;letter-spacing:.02em}
 .ht p{font-size:10.5px;color:var(--tx3);font-weight:600}
@@ -240,7 +242,7 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 <body>
 <div id="app">
   <div class="hd">
-    <div class="hlogo jelly">⭐️</div>
+    <div class="hlogo jelly"><img src="logo.png" alt="GIFT MONITOR"></div>
     <div class="ht"><h1>GIFT MONITOR</h1><p data-i18n="subtitle">апгрейды Telegram Gifts · онлайн</p></div>
     <div class="hright">
       <div class="live"><i></i><span id="liveTxt">LIVE</span></div>
@@ -478,7 +480,7 @@ function newUpgradeAlert(evts){
     confetti(); beep();
     if (PUSH && 'Notification' in window && Notification.permission === 'granted'){
       var e0 = fresh[0];
-      try { new Notification('🚀 ' + (e0.gift||'Gift') + ' #' + fmtNum(e0.counter_issued||e0.number), { body: T('improved')+' · '+T('feed'), icon: BASE+'icon.svg' }); } catch(e2){}
+      try { new Notification('🚀 ' + (e0.gift||'Gift') + ' #' + fmtNum(e0.counter_issued||e0.number), { body: T('improved')+' · '+T('feed'), icon: BASE+'logo.png' }); } catch(e2){}
     }
   }
   if (evts.length) lastSeenTs = evts[0].mint || 0;
@@ -757,6 +759,31 @@ function renderAnalytics(){ renderChart(); renderLb(); renderCmp(); fillCmpSelec
 /* ═══ экспорт ═══ */
 function dl(name, content, type){
   var blob = new Blob([content], { type: type });
+  // 1) Web Share API с файлом — работает в WebView Telegram на большинстве устройств (нативное меню "Поделиться")
+  try {
+    var file = new File([blob], name, { type: type });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      navigator.share({ files: [file], title: name }).catch(function(){ dlFallback(name, blob); });
+      return;
+    }
+  } catch(e){}
+  dlFallback(name, blob);
+}
+function dlFallback(name, blob){
+  // 2) в Telegram WebView скачивание через <a download> часто молчит — копируем в буфер как запасной путь
+  var inTG = !!(tg && tg.initData && tg.initData.length > 0);
+  if (inTG && navigator.clipboard && blob.type.indexOf('text') === 0 || (inTG && navigator.clipboard && blob.type.indexOf('json') >= 0)){
+    blob.text().then(function(txt){
+      navigator.clipboard.writeText(txt).then(function(){
+        toast(LANG==='ru'?'✓ скопировано в буфер — вставь в заметки':(LANG==='uz'?'✓ nusxalandi — eslatmaga joylang':'✓ copied — paste into notes'));
+      }).catch(function(){ dlDirect(name, blob); });
+    }).catch(function(){ dlDirect(name, blob); });
+    return;
+  }
+  dlDirect(name, blob);
+}
+function dlDirect(name, blob){
+  // 3) обычный браузер — классическое скачивание файла
   var a = document.createElement('a');
   a.href = URL.createObjectURL(blob); a.download = name;
   document.body.appendChild(a); a.click();
@@ -812,14 +839,31 @@ function shareCard(e){
   ctx.fillText('Gift Monitor · @Trackingonebot', 50, 456);
   var paint = function(){
     cv.toBlob(function(blob){
-      try { var a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = (slug||'gift')+'-'+(e.counter_issued||e.number)+'.png';
-        document.body.appendChild(a); a.click();
-        setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 500);
-        toast(T('sharedDl'));
-      } catch(err){ toast(T('sharedDl')); }
+      var fname = (slug||'gift')+'-'+(e.counter_issued||e.number)+'.png';
+      // 1) Web Share API с картинкой — родное меню "Поделиться" прямо в Telegram WebView
+      try {
+        var file = new File([blob], fname, { type: 'image/png' });
+        if (navigator.canShare && navigator.canShare({ files: [file] })){
+          navigator.share({ files: [file], title: (e.gift||slug)+' #'+(e.counter_issued||e.number), text: 'Gift Monitor · @Trackingonebot' })
+            .then(function(){ toast(T('sharedDl')); })
+            .catch(function(err){ if (err && err.name === 'AbortError') return; shareFallback(blob, fname); });
+          return;
+        }
+      } catch(err){}
+      shareFallback(blob, fname);
     }, 'image/png');
+  };
+  var shareFallback = function(blob, fname){
+    // 2) в Telegram WebView нет Share API и скачивание молчит — открываем картинку в новой вкладке/вьюере, можно сохранить вручную
+    try {
+      var url = URL.createObjectURL(blob);
+      if (tg && tg.openLink){ openLink(url); toast(T('sharedDl')); return; }
+      var a = document.createElement('a');
+      a.href = url; a.download = fname;
+      document.body.appendChild(a); a.click();
+      setTimeout(function(){ URL.revokeObjectURL(url); a.remove(); }, 500);
+      toast(T('sharedDl'));
+    } catch(err){ toast(T('sharedDl')); }
   };
   if (img){
     var im = new Image(); im.crossOrigin = 'anonymous';
