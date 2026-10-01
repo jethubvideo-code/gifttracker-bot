@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T21:16:58.163Z",
- "updated_unix": 1790889418,
- "runs": 1487,
+ "updated": "2026-10-01T21:17:27.820Z",
+ "updated_unix": 1790889447,
+ "runs": 1488,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1029,
- "sent_total": 33786,
+ "detected_total": 1030,
+ "sent_total": 33819,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 179057,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790887206,
-   "counter_issued": 179057,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:41:13.335Z"
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T21:16:28.478Z"
+  },
+  {
+   "slug": "JesterHat",
+   "gift": "JesterHat",
+   "number": 143590,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790889381,
+   "counter_issued": 143590,
+   "counter_total": 190222,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:17:27.819Z"
   }
  ]
 }
