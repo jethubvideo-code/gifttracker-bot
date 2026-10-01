@@ -1,6 +1,6 @@
 /* Gift Monitor PWA — офлайн-кэш оболочки, данные всегда из сети */
-var CACHE = 'gm-v7-1';
-var SHELL = ['./', './index.html', './icon.svg', './manifest.webmanifest'];
+var CACHE = 'gm-v7-2';
+var SHELL = ['./', './index.html', './logo.png', './icon-192.png', './manifest.webmanifest'];
 self.addEventListener('install', function(e){
   e.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(SHELL); }).then(function(){ return self.skipWaiting(); }));
 });
