@@ -1,0 +1,37 @@
+name: Gift Monitor Full (standby)
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "sendtest = тест владельцу, пусто = обычный прогон"
+        default: ""
+      force:
+        description: "true = прогнать даже если выключен"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gift-monitor-full
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run full monitor
+        run: node gift-monitor/actions/full-job.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN }}
+          TONAPI_KEY: ${{ vars.TONAPI_KEY }}
+          CRYPT_KEY: ${{ vars.CRYPT_KEY }}
+          MODE: ${{ github.event.inputs.mode || '' }}
+          FORCE: ${{ github.event.inputs.force || '' }}
