@@ -631,6 +631,11 @@ $('btnSet').addEventListener('click', function(){ haptic(); renderSettings(); op
 /* ═══ данные ═══ */
 var statD = {}, giftsData = [], imagesData = {}, histData = [], feedEvents = [], hotMap = {};
 var floorsData = { floors: {} }, floorsHist = [], mSort = 'price';
+function usdOf(ton) {
+  var r = Number(floorsData.rate_usd) || 0;
+  if (!r || !ton) return '';
+  return ' <span style="color:var(--tx3);font-size:11px">≈ $' + fmtNum(Math.round(ton * r * 100) / 100) + '</span>';
+}
 var sortMode = 'hot', feedMine = false, gridMine = false;
 var ringT0 = Date.now(), ringIv = null;
 
@@ -789,7 +794,7 @@ function openColSheet(slug){
   var flEntry = (floorsData.floors || {})[slug] || null;
   var d24 = flEntry ? floorD24(slug) : null;
   var floorHtml = flEntry && Number(flEntry.f)
-    ? '<div class="kv"><div class="cell"><div class="k">💰 ' + T('mkFloor') + ' (≈)</div><div class="v">≈ ' + fmtNum(Math.round(Number(flEntry.f)*100)/100) + ' TON' +
+    ? '<div class="kv"><div class="cell"><div class="k">💰 ' + T('mkFloor') + ' (≈)</div><div class="v">≈ ' + fmtNum(Math.round(Number(flEntry.f)*100)/100) + ' TON' + usdOf(Number(flEntry.f)) +
       (d24 != null ? ' <span style="color:'+(d24>=0?'#3fd68f':'#ff7a7a')+';font-size:12px">'+(d24>=0?'▲ +':'▼ ')+d24.toFixed(1)+'% 24ч</span>' : '') + '</div></div>' +
       '<div class="cell"><div class="k">🛒 ' + T('mkLots') + '</div><div class="v">'+(flEntry.s || '—')+'</div></div></div>'
     : '';
@@ -927,6 +932,7 @@ function renderMarket(){
       sparkOf(r.slug) +
       '<div class="mprice">' +
         '<div class="mton">≈ ' + fmtNum(Math.round(r.f*100)/100) + ' <span class="u">TON</span></div>' +
+        (usdOf(r.f) ? '<div class="musd" style="font-size:11px;color:var(--tx3)">' + usdOf(r.f).replace(/<[^>]+>/g,'').trim() + '</div>' : '') +
         (d24 != null
           ? '<div class="mdelta '+(d24>=0?'pos':'neg')+'">'+(d24>=0?'▲ +':'▼ ')+d24.toFixed(1)+'%</div>'
           : '<div class="mdelta" style="color:var(--tx3)">24ч —</div>') +
