@@ -14,7 +14,6 @@ const OWNER_IDS = ["8396883978", "7503491071"];
 const CHANNEL = "@unknowesecret";
 const PRO_TPL = ["PlushPepe", "PoolFloat", "LolPop"];
 
-const flip = require("./flip.js");
 
 const esc = (s) => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const fmt = (x) => String(Math.round(Number(x || 0) * 100) / 100).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
@@ -53,7 +52,6 @@ function newSub(id, chatId) {
     notify_new_gifts: true,
     free_gift: "",
     language: "ru",
-    game_points: 0,
   };
 }
 
@@ -81,12 +79,8 @@ const WELCOME =
   `🚀 <b>Gift NFT Monitor</b> — слежу за улучшениями Telegram Gifts до NFT.\n\n` +
   `⚡ Все апгрейды всех 120+ подарков — <b>бесплатно</b>, уведомления приходят сами.\n\n` +
   `🎯 Свои подарки: <code>/mine Имя №</code>\n` +
-  `💳 Цена коллекции: <code>/card PlushPepe</code>\n` +
-  `📅 Календарь лимиток: <code>/calendar</code>\n` +
-  `📊 Индекс рынка: <code>/index</code>\n` +
-  `🏆 Топ улучшителей: <code>/top</code>\n` +
-  `🎮 Игра «Угадай флор»: <code>/game PlushPepe 5000</code>\n` +
-  `🌙 Тихий режим: <code>/night</code> · Скрыть подарок: <code>/mute Имя</code>\n\n` +
+  `📊 Индекс рынка: <code>/index</code>\n\n` +
+  `🌐 Мини-апп: меню бота → «Мини Апп»\n\n` +
   `Все команды: <code>/help</code>`;
 
 const NEED_SUB = `📢 Чтобы бот работал, подпишись на канал «Банк звёзд» @unknowesecret — там бесплатные фишки и розыгрыши.\n\nПосле подписки нажми кнопку ниже 👇`;
@@ -121,15 +115,10 @@ async function handleMessage(tg, subs, msg) {
         `/start — включить уведомления\n/stop — выключить\n\n` +
         `🎯 <b>/mine Имя №</b> — следить за СВОИМ подарком (например <code>/mine PoolFloat 12345</code>)\n` +
         `🎯 /mine — список, <code>/mine del 1</code> — удалить\n\n` +
-        `💳 /card Имя — флор, лоты, счётчик + кнопки MRKT/Portals/GetGems\n` +
-        `📅 /calendar — календарь лимиток со скоростью распродажи\n` +
-        `📊 /index — GM INDEX: Σ флоров, медиана, TON→USD\n` +
-        `🏆 /top — лидерборд улучшителей\n` +
-        `🎮 /game Имя ЦЕНА — прогноз флора на завтра, очки за точность\n` +
-        `🛠 /api — открытые данные для разработчиков\n\n` +
+        `📊 /index — GM INDEX: Σ флоров, медиана, TON→USD\n\n` +
         `🌙 /night — тихий режим 23:00–08:00\n` +
         `🙈 /mute Имя — скрыть подарок, /unmute Имя — вернуть\n\n` +
-        `🌐 Мини-апп: меню бота → «Мини Апп»\n\n🎓 <b>Flip-школа:</b> /flip гайд · /academy 5 шагов · /sim тренажёр · /calc профит · /trends · /limits`, reply_markup: menuKb() });
+        `🌐 Мини-апп: меню бота → «Мини Апп»`, reply_markup: menuKb() });
       return changed;
     }
     await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: WELCOME, reply_markup: menuKb() });
@@ -287,124 +276,6 @@ async function handleMessage(tg, subs, msg) {
   }
 
   /* 🛠 API */
-  if (c === "/api") {
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
-      `🛠 <b>Открытые данные</b>\n\nJSON обновляются автоматически, без ключей:\n` +
-      `• status.json — лента апгрейдов\n• gifts.json — все коллекции\n• floors.json — флоры + курс TON/USD\n` +
-      `• floors-hist.json — история флоров\n• history.json — почасовая история\n• images.json — картинки\n• leaders.json — лидерборд\n\n` +
-      `Виджет для любого сайта:\n<code>&lt;script src=".../embed.js" data-gift="PlushPepe"&gt;&lt;/script&gt;</code>\n\n` +
-      `Браузер данных — в мини-аппе, раздел ПРО 🌐` });
-    return changed;
-  }
-
-  /* 🎮 игра */
-  if (c === "/game") {
-    const guess = args.match(/^([A-Za-zА-Яа-я0-9_ ]+?)\s+(\d+(?:[.,]\d+)?)$/);
-    if (guess) {
-      const g = findGift(guess[1]);
-      if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(guess[1])}» не найден. /calendar — все подарки` }); return changed; }
-      const val = parseFloat(guess[2].replace(",", "."));
-      if (!(val > 0) || val > 1e6) { await tg("sendMessage", { chat_id: chatId, text: "Цена в TON, например: /game PlushPepe 5000" }); return changed; }
-      sub.game_slug = String(g.slug || g.name);
-      sub.game_guess_ton = val;
-      sub.game_target_ts = Date.now() + 24 * 3600 * 1000;
-      changed = true;
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `🎮 <b>Прогноз принят!</b>\n\n🎯 ${esc(sub.game_slug)} — ты назвал <b>${fmt(val)} TON</b>\n\n⏳ Через 24 часа отправь <code>/game</code> — сверим с реальным флором.\nОчки: промах до 5% = 10 · до 15% = 6 · до 30% = 3 · иначе 1` });
-      return changed;
-    }
-    if (sub.game_slug && sub.game_target_ts) {
-      if (Date.now() < sub.game_target_ts) {
-        const left = Math.ceil((sub.game_target_ts - Date.now()) / 3600000);
-        await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `🎮 <b>Твой прогноз:</b> ${esc(sub.game_slug)} — ${fmt(sub.game_guess_ton)} TON\n\n⏳ До проверки: ~${left} ч. Возвращайся: /game` });
-      } else {
-        const doc = readDoc("floors.json") || { floors: {} };
-        const ent = (doc.floors || {})[sub.game_slug];
-        const actual = ent ? Number(ent.f) || 0 : 0;
-        if (!actual) {
-          await tg("sendMessage", { chat_id: chatId, text: `⏳ По ${esc(sub.game_slug)} нет лотов — флор не определить. Попробуй позже: /game` });
-        } else {
-          const d = Math.abs(actual - sub.game_guess_ton) / actual;
-          const score = d <= 0.05 ? 10 : d <= 0.15 ? 6 : d <= 0.3 ? 3 : 1;
-          sub.game_points = (Number(sub.game_points) || 0) + score;
-          const myGuess = sub.game_guess_ton;
-          const mySlug = sub.game_slug;
-          sub.game_slug = ""; sub.game_guess_ton = 0; sub.game_target_ts = 0;
-          changed = true;
-          const verdict = score >= 10 ? "🎯 Снайпер!" : score >= 6 ? "👏 Близко!" : score >= 3 ? "🙂 Нормально" : "😅 Мимо, но очко есть";
-          await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `🎮 <b>Проверка прогноза — ${esc(mySlug)}</b>\n\nТвой прогноз: ${fmt(myGuess)} TON\nРеальный флор: <b>${fmt(actual)} TON</b>\nПромах: ${fmt(d * 100)}%\n\n${verdict} <b>+${score} очк.</b>\nВсего очков: <b>${fmtInt(sub.game_points)}</b>\n\nНовый прогноз: <code>/game Имя ЦЕНА</code>` });
-        }
-      }
-    } else {
-      const doc = readDoc("floors.json") || { floors: {} };
-      const arr = Object.entries(doc.floors || {}).filter(([, v]) => (Number((v || {}).f) || 0) > 5);
-      const suggest = arr.length ? arr[Math.floor(Math.random() * arr.length)][0] : PRO_TPL[0];
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `🎮 <b>Угадай флор!</b>\n\nНазови флор коллекции на завтра:\n<code>/game ${esc(suggest)} 5000</code>\n\nЧерез 24 часа сверим с реальной ценой 🏆\nТвои очки: <b>${fmtInt(sub.game_points || 0)}</b>` });
-    }
-    return changed;
-  }
-
-  /* ═══ Flip-школа ═══ */
-  if (c === "/flip") {
-    const nm = args.match(/(\d+)/);
-    if (!nm) {
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
-        `🎓 <b>Flip-школа</b>\n\nНаучись флипать подарки с нуля:\n\n📚 <b>Гайд</b> — 7 уроков флипа\n🎓 <b>Академия</b> — 5 шагов для новичка\n🏋️ <b>Тренажёр</b> — виртуальные 1000 TON на реальных ценах\n🧮 <b>Калькулятор</b> — профит после комиссий\n🔥 <b>Тренды</b> — растут/падают\n🆕 <b>Лимитки</b> — радар новых серий\n\nВыбирай кнопкой ⬇️ или командой: /flip 3 — сразу к уроку`, reply_markup: flip.flipKb() });
-      return changed;
-    }
-    let n = parseInt(nm[1], 10);
-    if (!(n >= 1 && n <= flip.LESSONS.length)) n = 1;
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.LESSONS[n - 1].b, reply_markup: lessonKb(n) });
-    return changed;
-  }
-
-  if (c === "/academy") {
-    let st = Number(sub.flip_step) || 0;
-    if (st < 0 || st >= flip.ACADEMY.length) st = 0;
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.ACADEMY[st] + "\n\nПрогресс: " + (st + 1) + "/" + flip.ACADEMY.length, reply_markup: academyKb(st) });
-    return changed;
-  }
-
-  if (c === "/sim") {
-    const parts = text.split(/\s+/);
-    const subCmd = (parts[1] || "").toLowerCase();
-    if (subCmd === "reset") {
-      sub.sim = null; changed = true;
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: "🔄 Тренажёр сброшен. Новый банк: 1000 TON. Покупай: /sim buy PlushPepe 1" });
-      return changed;
-    }
-    if (subCmd === "buy" || subCmd === "sell") {
-      const slugRaw = parts[2] || "";
-      const qty = Math.max(1, parseInt(parts[3] || "1", 10) || 1);
-      const g = findGift(slugRaw);
-      if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(slugRaw)}» не найден. /calendar — все подарки` }); return changed; }
-      const slug = String(g.slug || g.name);
-      const floors = readDoc("floors.json") || {};
-      const r = subCmd === "buy" ? flip.simBuy(sub, slug, qty, floors) : flip.simSell(sub, slug, qty, floors);
-      if (r.changed) changed = true;
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: r.msg });
-      return changed;
-    }
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.simStatus(sub, readDoc("floors.json") || {}) });
-    return changed;
-  }
-
-  if (c === "/calc") {
-    const m = args.match(/(\d+(?:[.,]\d+)?)\s+(\d+(?:[.,]\d+)?)/);
-    const t = m ? flip.calcText(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : null;
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true },
-      text: t || "🧮 <b>Калькулятор флипа</b>\n\nПришли цены: <code>/calc ПОКУПКА ПРОДАЖА</code>\nПример: <code>/calc 100 120</code> — купил за 100, продаёшь за 120.\n\nУчтёт комиссию маркета 5% и газ." });
-    return changed;
-  }
-
-  if (c === "/trends") {
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.trendsText(readDoc("floors-hist.json")) });
-    return changed;
-  }
-
-  if (c === "/limits") {
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.limitsText(readDoc("gifts.json"), readDoc("history.json"), readDoc("floors.json")) });
-    return changed;
-  }
 
   /* 🌙 ночь */
   if (c === "/night") {
@@ -445,27 +316,11 @@ async function handleMessage(tg, subs, msg) {
 
 function menuKb() {
   return { inline_keyboard: [
-    [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "📅 Календарь", callback_data: "menu:cal" }],
-    [{ text: "📊 GM INDEX", callback_data: "menu:idx" }, { text: "🏆 Топ", callback_data: "menu:top" }],
-    [{ text: "🎮 Игра", callback_data: "menu:game" }, { text: "🌙 Режим", callback_data: "menu:night" }],
-    [{ text: "🎓 Flip-школа", callback_data: "menu:flip" }],
-    [{ text: "📖 Все команды", callback_data: "menu:help" }],
+    [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "📊 GM INDEX", callback_data: "menu:idx" }],
+    [{ text: "🌙 Режим", callback_data: "menu:night" }, { text: "📖 Все команды", callback_data: "menu:help" }],
   ] };
 }
 
-function lessonKb(n) {
-  const total = flip.LESSONS.length;
-  const row = [];
-  if (n > 1) row.push({ text: "⬅️", callback_data: "flip:lesson:" + (n - 1) });
-  row.push({ text: "📚 " + n + "/" + total, callback_data: "menu:flip" });
-  if (n < total) row.push({ text: "➡️", callback_data: "flip:lesson:" + (n + 1) });
-  return { inline_keyboard: [row, [{ text: "🎓 Flip-школа", callback_data: "menu:flip" }]] };
-}
-
-function academyKb(st) {
-  if (st < flip.ACADEMY.length - 1) return { inline_keyboard: [[{ text: "➡️ Дальше", callback_data: "flip:acad:next" }], [{ text: "🎓 Flip-школа", callback_data: "menu:flip" }]] };
-  return { inline_keyboard: [[{ text: "🏋️ В тренажёр", callback_data: "flip:sim" }, { text: "🎓 Flip-школа", callback_data: "menu:flip" }]] };
-}
 
 async function handleCallback(tg, subs, q) {
   const fromId = String(q.from && q.from.id);
@@ -482,22 +337,8 @@ async function handleCallback(tg, subs, q) {
     } else {
       await tg("answerCallbackQuery", { callback_query_id: q.id, text: "❌ Подписки на канал ещё нет", show_alert: true });
     }
-  } else if (/^flip:lesson:\d+$/.test(String(q.data))) {
-    const n = parseInt(String(q.data).split(":")[2], 10);
-    await tg("answerCallbackQuery", { callback_query_id: q.id });
-    if (n >= 1 && n <= flip.LESSONS.length) {
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.LESSONS[n - 1].b, reply_markup: lessonKb(n) });
-    }
-  } else if (String(q.data) === "flip:acad:next") {
-    await tg("answerCallbackQuery", { callback_query_id: q.id });
-    let sub2 = findSub(subs, fromId);
-    if (!sub2) { sub2 = newSub(fromId, chatId); subs.push(sub2); changed = true; }
-    let st = (Number(sub2.flip_step) || 0) + 1;
-    if (st >= flip.ACADEMY.length) st = flip.ACADEMY.length - 1;
-    sub2.flip_step = st; changed = true;
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.ACADEMY[st] + "\n\nПрогресс: " + (st + 1) + "/" + flip.ACADEMY.length, reply_markup: academyKb(st) });
   } else if (String(q.data).indexOf("menu:") === 0) {
-    const cmd = ({ "menu:mine": "/mine", "menu:cal": "/calendar", "menu:idx": "/index", "menu:top": "/top", "menu:game": "/game", "menu:night": "/night", "menu:help": "/help", "menu:flip": "/flip", "menu:academy": "/academy", "menu:trends": "/trends", "menu:limits": "/limits", "menu:calc": "/calc", "flip:sim": "/sim" })[String(q.data)];
+    const cmd = ({ "menu:mine": "/mine", "menu:idx": "/index", "menu:night": "/night", "menu:help": "/help" })[String(q.data)];
     await tg("answerCallbackQuery", { callback_query_id: q.id });
     if (cmd) {
       const t = await handleMessage(tg, subs, { from: { id: Number(fromId) }, chat: { id: Number(chatId) }, text: cmd });
