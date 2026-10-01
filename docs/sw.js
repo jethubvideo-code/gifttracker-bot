@@ -1,5 +1,5 @@
 /* Gift Monitor PWA — офлайн-кэш оболочки, данные всегда из сети */
-var CACHE = 'gm-v8';
+var CACHE = 'gm-v9';
 var SHELL = ['./', './index.html', './logo.png', './icon-192.png', './icon-512.png', './icon.svg', './manifest.webmanifest'];
 self.addEventListener('install', function(e){
   e.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(SHELL); }).then(function(){ return self.skipWaiting(); }));
@@ -16,9 +16,12 @@ self.addEventListener('fetch', function(e){
   if (isData){
     /* данные: сеть первая, кэш — фолбэк для офлайна */
     e.respondWith(fetch(e.request).then(function(r){
-      var cp = r.clone(); caches.open(CACHE).then(function(c){ c.put(e.request, cp); });
+      var cp = r.clone();
+      caches.open(CACHE).then(function(c){
+        c.put(new Request(e.request.url.split('?')[0]), cp.clone());
+      });
       return r;
-    }).catch(function(){ return caches.match(e.request); }));
+    }).catch(function(){ return caches.match(e.request.url.split('?')[0], { ignoreSearch: true }); }));
     return;
   }
   if (e.request.method !== 'GET') return;
