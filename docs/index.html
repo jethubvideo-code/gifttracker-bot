@@ -457,7 +457,7 @@ var I18N = {
   tInfo:{ru:'ИНФО', uz:'INFO', en:'INFO'},
   tMarket:{ru:'РЫНОК', uz:'BOZOR', en:'MARKET'},
   market:{ru:'Рынок подарков', uz:'Sovg\'alar bozori', en:'Gift market'},
-  mkSum:{ru:'Σ флоеров', uz:'Σ floor', en:'Σ floors'},
+  mkSum:{ru:'Σ флор цен', uz:'Σ floor', en:'Σ floors'},
   mkAvg:{ru:'средний', uz:'o\'rtacha', en:'average'},
   mkTop:{ru:'топ-гейнер 24ч', uz:'24s top', en:'top gainer 24h'},
   mkSearch:{ru:'🔍 поиск цены…', uz:'🔍 narx izlash…', en:'🔍 search price…'},
@@ -468,7 +468,7 @@ var I18N = {
   mkNote:{ru:'≈ минимальная цена в выборке лотов GetGems · скан каждые 15 минут · цены в TON', uz:'≈ GetGems lotlaridan min. narx · har 15 daqiqada · TON', en:'≈ min price in sampled GetGems listings · scanned every 15 min · prices in TON'},
   mkNoData:{ru:'цены собираются…', uz:'narxlar yig\'ilmoqda…', en:'collecting prices…'},
   mkNoFloor:{ru:'нет лотов', uz:'lot yo\'q', en:'no listings'},
-  mkFloor:{ru:'Флоер', uz:'Floor', en:'Floor'},
+  mkFloor:{ru:'Флор цена', uz:'Floor narx', en:'Floor price'},
   mkLots:{ru:'лотов ≈', uz:'lotlar ≈', en:'listed ≈'},
   mkUpdAgo:{ru:'скан', uz:'skan', en:'scan'},
   emptyFeed:{ru:'Пока пусто — обновится через минуту', uz:'Hozir bo\'sh — bir daqiqada yangilanadi', en:'Empty for now — refreshes in a minute'},
@@ -689,6 +689,7 @@ function giftCard(g){
   var slug = String(g.slug||g.name||'').trim();
   var img = imagesData[slug] || '';
   var hot = !!hotMap[slug];
+  var isNew = Number(g.added) && (Date.now()/1000 - Number(g.added)) < 7*86400;
   var ini = initialsOf(g.name);
   var imgHtml = img
     ? '<img src="'+esc(img)+'" loading="lazy" onload="this.classList.add(\'ld\')">'
@@ -696,7 +697,7 @@ function giftCard(g){
   var dv = document.createElement('div');
   dv.className = 'gc';
   dv.innerHTML =
-    (hot ? '<span class="ghot">🔥 '+T('hot').replace('🔥 ','').toUpperCase()+'</span>' : '') +
+    (isNew ? '<span class="ghot" style="background:linear-gradient(135deg,#3fd68f,#1fa06a);border-color:#2b7a55">🆕 '+(LANG==='ru'?'НОВИНКА':(LANG==='uz'?'YANGI':'NEW'))+'</span>' : (hot ? '<span class="ghot">🔥 '+T('hot').replace('🔥 ','').toUpperCase()+'</span>' : '')) +
     '<button class="gfav jelly">'+(isFav(slug)?'❤️':'🤍')+'</button>' +
     '<div class="gim">'+imgHtml+'</div>' +
     '<div class="gnm">'+esc(g.name)+'</div>' +
@@ -866,10 +867,12 @@ function renderMarket(){
     var f = fl[r.slug];
     var img = imagesData[r.slug] || '';
     var d24 = r.d24;
+    var isNM = Number(g.added) && (Date.now()/1000 - Number(g.added)) < 7*86400;
     html +=
     '<div class="mrow" data-slug="'+esc(r.slug)+'">' +
       '<div class="mim">' + (img ? '<img src="'+esc(img)+'" loading="lazy">' : '<span>🎁</span>') + '</div>' +
       '<div class="mmid">' +
+        (isNM ? '<span class="mbadge" style="color:#3fd68f;border-color:#2b7a55">🆕 '+(LANG==='ru'?'НОВИНКА':(LANG==='uz'?'YANGI':'NEW'))+'</span> ' : '') +
         '<div class="mnm">'+esc(r.name)+'</div>' +
         '<div class="mmeta">' +
           '<span class="mbadge'+(rate>=1?' up':'')+'">'+(rate>=1 ? '⚡ '+rate.toFixed(1)+'/ч' : (hotMap[r.slug] ? '🔥 24ч' : fmtNum(g.issued||0)+'/'+fmtNum(g.total||0)))+'</span>' +
