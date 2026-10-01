@@ -163,6 +163,47 @@ function fmtOwner(addr, name) {
   return name ? `${esc(name)} (<code>${short}</code>)` : `<code>${short}</code>`;
 }
 
+// диапазонное обогащение: последние `count` трансферов коллекции (по возрастанию времени)
+async function enrichRange(b, count) {
+  const out = [];
+  if (!b.col.address) return out;
+  const events = await tonapi(`/v2/accounts/${b.col.address}/events?limit=50`);
+  if (!events || !Array.isArray(events.events)) return out;
+  const transfers = [];
+  for (const e of events.events) {
+    for (const act of e.actions || []) {
+      if (act.type !== "NftItemTransfer") continue;
+      const tr = act.NftItemTransfer || {};
+      if ((tr.sender?.address || tr.sender) !== b.col.address) continue;
+      transfers.push({ nft: tr.nft, ts: e.timestamp || 0 });
+    }
+  }
+  transfers.sort((x, y) => x.ts - y.ts);
+  const chosen = transfers.slice(-count);
+  for (let i = 0; i < chosen.length; i++) {
+    const t = chosen[i];
+    const ev = { number: 0, ownerAddr: "", ownerName: "", mintTime: t.ts, giftDisplay: "" };
+    try {
+      const item = await tonapi(`/v2/nfts/${t.nft}`);
+      if (item) {
+        const meta = parseMetaName(item.metadata?.name, item.index);
+        if (meta.hasNumber) {
+          ev.number = meta.index;
+          ev.giftDisplay = ((item.metadata?.name || "").split(" #")[0].trim()) || "";
+        }
+        ev.ownerAddr = item.owner?.address || "";
+        if (ev.ownerAddr && i === chosen.length - 1) { // имя владельца только для самого свежего — экономия тонапи
+          const acc = await tonapi(`/v2/accounts/${ev.ownerAddr}`);
+          const nm = acc?.name || "";
+          ev.ownerName = nm && nm !== ev.ownerAddr ? nm : "";
+        }
+      }
+    } catch {}
+    out.push(ev);
+  }
+  return out;
+}
+
 function buildMessage(ev) {
   const now = NOW();
   const mins = ev.mintTime ? Math.max(0, Math.round((now - ev.mintTime) / 60)) : 0;
@@ -203,6 +244,29 @@ async function sendTest() {
 }
 
 // ---------- обогащение найденного апгрейда через tonapi ----------
+const SUBS_PULL_URL = "https://vesper-5cce824e.base44.app/functions/getSubs";
+
+// живая синхронизация: тянем актуальных подписчиков прямо из бота (фолбэк — локальный файл)
+async function freshSubs() {
+  try {
+    const res = await fetch(`${SUBS_PULL_URL}?t=${Date.now()}`, { signal: AbortSignal.timeout(15000) });
+    if (!res.ok) { console.log("подписчики: sync-сервер не ответил (" + res.status + ")"); return null; }
+    const d = await res.json().catch(() => null);
+    if (!d || !d.ok || typeof d.enc !== "string" || !d.enc) { console.log("подписчики: пустой sync-ответ"); return null; }
+    fs.writeFileSync(SUBS_FILE, Buffer.from(d.enc, "base64"));
+    const list = decryptSubs();
+    if (!Array.isArray(list) || list.length === 0) {
+      console.log("подписчики: удалённо 0/не расшифровалось — подозрительно, беру локальный файл");
+      return null;
+    }
+    console.log(`подписчики: синхронизировано с ботом (${d.count})`);
+    return list;
+  } catch (e) {
+    console.log("подписчики: sync не удался, работаю с локальным файлом:", String(e).slice(0, 80));
+    return null;
+  }
+}
+
 async function enrich(b) {
   let ev = {
     slug: b.col.name,
@@ -259,8 +323,9 @@ async function main() {
     state = {};
   }
   const cols = require(COLS_FILE);
-  const subs = decryptSubs();
-  console.log(`коллекций: ${cols.length}, подписчиков: ${subs.length}`);
+  let subs = await freshSubs();
+  if (!subs) subs = decryptSubs();
+  console.log(`full-job v4: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
 
   const hour = hourSamarkand();
   const night = hour >= 23 || hour < 8;
@@ -286,6 +351,7 @@ async function main() {
       return;
     }
     checked++;
+    st.lastSweepTs = NOW();
     gifts.push({ slug: c.name, name: c.display_name || c.name, issued: cnt.issued, total: cnt.total });
     if (!st.issued) {
       st.issued = cnt.issued;
@@ -294,7 +360,7 @@ async function main() {
       return;
     }
     if (cnt.issued > st.issued) {
-      bumps.push({ col: c, issued: cnt.issued, total: cnt.total });
+      bumps.push({ col: c, issued: cnt.issued, prev: st.issued, total: cnt.total });
     SWEEP_CHANGED = true;
       st.issued = cnt.issued;
       st.sample = cnt.sample;
@@ -306,56 +372,73 @@ async function main() {
 
   console.log(`счётчиков проверено: ${checked}, ошибок: ${errors}, baseline: ${baselined}, апгрейдов: ${bumps.length}`);
 
-  // 2) обогащение + доставка
+  // 2) обогащение + доставка: ВСЕ номера диапазона (не только последний счётчик)
   for (const b of bumps) {
     const st = state[b.col.name];
-    if (st.lastSentNum === b.issued) {
-      skipped++;
-      continue;
-    }
-    if (st.lastSentTime && NOW() - st.lastSentTime < 60) {
-      skipped++;
-      continue;
-    }
-    detected++;
-    const ev = await enrich(b);
-    const img = await giftImage(b.col.name, ev.number || b.issued);
-    const text = buildMessage(ev);
-    let sentThis = 0;
-    for (const s of subs) {
-      if (night && s.night_mode) continue;
-      if (s.radar_mode) continue;
-      const muted = (s.muted_gifts || []).some((m) => String(m || "").toLowerCase() === b.col.name.toLowerCase());
-      if (muted) continue;
-      const fm = String(s.filter_model || "").trim().toLowerCase();
-      const fb = String(s.filter_backdrop || "").trim().toLowerCase();
-      if (fm || fb) continue; // фильтр-пользователи обслуживаются только основным ботом (нет данных модели здесь)
-      const r = await tg("sendMessage", {
-        chat_id: String(s.chat_id || s.telegram_id),
-        text,
-        parse_mode: "HTML",
-        link_preview_options: { is_disabled: false },
+    let from = (st.lastSentNum || b.prev || 0) + 1; // от последнего ДОСТАВЛЕННОГО+1: бэклог не теряется
+    if (from > b.issued) { skipped++; continue; } // дубль — уже всё доставлено
+    let overflow = 0;
+    if (b.issued - from + 1 > 8) { overflow = b.issued - from + 1 - 8; from = b.issued - 7; }
+    if (overflow) console.log(`кэтч-ап ${b.col.name}: доставляю последние 8 (пропущено ${overflow})`);
+    const count = b.issued - from + 1;
+    const metas = await enrichRange(b, count);
+    const img = await giftImage(b.col.name, b.issued);
+    for (let i = 0; i < count; i++) {
+      const n = from + i;
+      const mIdx = i - (count - metas.length); // тонапи может дать меньше трансферов — выравниваю по свежести
+      const m = mIdx >= 0 && mIdx < metas.length ? metas[mIdx] : {};
+      const ev = {
+        slug: b.col.name,
+        giftDisplay: m.giftDisplay || b.col.display_name || b.col.name,
+        number: m.number || n,
+        ownerAddr: m.ownerAddr || "",
+        ownerName: m.ownerName || "",
+        mintTime: m.mintTime || 0,
+        counter: { issued: n, total: b.total },
+      };
+      // честное время: счётчик бамнулся только что, а тонапи протух — показываем «только что», не старьё
+      if (ev.mintTime && ev.mintTime < NOW() - 900 && st.lastSweepTs && NOW() - st.lastSweepTs < 300) {
+        ev.mintTime = NOW() - 60;
+      }
+      const text = buildMessage(ev);
+      let sentThis = 0;
+      for (const s of subs) {
+        if (s.radar_mode) continue;
+        const muted = (s.muted_gifts || []).some((m2) => String(m2 || "").toLowerCase() === b.col.name.toLowerCase());
+        if (muted) continue;
+        const fm = String(s.filter_model || "").trim().toLowerCase();
+        const fb = String(s.filter_backdrop || "").trim().toLowerCase();
+        if (fm || fb) continue; // фильтр-пользователи обслуживаются только основным ботом
+        const silent = !!(night && s.night_mode); // ночь = беззвучно, но НЕ теряем апгрейд
+        const r = await tg("sendMessage", {
+          chat_id: String(s.chat_id || s.telegram_id),
+          text,
+          parse_mode: "HTML",
+          disable_notification: silent,
+          link_preview_options: { is_disabled: false },
+        });
+        if (r && r.ok) sentThis++;
+        if (r && r.error_code === 429) await sleep(Math.min(3, Number(r.parameters?.retry_after) || 1) * 1000);
+      }
+      sent += sentThis;
+      detected++;
+      bumpLogs.push({
+        slug: b.col.name,
+        gift: ev.giftDisplay,
+        number: ev.number,
+        owner: ev.ownerName || "",
+        owner_addr: ev.ownerAddr || "",
+        mint: ev.mintTime,
+        counter_issued: n,
+        counter_total: b.total,
+        img: img || "",
+        sent: sentThis,
+        time: new Date().toISOString(),
       });
-      if (r && r.ok) sentThis++;
-      if (r && r.error_code === 429) await sleep(Math.min(3, Number(r.parameters?.retry_after) || 1) * 1000);
+      st.lastSentTime = NOW();
+      st.lastSentNum = n;
+      console.log(`апгрейд: ${b.col.name} #${n}, отправлено: ${sentThis}`);
     }
-    sent += sentThis;
-    bumpLogs.push({
-      slug: b.col.name,
-      gift: ev.giftDisplay || b.col.display_name || b.col.name,
-      number: ev.number || b.issued,
-      owner: ev.ownerName || "",
-      owner_addr: ev.ownerAddr || "",
-      mint: ev.mintTime || 0,
-      counter_issued: ev.counter ? ev.counter.issued : b.issued,
-      counter_total: ev.counter ? ev.counter.total : b.total,
-      img: img || "",
-      sent: sentThis,
-      time: new Date().toISOString(),
-    });
-    st.lastSentTime = NOW();
-    st.lastSentNum = b.issued;
-    console.log(`апгрейд: ${b.col.name} #${b.issued}, отправлено: ${sentThis}`);
   }
 
   console.log(`ИТОГ: detected=${detected}, sent=${sent}, skipped=${skipped}, errors=${errors}`);
