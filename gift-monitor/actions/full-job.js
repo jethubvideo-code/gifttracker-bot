@@ -612,11 +612,11 @@ async function main() {
       while (true) {
         const sweepStart = Date.now();
         n++;
-        const fitsNext = (Date.now() - t0) + 40_000 <= BUDGET_MS;
-        process.env.FRESH_COMMIT = "1"; // коммит КАЖДЫЙ свип: данные сайта свежие каждые ~40с
+        const fitsNext = (Date.now() - t0) + 20_000 <= BUDGET_MS;
+        process.env.FRESH_COMMIT = "1"; // коммит КАЖДЫЙ свип: данные сайта свежие каждые ~20с
         await main();
         if (!fitsNext) break; // следующий цикл не влезает — эстафета
-        const wait = Math.max(200, 40_000 - (Date.now() - sweepStart));
+        const wait = Math.max(200, 20_000 - (Date.now() - sweepStart));
         await sleep(wait);
       }
       console.log("LOOP: свипов за прогон: " + n);
