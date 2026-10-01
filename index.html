@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Рынок подарков Telegram</title>
-<meta name="version" content="4-github-only">
+<meta name="version" content="3-ultra">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -330,6 +330,7 @@ body.light .wrap::before{display:none}
 
 <script>
 var API='https://portal-market.com/api/collections?limit=500';
+var PAYURL='https://app.base44.com/api/apps/6a98178ea237b1c35cce824e/functions/createVipInvoice';
 var VIPBOT='https://t.me/Trackingonebot?start=vip_webapp';
 var tg=null;try{tg=window.Telegram&&window.Telegram.WebApp;}catch(e){}
 if(tg){tg.ready();tg.expand();if(tg.setHeaderColor)try{tg.setHeaderColor('#050810');}catch(e){}}
@@ -514,9 +515,18 @@ var toastEl=document.getElementById('toast'),toastT=null;
 function toast(t){toastEl.textContent=t;toastEl.classList.add('show');clearTimeout(toastT);toastT=setTimeout(function(){toastEl.classList.remove('show');},2800);}
 
 /* настоящая оплата VIP через Telegram Stars */
+function vipFallback(){if(tg&&tg.openTelegramLink){tg.openTelegramLink(VIPBOT);}else{window.open(VIPBOT,'_blank');}}
 function buyVip(ev){if(ev&&ev.preventDefault)ev.preventDefault();
 hap('medium');
-if(tg&&tg.openTelegramLink){tg.openTelegramLink(VIPBOT);}else{window.open(VIPBOT,'_blank');}}
+if(!(tg&&tg.openInvoice)){vipFallback();return;}
+toast(L('pay_wait'));
+fetch(PAYURL,{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+if(d&&d.ok&&d.link){tg.openInvoice(d.link,function(st){
+if(st==='paid'){try{tg.HapticFeedback.notificationOccurred('success');}catch(e){}toast(L('paid'));
+var b=document.getElementById('pbadge');if(b){b.textContent='VIP ⭐️';b.className='badge vip';}
+var a=document.querySelector('.cta a');if(a)a.textContent='✅ '+L('paid');}
+});}else{vipFallback();}
+}).catch(vipFallback);}
 
 /* профиль */
 if(USER){
