@@ -118,12 +118,19 @@ async function fetchNewGiftCounter(slug) {
 
 async function main() {
   const t0 = Date.now();
-  const catalog = await fetchCatalogSlugs();
-  if (!catalog) { console.log("каталог Fragment недоступен, выходим"); return; }
+  const FORCE_SLUG = String(process.env.FORCE_SLUG || "").trim().toLowerCase();
   const cols = require(COLS_FILE);
-  const known = new Set(cols.map((c) => String(c.name || "").toLowerCase()));
-  const fresh = [...catalog].filter((s) => !known.has(s.toLowerCase())).slice(0, 5);
-  console.log(`каталог: ${catalog.size}, известно: ${cols.length}, новых: ${fresh.length}`);
+  let fresh = [];
+  if (FORCE_SLUG) {
+    fresh = [FORCE_SLUG];
+    console.log(`режим объявления вручную: ${FORCE_SLUG}`);
+  } else {
+    const catalog = await fetchCatalogSlugs();
+    if (!catalog) { console.log("каталог Fragment недоступен, выходим"); return; }
+    const known = new Set(cols.map((c) => String(c.name || "").toLowerCase()));
+    fresh = [...catalog].filter((s) => !known.has(s.toLowerCase())).slice(0, 5);
+    console.log(`каталог: ${catalog.size}, известно: ${cols.length}, новых: ${fresh.length}`);
+  }
 
   let notified = 0;
   const subs = fresh.length > 0 ? decryptSubs() : [];
@@ -133,8 +140,10 @@ async function main() {
     const counter = await fetchNewGiftCounter(slug);
     const dispName = meta?.name || slug;
     // регистрируем в основном мониторе (added = когда лимитка вышла, для бейджа НОВИНКА на сайте)
-    cols.push({ name: slug, address: "", display_name: dispName, added: Math.floor(Date.now() / 1000) });
-    console.log(`новая лимитка: ${slug} (${dispName})`);
+    if (!cols.some((c) => String(c.name || "").toLowerCase() === slug.toLowerCase())) {
+      cols.push({ name: slug, address: "", display_name: dispName, added: Math.floor(Date.now() / 1000) });
+    }
+    console.log(`лимитка: ${slug} (${dispName})`);
     // мгновенное фото новой лимитки на сайт (обложка Fragment; позже gift-images заменит на og:image)
     try {
       const imgPath = path.join(REPO_ROOT, "docs", "images.json");
