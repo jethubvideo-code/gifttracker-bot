@@ -31,7 +31,6 @@
   .row { display: flex; font-size: 14px; line-height: 1.7; }
   .row .ic { flex: 0 0 24px; }
   .row .tx { color: #e6edf3; word-break: break-word; }
-  .muted { color: #8b949e; }
   code { background: #21262d; padding: 1px 6px; border-radius: 6px; font-size: 13px; }
   .links { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
   .links a { background: #1f6feb22; border: 1px solid #1f6feb55; color: #58a6ff; padding: 5px 12px;
@@ -42,13 +41,36 @@
     padding-top: 10px; border-top: 1px solid #21262d; font-size: 12px; color: #8b949e; }
   .meta .snt { color: #3fb950; font-weight: 700; }
   .empty { color: #8b949e; font-size: 14px; padding: 16px 0; }
+  .q { width: 100%; background: #161b22; border: 1px solid #30363d; color: #e6edf3; border-radius: 10px;
+    padding: 12px 16px; font-size: 15px; margin-bottom: 10px; outline: none; }
+  .q:focus { border-color: #1f6feb; }
+  .gtab { background: #161b22; border: 1px solid #30363d; border-radius: 12px; overflow: hidden; margin-bottom: 8px; }
+  .ghead, .grow { display: grid; grid-template-columns: 1fr 150px 84px; gap: 8px; align-items: center; padding: 11px 14px; }
+  .ghead { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: .4px;
+    border-bottom: 1px solid #21262d; background: #10151c; }
+  .grow { border-bottom: 1px solid #21262d; font-size: 14px; }
+  .grow:last-child { border-bottom: none; }
+  .grow:hover { background: #1c2129; }
+  .grow .nm { font-weight: 700; word-break: break-word; }
+  .grow .nm a { color: #e6edf3; text-decoration: none; }
+  .grow .nm a:hover { color: #58a6ff; }
+  .qty { font-size: 13px; color: #e6edf3; }
+  .qty .tt { color: #8b949e; font-size: 11px; }
+  .bar { height: 5px; background: #21262d; border-radius: 3px; margin-top: 5px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: linear-gradient(90deg,#1f6feb,#3fb950); border-radius: 3px; }
+  .mkts { display: flex; gap: 4px; }
+  .mkts a { font-size: 10px; font-weight: 700; text-decoration: none; padding: 3px 6px; border-radius: 6px; }
+  .mkts .m1 { background: #1f6feb22; color: #58a6ff; }
+  .mkts .m2 { background: #a371f722; color: #a371f7; }
+  .mkts .m3 { background: #f0883e22; color: #f0883e; }
+  .gupd { color: #8b949e; font-size: 12px; margin: 2px 0 24px; }
   .foot { margin-top: 28px; color: #8b949e; font-size: 12px; line-height: 1.7; border-top: 1px solid #21262d; padding-top: 14px; }
   a { color: #58a6ff; text-decoration: none; }
 </style>
 </head>
 <body>
 <h1>🤖 Gift NFT Monitor</h1>
-<div class="sub">Апгрейды Telegram Gifts — живая лента. Работает полностью на серверах GitHub, без внешних сервисов</div>
+<div class="sub">Апгрейды Telegram Gifts — живая лента и таблица всех подарков. Работает полностью на серверах GitHub</div>
 
 <div id="badge" class="badge bad"><span class="dot"></span><span id="btext">Проверяю статус…</span></div>
 
@@ -62,9 +84,14 @@
 <h2>🚀 Последние улучшения подарков</h2>
 <div id="events"><div class="empty">Загружаю…</div></div>
 
+<h2>🎁 Все подарки под наблюдением</h2>
+<input class="q" id="q" type="text" placeholder="🔍 Поиск подарка по названию…" oninput="renderGifts()">
+<div class="gtab"><div class="ghead"><span>Подарок</span><span>Улучшено (Telegram)</span><span>Маркеты</span></div><div id="grows"><div class="grow" style="border:none;color:#8b949e">Загружаю…</div></div></div>
+<div class="gupd" id="gupd"></div>
+
 <div class="foot">
   Движок опрашивает официальные счётчики Telegram Gifts каждые 5 минут, обогащает данные через TON API
-  и рассылает уведомления подписчикам бота. Лента обновляется автоматически после каждого прогона.<br>
+  и рассылает уведомления подписчикам бота. Лента и таблица обновляются автоматически.<br>
   Логи: <a href="https://github.com/jethubvideo-code/gifttracker-bot/actions" target="_blank">GitHub Actions</a> ·
   Исходники: <a href="https://github.com/jethubvideo-code/gifttracker-bot" target="_blank">репозиторий</a>
   <div id="updated" style="margin-top:6px"></div>
@@ -81,6 +108,7 @@ function ago(unix) {
   return Math.floor(s/86400) + " дн. назад";
 }
 function shortAddr(a) { return a.length > 12 ? a.slice(0,6) + "…" + a.slice(-4) : a; }
+var GIFTS = [];
 function card(e) {
   var slug = e.slug || "";
   var gift = e.gift || slug;
@@ -102,6 +130,22 @@ function card(e) {
   h += '<div class="meta"><span>' + esc(new Date(e.time).toLocaleString("ru-RU")) + "</span><span>📨 " + fmt(e.sent) + " уведомлений</span></div>";
   return h + "</div>";
 }
+function renderGifts() {
+  var q = document.getElementById("q").value.trim().toLowerCase();
+  var list = GIFTS.filter(function(g){ return !q || (g.name||"").toLowerCase().indexOf(q) >= 0 || (g.slug||"").toLowerCase().indexOf(q) >= 0; });
+  var box = document.getElementById("grows");
+  if (!list.length) { box.innerHTML = '<div class="grow" style="border:none;color:#8b949e">Ничего не найдено</div>'; return; }
+  box.innerHTML = list.map(function(g) {
+    var pct = g.total ? Math.min(100, Math.round(g.issued / g.total * 10000) / 100) : 0;
+    var link = "https://t.me/nft/" + (g.slug || "").toLowerCase() + "-" + (g.issued || 1);
+    return '<div class="grow">'
+      + '<div class="nm"><a href="' + link + '" target="_blank">' + esc(g.name) + '</a><div class="bar"><i style="width:' + pct + '%"></i></div></div>'
+      + '<div class="qty"><b>' + fmt(g.issued) + '</b> <span class="tt">из ' + fmt(g.total) + " · " + pct + '%</span></div>'
+      + '<div class="mkts"><a class="m1" href="https://t.me/mrkt?startapp=' + esc(g.slug).toLowerCase() + '" target="_blank">MRKT</a>'
+      + '<a class="m2" href="https://t.me/portals/market?startapp=' + esc(g.slug).toLowerCase() + '" target="_blank">PRT</a></div>'
+      + "</div>";
+  }).join("");
+}
 function render(d) {
   var fresh = d.updated_unix && (Math.floor(Date.now()/1000) - d.updated_unix) < 900;
   var badge = document.getElementById("badge");
@@ -122,6 +166,13 @@ function render(d) {
 function load() {
   fetch("status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(render).catch(function(){
     document.getElementById("btext").textContent = "Статус ещё не готов — движок ещё не сделал первый прогон";
+  });
+  fetch("gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(g){
+    GIFTS = g.gifts || [];
+    document.getElementById("gupd").textContent = "Таблица: " + fmt(g.count) + " подарков · обновлена " + new Date((g.updated_unix||0)*1000).toLocaleString("ru-RU") + " · двигок обновляет каждые 5 минут";
+    renderGifts();
+  }).catch(function(){
+    document.getElementById("gupd").textContent = "Таблица подарков появится после ближайшего прогона движка (до 5 минут)";
   });
 }
 load();
