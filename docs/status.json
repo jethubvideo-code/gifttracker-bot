@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T23:14:35.871Z",
- "updated_unix": 1790896475,
- "runs": 1803,
+ "updated": "2026-10-01T23:15:02.801Z",
+ "updated_unix": 1790896502,
+ "runs": 1804,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1244,
- "sent_total": 40877,
+ "detected_total": 1245,
+ "sent_total": 40910,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 36780,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790895036,
-   "counter_issued": 36780,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T22:51:44.912Z"
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T23:13:27.869Z"
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 151,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790896436,
+   "counter_issued": 151,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T23:15:02.800Z"
   }
  ]
 }
