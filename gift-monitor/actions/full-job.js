@@ -32,7 +32,7 @@ const OWNER_ID = "8396883978";
 const NOW = () => Math.floor(Date.now() / 1000);
 
 const MODE = (process.env.MODE || process.argv[2] || "").toLowerCase();
-const FORCE = MODE === "force" || (process.env.FORCE || "") === "true" || process.argv[2] === "force";
+const FORCE = MODE === "force" || ["true", "chain"].includes(process.env.FORCE || "") || process.argv[2] === "force";
 
 // ---------- утилиты ----------
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -417,7 +417,7 @@ async function main() {
       await sendTest();
       return;
     }
-    if (FORCE !== "true") {
+    if (!FORCE) {
       let enabled = false;
       try {
         enabled = JSON.parse(fs.readFileSync(ENABLED_FILE, "utf8")).enabled === true;
@@ -427,7 +427,7 @@ async function main() {
         process.exit(0);
       }
     }
-    if (process.env.EVENT_NAME === "schedule" || FORCE === "chain") {
+    if (process.env.EVENT_NAME === "schedule" || (process.env.FORCE || "") === "chain") {
       // 24/7 реалтайм-режим: цикл свипов внутри одного прогона (~75с между проверками)
       const BUDGET_MS = 300_000; // 5 минут, дальше эстафета следующему тику
       const t0 = Date.now();
