@@ -583,19 +583,20 @@ async function main() {
         process.exit(0);
       }
     }
-    // GUARD: крон-тик = страховка. Если эстафетная цепочка жива (прогон завершался <17 мин назад) — тихо выходим
+    // GUARD v2: крон-тик = страховка. Цепь жива ⟺ есть ДРУГОЙ прогон in_progress/queued.
+    // Никаких порогов по времени: если очередь/прогон есть — тихо выходим, иначе подхватываем эстафету.
     if (process.env.EVENT_NAME === "schedule") {
       try {
         const q = execSync(
           `curl -s -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
-          `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/runs?per_page=10`,
+          `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/runs?per_page=15`,
           { encoding: "utf8" }
         );
-        const done = (JSON.parse(q).workflow_runs || [])
-          .filter((x) => x.status === "completed")
-          .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))[0];
-        if (done && Date.now() - new Date(done.updated_at).getTime() < 17 * 60_000) {
-          console.log("GUARD: цепочка жива (последний прогон " + done.updated_at + "), тихий выход");
+        const myId = String(process.env.GITHUB_RUN_ID || "");
+        const alive = (JSON.parse(q).workflow_runs || [])
+          .some((x) => (x.status === "queued" || x.status === "in_progress") && String(x.id) !== myId);
+        if (alive) {
+          console.log("GUARD: цепочка жива (есть in_progress/queued), тихий выход");
           process.exit(0);
         }
         console.log("GUARD: цепочка мертва — беру эстафету на себя");
@@ -609,11 +610,11 @@ async function main() {
       while (true) {
         const sweepStart = Date.now();
         n++;
-        const fitsNext = (Date.now() - t0) + 75_000 <= BUDGET_MS;
-        process.env.FRESH_COMMIT = (!fitsNext || n % 6 === 0) ? "1" : "0"; // свежесть бейджа
+        const fitsNext = (Date.now() - t0) + 40_000 <= BUDGET_MS;
+        process.env.FRESH_COMMIT = "1"; // коммит КАЖДЫЙ свип: данные сайта свежие каждые ~40с
         await main();
         if (!fitsNext) break; // следующий цикл не влезает — эстафета
-        const wait = Math.max(200, 75_000 - (Date.now() - sweepStart));
+        const wait = Math.max(200, 40_000 - (Date.now() - sweepStart));
         await sleep(wait);
       }
       console.log("LOOP: свипов за прогон: " + n);
