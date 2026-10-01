@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T21:19:58.176Z",
- "updated_unix": 1790889598,
- "runs": 1496,
+ "updated": "2026-10-01T21:20:26.542Z",
+ "updated_unix": 1790889626,
+ "runs": 1497,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1030,
- "sent_total": 33819,
+ "detected_total": 1031,
+ "sent_total": 33852,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 445581,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790887328,
-   "counter_issued": 445581,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:43:16.344Z"
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T21:17:27.819Z"
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 108414,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790889560,
+   "counter_issued": 108414,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:20:26.541Z"
   }
  ]
 }
