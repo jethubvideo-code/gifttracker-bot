@@ -106,6 +106,20 @@ async function tgCounter(slug, sample) {
   return null;
 }
 
+// картинка NFT со страницы t.me/nft/<slug>-<n> (og:image, CDN Telegram)
+async function giftImage(slug, num) {
+  if (!slug || !num) return "";
+  try {
+    const res = await fetch(`https://t.me/nft/${slug.toLowerCase()}-${num}`, {
+      headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" },
+      signal: AbortSignal.timeout(9000),
+    });
+    if (!res.ok) return "";
+    const m = (await res.text()).match(/property="og:image"\s+content="([^"]+)"|content="([^"]+)"\s+property="og:image"/);
+    return m ? m[1] || m[2] || "" : "";
+  } catch { return ""; }
+}
+
 function hourSamarkand() {
   try {
     return parseInt(
@@ -299,6 +313,7 @@ async function main() {
     }
     detected++;
     const ev = await enrich(b);
+    const img = await giftImage(b.col.name, ev.number || b.issued);
     const text = buildMessage(ev);
     let sentThis = 0;
     for (const s of subs) {
@@ -328,6 +343,7 @@ async function main() {
       mint: ev.mintTime || 0,
       counter_issued: ev.counter ? ev.counter.issued : b.issued,
       counter_total: ev.counter ? ev.counter.total : b.total,
+      img: img || "",
       sent: sentThis,
       time: new Date().toISOString(),
     });
