@@ -1,7 +1,7 @@
 name: Gift Monitor Full (standby)
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/3 * * * *"
   workflow_dispatch:
     inputs:
       mode:
