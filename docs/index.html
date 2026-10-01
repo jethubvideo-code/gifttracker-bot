@@ -1501,6 +1501,8 @@ function refresh(first){
     renderTicker();
     if ($('p-stats').classList.contains('on')) renderAnalytics();
     if ($('p-market').classList.contains('on')) renderMarket();
+    if ($('p-pro').classList.contains('on')){ renderMine(); renderProIdx(); renderProHeat(); }
+    if ($('p-flip').classList.contains('on')){ flSimRender(); flTrendsRender(floorsHist); flLimitsRender(histData); }
   }).catch(function(e){
     $('liveTxt').textContent = '…';
   });
@@ -1510,14 +1512,11 @@ function refresh(first){
 applyTheme();
 applyI18n();
 refresh(true);
-setInterval(function(){ refresh(false); }, 20000);
+setInterval(function(){ refresh(false); }, 10000);
 ringIv = setInterval(function(){
-  var p = Math.min(100, (Date.now()-ringT0)/20000*100);
+  var p = Math.min(100, (Date.now()-ringT0)/10000*100);
   var r = $('ring'); if (r) r.style.setProperty('--p', p);
 }, 250);
-/* PWA: service worker */
-try {
-  if ('serviceWorker' in navigator && location.protocol === 'https:'){
     /* ═══════════ ПРО-ТАБ: мои подарки, календарь, индекс, топ, heatmap, игра, API ═══════════ */
 var proMine = [], proGame = { slug:'', guess:0, target:0 }, proPts = 0, proTop = [];
 try { proMine = JSON.parse(localStorage.getItem('gm_mine') || '[]'); } catch(e){ proMine = []; }
@@ -1758,8 +1757,8 @@ function renderFlip(){
   for (var i=0;i<giftsData.length;i++) opts.push('<option value="'+flEsc(giftsData[i].slug||giftsData[i].name)+'">');
   if (dl) dl.innerHTML = opts.join('');
   flSimRender();
-  jget('floors-hist.json').then(function(d){ flHistHours = (d && d.hours) || []; flTrendsRender(); }).catch(function(){ flHistHours = []; flTrendsRender(); });
-  jget('history.json').then(function(d){ flIssuedHours = (d && d.hours) || []; flLimitsRender(); }).catch(function(){ flIssuedHours = []; flLimitsRender(); });
+  flTrendsRender(floorsHist);
+  flLimitsRender(histData);
 }
 function flSimRender(){
   var fl = (floorsData && floorsData.floors) || {};
@@ -1817,7 +1816,8 @@ $('flCalcGo').addEventListener('click', function(){
     +'<div class="prrow"><span>безубыточность</span><span class="st">от '+flFmt(be)+' TON</span></div>'
     +'<div class="prnote" style="padding-top:6px">'+v+'</div>';
 });
-function flTrendsRender(){
+function flTrendsRender(hoursArr){
+  flHistHours = hoursArr || flHistHours;
   var box = $('flTrendsOut');
   if (!flHistHours || flHistHours.length < 2){ box.innerHTML = '<div class="prnote">истории флоров пока мало — тренды появятся через несколько часов</div>'; return; }
   var f = flHistHours[0], l = flHistHours[flHistHours.length-1];
@@ -1840,7 +1840,8 @@ function flTrendsRender(){
   if (!up.length && !down.length) h += '<div class="prnote">всё спокойно — нет движений ≥3%</div>';
   box.innerHTML = h;
 }
-function flLimitsRender(){
+function flLimitsRender(hoursArr){
+  flIssuedHours = hoursArr || flIssuedHours;
   var box = $('flLimitsOut');
   var now = Date.now()/1000;
   var fl = (floorsData && floorsData.floors) || {};
@@ -1866,7 +1867,11 @@ function flLimitsRender(){
   box.innerHTML = h;
 }
 
-navigator.serviceWorker.register(BASE + 'sw.js').catch(function(){});
+
+/* PWA: service worker */
+try {
+  if ('serviceWorker' in navigator && location.protocol === 'https:'){
+    navigator.serviceWorker.register(BASE + 'sw.js').catch(function(){});
   }
 } catch(e){}
 </script>
