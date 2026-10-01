@@ -1,18 +1,30 @@
 {
- "updated": "2026-10-01T05:02:42.369Z",
- "updated_unix": 1790830962,
- "runs": 2,
+ "updated": "2026-10-01T05:10:37.285Z",
+ "updated_unix": 1790831437,
+ "runs": 3,
  "collections": 111,
  "checked": 111,
  "errors": 0,
- "detected_total": 1,
- "sent_total": 36,
+ "detected_total": 2,
+ "sent_total": 71,
  "last_upgrades": [
   {
    "slug": "XmasStocking",
    "number": 229416,
    "sent": 36,
    "time": "2026-10-01T05:01:09.776Z"
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream #421793",
+   "number": 421793,
+   "owner": "",
+   "owner_addr": "0:d6706dbe870ef89a4867c09b0b3a9c193e6e54dba1670e11466b6083576d4d5c",
+   "mint": 1790830272,
+   "counter_issued": 437591,
+   "counter_total": 490553,
+   "sent": 35,
+   "time": "2026-10-01T05:10:37.284Z"
   }
  ]
 }
