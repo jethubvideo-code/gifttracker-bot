@@ -248,7 +248,10 @@ async function enrich(b) {
 }
 
 // ---------- main ----------
+let SWEEP_CHANGED = false;
+
 async function main() {
+  SWEEP_CHANGED = false;
   let state = {};
   try {
     state = JSON.parse(fs.readFileSync(STATE_FILE, "utf8"));
@@ -287,11 +290,12 @@ async function main() {
     if (!st.issued) {
       st.issued = cnt.issued;
       st.sample = cnt.sample;
-      baselined++;
+      baselined++; SWEEP_CHANGED = true;
       return;
     }
     if (cnt.issued > st.issued) {
       bumps.push({ col: c, issued: cnt.issued, total: cnt.total });
+    SWEEP_CHANGED = true;
       st.issued = cnt.issued;
       st.sample = cnt.sample;
     } else if (cnt.issued < st.issued) {
@@ -389,6 +393,10 @@ async function main() {
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
+    if (!SWEEP_CHANGED && process.env.FRESH_COMMIT !== "1") {
+      console.log("state: без изменений, коммит пропущен");
+      return;
+    }
     execSync("git add data/state-full.json docs/status.json docs/gifts.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
@@ -419,7 +427,37 @@ async function main() {
         process.exit(0);
       }
     }
-    await main();
+    if (process.env.EVENT_NAME === "schedule") {
+      // 24/7 реалтайм-режим: цикл свипов внутри одного прогона (~75с между проверками)
+      const BUDGET_MS = 300_000; // 5 минут, дальше эстафета следующему тику
+      const t0 = Date.now();
+      let n = 0;
+      while (Date.now() - t0 < BUDGET_MS) {
+        const sweepStart = Date.now();
+        n++;
+        process.env.FRESH_COMMIT = (n % 8 === 0) ? "1" : "0"; // свежесть бейджа раз в ~10 мин
+        await main();
+        const wait = 75_000 - (Date.now() - sweepStart);
+        if (wait > 200 && Date.now() - t0 + wait < BUDGET_MS) await sleep(wait);
+      }
+      console.log("LOOP: свипов за прогон: " + n);
+      // эстафета: сами запускаем следующий прогон (крон GitHub капризничает)
+      try {
+        const r = execSync(
+          `curl -s -o /dev/null -w "%{http_code}" -X POST ` +
+          `-H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" ` +
+          `-H "Accept: application/vnd.github+json" ` +
+          `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/dispatches ` +
+          `-d '{"ref":"main"}'`,
+          { encoding: "utf8" }
+        );
+        console.log("эстафета: следующий прогон запущен (" + r.trim() + ")");
+      } catch (e) {
+        console.log("эстафета не удалась, крон-страховка подхватит:", String(e.message).slice(0, 80));
+      }
+    } else {
+      await main();
+    }
   } catch (e) {
     console.error("FATAL:", String(e).slice(0, 300));
     process.exit(1);
