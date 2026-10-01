@@ -235,7 +235,7 @@ async function enrich(b) {
   const meta = parseMetaName(item.metadata?.name, item.index);
   if (meta.hasNumber) {
     ev.number = meta.index;
-    ev.giftDisplay = (item.metadata?.name || "").trim() || ev.giftDisplay;
+    ev.giftDisplay = ((item.metadata?.name || "").split(" #")[0].trim()) || ev.giftDisplay;
   }
   ev.ownerAddr = item.owner?.address || "";
   if (ev.ownerAddr) {
