@@ -1,0 +1,26 @@
+name: Gift Floors Scan
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: floors-scan
+  cancel-in-progress: true
+
+jobs:
+  floors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Scan gift floors
+        run: node gift-monitor/actions/floors-job.js
+        env:
+          TONAPI_KEY: ${{ vars.TONAPI_KEY }}
