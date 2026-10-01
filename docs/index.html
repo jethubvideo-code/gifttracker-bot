@@ -268,6 +268,12 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 .prdel:active{transform:scale(.92)}
 .heatgrid{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
 .hchip{font-size:10px;font-weight:800;padding:5px 7px;border-radius:8px;border:1px solid transparent;cursor:pointer}
+#p-flip details{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:10px 12px;margin-top:8px}
+#p-flip details summary{cursor:pointer;font-weight:600;color:var(--tx);list-style:none}
+#p-flip details summary::-webkit-details-marker{display:none}
+#p-flip details[open] summary{color:var(--gold)}
+#p-flip details .flbody{padding-top:8px;font-size:13px;line-height:1.55;color:var(--tx)}
+#p-flip .flbody code{background:rgba(255,255,255,.08);border-radius:6px;padding:1px 6px;font-size:12px}
 .prcode{font-family:ui-monospace,SFMono-Regular,monospace;font-size:10.5px;background:var(--sur);border:1px solid var(--line);border-radius:9px;padding:8px 9px;margin-top:6px;color:var(--tx2);word-break:break-all;user-select:all}
 .prcal{display:flex;flex-direction:column;gap:9px;margin-top:10px}
 .prcalrow{display:flex;align-items:center;gap:9px;font-size:12px}
@@ -492,6 +498,64 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
     </div>
   </section>
 
+  <!-- ФЛИП -->
+  <section class="pane" id="p-flip">
+    <div class="sec"><h2 data-i18n="flTitle">Flip-школа</h2><span class="sub" id="flUpd">—</span></div>
+    <div class="prnote" data-i18n="flSub" style="margin:-2px 0 10px">научись флипать подарки: гайд, академия, тренажёр на виртуальных 1000 TON</div>
+
+    <div class="prcard">
+      <div class="prh">🏋️ <span data-i18n="flSim">Тренажёр флипа</span></div>
+      <div class="prnote" data-i18n="flSimNote">виртуальные 1000 TON на реальных ценах — комиссия 5%, газ 0.01</div>
+      <div class="mtiles" style="margin-top:8px">
+        <div class="stat"><div class="lbl">💵 кэш</div><div class="val gold num" id="flSimCash">—</div></div>
+        <div class="stat"><div class="lbl">💼 капитал</div><div class="val num" id="flSimEq">—</div></div>
+        <div class="stat"><div class="lbl">ROI</div><div class="val num" id="flSimRoi">—</div></div>
+        <div class="stat"><div class="lbl">✅ PnL</div><div class="val num" id="flSimPnl">—</div></div>
+      </div>
+      <div id="flSimList" style="margin-top:8px"></div>
+      <div class="pradd" style="margin-top:8px">
+        <input id="flBuyName" list="flDl" placeholder="PlushPepe" autocomplete="off">
+        <input id="flBuyQty" type="number" inputmode="numeric" placeholder="шт" style="max-width:64px">
+        <button class="btn jelly" id="flBuyGo" data-i18n="flBuy">купить</button>
+        <button class="btn jelly" id="flSimReset" data-i18n="flReset">сброс</button>
+      </div>
+      <datalist id="flDl"></datalist>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🧮 <span data-i18n="flCalc">Калькулятор профита</span></div>
+      <div class="prnote">комиссия маркета 5% + газ 0.01 TON</div>
+      <div class="pradd" style="margin-top:8px">
+        <input id="flCalcBuy" type="number" inputmode="decimal" placeholder="покупка, TON">
+        <input id="flCalcSell" type="number" inputmode="decimal" placeholder="продажа, TON">
+        <button class="btn jelly" id="flCalcGo" data-i18n="flCalcGo">считать</button>
+      </div>
+      <div id="flCalcOut" style="margin-top:8px"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🔥 <span data-i18n="flTrends">Тренды коллекций</span></div>
+      <div class="prnote">движения флоров за период наблюдений (≥3%)</div>
+      <div id="flTrendsOut" style="margin-top:8px"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🆕 <span data-i18n="flLimits">Радар лимиток</span></div>
+      <div class="prnote">свежие серии и скорость распродажи</div>
+      <div id="flLimitsOut" style="margin-top:8px"></div>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">📚 <span data-i18n="flGuide">Гайд: 7 уроков флипа</span></div>
+      <details><summary>📚 1. Что такое флип</summary><div class="flbody">🔄 <b>Урок 1. Флип — что это</b><br><br>Флип = купить дешевле, продать дороже за короткий срок.<br><br>Цикл сделки:<br>1️⃣ Покупаешь <b>спот</b> (нераспечатанный подарок в Telegram)<br>2️⃣ Распаковываешь → подарок превращается в <b>NFT</b> на блокчейне TON<br>3️⃣ Выставляешь NFT на маркет (MRKT / GetGems / Portals)<br>4️⃣ Продал дороже покупки → профит<br><br><b>Спот</b> — цена в магазине Telegram.<br><b>Флор</b> — самый дешёвый NFT-лот на маркете.<br>Если флор выше спота — окно для флипа есть.<br><br>Дальше: /flip 2</div></details><details><summary>📚 2. Флор и спред</summary><div class="flbody">📊 <b>Урок 2. Флор и спред</b><br><br><b>Флор</b> (floor) — минимальная цена лота коллекции. Его видно на MRKT, GetGems, Portals.<br><br><b>Спред</b> = флор − спот. Спред должен покрыть комиссии и дать прибыль.<br><br>Пример: спот 100 TON, флор 115 TON. Спред 15 TON. Минус комиссии ~6-8 TON → чистыми ~7-9 TON с одной штуки.<br><br>⚠️ Смотри ВЕСЬ список лотов: если после первого лота следующие по 90 — флор «одинокий», реальная цена ниже.<br><br>Флоры всех 120 коллекций: команда <code>/card Имя</code> или на сайте.<br><br>Дальше: /flip 3</div></details><details><summary>📚 3. Комиссии</summary><div class="flbody">💸 <b>Урок 3. Комиссии — главный убийца новичка</b><br><br>В каждой сделке:<br>• Маркет берёт ~5% с продажи (MRKT, GetGems, Portals)<br>• Сеть TON — копейки (~0.005-0.01 TON)<br><br>Точка безубыточности:<br><code>продажа ≥ покупка / 0.95</code><br><br>Купил за 100 → продать надо минимум за ~105.3, иначе ты в минусе.<br><br>Считай ДО покупки: команда <code>/calc 100 120</code> покажет чистыми.<br><br>Правило: если после комиссий остаётся меньше 5% профита — сделка не стоит риска.<br><br>Дальше: /flip 4</div></details><details><summary>📚 4. Лимитки</summary><div class="flbody">🎯 <b>Урок 4. Лимитки — главные деньги флипа</b><br><br>Ограниченная серия (лимитка) дорожает в первые часы: спрос высокий, тираж маленький.<br><br>Как читать:<br>• <b>Скорость распродажи</b> — если тираж улетает за часы, хайп высокий<br>• <b>Счётчик улучшений</b> — чем быстрее растут NFT-апгрейды, тем горячее<br>• Типичная динамика: пик цены в первые 1-6 часов → откат → рост, если коллекция сильная<br><br>Стратегия: купить на старте → продать на пике первых часов → переждать откат → вторая точка входа.<br><br>Радар новых лимиток: команда <code>/limits</code><br><br>Дальше: /flip 5</div></details><details><summary>📚 5. Снайпы</summary><div class="flbody">🚨 <b>Урок 5. Снайпы — бесплатные деньги</b><br><br>Снайп — лот, выставленный заметно ниже флора (≤0.75×). Причины: продавец спешит, не знает цену, ошибся.<br><br>Как проверять снайп:<br>• Лот реальный? Ссылка должна вести на настоящий NFT<br>• Флор именно этой коллекции, не похожей?<br>• Номер/фон/модель не «мусорные»? Дешёвый фон может стоить 0.3× от среднего<br>• Продавец не в бане маркета?<br><br>Проверил → купил → выставил по флору → профит 20-30% почти без риска.<br><br>Дальше: /flip 6</div></details><details><summary>📚 6. Редкость</summary><div class="flbody">🎨 <b>Урок 6. Редкость решает исход</b><br><br>У каждого NFT есть атрибуты: <b>фон</b> (backdrop) и <b>модель</b> (model).<br><br>Разница в разы:<br>• Обычный фон ≈ 1× от флора<br>• Редкий фон ≈ 2-5× и выше<br>• «Мусорный» фон может стоить 0.3× — его никто не хочет<br><br>Перед покупкой ОДИНОЧНОГО лота смотри его атрибуты, а не только флор коллекции. Дешёвый лот часто дешёвый из-за фона.<br><br>Покупаешь спотом для минта — там атрибутов не видно: это лотерея, закладывай риск в цену.<br><br>Дальше: /flip 7</div></details><details><summary>📚 7. Психология</summary><div class="flbody">🧠 <b>Урок 7. Психология и риски</b><br><br>Главные ошибки новичков:<br>• <b>FOMO</b> — покупка на пике, потому что «все берут». Заходи ДО хайпа или на откате<br>• <b>Жадность</b> — не продал на пике, ждал ещё → откат → в минус<br>• <b>Всё в одну корзину</b> — держи позиции маленькими (5-10% банка на сделку)<br>• <b>Нет плана</b> — до покупки знай, где продаёшь<br><br>Дисциплина флиппера:<br>1. Размер позиции<br>2. Цель профита<br>3. Стоп (макс минус)<br>4. Журнал сделок<br><br>🏆 Финал: тренируйся в <code>/sim</code> на виртуальных 1000 TON — без риска деньгами.<br><br>Уроки кончились. Практика: /sim, /calc, /limits, /trends</div></details>
+    </div>
+
+    <div class="prcard">
+      <div class="prh">🎓 <span data-i18n="flAcademy">Академия: 5 шагов для новичка</span></div>
+      <details><summary>🎓 Шаг 1/5</summary><div class="flbody">🎓 <b>Шаг 1/5. Что такое подарок и NFT</b><br><br>Telegram-подарок — картинка, которую можно купить в приложении (или получить). Подарок можно распаковать — тогда он становится <b>NFT</b>: уникальным токеном в блокчейне TON.<br>NFT = можно продать на маркете любому человеку. Подарок в упаковке = только спот.<br><br>Каждый NFT имеет: номер (#12345), фон, модель. От них зависит цена.<br><br>➡️ Кнопка «Дальше» ниже</div></details><details><summary>🎓 Шаг 2/5</summary><div class="flbody">🎓 <b>Шаг 2/5. Где торгуют</b><br><br>• <b>Fragment</b> — официальный магазин подарков (спот) и часть продаж NFT<br>• <b>MRKT</b> — маркет NFT внутри Telegram: t.me/mrkt<br>• <b>GetGems</b> — крупный маркет TON: getgems.io<br>• <b>Portals</b> — маркет с редкостями: t.me/portals<br><br>На всех маркетаx есть список лотов: самый дешёвый = <b>флор</b>.<br><br>Команда <code>/card Имя</code> — флор, лоты и кнопки всех трёх маркетов сразу.</div></details><details><summary>🎓 Шаг 3/5</summary><div class="flbody">🎓 <b>Шаг 3/5. Первая сделка по шагам</b><br><br>1. Выбери коллекцию: <code>/card Имя</code> → сравни спот и флор<br>2. Считаем: <code>/calc спот флор</code> → чистая прибыль после комиссий<br>3. Профит есть? Покупай спот<br>4. Распакуй (минт) — станет NFT<br>5. Выстави лот на маркет чуть ниже флора — продастся быстрее<br>6. Продалось → вывод/реинвест<br><br>Никогда не пропускай шаг 2. Это правило.</div></details><details><summary>🎓 Шаг 4/5</summary><div class="flbody">🎓 <b>Шаг 4/5. Лимитки 24 часа</b><br><br>Новая лимитка = окно возможностей:<br>• Первые минуты-часы: цена взлетает на хайпе<br>• <b>Когда продавать</b>: следи за скоростью распродажи (<code>/limits</code>) — пока тираж улетает, спрос держит цену; замедлилось в разы → продавай<br>• Откат после пика — нормально; вторая волна приходит, если коллекция сильная<br><br>⚠️ Не покупай лимитку на пике без счёта комиссий. <code>/calc</code> и тут главный.</div></details><details><summary>🎓 Шаг 5/5</summary><div class="flbody">🎓 <b>Шаг 5/5. Финал — твой набор</b><br><br>У тебя теперь есть всё:<br>🏋️ <code>/sim</code> — тренажёр на виртуальных 1000 TON<br>🧮 <code>/calc</code> — калькулятор прибыли<br>🔥 <code>/trends</code> — тренды коллекций<br>🆕 <code>/limits</code> — радар новых лимиток<br>📚 <code>/flip</code> — 7 уроков флипа<br><br>Совет: 5-10 сделок в тренажёре ДО реальных денег. Удачи! 🍀</div></details>
+    </div>
+  </section>
+
   <!-- ИНФО -->
   <section class="pane" id="p-info">
     <div class="sec"><h2 data-i18n="about">О сервисе</h2></div>
@@ -520,6 +584,7 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
   <button class="tab jelly" id="t-stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg><span data-i18n="tStats">АНАЛИТИКА</span></button>
   <button class="tab jelly" id="t-market"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><span data-i18n="tMarket">РЫНОК</span></button>
 <button class="tab jelly" id="t-pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-i18n="tPro">ПРО</span></button>
+<button class="tab jelly" id="t-flip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg><span data-i18n="tFlip">ФЛИП</span></button>
 <button class="tab jelly" id="t-info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span data-i18n="tInfo">ИНФО</span></button>
 </nav>
 
@@ -588,6 +653,20 @@ var I18N = {
   tInfo:{ru:'ИНФО', uz:'INFO', en:'INFO'},
   tMarket:{ru:'РЫНОК', uz:'BOZOR', en:'MARKET'},
   tPro:{ru:'ПРО', uz:'PRO', en:'PRO'},
+  tFlip:{ru:'ФЛИП', uz:'FLIP', en:'FLIP'},
+  flTitle:{ru:'Flip-школа', uz:'Flip maktabi', en:'Flip school'},
+  flSub:{ru:'научись флипать подарки: гайд, академия, тренажёр на виртуальных 1000 TON', uz:"sovg'alarni flip qilishni o'rganing: qo'llanma, akademiya, 1000 TON virtual mashg'ulot", en:'learn to flip gifts: guide, academy, virtual 1000 TON trainer'},
+  flGuide:{ru:'Гайд: 7 уроков флипа', uz:'Qo\'llanma: 7 dars', en:'Guide: 7 lessons'},
+  flAcademy:{ru:'Академия: 5 шагов для новичка', uz:'Akademiya: 5 qadam', en:'Academy: 5 steps'},
+  flSim:{ru:'Тренажёр флипа', uz:'Flip mashg\'uloti', en:'Flip trainer'},
+  flSimNote:{ru:'виртуальные 1000 TON на реальных ценах рынка — комиссия продажи 5%, газ 0.01 TON. Без риска деньгами', uz:"haqiqiy narxlarda 1000 TON virtual — 5% komissiya, 0.01 TON gaz", en:'virtual 1000 TON at real market prices — 5% sell fee, 0.01 TON gas'},
+  flBuy:{ru:'купить', uz:"sotib olish", en:'buy'},
+  flSell:{ru:'продать всё', uz:"hammasini sotish", en:'sell all'},
+  flReset:{ru:'сброс', uz:'tiklash', en:'reset'},
+  flCalc:{ru:'Калькулятор профита', uz:'Foyda kalkulyatori', en:'Profit calculator'},
+  flCalcGo:{ru:'считать', uz:'hisoblash', en:'calculate'},
+  flTrends:{ru:'Тренды коллекций', uz:'Kolleksiya trendlari', en:'Collection trends'},
+  flLimits:{ru:'Радар лимиток', uz:'Limit radar', en:'Limited drops radar'},
   prTitle:{ru:'Про-инструменты', uz:'Pro vositalar', en:'Pro tools'},
   prMine:{ru:'Мои подарки', uz:"Mening sovg'alarim", en:'My gifts'},
   prMineNote:{ru:'Укажи свой номер #N — узнаешь первым, когда именно ТВОЙ подарок улучшат до NFT. То же самое умеет бот: /mine', uz:"Raqamingizni kiriting — sovg'angiz NFTga aylanganda birinchi bilasiz", en:'Add your copy #N — get alerted the moment YOUR gift is upgraded to NFT'},
@@ -715,7 +794,7 @@ function newUpgradeAlert(evts){
 }
 
 /* ═══ вкладки ═══ */
-var PANES = ['feed','gifts','stats','market','pro','info'];
+var PANES = ['feed','gifts','stats','market','pro','flip','info'];
 function switchTab(p){
   for (var i=0;i<PANES.length;i++){
     var id = PANES[i];
@@ -725,7 +804,7 @@ function switchTab(p){
   window.scrollTo(0,0);
 }
 for (var ti=0;ti<PANES.length;ti++){
-  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); if(p==='pro') renderPro(); }); })(PANES[ti]);
+  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); if(p==='pro') renderPro(); if(p==='flip') renderFlip(); }); })(PANES[ti]);
 }
 
 /* ═══ листы (sheets) ═══ */
@@ -1658,6 +1737,134 @@ $('prCopy').addEventListener('click', function(){
     }
   } catch(e){ done(); }
 });
+
+/* ═══ FLIP-ШКОЛА ═══ */
+var flHistHours = null, flIssuedHours = null, sim = null;
+function flEsc(x){ return String(x==null?'':x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function flFmt(n){ return (Math.round(Number(n)*100)/100).toLocaleString('ru-RU',{maximumFractionDigits:2}); }
+function flFloor(slug){ var e = floorsData && floorsData.floors && floorsData.floors[slug]; return e ? (Number(e.f)||0) : 0; }
+function flFindGift(q){ var t=String(q||'').toLowerCase().replace(/\s+/g,''); if(!t) return null;
+  for (var i=0;i<giftsData.length;i++){ var s1=String(giftsData[i].slug||giftsData[i].name).toLowerCase().replace(/\s+/g,''); if (s1===t) return giftsData[i]; }
+  for (var j=0;j<giftsData.length;j++){ var s2=String(giftsData[j].slug||giftsData[j].name).toLowerCase().replace(/\s+/g,''); if (s2.indexOf(t)>=0) return giftsData[j]; }
+  return null; }
+function simLoad(){ try{ sim = JSON.parse(localStorage.getItem('gm_sim')||'null'); }catch(e){ sim=null; } if(!sim||typeof sim.cash!=='number') sim={cash:1000,hold:{},realized:0,trades:0}; if(!sim.hold) sim.hold={}; }
+function simSave(){ try{ localStorage.setItem('gm_sim', JSON.stringify(sim)); }catch(e){} }
+
+function renderFlip(){
+  simLoad();
+  var upd = $('flUpd');
+  if (upd) upd.textContent = floorsData.updated ? 'LIVE' : '—';
+  var dl = $('flDl'); var opts = [];
+  for (var i=0;i<giftsData.length;i++) opts.push('<option value="'+flEsc(giftsData[i].slug||giftsData[i].name)+'">');
+  if (dl) dl.innerHTML = opts.join('');
+  flSimRender();
+  jget('floors-hist.json').then(function(d){ flHistHours = (d && d.hours) || []; flTrendsRender(); }).catch(function(){ flHistHours = []; flTrendsRender(); });
+  jget('history.json').then(function(d){ flIssuedHours = (d && d.hours) || []; flLimitsRender(); }).catch(function(){ flIssuedHours = []; flLimitsRender(); });
+}
+function flSimRender(){
+  var fl = (floorsData && floorsData.floors) || {};
+  var holdVal = 0, rows = '';
+  for (var slug in sim.hold){
+    var h = sim.hold[slug]; var price = flFloor(slug);
+    var val = price*h.qty; holdVal += val;
+    var pnl = price ? (price-h.avg)*h.qty : 0;
+    rows += '<div class="prrow"><span class="nm">'+flEsc(slug)+'</span><span style="color:var(--tx2)">'+h.qty+' × '+flFmt(h.avg)+'</span><span class="st" style="color:'+(pnl>=0?'var(--ok)':'#e06868')+'">'+(pnl>=0?'+':'')+flFmt(pnl)+'</span><button class="btn jelly" data-flsell="'+flEsc(slug)+'" style="padding:4px 10px;font-size:12px">'+esc(T('flSell'))+'</button></div>';
+  }
+  var eq = sim.cash + holdVal;
+  var roi = (eq-1000)/1000*100;
+  $('flSimCash').textContent = flFmt(sim.cash);
+  $('flSimEq').textContent = flFmt(eq);
+  var rn = $('flSimRoi'); rn.textContent = (roi>=0?'+':'')+flFmt(roi)+'%'; rn.style.color = roi>=0?'var(--ok)':'#e06868';
+  var pn = $('flSimPnl'); pn.textContent = (sim.realized>=0?'+':'')+flFmt(sim.realized); pn.style.color = sim.realized>=0?'var(--ok)':'#e06868';
+  $('flSimList').innerHTML = rows || '<div class="prnote" style="padding-top:6px">позиций нет — купи первую ⬇️</div>';
+  var btns = $('flSimList').querySelectorAll('[data-flsell]');
+  for (var b=0;b<btns.length;b++) btns[b].addEventListener('click', function(){ flSimSell(this.getAttribute('data-flsell')); });
+}
+function flSimBuy(){
+  var name = $('flBuyName').value; var qty = Math.max(1, parseInt($('flBuyQty').value||'1',10)||1);
+  var g = flFindGift(name);
+  if (!g){ toast('⚠️ ' + esc(name)); return; }
+  var slug = String(g.slug||g.name); var price = flFloor(slug);
+  if (!price){ toast('⏳ нет лотов — флор неизвестен'); return; }
+  var cost = price*qty+0.01;
+  if (cost > sim.cash){ toast('💸 нужно '+flFmt(cost)+' TON'); return; }
+  sim.cash -= cost;
+  var h = sim.hold[slug]||{qty:0,avg:0};
+  h.avg = (h.avg*h.qty+price*qty)/(h.qty+qty); h.qty+=qty; sim.hold[slug]=h; sim.trades++;
+  simSave(); haptic(); toast('🛒 +'+qty+' '+esc(slug)+' @ '+flFmt(price));
+  $('flBuyName').value=''; $('flBuyQty').value='';
+  flSimRender();
+}
+function flSimSell(slug){
+  var h = sim.hold[slug]; if (!h) return;
+  var price = flFloor(slug); if (!price){ toast('⏳ нет лотов'); return; }
+  var net = price*h.qty*0.95-0.01;
+  var pnl = net - h.avg*h.qty;
+  sim.cash += net; sim.realized += pnl; sim.trades++;
+  delete sim.hold[slug];
+  simSave(); haptic(); toast((pnl>=0?'🟢 +':'🔴 ')+flFmt(pnl)+' TON');
+  flSimRender();
+}
+$('flBuyGo').addEventListener('click', flSimBuy);
+$('flSimReset').addEventListener('click', function(){ sim={cash:1000,hold:{},realized:0,trades:0}; simSave(); haptic(); toast('🔄 банк 1000 TON'); flSimRender(); });
+$('flCalcGo').addEventListener('click', function(){
+  var b = parseFloat(($('flCalcBuy').value||'').replace(',','.')), s2 = parseFloat(($('flCalcSell').value||'').replace(',','.'));
+  if (!(b>0) || !(s2>0)){ $('flCalcOut').innerHTML='<div class="prnote">введи обе цены в TON</div>'; return; }
+  var net = s2*0.95-0.01, pnl = net-b, roi = pnl/b*100, be = Math.ceil((b/0.95)*100)/100;
+  var v = pnl<=0 ? '🔴 убыток — сделка не стоит риска' : roi<5 ? '🟡 профит тонкий (<5%) — подумай' : roi<20 ? '🟢 хорошая сделка' : '🚀 отличная сделка';
+  $('flCalcOut').innerHTML = '<div class="prrow"><span>комиссия 5% + газ</span><span class="st">−'+flFmt(s2*0.05+0.01)+' TON</span></div>'
+    +'<div class="prrow"><span>чистыми</span><span class="st" style="color:'+(pnl>=0?'var(--ok)':'#e06868')+'">'+(pnl>=0?'+':'')+flFmt(pnl)+' TON ('+(roi>=0?'+':'')+flFmt(roi)+'%)</span></div>'
+    +'<div class="prrow"><span>безубыточность</span><span class="st">от '+flFmt(be)+' TON</span></div>'
+    +'<div class="prnote" style="padding-top:6px">'+v+'</div>';
+});
+function flTrendsRender(){
+  var box = $('flTrendsOut');
+  if (!flHistHours || flHistHours.length < 2){ box.innerHTML = '<div class="prnote">истории флоров пока мало — тренды появятся через несколько часов</div>'; return; }
+  var f = flHistHours[0], l = flHistHours[flHistHours.length-1];
+  var spanH = Math.max(1, Math.round((l.ts-f.ts)/3600));
+  var list = [];
+  for (var slug in (l.floors||{})){
+    var p0 = (f.floors||{})[slug], p1 = l.floors[slug];
+    if (!p0 || !(p1>0)) continue;
+    var pct = (p1-p0)/p0*100;
+    if (Math.abs(pct)>=3) list.push({s:slug,p:pct,v:p1});
+  }
+  list.sort(function(a,b){return b.p-a.p;});
+  var up = list.filter(function(x){return x.p>0;}).slice(0,5);
+  var down = list.filter(function(x){return x.p<0;}).slice(-5).reverse();
+  var h = '<div class="prnote" style="padding-bottom:4px">за '+spanH+' ч наблюдений</div>';
+  if (up.length){ h += '<div class="prrow" style="color:var(--ok);font-weight:700">📈 растут</div>';
+    for (var i=0;i<up.length;i++) h += '<div class="prrow"><span class="nm">'+flEsc(up[i].s)+'</span><span>'+flFmt(up[i].v)+' TON</span><span class="st" style="color:var(--ok)">+'+flFmt(up[i].p)+'%</span></div>'; }
+  if (down.length){ h += '<div class="prrow" style="color:#e06868;font-weight:700">📉 падают</div>';
+    for (var j=0;j<down.length;j++) h += '<div class="prrow"><span class="nm">'+flEsc(down[j].s)+'</span><span>'+flFmt(down[j].v)+' TON</span><span class="st" style="color:#e06868">'+flFmt(down[j].p)+'%</span></div>'; }
+  if (!up.length && !down.length) h += '<div class="prnote">всё спокойно — нет движений ≥3%</div>';
+  box.innerHTML = h;
+}
+function flLimitsRender(){
+  var box = $('flLimitsOut');
+  var now = Date.now()/1000;
+  var fl = (floorsData && floorsData.floors) || {};
+  var speedOf = function(slug){
+    if (!flIssuedHours || flIssuedHours.length<2) return null;
+    var l = flIssuedHours[flIssuedHours.length-1], f = flIssuedHours[Math.max(0, flIssuedHours.length-24)];
+    var iL=(l.issued||{})[slug], iF=(f.issued||{})[slug];
+    if (iL==null||iF==null) return null;
+    return (iL-iF)/Math.max(1,(l.ts-f.ts)/3600);
+  };
+  var fresh = [];
+  for (var i=0;i<giftsData.length;i++){ var g=giftsData[i]; if (g.added && Number(g.added)>1e9 && now-Number(g.added)<14*86400) fresh.push(g); }
+  var sellOut = [];
+  for (var j=0;j<giftsData.length;j++){ var gg=giftsData[j]; if (Number(gg.total)>0 && Number(gg.total)<100000 && Number(gg.issued)>0 && Number(gg.issued)<Number(gg.total)) sellOut.push(gg); }
+  sellOut.sort(function(a,b){ return (b.issued/b.total)-(a.issued/a.total); });
+  sellOut = sellOut.slice(0,5);
+  var row = function(g, tag){ var sp=speedOf(String(g.slug||g.name)); var pct=Math.round(Number(g.issued)/Number(g.total)*100); var f2=fl[String(g.slug||g.name)]; var fr=f2?(Number(f2.f)||0):0;
+    return '<div class="prrow"><span class="nm">'+tag+' '+flEsc(g.name)+'</span><span>'+pct+'%</span><span class="st">'+(sp!=null?'🚀 '+flFmt(sp)+' шт/ч':'⏳')+(fr>0?' · '+flFmt(fr)+' TON':'')+'</span></div>'; };
+  var h = '';
+  if (fresh.length){ h += '<div class="prrow" style="color:var(--gold);font-weight:700">🆕 свежие (до 14 дней)</div>'; for (var a=0;a<Math.min(3,fresh.length);a++) h += row(fresh[a],'🆕'); }
+  else h += '<div class="prnote">новых лимиток пока нет — следим 24/7</div>';
+  if (sellOut.length){ h += '<div class="prrow" style="color:var(--gold);font-weight:700">⏳ распродаются быстрее всех</div>'; for (var b2=0;b2<sellOut.length;b2++) h += row(sellOut[b2],'⏳'); }
+  box.innerHTML = h;
+}
 
 navigator.serviceWorker.register(BASE + 'sw.js').catch(function(){});
   }
