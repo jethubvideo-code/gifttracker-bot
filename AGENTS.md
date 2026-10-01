@@ -16,8 +16,9 @@
   Creates a Stars invoice: 500 XTR for 30 days of VIP. CORS is open; no key required.
 - The invoice MUST be created with @Trackingonebot's bot token (env `TELEGRAM_BOT_TOKEN_3` in the Base44 function).
   Creating it with any other bot breaks the flow: `openInvoice` in the Mini App requires the link to be issued by the same bot, and `successful_payment` is only handled by @Trackingonebot's webhook.
-- Mini App (`index.html`) is 100% GitHub-hosted with ZERO Base44 calls (owner requirement). Market data comes directly from portal-market.com. The VIP floating button / MainButton / profile VIP card deep-link to the bot (`https://t.me/Trackingonebot?start=vip_webapp`); the purchase itself happens in the bot chat (real Stars invoice). `createVipInvoice` exists as an optional helper but the page does NOT call it.
+- Mini App flow (`index.html`): VIP floating button / MainButton / profile VIP card → fetch `createVipInvoice` → `Telegram.WebApp.openInvoice(link, cb)`; on `paid` show success + set VIP badge. Outside Telegram (browser) the buttons fall back to the bot deep link `https://t.me/Trackingonebot?start=vip_webapp`.
 - Bot side (@Trackingonebot, webhook → `giftsMonitorBot`): `pre_checkout_query` → answerPreCheckoutQuery ok; `successful_payment` → set `GiftSubscriber.is_vip=true`, `vip_expires=+30d`, send confirmation. `/vip` command offers a trial button and a real `sendInvoice` (XTR 500) pay button.
 - Stars revenue needs no wallet in code: it accrues on the bot and can be withdrawn via Fragment to a TON wallet.
 - Do not change price (500 Stars/30 days), payload (`vip30`), or currency (XTR) without the owner's request.
+
 
