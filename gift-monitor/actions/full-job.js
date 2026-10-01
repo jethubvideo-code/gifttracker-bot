@@ -427,23 +427,54 @@ async function main() {
         process.exit(0);
       }
     }
+    // GUARD: крон-тик = страховка. Если эстафетная цепочка жива (прогон завершался <17 мин назад) — тихо выходим
+    if (process.env.EVENT_NAME === "schedule") {
+      try {
+        const q = execSync(
+          `curl -s -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
+          `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/runs?per_page=10`,
+          { encoding: "utf8" }
+        );
+        const done = (JSON.parse(q).workflow_runs || [])
+          .filter((x) => x.status === "completed")
+          .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))[0];
+        if (done && Date.now() - new Date(done.updated_at).getTime() < 17 * 60_000) {
+          console.log("GUARD: цепочка жива (последний прогон " + done.updated_at + "), тихий выход");
+          process.exit(0);
+        }
+        console.log("GUARD: цепочка мертва — беру эстафету на себя");
+      } catch {}
+    }
     if (process.env.EVENT_NAME === "schedule" || (process.env.FORCE || "") === "chain") {
       // 24/7 реалтайм-режим: цикл свипов внутри одного прогона (~75с между проверками)
-      const BUDGET_MS = 300_000; // 5 минут, дальше эстафета следующему тику
+      const BUDGET_MS = 780_000; // 13 минут непрерывных проверок, дальше эстафета
       const t0 = Date.now();
       let n = 0;
       while (true) {
         const sweepStart = Date.now();
         n++;
-        process.env.FRESH_COMMIT = (n % 8 === 0) ? "1" : "0"; // свежесть бейджа раз в ~10 мин
+        const fitsNext = (Date.now() - t0) + 75_000 <= BUDGET_MS;
+        process.env.FRESH_COMMIT = (!fitsNext || n % 6 === 0) ? "1" : "0"; // свежесть бейджа
         await main();
-        if (Date.now() - t0 + 75_000 > BUDGET_MS) break; // следующий цикл не влезает — эстафета
+        if (!fitsNext) break; // следующий цикл не влезает — эстафета
         const wait = Math.max(200, 75_000 - (Date.now() - sweepStart));
         await sleep(wait);
       }
       console.log("LOOP: свипов за прогон: " + n);
       // эстафета: сами запускаем следующий прогон (крон GitHub капризничает)
       try {
+        let hasQueue = false;
+        try {
+          const q = execSync(
+            `curl -s -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
+            `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/runs?per_page=10`,
+            { encoding: "utf8" }
+          );
+          const myId = String(process.env.GITHUB_RUN_ID || "");
+          hasQueue = (JSON.parse(q).workflow_runs || [])
+            .some((x) => (x.status === "queued" || x.status === "in_progress") && String(x.id) !== myId);
+        } catch {}
+        if (!hasQueue) {
         const r = execSync(
           `curl -s -w "\nHTTP:%{http_code}" -X POST ` +
           `-H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" ` +
@@ -458,6 +489,9 @@ async function main() {
           console.log("эстафета curl:", r.slice(0, 120), "→ пробую gh");
           execSync(`GH_TOKEN="$GITHUB_TOKEN" gh workflow run full-monitor.yml --ref main -f force=chain`, { stdio: "pipe" });
           console.log("эстафета: gh запустил следующий прогон");
+        }
+        } else {
+          console.log("эстафета: уже есть очередь/прогон — не дублируем");
         }
       } catch (e) {
         console.log("эстафета не удалась, крон-страховка подхватит:", String(e.message).slice(0, 120));
