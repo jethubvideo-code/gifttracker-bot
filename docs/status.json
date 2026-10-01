@@ -1,39 +1,13 @@
 {
- "updated": "2026-10-01T21:11:08.355Z",
- "updated_unix": 1790889068,
- "runs": 1469,
+ "updated": "2026-10-01T21:11:35.078Z",
+ "updated_unix": 1790889095,
+ "runs": 1470,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1023,
- "sent_total": 33588,
+ "detected_total": 1025,
+ "sent_total": 33654,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 36774,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790886624,
-   "counter_issued": 36774,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:31:31.038Z"
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 36775,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790886684,
-   "counter_issued": 36775,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:32:30.567Z"
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -397,6 +371,32 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T21:11:08.354Z"
+  },
+  {
+   "slug": "HexPot",
+   "gift": "HexPot",
+   "number": 56930,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790889023,
+   "counter_issued": 56930,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:11:29.196Z"
+  },
+  {
+   "slug": "HexPot",
+   "gift": "HexPot",
+   "number": 56931,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790889029,
+   "counter_issued": 56931,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:11:35.077Z"
   }
  ]
 }
