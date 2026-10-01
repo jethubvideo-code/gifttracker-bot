@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-01T05:48:30.732Z",
- "updated_unix": 1790833710,
- "runs": 7,
+ "updated": "2026-10-01T06:00:28.870Z",
+ "updated_unix": 1790834428,
+ "runs": 8,
  "collections": 111,
  "checked": 111,
  "errors": 0,
- "detected_total": 18,
- "sent_total": 631,
+ "detected_total": 25,
+ "sent_total": 876,
  "last_upgrades": [
   {
    "slug": "XmasStocking",
@@ -235,6 +235,97 @@
    "img": "https://cdn4.telesco.pe/file/sgYv_vjIlQxI9Ua6VWYZRGG15elS83p-QzdBEHgJbrUP0HMMd3IFDlVxv2zWcUWBhg1rbea8zkdi_PKdfsiu1npV1yhDwDS414gLQqUzGkCAWu2XeNA1OMMtJlOlJJhF3WHvBRvAPDqdVzjbWZ68aPeQAlqN1NYRRPnp7XIMPDbtsw56OrXI4k4XxFSOTZ4vb9wnfQC4zGOc1kCOdF7rdmXX3eRCIAqBvgG0dcq3vS7httrxs7KnY-Z5U7PHhn8RRU6k3RIAdXVeHhO2bcSMLoacSywa04EfZ8RqAZpbTA779jF5oJ1G_xT91kBtDBVv5b1CBhDTYBeV9GxpaDWX6g.jpg",
    "sent": 35,
    "time": "2026-10-01T05:48:30.732Z"
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 13799,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1790833422,
+   "counter_issued": 389597,
+   "counter_total": 457382,
+   "img": "https://cdn4.telesco.pe/file/MKzD2uBTHlUx-D9X59j1K3Vw9IwHMy3_YlCKoKQ4HQMijUowETKsakcglWSP2UPUCqjesQr_QRrQY7hVm9q1SYHb4VWbWZVX7bxPeCbLNiWjJ6sJBJBPotwg29NghSEFQtOlAoer_1S-lQuzUpYwKTmEQmfXJYXM5BHaPEIrg3NA9V0kUgsg7lFiJbpEF97PWKkvDoz20cYOAWhke01T5uutEUpEW9yGFE2q5aFMUCgywSf_rw8iclcCCuLdGE9U8gKDBHHgW1TkZNHKriSTkopT9_83TlsvVXdCnCShGWVEbLme870tX8QUpO-Py4JV6fPGTAXHqi2IaQkR6gdOEQ.jpg",
+   "sent": 35,
+   "time": "2026-10-01T05:59:29.423Z"
+  },
+  {
+   "slug": "HappyBrownie",
+   "gift": "Happy Brownie",
+   "number": 13222,
+   "owner": "",
+   "owner_addr": "0:62a416d42b8b1342f2a28aaec59caa8986cc0ab3119f153561db57d0b2cfeefd",
+   "mint": 1790807774,
+   "counter_issued": 226662,
+   "counter_total": 264231,
+   "img": "https://cdn4.telesco.pe/file/Got4beV8L6R2linMmzHDS0arCY1BvQm3HO_ROgCtJbr2JVa6WN5TDxxTm4Ptb3u33646ZuYL0IO1SLWaI346rs4CyERq5QTDI8WvUm2_h_jGdhbzUpOkLaLWGLqE1z7sx9HWr8SkjJcyuHSTpURlv7_lGIINGgj0F42yrtCxLcZEed3_KYZBmnYiL4loDnU43HT80pV2ur6ruIucWNmU0-vQa6ak4XhQ1stmczNm1RG4YWUTmI6esRGx6u0sAOaQ3_rEPt55WPety8XFmYkmAmN9D1fgZpC3IzwqPYblOwKhT_9w0uYPAX4a-4ugvbN8jCyno4Vv-o_hBdkeUvhU8Q.jpg",
+   "sent": 35,
+   "time": "2026-10-01T05:59:39.509Z"
+  },
+  {
+   "slug": "PetSnake",
+   "gift": "PetSnake",
+   "number": 191573,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 191573,
+   "counter_total": 279106,
+   "img": "https://cdn4.telesco.pe/file/oQp22nuhb-EUl-wZZVT9HRxXpFzHjsx7V5fgC29MvKm-DjH-S4smg5lyI_qS05Vx03HU0hTvteBNSjBKrk90r6P1h_L9aCkizEfG4W3a42ck0GqtTef3Yy4HAt4a8Eo6wQI8fSbLEWG_HkOnwfN-dwMBYYzu-M9yQWX714sf5Puzlp_xqC_uzhup1Tiad0DhVzF7bTfpoPxNsapEaWqEitOYyTINzLMkLbOwwQpshvH405dGJHdB7Pa0PKPVv3rjVvY-3aeXhWwkVYQMMX16iLkD6UYobc1ImnhfPovv1AVxjf9BdHBiXWbH399IdVKsAvAczTOLkl2KB6JJKKIQhg.jpg",
+   "sent": 35,
+   "time": "2026-10-01T05:59:49.003Z"
+  },
+  {
+   "slug": "PartySparkler",
+   "gift": "PartySparkler",
+   "number": 188800,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 188800,
+   "counter_total": 243771,
+   "img": "https://cdn4.telesco.pe/file/sDm-3bCCKBtEODoe9DSmUJFm1KvEY7-F2-dYJUz-pIRnQ2uAXHP8GrhTK_IHazqLjR6VYcYAEaE600LEdA1_Kdz318sKssiOuF4K9Gnsor4AY0IhaZ1VTdKrpqfNO7CzPpH9HuYSOshN-174kAYakMURV9kLnb8b2JmDds8p4jWIqlbvVSjzFk4XQp-_rY8nMlUVl-z-MraTZPgDzYlSHF--kht_0wr0VKm9R3A8qKhOsoD_T4zaOU0e72rSt64C6LTBQ_LnY9v5VxrCV6DGnMBCYwynigMGxR7OVxu-irfbUN83zOXzu6Y8JWnJ9RUDgEMzw1YZNNW6icd1wtkIQA.jpg",
+   "sent": 35,
+   "time": "2026-10-01T05:59:58.467Z"
+  },
+  {
+   "slug": "InputKey",
+   "gift": "InputKey",
+   "number": 134954,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134954,
+   "counter_total": 159750,
+   "img": "https://cdn4.telesco.pe/file/rvnjzNlU1UfLPqFtJeKmiLI2NKkg895rm-blUqJMH8u4DgG9OKi-w0RmYj_cgSq7oSe4O6jN6Y2OmvfwSg2hiYhRgERHGNBN-G0MWcLa_Q7BzyWCElODtNyU7gTDh1jLg02f1SSnG-jKcuQRgnM80TVio7W0N5LyBYhgOPqiMJ-0Dq0_18Ws7gEfS58CVgEkoo9PDUnbLX_pJm_NIpzDagV9ot-NMW_JmAvQPHsnWukYtSN-lBNOuV0XArrOUYKg2HUPyepPQSK9cjp091KuIo7kbqP37SveLlYT7nPHxZzw8RGu6aY5LBvPadBUTWzUc1N2JMkD4SFoNdrxJNJIPw.jpg",
+   "sent": 35,
+   "time": "2026-10-01T06:00:08.860Z"
+  },
+  {
+   "slug": "WhipCupcake",
+   "gift": "WhipCupcake",
+   "number": 281941,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 281941,
+   "counter_total": 367619,
+   "img": "https://cdn4.telesco.pe/file/TkfCvcDHWkwqoKJ7s3euAtZhpLneQMOnqZCTAOYZVe8PVsJy2nQE1JDbHRApR6BaEF5vAc3hRQ7DI3d9PHsGprom5zUpbCbWzsKLHbC-GdoI9caxd-lFm2Azf-EfeY37rqQrfH1oyzm_fOahNtENBnEKfoERWP87RKjjaS12QTkwyhLd648KX_ykAvKysos2KmFKPGzUIzA7TkbVTTUptcJ_Sjjy6SCX1_IPA6U_o6yheYshwNCMsbDMseSl5FrK_25fljOmAuhQi0-LLLEdIIqC40ngtUU9rEgkuWVmugGMAGneIZRuVQk1vCPCMSQVwFNBXrtlekwu7WJO3GBxQw.jpg",
+   "sent": 35,
+   "time": "2026-10-01T06:00:18.892Z"
+  },
+  {
+   "slug": "CandyCane",
+   "gift": "CandyCane",
+   "number": 228951,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 228951,
+   "counter_total": 320622,
+   "img": "https://cdn4.telesco.pe/file/aGDpXruaMmT3IzQNE4WB6zZtHYC9sLO7bxqKy5w8nWZalpCILXPAnf2Ng56jlHZrq9xxNZIpwWLK0QPaNx5pK6__N3KTVnQdF1scsXIuJOCOMAEfEa1ZzfDQFdu7nxio7Z0BYkKK21SMyJ9SCzh8YZcZn5rMkntpXaZAc9xxBO8XLzeZcCvKeLrCI8h5kLZz1RlRlg9fIiP8Rz2303sRIjvTfw4RWl7p9E6wiC68dsT2on5MCGk1S1quc_tBitgCRzff91VnPfwQUBgYbNNco0lv8mVz36K6OVNpReeltSCEgl9xPF7AdqdyTBOwohdfHwql5tOBobBzF_tCKgLOEg.jpg",
+   "sent": 35,
+   "time": "2026-10-01T06:00:28.870Z"
   }
  ]
 }
