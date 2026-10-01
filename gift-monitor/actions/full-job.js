@@ -417,7 +417,7 @@ async function main() {
       await sendTest();
       return;
     }
-    if (!FORCE) {
+    if (FORCE !== "true") {
       let enabled = false;
       try {
         enabled = JSON.parse(fs.readFileSync(ENABLED_FILE, "utf8")).enabled === true;
@@ -427,7 +427,7 @@ async function main() {
         process.exit(0);
       }
     }
-    if (process.env.EVENT_NAME === "schedule") {
+    if (process.env.EVENT_NAME === "schedule" || FORCE === "chain") {
       // 24/7 реалтайм-режим: цикл свипов внутри одного прогона (~75с между проверками)
       const BUDGET_MS = 300_000; // 5 минут, дальше эстафета следующему тику
       const t0 = Date.now();
@@ -448,7 +448,7 @@ async function main() {
           `-H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" ` +
           `-H "Accept: application/vnd.github+json" ` +
           `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/dispatches ` +
-          `-d '{"ref":"main"}'`,
+          `-d '{"ref":"main","inputs":{"force":"chain"}}'`,
           { encoding: "utf8" }
         );
         console.log("эстафета: следующий прогон запущен (" + r.trim() + ")");
