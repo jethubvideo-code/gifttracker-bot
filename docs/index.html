@@ -364,13 +364,19 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 /* ═══ ядро ═══ */
 var $ = function(id){ return document.getElementById(id); };
 var BASE = 'https://jethubvideo-code.github.io/gifttracker-bot/';
+/* данные — напрямую из raw.githubusercontent (отражает пуш за секунды, без ожидания сборки GitHub Pages) */
+var RAW = 'https://raw.githubusercontent.com/jethubvideo-code/gifttracker-bot/main/';
 var tg = null;
 try { tg = window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null; if (tg){ tg.ready(); tg.expand(); } } catch(e){}
 function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
 function fmtNum(n){ n = Number(n)||0; return n.toLocaleString('ru-RU').replace(/\u00A0/g,' '); }
 function fmtDate(ts){ var d = new Date(ts*1000), p = function(x){ return x<10?'0'+x:x; };
   return p(d.getDate())+'.'+p(d.getMonth()+1)+'.'+d.getFullYear()+', '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds()); }
-function jget(f){ return fetch(BASE + f + (f.indexOf('?')>=0?'&':'?') + 't=' + Date.now()).then(function(r){ return r.json(); }); }
+function jget(f){
+  var bust = (f.indexOf('?')>=0?'&':'?') + 't=' + Date.now();
+  return fetch(RAW + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .catch(function(){ return fetch(BASE + f + bust).then(function(r){ return r.json(); }); });
+}
 function haptic(){ try{ if(tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light'); }catch(e){} }
 function openLink(u){ try{ if(tg && tg.openLink){ tg.openLink(u); return; } }catch(e){} window.open(u,'_blank'); }
 function toast(msg){ var t=$('toast'); t.textContent=msg; t.classList.add('on'); setTimeout(function(){ t.classList.remove('on'); },2200); }
