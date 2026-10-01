@@ -432,28 +432,35 @@ async function main() {
       const BUDGET_MS = 300_000; // 5 минут, дальше эстафета следующему тику
       const t0 = Date.now();
       let n = 0;
-      while (Date.now() - t0 < BUDGET_MS) {
+      while (true) {
         const sweepStart = Date.now();
         n++;
         process.env.FRESH_COMMIT = (n % 8 === 0) ? "1" : "0"; // свежесть бейджа раз в ~10 мин
         await main();
-        const wait = 75_000 - (Date.now() - sweepStart);
-        if (wait > 200 && Date.now() - t0 + wait < BUDGET_MS) await sleep(wait);
+        if (Date.now() - t0 + 75_000 > BUDGET_MS) break; // следующий цикл не влезает — эстафета
+        const wait = Math.max(200, 75_000 - (Date.now() - sweepStart));
+        await sleep(wait);
       }
       console.log("LOOP: свипов за прогон: " + n);
       // эстафета: сами запускаем следующий прогон (крон GitHub капризничает)
       try {
         const r = execSync(
-          `curl -s -o /dev/null -w "%{http_code}" -X POST ` +
+          `curl -s -w "\nHTTP:%{http_code}" -X POST ` +
           `-H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" ` +
           `-H "Accept: application/vnd.github+json" ` +
           `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/dispatches ` +
           `-d '{"ref":"main","inputs":{"force":"chain"}}'`,
           { encoding: "utf8" }
-        );
-        console.log("эстафета: следующий прогон запущен (" + r.trim() + ")");
+        ).trim();
+        if (r.endsWith("HTTP:201") || r.endsWith("HTTP:204")) {
+          console.log("эстафета: следующий прогон запущен (" + r.split("\n").pop() + ")");
+        } else {
+          console.log("эстафета curl:", r.slice(0, 120), "→ пробую gh");
+          execSync(`GH_TOKEN="$GITHUB_TOKEN" gh workflow run full-monitor.yml --ref main -f force=chain`, { stdio: "pipe" });
+          console.log("эстафета: gh запустил следующий прогон");
+        }
       } catch (e) {
-        console.log("эстафета не удалась, крон-страховка подхватит:", String(e.message).slice(0, 80));
+        console.log("эстафета не удалась, крон-страховка подхватит:", String(e.message).slice(0, 120));
       }
     } else {
       await main();
