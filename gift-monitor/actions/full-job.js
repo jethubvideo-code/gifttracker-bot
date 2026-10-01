@@ -24,6 +24,7 @@ const STATE_FILE = path.join(DATA, "state-full.json");
 const ENABLED_FILE = path.join(DATA, "enabled-full.json");
 const SUBS_FILE = path.join(DATA, "subscribers.enc");
 const STATUS_FILE = path.join(REPO_ROOT, "docs", "status.json");
+const HIST_FILE = path.join(REPO_ROOT, "docs", "history.json");
 
 const TONAPI_KEY = process.env.TONAPI_KEY || "";
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
@@ -328,7 +329,7 @@ async function main() {
   const cols = require(COLS_FILE);
   let subs = await freshSubs();
   if (!subs) subs = decryptSubs();
-  console.log(`full-job v6: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
+  console.log(`full-job v7: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
 
   const hour = hourSamarkand();
   const night = hour >= 23 || hour < 8;
@@ -476,6 +477,23 @@ async function main() {
 
   console.log(`ИТОГ: detected=${detected}, sent=${sent}, skipped=${skipped}, errors=${errors}`);
 
+  // 2.5) история: почасовые вёдра для графиков сайта (активность 24ч + ETA-прогнозы + тикер «сегодня»)
+  try {
+    let hist = {};
+    try { hist = JSON.parse(fs.readFileSync(HIST_FILE, "utf8")); } catch {}
+    if (!Array.isArray(hist.hours)) hist.hours = [];
+    const hourTs = Math.floor(NOW() / 3600) * 3600;
+    let bucket = hist.hours.find((h) => h.ts === hourTs);
+    if (!bucket) { bucket = { ts: hourTs, detected: 0, issued: {} }; hist.hours.push(bucket); }
+    bucket.detected += detected + skipped; // всё случившееся: доставленное + молча пропущенное
+    for (const c2 of cols) {
+      const st = state[c2.name];
+      if (st && st.issued) bucket.issued[c2.name] = st.issued;
+    }
+    hist.hours = hist.hours.filter((h) => h.ts >= NOW() - 48 * 3600).sort((a, b) => a.ts - b.ts);
+    fs.writeFileSync(HIST_FILE, JSON.stringify(hist, null, 1));
+  } catch (e) { console.log("history.json:", String(e).slice(0, 80)); }
+
   // 3) статусная страница (GitHub Pages)
   let prev = {};
   try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
@@ -513,7 +531,7 @@ async function main() {
       console.log("state: без изменений, коммит пропущен");
       return;
     }
-    execSync("git add data/state-full.json docs/status.json docs/gifts.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json docs/status.json docs/gifts.json docs/history.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
