@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "*/20 * * * *"
   workflow_dispatch:
+    inputs:
+      slug:
+        description: "slug лимитки для ручного объявления (когда каталог Fragment опаздывает)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -26,3 +31,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN }}
           TONAPI_KEY: ${{ vars.TONAPI_KEY }}
           CRYPT_KEY: ${{ vars.CRYPT_KEY }}
+          FORCE_SLUG: ${{ github.event.inputs.slug || '' }}
