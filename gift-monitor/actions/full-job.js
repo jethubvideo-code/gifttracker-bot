@@ -23,6 +23,7 @@ const COLS_FILE = path.join(__dirname, "..", "collections.json");
 const STATE_FILE = path.join(DATA, "state-full.json");
 const ENABLED_FILE = path.join(DATA, "enabled-full.json");
 const SUBS_FILE = path.join(DATA, "subscribers.enc");
+const STATUS_FILE = path.join(REPO_ROOT, "docs", "status.json");
 
 const TONAPI_KEY = process.env.TONAPI_KEY || "";
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
@@ -256,6 +257,7 @@ async function main() {
 
   // 1) официальные счётчики (надёжно, без ключей)
   const bumps = [];
+  const bumpLogs = [];
   await pool(cols, 10, async (c) => {
     const st =
       state[c.name] ||
@@ -317,6 +319,7 @@ async function main() {
       if (r && r.error_code === 429) await sleep(Math.min(3, Number(r.parameters?.retry_after) || 1) * 1000);
     }
     sent += sentThis;
+    bumpLogs.push({ slug: b.col.name, number: ev.number || b.issued, sent: sentThis, time: new Date().toISOString() });
     st.lastSentTime = NOW();
     st.lastSentNum = b.issued;
     console.log(`апгрейд: ${b.col.name} #${b.issued}, отправлено: ${sentThis}`);
@@ -324,12 +327,30 @@ async function main() {
 
   console.log(`ИТОГ: detected=${detected}, sent=${sent}, skipped=${skipped}, errors=${errors}`);
 
-  // 3) state + коммит (с ретраем на гонку пушей)
+  // 3) статусная страница (GitHub Pages)
+  let prev = {};
+  try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
+  try {
+    fs.mkdirSync(path.join(REPO_ROOT, "docs"), { recursive: true });
+    fs.writeFileSync(STATUS_FILE, JSON.stringify({
+      updated: new Date().toISOString(),
+      updated_unix: NOW(),
+      runs: (prev.runs || 0) + 1,
+      collections: cols.length,
+      checked: checked,
+      errors: errors,
+      detected_total: (prev.detected_total || 0) + detected,
+      sent_total: (prev.sent_total || 0) + sent,
+      last_upgrades: [...(prev.last_upgrades || []), ...bumpLogs].slice(-20),
+    }, null, 1));
+  } catch (e) { console.log("status.json:", String(e).slice(0, 80)); }
+
+  // 4) state + коммит (с ретраем на гонку пушей)
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
-    execSync("git add data/state-full.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json docs/status.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
