@@ -1620,7 +1620,7 @@ function renderProIdx(){
   var sorted = vals.slice().sort(function(a,b){ return a-b; });
   var med = sorted[Math.floor(sorted.length/2)];
   $('prIdxTon').textContent = fmtNum(Math.round(sum*10)/10);
-  $('prIdxUsd').textContent = usdOf(sum);
+  $('prIdxUsd').innerHTML = usdOf(sum) || '—';
   $('prIdxMed').textContent = fmtNum(med);
   var cv = $('prIdxSpark');
   if (cv && floorsHist && floorsHist.length){
@@ -1649,6 +1649,11 @@ function renderProIdx(){
   }
 }
 function usdRate(){ return Number(floorsData.rate_usd)||0; }
+function addrShort(v){
+  v = String(v||'');
+  if (/^0:[0-9a-fA-F]{48,}$/.test(v)) return v.slice(0,6) + '…' + v.slice(-4);
+  return v;
+}
 function renderProTop(){
   var box = $('prTopList');
   if (!proTop.length){ box.innerHTML = '<div class="prnote" style="padding-top:8px">'+esc(T('prEmpty'))+'</div>'; return; }
@@ -1656,7 +1661,7 @@ function renderProTop(){
   var h = '';
   for (var i=0;i<Math.min(proTop.length,15);i++){
     var e = proTop[i];
-    h += '<div class="prrow"><span style="width:26px">'+(medals[i]||((i+1)+'.'))+'</span><span class="nm">'+esc(e.name||e.owner||'?')+'</span><span class="st">'+fmtNum(e.count)+' ⚡</span></div>';
+    h += '<div class="prrow"><span style="width:26px">'+(medals[i]||((i+1)+'.'))+'</span><span class="nm" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(addrShort(e.name||e.owner||'?'))+'</span><span class="st">'+fmtNum(e.count)+' ⚡</span></div>';
   }
   box.innerHTML = h;
 }
