@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift Upgrade Card — Telegram style</title>
+<style>
+  :root{
+    --tg-bg: #0e1621;
+    --tg-bubble: #182533;
+    --tg-bubble-border: #223040;
+    --tg-text: #e6ecf2;
+    --tg-muted: #8a97a3;
+    --tg-link: #6ab3f3;
+    --tg-accent: #2ea6ff;
+    --tg-time: #6c7a86;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    padding:40px 16px;
+    background:var(--tg-bg);
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(255,255,255,0.03) 0, transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(255,255,255,0.02) 0, transparent 40%);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+
+  .chat-wrap{
+    width:100%;
+    max-width:420px;
+  }
+
+  /* === Входящее сообщение бота === */
+  .msg{
+    position:relative;
+    background:var(--tg-bubble);
+    border:1px solid var(--tg-bubble-border);
+    border-radius:14px;
+    padding:10px 12px 8px 12px;
+    color:var(--tg-text);
+    font-size:14.5px;
+    line-height:1.45;
+    box-shadow:0 1px 2px rgba(0,0,0,0.25);
+  }
+  .msg-title{
+    font-weight:600;
+    margin:0 0 6px 0;
+  }
+  .msg-line{margin:0 0 2px 0; white-space:pre-wrap;}
+  .msg a{color:var(--tg-link); text-decoration:none;}
+  .msg a:hover{text-decoration:underline;}
+  .msg-sep{height:8px;}
+  .msg-hashtags{color:var(--tg-link); margin-top:4px;}
+  .msg-time{
+    text-align:right;
+    font-size:11px;
+    color:var(--tg-time);
+    margin-top:4px;
+  }
+
+  /* === Нативный линк-превью блок (как рендерит сам Telegram у t.me/nft/...) === */
+  .preview{
+    margin-top:10px;
+    background:var(--tg-bubble);
+    border:1px solid var(--tg-bubble-border);
+    border-left:3px solid var(--tg-accent);
+    border-radius:12px;
+    padding:10px 12px 12px 10px;
+    position:relative;
+    overflow:hidden;
+  }
+  .preview-site{
+    font-size:12.5px;
+    color:var(--tg-accent);
+    font-weight:600;
+    margin-bottom:2px;
+  }
+  .preview-title{
+    font-size:14.5px;
+    font-weight:700;
+    color:var(--tg-text);
+    margin-bottom:8px;
+  }
+
+  .gift-stage{
+    position:relative;
+    width:100%;
+    aspect-ratio:1/1;
+    border-radius:10px;
+    overflow:hidden;
+    background:radial-gradient(circle at 50% 40%, #3a2560 0%, #1c1033 60%, #120a22 100%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .gift-stage img, .gift-stage #lottie-holder{
+    width:72%;
+    height:72%;
+    object-fit:contain;
+    filter:drop-shadow(0 6px 18px rgba(0,0,0,0.45));
+    animation: giftFloat 3.2s ease-in-out infinite;
+  }
+  @keyframes giftFloat{
+    0%,100%{ transform: translateY(0) rotate(-1.2deg); }
+    50%{ transform: translateY(-6px) rotate(1.2deg); }
+  }
+
+  /* блик, пробегающий по карточке — имитирует "живой" вид подарка */
+  .gift-stage::after{
+    content:"";
+    position:absolute;
+    top:0; left:-150%;
+    width:60%; height:100%;
+    background:linear-gradient(
+      75deg,
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0.18) 45%,
+      rgba(255,255,255,0.35) 50%,
+      rgba(255,255,255,0.18) 55%,
+      rgba(255,255,255,0) 100%
+    );
+    transform:skewX(-20deg);
+    animation: shineSweep 3.2s ease-in-out infinite;
+  }
+  @keyframes shineSweep{
+    0%{ left:-150%; }
+    45%{ left:150%; }
+    100%{ left:150%; }
+  }
+
+  /* мягкое пульсирующее сияние вокруг подарка */
+  .gift-glow{
+    position:absolute;
+    inset:0;
+    border-radius:10px;
+    box-shadow: inset 0 0 40px rgba(142, 94, 255, 0.0);
+    animation: glowPulse 2.6s ease-in-out infinite;
+    pointer-events:none;
+  }
+  @keyframes glowPulse{
+    0%,100%{ box-shadow: inset 0 0 30px rgba(142, 94, 255, 0.08); }
+    50%{ box-shadow: inset 0 0 55px rgba(142, 94, 255, 0.22); }
+  }
+
+  .gift-btn{
+    display:block;
+    width:100%;
+    margin-top:10px;
+    padding:9px 0;
+    text-align:center;
+    background:transparent;
+    border:none;
+    border-top:1px solid var(--tg-bubble-border);
+    color:var(--tg-accent);
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.2px;
+    cursor:pointer;
+    text-transform:uppercase;
+  }
+  .gift-btn:hover{ background:rgba(46,166,255,0.06); }
+
+  .hint{
+    max-width:420px;
+    margin:16px auto 0;
+    color:#6c7a86;
+    font-size:12.5px;
+    line-height:1.5;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+
+<div class="chat-wrap">
+  <div class="msg" id="msg">
+    <!-- заполняется из CONFIG через render() -->
+  </div>
+
+  <div class="preview">
+    <div class="preview-site">Telegram</div>
+    <div class="preview-title" id="previewTitle">Victory Medal #106717</div>
+    <div class="gift-stage" id="giftStage">
+      <div class="gift-glow"></div>
+      <img id="giftImg" src="" alt="gift" />
+      <div id="lottie-holder" style="display:none;"></div>
+    </div>
+    <button class="gift-btn" id="giftBtn">Показать подарок</button>
+  </div>
+
+  <div class="hint" id="apiStatus">⏳ Подключение к серверу...</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie_light.min.js"></script>
+<script>
+/* ============================================================
+   КОНФИГ — ПРАВЬ ТУТ (или прокидывай из своего бэкенда/бота)
+   ============================================================ */
+const CONFIG = {
+  giftName:    "Victory Medals",
+  nftNumber:   106717,
+  issuedTotal: 106717,
+  issuedCap:   124608,
+  minutesAgo:  2,
+  ownerShort:  "",            // например "EQAbc...xyz1" — оставь пустым, если строку "Владелец" показывать не нужно
+  slug:        "victorymedal", // для ссылки t.me/nft/<slug>-<number>
+
+  // картинка/анимация подарка — подставь свои реальные ссылки
+  imageUrl:    "https://i.imgur.com/8pSElfK.png", // заглушка; замени на реальное превью подарка
+  lottieUrl:   "",             // если есть прямой .json (Lottie) — впишется сюда и анимация будет как у Telegram
+
+  // === АВТООБНОВЛЕНИЕ (как в боте) ===
+  apiUrl:      "/api/latest",   // API твоего сервера (gift_server/server.js)
+  refreshMs:   60000,           // обновление раз в 60 сек (можно хоть 10000 = 10 сек)
+  autoMode:    true,            // true = тянет свежие апгрейды сам
+};
+
+function minutesAgoText(min){
+  if (min < 60) return `${min} мин. назад`;
+  const h = Math.floor(min/60), m = min % 60;
+  return `${h} ч. ${m} мин. назад`;
+}
+
+function render(cfg){
+  const link = `https://t.me/nft/${cfg.slug}-${cfg.nftNumber}`;
+  const ownerLine = cfg.ownerShort ? `👤 Владелец: <code>${cfg.ownerShort}</code>\n` : "";
+
+  document.getElementById("msg").innerHTML = `
+    <p class="msg-title msg-line">🚀 НОВОЕ УЛУЧШЕНИЕ: ${cfg.giftName} #${cfg.issuedTotal.toLocaleString('ru-RU')}!</p>
+    <p class="msg-line">🎁 Подарок: ${cfg.giftName}</p>
+    <p class="msg-line">🏷️ NFT: #${cfg.nftNumber.toLocaleString('ru-RU')}</p>
+    ${ownerLine ? `<p class="msg-line">${ownerLine}</p>` : ``}
+    <p class="msg-line">🕐 Улучшено: ${minutesAgoText(cfg.minutesAgo)}</p>
+    <p class="msg-line">📊 Улучшено всего (Telegram): ${cfg.issuedTotal.toLocaleString('ru-RU')} из ${cfg.issuedCap.toLocaleString('ru-RU')}</p>
+    <div class="msg-sep"></div>
+    <p class="msg-line">🔗 <a href="${link}" target="_blank">Подарок</a> · <a href="https://t.me/mrkt" target="_blank">MRKT</a> · <a href="https://t.me/portals" target="_blank">Portals</a></p>
+    <p class="msg-hashtags">#TelegramGifts #NFT #${cfg.giftName.replace(/\s+/g,'')}</p>
+    <div class="msg-time">${new Date().toLocaleTimeString("ru-RU",{hour:"2-digit",minute:"2-digit"})}</div>
+  `;
+
+  document.getElementById("previewTitle").textContent = `${cfg.giftName.replace(/s$/, '')} #${cfg.nftNumber}`;
+  document.getElementById("giftBtn").onclick = () => window.open(link, "_blank");
+
+  const img = document.getElementById("giftImg");
+  const lottieHolder = document.getElementById("lottie-holder");
+
+  if (cfg.lottieUrl) {
+    // Если дан прямой .json — играем РЕАЛЬНУЮ анимацию (как в самом Telegram)
+    img.style.display = "none";
+    lottieHolder.style.display = "block";
+    lottieHolder.style.width = "72%";
+    lottieHolder.style.height = "72%";
+    lottie.loadAnimation({
+      container: lottieHolder,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      path: cfg.lottieUrl
+    });
+  } else {
+    img.style.display = "block";
+    lottieHolder.style.display = "none";
+    img.src = cfg.imageUrl;
+  }
+}
+
+render(CONFIG);
+
+/* ============================================================
+   АВТООБНОВЛЕНИЕ: опрашивает /api/latest твоего сервера
+   каждые refreshMs и перерисовывает карточку свежим апгрейдом.
+   ============================================================ */
+let lastRenderedAddr = "";
+
+async function pollApi(){
+  const status = document.getElementById("apiStatus");
+  try{
+    const r = await fetch(CONFIG.apiUrl, {cache: "no-store"});
+    if(!r.ok) throw new Error(r.status);
+    const data = await r.json();
+    const now = new Date().toLocaleTimeString("ru-RU");
+    const u = (data.upgrades||[])[0];
+    if(u){
+      // перерисовываем только если апгрейд новый
+      if(u.nft_address && u.nft_address === lastRenderedAddr){
+        status.textContent = "🟢 Live · " + now + " · слежу за " + (data.upgrades.length) + " апгрейдами";
+        return;
+      }
+      lastRenderedAddr = u.nft_address || "";
+      render({
+        giftName:    (u.gift_display||u.gift_slug||"").split(" #")[0],
+        nftNumber:   u.nft_number || 0,
+        issuedTotal: u.counter_issued || u.nft_number || 0,
+        issuedCap:   u.counter_total || 0,
+        minutesAgo:  Math.max(0, Math.round((Date.now()/1000 - (u.mint_time||Date.now()/1000))/60)),
+        ownerShort:   (u.owner||"").slice(0,6) + "..." + (u.owner||"").slice(-4),
+        slug:        (u.gift_slug||"").toLowerCase(),
+        imageUrl:    CONFIG.imageUrl,
+        lottieUrl:   CONFIG.lottieUrl,
+      });
+      status.textContent = "🟢 Live · " + now + " · новый апгрейд!";
+    } else {
+      status.textContent = "🟢 Live · " + now + " · новых апгрейдов пока нет (сервер следит)";
+    }
+  }catch(e){
+    const status2 = document.getElementById("apiStatus");
+    status2.textContent = "🟡 Сервер не отвечает — показываю демо. Запусти: node server.js";
+  }
+}
+
+if(CONFIG.autoMode){
+  pollApi();
+  setInterval(pollApi, CONFIG.refreshMs);
+}
+
+/* ============================================================
+   Хочешь брать данные с СВОЕГО сервера вместо CONFIG вручную?
+   Пример (просто раскомментируй и подставь свой API):
+
+   fetch("https://твой-сервер.ру/api/last-upgrade")
+     .then(r => r.json())
+     .then(data => render({ ...CONFIG, ...data }));
+   ============================================================ */
+</script>
+
+</body>
+</html>
