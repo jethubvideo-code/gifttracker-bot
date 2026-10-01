@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T23:24:00.709Z",
- "updated_unix": 1790897040,
- "runs": 1831,
+ "updated": "2026-10-01T23:24:31.075Z",
+ "updated_unix": 1790897071,
+ "runs": 1832,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1254,
- "sent_total": 41207,
+ "detected_total": 1255,
+ "sent_total": 41240,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 138,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790895538,
-   "counter_issued": 138,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T23:00:06.262Z"
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T23:23:51.786Z"
+  },
+  {
+   "slug": "FreshSocks",
+   "gift": "FreshSocks",
+   "number": 165936,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790897004,
+   "counter_issued": 165936,
+   "counter_total": 200509,
+   "img": "https://cdn4.telesco.pe/file/ONjOzLl70YhV5dQwtdm7U6SIJIe95YuXwcM0nJXs-rLt57HByGVaeieqMD-ojPX1MLf3vasugGQB36sukTjcdLevCknUS4aMNUxa8MFZhLHYYNWcXJp3HfcE7ga_-Ej31FW2M6HDicPHlF_IohWKnlqXAEe4XjkU0ViB_5Ah5OqrmTamCvP6DoPnF_ZU7vyIu1dHhLNvNm0qQx7ZuCy1gHW0TAbx7WIbT6sYDuXMtmMr1NE6Ldu99WnehFqfaXa8mgcNGamqQTb9nBQgoKY0JcgEjG6rCAEj8oi9lJZjiQ0H9crHxrWN4lYv8hI5a5imidRXqGEnfOqNFFeydK9-Aw.jpg",
+   "sent": 33,
+   "time": "2026-10-01T23:24:31.074Z"
   }
  ]
 }
