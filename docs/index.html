@@ -2,132 +2,269 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gift NFT Monitor — апгрейды подарков</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Gift Monitor — апгрейды Telegram Gifts</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
-  --bg:#070b12;--card:rgba(255,255,255,.045);--card2:rgba(255,255,255,.028);
-  --line:rgba(255,255,255,.09);--line2:rgba(255,255,255,.16);
-  --gold:#ffc94d;--gold2:#f0a92e;--green:#2ee6a8;--red:#ff5d7a;--blue:#4d9cff;
-  --tx:#f2f4ff;--tx2:#96a3c2;--tx3:#5f6f95;
+  --bg:#0b0d12;--sur:#141924;--sur2:#1a2130;--line:rgba(255,255,255,.065);
+  --line2:rgba(255,255,255,.14);--tx:#eceff7;--tx2:#8e99b0;--tx3:#5a6478;
+  --acc:#4da6ff;--acc2:#2f7fe0;--good:#2fd08a;--bad:#ff6b81;--gold:#f5b63f;
+  --r-lg:20px;--r-md:14px;--r-sm:10px;
 }
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:var(--tx);background:var(--bg);
-background-image:radial-gradient(58% 30% at 15% -4%,rgba(77,156,255,.14),transparent 62%),
-radial-gradient(46% 28% at 96% 2%,rgba(142,92,246,.13),transparent 60%),
-radial-gradient(70% 40% at 50% 115%,rgba(46,230,168,.07),transparent 60%);
-background-attachment:fixed;letter-spacing:.01em;padding:16px 14px 60px;max-width:860px;margin:0 auto;
--webkit-font-smoothing:antialiased}
-a{color:var(--blue)}
-/* header */
-.hd{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
-.hd h1{font-size:20px;font-weight:900;
-background:linear-gradient(100deg,#fff 10%,#9cc7ff 35%,#d3b6ff 55%,#ffd76a 75%,#fff 90%);
-background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
-animation:tslide 7s ease-in-out infinite}
-@keyframes tslide{0%,100%{background-position:0 0}50%{background-position:100% 0}}
-.badge{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:800;padding:7px 12px;border-radius:999px;letter-spacing:.02em}
-.badge.ok{background:rgba(46,230,168,.1);border:1px solid rgba(46,230,168,.3);color:var(--green)}
-.badge.bad{background:rgba(255,93,122,.1);border:1px solid rgba(255,93,122,.3);color:var(--red)}
-.pl{width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor;position:relative;flex-shrink:0}
-.badge.ok .pl{animation:pulse 1.6s infinite}
-.badge.ok .pl::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid rgba(46,230,168,.55);animation:ping 1.6s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
-@keyframes ping{0%{transform:scale(.5);opacity:1}80%,100%{transform:scale(2);opacity:0}}
-.tickbar{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--tx2);font-weight:700;margin-bottom:14px}
-.tickbar .spin{display:inline-block;width:12px;height:12px;border:2px solid rgba(46,230,168,.3);border-top-color:var(--green);border-radius:50%;animation:spin 1s linear infinite}
-@keyframes spin{to{transform:rotate(1turn)}}
-/* stats */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:18px}
-@media(max-width:560px){.stats{grid-template-columns:repeat(2,1fr)}}
-.st{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;
-padding:12px 10px;text-align:center;box-shadow:0 8px 24px -12px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.05)}
-.st .ic{font-size:16px}
-.st .v{font-size:17px;font-weight:900;font-variant-numeric:tabular-nums;margin-top:3px;
-background:linear-gradient(135deg,#ffd76a,#f0a92e);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
-filter:drop-shadow(0 0 10px rgba(255,201,77,.2))}
-.st .l{font-size:9px;color:var(--tx2);text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-top:3px}
-/* sections */
-h2{font-size:15.5px;font-weight:850;margin:20px 0 10px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;position:relative;padding-left:12px}
-h2::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:4px;height:15px;border-radius:3px;
-background:linear-gradient(180deg,#ffd76a,#f0a92e);box-shadow:0 0 8px rgba(255,201,77,.45)}
-h2 small{color:var(--tx3);font-size:10.5px;font-weight:600}
-/* feed cards */
-.card{background:linear-gradient(165deg,var(--card) 0%,var(--card2) 100%);border:1px solid var(--line);border-radius:16px;
-padding:15px;margin-bottom:12px;box-shadow:0 8px 28px -12px rgba(0,0,0,.7);animation:fu .4s ease}
-.card.new{border-color:rgba(255,201,77,.6);box-shadow:0 10px 32px -10px rgba(255,201,77,.35);animation:fu .4s ease,newglow 2.4s ease-in-out 2}
-@keyframes newglow{0%,100%{box-shadow:0 10px 32px -10px rgba(255,201,77,.3)}50%{box-shadow:0 12px 38px -8px rgba(255,201,77,.55)}}
-@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.card img{width:100%;max-height:380px;object-fit:contain;border-radius:12px;margin-bottom:12px;background:rgba(255,255,255,.03)}
-.card .title{font-size:16px;font-weight:850;margin-bottom:10px}
-.card .row{display:flex;align-items:center;gap:8px;padding:3.5px 0;font-size:13px;color:#c9d4e8;line-height:1.45}
-.card .row .ic{width:18px;text-align:center;flex-shrink:0}
-.card .row b{color:var(--tx)}
-.card .row code{background:rgba(255,255,255,.06);padding:1px 6px;border-radius:6px;font-size:11px;color:#9cc7ff}
-.links{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0 9px}
-.links a{flex:1;min-width:100px;text-align:center;text-decoration:none;font-size:12px;font-weight:800;padding:9px 10px;border-radius:11px;color:#fff;transition:.15s;
-box-shadow:inset 0 1px 0 rgba(255,255,255,.2)}
-.links a:active{transform:scale(.95)}
-.l-tg{background:linear-gradient(135deg,#4d9cff,#1f7fe8);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 14px -4px rgba(77,156,255,.5)}
-.l-mr{background:linear-gradient(135deg,#9a6cff,#7c3aed);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 14px -4px rgba(142,92,246,.5)}
-.l-pt{background:linear-gradient(135deg,#12c99a,#0aa07e);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 14px -4px rgba(46,230,168,.5)}
-.tags{font-size:11px;color:var(--tx3);font-weight:700;margin-bottom:8px}
-.meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:9px;margin-top:2px;font-size:11px;color:var(--tx2);font-weight:600}
-/* search */
-.qwrap{position:sticky;top:0;z-index:5;padding:6px 0 10px;background:linear-gradient(180deg,var(--bg) 70%,transparent)}
-#q{width:100%;background:rgba(255,255,255,.05);border:1px solid var(--line2);border-radius:12px;color:var(--tx);
-padding:12px 16px;font-size:14.5px;font-weight:500;outline:none;transition:.2s}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif;
+font-size:15px;line-height:1.45;letter-spacing:-.006em;-webkit-font-smoothing:antialiased;
+background-image:radial-gradient(52% 30% at 18% -3%,rgba(77,166,255,.07),transparent 60%);
+background-repeat:no-repeat}
+.wrap{max-width:680px;margin:0 auto;padding:18px 16px 0}
+a{color:var(--acc);text-decoration:none}
+.num{font-variant-numeric:tabular-nums}
+
+/* ── header ── */
+header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.brand svg{flex-shrink:0;filter:drop-shadow(0 4px 14px rgba(77,166,255,.35))}
+.floaty{animation:floaty 4.5s ease-in-out infinite}
+@keyframes floaty{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(4deg)}}
+.bname{font-size:17px;font-weight:800;letter-spacing:-.02em}
+.bsub{font-size:11.5px;color:var(--tx3);font-weight:600;margin-top:1px}
+.live{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:700;
+padding:7px 12px 7px 10px;border-radius:999px;border:1px solid var(--line);background:var(--sur);white-space:nowrap}
+.live .dot{width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 8px var(--good);animation:pulse 1.8s infinite}
+.live.off .dot{background:var(--bad);box-shadow:0 0 8px var(--bad);animation:none}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ── status line + countdown ring ── */
+.statusline{display:flex;align-items:center;gap:9px;margin:14px 0 16px;padding:9px 13px;
+background:var(--sur);border:1px solid var(--line);border-radius:var(--r-md);font-size:12px;color:var(--tx2);font-weight:600}
+.ringwrap{width:22px;height:22px;transform:rotate(-90deg);flex-shrink:0}
+.ringwrap circle{fill:none;stroke-width:2.6}
+#ringbg{stroke:rgba(255,255,255,.09)}
+#ring{stroke:var(--acc);stroke-linecap:round;stroke-dasharray:50.3;transition:stroke-dashoffset 1s linear}
+.statusline .sep{flex:1}
+#updated{color:var(--tx3)}
+
+/* ── stats ── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:22px}
+@media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--sur);border:1px solid var(--line);border-radius:var(--r-md);padding:12px 13px}
+.stat .lbl{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.07em;font-weight:800}
+.stat .lbl svg{opacity:.55}
+.stat .val{font-size:19px;font-weight:800;margin-top:5px;letter-spacing:-.02em}
+
+/* ── section head ── */
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 2px 12px}
+.sechead h2{font-size:15px;font-weight:800;letter-spacing:-.01em}
+.sechead .hint{font-size:11px;color:var(--tx3);font-weight:600}
+
+/* ── upgrade card (3D) ── */
+.ucard{position:relative;background:var(--sur);border:1px solid var(--line);border-radius:var(--r-lg);
+overflow:hidden;margin-bottom:14px;transform-style:preserve-3d;
+transition:transform .3s cubic-bezier(.2,.7,.3,1),box-shadow .3s;will-change:transform;
+box-shadow:0 10px 30px -18px rgba(0,0,0,.8)}
+.ucard.tilt:hover{box-shadow:0 18px 44px -18px rgba(0,0,0,.85),0 0 0 1px rgba(77,166,255,.12)}
+.ucard::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .25s;
+background:radial-gradient(260px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.075),transparent 55%)}
+.ucard.tilt:hover::after{opacity:1}
+.ucard.new{border-color:rgba(245,182,63,.45)}
+.ucard.new::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:2;pointer-events:none;
+background:linear-gradient(115deg,transparent 30%,rgba(245,182,63,.16) 46%,rgba(255,255,255,.14) 50%,rgba(245,182,63,.16) 54%,transparent 70%);
+background-size:250% 100%;animation:sweep 1.4s ease-out 1}
+@keyframes sweep{from{background-position:120% 0}to{background-position:-60% 0}}
+@keyframes cardin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ucard{animation:cardin .38s ease both}
+.umedia{background:var(--sur2);border-bottom:1px solid var(--line)}
+.umedia img{display:block;width:100%;max-height:360px;object-fit:contain;transform:translateZ(24px)}
+.ubody{padding:15px 16px 14px}
+.kicker{display:flex;align-items:center;gap:8px;font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
+.kicker .nb{color:var(--gold);background:rgba(245,182,63,.1);border:1px solid rgba(245,182,63,.3);
+border-radius:6px;padding:1px 7px;font-size:9.5px;letter-spacing:.06em}
+.utitle{font-size:16.5px;font-weight:800;margin:8px 0 10px;letter-spacing:-.01em}
+.utitle .n{color:var(--tx2);font-weight:700}
+.urows{display:grid;gap:5px}
+.urow{display:flex;gap:9px;font-size:13.5px;color:var(--tx2);align-items:baseline}
+.urow .ic{width:17px;flex-shrink:0;text-align:center;font-size:13px}
+.urow b{color:var(--tx);font-weight:700}
+.urow code{background:rgba(255,255,255,.05);border:1px solid var(--line);padding:0 6px;border-radius:6px;
+font-size:11.5px;color:var(--tx2);font-family:ui-monospace,Menlo,monospace}
+.ubtns{display:flex;gap:8px;margin:14px 0 12px}
+.ubtns a{flex:1;text-align:center;font-size:12.5px;font-weight:800;padding:10px 8px;border-radius:var(--r-sm);transition:transform .15s}
+.ubtns a:active{transform:scale(.95)}
+.b-primary{color:#fff;background:linear-gradient(180deg,#57adff,#3a86ea);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 4px 14px -4px rgba(77,166,255,.55)}
+.b-ghost{color:var(--tx);background:rgba(255,255,255,.04);border:1px solid var(--line2)}
+.utags{font-size:11px;color:var(--tx3);font-weight:700;margin-bottom:10px}
+.umeta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;border-top:1px solid var(--line);
+padding-top:10px;font-size:11.5px;color:var(--tx3);font-weight:600}
+.empty{padding:34px 18px;text-align:center;color:var(--tx3);font-size:13.5px;font-weight:600;
+border:1px dashed var(--line2);border-radius:var(--r-lg)}
+
+/* ── skeleton ── */
+.sk{background:var(--sur);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;margin-bottom:14px}
+.sk-i{height:170px;background:var(--sur2)}
+.sk-l{height:13px;border-radius:7px;margin:14px 16px 0;background:rgba(255,255,255,.05);animation:pulse2 1.4s ease-in-out infinite}
+.sk-l:last-child{margin-bottom:16px}
+.w90{width:90%}.w70{width:70%}.w55{width:55%}
+@keyframes pulse2{0%,100%{opacity:1}50%{opacity:.45}}
+
+/* ── gifts tab ── */
+.searchrow{position:relative;margin-bottom:10px}
+.searchrow svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--tx3)}
+#q{width:100%;background:var(--sur);border:1px solid var(--line);border-radius:var(--r-md);color:var(--tx);
+padding:13px 15px 13px 42px;font-size:14.5px;outline:none;transition:border-color .2s,box-shadow .2s}
 #q::placeholder{color:var(--tx3)}
-#q:focus{border-color:rgba(77,156,255,.7);box-shadow:0 0 0 3px rgba(77,156,255,.14)}
-/* gifts table */
-.grow{display:flex;align-items:center;gap:10px;background:linear-gradient(165deg,var(--card),var(--card2));
-border:1px solid var(--line);border-radius:13px;padding:11px 13px;margin-bottom:8px;transition:border-color .2s}
+#q:focus{border-color:rgba(77,166,255,.6);box-shadow:0 0 0 3px rgba(77,166,255,.12)}
+.chips{display:flex;gap:7px;overflow-x:auto;padding-bottom:2px;margin-bottom:12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;font-size:12px;font-weight:800;padding:8px 14px;border-radius:999px;cursor:pointer;
+background:var(--sur);border:1px solid var(--line);color:var(--tx2);transition:.18s}
+.chip.on{background:rgba(77,166,255,.14);border-color:rgba(77,166,255,.45);color:var(--acc)}
+.gmeta{font-size:11.5px;color:var(--tx3);font-weight:700;margin:0 2px 10px}
+.grow{display:flex;align-items:center;gap:12px;background:var(--sur);border:1px solid var(--line);
+border-radius:var(--r-md);padding:12px 13px;margin-bottom:8px;transition:border-color .2s}
 .grow:hover{border-color:var(--line2)}
-.grow .nm{flex:1;min-width:0}
-.grow .nm a{color:var(--tx);text-decoration:none;font-size:13px;font-weight:800}
-.grow .bar{height:4px;border-radius:4px;background:rgba(150,163,194,.16);margin-top:6px;overflow:hidden}
-.grow .bar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--green))}
-.grow .qty{font-size:13px;font-weight:900;font-variant-numeric:tabular-nums;flex-shrink:0}
-.grow .qty .tt{display:block;font-size:9.5px;color:var(--tx3);font-weight:700}
-.grow .mkts{display:flex;gap:5px;flex-shrink:0}
-.grow .mkts a{font-size:10px;font-weight:900;text-decoration:none;padding:7px 10px;border-radius:9px;color:#fff}
-.m1{background:linear-gradient(135deg,#9a6cff,#7c3aed)}
-.m2{background:linear-gradient(135deg,#12c99a,#0aa07e)}
-.empty{color:var(--tx2);text-align:center;padding:28px;font-size:13.5px;font-weight:700;background:var(--card2);
-border:1px dashed var(--line2);border-radius:14px;margin-bottom:12px}
-footer{text-align:center;color:var(--tx3);font-size:10.5px;font-weight:600;margin-top:22px;line-height:1.7}
-a:focus-visible,#q:focus-visible{outline:2px solid rgba(255,201,77,.7);outline-offset:2px}
+.grow:active{border-color:rgba(77,166,255,.4)}
+.gmain{flex:1;min-width:0}
+.gname{font-size:13.5px;font-weight:800;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gbar{height:4px;border-radius:4px;background:rgba(255,255,255,.07);margin-top:7px;overflow:hidden}
+.gbar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--acc2),var(--acc));transition:width .6s ease}
+.gnum{flex-shrink:0;text-align:right}
+.gnum .v{font-size:14px;font-weight:800}
+.gnum .s{display:block;font-size:10px;color:var(--tx3);font-weight:700;margin-top:1px}
+.gmk{flex-shrink:0;display:flex;gap:5px}
+.gmk a{font-size:10px;font-weight:900;padding:7px 9px;border-radius:8px;color:var(--tx2);
+background:rgba(255,255,255,.04);border:1px solid var(--line2);transition:.15s}
+.gmk a:active{transform:scale(.92);color:var(--acc)}
+@media(max-width:430px){.gmk a:first-child{display:none}}
+
+/* ── info tab ── */
+.icard{background:var(--sur);border:1px solid var(--line);border-radius:var(--r-lg);padding:17px 16px;margin-bottom:12px}
+.icard h3{font-size:14px;font-weight:800;margin-bottom:10px;display:flex;align-items:center;gap:9px}
+.icard h3 svg{color:var(--acc)}
+.icard ul{list-style:none;display:grid;gap:8px}
+.icard li{display:flex;gap:10px;font-size:13.5px;color:var(--tx2)}
+.icard li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--acc);flex-shrink:0;margin-top:7px;opacity:.8}
+.icard li b{color:var(--tx)}
+.cta{display:block;text-align:center;font-size:14px;font-weight:800;color:#fff;padding:14px;
+border-radius:var(--r-md);background:linear-gradient(180deg,#57adff,#3a86ea);
+box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 6px 18px -6px rgba(77,166,255,.55);transition:transform .15s}
+.cta:active{transform:scale(.97)}
+.sign{font-size:10.5px;color:var(--tx3);text-align:center;margin:18px 0 8px;line-height:1.7;font-weight:600}
+
+/* ── tabbar ── */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;justify-content:center;gap:6px;
+padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:rgba(11,13,18,.88);
+backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line)}
+.tabbar .inner{display:flex;gap:6px;width:100%;max-width:680px}
+.tab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 4px;
+border:none;background:none;color:var(--tx3);font-size:10.5px;font-weight:800;cursor:pointer;border-radius:var(--r-md);transition:color .18s}
+.tab svg{transition:transform .18s}
+.tab.on{color:var(--acc)}
+.tab.on svg{transform:translateY(-1px) scale(1.08)}
+.dotnew{position:absolute;top:4px;left:calc(50% + 12px);width:8px;height:8px;border-radius:50%;
+background:var(--gold);box-shadow:0 0 8px var(--gold);display:none}
+main{padding-bottom:100px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
-<div class="hd">
-  <h1>🚀 Gift NFT Monitor</h1>
-  <div id="badge" class="badge ok"><span class="pl"></span><span id="btext">проверяю…</span></div>
-</div>
-<div class="tickbar"><span class="spin"></span><span id="tick">автообновление через 30 сек…</span><span id="updated" style="margin-left:auto"></span></div>
+<div class="wrap">
+<header>
+  <div class="brand">
+    <svg class="floaty" width="38" height="38" viewBox="0 0 24 24" fill="none">
+      <defs><linearGradient id="dg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#57adff"/><stop offset="1" stop-color="#2f7fe0"/></linearGradient></defs>
+      <path d="M12 2L20.5 8.5 12 22 3.5 8.5 12 2Z" fill="url(#dg)"/>
+      <path d="M12 2L15.5 8.5 12 22 8.5 8.5 12 2Z" fill="rgba(255,255,255,.18)"/>
+      <path d="M3.5 8.5H20.5" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+    </svg>
+    <div><div class="bname">Gift Monitor</div><div class="bsub">апгрейды Telegram Gifts</div></div>
+  </div>
+  <div id="badge" class="live"><span class="dot"></span><span id="btext">проверяю…</span></div>
+</header>
 
-<section class="stats">
-  <div class="st"><div class="ic">🎁</div><div class="v" id="t-collections">—</div><div class="l">Коллекций</div></div>
-  <div class="st"><div class="ic">🚀</div><div class="v" id="t-detected">—</div><div class="l">Апгрейдов поймано</div></div>
-  <div class="st"><div class="ic">📨</div><div class="v" id="t-sent">—</div><div class="l">Уведомлений</div></div>
-  <div class="st"><div class="ic">⚙️</div><div class="v" id="t-runs">—</div><div class="l">Прогонов движка</div></div>
+<div class="statusline">
+  <svg class="ringwrap" width="22" height="22"><circle id="ringbg" cx="8" cy="8" r="8"/><circle id="ring" cx="8" cy="8" r="8"/></svg>
+  <span id="tick">автообновление…</span><span class="sep"></span><span id="updated"></span>
+</div>
+
+<main>
+<section id="tab-feed">
+  <div class="stats">
+    <div class="stat"><div class="lbl"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7c-2.5 0-5-2-5-4 2 0 5 1 5 4 0-3 3-4 5-4 0 2-2.5 4-5 4"/></svg>Коллекций</div><div class="val num" id="t-collections">—</div></div>
+    <div class="stat"><div class="lbl"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg>Апгрейдов</div><div class="val num" id="t-detected">—</div></div>
+    <div class="stat"><div class="lbl"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg>Уведомлений</div><div class="val num" id="t-sent">—</div></div>
+    <div class="stat"><div class="lbl"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4M4.2 4.2l2.8 2.8m10 10 2.8 2.8M1 12h4m14 0h4M4.2 19.8l2.8-2.8m10-10 2.8-2.8"/></svg>Прогонов</div><div class="val num" id="t-runs">—</div></div>
+  </div>
+  <div class="sechead"><h2>Лента апгрейдов</h2><span class="hint">обновляется сама · 30 сек</span></div>
+  <div id="events">
+    <div class="sk"><div class="sk-i"></div><div class="sk-l w55"></div><div class="sk-l w90"></div><div class="sk-l w70"></div></div>
+    <div class="sk"><div class="sk-i"></div><div class="sk-l w55"></div><div class="sk-l w90"></div><div class="sk-l w70"></div></div>
+  </div>
 </section>
 
-<h2>📡 Лента апгрейдов <small>как только подарок улучшат — появится здесь автоматически</small></h2>
-<div id="events"></div>
+<section id="tab-gifts" style="display:none">
+  <div class="searchrow">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="Поиск подарка" autocomplete="off">
+  </div>
+  <div class="chips">
+    <button class="chip on" data-f="all">Все</button>
+    <button class="chip" data-f="hot">Почти готово · ≥90%</button>
+    <button class="chip" data-f="soon">Мало · &lt;70%</button>
+    <button class="chip" data-f="top">Топ по выдано</button>
+  </div>
+  <div class="gmeta" id="gupd"></div>
+  <div id="grows"></div>
+</section>
 
-<h2>📋 Все подарки <small id="gupd"></small></h2>
-<div class="qwrap"><input id="q" type="search" placeholder="🔍 Поиск подарка…" autocomplete="off"></div>
-<div id="grows"></div>
+<section id="tab-info" style="display:none">
+  <div class="icard">
+    <h3><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2v6m0 0 3-3m-3 3L9 5M5 12a7 7 0 0 0 7 7 7 7 0 0 0 7-7M12 19v3"/></svg>Как это работает</h3>
+    <ul>
+      <li><span>Движок на серверах <b>GitHub</b> каждые ~3 минуты проверяет все <b>120 коллекций</b> Telegram Gifts.</span></li>
+      <li><span>Как только подарок улучшают до NFT — событие сразу попадает сюда и в бот <b>@Trackingonebot</b>.</span></li>
+      <li><span>Страница обновляет данные сама каждые <b>30 секунд</b>. Просто оставьте открытой.</span></li>
+    </ul>
+  </div>
+  <div class="icard">
+    <h3><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg>Что значат цифры</h3>
+    <ul>
+      <li><span><b>Коллекций</b> — подарков под наблюдением.</span></li>
+      <li><span><b>Апгрейдов</b> — улучшений поймано с запуска ленты.</span></li>
+      <li><span><b>Уведомлений</b> — сообщений доставлено подписчикам.</span></li>
+      <li><span><b>Прогонов</b> — циклов проверки движка.</span></li>
+    </ul>
+  </div>
+  <div class="icard">
+    <h3><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7c-2.5 0-5-2-5-4 2 0 5 1 5 4 0-3 3-4 5-4 0 2-2.5 4-5 4"/></svg>Бесплатно и без лимитов</h3>
+    <ul>
+      <li><span>Все апгрейды всех <b>120 подарков</b> — бесплатно для всех.</span></li>
+      <li><span>Подписка в боте: жми <b>🔔 Подписки</b> и выбирай подарки.</span></li>
+      <li><span>Работает на инфраструктуре GitHub — стабильно 24/7.</span></li>
+    </ul>
+  </div>
+  <a class="cta" href="https://t.me/Trackingonebot" id="openbot">Открыть бота @Trackingonebot</a>
+  <div class="sign">Собрано вручную: HTML, CSS и JS в одном файле.<br>Без конструкторов, шаблонов и трекеров.</div>
+</section>
+</main>
+</div>
 
-<footer>Движок GitHub Actions обновляет данные каждые ~3 минуты · страница обновляется сама каждые 30 секунд, без перезагрузки<br>Все апгрейды всех подарков — бесплатно · @Trackingonebot</footer>
+<nav class="tabbar"><div class="inner">
+  <button id="btn-feed" class="tab on"><i class="dotnew" id="dot-feed"></i><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg>Лента</button>
+  <button id="btn-gifts" class="tab"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Подарки</button>
+  <button id="btn-info" class="tab"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v6m0-9v.01"/></svg>Инфо</button>
+</div></nav>
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
-// Telegram Mini App: раскрыть на весь экран (в обычном браузере молча пропускается)
+// Telegram Mini App: раскрыть на весь экран (в браузере молча пропускается)
 if (window.Telegram && Telegram.WebApp) {
-  try { Telegram.WebApp.ready(); Telegram.WebApp.expand(); Telegram.WebApp.setHeaderColor("#070b12"); Telegram.WebApp.setBackgroundColor("#070b12"); } catch (e) {}
+  try { Telegram.WebApp.ready(); Telegram.WebApp.expand(); Telegram.WebApp.setHeaderColor("#0b0d12"); Telegram.WebApp.setBackgroundColor("#0b0d12"); } catch (e) {}
+}
+function haptic(kind) {
+  try { if (window.Telegram && Telegram.WebApp.HapticFeedback) Telegram.WebApp.HapticFeedback.impactOccurred(kind || "light"); } catch (e) {}
 }
 function esc(s) { return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 function fmt(n) { return Number(n || 0).toLocaleString("ru-RU"); }
@@ -139,11 +276,11 @@ function ago(unix) {
   return Math.floor(s/86400) + " дн. назад";
 }
 function shortAddr(a) { return a.length > 12 ? a.slice(0,6) + "…" + a.slice(-4) : a; }
-var GIFTS = [];
-var LAST_NEW = null;      // время самого свежего апгрейда, который уже видели
-var PREV = {};             // прежние значения статов (для count-up)
 
-// плавный счётчик цифр
+var GIFTS = [], LAST_NEW = null, PREV = {}, UNSEEN = 0, TAB = "feed", FILTER = "all";
+var BASE = "https://jethubvideo-code.github.io/gifttracker-bot/";
+
+// плавный счётчик
 function countUp(id, val) {
   var el = document.getElementById(id); if (!el) return;
   var t = Math.round(val) || 0, from = PREV[id];
@@ -160,6 +297,23 @@ function countUp(id, val) {
   PREV[id] = t; requestAnimationFrame(step);
 }
 
+// 3D-наклон карточек (только там, где есть мышь/указатель)
+function bindTilt() {
+  if (!(window.matchMedia && matchMedia("(hover:hover)").matches)) return;
+  var els = document.querySelectorAll(".ucard");
+  for (var i = 0; i < els.length; i++) (function(el){
+    if (el._tilt) return; el._tilt = 1; el.classList.add("tilt");
+    el.addEventListener("pointermove", function(ev){
+      var r = el.getBoundingClientRect();
+      var x = (ev.clientX - r.left) / r.width, y = (ev.clientY - r.top) / r.height;
+      el.style.transform = "perspective(950px) rotateX(" + ((0.5 - y) * 5).toFixed(2) + "deg) rotateY(" + ((x - 0.5) * 7).toFixed(2) + "deg)";
+      el.style.setProperty("--mx", (x * 100).toFixed(1) + "%");
+      el.style.setProperty("--my", (y * 100).toFixed(1) + "%");
+    });
+    el.addEventListener("pointerleave", function(){ el.style.transform = ""; });
+  })(els[i]);
+}
+
 function card(e, isNew) {
   var slug = e.slug || "";
   var gift = e.gift || slug;
@@ -168,92 +322,153 @@ function card(e, isNew) {
   var giftLink = "https://t.me/nft/" + slug.toLowerCase() + (num ? "-" + num : "");
   var mrkt = "https://t.me/mrkt?startapp=" + slug.toLowerCase();
   var portals = "https://t.me/portals/market?startapp=" + slug.toLowerCase();
-  var h = '<div class="card' + (isNew ? " new" : "") + '">';
-  if (e.img) h += '<img src="' + esc(e.img) + '" alt="' + esc(gift) + '" loading="lazy" onerror="this.style.display=\'none\'">';
-  h += '<div class="title">🚀 НОВОЕ УЛУЧШЕНИЕ: ' + esc(gift) + (e.counter_issued ? " #" + fmt(e.counter_issued) : "") + "</div>";
-  h += '<div class="row"><span class="ic">🎁</span><span class="tx">Подарок: <b>' + esc(gift) + "</b></span></div>";
-  if (num) h += '<div class="row"><span class="ic">🏷️</span><span class="tx">NFT: <b>#' + fmt(num) + "</b></span></div>";
-  if (e.owner_addr) h += '<div class="row"><span class="ic">👤</span><span class="tx">Владелец: ' + (e.owner ? esc(e.owner) + " (" : "") + '<code>' + esc(shortAddr(e.owner_addr)) + "</code>" + (e.owner ? ")" : "") + "</span></div>";
-  h += '<div class="row"><span class="ic">🕐</span><span class="tx">Улучшено: ' + esc(mint ? new Date(mint*1000).toLocaleString("ru-RU") : new Date(e.time).toLocaleString("ru-RU")) + "</span></div>";
-  if (e.counter_issued) h += '<div class="row"><span class="ic">📊</span><span class="tx">Улучшено всего (Telegram): <b>' + fmt(e.counter_issued) + "</b> из <b>" + fmt(e.counter_total) + "</b></span></div>";
-  h += '<div class="links"><a class="l-tg" href="' + giftLink + '" target="_blank">🔗 Подарок</a><a class="l-mr" href="' + mrkt + '" target="_blank">🛒 MRKT</a><a class="l-pt" href="' + portals + '" target="_blank">🆔 Portals</a></div>';
-  h += '<div class="tags">#TelegramGifts #NFT #' + esc(slug) + "</div>";
-  h += '<div class="meta"><span>' + esc(new Date(e.time).toLocaleString("ru-RU")) + "</span><span>📨 " + fmt(e.sent) + " уведомлений</span></div>";
-  return h + "</div>";
+  var h = '<article class="ucard' + (isNew ? " new" : "") + '">';
+  if (e.img) h += '<div class="umedia"><img src="' + esc(e.img) + '" alt="' + esc(gift) + '" loading="lazy" onerror="this.parentNode.style.display=\'none\'"></div>';
+  h += '<div class="ubody">';
+  h += '<div class="kicker">🚀 Новое улучшение' + (isNew ? ' <span class="nb">новое</span>' : "") + "</div>";
+  h += '<div class="utitle">' + esc(gift) + (e.counter_issued ? ' <span class="n num">#' + fmt(e.counter_issued) + "</span>" : "") + "</div>";
+  h += '<div class="urows">';
+  h += '<div class="urow"><span class="ic">🎁</span><span>Подарок: <b>' + esc(gift) + "</b></span></div>";
+  if (num) h += '<div class="urow"><span class="ic">🏷️</span><span>NFT: <b class="num">#' + fmt(num) + "</b></span></div>";
+  if (e.owner_addr) h += '<div class="urow"><span class="ic">👤</span><span>Владелец: ' + (e.owner ? "<b>" + esc(e.owner) + "</b> " : "") + '<code>' + esc(shortAddr(e.owner_addr)) + "</code></span></div>";
+  h += '<div class="urow"><span class="ic">🕐</span><span>Улучшено: <b>' + esc(mint ? new Date(mint*1000).toLocaleString("ru-RU") : new Date(e.time).toLocaleString("ru-RU")) + "</b></span></div>";
+  if (e.counter_issued) h += '<div class="urow"><span class="ic">📊</span><span>Улучшено всего (Telegram): <b class="num">' + fmt(e.counter_issued) + "</b> из <b class=\"num\">" + fmt(e.counter_total) + "</b></span></div>";
+  h += "</div>";
+  h += '<div class="ubtns"><a class="b-primary" href="' + giftLink + '" target="_blank">🔗 Подарок</a><a class="b-ghost" href="' + mrkt + '" target="_blank">🛒 MRKT</a><a class="b-ghost" href="' + portals + '" target="_blank">🆔 Portals</a></div>';
+  h += '<div class="utags">#TelegramGifts #NFT #' + esc(slug) + "</div>";
+  h += '<div class="umeta"><span>' + esc(new Date(e.time).toLocaleString("ru-RU")) + "</span><span>📨 " + fmt(e.sent) + " уведомлений</span></div>";
+  h += "</div></article>";
+  return h;
 }
+
 function renderGifts() {
   var q = document.getElementById("q").value.trim().toLowerCase();
-  var list = GIFTS.filter(function(g){ return !q || (g.name||"").toLowerCase().indexOf(q) >= 0 || (g.slug||"").toLowerCase().indexOf(q) >= 0; });
+  var list = GIFTS.filter(function(g){
+    if (q && (g.name||"").toLowerCase().indexOf(q) < 0 && (g.slug||"").toLowerCase().indexOf(q) < 0) return false;
+    var pct = g.total ? g.issued / g.total : 0;
+    if (FILTER === "hot" && pct < 0.9) return false;
+    if (FILTER === "soon" && pct >= 0.7) return false;
+    return true;
+  });
+  if (FILTER === "top") list = list.slice().sort(function(a,b){ return (b.issued||0) - (a.issued||0); }).slice(0, 30);
   var box = document.getElementById("grows");
   if (!list.length) { box.innerHTML = '<div class="empty">Ничего не найдено</div>'; return; }
-  box.innerHTML = list.map(function(g) {
-    var pct = g.total ? Math.min(100, Math.round(g.issued / g.total * 10000) / 100) : 0;
+  box.innerHTML = list.map(function(g){
+    var pct = g.total ? Math.min(100, Math.round(g.issued / g.total * 1000) / 10) : 0;
     var link = "https://t.me/nft/" + (g.slug || "").toLowerCase() + "-" + (g.issued || 1);
     return '<div class="grow">'
-      + '<div class="nm"><a href="' + link + '" target="_blank">' + esc(g.name) + '</a><div class="bar"><i style="width:' + pct + '%"></i></div></div>'
-      + '<div class="qty"><b>' + fmt(g.issued) + '</b> <span class="tt">из ' + fmt(g.total) + " · " + pct + '%</span></div>'
-      + '<div class="mkts"><a class="m1" href="https://t.me/mrkt?startapp=' + esc(g.slug).toLowerCase() + '" target="_blank">MRKT</a>'
-      + '<a class="m2" href="https://t.me/portals/market?startapp=' + esc(g.slug).toLowerCase() + '" target="_blank">PRT</a></div>'
+      + '<div class="gmain"><div class="gname"><a href="' + link + '" target="_blank" style="color:inherit">' + esc(g.name) + '</a></div>'
+      + '<div class="gbar"><i style="width:' + pct + '%"></i></div></div>'
+      + '<div class="gnum"><span class="v num">' + fmt(g.issued) + '</span><span class="s num">из ' + fmt(g.total) + " · " + pct + "%</span></div>"
+      + '<div class="gmk"><a href="https://t.me/mrkt?startapp=' + esc(g.slug).toLowerCase() + '" target="_blank">MRKT</a>'
+      + '<a href="https://t.me/portals/market?startapp=' + esc(g.slug).toLowerCase() + '" target="_blank">PRT</a></div>'
       + "</div>";
   }).join("");
 }
+
 function render(d) {
   var fresh = d.updated_unix && (Math.floor(Date.now()/1000) - d.updated_unix) < 900;
   var badge = document.getElementById("badge");
-  badge.className = "badge " + (fresh ? "ok" : "bad");
+  badge.className = "live" + (fresh ? "" : " off");
   var b = document.getElementById("btext");
   if (b.dataset) { b.dataset.u = d.updated_unix || 0; b.dataset.ok = fresh ? "1" : "0"; }
-  document.getElementById("btext").textContent = fresh
-    ? "Бот живой — движок работает · " + ago(d.updated_unix)
-    : "Последний прогон был " + ago(d.updated_unix || 0) + " — возможна задержка GitHub";
+  b.textContent = fresh ? "LIVE · " + ago(d.updated_unix) : "движок: " + ago(d.updated_unix || 0);
   countUp("t-collections", d.collections || 0);
   countUp("t-runs", d.runs || 0);
   countUp("t-detected", d.detected_total || 0);
   countUp("t-sent", d.sent_total || 0);
   var box = document.getElementById("events");
   var evs = (d.last_upgrades || []).slice().reverse();
-  if (!evs.length) { box.innerHTML = '<div class="empty">Пока ни одного апгрейда с момента запуска ленты — как только подарок улучшат, он появится здесь автоматически</div>'; }
-  else {
-    // определить новые апгрейды (появились после прошлого просмотра)
-    var newest = evs[0].time;
-    var html = evs.map(function(e) {
-      var isNew = LAST_NEW !== null && e.time > LAST_NEW;
-      return card(e, isNew);
-    }).join("");
-    box.innerHTML = html;
-    LAST_NEW = newest;
+  if (!evs.length) {
+    box.innerHTML = '<div class="empty">Пока ни одного апгрейда с момента запуска ленты.<br>Как только подарок улучшат — он появится здесь сам.</div>';
+  } else {
+    var newCount = 0;
+    if (LAST_NEW !== null) for (var i = 0; i < evs.length; i++) if (evs[i].time > LAST_NEW) newCount++;
+    box.innerHTML = evs.map(function(e){ return card(e, LAST_NEW !== null && e.time > LAST_NEW); }).join("");
+    if (LAST_NEW !== null && newCount > 0) {
+      if (TAB !== "feed") { UNSEEN += newCount; document.getElementById("dot-feed").style.display = "block"; }
+      haptic("medium");
+      document.title = "🔥 " + newCount + " — Gift Monitor";
+    }
+    LAST_NEW = evs[0].time;
   }
+  bindTilt();
   document.getElementById("updated").textContent = "данные: " + new Date((d.updated_unix||0)*1000).toLocaleTimeString("ru-RU");
 }
+
 function renderGiftsMeta(g) {
   GIFTS = g.gifts || [];
-  document.getElementById("gupd").textContent = fmt(g.count) + " подарков · обновлена " + new Date((g.updated_unix||0)*1000).toLocaleTimeString("ru-RU");
+  document.getElementById("gupd").textContent = fmt(g.count) + " подарков · обновлено " + new Date((g.updated_unix||0)*1000).toLocaleTimeString("ru-RU");
   renderGifts();
 }
+
 function load() {
-  fetch("https://jethubvideo-code.github.io/gifttracker-bot/status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(d){
+  fetch(BASE + "status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(d){
     render(d);
-    // если движок успел обновить gifts.json раньше — подгрузить и его
-    fetch("https://jethubvideo-code.github.io/gifttracker-bot/gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(renderGiftsMeta).catch(function(){});
+    fetch(BASE + "gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(renderGiftsMeta).catch(function(){});
   }).catch(function(){
-    document.getElementById("btext").textContent = "Статус ещё не готов — движок ещё не сделал первый прогон";
+    document.getElementById("btext").textContent = "нет связи — попробую ещё через 30 сек";
   });
 }
+
+// табы
+function showTab(name) {
+  TAB = name;
+  var tabs = ["feed", "gifts", "info"];
+  for (var i = 0; i < tabs.length; i++) {
+    var t = tabs[i];
+    document.getElementById("tab-" + t).style.display = (t === name) ? "" : "none";
+    document.getElementById("btn-" + t).className = "tab" + (t === name ? " on" : "");
+  }
+  if (name === "feed") {
+    UNSEEN = 0;
+    var dot = document.getElementById("dot-feed"); if (dot) dot.style.display = "none";
+    document.title = "Gift Monitor — апгрейды Telegram Gifts";
+  }
+  haptic("light");
+  window.scrollTo(0, 0);
+}
+document.getElementById("btn-feed").addEventListener("click", function(){ showTab("feed"); });
+document.getElementById("btn-gifts").addEventListener("click", function(){ showTab("gifts"); });
+document.getElementById("btn-info").addEventListener("click", function(){ showTab("info"); });
+
+// чипы-фильтры
+var chips = document.querySelectorAll(".chip");
+for (var ci = 0; ci < chips.length; ci++) (function(ch){
+  ch.addEventListener("click", function(){
+    for (var j = 0; j < chips.length; j++) chips[j].className = "chip";
+    ch.className = "chip on";
+    FILTER = ch.getAttribute("data-f") || "all";
+    renderGifts();
+    haptic("light");
+  });
+})(chips[ci]);
+document.getElementById("q").addEventListener("input", renderGifts);
+
+// кнопка «Открыть бота» — нативно в Telegram
+document.getElementById("openbot").addEventListener("click", function(ev){
+  try {
+    if (window.Telegram && Telegram.WebApp && Telegram.WebApp.openTelegramLink) {
+      ev.preventDefault();
+      Telegram.WebApp.openTelegramLink("https://t.me/Trackingonebot");
+    }
+  } catch (e) {}
+});
+
 load();
-// ── автообновление: каждые 30 сек сами, с видимым таймером ──
-var SET = 30, c = SET;
+// ── автообновление: каждые 30 сек сами, кольцо-таймер ──
+var SET = 30, c = SET, CIRC = 50.3;
 setInterval(function(){
   c--;
   if (c <= 0) { c = SET; document.getElementById("tick").textContent = "обновляю…"; load(); return; }
-  document.getElementById("tick").textContent = "автообновление через " + c + " сек…";
-  // живой счётчик «движок: X мин назад» в бейдже
+  document.getElementById("tick").textContent = "автообновление · " + c + " с";
+  var ring = document.getElementById("ring");
+  if (ring) ring.style.strokeDashoffset = (CIRC * (1 - c / SET)).toFixed(2);
   var b = document.getElementById("btext");
   if (b.dataset && b.dataset.u) b.textContent = (b.dataset.ok === "1"
-    ? "Бот живой — движок работает · " + ago(+b.dataset.u)
-    : "Последний прогон был " + ago(+b.dataset.u) + " — возможна задержка GitHub");
+    ? "LIVE · " + ago(+b.dataset.u)
+    : "движок: " + ago(+b.dataset.u));
 }, 1000);
-// поиск: перерисовка таблицы на лету
-document.getElementById("q").addEventListener("input", renderGifts);
 </script>
 </body>
 </html>
