@@ -1,0 +1,28 @@
+name: New Gift Watch
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: new-gift-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run new gift watch
+        run: node gift-monitor/actions/new-gift-job.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN }}
+          TONAPI_KEY: ${{ vars.TONAPI_KEY }}
+          CRYPT_KEY: ${{ vars.CRYPT_KEY }}
