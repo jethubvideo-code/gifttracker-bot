@@ -5,103 +5,129 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gift NFT Monitor — апгрейды подарков</title>
 <style>
-  :root { color-scheme: dark; }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: #0d1117; color: #e6edf3; padding: 24px 16px 48px; max-width: 680px; margin: 0 auto;
-  }
-  h1 { font-size: 22px; margin-bottom: 4px; }
-  .sub { color: #8b949e; font-size: 13px; margin-bottom: 18px; }
-  .badge { display: flex; align-items: center; gap: 10px; padding: 12px 16px; border-radius: 12px;
-    font-weight: 700; font-size: 15px; margin-bottom: 18px; }
-  .ok   { background: rgba(35,134,54,.15);  color: #3fb950; border: 1px solid #238635; }
-  .bad  { background: rgba(248,81,73,.12);  color: #f85149; border: 1px solid #da3633; }
-  .dot  { width: 12px; height: 12px; border-radius: 50%; flex: 0 0 12px; }
-  .ok .dot { background: #3fb950; box-shadow: 0 0 10px #3fb950; animation: p 2s infinite; }
-  .bad .dot { background: #f85149; box-shadow: 0 0 10px #f85149; }
-  @keyframes p { 50% { opacity: .5; } }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px,1fr)); gap: 10px; margin-bottom: 22px; }
-  .tile { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; }
-  .tile .v { font-size: 22px; font-weight: 800; }
-  .tile .k { font-size: 11px; color: #8b949e; margin-top: 2px; }
-  h2 { font-size: 15px; color: #8b949e; margin: 4px 0 12px; font-weight: 600; }
-  .card { background: #161b22; border: 1px solid #30363d; border-radius: 14px; padding: 16px; margin-bottom: 12px; }
-  .card .title { font-size: 16px; font-weight: 800; margin-bottom: 10px; }
-  .row { display: flex; font-size: 14px; line-height: 1.7; }
-  .row .ic { flex: 0 0 24px; }
-  .row .tx { color: #e6edf3; word-break: break-word; }
-  code { background: #21262d; padding: 1px 6px; border-radius: 6px; font-size: 13px; }
-  .links { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
-  .links a { background: #1f6feb22; border: 1px solid #1f6feb55; color: #58a6ff; padding: 5px 12px;
-    border-radius: 8px; font-size: 13px; font-weight: 600; text-decoration: none; }
-  .links a:hover { background: #1f6feb44; }
-  .tags { color: #58a6ff; font-size: 12px; margin-top: 10px; opacity: .75; }
-  .meta { display: flex; justify-content: space-between; align-items: center; margin-top: 10px;
-    padding-top: 10px; border-top: 1px solid #21262d; font-size: 12px; color: #8b949e; }
-  .meta .snt { color: #3fb950; font-weight: 700; }
-  .empty { color: #8b949e; font-size: 14px; padding: 16px 0; }
-  .q { width: 100%; background: #161b22; border: 1px solid #30363d; color: #e6edf3; border-radius: 10px;
-    padding: 12px 16px; font-size: 15px; margin-bottom: 10px; outline: none; }
-  .q:focus { border-color: #1f6feb; }
-  .gtab { background: #161b22; border: 1px solid #30363d; border-radius: 12px; overflow: hidden; margin-bottom: 8px; }
-  .ghead, .grow { display: grid; grid-template-columns: 1fr 150px 84px; gap: 8px; align-items: center; padding: 11px 14px; }
-  .ghead { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: .4px;
-    border-bottom: 1px solid #21262d; background: #10151c; }
-  .grow { border-bottom: 1px solid #21262d; font-size: 14px; }
-  .grow:last-child { border-bottom: none; }
-  .grow:hover { background: #1c2129; }
-  .grow .nm { font-weight: 700; word-break: break-word; }
-  .grow .nm a { color: #e6edf3; text-decoration: none; }
-  .grow .nm a:hover { color: #58a6ff; }
-  .qty { font-size: 13px; color: #e6edf3; }
-  .qty .tt { color: #8b949e; font-size: 11px; }
-  .bar { height: 5px; background: #21262d; border-radius: 3px; margin-top: 5px; overflow: hidden; }
-  .bar i { display: block; height: 100%; background: linear-gradient(90deg,#1f6feb,#3fb950); border-radius: 3px; }
-  .mkts { display: flex; gap: 4px; }
-  .mkts a { font-size: 10px; font-weight: 700; text-decoration: none; padding: 3px 6px; border-radius: 6px; }
-  .mkts .m1 { background: #1f6feb22; color: #58a6ff; }
-  .mkts .m2 { background: #a371f722; color: #a371f7; }
-  .mkts .m3 { background: #f0883e22; color: #f0883e; }
-  .gupd { color: #8b949e; font-size: 12px; margin: 2px 0 24px; }
-  .foot { margin-top: 28px; color: #8b949e; font-size: 12px; line-height: 1.7; border-top: 1px solid #21262d; padding-top: 14px; }
-  a { color: #58a6ff; text-decoration: none; }
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#070b12;--card:rgba(255,255,255,.045);--card2:rgba(255,255,255,.028);
+  --line:rgba(255,255,255,.09);--line2:rgba(255,255,255,.16);
+  --gold:#ffc94d;--gold2:#f0a92e;--green:#2ee6a8;--red:#ff5d7a;--blue:#4d9cff;
+  --tx:#f2f4ff;--tx2:#96a3c2;--tx3:#5f6f95;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:var(--tx);background:var(--bg);
+background-image:radial-gradient(58% 30% at 15% -4%,rgba(77,156,255,.14),transparent 62%),
+radial-gradient(46% 28% at 96% 2%,rgba(142,92,246,.13),transparent 60%),
+radial-gradient(70% 40% at 50% 115%,rgba(46,230,168,.07),transparent 60%);
+background-attachment:fixed;letter-spacing:.01em;padding:16px 14px 60px;max-width:860px;margin:0 auto;
+-webkit-font-smoothing:antialiased}
+a{color:var(--blue)}
+/* header */
+.hd{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.hd h1{font-size:20px;font-weight:900;
+background:linear-gradient(100deg,#fff 10%,#9cc7ff 35%,#d3b6ff 55%,#ffd76a 75%,#fff 90%);
+background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+animation:tslide 7s ease-in-out infinite}
+@keyframes tslide{0%,100%{background-position:0 0}50%{background-position:100% 0}}
+.badge{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:800;padding:7px 12px;border-radius:999px;letter-spacing:.02em}
+.badge.ok{background:rgba(46,230,168,.1);border:1px solid rgba(46,230,168,.3);color:var(--green)}
+.badge.bad{background:rgba(255,93,122,.1);border:1px solid rgba(255,93,122,.3);color:var(--red)}
+.pl{width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor;position:relative;flex-shrink:0}
+.badge.ok .pl{animation:pulse 1.6s infinite}
+.badge.ok .pl::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid rgba(46,230,168,.55);animation:ping 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+@keyframes ping{0%{transform:scale(.5);opacity:1}80%,100%{transform:scale(2);opacity:0}}
+.tickbar{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--tx2);font-weight:700;margin-bottom:14px}
+.tickbar .spin{display:inline-block;width:12px;height:12px;border:2px solid rgba(46,230,168,.3);border-top-color:var(--green);border-radius:50%;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(1turn)}}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:18px}
+@media(max-width:560px){.stats{grid-template-columns:repeat(2,1fr)}}
+.st{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;
+padding:12px 10px;text-align:center;box-shadow:0 8px 24px -12px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.05)}
+.st .ic{font-size:16px}
+.st .v{font-size:17px;font-weight:900;font-variant-numeric:tabular-nums;margin-top:3px;
+background:linear-gradient(135deg,#ffd76a,#f0a92e);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+filter:drop-shadow(0 0 10px rgba(255,201,77,.2))}
+.st .l{font-size:9px;color:var(--tx2);text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-top:3px}
+/* sections */
+h2{font-size:15.5px;font-weight:850;margin:20px 0 10px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;position:relative;padding-left:12px}
+h2::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:4px;height:15px;border-radius:3px;
+background:linear-gradient(180deg,#ffd76a,#f0a92e);box-shadow:0 0 8px rgba(255,201,77,.45)}
+h2 small{color:var(--tx3);font-size:10.5px;font-weight:600}
+/* feed cards */
+.card{background:linear-gradient(165deg,var(--card) 0%,var(--card2) 100%);border:1px solid var(--line);border-radius:16px;
+padding:15px;margin-bottom:12px;box-shadow:0 8px 28px -12px rgba(0,0,0,.7);animation:fu .4s ease}
+.card.new{border-color:rgba(255,201,77,.6);box-shadow:0 10px 32px -10px rgba(255,201,77,.35);animation:fu .4s ease,newglow 2.4s ease-in-out 2}
+@keyframes newglow{0%,100%{box-shadow:0 10px 32px -10px rgba(255,201,77,.3)}50%{box-shadow:0 12px 38px -8px rgba(255,201,77,.55)}}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.card img{width:100%;max-height:380px;object-fit:contain;border-radius:12px;margin-bottom:12px;background:rgba(255,255,255,.03)}
+.card .title{font-size:16px;font-weight:850;margin-bottom:10px}
+.card .row{display:flex;align-items:center;gap:8px;padding:3.5px 0;font-size:13px;color:#c9d4e8;line-height:1.45}
+.card .row .ic{width:18px;text-align:center;flex-shrink:0}
+.card .row b{color:var(--tx)}
+.card .row code{background:rgba(255,255,255,.06);padding:1px 6px;border-radius:6px;font-size:11px;color:#9cc7ff}
+.links{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0 9px}
+.links a{flex:1;min-width:100px;text-align:center;text-decoration:none;font-size:12px;font-weight:800;padding:9px 10px;border-radius:11px;color:#fff;transition:.15s;
+box-shadow:inset 0 1px 0 rgba(255,255,255,.2)}
+.links a:active{transform:scale(.95)}
+.l-tg{background:linear-gradient(135deg,#4d9cff,#1f7fe8);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 14px -4px rgba(77,156,255,.5)}
+.l-mr{background:linear-gradient(135deg,#9a6cff,#7c3aed);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 14px -4px rgba(142,92,246,.5)}
+.l-pt{background:linear-gradient(135deg,#12c99a,#0aa07e);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 14px -4px rgba(46,230,168,.5)}
+.tags{font-size:11px;color:var(--tx3);font-weight:700;margin-bottom:8px}
+.meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:9px;margin-top:2px;font-size:11px;color:var(--tx2);font-weight:600}
+/* search */
+.qwrap{position:sticky;top:0;z-index:5;padding:6px 0 10px;background:linear-gradient(180deg,var(--bg) 70%,transparent)}
+#q{width:100%;background:rgba(255,255,255,.05);border:1px solid var(--line2);border-radius:12px;color:var(--tx);
+padding:12px 16px;font-size:14.5px;font-weight:500;outline:none;transition:.2s}
+#q::placeholder{color:var(--tx3)}
+#q:focus{border-color:rgba(77,156,255,.7);box-shadow:0 0 0 3px rgba(77,156,255,.14)}
+/* gifts table */
+.grow{display:flex;align-items:center;gap:10px;background:linear-gradient(165deg,var(--card),var(--card2));
+border:1px solid var(--line);border-radius:13px;padding:11px 13px;margin-bottom:8px;transition:border-color .2s}
+.grow:hover{border-color:var(--line2)}
+.grow .nm{flex:1;min-width:0}
+.grow .nm a{color:var(--tx);text-decoration:none;font-size:13px;font-weight:800}
+.grow .bar{height:4px;border-radius:4px;background:rgba(150,163,194,.16);margin-top:6px;overflow:hidden}
+.grow .bar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--green))}
+.grow .qty{font-size:13px;font-weight:900;font-variant-numeric:tabular-nums;flex-shrink:0}
+.grow .qty .tt{display:block;font-size:9.5px;color:var(--tx3);font-weight:700}
+.grow .mkts{display:flex;gap:5px;flex-shrink:0}
+.grow .mkts a{font-size:10px;font-weight:900;text-decoration:none;padding:7px 10px;border-radius:9px;color:#fff}
+.m1{background:linear-gradient(135deg,#9a6cff,#7c3aed)}
+.m2{background:linear-gradient(135deg,#12c99a,#0aa07e)}
+.empty{color:var(--tx2);text-align:center;padding:28px;font-size:13.5px;font-weight:700;background:var(--card2);
+border:1px dashed var(--line2);border-radius:14px;margin-bottom:12px}
+footer{text-align:center;color:var(--tx3);font-size:10.5px;font-weight:600;margin-top:22px;line-height:1.7}
+a:focus-visible,#q:focus-visible{outline:2px solid rgba(255,201,77,.7);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
-<h1>🤖 Gift NFT Monitor</h1>
-<div class="sub">Апгрейды Telegram Gifts — живая лента и таблица всех подарков. Работает полностью на серверах GitHub</div>
-
-<div id="badge" class="badge bad"><span class="dot"></span><span id="btext">Проверяю статус…</span></div>
-
-<div class="grid">
-  <div class="tile"><div class="v" id="t-collections">—</div><div class="k">Коллекций под наблюдением</div></div>
-  <div class="tile"><div class="v" id="t-runs">—</div><div class="k">Прогонов движка</div></div>
-  <div class="tile"><div class="v" id="t-detected">—</div><div class="k">Апгрейдов поймано</div></div>
-  <div class="tile"><div class="v" id="t-sent">—</div><div class="k">Уведомлений отправлено</div></div>
+<div class="hd">
+  <h1>🚀 Gift NFT Monitor</h1>
+  <div id="badge" class="badge ok"><span class="pl"></span><span id="btext">проверяю…</span></div>
 </div>
+<div class="tickbar"><span class="spin"></span><span id="tick">автообновление через 30 сек…</span><span id="updated" style="margin-left:auto"></span></div>
 
-<h2>🚀 Последние улучшения подарков</h2>
-<div id="events"><div class="empty">Загружаю…</div></div>
+<section class="stats">
+  <div class="st"><div class="ic">🎁</div><div class="v" id="t-collections">—</div><div class="l">Коллекций</div></div>
+  <div class="st"><div class="ic">🚀</div><div class="v" id="t-detected">—</div><div class="l">Апгрейдов поймано</div></div>
+  <div class="st"><div class="ic">📨</div><div class="v" id="t-sent">—</div><div class="l">Уведомлений</div></div>
+  <div class="st"><div class="ic">⚙️</div><div class="v" id="t-runs">—</div><div class="l">Прогонов движка</div></div>
+</section>
 
-<h2>🎁 Все подарки под наблюдением</h2>
-<input class="q" id="q" type="text" placeholder="🔍 Поиск подарка по названию…" oninput="renderGifts()">
-<div class="gtab"><div class="ghead"><span>Подарок</span><span>Улучшено (Telegram)</span><span>Маркеты</span></div><div id="grows"><div class="grow" style="border:none;color:#8b949e">Загружаю…</div></div></div>
-<div class="gupd" id="gupd"></div>
+<h2>📡 Лента апгрейдов <small>как только подарок улучшат — появится здесь автоматически</small></h2>
+<div id="events"></div>
 
-<div class="foot">
-  Движок опрашивает официальные счётчики Telegram Gifts каждые 5 минут, обогащает данные через TON API
-  и рассылает уведомления подписчикам бота. Лента и таблица обновляются автоматически.<br>
-  Логи: <a href="https://github.com/jethubvideo-code/gifttracker-bot/actions" target="_blank">GitHub Actions</a> ·
-  Исходники: <a href="https://github.com/jethubvideo-code/gifttracker-bot" target="_blank">репозиторий</a>
-  <div id="updated" style="margin-top:6px"></div>
-</div>
+<h2>📋 Все подарки <small id="gupd"></small></h2>
+<div class="qwrap"><input id="q" type="search" placeholder="🔍 Поиск подарка…" autocomplete="off"></div>
+<div id="grows"></div>
+
+<footer>Движок GitHub Actions обновляет данные каждые ~3 минуты · страница обновляется сама каждые 30 секунд, без перезагрузки<br>Все апгрейды всех подарков — бесплатно · @Trackingonebot</footer>
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
 // Telegram Mini App: раскрыть на весь экран (в обычном браузере молча пропускается)
 if (window.Telegram && Telegram.WebApp) {
-  try { Telegram.WebApp.ready(); Telegram.WebApp.expand(); Telegram.WebApp.setHeaderColor("#0d1117"); Telegram.WebApp.setBackgroundColor("#0d1117"); } catch (e) {}
+  try { Telegram.WebApp.ready(); Telegram.WebApp.expand(); Telegram.WebApp.setHeaderColor("#070b12"); Telegram.WebApp.setBackgroundColor("#070b12"); } catch (e) {}
 }
 function esc(s) { return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 function fmt(n) { return Number(n || 0).toLocaleString("ru-RU"); }
@@ -114,7 +140,27 @@ function ago(unix) {
 }
 function shortAddr(a) { return a.length > 12 ? a.slice(0,6) + "…" + a.slice(-4) : a; }
 var GIFTS = [];
-function card(e) {
+var LAST_NEW = null;      // время самого свежего апгрейда, который уже видели
+var PREV = {};             // прежние значения статов (для count-up)
+
+// плавный счётчик цифр
+function countUp(id, val) {
+  var el = document.getElementById(id); if (!el) return;
+  var t = Math.round(val) || 0, from = PREV[id];
+  if (from === undefined || from === t || (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+    PREV[id] = t; el.textContent = fmt(t); return;
+  }
+  var st = null, dur = 550;
+  function step(ts) {
+    if (!st) st = ts;
+    var p = Math.min(1, (ts - st) / dur); p = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmt(Math.round(from + (t - from) * p));
+    if (p < 1) requestAnimationFrame(step);
+  }
+  PREV[id] = t; requestAnimationFrame(step);
+}
+
+function card(e, isNew) {
   var slug = e.slug || "";
   var gift = e.gift || slug;
   var num = e.number || e.counter_issued || 0;
@@ -122,15 +168,15 @@ function card(e) {
   var giftLink = "https://t.me/nft/" + slug.toLowerCase() + (num ? "-" + num : "");
   var mrkt = "https://t.me/mrkt?startapp=" + slug.toLowerCase();
   var portals = "https://t.me/portals/market?startapp=" + slug.toLowerCase();
-  var h = '<div class="card">';
-  if (e.img) h += '<img src="' + esc(e.img) + '" alt="' + esc(gift) + '" loading="lazy" style="width:100%;max-height:420px;object-fit:contain;border-radius:10px;margin-bottom:12px;background:#21262d" onerror="this.style.display=\'none\'">';
+  var h = '<div class="card' + (isNew ? " new" : "") + '">';
+  if (e.img) h += '<img src="' + esc(e.img) + '" alt="' + esc(gift) + '" loading="lazy" onerror="this.style.display=\'none\'">';
   h += '<div class="title">🚀 НОВОЕ УЛУЧШЕНИЕ: ' + esc(gift) + (e.counter_issued ? " #" + fmt(e.counter_issued) : "") + "</div>";
   h += '<div class="row"><span class="ic">🎁</span><span class="tx">Подарок: <b>' + esc(gift) + "</b></span></div>";
   if (num) h += '<div class="row"><span class="ic">🏷️</span><span class="tx">NFT: <b>#' + fmt(num) + "</b></span></div>";
   if (e.owner_addr) h += '<div class="row"><span class="ic">👤</span><span class="tx">Владелец: ' + (e.owner ? esc(e.owner) + " (" : "") + '<code>' + esc(shortAddr(e.owner_addr)) + "</code>" + (e.owner ? ")" : "") + "</span></div>";
   h += '<div class="row"><span class="ic">🕐</span><span class="tx">Улучшено: ' + esc(mint ? new Date(mint*1000).toLocaleString("ru-RU") : new Date(e.time).toLocaleString("ru-RU")) + "</span></div>";
   if (e.counter_issued) h += '<div class="row"><span class="ic">📊</span><span class="tx">Улучшено всего (Telegram): <b>' + fmt(e.counter_issued) + "</b> из <b>" + fmt(e.counter_total) + "</b></span></div>";
-  h += '<div class="links"><a href="' + giftLink + '" target="_blank">🔗 Подарок</a><a href="' + mrkt + '" target="_blank">🛒 MRKT</a><a href="' + portals + '" target="_blank">🆔 Portals</a></div>';
+  h += '<div class="links"><a class="l-tg" href="' + giftLink + '" target="_blank">🔗 Подарок</a><a class="l-mr" href="' + mrkt + '" target="_blank">🛒 MRKT</a><a class="l-pt" href="' + portals + '" target="_blank">🆔 Portals</a></div>';
   h += '<div class="tags">#TelegramGifts #NFT #' + esc(slug) + "</div>";
   h += '<div class="meta"><span>' + esc(new Date(e.time).toLocaleString("ru-RU")) + "</span><span>📨 " + fmt(e.sent) + " уведомлений</span></div>";
   return h + "</div>";
@@ -139,7 +185,7 @@ function renderGifts() {
   var q = document.getElementById("q").value.trim().toLowerCase();
   var list = GIFTS.filter(function(g){ return !q || (g.name||"").toLowerCase().indexOf(q) >= 0 || (g.slug||"").toLowerCase().indexOf(q) >= 0; });
   var box = document.getElementById("grows");
-  if (!list.length) { box.innerHTML = '<div class="grow" style="border:none;color:#8b949e">Ничего не найдено</div>'; return; }
+  if (!list.length) { box.innerHTML = '<div class="empty">Ничего не найдено</div>'; return; }
   box.innerHTML = list.map(function(g) {
     var pct = g.total ? Math.min(100, Math.round(g.issued / g.total * 10000) / 100) : 0;
     var link = "https://t.me/nft/" + (g.slug || "").toLowerCase() + "-" + (g.issued || 1);
@@ -155,33 +201,60 @@ function render(d) {
   var fresh = d.updated_unix && (Math.floor(Date.now()/1000) - d.updated_unix) < 900;
   var badge = document.getElementById("badge");
   badge.className = "badge " + (fresh ? "ok" : "bad");
+  var b = document.getElementById("btext");
+  if (b.dataset) { b.dataset.u = d.updated_unix || 0; b.dataset.ok = fresh ? "1" : "0"; }
   document.getElementById("btext").textContent = fresh
-    ? "Бот живой — движок работает · последний прогон " + ago(d.updated_unix)
+    ? "Бот живой — движок работает · " + ago(d.updated_unix)
     : "Последний прогон был " + ago(d.updated_unix || 0) + " — возможна задержка GitHub";
-  document.getElementById("t-collections").textContent = fmt(d.collections);
-  document.getElementById("t-runs").textContent = fmt(d.runs);
-  document.getElementById("t-detected").textContent = fmt(d.detected_total);
-  document.getElementById("t-sent").textContent = fmt(d.sent_total);
+  countUp("t-collections", d.collections || 0);
+  countUp("t-runs", d.runs || 0);
+  countUp("t-detected", d.detected_total || 0);
+  countUp("t-sent", d.sent_total || 0);
   var box = document.getElementById("events");
   var evs = (d.last_upgrades || []).slice().reverse();
   if (!evs.length) { box.innerHTML = '<div class="empty">Пока ни одного апгрейда с момента запуска ленты — как только подарок улучшат, он появится здесь автоматически</div>'; }
-  else { box.innerHTML = evs.map(card).join(""); }
-  document.getElementById("updated").textContent = "Данные обновлены: " + new Date((d.updated_unix||0)*1000).toLocaleString("ru-RU") + " · страница обновляется каждые 60 сек.";
+  else {
+    // определить новые апгрейды (появились после прошлого просмотра)
+    var newest = evs[0].time;
+    var html = evs.map(function(e) {
+      var isNew = LAST_NEW !== null && e.time > LAST_NEW;
+      return card(e, isNew);
+    }).join("");
+    box.innerHTML = html;
+    LAST_NEW = newest;
+  }
+  document.getElementById("updated").textContent = "данные: " + new Date((d.updated_unix||0)*1000).toLocaleTimeString("ru-RU");
+}
+function renderGiftsMeta(g) {
+  GIFTS = g.gifts || [];
+  document.getElementById("gupd").textContent = fmt(g.count) + " подарков · обновлена " + new Date((g.updated_unix||0)*1000).toLocaleTimeString("ru-RU");
+  renderGifts();
 }
 function load() {
-  fetch("status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(render).catch(function(){
-    document.getElementById("btext").textContent = "Статус ещё не готов — движок ещё не сделал первый прогон";
-  });
-  fetch("gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(g){
-    GIFTS = g.gifts || [];
-    document.getElementById("gupd").textContent = "Таблица: " + fmt(g.count) + " подарков · обновлена " + new Date((g.updated_unix||0)*1000).toLocaleString("ru-RU") + " · двигок обновляет каждые 5 минут";
-    renderGifts();
+  clearTimeout(loadT);
+  fetch("status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(d){
+    render(d);
+    // если движок успел обновить gifts.json раньше — подгрузить и его
+    fetch("gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(renderGiftsMeta).catch(function(){});
   }).catch(function(){
-    document.getElementById("gupd").textContent = "Таблица подарков появится после ближайшего прогона движка (до 5 минут)";
+    document.getElementById("btext").textContent = "Статус ещё не готов — движок ещё не сделал первый прогон";
   });
 }
 load();
-setInterval(load, 60000);
+// ── автообновление: каждые 30 сек сами, с видимым таймером ──
+var SET = 30, c = SET;
+setInterval(function(){
+  c--;
+  if (c <= 0) { c = SET; document.getElementById("tick").textContent = "обновляю…"; load(); return; }
+  document.getElementById("tick").textContent = "автообновление через " + c + " сек…";
+  // живой счётчик «движок: X мин назад» в бейдже
+  var b = document.getElementById("btext");
+  if (b.dataset && b.dataset.u) b.textContent = (b.dataset.ok === "1"
+    ? "Бот живой — движок работает · " + ago(+b.dataset.u)
+    : "Последний прогон был " + ago(+b.dataset.u) + " — возможна задержка GitHub");
+}, 1000);
+// поиск: перерисовка таблицы на лету
+document.getElementById("q").addEventListener("input", renderGifts);
 </script>
 </body>
 </html>
