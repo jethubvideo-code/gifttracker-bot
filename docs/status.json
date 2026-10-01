@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T21:20:58.165Z",
- "updated_unix": 1790889658,
- "runs": 1499,
+ "updated": "2026-10-01T21:21:26.108Z",
+ "updated_unix": 1790889686,
+ "runs": 1500,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1031,
- "sent_total": 33852,
+ "detected_total": 1032,
+ "sent_total": 33885,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 445582,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790887388,
-   "counter_issued": 445582,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:44:15.469Z"
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T21:20:26.541Z"
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 389622,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790889620,
+   "counter_issued": 389622,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:21:26.107Z"
   }
  ]
 }
