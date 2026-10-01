@@ -231,11 +231,10 @@ function renderGiftsMeta(g) {
   renderGifts();
 }
 function load() {
-  clearTimeout(loadT);
-  fetch("status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(d){
+  fetch("https://jethubvideo-code.github.io/gifttracker-bot/status.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(d){
     render(d);
     // если движок успел обновить gifts.json раньше — подгрузить и его
-    fetch("gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(renderGiftsMeta).catch(function(){});
+    fetch("https://jethubvideo-code.github.io/gifttracker-bot/gifts.json?t=" + Date.now()).then(function(r){ return r.json(); }).then(renderGiftsMeta).catch(function(){});
   }).catch(function(){
     document.getElementById("btext").textContent = "Статус ещё не готов — движок ещё не сделал первый прогон";
   });
