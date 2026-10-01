@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T23:37:08.811Z",
- "updated_unix": 1790897828,
- "runs": 1869,
+ "updated": "2026-10-01T23:37:39.678Z",
+ "updated_unix": 1790897859,
+ "runs": 1870,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1269,
- "sent_total": 41700,
+ "detected_total": 1270,
+ "sent_total": 41733,
  "last_upgrades": [
-  {
-   "slug": "XmasStocking",
-   "gift": "XmasStocking",
-   "number": 229469,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790896100,
-   "counter_issued": 229469,
-   "counter_total": 334632,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T23:09:26.762Z"
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T23:35:36.119Z"
+  },
+  {
+   "slug": "WhipCupcake",
+   "gift": "WhipCupcake",
+   "number": 281987,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790897792,
+   "counter_issued": 281987,
+   "counter_total": 367619,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T23:37:39.676Z"
   }
  ]
 }
