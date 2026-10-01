@@ -128,7 +128,7 @@ function card(e) {
   h += '<div class="row"><span class="ic">🎁</span><span class="tx">Подарок: <b>' + esc(gift) + "</b></span></div>";
   if (num) h += '<div class="row"><span class="ic">🏷️</span><span class="tx">NFT: <b>#' + fmt(num) + "</b></span></div>";
   if (e.owner_addr) h += '<div class="row"><span class="ic">👤</span><span class="tx">Владелец: ' + (e.owner ? esc(e.owner) + " (" : "") + '<code>' + esc(shortAddr(e.owner_addr)) + "</code>" + (e.owner ? ")" : "") + "</span></div>";
-  h += '<div class="row"><span class="ic">🕐</span><span class="tx">Улучшено: ' + (mint ? ago(mint) : esc(new Date(e.time).toLocaleString("ru-RU"))) + "</span></div>";
+  h += '<div class="row"><span class="ic">🕐</span><span class="tx">Улучшено: ' + esc(mint ? new Date(mint*1000).toLocaleString("ru-RU") : new Date(e.time).toLocaleString("ru-RU")) + "</span></div>";
   if (e.counter_issued) h += '<div class="row"><span class="ic">📊</span><span class="tx">Улучшено всего (Telegram): <b>' + fmt(e.counter_issued) + "</b> из <b>" + fmt(e.counter_total) + "</b></span></div>";
   h += '<div class="links"><a href="' + giftLink + '" target="_blank">🔗 Подарок</a><a href="' + mrkt + '" target="_blank">🛒 MRKT</a><a href="' + portals + '" target="_blank">🆔 Portals</a></div>';
   h += '<div class="tags">#TelegramGifts #NFT #' + esc(slug) + "</div>";
