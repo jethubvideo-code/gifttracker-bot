@@ -399,9 +399,11 @@ async function main() {
     if (overflow) console.log(`кэтч-ап ${b.col.name}: доставляю последние 8 (пропущено ${overflow})`);
     const count = b.issued - from + 1;
     const metas = await enrichRange(b, count, winStart, winEnd);
-    const img = await giftImage(b.col.name, b.issued);
     for (let i = 0; i < count; i++) {
       const n = from + i;
+      // картинка — ТОЧНО для ЭТОГО номера n (не для b.issued батча!), иначе у кэтч-апа из
+      // нескольких номеров все карточки показывали бы фото ПОСЛЕДНЕГО экземпляра — чужой цвет/облик.
+      const img = await giftImage(b.col.name, n);
       const mIdx = i - (count - metas.length); // тонапи может дать меньше трансферов — выравниваю по свежести
       const m = mIdx >= 0 && mIdx < metas.length ? metas[mIdx] : {};
       // мета валидна только если её минт внутри окна бампа — иначе это старый трансфер тонапи
@@ -521,6 +523,26 @@ async function main() {
       gifts: gifts.sort((a, b) => a.name.localeCompare(b.name)),
     }, null, 1));
   } catch (e) { console.log("gifts.json:", String(e).slice(0, 80)); }
+
+  // 3.5) обложки коллекций (ПОДАРКИ-таб): раньше обновлялись отдельным джобом раз в 6ч и
+  // показывали СТАРЫЙ экземпляр (другой цвет/облик, чем текущий счётчик) — обманывало юзера.
+  // Теперь при каждом реальном апгрейде свежее фото ЭТОГО конкретного номера (уже скачано
+  // выше, доп. запросов НЕ делаем) сразу идёт в обложку коллекции — она всегда актуальна.
+  try {
+    const IMG_FILE = path.join(REPO_ROOT, "docs", "images.json");
+    let imgDoc = {};
+    try { imgDoc = JSON.parse(fs.readFileSync(IMG_FILE, "utf8")); } catch {}
+    if (typeof imgDoc.images !== "object" || !imgDoc.images) imgDoc.images = {};
+    let coverUpdated = 0;
+    for (const log of bumpLogs) {
+      if (log.img) { imgDoc.images[log.slug] = log.img; coverUpdated++; }
+    }
+    if (coverUpdated) {
+      imgDoc.updated = new Date().toISOString();
+      fs.writeFileSync(IMG_FILE, JSON.stringify(imgDoc, null, 1));
+      console.log(`обложки коллекций обновлены живьём: ${coverUpdated}`);
+    }
+  } catch (e) { console.log("images.json (live-cover):", String(e).slice(0, 80)); }
 
   // 4) state + коммит (с ретраем на гонку пушей)
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
