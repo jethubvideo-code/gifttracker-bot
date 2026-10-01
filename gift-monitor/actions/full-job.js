@@ -553,7 +553,7 @@ async function main() {
       console.log("state: без изменений, коммит пропущен");
       return;
     }
-    execSync("git add data/state-full.json docs/status.json docs/gifts.json docs/history.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json docs/status.json docs/gifts.json docs/history.json docs/images.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
