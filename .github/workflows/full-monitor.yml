@@ -8,7 +8,7 @@ on:
         description: "sendtest = тест владельцу, пусто = обычный прогон"
         default: ""
       force:
-        description: "true = прогнать даже если выключен"
+        description: "true = прогнать даже если выключен; chain = режим эстафеты 24/7"
         default: "false"
 
 permissions:
@@ -17,12 +17,12 @@ permissions:
 
 concurrency:
   group: gift-monitor-full
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 16
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -37,3 +37,4 @@ jobs:
           MODE: ${{ github.event.inputs.mode || '' }}
           FORCE: ${{ github.event.inputs.force || '' }}
           EVENT_NAME: ${{ github.event_name }}
+          GITHUB_TOKEN: ${{ github.token }}
