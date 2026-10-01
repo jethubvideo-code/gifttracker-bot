@@ -52,8 +52,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .jelly:active{transform:scale(.9)}
 /* ── header ── */
 .hd{display:flex;align-items:center;gap:11px;margin-bottom:12px}
-.hlogo{width:44px;height:44px;border-radius:9px;flex:none;overflow:hidden;
-  box-shadow:0 8px 20px rgba(0,0,0,.5);border:1.5px solid var(--goldD);
+.hlogo{width:46px;height:46px;border-radius:10px;flex:none;overflow:hidden;
+  box-shadow:0 8px 20px rgba(0,0,0,.5), 0 0 22px rgba(212,168,71,.28), 0 0 0 1px rgba(212,168,71,.18);border:2px solid var(--goldD);
   transition:transform .15s cubic-bezier(.34,1.56,.64,1)}
 .hlogo img{width:100%;height:100%;object-fit:cover;display:block}
 .hlogo:active{transform:scale(.88) rotate(-6deg)}
@@ -322,6 +322,15 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
   <!-- ИНФО -->
   <section class="pane" id="p-info">
     <div class="sec"><h2 data-i18n="about">О сервисе</h2></div>
+    <div class="blk" style="text-align:center;padding:24px 14px 20px">
+      <img src="logo.png" alt="Gift Monitor" style="width:86px;height:86px;border-radius:18px;
+        border:2px solid var(--goldD);box-shadow:0 12px 34px rgba(200,150,62,.22), 0 0 0 1px rgba(212,168,71,.12)">
+      <div style="font-size:19px;font-weight:900;letter-spacing:.06em;margin-top:13px">GIFT MONITOR</div>
+      <div style="font-size:11px;color:var(--tx3);font-weight:700;margin-top:5px" data-i18n="subtitle">апгрейды Telegram Gifts · онлайн</div>
+      <div style="display:inline-flex;align-items:center;gap:6px;margin-top:13px;font-size:9.5px;font-weight:900;
+        letter-spacing:.1em;color:var(--ok);background:rgba(74,222,128,.1);border:1.5px solid rgba(74,222,128,.3);
+        border-radius:6px;padding:5px 10px">LIVE · GITHUB ACTIONS</div>
+    </div>
     <div class="blk" style="line-height:1.7;font-size:12.5px" data-i18n="aboutText">
       🚀 <b>Gift Monitor</b> — живой трекер апгрейдов Telegram Gifts → NFT.<br><br>
       Движок работает на GitHub Actions: 120 коллекций, официальные счётчики Telegram, свежесть 1-2 минуты.<br><br>
@@ -869,6 +878,14 @@ function shareCard(e){
       toast(T('sharedDl'));
     } catch(err){ toast(T('sharedDl')); }
   };
+  // грузим лого бренда и (если есть) фото подарка; карточку генерим, когда всё готово
+  var pending = img ? 2 : 1;
+  var one = function(){ if (--pending === 0) paint(); };
+  var lg = new Image();
+  lg.onload = function(){ try { ctx.save(); ctx.shadowColor='rgba(212,168,71,.4)'; ctx.shadowBlur=24;
+    ctx.drawImage(lg, W-140, H-136, 88, 88); ctx.restore(); } catch(err){} one(); };
+  lg.onerror = one;
+  lg.src = 'logo.png';
   if (img){
     var im = new Image(); im.crossOrigin = 'anonymous';
     im.onload = function(){
@@ -877,11 +894,11 @@ function shareCard(e){
         ctx.drawImage(im, W-330, 80, 280, 280); ctx.restore();
         ctx.strokeStyle = '#3d352f'; ctx.lineWidth = 3; ctx.strokeRect(W-330, 80, 280, 280);
       } catch(err){}
-      paint();
+      one();
     };
-    im.onerror = paint;
+    im.onerror = one;
     im.src = img;
-  } else paint();
+  }
 }
 </script>
 <script>
