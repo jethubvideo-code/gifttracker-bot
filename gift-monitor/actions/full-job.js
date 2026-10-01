@@ -272,6 +272,7 @@ async function main() {
   // 1) официальные счётчики (надёжно, без ключей)
   const bumps = [];
   const bumpLogs = [];
+  const gifts = [];
   await pool(cols, 10, async (c) => {
     const st =
       state[c.name] ||
@@ -282,6 +283,7 @@ async function main() {
       return;
     }
     checked++;
+    gifts.push({ slug: c.name, name: c.display_name || c.name, issued: cnt.issued, total: cnt.total });
     if (!st.issued) {
       st.issued = cnt.issued;
       st.sample = cnt.sample;
@@ -372,12 +374,22 @@ async function main() {
     }, null, 1));
   } catch (e) { console.log("status.json:", String(e).slice(0, 80)); }
 
+  // таблица всех подарков для сайта
+  try {
+    fs.writeFileSync(path.join(REPO_ROOT, "docs", "gifts.json"), JSON.stringify({
+      updated: new Date().toISOString(),
+      updated_unix: NOW(),
+      count: gifts.length,
+      gifts: gifts.sort((a, b) => a.name.localeCompare(b.name)),
+    }, null, 1));
+  } catch (e) { console.log("gifts.json:", String(e).slice(0, 80)); }
+
   // 4) state + коммит (с ретраем на гонку пушей)
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
-    execSync("git add data/state-full.json docs/status.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json docs/status.json docs/gifts.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
