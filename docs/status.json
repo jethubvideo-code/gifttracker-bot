@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T19:00:20.312Z",
- "updated_unix": 1790881220,
- "runs": 1109,
+ "updated": "2026-10-01T19:00:49.506Z",
+ "updated_unix": 1790881249,
+ "runs": 1110,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 865,
- "sent_total": 28399,
+ "detected_total": 866,
+ "sent_total": 28432,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 437651,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790880395,
-   "counter_issued": 437651,
-   "counter_total": 490553,
-   "img": "https://cdn4.telesco.pe/file/HFq0AuvMDrBTTjJ5dD1XpaRZzez4LCjAq0xinuLXaPoJYgcUZSjHF5EAEvePPECKmkNh3bc2OZg_g01X5QfHwOtFwWkGPQSiN3uwvv4YEpVArbohT7972a0Lw-356rfHLx90z0LBfMearP7uLxunNDh09PYHAmpRXKwNCEt0KvnxZXnGNpRKzpjJqrrQmzg_nqVhpBFpxWdQVZhxWJHklqUGoj7UAi8cbOcl6r-PccANRC7P6TCiVYLJSddKm1oIqb5CgWFndygXK1j8Ova75zGuM8W-OZfhkuL0zXH7bwyloTmNYmCk8ywiVmy-MB2GxXcJIZtDLCEa4pgzdMDm0w.jpg",
-   "sent": 33,
-   "time": "2026-10-01T18:47:43.176Z"
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T19:00:09.990Z"
+  },
+  {
+   "slug": "BDayCandle",
+   "gift": "BDayCandle",
+   "number": 271419,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790881184,
+   "counter_issued": 271419,
+   "counter_total": 307521,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T19:00:49.504Z"
   }
  ]
 }
