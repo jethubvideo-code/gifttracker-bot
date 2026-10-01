@@ -141,7 +141,8 @@ function decryptSubs() {
       `openssl enc -d -aes-256-cbc -pbkdf2 -pass 'pass:${CRYPT_KEY}' -in "${SUBS_FILE}"`,
       { encoding: "utf8", maxBuffer: 16 * 1024 * 1024 }
     );
-    return JSON.parse(out);
+    const d = JSON.parse(out);
+    return Array.isArray(d) ? d : (d.subscribers || []);
   } catch (e) {
     console.log("subscribers decrypt failed:", String(e).slice(0, 120));
     return [];
