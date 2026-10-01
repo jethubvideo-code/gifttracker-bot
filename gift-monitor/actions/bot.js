@@ -14,6 +14,8 @@ const OWNER_IDS = ["8396883978", "7503491071"];
 const CHANNEL = "@unknowesecret";
 const PRO_TPL = ["PlushPepe", "PoolFloat", "LolPop"];
 
+const flip = require("./flip.js");
+
 const esc = (s) => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const fmt = (x) => String(Math.round(Number(x || 0) * 100) / 100).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 const fmtInt = (x) => String(Math.round(Number(x) || 0)).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
@@ -127,7 +129,7 @@ async function handleMessage(tg, subs, msg) {
         `🛠 /api — открытые данные для разработчиков\n\n` +
         `🌙 /night — тихий режим 23:00–08:00\n` +
         `🙈 /mute Имя — скрыть подарок, /unmute Имя — вернуть\n\n` +
-        `🌐 Мини-апп: меню бота → «Мини Апп»`, reply_markup: menuKb() });
+        `🌐 Мини-апп: меню бота → «Мини Апп»\n\n🎓 <b>Flip-школа:</b> /flip гайд · /academy 5 шагов · /sim тренажёр · /calc профит · /trends · /limits`, reply_markup: menuKb() });
       return changed;
     }
     await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: WELCOME, reply_markup: menuKb() });
@@ -341,6 +343,69 @@ async function handleMessage(tg, subs, msg) {
     return changed;
   }
 
+  /* ═══ Flip-школа ═══ */
+  if (c === "/flip") {
+    const nm = args.match(/(\d+)/);
+    if (!nm) {
+      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
+        `🎓 <b>Flip-школа</b>\n\nНаучись флипать подарки с нуля:\n\n📚 <b>Гайд</b> — 7 уроков флипа\n🎓 <b>Академия</b> — 5 шагов для новичка\n🏋️ <b>Тренажёр</b> — виртуальные 1000 TON на реальных ценах\n🧮 <b>Калькулятор</b> — профит после комиссий\n🔥 <b>Тренды</b> — растут/падают\n🆕 <b>Лимитки</b> — радар новых серий\n\nВыбирай кнопкой ⬇️ или командой: /flip 3 — сразу к уроку`, reply_markup: flip.flipKb() });
+      return changed;
+    }
+    let n = parseInt(nm[1], 10);
+    if (!(n >= 1 && n <= flip.LESSONS.length)) n = 1;
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.LESSONS[n - 1].b, reply_markup: lessonKb(n) });
+    return changed;
+  }
+
+  if (c === "/academy") {
+    let st = Number(sub.flip_step) || 0;
+    if (st < 0 || st >= flip.ACADEMY.length) st = 0;
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.ACADEMY[st] + "\n\nПрогресс: " + (st + 1) + "/" + flip.ACADEMY.length, reply_markup: academyKb(st) });
+    return changed;
+  }
+
+  if (c === "/sim") {
+    const parts = text.split(/\s+/);
+    const subCmd = (parts[1] || "").toLowerCase();
+    if (subCmd === "reset") {
+      sub.sim = null; changed = true;
+      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: "🔄 Тренажёр сброшен. Новый банк: 1000 TON. Покупай: /sim buy PlushPepe 1" });
+      return changed;
+    }
+    if (subCmd === "buy" || subCmd === "sell") {
+      const slugRaw = parts[2] || "";
+      const qty = Math.max(1, parseInt(parts[3] || "1", 10) || 1);
+      const g = findGift(slugRaw);
+      if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(slugRaw)}» не найден. /calendar — все подарки` }); return changed; }
+      const slug = String(g.slug || g.name);
+      const floors = readDoc("floors.json") || {};
+      const r = subCmd === "buy" ? flip.simBuy(sub, slug, qty, floors) : flip.simSell(sub, slug, qty, floors);
+      if (r.changed) changed = true;
+      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: r.msg });
+      return changed;
+    }
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.simStatus(sub, readDoc("floors.json") || {}) });
+    return changed;
+  }
+
+  if (c === "/calc") {
+    const m = args.match(/(\d+(?:[.,]\d+)?)\s+(\d+(?:[.,]\d+)?)/);
+    const t = m ? flip.calcText(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : null;
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true },
+      text: t || "🧮 <b>Калькулятор флипа</b>\n\nПришли цены: <code>/calc ПОКУПКА ПРОДАЖА</code>\nПример: <code>/calc 100 120</code> — купил за 100, продаёшь за 120.\n\nУчтёт комиссию маркета 5% и газ." });
+    return changed;
+  }
+
+  if (c === "/trends") {
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.trendsText(readDoc("floors-hist.json")) });
+    return changed;
+  }
+
+  if (c === "/limits") {
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.limitsText(readDoc("gifts.json"), readDoc("history.json"), readDoc("floors.json")) });
+    return changed;
+  }
+
   /* 🌙 ночь */
   if (c === "/night") {
     sub.night_mode = !sub.night_mode;
@@ -383,8 +448,23 @@ function menuKb() {
     [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "📅 Календарь", callback_data: "menu:cal" }],
     [{ text: "📊 GM INDEX", callback_data: "menu:idx" }, { text: "🏆 Топ", callback_data: "menu:top" }],
     [{ text: "🎮 Игра", callback_data: "menu:game" }, { text: "🌙 Режим", callback_data: "menu:night" }],
+    [{ text: "🎓 Flip-школа", callback_data: "menu:flip" }],
     [{ text: "📖 Все команды", callback_data: "menu:help" }],
   ] };
+}
+
+function lessonKb(n) {
+  const total = flip.LESSONS.length;
+  const row = [];
+  if (n > 1) row.push({ text: "⬅️", callback_data: "flip:lesson:" + (n - 1) });
+  row.push({ text: "📚 " + n + "/" + total, callback_data: "menu:flip" });
+  if (n < total) row.push({ text: "➡️", callback_data: "flip:lesson:" + (n + 1) });
+  return { inline_keyboard: [row, [{ text: "🎓 Flip-школа", callback_data: "menu:flip" }]] };
+}
+
+function academyKb(st) {
+  if (st < flip.ACADEMY.length - 1) return { inline_keyboard: [[{ text: "➡️ Дальше", callback_data: "flip:acad:next" }], [{ text: "🎓 Flip-школа", callback_data: "menu:flip" }]] };
+  return { inline_keyboard: [[{ text: "🏋️ В тренажёр", callback_data: "flip:sim" }, { text: "🎓 Flip-школа", callback_data: "menu:flip" }]] };
 }
 
 async function handleCallback(tg, subs, q) {
@@ -402,8 +482,22 @@ async function handleCallback(tg, subs, q) {
     } else {
       await tg("answerCallbackQuery", { callback_query_id: q.id, text: "❌ Подписки на канал ещё нет", show_alert: true });
     }
+  } else if (/^flip:lesson:\d+$/.test(String(q.data))) {
+    const n = parseInt(String(q.data).split(":")[2], 10);
+    await tg("answerCallbackQuery", { callback_query_id: q.id });
+    if (n >= 1 && n <= flip.LESSONS.length) {
+      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.LESSONS[n - 1].b, reply_markup: lessonKb(n) });
+    }
+  } else if (String(q.data) === "flip:acad:next") {
+    await tg("answerCallbackQuery", { callback_query_id: q.id });
+    let sub2 = findSub(subs, fromId);
+    if (!sub2) { sub2 = newSub(fromId, chatId); subs.push(sub2); changed = true; }
+    let st = (Number(sub2.flip_step) || 0) + 1;
+    if (st >= flip.ACADEMY.length) st = flip.ACADEMY.length - 1;
+    sub2.flip_step = st; changed = true;
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text: flip.ACADEMY[st] + "\n\nПрогресс: " + (st + 1) + "/" + flip.ACADEMY.length, reply_markup: academyKb(st) });
   } else if (String(q.data).indexOf("menu:") === 0) {
-    const cmd = ({ "menu:mine": "/mine", "menu:cal": "/calendar", "menu:idx": "/index", "menu:top": "/top", "menu:game": "/game", "menu:night": "/night", "menu:help": "/help" })[String(q.data)];
+    const cmd = ({ "menu:mine": "/mine", "menu:cal": "/calendar", "menu:idx": "/index", "menu:top": "/top", "menu:game": "/game", "menu:night": "/night", "menu:help": "/help", "menu:flip": "/flip", "menu:academy": "/academy", "menu:trends": "/trends", "menu:limits": "/limits", "menu:calc": "/calc", "flip:sim": "/sim" })[String(q.data)];
     await tg("answerCallbackQuery", { callback_query_id: q.id });
     if (cmd) {
       const t = await handleMessage(tg, subs, { from: { id: Number(fromId) }, chat: { id: Number(chatId) }, text: cmd });
