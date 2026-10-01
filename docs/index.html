@@ -617,6 +617,11 @@ function jget(f){
   return fetch(RAW + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
     .catch(function(){ return fetch(BASE + f + bust).then(function(r){ return r.json(); }); });
 }
+function addrShort(v){
+  v = String(v||'');
+  if (/^0:[0-9a-fA-F]{48,}$/.test(v)) return v.slice(0,6) + '…' + v.slice(-4);
+  return v;
+}
 function haptic(){ try{ if(tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light'); }catch(e){} }
 function openLink(u){ try{ if(tg && tg.openLink){ tg.openLink(u); return; } }catch(e){} window.open(u,'_blank'); }
 function toast(msg){ var t=$('toast'); t.textContent=msg; t.classList.add('on'); setTimeout(function(){ t.classList.remove('on'); },2200); }
@@ -852,7 +857,7 @@ function renderFeed(list){
         '<div class="l1"><span class="nm">'+esc(e.gift||slug)+'</span><span class="num">#'+fmtNum(e.counter_issued||e.number)+'</span>' +
         (isNew ? '<span class="badge-n">NEW</span>' : '') + '</div>' +
         '<div class="l2">'+T('improved')+' <b>'+esc(evAgo(e))+'</b> · '+esc(fmtDate(evTs(e)))+'</div>' +
-        (e.owner ? '<div class="l2">👤 <b>'+esc(e.owner)+'</b></div>' : '') +
+        (e.owner ? '<div class="l2" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">👤 <b>'+esc(addrShort(e.owner))+'</b></div>' : '') +
         '<div class="l3"><div class="pbar"><i style="width:'+pct+'%"></i></div><span class="pct">'+pct+'%</span></div>' +
         '<div class="link-row"><a href="javascript:void(0)" data-u="https://t.me/nft/'+esc(slug.toLowerCase())+'-'+(e.number||e.counter_issued)+'">'+ (LANG==='ru'?'Подарок':(LANG==='uz'?'Sovg\'a':'Gift')) +'</a><a href="javascript:void(0)" data-u="https://t.me/mrkt">MRKT</a><a href="javascript:void(0)" data-u="https://t.me/portals">Portals</a></div>' +
       '</div>' +
@@ -998,7 +1003,7 @@ function openColSheet(slug){
   '<div class="pbar" style="margin:2px 0 14px"><i style="width:'+pct+'%"></i></div>' +
   (recent.length ? '<div style="font-size:12px;font-weight:900;margin:4px 0 8px">'+T('recent')+'</div>' : '') +
   recent.map(function(e){
-    return '<div class="mini-ev"><span class="n">#'+fmtNum(e.counter_issued||e.number)+'</span><span>'+(e.owner?'👤 '+esc(e.owner):'🚀')+'</span><span class="d">'+esc(evAgo(e))+'</span></div>';
+    return '<div class="mini-ev"><span class="n">#'+fmtNum(e.counter_issued||e.number)+'</span><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:120px">'+(e.owner?'👤 '+esc(addrShort(e.owner)):'🚀')+'</span><span class="d">'+esc(evAgo(e))+'</span></div>';
   }).join('') +
   '<div class="btns" style="margin-top:12px">' +
     '<button class="btn jelly" id="shOpen">🚀 '+ (LANG==='ru'?'Подарок на t.me':(LANG==='uz'?'t.me sahifasi':'Open on t.me')) +'</button>' +
@@ -1203,7 +1208,7 @@ function renderLb(){
   arr.forEach(function(x, i){
     var cls = i===0?'g':(i===1?'s':(i===2?'b':''));
     var row = document.createElement('div'); row.className='lb-row';
-    row.innerHTML = '<div class="lb-rank '+cls+'">'+(i+1)+'</div><div class="lb-name">'+esc(x.n)+'</div><div class="lb-n">'+x.c+'</div>';
+    row.innerHTML = '<div class="lb-rank '+cls+'">'+(i+1)+'</div><div class="lb-name" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(addrShort(x.n))+'</div><div class="lb-n">'+x.c+'</div>';
     lb.appendChild(row);
   });
 }
@@ -1649,11 +1654,6 @@ function renderProIdx(){
   }
 }
 function usdRate(){ return Number(floorsData.rate_usd)||0; }
-function addrShort(v){
-  v = String(v||'');
-  if (/^0:[0-9a-fA-F]{48,}$/.test(v)) return v.slice(0,6) + '…' + v.slice(-4);
-  return v;
-}
 function renderProTop(){
   var box = $('prTopList');
   if (!proTop.length){ box.innerHTML = '<div class="prnote" style="padding-top:8px">'+esc(T('prEmpty'))+'</div>'; return; }
