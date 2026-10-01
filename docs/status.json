@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T19:41:15.119Z",
- "updated_unix": 1790883675,
- "runs": 1210,
+ "updated": "2026-10-01T19:41:46.497Z",
+ "updated_unix": 1790883706,
+ "runs": 1211,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 935,
- "sent_total": 30690,
+ "detected_total": 936,
+ "sent_total": 30723,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 264299,
-   "owner": "",
-   "owner_addr": "0:a90003aed87400061e7934c13606073455bc378800392ad6ca3c1989b7b12c84",
-   "mint": 1790882512,
-   "counter_issued": 264299,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/ZtbL38LR463JzFb8P6KvkFp3IMB3RSbrmhh40iWEwEyLe5C4xFqz9Hte5tiwsTd5J7Rf3BzhOJrDz7b0hjiKwx5SZJSfyhvIc8n2IzvH30YB-5nt7zAJ5gggfuIR9B8cTGgW-YfV0L1aVkbn8AvJh00z0OJn6OS8RVxyo8jmNrTNdJch8QafegWRdHJMtv_x2tu3q6nGM6EvRcja2OnIw_QpyI8Mo3RutA3XkywjeeI44ZHF1HKdVy-NXX7ZPz-WUhabQVY25QDbhhrOF_0GztkzpQQRCtWN8rocWeb99-W9nbnRCf8gYi2ykYgD-Y0IJQ7tmAqc394K9vigvzBKbw.jpg",
-   "sent": 33,
-   "time": "2026-10-01T19:23:51.247Z"
-  },
   {
    "slug": "PetSnake",
    "gift": "PetSnake",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T19:40:46.761Z"
+  },
+  {
+   "slug": "CloverPin",
+   "gift": "CloverPin",
+   "number": 234470,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790883638,
+   "counter_issued": 234470,
+   "counter_total": 270970,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T19:41:46.496Z"
   }
  ]
 }
