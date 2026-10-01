@@ -325,7 +325,7 @@ async function main() {
   const cols = require(COLS_FILE);
   let subs = await freshSubs();
   if (!subs) subs = decryptSubs();
-  console.log(`full-job v4: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
+  console.log(`full-job v5: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
 
   const hour = hourSamarkand();
   const night = hour >= 23 || hour < 8;
@@ -365,8 +365,8 @@ async function main() {
       st.issued = cnt.issued;
       st.sample = cnt.sample;
     } else if (cnt.issued < st.issued) {
-      st.issued = cnt.issued;
-      st.sample = cnt.sample;
+      // официальные счётчики только растут: снижение = протухший кэш t.me — игнорируем,
+      // иначе следующий свип увидит ложный «бамп» и повторно скинет старьё
     }
   });
 
@@ -396,8 +396,22 @@ async function main() {
         mintTime: m.mintTime || 0,
         counter: { issued: n, total: b.total },
       };
-      // честное время: счётчик бамнулся только что, а тонапи протух — показываем «только что», не старьё
-      if (ev.mintTime && ev.mintTime < NOW() - 900 && st.lastSweepTs && NOW() - st.lastSweepTs < 300) {
+      // СВЕЖЕСТЬ: доставляем ТОЛЬКО новые апгрейды (жалоба: «старых вообще не было, только свежие»).
+      // свежий = тонапи подтверждает минт <20 мин, ИЛИ коллекция сканировалась <20 мин назад
+      // (значит бамп случился между свипами). Всё старше — простои реле, лаги, кэтч-ап —
+      // молча пропускаем и двигаем маркер, уведомление НЕ уходит.
+      const FRESH_SEC = 1200;
+      const metaFresh = ev.mintTime && NOW() - ev.mintTime <= FRESH_SEC;
+      const sweepFresh = st.lastSweepTs && NOW() - st.lastSweepTs <= FRESH_SEC;
+      if (!metaFresh && !sweepFresh) {
+        st.lastSentNum = n;
+        st.lastSentTime = NOW();
+        skipped++;
+        console.log(`пропуск старого: ${b.col.name} #${n} (доставка отменена)`);
+        continue;
+      }
+      // свежий бамп, но время не подтвердилось/протухло → честное «минуту назад», не старьё
+      if (!ev.mintTime || ev.mintTime < NOW() - FRESH_SEC) {
         ev.mintTime = NOW() - 60;
       }
       const text = buildMessage(ev);
