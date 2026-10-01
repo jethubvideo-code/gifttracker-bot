@@ -39,8 +39,12 @@ function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+let lastTon = 0;
 async function tonapi(url) {
   for (let i = 1; i <= 2; i++) {
+    const w = Math.max(0, lastTon + 1050 - Date.now());
+    if (w > 0) await sleep(w);
+    lastTon = Date.now();
     try {
       const res = await fetch(`https://tonapi.io${url}`, {
         headers: TONAPI_KEY ? { Authorization: `Bearer ${TONAPI_KEY}` } : {},
@@ -341,7 +345,7 @@ async function main() {
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
-    execSync("git add data/state.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
     console.log("state: закоммичен");
