@@ -132,9 +132,18 @@ async function main() {
     const meta = await fetchGiftMeta(slug);
     const counter = await fetchNewGiftCounter(slug);
     const dispName = meta?.name || slug;
-    // регистрируем в основном мониторе
-    cols.push({ name: slug, address: "", display_name: dispName });
+    // регистрируем в основном мониторе (added = когда лимитка вышла, для бейджа НОВИНКА на сайте)
+    cols.push({ name: slug, address: "", display_name: dispName, added: Math.floor(Date.now() / 1000) });
     console.log(`новая лимитка: ${slug} (${dispName})`);
+    // мгновенное фото новой лимитки на сайт (обложка Fragment; позже gift-images заменит на og:image)
+    try {
+      const imgPath = path.join(REPO_ROOT, "docs", "images.json");
+      const doc = JSON.parse(fs.readFileSync(imgPath, "utf8"));
+      doc.images = doc.images || {};
+      doc.images[slug] = `https://nft.fragment.com/collection/${encodeURIComponent(slug.toLowerCase())}.webp`;
+      fs.writeFileSync(imgPath, JSON.stringify(doc, null, 1));
+      console.log(`фото в images.json: ${slug}`);
+    } catch (e) { console.log("images.json не обновлён:", String(e.message).slice(0, 80)); }
     // уведомление подписчикам «Новые лимитки» + владелец
     const text =
       `🚨 <b>ВЫШЛА НОВАЯ ЛИМИТКА: ${esc(dispName)}!</b>\n\n` +
@@ -173,7 +182,7 @@ async function main() {
     try {
       execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
       execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
-      execSync(`git add ${path.relative(REPO_ROOT, COLS_FILE)}`, { cwd: REPO_ROOT });
+      execSync(`git add ${path.relative(REPO_ROOT, COLS_FILE)} docs/images.json`, { cwd: REPO_ROOT });
       execSync('git commit -m "new gifts: catalog update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
       try { execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" }); }
       catch { execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe" }); execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" }); }
