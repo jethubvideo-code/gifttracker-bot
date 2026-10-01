@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T23:07:47.831Z",
- "updated_unix": 1790896067,
- "runs": 1783,
+ "updated": "2026-10-01T23:08:14.618Z",
+ "updated_unix": 1790896094,
+ "runs": 1784,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1236,
- "sent_total": 40613,
+ "detected_total": 1237,
+ "sent_total": 40646,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188122,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790894722,
-   "counter_issued": 188122,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T22:46:29.116Z"
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T23:07:14.912Z"
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 147,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790896028,
+   "counter_issued": 147,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T23:08:14.617Z"
   }
  ]
 }
