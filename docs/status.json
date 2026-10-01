@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T23:42:32.320Z",
- "updated_unix": 1790898152,
- "runs": 1882,
+ "updated": "2026-10-01T23:42:49.173Z",
+ "updated_unix": 1790898169,
+ "runs": 1883,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1283,
- "sent_total": 42162,
+ "detected_total": 1284,
+ "sent_total": 42195,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74378,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790896964,
-   "counter_issued": 74378,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T23:23:51.786Z"
-  },
   {
    "slug": "FreshSocks",
    "gift": "FreshSocks",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T23:42:32.318Z"
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 178,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790898101,
+   "counter_issued": 178,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T23:42:49.172Z"
   }
  ]
 }
