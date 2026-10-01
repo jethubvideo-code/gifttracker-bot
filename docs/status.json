@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T21:06:03.675Z",
- "updated_unix": 1790888763,
- "runs": 1454,
+ "updated": "2026-10-01T21:06:32.972Z",
+ "updated_unix": 1790888792,
+ "runs": 1455,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1020,
- "sent_total": 33489,
+ "detected_total": 1021,
+ "sent_total": 33522,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74376,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790886504,
-   "counter_issued": 74376,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:29:30.812Z"
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -397,6 +384,19 @@
    "img": "https://cdn4.telesco.pe/file/b7OJ0fpUY6ZLmiuZtjR06Ixqjc6feMZS_rwfvs3-bRLX0YD7l1IhQyKsxjodI--kFOCY9c15BMDgNnuZ9jZk_yUCheH73F6kQ-LMBQ6iY9Y1B9YzbJjVH40bSBpylTePG_f38ubrZnjTWDMga-2imv2VBHBrRujHUMyk6dW5Gsyzhb07Q0_QjeL82hPR50Fu1k0OODI2ea1R-azcbDVqX3fPri5pXK1QBVQfEV4ZO4zvBw4Ow4cqKesVhge2FPHtdF7z_blUhvhYxthxpHILatGHOI03P3Vr9YyvK8bkKQ_nGzXOeAK4QwJqLu0N9IF6WYsX0WrQHr11c94eBGv_jg.jpg",
    "sent": 33,
    "time": "2026-10-01T21:05:10.802Z"
+  },
+  {
+   "slug": "InputKey",
+   "gift": "InputKey",
+   "number": 134964,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790888725,
+   "counter_issued": 134964,
+   "counter_total": 159750,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:06:32.971Z"
   }
  ]
 }
