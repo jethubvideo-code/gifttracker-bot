@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T21:23:17.987Z",
- "updated_unix": 1790889797,
- "runs": 1506,
+ "updated": "2026-10-01T21:23:44.324Z",
+ "updated_unix": 1790889824,
+ "runs": 1507,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1033,
- "sent_total": 33918,
+ "detected_total": 1034,
+ "sent_total": 33951,
  "last_upgrades": [
-  {
-   "slug": "PetSnake",
-   "gift": "PetSnake",
-   "number": 191603,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790887448,
-   "counter_issued": 191603,
-   "counter_total": 279106,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:45:15.239Z"
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -397,6 +384,19 @@
    "img": "https://cdn4.telesco.pe/file/oF9qAWTsdHaI-adtD9c3I10pUIeMaD-X-v9X7NaFmt5-GM4Au8MQMOR5eiVqT5sUQ0EIri2RLwFsvt_olIWMiLmtAYV7sAKnRHdxS1PgLj7eC0K40FD2RTdoj9vEk8lxt5guNqo8S6G2Y_b9PKgQxlaHZqEYiE7MYFcY5Sh48FfGzmk3U7UVAdmxSjgWYZKGLyl2aCt9olS1QXygHWTvhZ3LHeijxXIPfJugpeIUCOt11gpimusR-kkFfBYHpLEeUSTZt6-VyjR0_CuSvZFJ_j-DeuZoSTjSBWLp4eddB4_LlA5HXlPsAeRMeNUYp78Nf7jFkrWyLiRMXWK7gysvOA.jpg",
    "sent": 33,
    "time": "2026-10-01T21:23:08.463Z"
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 30,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790889758,
+   "counter_issued": 30,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T21:23:44.323Z"
   }
  ]
 }
