@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T20:27:57.266Z",
- "updated_unix": 1790886477,
- "runs": 1343,
+ "updated": "2026-10-01T20:28:24.576Z",
+ "updated_unix": 1790886504,
+ "runs": 1344,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 989,
- "sent_total": 32466,
+ "detected_total": 990,
+ "sent_total": 32499,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "BunnyMuffin",
-   "number": 54352,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790885501,
-   "counter_issued": 54352,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T20:12:48.408Z"
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T20:27:08.579Z"
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 31501,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790886439,
+   "counter_issued": 31501,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T20:28:24.575Z"
   }
  ]
 }
