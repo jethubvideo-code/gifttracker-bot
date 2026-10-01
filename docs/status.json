@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-01T12:00:20.220Z",
- "updated_unix": 1790856020,
- "runs": 238,
+ "updated": "2026-10-01T12:03:24.228Z",
+ "updated_unix": 1790856204,
+ "runs": 241,
  "collections": 120,
  "checked": 120,
  "errors": 0,
- "detected_total": 268,
- "sent_total": 8969,
+ "detected_total": 269,
+ "sent_total": 9002,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 445537,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790854102,
-   "counter_issued": 445537,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-01T11:29:29.486Z"
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-01T11:59:16.932Z"
+  },
+  {
+   "slug": "MoodPack",
+   "gift": "MoodPack",
+   "number": 183388,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790856135,
+   "counter_issued": 183388,
+   "counter_total": 198560,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-01T12:03:24.228Z"
   }
  ]
 }
