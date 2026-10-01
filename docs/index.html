@@ -97,7 +97,12 @@
   <div id="updated" style="margin-top:6px"></div>
 </div>
 
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
+// Telegram Mini App: раскрыть на весь экран (в обычном браузере молча пропускается)
+if (window.Telegram && Telegram.WebApp) {
+  try { Telegram.WebApp.ready(); Telegram.WebApp.expand(); Telegram.WebApp.setHeaderColor("#0d1117"); Telegram.WebApp.setBackgroundColor("#0d1117"); } catch (e) {}
+}
 function esc(s) { return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 function fmt(n) { return Number(n || 0).toLocaleString("ru-RU"); }
 function ago(unix) {
