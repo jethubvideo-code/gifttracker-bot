@@ -146,6 +146,19 @@ function parseMetaName(name, index) {
   return { slug, index: Number.isFinite(num) && num > 0 && num < 1e7 ? num : 0, hasNumber: numStr !== "" };
 }
 
+function encryptSubs(list) {
+  try {
+    const plain = SUBS_FILE + ".plain";
+    fs.writeFileSync(plain, JSON.stringify({ subscribers: list }));
+    execSync(`openssl enc -aes-256-cbc -pbkdf2 -salt -pass 'pass:${CRYPT_KEY}' -in "${plain}" -out "${SUBS_FILE}"`, { stdio: "pipe" });
+    try { fs.unlinkSync(plain); } catch {}
+    return true;
+  } catch (e) {
+    console.log("encryptSubs failed:", String(e).slice(0, 120));
+    return false;
+  }
+}
+
 function decryptSubs() {
   if (!fs.existsSync(SUBS_FILE)) return [];
   try {
@@ -250,29 +263,6 @@ async function sendTest() {
 }
 
 // ---------- обогащение найденного апгрейда через tonapi ----------
-const SUBS_PULL_URL = Buffer.from("aHR0cHM6Ly92ZXNwZXItNWNjZTgyNGUuYmFzZTQ0LmFwcC9mdW5jdGlvbnMvZ2V0U3Vicw==", "base64").toString("utf8");
-
-// живая синхронизация: тянем актуальных подписчиков прямо из бота (фолбэк — локальный файл)
-async function freshSubs() {
-  try {
-    const res = await fetch(`${SUBS_PULL_URL}?t=${Date.now()}`, { signal: AbortSignal.timeout(15000) });
-    if (!res.ok) { console.log("подписчики: sync-сервер не ответил (" + res.status + ")"); return null; }
-    const d = await res.json().catch(() => null);
-    if (!d || !d.ok || typeof d.enc !== "string" || !d.enc) { console.log("подписчики: пустой sync-ответ"); return null; }
-    fs.writeFileSync(SUBS_FILE, Buffer.from(d.enc, "base64"));
-    const list = decryptSubs();
-    if (!Array.isArray(list) || list.length === 0) {
-      console.log("подписчики: удалённо 0/не расшифровалось — подозрительно, беру локальный файл");
-      return null;
-    }
-    console.log(`подписчики: синхронизировано с ботом (${d.count})`);
-    return list;
-  } catch (e) {
-    console.log("подписчики: sync не удался, работаю с локальным файлом:", String(e).slice(0, 80));
-    return null;
-  }
-}
-
 async function enrich(b) {
   let ev = {
     slug: b.col.name,
@@ -319,7 +309,7 @@ async function enrich(b) {
 
 // ---------- main ----------
 let SWEEP_CHANGED = false;
-let lastSubsPull = 0;
+
 
 async function main() {
   SWEEP_CHANGED = false;
@@ -330,13 +320,19 @@ async function main() {
     state = {};
   }
   const cols = require(COLS_FILE);
-  let subs = null;
-  if (Date.now() - lastSubsPull > 300000) {
-    subs = await freshSubs();
-    lastSubsPull = Date.now();
+  let subs = decryptSubs();
+  console.log(`full-job v11 (бот на борту): коллекций: ${cols.length}, подписчиков: ${subs.length}`);
+  // 🤖 БОТ БЕЗ ВНЕШНИХ СЕРВИСОВ: getUpdates-поллинг прямо здесь, на GitHub Actions
+  try {
+    const bot = require("./bot.js");
+    const botOut = await bot.poll({ tg, subs, state });
+    if (botOut.subsChanged && encryptSubs(subs)) {
+      SWEEP_CHANGED = true;
+      console.log("бот: подписчики сохранены локально");
+    }
+  } catch (e) {
+    console.log("бот: сбой поллинга:", String(e).slice(0, 120));
   }
-  if (!subs) subs = decryptSubs();
-  console.log(`full-job v7: коллекций: ${cols.length}, подписчиков: ${subs.length}`);
 
   const hour = hourSamarkand();
   const night = hour >= 23 || hour < 8;
@@ -462,9 +458,37 @@ async function main() {
         });
         if (r && r.ok) sentThis++;
         if (r && r.error_code === 429) await sleep(Math.min(3, Number(r.parameters?.retry_after) || 1) * 1000);
+        // 🎯 личное уведомление «твой подарок улучшили» (свои номера юзера)
+        const mgList = Array.isArray(s.my_gifts) ? s.my_gifts : [];
+        for (const mgx of mgList) {
+          const pp = String(mgx || "").split(":");
+          const mn = parseInt(pp[1], 10);
+          if (!mn || String(pp[0] || "").trim().toLowerCase() !== b.col.name.toLowerCase()) continue;
+          if (mn < from || mn > n) continue;
+          const g2 = String(b.col.display_name || b.col.name);
+          const lnk = `https://t.me/nft/${b.col.name.toLowerCase()}-${mn}`;
+          const mineTxt =
+            `🎯 <b>ТВОЙ ПОДАРОК УЛУЧШЕН!</b>\n\n` +
+            `🎁 ${esc(g2)} #${mn.toLocaleString("ru-RU")} → NFT\n` +
+            (ev.ownerAddr || ev.ownerName ? `👤 Владелец: ${fmtOwner(ev.ownerAddr, ev.ownerName)}\n` : "") +
+            `\n🔗 <a href="${lnk}">Твой подарок</a> · <a href="https://t.me/mrkt">MRKT</a> · <a href="https://t.me/portals">Portals</a>\n\n` +
+            `#TelegramGifts #NFT #${b.col.name}`;
+          try {
+            await tg("sendMessage", {
+              chat_id: String(s.chat_id || s.telegram_id),
+              text: mineTxt,
+              parse_mode: "HTML",
+              disable_notification: silent,
+              link_preview_options: { is_disabled: false },
+            });
+          } catch {}
+        }
       }
       sent += sentThis;
       detected++;
+      // 🏆 лидерборд улучшителей (по владельцу события)
+      const lk = String(ev.ownerName || ev.ownerAddr || "").trim();
+      if (lk) { st.leaders = st.leaders || {}; st.leaders[lk] = (st.leaders[lk] || 0) + 1; }
       bumpLogs.push({
         slug: b.col.name,
         gift: ev.giftDisplay,
@@ -531,6 +555,21 @@ async function main() {
     }, null, 1));
   } catch (e) { console.log("gifts.json:", String(e).slice(0, 80)); }
 
+  // 🏆 лидерборд улучшителей → docs/leaders.json (агрегация по всем коллекциям)
+  try {
+    const leadersAll = {};
+    for (const c2 of cols) {
+      const st2 = state[c2.name];
+      const lmap = st2 && st2.leaders ? st2.leaders : {};
+      for (const [k, v] of Object.entries(lmap)) leadersAll[k] = (leadersAll[k] || 0) + v;
+    }
+    const leaders = Object.entries(leadersAll)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 100);
+    fs.writeFileSync(path.join(REPO_ROOT, "docs", "leaders.json"), JSON.stringify({ updated: new Date().toISOString(), leaders }, null, 1));
+  } catch (e) { console.log("leaders.json:", String(e).slice(0, 80)); }
+
   // 3.5) обложки коллекций (ПОДАРКИ-таб): раньше обновлялись отдельным джобом раз в 6ч и
   // показывали СТАРЫЙ экземпляр (другой цвет/облик, чем текущий счётчик) — обманывало юзера.
   // Теперь при каждом реальном апгрейде свежее фото ЭТОГО конкретного номера (уже скачано
@@ -560,7 +599,7 @@ async function main() {
       console.log("state: без изменений, коммит пропущен");
       return;
     }
-    execSync("git add data/state-full.json docs/status.json docs/gifts.json docs/history.json docs/images.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json data/subscribers.enc docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
