@@ -4,11 +4,8 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
-      mode:
-        description: "Режим: sendtest (тест владельцу) или пусто"
-        default: ""
       force:
-        description: "true = прогнать даже если standby выключен"
+        description: "true = прогнать даже если выключен"
         default: "false"
 
 permissions:
@@ -30,8 +27,4 @@ jobs:
       - name: Run monitor
         run: node gift-monitor/actions/monitor-job.js
         env:
-          TONAPI_KEY: ${{ secrets.TONAPI_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          CRYPT_KEY: ${{ secrets.CRYPT_KEY }}
-          MODE: ${{ github.event.inputs.mode || '' }}
           FORCE: ${{ github.event.inputs.force || '' }}
