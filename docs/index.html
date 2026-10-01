@@ -1272,9 +1272,9 @@ function refresh(first){
 applyTheme();
 applyI18n();
 refresh(true);
-setInterval(function(){ refresh(false); }, 30000);
+setInterval(function(){ refresh(false); }, 20000);
 ringIv = setInterval(function(){
-  var p = Math.min(100, (Date.now()-ringT0)/30000*100);
+  var p = Math.min(100, (Date.now()-ringT0)/20000*100);
   var r = $('ring'); if (r) r.style.setProperty('--p', p);
 }, 250);
 /* PWA: service worker */
