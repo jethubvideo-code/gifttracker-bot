@@ -359,7 +359,7 @@ async function main() {
     checked++;
     st.prevSweepTs = st.lastSweepTs || 0; // окно бампа = [prevSweep..now] — бамп случился внутри него
     st.lastSweepTs = NOW();
-    gifts.push({ slug: c.name, name: c.display_name || c.name, issued: cnt.issued, total: cnt.total });
+    gifts.push({ slug: c.name, name: c.display_name || c.name, issued: cnt.issued, total: cnt.total, added: Number(c.added) || 0 });
     if (!st.issued) {
       st.issued = cnt.issued;
       st.sample = cnt.sample;
