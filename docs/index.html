@@ -280,6 +280,7 @@ function feedCard(e, isNew){
   var img = e.img
     ? '<img class="im" src="' + esc(e.img) + '" loading="lazy" alt="" onerror="this.outerHTML=\'<div class=ph>🎁</div>\'">'
     : '<div class="ph">🎁</div>';
+  var ts = e.mint || (e.time ? new Date(e.time).getTime()/1000 : 0);
   var dv = document.createElement('div');
   dv.className = 'ev' + (isNew ? ' fresh' : '');
   dv.innerHTML =
@@ -288,7 +289,7 @@ function feedCard(e, isNew){
       '<div class="evt"><span class="gname">' + esc(e.gift || e.slug) + '</span><span class="num-g num">#' + fmtNum(e.counter_issued) + '</span>' +
       (isNew ? '<span class="badge-new">NEW</span>' : '') + '</div>' +
       '<div class="evmeta">NFT #' + fmtNum(n) + (owner ? ' · Владелец: ' + owner : '') + '</div>' +
-      '<div class="evtime">' + fmtDate(e.mint) + ' · ' + ago(e.mint) + '</div>' +
+      '<div class="evtime">' + (ts ? fmtDate(ts) + ' · ' + ago(ts) : 'время уточняется') + '</div>' +
       '<div class="pb"><i style="width:' + pct + '%"></i></div>' +
       '<div class="pbt"><span>улучшено ' + pct + '%</span><span>' + fmtNum(e.counter_issued) + ' из ' + fmtNum(e.counter_total) + '</span></div>' +
       '<div class="lnks"><a href="#" data-u="https://t.me/nft/' + esc((e.slug||'').toLowerCase()) + '-' + n + '">Подарок</a>' +
@@ -371,7 +372,11 @@ function refresh(first){
       document.getElementById('s4').textContent = fmtNum(st.sent_total||0);
     }
     document.getElementById('s2').textContent = fmtNum(st.collections || giftsData.length);
-    var evts = (st.last_upgrades||[]).slice().reverse();
+    var evts = (st.last_upgrades||[]).slice().sort(function(a,b){
+      var ta = a.mint || (a.time ? new Date(a.time).getTime()/1000 : 0);
+      var tb = b.mint || (b.time ? new Date(b.time).getTime()/1000 : 0);
+      return tb - ta;
+    });
     renderFeed(evts);
     renderGrid(qEl.value);
     var mins = st.updated_unix ? Math.max(0, Math.round((Date.now()/1000 - st.updated_unix)/60)) : 0;
