@@ -273,7 +273,7 @@ async function handleMessage(tg, subs, msg) {
     const add = args.match(/^([A-Za-zА-Яа-я0-9_ ]+?)\s*[#№]?\s*(\d{1,7})$/);
     if (add) {
       const g = findGift(add[1]);
-      if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(add[1])}» не найден. /calendar — все подарки` }); return changed; }
+      if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(add[1])}» не найден — проверь имя как в мини-аппе` }); return changed; }
       const slug = String(g.slug || g.name);
       const entry = `${slug}:${parseInt(add[2], 10)}`;
       if (mine.some((x) => x.toLowerCase() === entry.toLowerCase())) {
@@ -308,7 +308,7 @@ async function handleMessage(tg, subs, msg) {
   if (c === "/card") {
     if (!args) { await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: "💳 Карточка коллекции:\n<code>/card PlushPepe</code>" }); return changed; }
     const g = findGift(args);
-    if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(args)}» не найден. /calendar — все подарки` }); return changed; }
+    if (!g) { await tg("sendMessage", { chat_id: chatId, text: `Подарок «${esc(args)}» не найден — проверь имя как в мини-аппе` }); return changed; }
     const slug = String(g.slug || g.name);
     const doc = readDoc("floors.json") || { floors: {} };
     const fEnt = (doc.floors || {})[slug] || null;
@@ -331,36 +331,6 @@ async function handleMessage(tg, subs, msg) {
   }
 
   /* 📅 календарь */
-  if (c === "/calendar") {
-    const gdoc = readDoc("gifts.json");
-    const hdoc = readDoc("history.json");
-    if (!gdoc) { await tg("sendMessage", { chat_id: chatId, text: "⏳ Данные не готовы, попробуй через минуту" }); return changed; }
-    const hours = (hdoc && hdoc.hours) || [];
-    const rateOf = {};
-    if (hours.length >= 2) {
-      const last = hours[hours.length - 1];
-      const first = hours[Math.max(0, hours.length - 24)];
-      for (const g of gdoc.gifts) {
-        const s = String(g.slug || g.name);
-        const a = first.issued ? first.issued[s] : undefined;
-        const b2 = last.issued ? last.issued[s] : undefined;
-        if (a !== undefined && b2 !== undefined && b2 > a) rateOf[s] = b2 - a;
-      }
-    }
-    const sorted = gdoc.gifts.slice().sort((a, b) => (Number(b.added) || 0) - (Number(a.added) || 0)).slice(0, 10);
-    const now = Date.now() / 1000;
-    const lines = sorted.map((g) => {
-      const s = String(g.slug || g.name);
-      const rest = g.total ? g.total - g.issued : 0;
-      const rate = rateOf[s] || 0;
-      const eta = rate > 0 && rest > 0 ? ` · распродажа ~${fmt(rest / rate / 24)}д` : "";
-      const isNew = g.added && now - g.added < 7 * 86400 ? " 🆕" : "";
-      return `• <b>${esc(g.name || s)}</b>${isNew}\n  улучшено ${fmtInt(g.issued)} из ${fmtInt(g.total)} · осталось ${fmtInt(rest)}${eta}`;
-    });
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `📅 <b>Календарь лимиток</b>\n\nПоследние коллекции (верхние = новее):\n\n${lines.join("\n\n")}\n\n⏳ Оценка по скорости улучшений за 24ч.` });
-    return changed;
-  }
-
   /* 📊 индекс */
   if (c === "/index") {
     const doc = readDoc("floors.json");
@@ -376,24 +346,6 @@ async function handleMessage(tg, subs, msg) {
   }
 
   /* 🏆 топ улучшителей */
-  if (c === "/top") {
-    let leaders = [];
-    let src = null;
-    try { src = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "data", "state-full.json"), "utf8")); } catch { src = null; }
-    const agg = {};
-    if (src) {
-      for (const key of Object.keys(src)) {
-        const l = src[key] && src[key].leaders ? src[key].leaders : {};
-        for (const name of Object.keys(l)) agg[name] = (agg[name] || 0) + l[name];
-      }
-    }
-    leaders = Object.entries(agg).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    const medals = ["🥇", "🥈", "🥉"];
-    const lines = leaders.map(([name, cnt], i) => `${medals[i] || (i + 1) + "."} <b>${esc(name)}</b> — ${cnt} ⚡`);
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `🏆 <b>Топ улучшителей</b>\n\n${lines.join("\n") || "Счётчик копится — заходи позже"}\n\nУлучшишь свой подарок — попадёшь в топ 😉` });
-    return changed;
-  }
-
   /* 🛠 API */
 
   /* 🌙 ночь */
