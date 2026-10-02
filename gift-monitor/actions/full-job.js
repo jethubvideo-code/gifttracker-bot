@@ -498,7 +498,7 @@ async function main() {
     if (from > b.issued) { skipped++; continue; } // дубль — уже всё доставлено
     // FIFO-бэклог: кап 30/свип, СТАРЕЙШИЕ первыми. Хвост дошьётся след. свипами — ни один номер не теряется.
     const total = b.issued - from + 1;
-    const count = Math.min(total, 30);
+    const count = Math.min(total, 12); // 12/свип: свип ~50с → коммиты текут даже в шторм, сайт не замерзает
     if (total > count) STORM_DRAIN = true; // очередь не пуста → следующий свип сразу
     if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count} (в ленте все ${total} уже сейчас)`);
     const metas = await enrichRange(b, count, winStart, winEnd);
@@ -546,7 +546,7 @@ async function main() {
           const silent = !!(night && s.night_mode);
           const chat = String(s.chat_id || s.telegram_id);
           let ok = false;
-          for (let attempt = 0; attempt < 3 && !ok; attempt++) {
+          for (let attempt = 0; attempt < 4 && !ok; attempt++) {
             const r = await tg("sendMessage", {
               chat_id: chat,
               text,
@@ -590,7 +590,7 @@ async function main() {
           }
         }
       };
-      await Promise.all([sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool()]);
+      await Promise.all([sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool()]);
       sent += sentThis;
       detected++;
       // 🏆 лидерборд улучшителей
