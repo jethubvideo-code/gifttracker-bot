@@ -198,7 +198,7 @@ async function main() {
       console.log("collections.json закоммичен");
     } catch (e) { console.log("коммит не удался:", String(e.message).slice(0, 100)); }
   }
-  console.log(`ИТОГ: новых=${fresh.length}, уведомлений=${notified}, адресов найдено=${backfilled}, ${Math.round((Date.now()-t0)/1000)}с`);
+  console.log(`CHECK COMPLETED | Duration: ${Math.round((Date.now()-t0)/1000)}s | New gifts: ${fresh.length} | Backfilled addrs: ${backfilled} | Commit: ${(fresh.length || backfilled) ? "YES" : "NO (no-op)"} | Deploy: NO`);
 }
 
 (async () => {
