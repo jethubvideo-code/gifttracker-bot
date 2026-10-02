@@ -105,41 +105,38 @@ async function ptStep(tg, sub, chatId, text) {
     await tg("sendMessage", { chat_id: chatId, text: "❌ Анкета отменена. Начать заново: /partner" });
     return true;
   }
-  if (p.step === "name") {
-    if (t.length < 2 || t.length > 60) {
-      await tg("sendMessage", { chat_id: chatId, text: "⚠️ Название: от 2 до 60 символов. Попробуй ещё раз" });
+  // шаг logo: карточка УЖЕ опубликована, фото только дополняет
+  if (p.step === "logo") {
+    if (t.toLowerCase() === "/skip" || t.toLowerCase() === "готово" || t.toLowerCase() === "-") {
+      sub.pt = null;
+      await tg("sendMessage", { chat_id: chatId, text: "👍 Готово! Карточка уже на сайте — раздел «Партнёры»." });
       return true;
     }
-    p.name = t; p.step = "desc";
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `✍️ Отлично: <b>${esc(t)}</b>\n\n<b>2/5.</b> Короткое описание — чем занимаетесь? (до 200 символов)` });
-    return true;
-  }
-  if (p.step === "desc") {
-    p.desc = t.slice(0, 200); p.step = "site";
-    await tg("sendMessage", { chat_id: chatId, text: "🔗 3/5. Ссылка на сайт?\n(если нет сайта — отправь «-»)" });
-    return true;
-  }
-  if (p.step === "site") {
-    p.site = t === "-" ? "" : t.slice(0, 300); p.step = "tg";
-    await tg("sendMessage", { chat_id: chatId, text: "✈️ 4/5. Telegram-канал или @юзернейм?\n(или «-»)" });
-    return true;
-  }
-  if (p.step === "tg") {
-    p.tg = t === "-" ? "" : t.slice(0, 100); p.step = "ig";
-    await tg("sendMessage", { chat_id: chatId, text: "📷 5/5. Instagram?\n(или «-»)" });
-    return true;
-  }
-  if (p.step === "ig") {
-    p.ig = t === "-" ? "" : t.slice(0, 100); p.step = "logo";
-    await tg("sendMessage", { chat_id: chatId, text: "🏷 Осталось чуть-чуть!\n\nОтправь ЛОГОТИП фото — или /skip без логотипа" });
-    return true;
-  }
-  if (p.step === "logo") {
-    if (t.toLowerCase() === "/skip") { p.logo_file_id = ""; return await ptFinish(tg, sub, chatId); }
     await tg("sendMessage", { chat_id: chatId, text: "📷 Жду фото-логотип (или /skip)" });
     return true;
   }
-  return true;
+  // ОДНОШАГОВАЯ АНКЕТА: все 5 полей одним сообщением через «;»
+  const parts = t.split(";").map((x) => x.trim());
+  if (parts.length < 5) {
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text:
+      "⚠️ Нужны все 5 полей через «;»:\n\n<b>Название; Описание; Сайт; Telegram; Instagram</b>\n\n" +
+      "Нет поля — поставь прочерк «-». Пример:\n<code>Барбершоп Бро; Стрижки в Ташкенте; -; @brobarber; @bro.barber</code>" });
+    return true;
+  }
+  const [name, desc, site, tgU, ig] = parts;
+  if (name.length < 2 || name.length > 60) {
+    await tg("sendMessage", { chat_id: chatId, text: "⚠️ Название: от 2 до 60 символов. Попробуй ещё раз" });
+    return true;
+  }
+  sub.pt = {
+    step: "save",
+    name: name.slice(0, 60),
+    desc: desc.slice(0, 200),
+    site: site === "-" ? "" : site.slice(0, 300),
+    tg: tgU === "-" ? "" : tgU.slice(0, 100),
+    ig: ig === "-" ? "" : ig.slice(0, 100),
+  };
+  return await ptFinish(tg, sub, chatId);
 }
 
 async function ptFinish(tg, sub, chatId) {
@@ -173,10 +170,12 @@ async function ptFinish(tg, sub, chatId) {
     await tg("sendMessage", { chat_id: chatId, text: "⚠️ Не получилось сохранить, попробуй позже (/partner)" });
     return true;
   }
-  sub.pt = null;
+  // карточка ОПУБЛИКОВАНА сразу; логотип — опциональное дополнение
+  sub.pt = { step: "logo", entryId: entry.id };
   await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
-    "✅ <b>Карточка принята!</b>\n\nОна появится на сайте в течение минуты:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
-    "Хочешь изменить карточку — просто заполни анкету заново: /partner" });
+    "✅ <b>Карточка принята — уже публикуется!</b>\n\nОна появится на сайте в течение минуты:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
+    "📷 Хочешь логотип — пришли фото следующим сообщением (или /skip).\n" +
+    "Изменить карточку: /partner заново" });
   console.log(`партнёрская карточка: ${entry.name} (от ${me})`);
   return true;
 }
@@ -189,11 +188,17 @@ async function handleMessage(tg, subs, msg) {
   let changed = false;
   let sub = findSub(subs, fromId);
 
-  // 📷 фото-логотип для партнёрской карточки (пришло фото на шаге logo)
+  // 📷 фото-логотип: карточка УЖЕ сохранена — дописываем file_id в заявку по entryId
   if (!text && Array.isArray(msg.photo) && msg.photo.length && sub && sub.pt && sub.pt.step === "logo") {
-    sub.pt.logo_file_id = msg.photo[msg.photo.length - 1].file_id;
+    const fileId = msg.photo[msg.photo.length - 1].file_id;
+    try {
+      const list = ptList();
+      const i = list.findIndex((e) => String(e.id) === String(sub.pt.entryId));
+      if (i >= 0) { list[i].logo_file_id = fileId; fs.writeFileSync(PT_FILE, JSON.stringify(list.slice(-400), null, 1)); }
+    } catch {}
+    sub.pt = null;
     changed = true;
-    await ptFinish(tg, sub, chatId);
+    await tg("sendMessage", { chat_id: chatId, text: "✅ Логотип принят — появится на карточке в течение минуты" });
     return changed;
   }
   if (!text) return false;
@@ -218,13 +223,15 @@ async function handleMessage(tg, subs, msg) {
     if (!sub) { sub = newSub(fromId, chatId); subs.push(sub); changed = true; }
     if (!sub.is_active) { sub.is_active = true; changed = true; }
     if (c === "/partner" || args.toLowerCase() === "partner") {
-      sub.pt = { step: "name" };
+      sub.pt = { step: "form" };
       changed = true;
       await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
         "🏷 <b>Партнёрская витрина — бесплатно!</b>\n\n" +
         "Карточка твоей компании появится на сайте Gift Monitor:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
-        "Анкета — 5 коротких шагов. Отмена в любой момент: /cancel\n\n" +
-        "<b>1/5.</b> Название компании или проекта?" });
+        "Анкета — ОДНИМ сообщением. Отмена: /cancel\n\n" +
+        "Отправь все 5 полей через «;»:\n<b>Название; Описание; Сайт; Telegram; Instagram</b>\n\n" +
+        "Нет поля — поставь «-». Пример:\n<code>Барбершоп Бро; Стрижки в Ташкенте; -; @brobarber; @bro.barber</code>\n\n" +
+        "⏳ Бот отвечает в течение 20-40 секунд — это нормально, не спеши" });
       return changed;
     }
     if (c === "/help") {
