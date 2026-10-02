@@ -517,7 +517,8 @@ async function publishPartners() {
   } catch (e) { console.log("партнёры:", String(e).slice(0, 100)); }
 }
 
-let STORM_DRAIN = false; // true = в очереди ещё номера: свипы подряд, без пауз
+let STORM_DRAIN = false;
+let RECENT_429 = []; // v19.2: окно 429 за последние 60с — если 3+, это глобальный лимит // true = в очереди ещё номера: свипы подряд, без пауз
 
 async function main() {
   STORM_DRAIN = false;
@@ -724,11 +725,21 @@ async function main() {
               link_preview_options: { is_disabled: false },
             });
             if (r && r.ok) { ok = true; sentThis++; }
-            else if (r && r.error_code === 429) { // v17: кулдаун чата вместо 4×10с сна (замок 10:01-10:30 убит)
+            else if (r && r.error_code === 429) { // v19.2: пер-чат 429 — НЕ сбивает глобальную скорость
               const ra = Math.min(120, Number(r.parameters?.retry_after) || 30);
               CHAT_CD[chat] = Date.now() + ra * 1000;
-              RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++;
-              console.log(`RL: 429 (чат ${chat}) → кулдаун ${ra}с, отступ ${RL.rate}/сек`);
+              STATS.retries429++;
+              // v19.2: только если 3+ чатов 429 за 60с — это глобальный лимит, отступаем
+              const now = Date.now();
+              RECENT_429 = RECENT_429.filter(t => now - t < 60_000);
+              RECENT_429.push(now);
+              if (RECENT_429.length >= 3) {
+                RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = now; RL.tokens = 0;
+                console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${RECENT_429.length} чатов за 60с) → отступ ${RL.rate}/сек`);
+                RECENT_429 = [];
+              } else {
+                console.log(`RL: пер-чат 429 (${chat}) → кулдаун ${ra}с, глобальная скорость сохранена ${RL.rate}/сек`);
+              }
               break;
             }
             else break;
@@ -757,7 +768,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 1000; RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++; console.log(`RL: 429 (личный, чат ${s.chat_id || s.telegram_id}) → кулдаун ${ra2}с`); break; }
+                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 1000; STATS.retries429++; const now2 = Date.now(); RECENT_429 = RECENT_429.filter(t => now2 - t < 60_000); RECENT_429.push(now2); if (RECENT_429.length >= 3) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = now2; RL.tokens = 0; console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${RECENT_429.length} за 60с) → отступ ${RL.rate}/сек`); RECENT_429 = []; } else { console.log(`RL: пер-чат 429 (личный ${s.chat_id || s.telegram_id}) → кулдаун ${ra2}с, скорость сохранена`); } break; }
                 break;
               } catch { break; }
             }
