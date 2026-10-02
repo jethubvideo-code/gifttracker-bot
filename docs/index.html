@@ -360,14 +360,7 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
   text-decoration:none;transition:border-color .2s,transform .15s}
 .ptlink:hover{border-color:var(--goldD)}
 .ptlink:active{transform:scale(.96)}
-#sheetPt input,#sheetPt textarea{width:100%;background:var(--sur);border:1.5px solid var(--line2);
-  border-radius:10px;padding:10px 12px;color:var(--tx);font-size:13px;font-weight:600;outline:none;margin-top:10px;resize:none;font-family:inherit}
-#sheetPt input:focus,#sheetPt textarea:focus{border-color:var(--goldD)}
-.ptlogo-cur{width:64px;height:64px;border-radius:16px;border:1.5px dashed var(--line2);display:flex;
-  align-items:center;justify-content:center;font-size:22px;overflow:hidden;flex:none}
-.ptlogo-cur img{width:100%;height:100%;object-fit:cover}
 .pt-hp{position:absolute;left:-4000px;top:-4000px;height:1px;width:1px;opacity:0}
-#sheetPt .btn.busy{opacity:.55;pointer-events:none}
 </style>
 </head>
 <body>
@@ -505,8 +498,9 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
   <!-- ПАРТНЁРЫ -->
   <section class="pane" id="p-pt">
     <div class="sec"><h2 data-i18n="ptTitle">Партнёры</h2><span class="sub" id="ptCnt"></span></div>
-    <div class="prnote" data-i18n="ptSub">бесплатная витрина: добавь свою компанию за минуту</div>
-    <button class="btn jelly" id="ptOpen" style="width:100%;margin-top:10px">➕ <span data-i18n="ptBecome">Стать партнёром бесплатно</span></button>
+    <div class="prnote" data-i18n="ptSub">бесплатная витрина: карточка компании в ленте апгрейдов</div>
+    <button class="btn jelly" id="ptOpen" style="width:100%;margin-top:10px">🏷 <span data-i18n="ptBecome">Стать партнёром — через бота</span></button>
+    <div class="prnote" style="text-align:center;margin-top:8px" data-i18n="ptHintBot">анкета в 5 шагов прямо в Telegram — карточка появится на сайте в течение минуты</div>
     <div id="ptList" style="margin-top:12px"></div>
   </section>
 
@@ -551,24 +545,6 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
 <div class="sheet" id="sheetSet">
   <div class="sh-handle"></div>
   <div id="setBody"></div>
-</div>
-<div class="sheet" id="sheetPt">
-  <div class="sh-handle"></div>
-  <div style="padding:18px 18px 28px">
-    <div style="font-weight:800;font-size:17px">➕ <span data-i18n="ptBecome">Стать партнёром бесплатно</span></div>
-    <div class="prnote" style="margin-top:4px" data-i18n="ptFormNote">карточка появится на сайте сразу — бесплатно и без модерации</div>
-    <div style="margin-top:14px;display:flex;gap:12px;align-items:center">
-      <div class="ptlogo-cur" id="ptLogoPrev"><span>📷</span></div>
-      <label class="btn jelly" style="cursor:pointer">📷 <span data-i18n="ptLogoBtn">выбрать логотип</span><input type="file" id="ptLogoInp" accept="image/png,image/jpeg,image/webp" hidden></label>
-    </div>
-    <input id="ptfName" data-i18n-ph="ptfName" placeholder="Название компании / проекта" maxlength="60" autocomplete="off">
-    <textarea id="ptfDesc" rows="2" maxlength="200" data-i18n-ph="ptfDesc" placeholder="Краткое описание"></textarea>
-    <input id="ptfSite" data-i18n-ph="ptfSite" placeholder="Ссылка на сайт" autocomplete="off">
-    <input id="ptfTg" data-i18n-ph="ptfTg" placeholder="Telegram (@username)" autocomplete="off">
-    <input id="ptfIg" data-i18n-ph="ptfIg" placeholder="Instagram (@username)" autocomplete="off">
-    <input id="ptfHp" class="pt-hp" tabindex="-1" aria-hidden="true" autocomplete="off">
-    <button class="btn jelly" id="ptPublish" style="width:100%;margin-top:14px">🚀 <span data-i18n="ptPublish">Опубликовать бесплатно</span></button>
-  </div>
 </div>
 <div class="toast" id="toast"></div>
 <canvas id="canv" width="900" height="500"></canvas>
@@ -633,23 +609,13 @@ var I18N = {
   tPro:{ru:'ПРО', uz:'PRO', en:'PRO'},
   tPt:{ru:'ПАРТНЁР', uz:'HAMKOR', en:'PARTNER'},
   ptTitle:{ru:'Партнёры', uz:'Hamkorlar', en:'Partners'},
-  ptSub:{ru:'бесплатная витрина: добавь свою компанию за минуту', uz:"bepul vitrina: kompaniyangizni bir daqiqada qo'shing", en:'free showcase: add your company in a minute'},
-  ptBecome:{ru:'Стать партнёром бесплатно', uz:"Hamkor bo'lish bepul", en:'Become a partner free'},
-  ptEmpty:{ru:'Пока никто не добавился — стань первым! 🚀', uz:"Hali kim yo'q — birinchi bo'l! 🚀", en:'Nobody yet — be the first! 🚀'},
+  ptSub:{ru:'бесплатная витрина: карточка компании в ленте апгрейдов', uz:'bepul vitrina: kompaniya kartasi yangilanish lentasida', en:'free showcase: your company card in the upgrades feed'},
+  ptBecome:{ru:'Стать партнёром — через бота', uz:"Hamkor bo'lish — bot orqali", en:'Become a partner — via bot'},
+  ptEmpty:{ru:'Пока никто не добавился — стань первым! Жми кнопку выше и заполни анкету в боте 🚀', uz:"Hali kim yo'q — birinchi bo'l! Yuqoridagi tugmani bosing 🚀", en:'Nobody yet — be the first! Tap the button above 🚀'},
   ptSite:{ru:'сайт', uz:'sayt', en:'site'},
   ptBanTag:{ru:'Партнёр', uz:'Hamkor', en:'Partner'},
   ptCta:{ru:'открыть →', uz:'ochish →', en:'open →'},
-  ptOk:{ru:'Карточка опубликована!', uz:'Karta chop etildi!', en:'Card published!'},
-  ptNeedLink:{ru:'нужна хотя бы одна ссылка', uz:'kamida bitta havola kerak', en:'at least one link required'},
-  ptFormNote:{ru:'карточка появится на сайте сразу — бесплатно и без модерации', uz:"karta darhol saytda paydo bo'ladi — bepul, moderatsiyasiz", en:'your card appears instantly — free, no moderation'},
-  ptLogoBtn:{ru:'выбрать логотип', uz:'logotip tanlash', en:'choose logo'},
-  ptfName:{ru:'Название компании / проекта', uz:'Kompaniya / loyiha nomi', en:'Company / project name'},
-  ptfDesc:{ru:'Краткое описание (до 200 символов)', uz:'Qisqa tavsif (200 tagacha)', en:'Short description (up to 200 chars)'},
-  ptfSite:{ru:'Ссылка на сайт', uz:'Sayt havolasi', en:'Website link'},
-  ptfTg:{ru:'Telegram (@username)', uz:'Telegram (@username)', en:'Telegram (@username)'},
-  ptfIg:{ru:'Instagram (@username)', uz:'Instagram (@username)', en:'Instagram (@username)'},
-  ptPublish:{ru:'Опубликовать бесплатно', uz:'Bepul chop etish', en:'Publish free'},
-  ptNet:{ru:'сеть недоступна, попробуй позже', uz:"tarmoq yo'q, keyinroq urinib ko'ring", en:'network error, try later'},
+  ptHintBot:{ru:'анкета в 5 шагов прямо в Telegram — карточка появится на сайте в течение минуты', uz:"Telegram'da 5 qadamli anketa — karta bir daqiqada saytda paydo bo'ladi", en:'a 5-step form right in Telegram — your card appears on the site within a minute'},
 
   tFlip:{ru:'ФЛИП', uz:'FLIP', en:'FLIP'},
   flTitle:{ru:'Flip-школа', uz:'Flip maktabi', en:'Flip school'},
@@ -1614,14 +1580,14 @@ function renderProIdx(){
 }
 function usdRate(){ return Number(floorsData.rate_usd)||0; }
 
-/* ═══════════ ПАРТНЁРЫ: бесплатная витрина ═══════════ */
-var PT_API = 'https://vesper-5cce824e.base44.app/functions/partnersBoard';
-var ptItems = [], ptLoadedAt = 0, ptLogo = '';
+/* ═══════════ ПАРТНЁРЫ: бесплатная витрина (100% GitHub, статический JSON) ═══════════ */
+var ptItems = [], ptLoadedAt = 0;
 function loadPartners(force){
   var now = Date.now();
   if (!force && ptItems.length && now - ptLoadedAt < 60000){ renderPartners(); renderFeedBanner(); return; }
-  fetch(PT_API + '?t=' + now).then(function(r){ return r.json(); }).then(function(d){
-    if (d && d.ok){ ptItems = d.items || []; ptLoadedAt = now; renderPartners(); renderFeedBanner(); }
+  jget('partners.json').then(function(d){
+    ptItems = (d && d.items) || []; ptLoadedAt = now;
+    renderPartners(); renderFeedBanner();
   }).catch(function(){});
 }
 function ptChip(href, label){
@@ -1662,49 +1628,11 @@ function renderFeedBanner(){
     + '<span class="ptban-txt"><b>' + esc(p.name) + '</b>' + (p.description ? ' — ' + esc(p.description) : '') + '</span>'
     + '<span class="ptban-cta">' + T('ptCta') + '</span></a>';
 }
-$('ptOpen').addEventListener('click', function(){ haptic(); ptResetForm(); openSheet('sheetPt'); });
-function ptResetForm(){
-  ptLogo = '';
-  ['ptfName','ptfDesc','ptfSite','ptfTg','ptfIg','ptfHp'].forEach(function(id){ var el = $(id); if (el) el.value = ''; });
-  var pv = $('ptLogoPrev'); if (pv){ pv.innerHTML = '<span>📷</span>'; pv.classList.remove('has'); }
-}
-$('ptLogoInp').addEventListener('change', function(){
-  var f = this.files && this.files[0];
-  if (!f) return;
-  if (!/^image\/(png|jpe?g|webp)$/.test(f.type)){ toast('⚠️ PNG / JPG / WEBP'); return; }
-  if (f.size > 5*1024*1024){ toast('⚠️ до 5 МБ'); return; }
-  var fr = new FileReader();
-  fr.onload = function(){
-    var img = new Image();
-    img.onload = function(){
-      var S = 128, c = document.createElement('canvas'); c.width = S; c.height = S;
-      var x = c.getContext('2d');
-      var k = Math.min(S/img.width, S/img.height), w = img.width*k, hh = img.height*k;
-      x.drawImage(img, (S-w)/2, (S-hh)/2, w, hh);
-      ptLogo = c.toDataURL('image/png');
-      var pv = $('ptLogoPrev'); pv.innerHTML = '<img src="' + ptLogo + '" alt="">'; pv.classList.add('has');
-      haptic();
-    };
-    img.src = fr.result;
-  };
-  fr.readAsDataURL(f);
-});
-$('ptPublish').addEventListener('click', function(){
-  var name = $('ptfName').value.trim();
-  var desc = $('ptfDesc').value.trim();
-  var site = $('ptfSite').value.trim();
-  var tg = $('ptfTg').value.trim();
-  var ig = $('ptfIg').value.trim();
-  if (!name){ toast('⚠️ ' + T('ptfName')); return; }
-  if (!site && !tg && !ig){ toast('⚠️ ' + T('ptNeedLink')); return; }
-  var btn = this; btn.disabled = true; btn.classList.add('busy');
-  fetch(PT_API, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name: name, description: desc, site_url: site, telegram: tg, instagram: ig, logo: ptLogo, website2: $('ptfHp').value })
-  }).then(function(r){ return r.json(); }).then(function(d){
-    btn.disabled = false; btn.classList.remove('busy');
-    if (d && d.ok){ closeSheets(); toast('✓ ' + T('ptOk')); haptic(); loadPartners(true); switchTab('pt'); }
-    else toast('⚠️ ' + (d && d.error ? d.error : '…'));
-  }).catch(function(){ btn.disabled = false; btn.classList.remove('busy'); toast('⚠️ ' + T('ptNet')); });
+// анкета — в боте: глубокая ссылка открывает чат, бот ведёт по шагам
+$('ptOpen').addEventListener('click', function(){
+  haptic();
+  var u = 'https://t.me/Trackingonebot?start=partner';
+  try { window.open(u, '_blank'); } catch(e){ try { location.href = u; } catch(e2){} }
 });
 loadPartners();
 
