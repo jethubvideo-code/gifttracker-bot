@@ -8,6 +8,10 @@ on:
         description: "report = только отчёт владельцу, без вмешательства"
         default: ""
 
+concurrency:
+  group: guardian
+  cancel-in-progress: true
+
 permissions:
   contents: write
   actions: write
