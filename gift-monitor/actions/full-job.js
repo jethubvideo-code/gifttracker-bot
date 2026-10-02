@@ -438,7 +438,7 @@ async function main() {
   const bumps = [];
   const bumpLogs = [];
   const gifts = [];
-  await pool(cols, 10, async (c) => {
+  await pool(cols, 16, async (c) => {
     const st =
       state[c.name] ||
       (state[c.name] = { issued: 0, sample: 1, lastSentTime: 0, lastSentNum: 0 });
@@ -497,9 +497,9 @@ async function main() {
     const enrichN = Math.min(count, total > 50 ? 8 : count); // мегашторм: владелец у 8 новейших, хвост — без задержки тонапи
     const metas = await enrichRange(b, enrichN, winStart, winEnd);
     const colImg = await giftImage(b.col.name, b.issued); // 1 картинка на коллекцию за свип (не 30 запросов)
-    for (let i = 0; i < count; i++) {
-      const n = from + i;
-      const mIdx = i - (count - metas.length);
+    const stormLogs = []; // лента этого свипа (пушим по возрастанию после цикла)
+    for (let n = from + count - 1; n >= from; n--) { // НОВЫЕ ПЕРВЫМИ: юзер видит свежак мгновенно, хвост дошьется следом
+      const mIdx = (n - from) - (count - metas.length);
       const m = mIdx >= 0 && mIdx < metas.length ? metas[mIdx] : {};
       const mOk = !!(m.mintTime && m.mintTime >= winStart && m.mintTime <= winEnd);
       const ev = {
@@ -512,7 +512,7 @@ async function main() {
         counter: { issued: n, total: b.total },
       };
       // ЛЕНТА ЗАПИСЫВАЕТСЯ ВСЕГДА и ДО доставки — сайт не отстаёт от счётчика никогда
-      bumpLogs.push({
+      stormLogs.push({
         slug: b.col.name, gift: ev.giftDisplay, number: n,
         owner: ev.ownerName || "", owner_addr: ev.ownerAddr || "",
         mint: ev.mintTime, counter_issued: n, counter_total: b.total,
@@ -537,7 +537,7 @@ async function main() {
       const sendPool = async () => {
         while (tIdx < targets.length) {
           const s = targets[tIdx++];
-          const silent = !!(night && s.night_mode);
+          const silent = !!(night && s.night_mode) || b.issued - n >= 150; // глубокий хвост очереди — без звука, свежие звенят
           const chat = String(s.chat_id || s.telegram_id);
           let ok = false;
           for (let attempt = 0; attempt < 4 && !ok; attempt++) {
@@ -590,9 +590,10 @@ async function main() {
       const lk = String(ev.ownerName || ev.ownerAddr || "").trim();
       if (lk) { st.leaders = st.leaders || {}; st.leaders[lk] = (st.leaders[lk] || 0) + 1; }
       st.lastSentTime = NOW();
-      st.lastSentNum = n; // маркер двигается ТОЛЬКО после реальной доставки — ничего не помечается даром
       console.log(`апгрейд 1:1: ${b.col.name} #${n}, отправлено: ${sentThis}`);
     }
+    for (const l of stormLogs.slice().reverse()) bumpLogs.push(l); // лента: по возрастанию, как было
+    if (count > 0) st.lastSentNum = from + count - 1; // весь диапазон свипа доставлен — маркер на новейший (после свипа, не в середине)
     // хвост очереди (>30) — тоже в ленту немедленно, доставится след. свипами (каждый своим сообщением)
     for (let n = from + count; n <= b.issued; n++) {
       bumpLogs.push({ slug: b.col.name, gift: b.col.display_name || b.col.name, number: n, owner: "", owner_addr: "", mint: 0, counter_issued: n, counter_total: b.total, img: colImg || "", sent: 0, time: new Date().toISOString() });
