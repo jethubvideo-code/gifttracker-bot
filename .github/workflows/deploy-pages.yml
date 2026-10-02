@@ -1,0 +1,41 @@
+name: Deploy Pages (static only)
+# РАЗДЕЛЕНИЕ СТАТИКИ И ДАННЫХ (req.5/16): сайт деплоится ТОЛЬКО при изменении фронтенда.
+# live.json / floors / catalog / images — данные! Их тянет raw-CDN, Pages им не нужен.
+# Раньше: каждый коммит движка (каждые 20-60с) = Pages-билд = сотни деплоев в сутки.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/index.html"
+      - "docs/sw.js"
+      - "docs/manifest.webmanifest"
+      - "docs/logo.png"
+      - "docs/icon.svg"
+      - "docs/embed.js"
+      - "docs/p/**"
+      - "docs/.nojekyll"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
