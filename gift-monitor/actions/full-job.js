@@ -219,9 +219,9 @@ async function enrichRange(b, count, winStart, winEnd) {
   // ОКНО БАМПА: берём только трансферы, случившиеся между свипами — именно этот апгрейд.
   // Протухший тонапи (трансферы на 10-20 мин старьё) — шум, его номера/время/владелец НЕ прикрепляются к свежему номеру.
   const inWin = transfers.filter((t) => t.ts && t.ts >= winStart && t.ts <= winEnd);
-  // FIFO: берём СТАРЕЙШИЕ count трансферы окна (выравнивание под oldest-first доставку),
-  // при обычном прыжке 1-8 это то же самое, что и последние
-  const chosen = inWin.length > count ? inWin.slice(0, count) : inWin.slice(-count);
+  // НОВЕЙШИЕ count трансферы окна → новейшие номера свипа (выравнивание под возрастающую доставку
+  // РОВНО ПО НОМЕРАМ; при обычном прыжке 1-8 это все трансферы окна, как и раньше)
+  const chosen = inWin.slice(-count);
   for (let i = 0; i < chosen.length; i++) {
     const t = chosen[i];
     const ev = { number: 0, ownerAddr: "", ownerName: "", mintTime: t.ts, giftDisplay: "" };
@@ -526,7 +526,7 @@ async function main() {
     const colImg = await giftImage(b.col.name, b.issued); // 1 картинка на коллекцию за свип (не 30 запросов)
     const stormLogs = []; // лента этого свипа (пушим по возрастанию после цикла)
     const batchTs = new Date().toISOString(); // ОДИН штамп на весь батч — иначе мс-дрожь внутри цикла (новые→старые) переворачивает видимый порядок в ленте
-    for (let n = from + count - 1; n >= from; n--) { // НОВЫЕ ПЕРВЫМИ: юзер видит свежак мгновенно, хвост дошьется следом
+    for (let n = from; n < from + count; n++) { // РОВНО ПО НОМЕРАМ (приказ владельца): строго по возрастанию 1,2,3... — никакого перемешивания
       const mIdx = (n - from) - (count - metas.length);
       const m = mIdx >= 0 && mIdx < metas.length ? metas[mIdx] : {};
       const mOk = !!(m.mintTime && m.mintTime >= winStart && m.mintTime <= winEnd);
@@ -624,10 +624,10 @@ async function main() {
       const lk = String(ev.ownerName || ev.ownerAddr || "").trim();
       if (lk) { st.leaders = st.leaders || {}; st.leaders[lk] = (st.leaders[lk] || 0) + 1; }
       st.lastSentTime = NOW();
+      st.lastSentNum = n; // маркер после КАЖДОГО номера: краш в середине свипа = ноль дублей и ноль потерь
       console.log(`апгрейд 1:1: ${b.col.name} #${n}, отправлено: ${sentThis}`);
     }
-    for (const l of stormLogs.slice().reverse()) bumpLogs.push(l); // лента: по возрастанию, как было
-    if (count > 0) st.lastSentNum = from + count - 1; // весь диапазон свипа доставлен — маркер на новейший (после свипа, не в середине)
+    for (const l of stormLogs) bumpLogs.push(l); // лента: цикл уже по возрастанию, reverse не нужен
     // хвост очереди (>30) — тоже в ленту немедленно, доставится след. свипами (каждый своим сообщением)
     for (let n = from + count; n <= b.issued; n++) {
       bumpLogs.push({ slug: b.col.name, gift: b.col.display_name || b.col.name, number: n, owner: "", owner_addr: "", mint: 0, counter_issued: n, counter_total: b.total, img: colImg || "", sent: 0, time: new Date().toISOString() });
