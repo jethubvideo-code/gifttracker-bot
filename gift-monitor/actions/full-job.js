@@ -498,6 +498,7 @@ async function main() {
     const metas = await enrichRange(b, enrichN, winStart, winEnd);
     const colImg = await giftImage(b.col.name, b.issued); // 1 картинка на коллекцию за свип (не 30 запросов)
     const stormLogs = []; // лента этого свипа (пушим по возрастанию после цикла)
+    const batchTs = new Date().toISOString(); // ОДИН штамп на весь батч — иначе мс-дрожь внутри цикла (новые→старые) переворачивает видимый порядок в ленте
     for (let n = from + count - 1; n >= from; n--) { // НОВЫЕ ПЕРВЫМИ: юзер видит свежак мгновенно, хвост дошьется следом
       const mIdx = (n - from) - (count - metas.length);
       const m = mIdx >= 0 && mIdx < metas.length ? metas[mIdx] : {};
@@ -516,7 +517,7 @@ async function main() {
         slug: b.col.name, gift: ev.giftDisplay, number: n,
         owner: ev.ownerName || "", owner_addr: ev.ownerAddr || "",
         mint: ev.mintTime, counter_issued: n, counter_total: b.total,
-        img: colImg || "", sent: 0, time: new Date().toISOString(),
+        img: colImg || "", sent: 0, time: batchTs,
       });
       // мета не подтвердилась (тонапи протух/окно старое) → честное «минуту назад», НЕ пропускаем
       if (!ev.mintTime || ev.mintTime < NOW() - 1200) ev.mintTime = NOW() - 60;
