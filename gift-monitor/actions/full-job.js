@@ -78,9 +78,9 @@ function tonapi(url) {
 // показали 85+ сообщ/сек без единого 429. Контроллер сам нащупывает фактическую границу:
 // +1 сообщ/сек каждые 30с чистого потока (до 80), на 429 → rate -3 мгновенно (пол 20) И запоминание
 // границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
-const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 60 };
+const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 80 }; // v18: потолок 60→80 (пер-чатный гейт 1.0с теперь первичная защита от флуда)
 const CHAT_CD = {};   // v17: пер-чат флуд-кулдаун (chat → ts, до которого чат не дёргаем)
-const CHAT_LAST = {}; // v17: пер-чат пейсинг (chat → ts последнего сообщения)
+const CHAT_LAST = {}; // v18: пер-чат пейсинг 1.0с (chat → ts последнего сообщения)
 let GIT_LOCK = false; // сериализация git-операций свипа и фонового контура (index.lock не делится)
 // МОНИТОРИНГ ПРОИЗВОДИТЕЛЬНОСТИ: каждый свип печатает CHECK COMPLETED (req.17)
 const STATS = { api: 0, tg: 0, retries429: 0, lastCommit: false };
@@ -92,7 +92,7 @@ async function rlWait() {
     const now = Date.now();
     if (now - RL.lastUp > 10_000 && now - RL.last429 > 10_000) { // чистый поток — наращиваем (10с: шторм не ждёт)
       RL.lastUp = now;
-      if (RL.hi < 60 && now - RL.last429 > 600_000) RL.hi = Math.min(60, RL.hi + 2); // 10 мин без 429 — граница оттаивает
+      if (RL.hi < 80 && now - RL.last429 > 600_000) RL.hi = Math.min(80, RL.hi + 2); // 10 мин без 429 — граница оттаивает
       RL.rate = Math.min(RL.hi, RL.rate + 1); // безусловно: если rate застрял выше hi (после 429) — вернётся под границу
     }
     RL.tokens = Math.min(RL.rate, RL.tokens + ((now - RL.ts) / 1000) * RL.rate);
@@ -704,7 +704,7 @@ async function main() {
           if ((CHAT_CD[chat] || 0) > Date.now()) continue; // v17: чат во флуд-кулдауне — не дёргаем, догонит след. свипами
           let ok = false;
           for (let attempt = 0; attempt < 2 && !ok; attempt++) {
-            const w = 2500 - (Date.now() - (CHAT_LAST[chat] || 0)); // v17: пейсинг ≥2.5с между сообщениями в один чат
+            const w = 1000 - (Date.now() - (CHAT_LAST[chat] || 0)); // v18: пейсинг ≥1.0с/чат (2.5с душило штормовую доставку, оставляя дрен в 2.5 раза ниже возможного)
             if (w > 0) await sleep(w);
             CHAT_LAST[chat] = Date.now();
             const r = await tg("sendMessage", {
@@ -755,7 +755,7 @@ async function main() {
           }
         }
       };
-      await Promise.all(Array.from({ length: 12 }, () => sendPool()));
+      await Promise.all(Array.from({ length: 20 }, () => sendPool())); // v18: пул 20 (было 12) под пейсинг 1.0с
       sent += sentThis;
       detected++;
       // 🏆 лидерборд улучшителей
