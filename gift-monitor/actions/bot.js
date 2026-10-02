@@ -86,6 +86,101 @@ const WELCOME =
 const NEED_SUB = `📢 Чтобы бот работал, подпишись на канал «Банк звёзд» @unknowesecret — там бесплатные фишки и розыгрыши.\n\nПосле подписки нажми кнопку ниже 👇`;
 
 /* ═══ обработка одного апдейта ═══ */
+/* ═══════════ ПАРТНЁРСКАЯ ВИТРИНА (100% GitHub, без внешних сервисов) ═══════════
+   Анкета в 5 шагов прямо в чате. Заявка пишется в data/partners.json,
+   движок публикует её в docs/partners.json → сайт показывает карточку.
+   Шаги живут в sub.pt (шифрованный subscribers.enc, персистентны между свипами). */
+const PT_FILE = path.join(REPO_ROOT, "data", "partners.json");
+
+function ptList() {
+  try { const a = JSON.parse(fs.readFileSync(PT_FILE, "utf8")); if (Array.isArray(a)) return a; } catch {}
+  return [];
+}
+
+async function ptStep(tg, sub, chatId, text) {
+  const p = sub.pt;
+  const t = String(text || "").trim();
+  if (t.toLowerCase() === "/cancel" || t.toLowerCase() === "/stop") {
+    sub.pt = null;
+    await tg("sendMessage", { chat_id: chatId, text: "❌ Анкета отменена. Начать заново: /partner" });
+    return true;
+  }
+  if (p.step === "name") {
+    if (t.length < 2 || t.length > 60) {
+      await tg("sendMessage", { chat_id: chatId, text: "⚠️ Название: от 2 до 60 символов. Попробуй ещё раз" });
+      return true;
+    }
+    p.name = t; p.step = "desc";
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `✍️ Отлично: <b>${esc(t)}</b>\n\n<b>2/5.</b> Короткое описание — чем занимаетесь? (до 200 символов)` });
+    return true;
+  }
+  if (p.step === "desc") {
+    p.desc = t.slice(0, 200); p.step = "site";
+    await tg("sendMessage", { chat_id: chatId, text: "🔗 3/5. Ссылка на сайт?\n(если нет сайта — отправь «-»)" });
+    return true;
+  }
+  if (p.step === "site") {
+    p.site = t === "-" ? "" : t.slice(0, 300); p.step = "tg";
+    await tg("sendMessage", { chat_id: chatId, text: "✈️ 4/5. Telegram-канал или @юзернейм?\n(или «-»)" });
+    return true;
+  }
+  if (p.step === "tg") {
+    p.tg = t === "-" ? "" : t.slice(0, 100); p.step = "ig";
+    await tg("sendMessage", { chat_id: chatId, text: "📷 5/5. Instagram?\n(или «-»)" });
+    return true;
+  }
+  if (p.step === "ig") {
+    p.ig = t === "-" ? "" : t.slice(0, 100); p.step = "logo";
+    await tg("sendMessage", { chat_id: chatId, text: "🏷 Осталось чуть-чуть!\n\nОтправь ЛОГОТИП фото — или /skip без логотипа" });
+    return true;
+  }
+  if (p.step === "logo") {
+    if (t.toLowerCase() === "/skip") { p.logo_file_id = ""; return await ptFinish(tg, sub, chatId); }
+    await tg("sendMessage", { chat_id: chatId, text: "📷 Жду фото-логотип (или /skip)" });
+    return true;
+  }
+  return true;
+}
+
+async function ptFinish(tg, sub, chatId) {
+  const p = sub.pt || {};
+  const links = [p.site, p.tg, p.ig].filter(Boolean);
+  if (!p.name || !links.length) {
+    sub.pt = { step: "site", name: p.name || "", desc: p.desc || "", site: "", tg: "", ig: "" };
+    await tg("sendMessage", { chat_id: chatId, text: "⚠️ Нужна хотя бы одна ссылка (сайт, Telegram или Instagram).\n\n🔗 Ссылка на сайт? (или «-»)" });
+    return true;
+  }
+  const list = ptList();
+  const me = String(sub.telegram_id || "");
+  const dayAgo = Date.now() - 86400_000;
+  // апдейт-режим: своя свежая карточка обновляется, а не плодится
+  const idx = list.findIndex((e) => String(e.added_by) === me && new Date(e.ts).getTime() > dayAgo);
+  const entry = {
+    id: idx >= 0 ? list[idx].id : String(Date.now()),
+    name: String(p.name).slice(0, 60),
+    desc: String(p.desc || "").slice(0, 200),
+    site: String(p.site || "").slice(0, 300),
+    tg: String(p.tg || "").slice(0, 100),
+    ig: String(p.ig || "").slice(0, 100),
+    logo_file_id: String(p.logo_file_id || ""),
+    added_by: me,
+    ts: new Date().toISOString(),
+  };
+  // старый логотип сохраняем, если новый не прислали
+  if (idx >= 0 && list[idx].logo_file && !entry.logo_file_id) entry.logo_file = list[idx].logo_file;
+  if (idx >= 0) list[idx] = entry; else list.push(entry);
+  try { fs.mkdirSync(path.dirname(PT_FILE), { recursive: true }); fs.writeFileSync(PT_FILE, JSON.stringify(list.slice(-400), null, 1)); } catch (e) {
+    await tg("sendMessage", { chat_id: chatId, text: "⚠️ Не получилось сохранить, попробуй позже (/partner)" });
+    return true;
+  }
+  sub.pt = null;
+  await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
+    "✅ <b>Карточка принята!</b>\n\nОна появится на сайте в течение минуты:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
+    "Хочешь изменить карточку — просто заполни анкету заново: /partner" });
+  console.log(`партнёрская карточка: ${entry.name} (от ${me})`);
+  return true;
+}
+
 async function handleMessage(tg, subs, msg) {
   const fromId = String(msg.from && msg.from.id);
   const chatId = String(msg.chat && msg.chat.id) || fromId;
@@ -94,11 +189,24 @@ async function handleMessage(tg, subs, msg) {
   let changed = false;
   let sub = findSub(subs, fromId);
 
+  // 📷 фото-логотип для партнёрской карточки (пришло фото на шаге logo)
+  if (!text && Array.isArray(msg.photo) && msg.photo.length && sub && sub.pt && sub.pt.step === "logo") {
+    sub.pt.logo_file_id = msg.photo[msg.photo.length - 1].file_id;
+    changed = true;
+    await ptFinish(tg, sub, chatId);
+    return changed;
+  }
   if (!text) return false;
   let c = text.split(/\s+/)[0].split("@")[0].toLowerCase();
   const args = text.split(/\s+/).slice(1).join(" ").trim();
 
-  if (c === "/start" || c === "/help" || c === "/track") {
+  /* 🏷 партнёрская анкета: шаги перехватывают обычный текст (кроме /start) */
+  if (sub && sub.pt && sub.pt.step && c !== "/start" && c !== "/help") {
+    changed = (await ptStep(tg, sub, chatId, text)) || changed;
+    return changed;
+  }
+
+  if (c === "/start" || c === "/help" || c === "/track" || c === "/partner") {
     const ok = await gateOk(tg, fromId);
     if (!ok) {
       await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: NEED_SUB, reply_markup: { inline_keyboard: [
@@ -109,6 +217,16 @@ async function handleMessage(tg, subs, msg) {
     }
     if (!sub) { sub = newSub(fromId, chatId); subs.push(sub); changed = true; }
     if (!sub.is_active) { sub.is_active = true; changed = true; }
+    if (c === "/partner" || args.toLowerCase() === "partner") {
+      sub.pt = { step: "name" };
+      changed = true;
+      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
+        "🏷 <b>Партнёрская витрина — бесплатно!</b>\n\n" +
+        "Карточка твоей компании появится на сайте Gift Monitor:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
+        "Анкета — 5 коротких шагов. Отмена в любой момент: /cancel\n\n" +
+        "<b>1/5.</b> Название компании или проекта?" });
+      return changed;
+    }
     if (c === "/help") {
       await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
         `📖 <b>Все команды:</b>\n\n` +
@@ -118,6 +236,7 @@ async function handleMessage(tg, subs, msg) {
         `📊 /index — GM INDEX: Σ флоров, медиана, TON→USD\n\n` +
         `🌙 /night — тихий режим 23:00–08:00\n` +
         `🙈 /mute Имя — скрыть подарок, /unmute Имя — вернуть\n\n` +
+        `🏷 /partner — карточку компании на сайте (бесплатно)\n\n` +
         `🌐 Мини-апп: меню бота → «Мини Апп»`, reply_markup: menuKb() });
       return changed;
     }
