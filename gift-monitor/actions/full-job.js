@@ -555,11 +555,17 @@ async function main() {
         if (fm || fb) continue;
         targets.push(s);
       }
+      // 🟢 ЖИВЫЕ ПЕРВЫМИ: активные юзеры (свежее касание бота) получают апгрейд раньше дормантных
+      const seenOf = (x) => ((state.seen || {})[String(x.telegram_id)]) || 0;
+      targets.sort((a, b) => seenOf(b) - seenOf(a));
       let tIdx = 0;
       const sendPool = async () => {
         while (tIdx < targets.length) {
           const s = targets[tIdx++];
-          const silent = !!(night && s.night_mode) || b.issued - n >= 150; // глубокий хвост очереди — без звука, свежие звенят
+          // дормант = касание бота 30+ дней назад (нет данных — НЕ дормант, безопасный старт фичи)
+          const sv = seenOf(s);
+          const dormant = sv > 0 && NOW() - sv >= 30 * 86400;
+          const silent = !!(night && s.night_mode) || b.issued - n >= 150 || dormant; // хвост очереди и дормантные — без звука, свежие активным звенят
           const chat = String(s.chat_id || s.telegram_id);
           let ok = false;
           for (let attempt = 0; attempt < 4 && !ok; attempt++) {
