@@ -78,13 +78,13 @@ function tonapi(url) {
 // показали 85+ сообщ/сек без единого 429. Контроллер сам нащупывает фактическую границу:
 // +1 сообщ/сек каждые 30с чистого потока (до 80), на 429 → rate -3 мгновенно (пол 20) И запоминание
 // границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
-const RL = { rate: 29, tokens: 29, ts: Date.now(), last429: 0, lastUp: 0, hi: 80 };
+const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 150 }; // старт 40, проба до 150: реальный потолок ставит Telegram через 429 (пол 20, граница hi=rate-4)
 async function rlWait() {
   for (;;) {
     const now = Date.now();
-    if (now - RL.lastUp > 30_000 && now - RL.last429 > 30_000) { // чистый поток — наращиваем
+    if (now - RL.lastUp > 10_000 && now - RL.last429 > 10_000) { // чистый поток — наращиваем (10с: шторм не ждёт)
       RL.lastUp = now;
-      if (RL.hi < 80 && now - RL.last429 > 600_000) RL.hi = Math.min(80, RL.hi + 2); // 10 мин без 429 — граница оттаивает
+      if (RL.hi < 150 && now - RL.last429 > 600_000) RL.hi = Math.min(150, RL.hi + 2); // 10 мин без 429 — граница оттаивает
       RL.rate = Math.min(RL.hi, RL.rate + 1); // безусловно: если rate застрял выше hi (после 429) — вернётся под границу
     }
     RL.tokens = Math.min(RL.rate, RL.tokens + ((now - RL.ts) / 1000) * RL.rate);
@@ -431,6 +431,17 @@ async function main() {
     state = {};
   }
   const cols = require(COLS_FILE);
+  // RL-ПЕРСИСТЕНТНОСТЬ: эстафета перезапускается каждые 30 мин — без этого AIMD вечно сбрасывался
+  // на стартовые 25-40/сек и НИКОГДА не держал разведанный максимум. Скорость живёт в state-full.json.
+  try {
+    const saved = state.__rl;
+    if (saved && Number(saved.rate) >= 20) {
+      RL.rate = Math.min(150, Math.max(20, Number(saved.rate)));
+      RL.hi = Math.min(150, Math.max(20, Number(saved.hi) || RL.rate));
+      RL.tokens = RL.rate; RL.ts = Date.now();
+      console.log(`RL: поднят с прошлого прогона: ${RL.rate}/сек (граница ${RL.hi})`);
+    }
+  } catch {}
   let subs = decryptSubs();
   console.log(`full-job v11 (бот на борту): коллекций: ${cols.length}, подписчиков: ${subs.length}`);
   // 🤖 БОТ БЕЗ ВНЕШНИХ СЕРВИСОВ: getUpdates-поллинг прямо здесь, на GitHub Actions
@@ -734,6 +745,7 @@ async function main() {
   } catch (e) { console.log("images.json (live-cover):", String(e).slice(0, 80)); }
 
   // 4) state + коммит (с ретраем на гонку пушей)
+  state.__rl = { rate: RL.rate, hi: RL.hi }; // AIMD переживает рестарты эстафеты
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT, timeout: 60_000 });
