@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-02T00:19:57.356Z",
- "updated_unix": 1790900397,
- "runs": 1982,
+ "updated": "2026-10-02T00:20:27.019Z",
+ "updated_unix": 1790900427,
+ "runs": 1983,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1359,
- "sent_total": 44669,
+ "detected_total": 1360,
+ "sent_total": 44702,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 221,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790899474,
-   "counter_issued": 221,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-02T00:05:40.818Z"
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-02T00:18:45.198Z"
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 31506,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790900359,
+   "counter_issued": 31506,
+   "counter_total": 39464,
+   "img": "https://cdn4.telesco.pe/file/LsdnR0Vm0yfgzo-5qik2WgOxxwUUApcSgNjn0_eIQDB0MXoWzKsEwBvqyAXXak-WCTdTCXXF9_fkDSzYuglTiC7pyitKQ7ug2BxfDwqj49ddenoCMJHRy1NVw5vEeFqP4dxdwE13bIffEvxE4wTcLAQjz367IINJ6bN5zyBxL7vh_n9laX4pkoPGBTeetOH9dMA1o0afX2OttJZSIqy_qtTf0ZWi3nol44S5LJbdNE62vy7bbk1xZEfd9gQS15vVAjlRySiLpH4nzBsiP4xzjFUXsc5LOJ_7qbmtqbVWoplpbZFNJ7P-O2K14y8sLXBvzKTksMeIesP5mr2doWQdCw.jpg",
+   "sent": 33,
+   "time": "2026-10-02T00:20:27.017Z"
   }
  ]
 }
