@@ -226,22 +226,15 @@ async function enrichRange(b, count, winStart, winEnd) {
 }
 
 function buildMessage(ev) {
-  const now = NOW();
-  const mins = ev.mintTime ? Math.max(0, Math.round((now - ev.mintTime) / 60)) : 0;
-  const ago = mins < 60 ? `${mins} мин. назад` : `${Math.floor(mins / 60)} ч. ${mins % 60} мин. назад`;
   const num = ev.number;
   const link = `https://t.me/nft/${ev.slug.toLowerCase()}${num ? `-${num}` : ""}`;
   const gift = String(ev.giftDisplay || ev.slug);
-  const title = ev.counter ? `${gift} #${ev.counter.issued.toLocaleString("ru-RU")}` : gift;
 
+  // КОРОТКИЙ ФОРМАТ (по образцу владельца, 02.10): без времени/владельца/лишних ссылок — максимум скорости чтения
   return (
-    `🚀 НОВОЕ УЛУЧШЕНИЕ: ${esc(title)}!\n\n` +
     `🎁 Подарок: ${esc(gift)}\n` +
-    (num ? `🏷️ NFT: #${num.toLocaleString("ru-RU")}\n` : "") +
-    (ev.ownerAddr ? `👤 Владелец: ${fmtOwner(ev.ownerAddr, ev.ownerName)}\n` : "") +
-    `🕐 Улучшено: ${ago}\n` +
     (ev.counter ? `📊 Улучшено всего (Telegram): ${ev.counter.issued.toLocaleString("ru-RU")} из ${ev.counter.total.toLocaleString("ru-RU")}\n` : "") +
-    `\n🔗 <a href="${link}">Подарок</a> · <a href="https://t.me/mrkt">MRKT</a> · <a href="https://t.me/portals">Portals</a>\n\n` +
+    `\n🔗 <a href="${link}">Подарок</a>\n\n` +
     `#TelegramGifts #NFT #${ev.slug}`
   );
 }
