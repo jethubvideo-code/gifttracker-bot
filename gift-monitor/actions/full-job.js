@@ -825,12 +825,18 @@ async function main() {
     }
     console.log("state: закоммичен");
   } catch (e) {
-    console.log("state: коммит не потребовался:", String(e.message).slice(0, 100));
+    console.log("state: ⚠️ PUSH/COMMIT ПРОВАЛ (маркер НЕ закоммичен — риск дублей при рестарте):", String(e.message).slice(0, 160));
   } finally { GIT_LOCK = false; }
 }
 
 (async () => {
   try {
+    // SCHEDULE-прогоны GitHub чекаутят по sha → DETACHED HEAD → git push/rebase фатально падают
+    // («You are not currently on a branch»), а коммиты глотались как «не потребовался» — state молча
+    // не пушится, доставка идёт вхолостую. Прикрепляем ветку main ДО всей работы (кроме sendtest).
+    if (MODE !== "sendtest") {
+      try { execSync("git checkout -B main", { cwd: REPO_ROOT, stdio: "pipe", timeout: 60_000 }); } catch {}
+    }
     if (MODE === "sendtest") {
       await sendTest();
       return;
