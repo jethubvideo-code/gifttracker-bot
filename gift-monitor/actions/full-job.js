@@ -203,7 +203,7 @@ function fmtOwner(addr, name) {
 // диапазонное обогащение: последние `count` трансферов коллекции (по возрастанию времени)
 async function enrichRange(b, count, winStart, winEnd) {
   const out = [];
-  if (!b.col.address) return out;
+  if (!b.col.address || count <= 0) return out; // count=0 → [] (slice(-0)=slice(0)=всё окно — ловушка)
   const events = await tonapi(`/v2/accounts/${b.col.address}/events?limit=50`);
   if (!events || !Array.isArray(events.events)) return out;
   const transfers = [];
@@ -521,7 +521,7 @@ async function main() {
     const count = Math.min(total, 60); // кап 60: меньше свипов на ту же сотню = меньше фикс-цены (счётчики, коммит)
     if (total > count) STORM_DRAIN = true; // очередь не пуста → следующий свип сразу
     if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count} (в ленте все ${total} уже сейчас)`);
-    const enrichN = Math.min(count, total > 50 ? 8 : count); // мегашторм: владелец у 8 новейших, хвост — без задержки тонапи
+    const enrichN = total > count ? 0 : Math.min(count, total > 50 ? 8 : count); // глубокий бэклог: мета БЕЗ выравнивания = враньё → честно без неё + 0 тонапи-вызовов (быстрее); свежий прыжок: мета ровно к своим номерам
     const metas = await enrichRange(b, enrichN, winStart, winEnd);
     const colImg = await giftImage(b.col.name, b.issued); // 1 картинка на коллекцию за свип (не 30 запросов)
     const stormLogs = []; // лента этого свипа (пушим по возрастанию после цикла)
