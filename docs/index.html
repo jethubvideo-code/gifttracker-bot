@@ -1411,7 +1411,9 @@ function refresh(first){
     histData = (res[3] && res[3].hours) ? res[3].hours : [];
     giftsData = (res[1] && res[1].gifts) ? res[1].gifts : [];
     var evts = (statD.last_upgrades||[]).slice().sort(function(a2,b2){
-      var ta = evTs(a2), tb = evTs(b2); return tb - ta;
+      var ta = evTs(a2), tb = evTs(b2);
+      if (tb !== ta) return tb - ta;
+      return (Number(b2.number)||0) - (Number(a2.number)||0); // при истинном совпадении времени — новее номер выше
     });
     feedEvents = evts;
     hotMap = {};
