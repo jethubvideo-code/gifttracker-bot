@@ -313,7 +313,97 @@ async function enrich(b) {
 let SWEEP_CHANGED = false;
 
 
+/* ═══════════ ПАРТНЁРСКАЯ ВИТРИНА: публикация заявок бота → docs/partners.json ═══════════
+   100% GitHub: бот пишет заявки в data/partners.json, движок скачивает логотипы
+   (getFile → docs/p/<id>.jpg), нормализует ссылки и публикует статический JSON для сайта. */
+function normSite(v) {
+  v = String(v || "").trim();
+  if (!v) return "";
+  if (/^https?:\/\//i.test(v)) return v.replace(/^http:/i, "https:");
+  return "https://" + v.replace(/\s+/g, "");
+}
+function normTg(v) {
+  v = String(v || "").trim();
+  if (!v) return "";
+  if (/^https?:\/\//i.test(v)) return v.replace(/^http:/i, "https:");
+  v = v.replace(/^@/, "").replace(/\/$/, "");
+  if (!v) return "";
+  return "https://t.me/" + encodeURIComponent(v.replace(/[^A-Za-z0-9_]/g, ""));
+}
+function normIg(v) {
+  v = String(v || "").trim();
+  if (!v) return "";
+  if (/^https?:\/\//i.test(v)) return v.replace(/^http:/i, "https:");
+  v = v.replace(/^@/, "").replace(/\/$/, "");
+  if (!v) return "";
+  return "https://instagram.com/" + v.replace(/[^A-Za-z0-9._/]/g, "");
+}
+
+async function publishPartners() {
+  try {
+    let list = [];
+    try { list = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "data", "partners.json"), "utf8")); } catch { return; }
+    if (!Array.isArray(list)) return;
+    let dirty = false;
+    // логотипы: качаем один раз, путь запоминаем в заявке
+    for (const e of list) {
+      if (e.logo_file_id && !e.logo_file) {
+        try {
+          const g = await tg("getFile", { file_id: e.logo_file_id });
+          if (g && g.ok && g.result && g.result.file_path) {
+            const url = `https://api.telegram.org/file/bot${process.env.TELEGRAM_BOT_TOKEN}/${g.result.file_path}`;
+            const res = await fetch(url);
+            if (res && res.ok) {
+              const buf = Buffer.from(await res.arrayBuffer());
+              fs.mkdirSync(path.join(REPO_ROOT, "docs", "p"), { recursive: true });
+              const fname = "p/" + String(e.id).replace(/[^A-Za-z0-9_-]/g, "") + ".jpg";
+              fs.writeFileSync(path.join(REPO_ROOT, "docs", fname), buf);
+              e.logo_file = fname;
+              console.log(`партнёрский логотип скачан: ${fname} (${Math.round(buf.length / 1024)}КБ)`);
+            } else { e.logo_file_id = ""; }
+          } else { e.logo_file_id = ""; }
+          dirty = true;
+        } catch { e.logo_file_id = ""; dirty = true; }
+      }
+    }
+    if (dirty) {
+      try { fs.writeFileSync(path.join(REPO_ROOT, "data", "partners.json"), JSON.stringify(list, null, 1)); } catch {}
+    }
+    // публикация: дедуп по названию+ссылкам, витрина максимум 300
+    const seen = new Set();
+    const items = [];
+    // идём от НОВЕЙШИХ к старым: первый (новейший) экземпляр ключа остаётся, витрина = новые сверху
+    for (let i = list.length - 1; i >= 0; i--) {
+      const e = list[i];
+      if (!e.name) continue;
+      const siteN = normSite(e.site), tgN = normTg(e.tg), igN = normIg(e.ig);
+      // дедуп по НОРМАЛИЗОВАННЫМ ссылкам: @starcoffee == t.me/starcoffee
+      const k = (String(e.name) + "|" + siteN + "|" + tgN + "|" + igN).toLowerCase();
+      if (seen.has(k)) continue;
+      seen.add(k);
+      items.push({
+        id: String(e.id),
+        name: String(e.name).slice(0, 60),
+        description: String(e.desc || "").slice(0, 200),
+        site_url: siteN,
+        telegram: tgN,
+        instagram: igN,
+        logo: e.logo_file || "",
+      });
+      if (items.length >= 300) break;
+    }
+    const out = JSON.stringify({ updated: new Date().toISOString(), updated_unix: NOW(), count: items.length, items }, null, 1);
+    let prev = null;
+    try { prev = fs.readFileSync(path.join(REPO_ROOT, "docs", "partners.json"), "utf8"); } catch {}
+    if (prev !== out) {
+      fs.writeFileSync(path.join(REPO_ROOT, "docs", "partners.json"), out);
+      console.log(`партнёры: опубликовано ${items.length}`);
+    }
+  } catch (e) { console.log("партнёры:", String(e).slice(0, 100)); }
+}
+
 async function main() {
+
   SWEEP_CHANGED = false;
   let state = {};
   try {
@@ -553,6 +643,8 @@ async function main() {
 
   // 3) статусная страница (GitHub Pages)
   let prev = {};
+  await publishPartners();
+
   try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
   try {
     fs.mkdirSync(path.join(REPO_ROOT, "docs"), { recursive: true });
@@ -637,7 +729,7 @@ async function main() {
       console.log("state: без изменений, коммит пропущен");
       return;
     }
-    execSync("git add data/state-full.json data/subscribers.enc docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json", { cwd: REPO_ROOT });
+    execSync("git add data/state-full.json data/subscribers.enc data/partners.json docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json docs/partners.json docs/p", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
