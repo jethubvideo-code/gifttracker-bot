@@ -498,10 +498,11 @@ async function main() {
     if (from > b.issued) { skipped++; continue; } // дубль — уже всё доставлено
     // FIFO-бэклог: кап 30/свип, СТАРЕЙШИЕ первыми. Хвост дошьётся след. свипами — ни один номер не теряется.
     const total = b.issued - from + 1;
-    const count = Math.min(total, 12); // 12/свип: свип ~50с → коммиты текут даже в шторм, сайт не замерзает
+    const count = Math.min(total, 30);
     if (total > count) STORM_DRAIN = true; // очередь не пуста → следующий свип сразу
     if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count} (в ленте все ${total} уже сейчас)`);
-    const metas = await enrichRange(b, count, winStart, winEnd);
+    const enrichN = Math.min(count, total > 50 ? 8 : count); // мегашторм: владелец у 8 новейших, хвост — без задержки тонапи
+    const metas = await enrichRange(b, enrichN, winStart, winEnd);
     const colImg = await giftImage(b.col.name, b.issued); // 1 картинка на коллекцию за свип (не 30 запросов)
     for (let i = 0; i < count; i++) {
       const n = from + i;
@@ -590,7 +591,7 @@ async function main() {
           }
         }
       };
-      await Promise.all([sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool(), sendPool()]);
+      await Promise.all(Array.from({ length: 12 }, () => sendPool()));
       sent += sentThis;
       detected++;
       // 🏆 лидерборд улучшителей
