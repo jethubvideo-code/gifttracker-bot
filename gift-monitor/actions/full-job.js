@@ -123,17 +123,27 @@ async function tg(method, body) {
 // вернуть НАШИ правки (стэш) → commit → push HEAD:main (фаст-форвард от tip).
 function gitHardCommit(files, msg) {
   const run = (c) => execSync(c, { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
-  let stashed = false;
   try {
-    const dirty = execSync("git status --porcelain", { cwd: REPO_ROOT, encoding: "utf8", timeout: 30_000 }).trim();
-    if (dirty) { run("git stash -u -q"); stashed = true; }
+    // СНАПШОТ-ПАТТЕРН v16.2 (урок 08:43: git stash pop дал КОНФЛИКТ, unmerged-индекс
+    // остался и ВСЕ последующие коммиты падали «could not write index» при живой доставке).
+    // Никакого stash/pop: файлы читаются (только что записаны из памяти — истина),
+    // worktree сбрасывается к свежему tip, файлы восстанавливаются поверх. Конфликт невозможен.
+    const list = String(files).split(/\s+/).filter(Boolean);
+    const snap = {};
+    for (const f of list) {
+      try { snap[f] = fs.readFileSync(path.join(REPO_ROOT, f)); } catch {}
+    }
     run("git fetch origin main --quiet");
-    run("git reset --hard origin/main -q"); // база коммита = удалённый tip (детач-безопасно)
-    run("git checkout -B main -q"); // прикрепление ПОСЛЕ reset — теперь всегда валидно
-    if (stashed) run("git stash pop"); // НАШИ правки поверх tip (файлы движка с API-пушами не пересекаются)
+    run("git reset --hard origin/main -q"); // детач-безопасно: база коммита = удалённый tip
+    run("git checkout -B main -q");
     run('git config user.name "gift-monitor"');
     run('git config user.email "actions@github.com"');
+    for (const f of list) {
+      if (snap[f] != null) fs.writeFileSync(path.join(REPO_ROOT, f), snap[f]); // память побеждает git
+    }
     run(`git add ${files}`);
+    const staged = execSync("git status --porcelain", { cwd: REPO_ROOT, encoding: "utf8", timeout: 30_000 });
+    if (!String(staged).trim()) return true; // изменений нет — штатный no-op, коммит не нужен
     run(`git commit -m "${msg}"`);
     for (let a = 0; a < 3; a++) {
       try { run("git push origin HEAD:main"); return true; }
