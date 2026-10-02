@@ -80,6 +80,10 @@ function tonapi(url) {
 // границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
 const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 150 };
 let GIT_LOCK = false; // сериализация git-операций свипа и фонового контура (index.lock не делится)
+// МОНИТОРИНГ ПРОИЗВОДИТЕЛЬНОСТИ: каждый свип печатает CHECK COMPLETED (req.17)
+const STATS = { api: 0, tg: 0, retries429: 0, lastCommit: false };
+let STATE_CACHE = null; // state в памяти ПРОГОНА: свипы эстафеты не перечитывают диск (req.2 — меньше I/O),
+let RL_RESTORED = false; // а волатильные штампы больше не грязнят коммит (req.3/4/15)
  // старт 40, проба до 150: реальный потолок ставит Telegram через 429 (пол 20, граница hi=rate-4)
 async function rlWait() {
   for (;;) {
@@ -97,7 +101,8 @@ async function rlWait() {
 }
 
 async function tg(method, body) {
-  if (method === "sendMessage") await rlWait(); // ВСЕ уведомления через один бакет — глобальный лимит бота один
+  if (method === "sendMessage") { STATS.tg++; await rlWait(); } // ВСЕ уведомления через один бакет — глобальный лимит бота один
+  STATS.api++;
   try {
     const res = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/${method}`, {
       method: "POST",
@@ -144,9 +149,11 @@ async function hotCounterLoop() {
         if (c) doc.items[slug] = { i: c.issued, t: c.total, ts: NOW() };
       }
       if (!Object.keys(doc.items).length) continue;
+      // req.6: коммит ТОЛЬКО если ЗНАЧЕНИЕ (i/t) реально изменилось — ts не считается
+      const key = JSON.stringify(doc.items);
+      if (LIVE_LAST.key === key) continue;
+      LIVE_LAST.key = key;
       const dump = JSON.stringify(doc);
-      if (LIVE_LAST.dump === dump) continue; // цифра не сдвинулась — пустой коммит не нужен
-      LIVE_LAST.dump = dump;
       fs.writeFileSync(LIVE_FILE, dump);
       if (GIT_LOCK) continue; // свип коммитит — файл ляжет следующим тиком
       GIT_LOCK = true;
@@ -168,6 +175,7 @@ async function hotCounterLoop() {
 
 // официальный счётчик «улучшено X из Y» со страницы t.me/nft/<slug>-<n>
 async function tgCounter(slug, sample) {
+  STATS.api++;
   for (const n of [...new Set([sample, 1, 2, 3])].filter((x) => x > 0)) {
     try {
       const res = await fetch(`https://t.me/nft/${slug.toLowerCase()}-${n}`, {
@@ -481,16 +489,23 @@ async function main() {
   STORM_DRAIN = false;
 
   SWEEP_CHANGED = false;
-  let state = {};
-  try {
-    state = JSON.parse(fs.readFileSync(STATE_FILE, "utf8"));
-  } catch {
-    state = {};
+  const sweepT0 = Date.now();
+  STATS.api = 0; STATS.tg = 0; STATS.retries429 = 0; STATS.lastCommit = false; // метрики ТЕКУЩЕГО свипа
+  // state живёт в памяти прогонa: загрузка с диска ОДИН раз за прогон (req.2), запись — только при изменениях (req.3)
+  let state = STATE_CACHE;
+  if (!state) {
+    try {
+      state = STATE_CACHE = JSON.parse(fs.readFileSync(STATE_FILE, "utf8"));
+    } catch {
+      state = STATE_CACHE = {};
+    }
   }
   const cols = require(COLS_FILE);
   // RL-ПЕРСИСТЕНТНОСТЬ: эстафета перезапускается каждые 30 мин — без этого AIMD вечно сбрасывался
   // на стартовые 25-40/сек и НИКОГДА не держал разведанный максимум. Скорость живёт в state-full.json.
+  if (!RL_RESTORED)
   try {
+    RL_RESTORED = true;
     const saved = state.__rl;
     if (saved && Number(saved.rate) >= 20) {
       RL.rate = Math.min(150, Math.max(20, Number(saved.rate)));
@@ -504,7 +519,10 @@ async function main() {
   // 🤖 БОТ БЕЗ ВНЕШНИХ СЕРВИСОВ: getUpdates-поллинг прямо здесь, на GitHub Actions
   try {
     const bot = require("./bot.js");
+    const off0 = state.__bot ? state.__bot.offset : 0;
     const botOut = await bot.poll({ tg, subs, state });
+    const off1 = state.__bot ? state.__bot.offset : 0;
+    if (off1 !== off0) SWEEP_CHANGED = true; // offset = дедуп-база бота, обязана пережить рестарт
     if (botOut.subsChanged && encryptSubs(subs)) {
       SWEEP_CHANGED = true;
       console.log("бот: подписчики сохранены локально");
@@ -653,7 +671,7 @@ async function main() {
               link_preview_options: { is_disabled: false },
             });
             if (r && r.ok) { ok = true; sentThis++; }
-            else if (r && r.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000); }
+            else if (r && r.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000); }
             else break;
           }
           // 🎯 личное «твой подарок улучшили» (этот номер — свой номер юзера)
@@ -680,7 +698,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
+                if (r2 && r2.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
                 break;
               } catch { break; }
             }
@@ -731,10 +749,13 @@ async function main() {
   try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
   try {
     fs.mkdirSync(path.join(REPO_ROOT, "docs"), { recursive: true });
+    // NO-OP: штампы/счётчик прогонов двигаются ТОЛЬКО на содержательном свипе (req.4/15) —
+    // иначе каждый свип = обязательный коммит «пустышка»
+    const DIRTY = SWEEP_CHANGED;
     fs.writeFileSync(STATUS_FILE, JSON.stringify({
-      updated: new Date().toISOString(),
-      updated_unix: NOW(),
-      runs: (prev.runs || 0) + 1,
+      updated: DIRTY ? new Date().toISOString() : (prev.updated || new Date().toISOString()),
+      updated_unix: DIRTY ? NOW() : (prev.updated_unix || NOW()),
+      runs: (prev.runs || 0) + (DIRTY ? 1 : 0),
       collections: cols.length,
       checked: checked,
       errors: errors,
@@ -758,11 +779,14 @@ async function main() {
     }, null, 1));
   } catch (e) { console.log("status.json:", String(e).slice(0, 80)); }
 
-  // таблица всех подарков для сайта
+  // таблица всех подарков для сайта (штампы — только на содержательном свипе, req.4)
   try {
+    let prevG = {};
+    try { prevG = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "docs", "gifts.json"), "utf8")); } catch {}
+    const DIRTY = SWEEP_CHANGED;
     fs.writeFileSync(path.join(REPO_ROOT, "docs", "gifts.json"), JSON.stringify({
-      updated: new Date().toISOString(),
-      updated_unix: NOW(),
+      updated: DIRTY ? new Date().toISOString() : (prevG.updated || new Date().toISOString()),
+      updated_unix: DIRTY ? NOW() : (prevG.updated_unix || NOW()),
       count: gifts.length,
       gifts: gifts.sort((a, b) => a.name.localeCompare(b.name)),
     }, null, 1));
@@ -780,7 +804,12 @@ async function main() {
       .map(([name, count]) => ({ name, count }))
       .sort((a, b) => b.count - a.count)
       .slice(0, 100);
-    fs.writeFileSync(path.join(REPO_ROOT, "docs", "leaders.json"), JSON.stringify({ updated: new Date().toISOString(), leaders }, null, 1));
+    // NO-OP: лидерборд меняется только при доставках — штамп не должен грязнить коммит (req.15)
+    let prevL = {};
+    try { prevL = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "docs", "leaders.json"), "utf8")); } catch {}
+    if (JSON.stringify(prevL.leaders || {}) !== JSON.stringify(leaders)) {
+      fs.writeFileSync(path.join(REPO_ROOT, "docs", "leaders.json"), JSON.stringify({ updated: new Date().toISOString(), leaders }, null, 1));
+    }
   } catch (e) { console.log("leaders.json:", String(e).slice(0, 80)); }
 
   // 3.5) обложки коллекций (ПОДАРКИ-таб): раньше обновлялись отдельным джобом раз в 6ч и
@@ -803,19 +832,36 @@ async function main() {
     }
   } catch (e) { console.log("images.json (live-cover):", String(e).slice(0, 80)); }
 
-  // 4) state + коммит (с ретраем на гонку пушей)
-  state.__rl = { rate: RL.rate, hi: RL.hi }; // AIMD переживает рестарты эстафеты
-  fs.writeFileSync(STATE_FILE, JSON.stringify(state));
+  // 4) state + коммит — NO-OP-ПРИНЦИП (req.3/4/15): пишем и коммитим ТОЛЬКО при реальных изменениях.
+  // Раньше FRESH_COMMIT=1 коммитил КАЖДЫЙ свип: ~3000 пустых коммитов/сутки + столько же Pages-билдов.
+  const RL_MOVED = Math.abs((state.__rl?.rate || 0) - RL.rate) >= 5 || (state.__rl?.hi || 0) !== RL.hi;
+  const STATE_DIRTY = SWEEP_CHANGED || RL_MOVED;
+  if (STATE_DIRTY) {
+    state.__rl = { rate: RL.rate, hi: RL.hi }; // AIMD переживает рестарты эстафеты
+    fs.writeFileSync(STATE_FILE, JSON.stringify(state));
+  }
+  // CHECK COMPLETED — метрика свипа (req.17)
+  console.log(
+    `CHECK COMPLETED | Duration: ${((Date.now() - sweepT0) / 1000).toFixed(1)}s | Counters: ${checked} | ` +
+      `API: ${STATS.api} (TG: ${STATS.tg}) | 429-retries: ${STATS.retries429} | Upgrades: ${detected} (${sent} msgs) | ` +
+      `Commit: ${STATE_DIRTY ? "YES" : "NO (no-op)"} | Deploy: NO (данные = raw-CDN, не Pages)`
+  );
+  STATS.lastCommit = STATE_DIRTY;
+  if (!STATE_DIRTY) return; // изменений нет → ни записи, ни коммита, ни пуша (req.15)
   while (GIT_LOCK) await sleep(300); // ждём фоновый LIVE-коммит — git index один
   GIT_LOCK = true;
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT, timeout: 60_000 });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT, timeout: 60_000 });
-    if (!SWEEP_CHANGED && process.env.FRESH_COMMIT !== "1") {
-      console.log("state: без изменений, коммит пропущен");
-      return;
-    }
-    execSync("git add data/state-full.json data/subscribers.enc data/partners.json docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json docs/partners.json docs/p", { cwd: REPO_ROOT });
+    // ремень+стропы (req.15): реальный рабочий диф пуст → выходим БЕЗ коммита
+    try {
+      const dirtyFiles = execSync("git status --porcelain", { cwd: REPO_ROOT, encoding: "utf8", timeout: 30_000 }).trim();
+      if (!dirtyFiles) {
+        console.log("state: диф пуст — коммит не нужен (no-op)");
+        return;
+      }
+    } catch {}
+    execSync("git add data/state-full.json data/subscribers.enc data/partners.json docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json docs/partners.json docs/p docs/live.json", { cwd: REPO_ROOT });
     execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe", timeout: 60_000 });
     try {
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
@@ -880,7 +926,7 @@ async function main() {
         const sweepStart = Date.now();
         n++;
         const fitsNext = (Date.now() - t0) + 20_000 <= BUDGET_MS;
-        process.env.FRESH_COMMIT = "1"; // коммит КАЖДЫЙ свип: данные сайта свежие каждые ~20с
+        // коммит больше не принудительный: NO-OP при отсутствии изменений (req.4/15)
         await main();
         if (!fitsNext) break; // следующий цикл не влезает — эстафета
         const wait = STORM_DRAIN ? 200 : Math.max(200, 20_000 - (Date.now() - sweepStart));
