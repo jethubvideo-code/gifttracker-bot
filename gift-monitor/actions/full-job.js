@@ -402,7 +402,10 @@ async function publishPartners() {
   } catch (e) { console.log("партнёры:", String(e).slice(0, 100)); }
 }
 
+let STORM_DRAIN = false; // true = в очереди ещё номера: свипы подряд, без пауз
+
 async function main() {
+  STORM_DRAIN = false;
 
   SWEEP_CHANGED = false;
   let state = {};
@@ -494,6 +497,7 @@ async function main() {
     // FIFO-бэклог: кап 30/свип, СТАРЕЙШИЕ первыми. Хвост дошьётся след. свипами — ни один номер не теряется.
     const total = b.issued - from + 1;
     const count = Math.min(total, 30);
+    if (total > count) STORM_DRAIN = true; // очередь не пуста → следующий свип сразу
     if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count} (в ленте все ${total} уже сейчас)`);
     const metas = await enrichRange(b, count, winStart, winEnd);
     const colImg = await giftImage(b.col.name, b.issued); // 1 картинка на коллекцию за свип (не 30 запросов)
@@ -768,7 +772,7 @@ async function main() {
         process.env.FRESH_COMMIT = "1"; // коммит КАЖДЫЙ свип: данные сайта свежие каждые ~20с
         await main();
         if (!fitsNext) break; // следующий цикл не влезает — эстафета
-        const wait = Math.max(200, 20_000 - (Date.now() - sweepStart));
+        const wait = STORM_DRAIN ? 200 : Math.max(200, 20_000 - (Date.now() - sweepStart));
         await sleep(wait);
       }
       console.log("LOOP: свипов за прогон: " + n);
