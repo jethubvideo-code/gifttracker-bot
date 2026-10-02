@@ -1404,12 +1404,21 @@ function fillCmpSelects(){
 }
 function refresh(first){
   ringT0 = Date.now();
-  Promise.all([jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; }), jget('history.json').catch(function(){ return { hours: [] }; }), jget('floors.json').catch(function(){ return { floors: {} }; }), jget('floors-hist.json').catch(function(){ return { hours: [] }; })])
+  Promise.all([jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; }), jget('history.json').catch(function(){ return { hours: [] }; }), jget('floors.json').catch(function(){ return { floors: {} }; }), jget('floors-hist.json').catch(function(){ return { hours: [] }; }), jget('live.json').catch(function(){ return { items: {} }; })])
   .then(function(res){
     statD = res[0] || {};
     imagesData = (res[2] && res[2].images) ? res[2].images : {};
     histData = (res[3] && res[3].hours) ? res[3].hours : [];
     giftsData = (res[1] && res[1].gifts) ? res[1].gifts : [];
+    /* LIVE-оверлей: docs/live.json — фоновый контур движка коммитит живые счётчики каждые ~15с,
+       свип-коммит раз в 60-80с при шторме = лаг 400-500. Перекрываем цифру точь-в-точь как t.me */
+    var liveItems = (res[6] && res[6].items) ? res[6].items : {};
+    if (liveItems) giftsData.forEach(function(g){
+      var lv = liveItems[String(g.slug||'').trim()];
+      if (!lv) return;
+      var li = Number(lv.i)||0, gi = Number(g.issued)||0;
+      if (li >= gi) { g.issued = li; g.total = Number(lv.t)||Number(g.total)||0; }
+    });
     var evts = (statD.last_upgrades||[]).slice().sort(function(a2,b2){
       var ta = evTs(a2), tb = evTs(b2);
       if (tb !== ta) return tb - ta;
