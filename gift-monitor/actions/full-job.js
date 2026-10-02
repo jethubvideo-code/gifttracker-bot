@@ -74,17 +74,21 @@ function tonapi(url) {
   return p;
 }
 
-// ГЛОБАЛЬНЫЙ БАКЕТ СКОРОСТИ: ровный поток ~25 сообщ/сек, чуть ниже потолка Telegram (~30/сек).
-// Легальный максимум: без залпов → без 429 → без простоев (в простой уходит НОЛЬ сообщений);
-// непрерывный поток у самого лимита = фактическая скорость ВЫШЕ, чем «быстрые залвы + ожидание 429».
-const RL = { tokens: 25, ts: Date.now() };
+// ГЛОБАЛЬНЫЙ АДАПТИВНЫЙ БАКЕТ «ПОТОЛОК -1»: номинал 29 сообщ/сек (лимит Telegram ~30/сек минус один).
+// Живая обратная связь: словили 429 → rate мгновенно -2 (пол 20); минута без 429 → rate +0.5 (потолок 29).
+// Контроллер сам находит законный максимум в реальном времени, Telegram главный судья.
+const RL = { rate: 29, tokens: 29, ts: Date.now(), last429: 0 };
 async function rlWait() {
   for (;;) {
     const now = Date.now();
-    RL.tokens = Math.min(25, RL.tokens + ((now - RL.ts) / 1000) * 25);
+    if (RL.last429 && now - RL.last429 > 60_000 && RL.rate < 29) { // минута без 429 — наращиваем скорость
+      RL.rate = Math.min(29, RL.rate + 0.5);
+      RL.last429 = now;
+    }
+    RL.tokens = Math.min(RL.rate, RL.tokens + ((now - RL.ts) / 1000) * RL.rate);
     RL.ts = now;
     if (RL.tokens >= 1) { RL.tokens -= 1; return; }
-    await sleep(Math.max(4, Math.ceil(((1 - RL.tokens) * 1000) / 25)));
+    await sleep(Math.max(4, Math.ceil(((1 - RL.tokens) * 1000) / RL.rate)));
   }
 }
 
@@ -577,7 +581,7 @@ async function main() {
               link_preview_options: { is_disabled: false },
             });
             if (r && r.ok) { ok = true; sentThis++; }
-            else if (r && r.error_code === 429) await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000);
+            else if (r && r.error_code === 429) { RL.rate = Math.max(20, RL.rate - 2); RL.last429 = Date.now(); RL.tokens = 0; await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000); }
             else break;
           }
           // 🎯 личное «твой подарок улучшили» (этот номер — свой номер юзера)
@@ -604,7 +608,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
+                if (r2 && r2.error_code === 429) { RL.rate = Math.max(20, RL.rate - 2); RL.last429 = Date.now(); RL.tokens = 0; await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
                 break;
               } catch { break; }
             }
@@ -787,7 +791,7 @@ async function main() {
     }
     if (process.env.EVENT_NAME === "schedule" || (process.env.FORCE || "") === "chain") {
       // 24/7 реалтайм-режим: цикл свипов внутри одного прогона (~75с между проверками)
-      const BUDGET_MS = 780_000; // 13 минут непрерывных проверок, дальше эстафета
+      const BUDGET_MS = 1_800_000; // 30 минут непрерывных проверок — рестарт эстафеты в 2.3 раза реже, GUARD-ватчдог порогов не имеет (проверяет только живость цепи), безопасно
       const t0 = Date.now();
       let n = 0;
       while (true) {
