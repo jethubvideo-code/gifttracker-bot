@@ -1450,7 +1450,8 @@ function refresh(first){
 applyTheme();
 applyI18n();
 refresh(true);
-setInterval(function(){ refresh(false); }, 10000);
+setInterval(function(){ if (!document.hidden) refresh(false); }, 10000); // фон-вкладка: не жжём трафик и батарейку
+document.addEventListener('visibilitychange', function(){ if (!document.hidden) refresh(false); }); // возврат в мини-апп = мгновенное обновление
 ringIv = setInterval(function(){
   var p = Math.min(100, (Date.now()-ringT0)/10000*100);
   var r = $('ring'); if (r) r.style.setProperty('--p', p);
