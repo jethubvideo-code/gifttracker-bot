@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-02T03:18:43.677Z",
- "updated_unix": 1790911123,
- "runs": 2256,
+ "updated": "2026-10-02T03:18:56.258Z",
+ "updated_unix": 1790911136,
+ "runs": 2257,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 2358,
- "sent_total": 77587,
+ "detected_total": 2359,
+ "sent_total": 77620,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 1622,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790910976,
-   "counter_issued": 1622,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 33,
-   "time": "2026-10-02T03:17:18.279Z"
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-02T03:18:43.675Z"
+  },
+  {
+   "slug": "InputKey",
+   "gift": "InputKey",
+   "number": 134968,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790911074,
+   "counter_issued": 134968,
+   "counter_total": 159750,
+   "img": "https://cdn4.telesco.pe/file/FtEsrhlBTD_vonDBzV188pDKWuWvo7SqGKje0qMt8BM6UyGiwxxn7dsp74zF-z6JdI2f2TCUGCj3OkeMxEf99DqhhhFX_zim-NP6E5K4n74r9dmwKAa1yg-iJ64a63v18wJqZFy4NL9GPtYhiK6qI6kPkp_owU6Iclw06b8kt2tFtmWEc1uT8_Pvz-6PB0KQjqvHkZGnaWobf_Ww_mmibQzsG1w5y96J8uqBLzSaTHYDCePMbQuvdXH1Hq_m28GYB0a_k64de907Rp7Ga6yPQNEq9ATE7GItOhxuY-EGh6EC-HExSE9hT28_f44FOFzcoxbXUPbMNj1aac-kUhPjyw.jpg",
+   "sent": 33,
+   "time": "2026-10-02T03:18:56.257Z"
   }
  ]
 }
