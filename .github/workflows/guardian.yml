@@ -1,0 +1,26 @@
+name: Guardian (само-охрана)
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "report = только отчёт владельцу, без вмешательства"
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  guardian:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run guardian
+        run: node gift-monitor/actions/guardian.js
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN }}
+          MODE: ${{ github.event.inputs.mode || '' }}
