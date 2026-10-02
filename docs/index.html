@@ -40,6 +40,7 @@ html[data-theme="light"]{
 html{height:100%}
 body{
   font-family:var(--fz);
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;
   background:var(--bg); color:var(--tx); font-size:14px; line-height:1.45;
   font-feature-settings:'cv11','ss01';
   overscroll-behavior:none; padding-bottom:calc(108px + env(safe-area-inset-bottom)); -webkit-overflow-scrolling:touch;
@@ -352,6 +353,7 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 *::-webkit-scrollbar{width:6px;height:6px}
 *::-webkit-scrollbar-thumb{background:var(--line2);border-radius:8px}
 *::-webkit-scrollbar-track{background:transparent}
+@media (pointer:coarse){ *::-webkit-scrollbar{display:none} *{scrollbar-width:none} }
 /* ── партнёры ── */
 #ptBanner:empty{display:none}
 .ptban{display:flex;align-items:center;gap:10px;background:var(--sur);border:1px solid var(--line);
