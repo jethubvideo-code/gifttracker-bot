@@ -74,7 +74,22 @@ function tonapi(url) {
   return p;
 }
 
+// ГЛОБАЛЬНЫЙ БАКЕТ СКОРОСТИ: ровный поток ~25 сообщ/сек, чуть ниже потолка Telegram (~30/сек).
+// Легальный максимум: без залпов → без 429 → без простоев (в простой уходит НОЛЬ сообщений);
+// непрерывный поток у самого лимита = фактическая скорость ВЫШЕ, чем «быстрые залвы + ожидание 429».
+const RL = { tokens: 25, ts: Date.now() };
+async function rlWait() {
+  for (;;) {
+    const now = Date.now();
+    RL.tokens = Math.min(25, RL.tokens + ((now - RL.ts) / 1000) * 25);
+    RL.ts = now;
+    if (RL.tokens >= 1) { RL.tokens -= 1; return; }
+    await sleep(Math.max(4, Math.ceil(((1 - RL.tokens) * 1000) / 25)));
+  }
+}
+
 async function tg(method, body) {
+  if (method === "sendMessage") await rlWait(); // ВСЕ уведомления через один бакет — глобальный лимит бота один
   try {
     const res = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/${method}`, {
       method: "POST",
