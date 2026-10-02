@@ -544,8 +544,17 @@ async function main() {
     if (saved && Number(saved.rate) >= 20) {
       RL.rate = Math.min(150, Math.max(20, Number(saved.rate)));
       RL.hi = Math.min(150, Math.max(20, Number(saved.hi) || RL.rate));
+      RL.last429 = Number(saved.last429) || 0; // v19.1: восстанавливаем last429
       RL.tokens = RL.rate; RL.ts = Date.now();
-      console.log(`RL: поднят с прошлого прогона: ${RL.rate}/сек (граница ${RL.hi})`);
+      // v19.1: ТЁПЛЫЙ СТАРТ — если 429 был давно (>30 мин) или не было, стартуем с 35
+      const since429 = Date.now() - RL.last429;
+      if (RL.last429 === 0 || since429 > 1_800_000) {
+        RL.rate = Math.max(35, RL.rate); // не опускаемся ниже 35 при чистом потоке
+        RL.hi = Math.max(80, RL.hi); // потолок сразу на максимум
+        console.log(`RL: ТЁПЛЫЙ СТАРТ ${RL.rate}/сек (граница ${RL.hi}), 429 был ${RL.last429 ? Math.round(since429/60000)+'мин назад' : 'никогда'})`);
+      } else {
+        console.log(`RL: поднят с прошлого прогона: ${RL.rate}/сек (граница ${RL.hi}), 429 ${Math.round(since429/1000)}с назад`);
+      }
     }
   } catch {}
   let subs = decryptSubs();
@@ -884,10 +893,10 @@ async function main() {
 
   // 4) state + коммит — NO-OP-ПРИНЦИП (req.3/4/15): пишем и коммитим ТОЛЬКО при реальных изменениях.
   // Раньше FRESH_COMMIT=1 коммитил КАЖДЫЙ свип: ~3000 пустых коммитов/сутки + столько же Pages-билдов.
-  const RL_MOVED = Math.abs((state.__rl?.rate || 0) - RL.rate) >= 5 || (state.__rl?.hi || 0) !== RL.hi;
+  const RL_MOVED = Math.abs((state.__rl?.rate || 0) - RL.rate) >= 5 || (state.__rl?.hi || 0) !== RL.hi || (Number(state.__rl?.last429) || 0) !== RL.last429; // v19.1: last429 тоже коммитится
   const STATE_DIRTY = SWEEP_CHANGED || RL_MOVED;
   if (STATE_DIRTY) {
-    state.__rl = { rate: RL.rate, hi: RL.hi }; // AIMD переживает рестарты эстафеты
+    state.__rl = { rate: RL.rate, hi: RL.hi, last429: RL.last429 }; // v19.1: last429 персистится — оттайка hi честно ждёт 10 мин после реального 429
     fs.writeFileSync(STATE_FILE, JSON.stringify(state));
   }
   // CHECK COMPLETED — метрика свипа (req.17)
