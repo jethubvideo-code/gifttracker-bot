@@ -443,9 +443,12 @@ async function poll({ tg, subs, state }) {
     return { subsChanged: changed, processed: 0 };
   }
   let newOff = off;
+  state.seen = state.seen || {}; // 🟢 «живые» юзеры: последнее касание бота — для приоритета доставки
   for (const u of r.result) {
     newOff = Math.max(newOff, u.update_id + 1);
     try {
+      const fid = (u.message && u.message.from && u.message.from.id) || (u.callback_query && u.callback_query.from && u.callback_query.from.id);
+      if (fid) state.seen[String(fid)] = Math.floor(Date.now() / 1000);
       if (u.message) changed = (await handleMessage(tg, subs, u.message)) || changed;
       else if (u.callback_query) changed = (await handleCallback(tg, subs, u.callback_query)) || changed;
     } catch (e) {
