@@ -563,9 +563,8 @@ async function main() {
             const lnk = `https://t.me/nft/${b.col.name.toLowerCase()}-${mn}`;
             const mineTxt =
               `🎯 <b>ТВОЙ ПОДАРОК УЛУЧШЕН!</b>\n\n` +
-              `🎁 ${esc(g2)} #${mn.toLocaleString("ru-RU")} → NFT\n` +
-              (ev.ownerAddr || ev.ownerName ? `👤 Владелец: ${fmtOwner(ev.ownerAddr, ev.ownerName)}\n` : "") +
-              `\n🔗 <a href="${lnk}">Твой подарок</a> · <a href="https://t.me/mrkt">MRKT</a> · <a href="https://t.me/portals">Portals</a>\n\n` +
+              `🎁 Подарок: ${esc(g2)}\n` +
+              `\n🔗 <a href="${lnk}">Подарок</a>\n\n` +
               `#TelegramGifts #NFT #${b.col.name}`;
             for (let attempt = 0; attempt < 2; attempt++) {
               try {
