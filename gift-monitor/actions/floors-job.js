@@ -164,14 +164,21 @@ async function tonRate() {
     const rate = await tonRate();
     if (rate) console.log(`курс TON→USD: ${rate}`);
 
-    // 1) текущие флоеры
+    // 1) текущие флоеры — NO-OP если ни один флор/курс не изменился (req.8/15):
+    // раньше updated-штамп двигался КАЖДЫЙ прогон = 96 пустых коммитов/сутки
     fs.mkdirSync(path.dirname(FLOORS_FILE), { recursive: true });
-    fs.writeFileSync(FLOORS_FILE, JSON.stringify({
-      updated: new Date().toISOString(),
-      updated_unix: NOW(),
-      rate_usd: rate,
-      floors: out,
-    }, null, 1));
+    let prevF = {};
+    try { prevF = JSON.parse(fs.readFileSync(FLOORS_FILE, "utf8")); } catch {}
+    const FLOORS_CHANGED =
+      JSON.stringify(prevF.floors || {}) !== JSON.stringify(out) || (prevF.rate_usd || 0) !== (rate || 0);
+    if (FLOORS_CHANGED) {
+      fs.writeFileSync(FLOORS_FILE, JSON.stringify({
+        updated: new Date().toISOString(),
+        updated_unix: NOW(),
+        rate_usd: rate,
+        floors: out,
+      }, null, 1));
+    }
 
     // 2) снапшоты каждые 15 МИН (фишка 14) для Δ24ч и спарклайнов (48ч)
     let hist = {};
@@ -186,7 +193,14 @@ async function tonRate() {
     hist.hours = hist.hours.filter((h) => h.ts >= NOW() - 48 * 3600).sort((a, b) => a.ts - b.ts);
     fs.writeFileSync(HIST_FILE, JSON.stringify(hist, null, 1));
 
-    // 3) коммит + пуш (с ретраем на гонку с движком)
+    // 3) коммит + пуш — ТОЛЬКО при реальном дифе (req.15: git status --porcelain перед коммитом)
+    let dirtyF = "";
+    try { dirtyF = execSync("git status --porcelain", { cwd: REPO_ROOT, encoding: "utf8", timeout: 30_000 }).trim(); } catch {}
+    const tDur = ((Date.now() - t0) / 1000).toFixed(1);
+    if (!dirtyF) {
+      console.log(`CHECK COMPLETED | Duration: ${tDur}s | Collections scanned: ${ok} | Changed floors: 0 | Commit: NO (no-op) | Deploy: NO (raw-CDN)`);
+      return; // пустой свип: ни коммита, ни пуша, ни Pages-билда
+    }
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
     try {
@@ -198,7 +212,7 @@ async function tonRate() {
       execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe" });
       execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
     }
-    console.log("floors.json + floors-hist.json закоммичены");
+    console.log(`CHECK COMPLETED | Duration: ${tDur}s | Collections scanned: ${ok} | Changed floors: ${FLOORS_CHANGED ? ok : "snapshot-only"} | Commit: YES | Deploy: NO (raw-CDN)`);
   } catch (e) {
     console.error("FATAL:", String(e).slice(0, 300));
     process.exit(1);
