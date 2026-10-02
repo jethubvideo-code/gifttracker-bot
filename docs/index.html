@@ -332,6 +332,42 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 /* плавные переходы темы */
 body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
 @media (hover:none){.stat:hover,.mrow:hover,.frow:hover{transform:none}}
+
+/* ── партнёры ── */
+#ptBanner:empty{display:none}
+.ptban{display:flex;align-items:center;gap:10px;background:var(--sur2);border:1.5px solid var(--line2);
+  border-radius:12px;padding:9px 12px;margin:10px 0 2px;text-decoration:none;transition:border-color .2s,transform .15s}
+.ptban:active{transform:scale(.985)}
+.ptban:hover{border-color:var(--goldD)}
+.ptban-tag{flex:none;font-size:9px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--gold);background:color-mix(in srgb,var(--gold) 14%,transparent);
+  border:1px solid color-mix(in srgb,var(--gold) 35%,transparent);border-radius:6px;padding:2px 7px}
+.ptban-logo{flex:none;width:30px;height:30px;border-radius:8px;object-fit:cover;border:1px solid var(--line2)}
+.ptban-txt{flex:1;min-width:0;font-size:12px;color:var(--tx2);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.ptban-txt b{color:var(--tx)}
+.ptban-cta{flex:none;font-size:11px;font-weight:800;color:var(--gold)}
+.ptrow{display:flex;gap:12px;align-items:flex-start}
+.ptava{flex:none}
+.ptlogo{width:52px;height:52px;border-radius:14px;object-fit:cover;border:1.5px solid var(--line2);display:block}
+.ptlogo-ph{display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900;
+  color:var(--gold);background:color-mix(in srgb,var(--gold) 12%,transparent);
+  border:1.5px dashed color-mix(in srgb,var(--gold) 40%,transparent)}
+.ptname{font-size:15px;font-weight:800;color:var(--tx);letter-spacing:.01em}
+.ptdesc{font-size:12px;color:var(--tx2);line-height:1.45;margin-top:3px;word-break:break-word}
+.ptlinks{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}
+.ptlink{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:800;color:var(--tx);
+  background:var(--sur);border:1.5px solid var(--line2);border-radius:9px;padding:7px 11px;
+  text-decoration:none;transition:border-color .2s,transform .15s}
+.ptlink:hover{border-color:var(--goldD)}
+.ptlink:active{transform:scale(.96)}
+#sheetPt input,#sheetPt textarea{width:100%;background:var(--sur);border:1.5px solid var(--line2);
+  border-radius:10px;padding:10px 12px;color:var(--tx);font-size:13px;font-weight:600;outline:none;margin-top:10px;resize:none;font-family:inherit}
+#sheetPt input:focus,#sheetPt textarea:focus{border-color:var(--goldD)}
+.ptlogo-cur{width:64px;height:64px;border-radius:16px;border:1.5px dashed var(--line2);display:flex;
+  align-items:center;justify-content:center;font-size:22px;overflow:hidden;flex:none}
+.ptlogo-cur img{width:100%;height:100%;object-fit:cover}
+.pt-hp{position:absolute;left:-4000px;top:-4000px;height:1px;width:1px;opacity:0}
+#sheetPt .btn.busy{opacity:.55;pointer-events:none}
 </style>
 </head>
 <body>
@@ -366,6 +402,7 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
     <div class="chips">
       <button class="chip jelly" id="fMine">❤️ <span data-i18n="mine">только мои</span></button>
     </div>
+    <div id="ptBanner"></div>
     <div id="feed"></div>
   </section>
 
@@ -464,7 +501,17 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
   </section>
 
 
+
+  <!-- ПАРТНЁРЫ -->
+  <section class="pane" id="p-pt">
+    <div class="sec"><h2 data-i18n="ptTitle">Партнёры</h2><span class="sub" id="ptCnt"></span></div>
+    <div class="prnote" data-i18n="ptSub">бесплатная витрина: добавь свою компанию за минуту</div>
+    <button class="btn jelly" id="ptOpen" style="width:100%;margin-top:10px">➕ <span data-i18n="ptBecome">Стать партнёром бесплатно</span></button>
+    <div id="ptList" style="margin-top:12px"></div>
+  </section>
+
   <!-- ИНФО -->
+
   <section class="pane" id="p-info">
     <div class="sec"><h2 data-i18n="about">О сервисе</h2></div>
     <div class="blk" style="text-align:center;padding:24px 14px 20px">
@@ -492,6 +539,7 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
   <button class="tab jelly" id="t-stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg><span data-i18n="tStats">АНАЛИТИКА</span></button>
   <button class="tab jelly" id="t-market"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><span data-i18n="tMarket">РЫНОК</span></button>
 <button class="tab jelly" id="t-pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-i18n="tPro">ПРО</span></button>
+<button class="tab jelly" id="t-pt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span data-i18n="tPt">ПАРТНЁР</span></button>
 <button class="tab jelly" id="t-info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span data-i18n="tInfo">ИНФО</span></button>
 </nav>
 
@@ -503,6 +551,24 @@ body,section,div,button{transition-timing-function:cubic-bezier(.2,.8,.3,1)}
 <div class="sheet" id="sheetSet">
   <div class="sh-handle"></div>
   <div id="setBody"></div>
+</div>
+<div class="sheet" id="sheetPt">
+  <div class="sh-handle"></div>
+  <div style="padding:18px 18px 28px">
+    <div style="font-weight:800;font-size:17px">➕ <span data-i18n="ptBecome">Стать партнёром бесплатно</span></div>
+    <div class="prnote" style="margin-top:4px" data-i18n="ptFormNote">карточка появится на сайте сразу — бесплатно и без модерации</div>
+    <div style="margin-top:14px;display:flex;gap:12px;align-items:center">
+      <div class="ptlogo-cur" id="ptLogoPrev"><span>📷</span></div>
+      <label class="btn jelly" style="cursor:pointer">📷 <span data-i18n="ptLogoBtn">выбрать логотип</span><input type="file" id="ptLogoInp" accept="image/png,image/jpeg,image/webp" hidden></label>
+    </div>
+    <input id="ptfName" data-i18n-ph="ptfName" placeholder="Название компании / проекта" maxlength="60" autocomplete="off">
+    <textarea id="ptfDesc" rows="2" maxlength="200" data-i18n-ph="ptfDesc" placeholder="Краткое описание"></textarea>
+    <input id="ptfSite" data-i18n-ph="ptfSite" placeholder="Ссылка на сайт" autocomplete="off">
+    <input id="ptfTg" data-i18n-ph="ptfTg" placeholder="Telegram (@username)" autocomplete="off">
+    <input id="ptfIg" data-i18n-ph="ptfIg" placeholder="Instagram (@username)" autocomplete="off">
+    <input id="ptfHp" class="pt-hp" tabindex="-1" aria-hidden="true" autocomplete="off">
+    <button class="btn jelly" id="ptPublish" style="width:100%;margin-top:14px">🚀 <span data-i18n="ptPublish">Опубликовать бесплатно</span></button>
+  </div>
 </div>
 <div class="toast" id="toast"></div>
 <canvas id="canv" width="900" height="500"></canvas>
@@ -565,6 +631,26 @@ var I18N = {
   tInfo:{ru:'ИНФО', uz:'INFO', en:'INFO'},
   tMarket:{ru:'РЫНОК', uz:'BOZOR', en:'MARKET'},
   tPro:{ru:'ПРО', uz:'PRO', en:'PRO'},
+  tPt:{ru:'ПАРТНЁР', uz:'HAMKOR', en:'PARTNER'},
+  ptTitle:{ru:'Партнёры', uz:'Hamkorlar', en:'Partners'},
+  ptSub:{ru:'бесплатная витрина: добавь свою компанию за минуту', uz:"bepul vitrina: kompaniyangizni bir daqiqada qo'shing", en:'free showcase: add your company in a minute'},
+  ptBecome:{ru:'Стать партнёром бесплатно', uz:"Hamkor bo'lish bepul", en:'Become a partner free'},
+  ptEmpty:{ru:'Пока никто не добавился — стань первым! 🚀', uz:"Hali kim yo'q — birinchi bo'l! 🚀", en:'Nobody yet — be the first! 🚀'},
+  ptSite:{ru:'сайт', uz:'sayt', en:'site'},
+  ptBanTag:{ru:'Партнёр', uz:'Hamkor', en:'Partner'},
+  ptCta:{ru:'открыть →', uz:'ochish →', en:'open →'},
+  ptOk:{ru:'Карточка опубликована!', uz:'Karta chop etildi!', en:'Card published!'},
+  ptNeedLink:{ru:'нужна хотя бы одна ссылка', uz:'kamida bitta havola kerak', en:'at least one link required'},
+  ptFormNote:{ru:'карточка появится на сайте сразу — бесплатно и без модерации', uz:"karta darhol saytda paydo bo'ladi — bepul, moderatsiyasiz", en:'your card appears instantly — free, no moderation'},
+  ptLogoBtn:{ru:'выбрать логотип', uz:'logotip tanlash', en:'choose logo'},
+  ptfName:{ru:'Название компании / проекта', uz:'Kompaniya / loyiha nomi', en:'Company / project name'},
+  ptfDesc:{ru:'Краткое описание (до 200 символов)', uz:'Qisqa tavsif (200 tagacha)', en:'Short description (up to 200 chars)'},
+  ptfSite:{ru:'Ссылка на сайт', uz:'Sayt havolasi', en:'Website link'},
+  ptfTg:{ru:'Telegram (@username)', uz:'Telegram (@username)', en:'Telegram (@username)'},
+  ptfIg:{ru:'Instagram (@username)', uz:'Instagram (@username)', en:'Instagram (@username)'},
+  ptPublish:{ru:'Опубликовать бесплатно', uz:'Bepul chop etish', en:'Publish free'},
+  ptNet:{ru:'сеть недоступна, попробуй позже', uz:"tarmoq yo'q, keyinroq urinib ko'ring", en:'network error, try later'},
+
   tFlip:{ru:'ФЛИП', uz:'FLIP', en:'FLIP'},
   flTitle:{ru:'Flip-школа', uz:'Flip maktabi', en:'Flip school'},
   flSub:{ru:'научись флипать подарки: гайд, академия, тренажёр на виртуальных 1000 TON', uz:"sovg'alarni flip qilishni o'rganing: qo'llanma, akademiya, 1000 TON virtual mashg'ulot", en:'learn to flip gifts: guide, academy, virtual 1000 TON trainer'},
@@ -706,7 +792,7 @@ function newUpgradeAlert(evts){
 }
 
 /* ═══ вкладки ═══ */
-var PANES = ['feed','gifts','stats','market','pro','info'];
+var PANES = ['feed','gifts','stats','market','pro','pt','info'];
 function switchTab(p){
   for (var i=0;i<PANES.length;i++){
     var id = PANES[i];
@@ -716,7 +802,7 @@ function switchTab(p){
   window.scrollTo(0,0);
 }
 for (var ti=0;ti<PANES.length;ti++){
-  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); if(p==='pro') renderPro(); }); })(PANES[ti]);
+  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); if(p==='pro') renderPro(); if(p==='pt'){ renderPartners(); loadPartners(); } }); })(PANES[ti]);
 }
 
 /* ═══ листы (sheets) ═══ */
@@ -1527,6 +1613,101 @@ function renderProIdx(){
   }
 }
 function usdRate(){ return Number(floorsData.rate_usd)||0; }
+
+/* ═══════════ ПАРТНЁРЫ: бесплатная витрина ═══════════ */
+var PT_API = 'https://vesper-5cce824e.base44.app/functions/partnersBoard';
+var ptItems = [], ptLoadedAt = 0, ptLogo = '';
+function loadPartners(force){
+  var now = Date.now();
+  if (!force && ptItems.length && now - ptLoadedAt < 60000){ renderPartners(); renderFeedBanner(); return; }
+  fetch(PT_API + '?t=' + now).then(function(r){ return r.json(); }).then(function(d){
+    if (d && d.ok){ ptItems = d.items || []; ptLoadedAt = now; renderPartners(); renderFeedBanner(); }
+  }).catch(function(){});
+}
+function ptChip(href, label){
+  return '<a class="ptlink" href="' + esc(href) + '" target="_blank" rel="noopener nofollow">' + esc(label) + '</a>';
+}
+function renderPartners(){
+  var box = $('ptList'); if (!box) return;
+  $('ptCnt').textContent = ptItems.length ? String(ptItems.length) : '';
+  if (!ptItems.length){
+    box.innerHTML = '<div class="prnote" style="text-align:center;padding:28px 10px">' + T('ptEmpty') + '</div>';
+    return;
+  }
+  var h = '';
+  for (var i=0;i<ptItems.length;i++){
+    var p = ptItems[i];
+    var logo = p.logo ? '<img class="ptlogo" src="' + esc(p.logo) + '" alt="">' :
+      '<div class="ptlogo ptlogo-ph">' + esc(String(p.name||'?').trim().charAt(0).toUpperCase()||'?') + '</div>';
+    var links = '';
+    if (p.site_url) links += ptChip(p.site_url, '🌐 ' + T('ptSite'));
+    if (p.telegram) links += ptChip(p.telegram, '✈️ Telegram');
+    if (p.instagram) links += ptChip(p.instagram, '📷 Instagram');
+    h += '<div class="prcard" style="padding:14px">'
+      + '<div class="ptrow"><div class="ptava">' + logo + '</div>'
+      + '<div style="min-width:0;flex:1"><div class="ptname">' + esc(p.name) + '</div>'
+      + (p.description ? '<div class="ptdesc">' + esc(p.description) + '</div>' : '')
+      + '</div></div>' + (links ? '<div class="ptlinks">' + links + '</div>' : '') + '</div>';
+  }
+  box.innerHTML = h;
+}
+function renderFeedBanner(){
+  var b = $('ptBanner'); if (!b) return;
+  if (!ptItems.length){ b.innerHTML = ''; return; }
+  var p = ptItems[0];
+  var href = p.site_url || p.telegram || p.instagram || '#';
+  b.innerHTML = '<a class="ptban" href="' + esc(href) + '" target="_blank" rel="noopener nofollow">'
+    + '<span class="ptban-tag">' + T('ptBanTag') + '</span>'
+    + (p.logo ? '<img class="ptban-logo" src="' + esc(p.logo) + '" alt="">' : '')
+    + '<span class="ptban-txt"><b>' + esc(p.name) + '</b>' + (p.description ? ' — ' + esc(p.description) : '') + '</span>'
+    + '<span class="ptban-cta">' + T('ptCta') + '</span></a>';
+}
+$('ptOpen').addEventListener('click', function(){ haptic(); ptResetForm(); openSheet('sheetPt'); });
+function ptResetForm(){
+  ptLogo = '';
+  ['ptfName','ptfDesc','ptfSite','ptfTg','ptfIg','ptfHp'].forEach(function(id){ var el = $(id); if (el) el.value = ''; });
+  var pv = $('ptLogoPrev'); if (pv){ pv.innerHTML = '<span>📷</span>'; pv.classList.remove('has'); }
+}
+$('ptLogoInp').addEventListener('change', function(){
+  var f = this.files && this.files[0];
+  if (!f) return;
+  if (!/^image\/(png|jpe?g|webp)$/.test(f.type)){ toast('⚠️ PNG / JPG / WEBP'); return; }
+  if (f.size > 5*1024*1024){ toast('⚠️ до 5 МБ'); return; }
+  var fr = new FileReader();
+  fr.onload = function(){
+    var img = new Image();
+    img.onload = function(){
+      var S = 128, c = document.createElement('canvas'); c.width = S; c.height = S;
+      var x = c.getContext('2d');
+      var k = Math.min(S/img.width, S/img.height), w = img.width*k, hh = img.height*k;
+      x.drawImage(img, (S-w)/2, (S-hh)/2, w, hh);
+      ptLogo = c.toDataURL('image/png');
+      var pv = $('ptLogoPrev'); pv.innerHTML = '<img src="' + ptLogo + '" alt="">'; pv.classList.add('has');
+      haptic();
+    };
+    img.src = fr.result;
+  };
+  fr.readAsDataURL(f);
+});
+$('ptPublish').addEventListener('click', function(){
+  var name = $('ptfName').value.trim();
+  var desc = $('ptfDesc').value.trim();
+  var site = $('ptfSite').value.trim();
+  var tg = $('ptfTg').value.trim();
+  var ig = $('ptfIg').value.trim();
+  if (!name){ toast('⚠️ ' + T('ptfName')); return; }
+  if (!site && !tg && !ig){ toast('⚠️ ' + T('ptNeedLink')); return; }
+  var btn = this; btn.disabled = true; btn.classList.add('busy');
+  fetch(PT_API, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: name, description: desc, site_url: site, telegram: tg, instagram: ig, logo: ptLogo, website2: $('ptfHp').value })
+  }).then(function(r){ return r.json(); }).then(function(d){
+    btn.disabled = false; btn.classList.remove('busy');
+    if (d && d.ok){ closeSheets(); toast('✓ ' + T('ptOk')); haptic(); loadPartners(true); switchTab('pt'); }
+    else toast('⚠️ ' + (d && d.error ? d.error : '…'));
+  }).catch(function(){ btn.disabled = false; btn.classList.remove('busy'); toast('⚠️ ' + T('ptNet')); });
+});
+loadPartners();
+
 /* PWA: service worker */
 try {
   if ('serviceWorker' in navigator && location.protocol === 'https:'){
