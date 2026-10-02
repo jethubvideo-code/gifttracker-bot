@@ -566,6 +566,21 @@ function jget(f){
   return fetch(RAW + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
     .catch(function(){ return fetch(BASE + f + bust).then(function(r){ return r.json(); }); });
 }
+var LIVENESS_TS = 0;
+function livenessPulse(){
+  var nowMs = Date.now();
+  if (nowMs - LIVENESS_TS < 120000) return; // троттл: не чаще раза в 2 мин (лимит anon-API GitHub 60/ч)
+  LIVENESS_TS = nowMs;
+  fetch('https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/runs?per_page=1')
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if (!d || !d.workflow_runs || !d.workflow_runs.length) return;
+      var run = d.workflow_runs[0];
+      var ageMin = Math.max(0, Math.round((Date.now() - new Date(run.created_at).getTime())/60000));
+      var alive = run.status === 'in_progress' || run.status === 'queued' || ageMin < 35;
+      if (alive) $('upd').textContent = (LANG==='ru'?'проверка жива · ':(LANG==='uz'?'tekshiruv jonli · ':'checking live · ')) + ageMin + (LANG==='ru'?' мин':(LANG==='uz'?' daq.':' min'));
+    }).catch(function(){});
+}
 function addrShort(v){
   v = String(v||'');
   if (/^0:[0-9a-fA-F]{48,}$/.test(v)) return v.slice(0,6) + '…' + v.slice(-4);
@@ -1435,10 +1450,14 @@ function refresh(first){
     newUpgradeAlert(evts);
     var su = statD.updated_unix || 0;
     $('upd').textContent = su ? (LANG==='ru'?'обновлено':(LANG==='uz'?'yangilandi':'updated')) + ' ' + evAgo({ mint: su }).replace(/[^0-9а-яa-z\s.]+$/i,'').trim() + ' ' + (LANG==='ru'?'назад':(LANG==='uz'?'oldin':'ago')) : '…';
+    var mins = 0;
     if (statD.updated_unix){
-      var mins = Math.max(0, Math.round(Date.now()/1000 - statD.updated_unix)/60);
+      mins = Math.max(0, Math.round(Date.now()/1000 - statD.updated_unix)/60);
       $('upd').textContent = (LANG==='ru'?'обновлено':(LANG==='uz'?'yangilandi':'updated')) + ' ' + (mins < 1 ? (LANG==='ru'?'только что':(LANG==='uz'?'hozirgina':'just now')) : (Math.round(mins) + (LANG==='ru'?' мин. назад':(LANG==='uz'?' daq. oldin':' min ago'))));
     }
+    /* LIVE-ПУЛЬС БЕЗ КОММИТОВ: данных давно нет (штиль) — показываем живость цепи мониторинга
+       по последнему запуску GitHub Actions. Публичный API, 1 запрос / 2 мин, 0 коммитов (req.5/16) */
+    if (mins >= 10) livenessPulse();
     var sum = 0; giftsData.forEach(function(g){ sum += Number(g.issued)||0; });
     countUp($('s1'), sum || statD.detected_total || 0, first ? 900 : 0);
     countUp($('s2'), giftsData.length, first ? 600 : 0);
