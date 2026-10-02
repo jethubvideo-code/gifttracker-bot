@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-02T01:19:23.768Z",
- "updated_unix": 1790903963,
- "runs": 2080,
+ "updated": "2026-10-02T01:19:56.138Z",
+ "updated_unix": 1790903996,
+ "runs": 2081,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 1492,
- "sent_total": 49058,
+ "detected_total": 1493,
+ "sent_total": 49091,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 446,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 1790903440,
-   "counter_issued": 446,
-   "counter_total": 226713,
-   "img": "https://cdn5.telesco.pe/file/seOM4Mf5n8_q4bITG4Kb_Eb7GTuFn6h4CkleTqBlLyzV02c0_BZvvrIlcGqeQGlwD_79q2A3tjHmDP-2bL0DFaEhx3_GfRUrXDZDudTrqSIi-ZyqhaGgw1Km1KbeDToPG-tvcAI-DZqC8CAwe0FQFNYhCX5h_2_PPLnJZFw62hILmr89FbE3PyIZpSW7pcjZ1JuxV9s_88NfRdvOkdsZ6hkLDry0HUMm9QY0JttZILtkY8bzofuBwSPegYqKNopBYYA1VsIgDEDgGjhorpf4w1BJVFLjrZvsrvo9BcKXHSyp8IPPk92musGKdRCBObluLyen9ibyMEQlFLuPYDcFAA.jpg",
-   "sent": 33,
-   "time": "2026-10-02T01:11:45.270Z"
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -397,6 +384,19 @@
    "img": "",
    "sent": 33,
    "time": "2026-10-02T01:19:15.593Z"
+  },
+  {
+   "slug": "CloverPin",
+   "gift": "CloverPin",
+   "number": 234474,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 1790903928,
+   "counter_issued": 234474,
+   "counter_total": 270970,
+   "img": "",
+   "sent": 33,
+   "time": "2026-10-02T01:19:56.136Z"
   }
  ]
 }
