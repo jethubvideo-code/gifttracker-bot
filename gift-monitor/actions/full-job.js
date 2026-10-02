@@ -74,16 +74,18 @@ function tonapi(url) {
   return p;
 }
 
-// ГЛОБАЛЬНЫЙ АДАПТИВНЫЙ БАКЕТ «ПОТОЛОК -1»: номинал 29 сообщ/сек (лимит Telegram ~30/сек минус один).
-// Живая обратная связь: словили 429 → rate мгновенно -2 (пол 20); минута без 429 → rate +0.5 (потолок 29).
-// Контроллер сам находит законный максимум в реальном времени, Telegram главный судья.
-const RL = { rate: 29, tokens: 29, ts: Date.now(), last429: 0 };
+// ГЛОБАЛЬНЫЙ БАКЕТ AIMD «ПОТОЛОК -1» (как TCP): РЕАЛЬНЫЙ потолок Telegram НЕ 30/сек — живые логи
+// показали 85+ сообщ/сек без единого 429. Контроллер сам нащупывает фактическую границу:
+// +1 сообщ/сек каждые 30с чистого потока (до 80), на 429 → rate -3 мгновенно (пол 20) И запоминание
+// границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
+const RL = { rate: 29, tokens: 29, ts: Date.now(), last429: 0, lastUp: 0, hi: 80 };
 async function rlWait() {
   for (;;) {
     const now = Date.now();
-    if (RL.last429 && now - RL.last429 > 60_000 && RL.rate < 29) { // минута без 429 — наращиваем скорость
-      RL.rate = Math.min(29, RL.rate + 0.5);
-      RL.last429 = now;
+    if (now - RL.lastUp > 30_000 && now - RL.last429 > 30_000) { // чистый поток — наращиваем
+      RL.lastUp = now;
+      if (RL.hi < 80 && now - RL.last429 > 600_000) RL.hi = Math.min(80, RL.hi + 2); // 10 мин без 429 — граница оттаивает
+      RL.rate = Math.min(RL.hi, RL.rate + 1); // безусловно: если rate застрял выше hi (после 429) — вернётся под границу
     }
     RL.tokens = Math.min(RL.rate, RL.tokens + ((now - RL.ts) / 1000) * RL.rate);
     RL.ts = now;
@@ -581,7 +583,7 @@ async function main() {
               link_preview_options: { is_disabled: false },
             });
             if (r && r.ok) { ok = true; sentThis++; }
-            else if (r && r.error_code === 429) { RL.rate = Math.max(20, RL.rate - 2); RL.last429 = Date.now(); RL.tokens = 0; await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000); }
+            else if (r && r.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000); }
             else break;
           }
           // 🎯 личное «твой подарок улучшили» (этот номер — свой номер юзера)
@@ -608,7 +610,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { RL.rate = Math.max(20, RL.rate - 2); RL.last429 = Date.now(); RL.tokens = 0; await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
+                if (r2 && r2.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
                 break;
               } catch { break; }
             }
