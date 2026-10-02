@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: new-gift-watch
-  cancel-in-progress: false
+  cancel-in-progress: true # req.10: устаревший запуск гасится, прод-джоб короткий и безопасный
 
 jobs:
   watch:
