@@ -78,7 +78,9 @@ function tonapi(url) {
 // показали 85+ сообщ/сек без единого 429. Контроллер сам нащупывает фактическую границу:
 // +1 сообщ/сек каждые 30с чистого потока (до 80), на 429 → rate -3 мгновенно (пол 20) И запоминание
 // границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
-const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 150 }; // старт 40, проба до 150: реальный потолок ставит Telegram через 429 (пол 20, граница hi=rate-4)
+const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 150 };
+let GIT_LOCK = false; // сериализация git-операций свипа и фонового контура (index.lock не делится)
+ // старт 40, проба до 150: реальный потолок ставит Telegram через 429 (пол 20, граница hi=rate-4)
 async function rlWait() {
   for (;;) {
     const now = Date.now();
@@ -106,6 +108,51 @@ async function tg(method, body) {
     return await res.json().catch(() => null);
   } catch {
     return null;
+  }
+}
+
+// ФОНОВЫЙ КОНТУР ЖИВОГО СЧЁТЧИКА (v15): сайт обязан показывать цифру t.me «точь-в-точь».
+// Свип узнаёт счётчик в НАЧАЛЕ, а коммитит в КОНЦЕ (60-80с доставки = отставание 400-500 при шторме 300/мин).
+// Здесь: каждые ~15с ТОЛЬКО горячие коллекции (очередь не пуста) → docs/live.json → микро-коммит.
+// НЕ трогает state/доставку (детект по lastSentNum — мутации стейта запрещены), git через GIT_LOCK.
+const LIVE_LAST = {};
+async function hotCounterLoop() {
+  const LIVE_FILE = path.join(REPO_ROOT, "docs", "live.json");
+  console.log("LIVE: фоновый контур живых счётчиков запущен (тик 15с)");
+  for (;;) {
+    await sleep(15_000);
+    let st = {};
+    try { st = JSON.parse(fs.readFileSync(STATE_FILE, "utf8")); } catch { continue; }
+    try {
+      const hot = Object.keys(st)
+        .filter((k) => st[k] && typeof st[k] === "object" && !k.startsWith("__") && (st[k].issued || 0) > (st[k].lastSentNum || 0))
+        .slice(0, 6);
+      if (!hot.length) continue;
+      const doc = { updated: new Date().toISOString(), items: {} };
+      for (const slug of hot) {
+        const c = await tgCounter(slug, (st[slug].issued || 0) + 1);
+        if (c) doc.items[slug] = { i: c.issued, t: c.total, ts: NOW() };
+      }
+      if (!Object.keys(doc.items).length) continue;
+      const dump = JSON.stringify(doc);
+      if (LIVE_LAST.dump === dump) continue; // цифра не сдвинулась — пустой коммит не нужен
+      LIVE_LAST.dump = dump;
+      fs.writeFileSync(LIVE_FILE, dump);
+      if (GIT_LOCK) continue; // свип коммитит — файл ляжет следующим тиком
+      GIT_LOCK = true;
+      try {
+        execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT, timeout: 60_000 });
+        execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT, timeout: 60_000 });
+        execSync("git add docs/live.json", { cwd: REPO_ROOT, timeout: 30_000 });
+        execSync('git commit -m "live counters [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe", timeout: 60_000 });
+        try { execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 }); }
+        catch {
+          execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
+          execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
+        }
+      } catch (e) { console.log("LIVE commit:", String(e.message).slice(0, 90)); }
+      finally { GIT_LOCK = false; }
+    } catch (e) { console.log("LIVE tick:", String(e.message).slice(0, 90)); }
   }
 }
 
@@ -747,6 +794,8 @@ async function main() {
   // 4) state + коммит (с ретраем на гонку пушей)
   state.__rl = { rate: RL.rate, hi: RL.hi }; // AIMD переживает рестарты эстафеты
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
+  while (GIT_LOCK) await sleep(300); // ждём фоновый LIVE-коммит — git index один
+  GIT_LOCK = true;
   try {
     execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT, timeout: 60_000 });
     execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT, timeout: 60_000 });
@@ -765,7 +814,7 @@ async function main() {
     console.log("state: закоммичен");
   } catch (e) {
     console.log("state: коммит не потребовался:", String(e.message).slice(0, 100));
-  }
+  } finally { GIT_LOCK = false; }
 }
 
 (async () => {
@@ -807,6 +856,7 @@ async function main() {
       // 24/7 реалтайм-режим: цикл свипов внутри одного прогона (~75с между проверками)
       const BUDGET_MS = 1_800_000; // 30 минут непрерывных проверок — рестарт эстафеты в 2.3 раза реже, GUARD-ватчдог порогов не имеет (проверяет только живость цепи), безопасно
       const t0 = Date.now();
+      hotCounterLoop().catch((e) => console.log("LIVE loop:", String(e).slice(0, 90))); // свежесть счётчиков сайта ~15с
       let n = 0;
       while (true) {
         const sweepStart = Date.now();
