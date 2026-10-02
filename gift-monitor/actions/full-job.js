@@ -198,7 +198,9 @@ async function enrichRange(b, count, winStart, winEnd) {
   // ОКНО БАМПА: берём только трансферы, случившиеся между свипами — именно этот апгрейд.
   // Протухший тонапи (трансферы на 10-20 мин старьё) — шум, его номера/время/владелец НЕ прикрепляются к свежему номеру.
   const inWin = transfers.filter((t) => t.ts && t.ts >= winStart && t.ts <= winEnd);
-  const chosen = inWin.slice(-count);
+  // FIFO: берём СТАРЕЙШИЕ count трансферы окна (выравнивание под oldest-first доставку),
+  // при обычном прыжке 1-8 это то же самое, что и последние
+  const chosen = inWin.length > count ? inWin.slice(0, count) : inWin.slice(-count);
   for (let i = 0; i < chosen.length; i++) {
     const t = chosen[i];
     const ev = { number: 0, ownerAddr: "", ownerName: "", mintTime: t.ts, giftDisplay: "" };
@@ -397,10 +399,11 @@ async function main() {
     const winEnd = NOW() + 120;
     let from = (st.lastSentNum || b.prev || 0) + 1; // от последнего ДОСТАВЛЕННОГО+1: бэклог не теряется
     if (from > b.issued) { skipped++; continue; } // дубль — уже всё доставлено
-    let overflow = 0;
-    if (b.issued - from + 1 > 8) { overflow = b.issued - from + 1 - 8; from = b.issued - 7; }
-    if (overflow) console.log(`кэтч-ап ${b.col.name}: доставляю последние 8 (пропущено ${overflow})`);
-    const count = b.issued - from + 1;
+    // FIFO-бэклог: за свип максимум 8, СТАРЕЙШИЕ первыми; хвост дошьём след. свипами — ни один номер не теряется.
+    // (раньше: при скачке >8 доставлялись только последние 8, хвост пропадал навсегда — 32 шт за шторм)
+    const total = b.issued - from + 1;
+    const count = Math.min(total, 8);
+    if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count}, хвост ${total - count} дошьётся след. свипами`);
     const metas = await enrichRange(b, count, winStart, winEnd);
     for (let i = 0; i < count; i++) {
       const n = from + i;
@@ -441,6 +444,9 @@ async function main() {
       }
       const text = buildMessage(ev);
       let sentThis = 0;
+      // ПУЛ-отправка (4 параллельно): при 33 подписчиках свип ускоряется ~4x.
+      // 429 → честный ретрай до 3 раз с ожиданием retry_after — сообщение НЕ теряется (раньше терялось).
+      const targets = [];
       for (const s of subs) {
         if (s.radar_mode) continue;
         const muted = (s.muted_gifts || []).some((m2) => String(m2 || "").toLowerCase() === b.col.name.toLowerCase());
@@ -448,42 +454,60 @@ async function main() {
         const fm = String(s.filter_model || "").trim().toLowerCase();
         const fb = String(s.filter_backdrop || "").trim().toLowerCase();
         if (fm || fb) continue; // фильтр-пользователи обслуживаются только основным ботом
-        const silent = !!(night && s.night_mode); // ночь = беззвучно, но НЕ теряем апгрейд
-        const r = await tg("sendMessage", {
-          chat_id: String(s.chat_id || s.telegram_id),
-          text,
-          parse_mode: "HTML",
-          disable_notification: silent,
-          link_preview_options: { is_disabled: false },
-        });
-        if (r && r.ok) sentThis++;
-        if (r && r.error_code === 429) await sleep(Math.min(3, Number(r.parameters?.retry_after) || 1) * 1000);
-        // 🎯 личное уведомление «твой подарок улучшили» (свои номера юзера)
-        const mgList = Array.isArray(s.my_gifts) ? s.my_gifts : [];
-        for (const mgx of mgList) {
-          const pp = String(mgx || "").split(":");
-          const mn = parseInt(pp[1], 10);
-          if (!mn || String(pp[0] || "").trim().toLowerCase() !== b.col.name.toLowerCase()) continue;
-          if (mn < from || mn > n) continue;
-          const g2 = String(b.col.display_name || b.col.name);
-          const lnk = `https://t.me/nft/${b.col.name.toLowerCase()}-${mn}`;
-          const mineTxt =
-            `🎯 <b>ТВОЙ ПОДАРОК УЛУЧШЕН!</b>\n\n` +
-            `🎁 ${esc(g2)} #${mn.toLocaleString("ru-RU")} → NFT\n` +
-            (ev.ownerAddr || ev.ownerName ? `👤 Владелец: ${fmtOwner(ev.ownerAddr, ev.ownerName)}\n` : "") +
-            `\n🔗 <a href="${lnk}">Твой подарок</a> · <a href="https://t.me/mrkt">MRKT</a> · <a href="https://t.me/portals">Portals</a>\n\n` +
-            `#TelegramGifts #NFT #${b.col.name}`;
-          try {
-            await tg("sendMessage", {
-              chat_id: String(s.chat_id || s.telegram_id),
-              text: mineTxt,
+        targets.push(s);
+      }
+      let tIdx = 0;
+      const sendPool = async () => {
+        while (tIdx < targets.length) {
+          const s = targets[tIdx++];
+          const silent = !!(night && s.night_mode); // ночь = беззвучно, но НЕ теряем апгрейд
+          const chat = String(s.chat_id || s.telegram_id);
+          let ok = false;
+          for (let attempt = 0; attempt < 3 && !ok; attempt++) {
+            const r = await tg("sendMessage", {
+              chat_id: chat,
+              text,
               parse_mode: "HTML",
               disable_notification: silent,
               link_preview_options: { is_disabled: false },
             });
-          } catch {}
+            if (r && r.ok) { ok = true; sentThis++; }
+            else if (r && r.error_code === 429) await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000);
+            else break; // другая ошибка — ретраи не помогут
+          }
+          // 🎯 личное уведомление «твой подарок улучшили» (свои номера юзера)
+          const mgList = Array.isArray(s.my_gifts) ? s.my_gifts : [];
+          for (const mgx of mgList) {
+            const pp = String(mgx || "").split(":");
+            const mn = parseInt(pp[1], 10);
+            if (!mn || String(pp[0] || "").trim().toLowerCase() !== b.col.name.toLowerCase()) continue;
+            if (mn < from || mn > n) continue;
+            const g2 = String(b.col.display_name || b.col.name);
+            const lnk = `https://t.me/nft/${b.col.name.toLowerCase()}-${mn}`;
+            const mineTxt =
+              `🎯 <b>ТВОЙ ПОДАРОК УЛУЧШЕН!</b>\n\n` +
+              `🎁 ${esc(g2)} #${mn.toLocaleString("ru-RU")} → NFT\n` +
+              (ev.ownerAddr || ev.ownerName ? `👤 Владелец: ${fmtOwner(ev.ownerAddr, ev.ownerName)}\n` : "") +
+              `\n🔗 <a href="${lnk}">Твой подарок</a> · <a href="https://t.me/mrkt">MRKT</a> · <a href="https://t.me/portals">Portals</a>\n\n` +
+              `#TelegramGifts #NFT #${b.col.name}`;
+            for (let attempt = 0; attempt < 2; attempt++) {
+              try {
+                const r2 = await tg("sendMessage", {
+                  chat_id: chat,
+                  text: mineTxt,
+                  parse_mode: "HTML",
+                  disable_notification: silent,
+                  link_preview_options: { is_disabled: false },
+                });
+                if (r2 && r2.ok) break;
+                if (r2 && r2.error_code === 429) { await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
+                break;
+              } catch { break; }
+            }
+          }
         }
-      }
+      };
+      await Promise.all([sendPool(), sendPool(), sendPool(), sendPool()]);
       sent += sentThis;
       detected++;
       // 🏆 лидерборд улучшителей (по владельцу события)
@@ -541,7 +565,21 @@ async function main() {
       errors: errors,
       detected_total: (prev.detected_total || 0) + detected,
       sent_total: (prev.sent_total || 0) + sent,
-      last_upgrades: [...(prev.last_upgrades || []), ...bumpLogs].slice(-30),
+      last_upgrades: (() => {
+        // дедуп: один номер = одна запись в ленте (раньше дубли при гонке свипов)
+        const seen = new Set();
+        const merged = [...(prev.last_upgrades || []), ...bumpLogs];
+        const out = [];
+        for (let i = merged.length - 1; i >= 0; i--) {
+          const e2 = merged[i];
+          const k = String(e2.slug) + "#" + String(e2.number);
+          if (seen.has(k)) continue;
+          seen.add(k);
+          out.unshift(e2);
+          if (out.length >= 30) break;
+        }
+        return out;
+      })(),
     }, null, 1));
   } catch (e) { console.log("status.json:", String(e).slice(0, 80)); }
 
