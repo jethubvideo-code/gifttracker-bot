@@ -90,12 +90,17 @@ async function main() {
     }
   });
 
-  const out = { updated: new Date().toISOString(), images: {} };
+  // NO-OP (req.9): картинки не изменились — НЕ пишем файл (updated-штамп больше не грязнит коммит каждые 6ч)
+  const imgsChanged = JSON.stringify(prev.images || {}) !== JSON.stringify(Object.fromEntries(
+    Object.entries(images).filter(([k]) => k !== "__updated").map(([k, v]) => [k, v.url || v])
+  ));
+  const out = { updated: imgsChanged ? new Date().toISOString() : (prev.updated || new Date().toISOString()), images: {} };
   for (const [k, v] of Object.entries(images)) {
     if (k === "__updated") continue;
     out.images[k] = v.url || v;
   }
-  fs.writeFileSync(IMG_FILE, JSON.stringify(out, null, 1));
+  if (imgsChanged) fs.writeFileSync(IMG_FILE, JSON.stringify(out, null, 1));
+  else console.log("картинки: без изменений — файл не тронут (no-op)");
   console.log(`картинки: обновлено ${ok}, сохранено ${kept}, не удалось ${failed}, всего ${Object.keys(out.images).length}`);
 
   try {
