@@ -78,7 +78,9 @@ function tonapi(url) {
 // показали 85+ сообщ/сек без единого 429. Контроллер сам нащупывает фактическую границу:
 // +1 сообщ/сек каждые 30с чистого потока (до 80), на 429 → rate -3 мгновенно (пол 20) И запоминание
 // границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
-const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 150 };
+const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 60 };
+const CHAT_CD = {};   // v17: пер-чат флуд-кулдаун (chat → ts, до которого чат не дёргаем)
+const CHAT_LAST = {}; // v17: пер-чат пейсинг (chat → ts последнего сообщения)
 let GIT_LOCK = false; // сериализация git-операций свипа и фонового контура (index.lock не делится)
 // МОНИТОРИНГ ПРОИЗВОДИТЕЛЬНОСТИ: каждый свип печатает CHECK COMPLETED (req.17)
 const STATS = { api: 0, tg: 0, retries429: 0, lastCommit: false };
@@ -90,7 +92,7 @@ async function rlWait() {
     const now = Date.now();
     if (now - RL.lastUp > 10_000 && now - RL.last429 > 10_000) { // чистый поток — наращиваем (10с: шторм не ждёт)
       RL.lastUp = now;
-      if (RL.hi < 150 && now - RL.last429 > 600_000) RL.hi = Math.min(150, RL.hi + 2); // 10 мин без 429 — граница оттаивает
+      if (RL.hi < 60 && now - RL.last429 > 600_000) RL.hi = Math.min(60, RL.hi + 2); // 10 мин без 429 — граница оттаивает
       RL.rate = Math.min(RL.hi, RL.rate + 1); // безусловно: если rate застрял выше hi (после 429) — вернётся под границу
     }
     RL.tokens = Math.min(RL.rate, RL.tokens + ((now - RL.ts) / 1000) * RL.rate);
@@ -699,8 +701,12 @@ async function main() {
           const dormant = sv > 0 && NOW() - sv >= 30 * 86400;
           const silent = !!(night && s.night_mode) || b.issued - n >= 150 || dormant; // хвост очереди и дормантные — без звука, свежие активным звенят
           const chat = String(s.chat_id || s.telegram_id);
+          if ((CHAT_CD[chat] || 0) > Date.now()) continue; // v17: чат во флуд-кулдауне — не дёргаем, догонит след. свипами
           let ok = false;
-          for (let attempt = 0; attempt < 4 && !ok; attempt++) {
+          for (let attempt = 0; attempt < 2 && !ok; attempt++) {
+            const w = 2500 - (Date.now() - (CHAT_LAST[chat] || 0)); // v17: пейсинг ≥2.5с между сообщениями в один чат
+            if (w > 0) await sleep(w);
+            CHAT_LAST[chat] = Date.now();
             const r = await tg("sendMessage", {
               chat_id: chat,
               text,
@@ -709,7 +715,13 @@ async function main() {
               link_preview_options: { is_disabled: false },
             });
             if (r && r.ok) { ok = true; sentThis++; }
-            else if (r && r.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r.parameters?.retry_after) || 1) * 1000); }
+            else if (r && r.error_code === 429) { // v17: кулдаун чата вместо 4×10с сна (замок 10:01-10:30 убит)
+              const ra = Math.min(120, Number(r.parameters?.retry_after) || 30);
+              CHAT_CD[chat] = Date.now() + ra * 1000;
+              RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++;
+              console.log(`RL: 429 (чат ${chat}) → кулдаун ${ra}с, отступ ${RL.rate}/сек`);
+              break;
+            }
             else break;
           }
           // 🎯 личное «твой подарок улучшили» (этот номер — свой номер юзера)
@@ -736,7 +748,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++; console.log(`RL: 429 → отступ до ${RL.rate}/сек (граница ${RL.hi})`); await sleep(Math.min(10, Number(r2.parameters?.retry_after) || 1) * 1000); continue; }
+                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 1000; RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = Date.now(); RL.tokens = 0; STATS.retries429++; console.log(`RL: 429 (личный, чат ${s.chat_id || s.telegram_id}) → кулдаун ${ra2}с`); break; }
                 break;
               } catch { break; }
             }
