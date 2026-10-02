@@ -78,7 +78,7 @@ function tonapi(url) {
 // показали 85+ сообщ/сек без единого 429. Контроллер сам нащупывает фактическую границу:
 // +1 сообщ/сек каждые 30с чистого потока (до 80), на 429 → rate -3 мгновенно (пол 20) И запоминание
 // границы hi=rate-4 (выше неё больше не лезем). Telegram — единственный судья, 429 слушается всегда.
-const RL = { rate: 40, tokens: 40, ts: Date.now(), last429: 0, lastUp: 0, hi: 80 }; // v18: потолок 60→80 (пер-чатный гейт 1.0с теперь первичная защита от флуда)
+const RL = { rate: 30, tokens: 30, ts: Date.now(), last429: 0, lastUp: 0, hi: 60 }; // v18: потолок 60→80 (пер-чатный гейт 1.0с теперь первичная защита от флуда)
 const CHAT_CD = {};   // v17: пер-чат флуд-кулдаун (chat → ts, до которого чат не дёргаем)
 const CHAT_LAST = {}; // v19: пер-чат пейсинг 1.5с (chat → ts последнего сообщения)
 let GIT_LOCK = false; // сериализация git-операций свипа и фонового контура (index.lock не делится)
@@ -92,7 +92,7 @@ async function rlWait() {
     const now = Date.now();
     if (now - RL.lastUp > 10_000 && now - RL.last429 > 10_000) { // чистый поток — наращиваем (10с: шторм не ждёт)
       RL.lastUp = now;
-      if (RL.hi < 80 && now - RL.last429 > 600_000) RL.hi = Math.min(80, RL.hi + 2); // 10 мин без 429 — граница оттаивает
+      if (RL.hi < 60 && now - RL.last429 > 600_000) RL.hi = Math.min(60, RL.hi + 2); // 10 мин без 429 — граница оттаивает
       RL.rate = Math.min(RL.hi, RL.rate + 1); // безусловно: если rate застрял выше hi (после 429) — вернётся под границу
     }
     RL.tokens = Math.min(RL.rate, RL.tokens + ((now - RL.ts) / 1000) * RL.rate);
@@ -543,15 +543,15 @@ async function main() {
     RL_RESTORED = true;
     const saved = state.__rl;
     if (saved && Number(saved.rate) >= 20) {
-      RL.rate = Math.min(150, Math.max(20, Number(saved.rate)));
-      RL.hi = Math.min(150, Math.max(20, Number(saved.hi) || RL.rate));
+      RL.rate = Math.min(150, Math.max(15, Number(saved.rate)));
+      RL.hi = Math.min(150, Math.max(15, Number(saved.hi) || RL.rate));
       RL.last429 = Number(saved.last429) || 0; // v19.1: восстанавливаем last429
       RL.tokens = RL.rate; RL.ts = Date.now();
       // v19.1: ТЁПЛЫЙ СТАРТ — если 429 был давно (>30 мин) или не было, стартуем с 35
       const since429 = Date.now() - RL.last429;
       if (RL.last429 === 0 || since429 > 1_800_000) {
-        RL.rate = Math.max(35, RL.rate); // не опускаемся ниже 35 при чистом потоке
-        RL.hi = Math.max(80, RL.hi); // потолок сразу на максимум
+        RL.rate = Math.max(30, RL.rate); // не опускаемся ниже 35 при чистом потоке
+        RL.hi = Math.max(60, RL.hi); // потолок сразу на максимум
         console.log(`RL: ТЁПЛЫЙ СТАРТ ${RL.rate}/сек (граница ${RL.hi}), 429 был ${RL.last429 ? Math.round(since429/60000)+'мин назад' : 'никогда'})`);
       } else {
         console.log(`RL: поднят с прошлого прогона: ${RL.rate}/сек (граница ${RL.hi}), 429 ${Math.round(since429/1000)}с назад`);
@@ -733,8 +733,8 @@ async function main() {
               const now = Date.now();
               RECENT_429 = RECENT_429.filter(t => now - t < 60_000);
               RECENT_429.push(now);
-              if (RECENT_429.length >= 3) {
-                RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = now; RL.tokens = 0;
+              if (RECENT_429.length >= 6) {
+                RL.hi = Math.max(15, RL.rate - 4); RL.rate = Math.max(15, RL.rate - 3); RL.last429 = now; RL.tokens = 0;
                 console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${RECENT_429.length} чатов за 60с) → отступ ${RL.rate}/сек`);
                 RECENT_429 = [];
               } else {
@@ -768,7 +768,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 1000; STATS.retries429++; const now2 = Date.now(); RECENT_429 = RECENT_429.filter(t => now2 - t < 60_000); RECENT_429.push(now2); if (RECENT_429.length >= 3) { RL.hi = Math.max(20, RL.rate - 4); RL.rate = Math.max(20, RL.rate - 3); RL.last429 = now2; RL.tokens = 0; console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${RECENT_429.length} за 60с) → отступ ${RL.rate}/сек`); RECENT_429 = []; } else { console.log(`RL: пер-чат 429 (личный ${s.chat_id || s.telegram_id}) → кулдаун ${ra2}с, скорость сохранена`); } break; }
+                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 1000; STATS.retries429++; const now2 = Date.now(); RECENT_429 = RECENT_429.filter(t => now2 - t < 60_000); RECENT_429.push(now2); if (RECENT_429.length >= 6) { RL.hi = Math.max(15, RL.rate - 4); RL.rate = Math.max(15, RL.rate - 3); RL.last429 = now2; RL.tokens = 0; console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${RECENT_429.length} за 60с) → отступ ${RL.rate}/сек`); RECENT_429 = []; } else { console.log(`RL: пер-чат 429 (личный ${s.chat_id || s.telegram_id}) → кулдаун ${ra2}с, скорость сохранена`); } break; }
                 break;
               } catch { break; }
             }
