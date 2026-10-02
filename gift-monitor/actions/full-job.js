@@ -339,6 +339,8 @@ function normIg(v) {
   return "https://instagram.com/" + v.replace(/[^A-Za-z0-9._/]/g, "");
 }
 
+let PT_PUBLISHED = false; // публикация партнёров раз за прогон (фон, без блокировки)
+
 async function publishPartners() {
   try {
     let list = [];
@@ -352,7 +354,7 @@ async function publishPartners() {
           const g = await tg("getFile", { file_id: e.logo_file_id });
           if (g && g.ok && g.result && g.result.file_path) {
             const url = `https://api.telegram.org/file/bot${process.env.TELEGRAM_BOT_TOKEN}/${g.result.file_path}`;
-            const res = await fetch(url);
+            const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
             if (res && res.ok) {
               const buf = Buffer.from(await res.arrayBuffer());
               fs.mkdirSync(path.join(REPO_ROOT, "docs", "p"), { recursive: true });
@@ -625,7 +627,8 @@ async function main() {
 
   // 3) статусная страница (GitHub Pages)
   let prev = {};
-  await publishPartners();
+  // партнёрская витрина: раз за прогон, в фоне — никогда не блокирует свип (урок от зависания 02.10)
+  if (!PT_PUBLISHED) { PT_PUBLISHED = true; publishPartners().catch((e) => console.log("partners bg:", String(e).slice(0, 60))); }
 
   try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
   try {
@@ -705,19 +708,19 @@ async function main() {
   // 4) state + коммит (с ретраем на гонку пушей)
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
   try {
-    execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT });
-    execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT });
+    execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT, timeout: 60_000 });
+    execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT, timeout: 60_000 });
     if (!SWEEP_CHANGED && process.env.FRESH_COMMIT !== "1") {
       console.log("state: без изменений, коммит пропущен");
       return;
     }
     execSync("git add data/state-full.json data/subscribers.enc data/partners.json docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json docs/partners.json docs/p", { cwd: REPO_ROOT });
-    execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
+    execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe", timeout: 60_000 });
     try {
-      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
+      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
     } catch {
-      execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe" });
-      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
+      execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
+      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
     }
     console.log("state: закоммичен");
   } catch (e) {
@@ -746,9 +749,9 @@ async function main() {
     if (process.env.EVENT_NAME === "schedule") {
       try {
         const q = execSync(
-          `curl -s -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
+          `curl -s -m 15 -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
           `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/runs?per_page=15`,
-          { encoding: "utf8" }
+          { encoding: "utf8", timeout: 20_000 }
         );
         const myId = String(process.env.GITHUB_RUN_ID || "");
         const alive = (JSON.parse(q).workflow_runs || [])
@@ -781,9 +784,9 @@ async function main() {
         let hasQueue = false;
         try {
           const q = execSync(
-            `curl -s -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
+            `curl -s -m 15 -H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" ` +
             `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/runs?per_page=10`,
-            { encoding: "utf8" }
+            { encoding: "utf8", timeout: 20_000 }
           );
           const myId = String(process.env.GITHUB_RUN_ID || "");
           hasQueue = (JSON.parse(q).workflow_runs || [])
@@ -791,12 +794,12 @@ async function main() {
         } catch {}
         if (!hasQueue) {
         const r = execSync(
-          `curl -s -w "\nHTTP:%{http_code}" -X POST ` +
+          `curl -s -m 15 -w "\nHTTP:%{http_code}" -X POST ` +
           `-H "Authorization: Bearer ${process.env.GITHUB_TOKEN}" ` +
           `-H "Accept: application/vnd.github+json" ` +
           `https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/workflows/full-monitor.yml/dispatches ` +
           `-d '{"ref":"main","inputs":{"force":"chain"}}'`,
-          { encoding: "utf8" }
+          { encoding: "utf8", timeout: 20_000 }
         ).trim();
         if (r.endsWith("HTTP:201") || r.endsWith("HTTP:204")) {
           console.log("эстафета: следующий прогон запущен (" + r.split("\n").pop() + ")");
