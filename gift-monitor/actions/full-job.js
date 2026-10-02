@@ -116,6 +116,36 @@ async function tg(method, body) {
   }
 }
 
+// ВЕТВЬ-НЕЗАВИСИМЫЙ КОММИТ (урок прогона 36984393037: schedule-прогон GitHub чекаутит
+// по sha → DETACHED; checkout -B main молча провалился → pull --rebase в детаче →
+// «You are not currently on a branch» → state НЕ пушится часами при живой доставке).
+// Паттерн без ветвяной магии: истина = память прогонa. fetch tip → reset на него →
+// вернуть НАШИ правки (стэш) → commit → push HEAD:main (фаст-форвард от tip).
+function gitHardCommit(files, msg) {
+  const run = (c) => execSync(c, { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
+  let stashed = false;
+  try {
+    const dirty = execSync("git status --porcelain", { cwd: REPO_ROOT, encoding: "utf8", timeout: 30_000 }).trim();
+    if (dirty) { run("git stash -u -q"); stashed = true; }
+    run("git fetch origin main --quiet");
+    run("git reset --hard origin/main -q"); // база коммита = удалённый tip (детач-безопасно)
+    run("git checkout -B main -q"); // прикрепление ПОСЛЕ reset — теперь всегда валидно
+    if (stashed) run("git stash pop"); // НАШИ правки поверх tip (файлы движка с API-пушами не пересекаются)
+    run('git config user.name "gift-monitor"');
+    run('git config user.email "actions@github.com"');
+    run(`git add ${files}`);
+    run(`git commit -m "${msg}"`);
+    for (let a = 0; a < 3; a++) {
+      try { run("git push origin HEAD:main"); return true; }
+      catch { run("git fetch origin main --quiet"); run("git rebase origin/main"); } // гонка пушей → ретрай
+    }
+    return false;
+  } catch (e) {
+    console.log("gitHardCommit:", String(e.message).slice(0, 140));
+    return false;
+  }
+}
+
 // ФОНОВЫЙ КОНТУР ЖИВОГО СЧЁТЧИКА (v15): сайт обязан показывать цифру t.me «точь-в-точь».
 // Свип узнаёт счётчик в НАЧАЛЕ, а коммитит в КОНЦЕ (60-80с доставки = отставание 400-500 при шторме 300/мин).
 // Здесь: каждые ~15с ТОЛЬКО горячие коллекции (очередь не пуста) → docs/live.json → микро-коммит.
@@ -158,15 +188,7 @@ async function hotCounterLoop() {
       if (GIT_LOCK) continue; // свип коммитит — файл ляжет следующим тиком
       GIT_LOCK = true;
       try {
-        execSync('git config user.name "gift-monitor"', { cwd: REPO_ROOT, timeout: 60_000 });
-        execSync('git config user.email "actions@github.com"', { cwd: REPO_ROOT, timeout: 60_000 });
-        execSync("git add docs/live.json", { cwd: REPO_ROOT, timeout: 30_000 });
-        execSync('git commit -m "live counters [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe", timeout: 60_000 });
-        try { execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 }); }
-        catch {
-          execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
-          execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
-        }
+        gitHardCommit("docs/live.json", "live counters [skip ci]");
       } catch (e) { console.log("LIVE commit:", String(e.message).slice(0, 90)); }
       finally { GIT_LOCK = false; }
     } catch (e) { console.log("LIVE tick:", String(e.message).slice(0, 90)); }
@@ -576,6 +598,12 @@ async function main() {
     SWEEP_CHANGED = true;
       st.issued = cnt.issued;
       st.sample = cnt.sample;
+    } else if ((st.lastSentNum || 0) > 0 && (st.lastSentNum || 0) < st.issued) {
+      // КЭТЧ-АП БЕЗ НОВОГО БАМПА (урок 08:30: шторм кончился, очередь 10982 замерла):
+      // счётчик не двигается, но хвост не доставлен — дренируем его сами, не ждём прыжка.
+      // Мета не цепляется (окно пустое), формат 162-симв мета не показывает — безопасно.
+      bumps.push({ col: c, issued: st.issued, prev: st.issued, total: cnt.total });
+      SWEEP_CHANGED = true;
     } else if (cnt.issued < st.issued) {
       // официальные счётчики только растут: снижение = протухший кэш t.me — игнорируем,
       // иначе следующий свип увидит ложный «бамп» и повторно скинет старьё
@@ -861,15 +889,11 @@ async function main() {
         return;
       }
     } catch {}
-    execSync("git add data/state-full.json data/subscribers.enc data/partners.json docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json docs/partners.json docs/p docs/live.json", { cwd: REPO_ROOT });
-    execSync('git commit -m "monitor: state update [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe", timeout: 60_000 });
-    try {
-      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
-    } catch {
-      execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
-      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 90_000 });
-    }
-    console.log("state: закоммичен");
+    const ok = gitHardCommit(
+      "data/state-full.json data/subscribers.enc data/partners.json docs/status.json docs/gifts.json docs/history.json docs/images.json docs/leaders.json docs/partners.json docs/p docs/live.json",
+      "monitor: state update [skip ci]"
+    );
+    if (ok) console.log("state: закоммичен (ветвь-независимо)");
   } catch (e) {
     console.log("state: ⚠️ PUSH/COMMIT ПРОВАЛ (маркер НЕ закоммичен — риск дублей при рестарте):", String(e.message).slice(0, 160));
   } finally { GIT_LOCK = false; }
