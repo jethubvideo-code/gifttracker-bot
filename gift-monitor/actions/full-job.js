@@ -116,6 +116,7 @@ async function tg(method, body) {
 // Здесь: каждые ~15с ТОЛЬКО горячие коллекции (очередь не пуста) → docs/live.json → микро-коммит.
 // НЕ трогает state/доставку (детект по lastSentNum — мутации стейта запрещены), git через GIT_LOCK.
 const LIVE_LAST = {};
+const BUMP_TS = {}; // слаг → ts последнего бампа этого прогона (для LIVE-контура)
 async function hotCounterLoop() {
   const LIVE_FILE = path.join(REPO_ROOT, "docs", "live.json");
   console.log("LIVE: фоновый контур живых счётчиков запущен (тик 15с)");
@@ -125,7 +126,16 @@ async function hotCounterLoop() {
     try { st = JSON.parse(fs.readFileSync(STATE_FILE, "utf8")); } catch { continue; }
     try {
       const hot = Object.keys(st)
-        .filter((k) => st[k] && typeof st[k] === "object" && !k.startsWith("__") && (st[k].issued || 0) > (st[k].lastSentNum || 0))
+        .filter((k) => {
+          if (!st[k] || typeof st[k] !== "object" || k.startsWith("__")) return false;
+          const q = (st[k].issued || 0) - (st[k].lastSentNum || 0);
+          // реальная очередь доставки (lastSentNum>0 отсекает бейзлайн-нулевые спокойные коллекции)
+          if ((st[k].lastSentNum || 0) > 0 && q > 0) return true;
+          // свежий бамп этого прогона (даже первая доставка) — счётчик растёт прямо сейчас
+          if ((BUMP_TS[k] || 0) > NOW() - 900) return true;
+          return false;
+        })
+        .sort((a, b) => (((st[b].issued || 0) - (st[b].lastSentNum || 0)) - ((st[a].issued || 0) - (st[a].lastSentNum || 0)))) // сначала самая штормовая
         .slice(0, 6);
       if (!hot.length) continue;
       const doc = { updated: new Date().toISOString(), items: {} };
@@ -543,6 +553,7 @@ async function main() {
       return;
     }
     if (cnt.issued > st.issued) {
+      BUMP_TS[c.name] = NOW(); // LIVE-контур: коллекция растёт прямо сейчас (любой бамп, не только кэтч-ап)
       bumps.push({ col: c, issued: cnt.issued, prev: st.issued, total: cnt.total });
     SWEEP_CHANGED = true;
       st.issued = cnt.issued;
@@ -578,6 +589,7 @@ async function main() {
     const total = b.issued - from + 1;
     const count = Math.min(total, 60); // кап 60: меньше свипов на ту же сотню = меньше фикс-цены (счётчики, коммит)
     if (total > count) STORM_DRAIN = true; // очередь не пуста → следующий свип сразу
+    BUMP_TS[b.col.name] = NOW(); // LIVE-контур: эта коллекция растёт прямо сейчас
     if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count} (в ленте все ${total} уже сейчас)`);
     const enrichN = total > count ? 0 : Math.min(count, total > 50 ? 8 : count); // глубокий бэклог: мета БЕЗ выравнивания = враньё → честно без неё + 0 тонапи-вызовов (быстрее); свежий прыжок: мета ровно к своим номерам
     const metas = await enrichRange(b, enrichN, winStart, winEnd);
