@@ -447,58 +447,14 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
       <div class="chart" id="chart"></div>
       <div class="ax"><span id="axL">—</span><span id="axR">сейчас</span></div>
     </div>
-    <div class="blk">
-      <h3>🏆 <span data-i18n="lb">Лидерборд владельцев</span> <span class="sub" data-i18n="lbs">по последним событиям</span></h3>
-      <div id="lb">
-      <div class="skel-card"><div class="skel row" style="width:70%"></div></div>
-      <div class="skel-card"><div class="skel row" style="width:55%"></div></div>
-    </div>
-    </div>
-    <div class="blk">
-      <h3>⚖️ <span data-i18n="cmp">Сравнение коллекций</span></h3>
-      <div class="cmp-grid">
-        <select class="sel" id="cmpA"></select>
-        <div class="vs">VS</div>
-        <select class="sel" id="cmpB"></select>
-      </div>
-      <div id="cmpOut" style="margin-top:10px"></div>
-    </div>
-    <div class="blk">
-      <h3>💾 <span data-i18n="exp">Экспорт данных</span></h3>
-      <div class="btns">
-        <button class="btn jelly" id="expCsv">⬇️ CSV</button>
-        <button class="btn ghost jelly" id="expJson">⬇️ JSON</button>
-      </div>
-    </div>
-  </section>
+    </section>
 
   <!-- РЫНОК -->
-  <section class="pane" id="p-market">
-    <div class="sec"><h2 data-i18n="market">Рынок подарков</h2><span class="sub" id="mkUpd">—</span></div>
-    <div class="mtiles">
-      <div class="stat"><div class="lbl" data-i18n="mkSum">Σ флоеров</div><div class="val gold num" id="mk1">—</div></div>
-      <div class="stat"><div class="lbl" data-i18n="mkAvg">средний</div><div class="val num" id="mk2">—</div></div>
-      <div class="stat"><div class="lbl" data-i18n="mkTop">топ-гейнер 24ч</div><div class="val num" id="mk3" style="font-size:13.5px;line-height:1.25">—</div></div>
-    </div>
-    <div class="search" style="margin-top:10px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="mq" data-i18n-ph="mkSearch" placeholder="Поиск цены…"><button class="qx" id="mqx" style="display:none" aria-label="clear">✕</button></div>
-    <div class="chips" id="mkChips">
-      <button class="chip jelly on" data-msort="price" data-i18n="mkPr">по цене ↓</button>
-      <button class="chip jelly" data-msort="asc" data-i18n="mkPa">по цене ↑</button>
-      <button class="chip jelly" data-msort="d24" data-i18n="mkD">по Δ 24ч</button>
-      <button class="chip jelly" data-msort="az">A-Z</button>
-      <button class="chip jelly" data-msort="hot" data-i18n="mkHot">🔥 апгрейды</button>
-    </div>
-    <div id="mrows" style="margin-top:10px">
-      <div class="skel-card"><div class="skel row" style="width:34%"></div><div class="skel row" style="width:52%"></div></div>
-      <div class="skel-card"><div class="skel row" style="width:40%"></div><div class="skel row" style="width:46%"></div></div>
-    </div>
-    <div class="mk-note" data-i18n="mkNote">≈ минимальная цена в выборке лотов GetGems · скан каждые 15 минут · цены в TON</div>
-  </section>
+  
 
   <!-- ПРО -->
   <section class="pane" id="p-pro">
-    <div class="sec"><h2 data-i18n="prTitle">Про-инструменты</h2><span class="sub" id="prUpd">—</span></div>
+    <div class="sec"><h2>🎯 <span data-i18n="prMine">Мои подарки</span></h2><span class="sub" id="prUpd">—</span></div>
 
     <div class="prcard">
       <div class="prh">🎯 <span data-i18n="prMine">Мои подарки</span><span class="prcnt" id="prMineCnt"></span></div>
@@ -512,15 +468,7 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
       <div id="prMineList" style="margin-top:4px"></div>
     </div>
 
-    <div class="prcard">
-      <div class="prh">📊 <span data-i18n="prIdx">Индекс рынка</span></div>
-      <div class="mtiles" style="margin-top:8px">
-        <div class="stat"><div class="lbl">Σ TON</div><div class="val gold num" id="prIdxTon">—</div></div>
-        <div class="stat"><div class="lbl">≈ USD</div><div class="val num" id="prIdxUsd">—</div></div>
-        <div class="stat"><div class="lbl" data-i18n="prMed">медиана</div><div class="val num" id="prIdxMed">—</div></div>
-      </div>
-      <canvas id="prIdxSpark" height="56" style="width:100%;margin-top:8px"></canvas>
-    </div>
+    
 
   </section>
 
@@ -562,8 +510,8 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
   <button class="tab on jelly" id="t-feed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span data-i18n="tFeed">ЛЕНТА</span></button>
   <button class="tab jelly" id="t-gifts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg><span data-i18n="tGifts">ПОДАРКИ</span></button>
   <button class="tab jelly" id="t-stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg><span data-i18n="tStats">АНАЛИТИКА</span></button>
-  <button class="tab jelly" id="t-market"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><span data-i18n="tMarket">РЫНОК</span></button>
-<button class="tab jelly" id="t-pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-i18n="tPro">ПРО</span></button>
+  
+<button class="tab jelly" id="t-pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-i18n="tPro">МОИ</span></button>
 <button class="tab jelly" id="t-pt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span data-i18n="tPt">ПАРТНЁР</span></button>
 <button class="tab jelly" id="t-info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span data-i18n="tInfo">ИНФО</span></button>
 </nav>
@@ -657,7 +605,7 @@ var I18N = {
   tStats:{ru:'АНАЛИТИКА', uz:'ANALITIKA', en:'ANALYTICS'},
   tInfo:{ru:'ИНФО', uz:'INFO', en:'INFO'},
   tMarket:{ru:'РЫНОК', uz:'BOZOR', en:'MARKET'},
-  tPro:{ru:'ПРО', uz:'PRO', en:'PRO'},
+  tPro:{ru:'МОИ', uz:'MENIKI', en:'MY'},
   tPt:{ru:'ПАРТНЁР', uz:'HAMKOR', en:'PARTNER'},
   ptTitle:{ru:'Партнёры', uz:'Hamkorlar', en:'Partners'},
   ptSub:{ru:'бесплатная витрина: карточка компании в ленте апгрейдов', uz:'bepul vitrina: kompaniya kartasi yangilanish lentasida', en:'free showcase: your company card in the upgrades feed'},
@@ -784,7 +732,7 @@ function newUpgradeAlert(evts){
 }
 
 /* ═══ вкладки ═══ */
-var PANES = ['feed','gifts','stats','market','pro','pt','info'];
+var PANES = ['feed','gifts','stats','pro','pt','info'];
 function switchTab(p){
   for (var i=0;i<PANES.length;i++){
     var id = PANES[i];
@@ -794,7 +742,7 @@ function switchTab(p){
   window.scrollTo(0,0);
 }
 for (var ti=0;ti<PANES.length;ti++){
-  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='market') renderMarket(); if(p==='pro') renderPro(); if(p==='pt'){ renderPartners(); loadPartners(); } }); })(PANES[ti]);
+  (function(p){ $('t-'+p).addEventListener('click', function(){ haptic(); switchTab(p); if(p==='stats') renderAnalytics(); if(p==='pro') renderPro(); if(p==='pt'){ renderPartners(); loadPartners(); } }); })(PANES[ti]);
 }
 
 /* ═══ листы (sheets) ═══ */
@@ -992,12 +940,10 @@ function openColSheet(slug){
   }).join('') +
   '<div class="btns" style="margin-top:12px">' +
     '<button class="btn jelly" id="shOpen">🚀 '+ (LANG==='ru'?'Подарок на t.me':(LANG==='uz'?'t.me sahifasi':'Open on t.me')) +'</button>' +
-    '<button class="btn ghost jelly" id="shCmp">⚖️ '+T('cmp')+'</button>' +
   '</div>';
   $('colBody').innerHTML = html;
   $('shFav').addEventListener('click', function(){ haptic(); toggleFav(slug); openColSheet(slug); renderGrid($('q').value); renderFeed(feedEvents); });
   $('shOpen').addEventListener('click', function(){ openLink('https://t.me/nft/'+slug.toLowerCase()+'-'+Math.max(1,g.issued)); });
-  $('shCmp').addEventListener('click', function(){ closeSheets(); switchTab('stats'); if(!$('cmpA').value) $('cmpA').value = slug; else $('cmpB').value = slug; renderCmp(); });
   openSheet('sheetCol');
 }
 
@@ -1039,119 +985,6 @@ function sparkOf(slug){
   var col = up ? '#3fd68f' : '#ff7a7a';
   return '<svg class="spark" viewBox="0 0 58 20"><path d="'+d+'" stroke="'+col+'" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>';
 }
-function renderMarket(){
-  if (!giftsData.length) return;
-  var wrap = $('mrows');
-  var fl = floorsData.floors || {};
-  var have = Object.keys(fl).length;
-  // тайл «обновлено»
-  var su = floorsData.updated_unix || 0;
-  if (su){
-    var mins = Math.max(0, Math.round((Date.now()/1000 - su)/60));
-    $('mkUpd').textContent = T('mkUpdAgo') + ' ' + (mins < 1 ? '✓' : mins + (LANG==='ru'?' мин. назад':(LANG==='uz'?' daq. oldin':' min ago')));
-  }
-  if (!have){ wrap.innerHTML = '<div class="empty">'+T('mkNoData')+'</div>'; return; }
-  // тайлы: Σ флоеров, средний, топ-гейнер
-  var vals = [];
-  giftsData.forEach(function(g){
-    var s = String(g.slug||g.name||'').trim();
-    if (fl[s] && Number(fl[s].f)) vals.push({slug:s, name:g.name, f:Number(fl[s].f), d24:floorD24(s)});
-  });
-  var sum = 0; vals.forEach(function(v){ sum += v.f; });
-  $('mk1').textContent = fmtNum(Math.round(sum*10)/10) + ' TON';
-  $('mk2').textContent = vals.length ? (fmtNum(Math.round((sum/vals.length)*10)/10) + ' TON') : '—';
-  var top = null;
-  vals.forEach(function(v){ if (v.d24 != null && v.d24 > 0 && (!top || v.d24 > top.d24)) top = v; });
-  $('mk3').innerHTML = top ? esc(top.name) + '<br><span style="color:#3fd68f;font-size:11px">+' + top.d24.toFixed(1) + '%</span>' : '—';
-  // фильтр + сортировка
-  var q = ($('mq').value || '').trim().toLowerCase();
-  var rows = vals.slice();
-  if (q) rows = rows.filter(function(r){ return (r.name||'').toLowerCase().indexOf(q) >= 0; });
-  if (mSort === 'asc') rows.sort(function(a,b){ return a.f - b.f; });
-  else if (mSort === 'az') rows.sort(function(a,b){ return String(a.name).localeCompare(String(b.name)); });
-  else if (mSort === 'd24') rows.sort(function(a,b){
-    var da = a.d24 == null ? -1e9 : a.d24, db = b.d24 == null ? -1e9 : b.d24;
-    if (db !== da) return db - da; return b.f - a.f; });
-  else if (mSort === 'hot') rows.sort(function(a,b){
-    var ea = etaOf(a.slug, issuedOf(a.slug), totalOf(a.slug)), eb = etaOf(b.slug, issuedOf(b.slug), totalOf(b.slug));
-    var ra = ea && ea.rate ? ea.rate : 0, rb = eb && eb.rate ? eb.rate : 0;
-    if (rb !== ra) return rb - ra; return b.f - a.f; });
-  else rows.sort(function(a,b){ return b.f - a.f; });
-  // без флоера (нет лотов/адреса) — в конец списка
-  var noFloor = [];
-  if (!q){
-    giftsData.forEach(function(g){
-      var s = String(g.slug||g.name||'').trim();
-      if (!fl[s] || !Number(fl[s].f)) noFloor.push(g);
-    });
-    if (mSort === 'az') noFloor.sort(function(a,b){ return String(a.name).localeCompare(String(b.name)); });
-  }
-  var html = '';
-  rows.forEach(function(r){
-    var g = giftBySlug(r.slug) || {};
-    var eta = etaOf(r.slug, g.issued||0, g.total||0);
-    var rate = eta && eta.rate ? eta.rate : 0;
-    var f = fl[r.slug];
-    var img = imagesData[r.slug] || '';
-    var d24 = r.d24;
-    var isNM = Number(g.added) && (Date.now()/1000 - Number(g.added)) < 7*86400;
-    html +=
-    '<div class="mrow" data-slug="'+esc(r.slug)+'">' +
-      '<div class="mim">' + (img ? '<img src="'+esc(img)+'" loading="lazy">' : '<span>🎁</span>') + '</div>' +
-      '<div class="mmid">' +
-        (isNM ? '<span class="mbadge" style="color:#3fd68f;border-color:#2b7a55">🆕 '+(LANG==='ru'?'НОВИНКА':(LANG==='uz'?'YANGI':'NEW'))+'</span> ' : '') +
-        '<div class="mnm">'+esc(r.name)+'</div>' +
-        '<div class="mmeta">' +
-          '<span class="mbadge'+(rate>=1?' up':'')+'">'+(rate>=1 ? '⚡ '+rate.toFixed(1)+'/ч' : (hotMap[r.slug] ? '🔥 24ч' : fmtNum(g.issued||0)+'/'+fmtNum(g.total||0)))+'</span>' +
-          (f.s ? '<span class="mbadge">🛒 '+f.s+'</span>' : '') +
-        '</div>' +
-      '</div>' +
-      sparkOf(r.slug) +
-      '<div class="mprice">' +
-        '<div class="mton">≈ ' + fmtNum(Math.round(r.f*100)/100) + ' <span class="u">TON</span></div>' +
-        (usdOf(r.f) ? '<div class="musd" style="font-size:11px;color:var(--tx3)">' + usdOf(r.f).replace(/<[^>]+>/g,'').trim() + '</div>' : '') +
-        (d24 != null
-          ? '<div class="mdelta '+(d24>=0?'pos':'neg')+'">'+(d24>=0?'▲ +':'▼ ')+d24.toFixed(1)+'%</div>'
-          : '<div class="mdelta" style="color:var(--tx3)">24ч —</div>') +
-      '</div>' +
-    '</div>';
-  });
-  noFloor.forEach(function(g){
-    var s = String(g.slug||g.name||'').trim();
-    var img = imagesData[s] || '';
-    html +=
-    '<div class="mrow" data-slug="'+esc(s)+'" style="opacity:.55">' +
-      '<div class="mim">' + (img ? '<img src="'+esc(img)+'" loading="lazy">' : '<span>🎁</span>') + '</div>' +
-      '<div class="mmid"><div class="mnm">'+esc(g.name)+'</div><div class="mmeta"><span class="mbadge">'+T('mkNoFloor')+'</span></div></div>' +
-      '<div class="mprice"><div class="mton" style="color:var(--tx3)">—</div></div>' +
-    '</div>';
-  });
-  if (!html) html = '<div class="empty">'+T('emptyFeed')+'</div>';
-  wrap.innerHTML = html;
-  // клик по строке → шит коллекции (там же флоер + ETA)
-  Array.prototype.forEach.call(wrap.querySelectorAll('.mrow'), function(el){
-    el.addEventListener('click', function(){ haptic(); openColSheet(el.getAttribute('data-slug')); });
-  });
-}
-function giftBySlug(slug){
-  for (var i = 0; i < giftsData.length; i++){ if (String(giftsData[i].slug||giftsData[i].name||'').trim() === slug) return giftsData[i]; }
-  return null;
-}
-function issuedOf(slug){ var g = giftBySlug(slug); return g ? g.issued : 0; }
-function totalOf(slug){ var g = giftBySlug(slug); return g ? g.total : 0; }
-// поиск и сортировка рынка
-$('mq').addEventListener('input', function(){ renderMarket(); });
-Array.prototype.forEach.call(document.querySelectorAll('#mkChips .chip'), function(ch){
-  ch.addEventListener('click', function(){
-    haptic();
-    Array.prototype.forEach.call(document.querySelectorAll('#mkChips .chip'), function(x){ x.classList.remove('on'); });
-    ch.classList.add('on');
-    mSort = ch.getAttribute('data-msort') || 'price';
-    renderMarket();
-  });
-});
-
-/* ═══ аналитика ═══ */
 function renderChart(){
   var chart = $('chart'); chart.innerHTML = '';
   var now = Date.now()/1000;
@@ -1180,99 +1013,9 @@ function renderChart(){
   var axL = $('axL');
   if (bars.length){ var d0 = new Date(bars[0].ts*1000); var p=function(x){return x<10?'0'+x:x;}; axL.textContent = p(d0.getHours())+':00'; }
 }
-function renderLb(){
-  var counts = {};
-  feedEvents.forEach(function(e){
-    var o = (e.owner||'').trim();
-    if (!o) return;
-    counts[o] = (counts[o]||0) + 1;
-  });
-  var arr = Object.keys(counts).map(function(k){ return { n:k, c:counts[k] }; }).sort(function(a,b){ return b.c-a.c; }).slice(0,10);
-  var lb = $('lb'); lb.innerHTML = '';
-  if (!arr.length){ lb.innerHTML = '<div class="empty">'+T('etaNo')+'</div>'; return; }
-  arr.forEach(function(x, i){
-    var cls = i===0?'g':(i===1?'s':(i===2?'b':''));
-    var row = document.createElement('div'); row.className='lb-row';
-    row.innerHTML = '<div class="lb-rank '+cls+'">'+(i+1)+'</div><div class="lb-name" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(addrShort(x.n))+'</div><div class="lb-n">'+x.c+'</div>';
-    lb.appendChild(row);
-  });
-}
-function renderCmp(){
-  var a = $('cmpA').value, b = $('cmpB').value;
-  var out = $('cmpOut');
-  if (!a || !b || a === b){ out.innerHTML = '<div class="empty" style="padding:10px 0">'+ (LANG==='ru'?'выбери две разные коллекции':(LANG==='uz'?'ikki xil kolleksiya tanlang':'pick two different collections')) +'</div>'; return; }
-  var ga = null, gb = null;
-  giftsData.forEach(function(g){ var s = String(g.slug||g.name).trim(); if (s===a) ga=g; if (s===b) gb=g; });
-  if (!ga || !gb) return;
-  var pa = ga.total ? Math.round(ga.issued/ga.total*100) : 0;
-  var pb = gb.total ? Math.round(gb.issued/gb.total*100) : 0;
-  var ea = etaOf(a, ga.issued, ga.total), eb = etaOf(b, gb.issued, gb.total);
-  function e2h(e){ return e.done ? T('done') : (e.hours ? (e.hours<24? '~'+Math.max(1,Math.round(e.hours))+T('hrs') : '~'+(e.hours/24).toFixed(1)+T('days')) : '—'); }
-  var rows = [
-    [fmtNum(ga.issued), T('improved'), fmtNum(gb.issued)],
-    [fmtNum(ga.total), T('of')+' (total)', fmtNum(gb.total)],
-    [pa+'%', '%', pb+'%'],
-    [(ea.rate?ea.rate.toFixed(1):'—'), T('rate')+T('hour'), (eb.rate?eb.rate.toFixed(1):'—')],
-    [e2h(ea), T('eta'), e2h(eb)]
-  ];
-  out.innerHTML = rows.map(function(r){
-    return '<div class="cmp-row"><span class="cmp-l">'+esc(r[0])+'</span><span class="cmp-c">'+esc(r[1])+'</span><span class="cmp-r">'+esc(r[2])+'</span></div>';
-  }).join('');
-}
-function renderAnalytics(){ renderChart(); renderLb(); renderCmp(); fillCmpSelects(); }
+function renderAnalytics(){ renderChart(); }
 
 /* ═══ экспорт ═══ */
-function dl(name, content, type){
-  var blob = new Blob([content], { type: type });
-  // 1) Web Share API с файлом — работает в WebView Telegram на большинстве устройств (нативное меню "Поделиться")
-  try {
-    var file = new File([blob], name, { type: type });
-    if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      navigator.share({ files: [file], title: name }).catch(function(){ dlFallback(name, blob); });
-      return;
-    }
-  } catch(e){}
-  dlFallback(name, blob);
-}
-function dlFallback(name, blob){
-  // 2) в Telegram WebView скачивание через <a download> часто молчит — копируем в буфер как запасной путь
-  var inTG = !!(tg && tg.initData && tg.initData.length > 0);
-  if (inTG && navigator.clipboard && blob.type.indexOf('text') === 0 || (inTG && navigator.clipboard && blob.type.indexOf('json') >= 0)){
-    blob.text().then(function(txt){
-      navigator.clipboard.writeText(txt).then(function(){
-        toast(LANG==='ru'?'✓ скопировано в буфер — вставь в заметки':(LANG==='uz'?'✓ nusxalandi — eslatmaga joylang':'✓ copied — paste into notes'));
-      }).catch(function(){ dlDirect(name, blob); });
-    }).catch(function(){ dlDirect(name, blob); });
-    return;
-  }
-  dlDirect(name, blob);
-}
-function dlDirect(name, blob){
-  // 3) обычный браузер — классическое скачивание файла
-  var a = document.createElement('a');
-  a.href = URL.createObjectURL(blob); a.download = name;
-  document.body.appendChild(a); a.click();
-  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 400);
-}
-$('expCsv').addEventListener('click', function(){
-  haptic();
-  var rows = [['name','slug','improved','total','percent']];
-  giftsData.forEach(function(g){
-    var pct = g.total ? Math.round(g.issued/g.total*100) : 0;
-    rows.push([g.name, g.slug||g.name, g.issued, g.total, pct]);
-  });
-  var csv = rows.map(function(r){ return r.join(','); }).join('\n');
-  dl('gift-monitor-'+new Date().toISOString().slice(0,10)+'.csv', csv, 'text/csv');
-  toast(T('csvDone'));
-});
-$('expJson').addEventListener('click', function(){
-  haptic();
-  dl('gift-monitor-'+new Date().toISOString().slice(0,10)+'.json',
-     JSON.stringify({ updated: statD.updated, stats: { total: statD.detected_total, notifications: statD.sent_total }, gifts: giftsData, last_upgrades: feedEvents }, null, 1),
-     'application/json');
-  toast(T('jsonDone'));
-});
-
 /* ═══ шаринг-карточка (canvas) ═══ */
 function shareCard(e){
   var slug = String(e.slug||'').trim();
@@ -1444,15 +1187,6 @@ function countUp(el, target, dur){
 }
 
 /* ═══ refresh-цикл ═══ */
-function fillCmpSelects(){
-  var a = $('cmpA'), b = $('cmpB');
-  var av = a.value, bv = b.value;
-  var opts = giftsData.slice().sort(function(x,y){ return String(x.name).localeCompare(String(y.name)); })
-    .map(function(g){ return '<option value="'+esc(String(g.slug||g.name).trim())+'">'+esc(g.name)+'</option>'; }).join('');
-  a.innerHTML = opts; b.innerHTML = opts;
-  if (av) a.value = av; if (bv) b.value = bv;
-  if (!av && giftsData.length) a.value = String(giftsData[0].slug||giftsData[0].name).trim();
-}
 function refresh(first){
   ringT0 = Date.now();
   Promise.all([jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; }), jget('history.json').catch(function(){ return { hours: [] }; }), jget('floors.json').catch(function(){ return { floors: {} }; }), jget('floors-hist.json').catch(function(){ return { hours: [] }; }), jget('live.json').catch(function(){ return { items: {} }; })])
@@ -1506,8 +1240,7 @@ function refresh(first){
     renderGrid($('q').value);
     renderTicker();
     if ($('p-stats').classList.contains('on')) renderAnalytics();
-    if ($('p-market').classList.contains('on')) renderMarket();
-    if ($('p-pro').classList.contains('on')){ renderMine(); renderProIdx(); }
+    if ($('p-pro').classList.contains('on')){ renderMine(); }
   }).catch(function(e){
     $('liveTxt').textContent = '…';
   });
@@ -1543,7 +1276,7 @@ function proFindGift(q){
 function renderPro(){
   var upd = $('prUpd');
   if (upd) upd.textContent = floorsData.updated ? fmtDate(floorsData.updated_unix || Math.floor(new Date(floorsData.updated).getTime()/1000)) : '—';
-  renderMine(); renderProIdx();
+  renderMine();
 }
 function renderMine(){
   var dl = $('prDl'); var opts = [];
@@ -1584,43 +1317,6 @@ $('prMineAdd').addEventListener('click', function(){
   $('prMineName').value = ''; $('prMineNum').value = '';
   haptic(); toast(T('saved')); renderMine();
 });
-function renderProIdx(){
-  var vals = [];
-  var F = floorsData.floors || {};
-  for (var k in F) if (F.hasOwnProperty(k) && F[k] && F[k].f > 0) vals.push(F[k].f);
-  if (!vals.length){ $('prIdxTon').textContent = '—'; return; }
-  var sum = 0; for (var i=0;i<vals.length;i++) sum += vals[i];
-  var sorted = vals.slice().sort(function(a,b){ return a-b; });
-  var med = sorted[Math.floor(sorted.length/2)];
-  $('prIdxTon').textContent = fmtNum(Math.round(sum*10)/10);
-  $('prIdxUsd').innerHTML = usdOf(sum) || '—';
-  $('prIdxMed').textContent = fmtNum(med);
-  var cv = $('prIdxSpark');
-  if (cv && floorsHist && floorsHist.length){
-    var ctx = cv.getContext('2d');
-    var w = cv.width = cv.offsetWidth || 320; var hh = cv.height = 56;
-    var sums = [];
-    for (var t=0;t<floorsHist.length;t++){
-      var fs = floorsHist[t].floors || {}; var sm = 0;
-      for (var kk in fs) if (fs.hasOwnProperty(kk)) sm += Number(fs[kk])||0;
-      sums.push(sm);
-    }
-    if (sums.length >= 2 && sums[0] > 0){
-      var mn = Math.min.apply(null, sums), mx = Math.max.apply(null, sums);
-      if (mx === mn) mx = mn + 1;
-      var g1 = (usdRate() || '#d4a847');
-      ctx.clearRect(0,0,w,hh);
-      ctx.beginPath();
-      ctx.strokeStyle = '#d4a847'; ctx.lineWidth = 2; ctx.lineJoin = 'round';
-      for (var p=0;p<sums.length;p++){
-        var x = p/(sums.length-1)*(w-4)+2;
-        var y = hh-4 - (sums[p]-mn)/(mx-mn)*(hh-10);
-        if (p===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
-      }
-      ctx.stroke();
-    }
-  }
-}
 function usdRate(){ return Number(floorsData.rate_usd)||0; }
 
 /* ═══════════ ПАРТНЁРЫ: бесплатная витрина (100% GitHub, статический JSON) ═══════════ */
