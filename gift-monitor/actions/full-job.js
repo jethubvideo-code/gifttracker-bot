@@ -442,12 +442,18 @@ async function main() {
     const st =
       state[c.name] ||
       (state[c.name] = { issued: 0, sample: 1, lastSentTime: 0, lastSentNum: 0 });
+    // ШТОРМ-ДРЕЙН: спокойную коллекцию (очередь пуста, проверена <30с назад) не дёргаем — счётчики не жгут время свипа
+    if (st.issued > 0 && st.total > 0 && st.lastSweepTs && NOW() - st.lastSweepTs < 30 && (st.lastSentNum || 0) >= st.issued) {
+      gifts.push({ slug: c.name, name: c.display_name || c.name, issued: st.issued, total: st.total, added: Number(c.added) || 0 });
+      return;
+    }
     const cnt = await tgCounter(c.name, st.sample || 1);
     if (!cnt) {
       errors++;
       return;
     }
     checked++;
+    st.total = cnt.total; // кэш тотала для шторм-пропусков
     st.prevSweepTs = st.lastSweepTs || 0; // окно бампа = [prevSweep..now] — бамп случился внутри него
     st.lastSweepTs = NOW();
     gifts.push({ slug: c.name, name: c.display_name || c.name, issued: cnt.issued, total: cnt.total, added: Number(c.added) || 0 });
@@ -491,7 +497,7 @@ async function main() {
     if (from > b.issued) { skipped++; continue; } // дубль — уже всё доставлено
     // FIFO-бэклог: кап 30/свип, СТАРЕЙШИЕ первыми. Хвост дошьётся след. свипами — ни один номер не теряется.
     const total = b.issued - from + 1;
-    const count = Math.min(total, 30);
+    const count = Math.min(total, 60); // кап 60: меньше свипов на ту же сотню = меньше фикс-цены (счётчики, коммит)
     if (total > count) STORM_DRAIN = true; // очередь не пуста → следующий свип сразу
     if (total > count) console.log(`кэтч-ап ${b.col.name}: очередь ${total}, свип ${count} (в ленте все ${total} уже сейчас)`);
     const enrichN = Math.min(count, total > 50 ? 8 : count); // мегашторм: владелец у 8 новейших, хвост — без задержки тонапи
