@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-03T14:37:37.574Z",
- "updated_unix": 1791038257,
- "runs": 3690,
+ "updated": "2026-10-03T14:38:20.204Z",
+ "updated_unix": 1791038300,
+ "runs": 3691,
  "collections": 121,
- "checked": 121,
- "errors": 0,
- "detected_total": 50447,
- "sent_total": 681904,
+ "checked": 120,
+ "errors": 1,
+ "detected_total": 50449,
+ "sent_total": 681956,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 445652,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 445652,
-   "counter_total": 482271,
-   "img": "https://cdn4.telesco.pe/file/aJbFYG-t4YzAr6KWTGOJvD1fOZZNO_2Lu-Pixcqby-rg-tsKm63vSbkjIxEUlOvpnhaUXMGlsB00l3pEhaiCz7EeHzT3JpnmbxgmqxLiAiazIhMC7WAXmiVT_Uc1sTvbMGzSTQCZvLoNQQkGjJqqY0zksjeVhkRaWyYlCXwCo_j0zTSYmrWkdkgRBdmUFvkylYEwEjK_rX428Jmk58AlVNGpjkxtD8ryNJb6F24RFGyyDrJzf3AXDm_dUGzrePlTDEbwpRDKlicJfCKINyJLVcTs1NQyoCfl67g4yugRodxeve-wpzbRDpAI_C4zvwNj0XWYT4FH3bloBQwQE7Q6sg.jpg",
-   "sent": 0,
-   "time": "2026-10-03T14:34:29.392Z",
-   "u": 1
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 46948,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 46948,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/uVDsqKOUQ0VOPaV93BxrpVnIGkZKzzQNU-YlHJ3sPTv6jUeNL3xIECEEM9Rzo5onPCLiTmPkeTV1CGCHvc8oIUWGoa86cMWZHezpiF8Tuvsa7rCFFkxJawnH_NEY_rd3tyJsFywjIoMtrMCa1V-CC__3mZxrGpiuA9oVaFT4PCPKvxJhjS9fHNOQpDYxlA-sYtGKuOTfvkGfCNND5_kv8lMa2t7gR6Jl1tE1rXxdF53J_9RpyKy87Z3z4clGxArK9Z1TdEkPtyv4oeo4Ko6vX_1EI9mxafIg3J-ZjIOArmThquJPbb0-TXy9LqlppYUiO0PhZq20gDWDhiiCmSq9mw.jpg",
-   "sent": 0,
-   "time": "2026-10-03T14:34:35.101Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -429,6 +401,34 @@
    "sent": 0,
    "time": "2026-10-03T14:37:30.541Z",
    "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 437780,
+   "owner": "",
+   "owner_addr": "0:51d9308e52aa66286e799d01e5e2cf0183c4fa249b121ba75c6243b8231c92a4",
+   "mint": 1791038064,
+   "counter_issued": 437780,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T14:38:17.617Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 437781,
+   "owner": "",
+   "owner_addr": "0:567bb6f088ec74627f2151c3b6df53070a0d9ead5afd205d4969cd468a61d3e2",
+   "mint": 1791038280,
+   "counter_issued": 437781,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T14:38:17.617Z",
+   "t": 1
   }
  ]
 }
