@@ -1,0 +1,37 @@
+name: Pages Data Sync
+# ФИКС КРИТИЧНОГО БАГА (03.10.2026): deploy-pages.yml триггерится ТОЛЬКО на статику
+# (index.html/sw.js/...), поэтому обновления docs/*.json (status/gifts/images/live)
+# никогда не публиковались на Pages — сайт у части юзеров (где raw.githubusercontent.com
+# блокируется провайдером и браузер падает в BASE='./' фоллбэк) показывал данные
+# ВОЗРАСТОМ 17+ ЧАСОВ. Это отдельный лёгкий деплой по расписанию — публикует ТЕКУЩИЙ
+# снимок docs/ на Pages каждые 5 минут, независимо от того, сколько раз движок коммитил
+# данные между запусками. Общая concurrency-группа с deploy-pages.yml — лишние запуски
+# гасятся cancel-in-progress, а не копятся в очереди.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
