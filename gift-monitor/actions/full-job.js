@@ -727,15 +727,15 @@ async function main() {
             if (r && r.ok) { ok = true; sentThis++; }
             else if (r && r.error_code === 429) { // v19.2: пер-чат 429 — НЕ сбивает глобальную скорость
               const ra = Math.min(120, Number(r.parameters?.retry_after) || 30);
-              CHAT_CD[chat] = Date.now() + ra * 1000;
+              CHAT_CD[chat] = Date.now() + ra * 3000; /* v20.1: 3x кулдаун */
               STATS.retries429++;
               // v20: глобальный отступ только если 6+ УНИКАЛЬНЫХ чатов за 60с (не сырые события)
               const now = Date.now();
               RECENT_429 = RECENT_429.filter(x => now - x.ts < 60_000);
               RECENT_429.push({ chat, ts: now });
               const uniq = new Set(RECENT_429.map(x => String(x.chat))).size;
-              if (uniq >= 6) {
-                RL.hi = Math.max(15, RL.rate - 4); RL.rate = Math.max(15, RL.rate - 3); RL.last429 = now; RL.tokens = 0;
+              if (uniq >= 12) {
+                RL.hi = Math.max(25, RL.rate - 4); RL.rate = Math.max(15, RL.rate - 3); RL.last429 = now; RL.tokens = 0;
                 console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${uniq} уникальных чатов за 60с) → отступ ${RL.rate}/сек`);
                 RECENT_429 = [];
               } else {
@@ -769,7 +769,7 @@ async function main() {
                   link_preview_options: { is_disabled: false },
                 });
                 if (r2 && r2.ok) break;
-                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 1000; STATS.retries429++; const now2 = Date.now(); RECENT_429 = RECENT_429.filter(x => now2 - x.ts < 60_000); const pChat = String(s.chat_id || s.telegram_id); RECENT_429.push({ chat: pChat, ts: now2 }); const uniq2 = new Set(RECENT_429.map(x => String(x.chat))).size; if (uniq2 >= 6) { RL.hi = Math.max(15, RL.rate - 4); RL.rate = Math.max(15, RL.rate - 3); RL.last429 = now2; RL.tokens = 0; console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${uniq2} уникальных за 60с) → отступ ${RL.rate}/сек`); RECENT_429 = []; } else { console.log(`RL: пер-чат 429 (личный ${pChat}, уникальных: ${uniq2}) → кулдаун ${ra2}с, скорость сохранена`); } break; }
+                if (r2 && r2.error_code === 429) { const ra2 = Math.min(120, Number(r2.parameters?.retry_after) || 30); CHAT_CD[String(s.chat_id || s.telegram_id)] = Date.now() + ra2 * 3000; STATS.retries429++; const now2 = Date.now(); RECENT_429 = RECENT_429.filter(x => now2 - x.ts < 60_000); const pChat = String(s.chat_id || s.telegram_id); RECENT_429.push({ chat: pChat, ts: now2 }); const uniq2 = new Set(RECENT_429.map(x => String(x.chat))).size; if (uniq2 >= 12) { RL.hi = Math.max(25, RL.rate - 4); RL.rate = Math.max(15, RL.rate - 3); RL.last429 = now2; RL.tokens = 0; console.log(`RL: ГЛОБАЛЬНЫЙ 429 (${uniq2} уникальных за 60с) → отступ ${RL.rate}/сек`); RECENT_429 = []; } else { console.log(`RL: пер-чат 429 (личный ${pChat}, уникальных: ${uniq2}) → кулдаун ${ra2}с, скорость сохранена`); } break; }
                 break;
               } catch { break; }
             }
