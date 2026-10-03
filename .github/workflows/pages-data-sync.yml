@@ -35,3 +35,11 @@ jobs:
           path: docs
       - id: deployment
         uses: actions/deploy-pages@v4
+      # jsDelivr — последний фолбэк-источник юзеров из Узбекистана (raw + Pages у них
+      # часто блокированы). CDN кэширует ветку надолго → без purge юзер видел данные
+      # возрастом 1-17 часов. Purge сбрасывает кэш всех 10 дата-файлов каждый прогон.
+      - name: Purge jsDelivr CDN (все данные)
+        run: |
+          for f in floors-hist.json floors.json gifts.json health.json history.json images.json leaders.json live.json partners.json status.json; do
+            curl -fsS -m 30 "https://purge.jsdelivr.net/gh/jethubvideo-code/gifttracker-bot@main/docs/$f" || true
+          done
