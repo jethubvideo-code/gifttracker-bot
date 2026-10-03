@@ -355,7 +355,14 @@ async function poll({ tg, subs, state }) {
     newOff = Math.max(newOff, u.update_id + 1);
     try {
       const fid = (u.message && u.message.from && u.message.from.id) || (u.callback_query && u.callback_query.from && u.callback_query.from.id);
-      if (fid) state.seen[String(fid)] = Math.floor(Date.now() / 1000);
+      // 🔒 §10 (PDF-промт): ID юзеров не должны лежать в публичном стейте — ключ = HMAC-SHA256(id, CRYPT_KEY)
+      if (fid) {
+        try {
+          const hk = require("crypto").createHmac("sha256", process.env.CRYPT_KEY || "gm").update(String(fid)).digest("hex").slice(0, 32);
+          state.seen[hk] = Math.floor(Date.now() / 1000);
+          for (const k of Object.keys(state.seen)) { if (!/^[a-f0-9]{32}$/.test(k)) delete state.seen[k]; } // миграция: стереть старые плейнтекст-ID
+        } catch (e) {}
+      }
       if (u.message) changed = (await handleMessage(tg, subs, u.message)) || changed;
       else if (u.callback_query) changed = (await handleCallback(tg, subs, u.callback_query)) || changed;
     } catch (e) {
