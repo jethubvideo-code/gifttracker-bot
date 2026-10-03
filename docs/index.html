@@ -546,14 +546,15 @@ ovl.on,.ovl.on{opacity:1;pointer-events:auto}
 var $ = function(id){ return document.getElementById(id); };
 var BASE = './';
 /* данные тянутся напрямую из источника — свежесть за секунды, без CDN-кэша */
-var RAW = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90L21haW4v');
+var RAW = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90L21haW4vZG9jcy8=');
 var tg = null;
 try { tg = window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null; if (tg){ tg.ready(); tg.expand(); } } catch(e){}
 function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
 function fmtNum(n){ n = Number(n)||0; return n.toLocaleString('ru-RU').replace(/\u00A0/g,' '); }
 function fmtDate(ts){ var d = new Date(ts*1000), p = function(x){ return x<10?'0'+x:x; };
   return p(d.getDate())+'.'+p(d.getMonth()+1)+'.'+d.getFullYear()+', '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds()); }
-var JSD = atob('aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90QG1haW4v');
+var JSD = atob('aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90QG1haW4vZG9jcy8=');
+var GHK = atob('aHR0cHM6Ly9yYXcuZ2l0aGFjay5jb20vamV0aHVidmlkZW8tY29kZS9naWZ0dHJhY2tlci1ib3QvbWFpbi9kb2NzLw==');
 function jget(f){
   var bust = (f.indexOf('?')>=0?'&':'?') + 't=' + Date.now();
   function tryFetch(url, ms){
@@ -561,19 +562,15 @@ function jget(f){
     return fetch(url, { signal: c.signal }).then(function(r){ clearTimeout(t); if(!r.ok) throw 0; return r.json(); });
   }
   function save(j){ try{ localStorage.setItem('gmc:'+f, JSON.stringify(j)); }catch(e){} return j; }
+  // v20: цепочка источников по убыванию свежести: raw -> githack (прокси raw, другой домен,
+  // работает там, где raw блокирован) -> jsDelivr (CDN, может отставать) -> Pages -> кэш
   return tryFetch(RAW + f + bust, 7000).then(save)
+    .catch(function(){ return tryFetch(GHK + f + bust, 7000).then(save); })
+    .catch(function(){ return tryFetch(JSD + f + bust, 7000).then(save); })
+    .catch(function(){ return tryFetch(BASE + f + bust, 9000).then(save); })
     .catch(function(){
-      // v17: raw.githubusercontent иногда блокируется провайдером — пробуем jsDelivr (другой домен/CDN)
-      return tryFetch(JSD + f + bust, 7000).then(save)
-        .catch(function(){
-          // v18: третий источник — Pages (тот же домен, работает почти всегда)
-          return tryFetch(BASE + f + bust, 9000).then(save)
-            .catch(function(){
-              // v19: ВСЕ сети лежат (провайдер) — последний удачный снимок, сайт не умирает
-              try { var c = localStorage.getItem('gmc:'+f); if (c) return JSON.parse(c); } catch(e){}
-              return { __stale: true };
-            });
-        });
+      try { var c = localStorage.getItem('gmc:'+f); if (c) return JSON.parse(c); } catch(e){}
+      return { __stale: true };
     });
 }
 var LIVENESS_TS = 0;
