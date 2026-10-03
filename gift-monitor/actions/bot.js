@@ -291,10 +291,8 @@ async function handleMessage(tg, subs, msg) {
 }
 
 function menuKb() {
-  return { inline_keyboard: [
-    [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "🌙 Режим", callback_data: "menu:night" }],
-    [{ text: "📖 Все команды", callback_data: "menu:help" }],
-  ] };
+  /* по приказу владельца: кнопок нет, только рабочий /start */
+  return { inline_keyboard: [] };
 }
 
 
