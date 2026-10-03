@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-03T10:51:18.920Z",
- "updated_unix": 1791024678,
- "runs": 3414,
+ "updated": "2026-10-03T10:52:00.003Z",
+ "updated_unix": 1791024720,
+ "runs": 3415,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 48726,
- "sent_total": 637588,
+ "detected_total": 48727,
+ "sent_total": 637612,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 45451,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 45451,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/vSrK8peS0wB827TXqGFtJqzz891guRSC8PdkGcl1IF5BDFmjkrGtFEowg8F_Gd3xGuc1fKL14aYCG6UfBX0rXeL-rOFQRDSq5WNMCmLcnQlNJ4qmDp-Z5jNlBgLbwgOA4K2qycltLz7QfUUzGlRPbnoSzXChhLSCTRXwfX9QBSUk5TSiAz493hGGrMN91F6mkxatzBUh-WfA2BiiWiKaak98CzcDzd8pmkQDtmXVfH2f-JvyAsPUjqr-sxtVHnaxe3aEEcKNEe4EPfBMo-chV_TyXq63SaOtowsV0jZDDeY3elRB881_taYZEpXxKHv0jR2EhMXYaRPYm5kEzbKj3A.jpg",
-   "sent": 0,
-   "time": "2026-10-03T10:48:36.574Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-03T10:51:14.831Z",
    "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 264517,
+   "owner": "",
+   "owner_addr": "0:84f993866b1f488f4a177f81837dae86656d7cd8a15eadb3b8409c4626003071",
+   "mint": 1791024440,
+   "counter_issued": 264517,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T10:51:58.954Z",
+   "t": 1
   }
  ]
 }
