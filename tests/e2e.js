@@ -14,7 +14,12 @@ const { chromium } = require('playwright');
   const firstCardMs = Date.now() - t0;
   await page.waitForTimeout(12000); // даём картинкам и поллингу шанс
   const s = await page.evaluate(() => {
-    const imgs = [...document.querySelectorAll('img')];
+    // §4: метрика по видимым и ближним к экрану картинкам (ленивые ниже фолда не обязаны грузиться)
+    const vh = window.innerHeight;
+    const imgs = [...document.querySelectorAll('img')].filter(i => {
+      const r = i.getBoundingClientRect();
+      return r.top < vh * 2 && r.bottom > 0; // первый экран + 1 буферный
+    });
     const ok = imgs.filter(i => i.complete && i.naturalWidth > 0).length;
     return { total: imgs.length, ok, ev: document.querySelectorAll('.ev').length, gc: document.querySelectorAll('.gc').length,
              upd: (document.getElementById('upd') || {}).textContent || '' };
@@ -23,7 +28,7 @@ const { chromium } = require('playwright');
   const fails = [];
   if (s.ev < 1) fails.push('лента пуста');
   if (s.gc < 40) fails.push('грид мал: ' + s.gc);
-  if (s.total >= 10 && s.ok / s.total < 0.9) fails.push('картинки <90%: ' + s.ok + '/' + s.total);
+  if (s.total >= 10 && s.ok / s.total < 0.9) fails.push('картинки первых экранов <90%: ' + s.ok + '/' + s.total);
   if (errors.length) fails.push('консоль: ' + errors.slice(0,5).join(' | '));
   await b.close();
   if (fails.length) { console.error('E2E FAIL:', fails); process.exit(1); }
