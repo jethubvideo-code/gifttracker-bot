@@ -1,5 +1,5 @@
 /* Gift Monitor PWA — офлайн-кэш оболочки, данные всегда из сети */
-var CACHE = 'gm-v43';
+var CACHE = 'gm-v44';
 var SHELL = ['./', './index.html', './logo.png', './icon-192.png', './icon-512.png', './icon.svg', './manifest.webmanifest'];
 self.addEventListener('install', function(e){
   e.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(SHELL); }).then(function(){ return self.skipWaiting(); }));
@@ -27,7 +27,16 @@ self.addEventListener('fetch', function(e){
     return;
   }
   if (e.request.method !== 'GET') return;
-  /* оболочка: кэш первый */
+  /* HTML-навигация: СЕТЬ ПЕРВАЯ — юзер всегда видит свежий дизайн, кэш только для офлайна */
+  if (e.request.mode === 'navigate' || url.indexOf('index.html') >= 0){
+    e.respondWith(fetch(e.request).then(function(r){
+      var cp = r.clone();
+      caches.open(CACHE).then(function(c){ c.put(new Request('./index.html'), cp); });
+      return r;
+    }).catch(function(){ return caches.match('./index.html'); }));
+    return;
+  }
+  /* остальная оболочка (лого/иконки/манифест): кэш первый */
   e.respondWith(caches.match(e.request, { ignoreSearch: true }).then(function(m){
     return m || fetch(e.request).then(function(r){
       var cp = r.clone(); caches.open(CACHE).then(function(c){ c.put(e.request, cp); });
