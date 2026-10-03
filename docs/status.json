@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-03T19:55:40.750Z",
- "updated_unix": 1791057340,
- "runs": 4029,
+ "updated": "2026-10-03T19:56:21.549Z",
+ "updated_unix": 1791057381,
+ "runs": 4030,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 52906,
- "sent_total": 725394,
+ "detected_total": 52907,
+ "sent_total": 725400,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 48973,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 48973,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/g1kJpoacMVzv6ktr90B-1EeNLA_kagmcKZA1Pj2sBDc6GhsTrDeEspWSQmzt_MQjUHQ_NJCpwntm0RURsJ_WRm0-1s15R5V-v3el2nPBRKcIOK1sKn82F3gklw3it73pyl7zucVWXlF8WufDdX8j0dHPuzR62bzhLc8FtmpYv2lZP3ErlBgqx02HkumTV46_ogl-5rTS_R_GzumNmC4D-n7JdNxchl_uq0_vjhs1sw6Of-5Ped3-tvfk7xhjCCtMshtF1kT4z290SKJg-_0PG70g3H-hs53l1MMdoqEmWElBh-XIBL4fqQW9q0XKVIxFTefKnD-1AN-e46y-7wzYCw.jpg",
-   "sent": 0,
-   "time": "2026-10-03T19:52:46.054Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -433,6 +419,20 @@
    "sent": 0,
    "time": "2026-10-03T19:55:37.421Z",
    "u": 1
+  },
+  {
+   "slug": "XmasStocking",
+   "gift": "XmasStocking",
+   "number": 229581,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 229581,
+   "counter_total": 334632,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T19:56:20.971Z",
+   "t": 1
   }
  ]
 }
