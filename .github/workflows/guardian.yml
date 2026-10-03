@@ -27,4 +27,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN }}
+          OWNER_CHAT_ID: ${{ vars.OWNER_CHAT_ID }}
           MODE: ${{ github.event.inputs.mode || '' }}

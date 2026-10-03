@@ -7,7 +7,7 @@
 <title>Gift Monitor Ultra — апгрейды Telegram Gifts</title>
 <meta name="theme-color" content="#0b0d10">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="logo.png" type="image/png">
+<link rel="icon" href="logo.webp" type="image/png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
@@ -510,7 +510,7 @@ html[data-theme="light"] .skel{--skA:rgba(16,19,23,.05);--skB:rgba(16,19,23,.10)
 <body>
 <div id="app">
   <div class="hd">
-    <div class="hlogo jelly"><img src="logo.png" alt="GIFT MONITOR"></div>
+    <div class="hlogo jelly"><img src="logo.webp" alt="GIFT MONITOR"></div>
     <div class="ht"><h1>GIFT MONITOR</h1><p data-i18n="subtitle">апгрейды Telegram Gifts · онлайн</p></div>
     <div class="hright">
       <div class="live"><i></i><span id="liveTxt">LIVE</span></div>
@@ -609,7 +609,7 @@ html[data-theme="light"] .skel{--skA:rgba(16,19,23,.05);--skB:rgba(16,19,23,.10)
   <section class="pane" id="p-info">
     <div class="sec"><h2 data-i18n="about">О сервисе</h2></div>
     <div class="blk about-card">
-      <img src="logo.png" alt="Gift Monitor" class="about-logo">
+      <img src="logo.webp" alt="Gift Monitor" class="about-logo">
       <div class="about-name">GIFT MONITOR</div>
       <div class="about-sub" data-i18n="subtitle">апгрейды Telegram Gifts · онлайн</div>
       <div class="live-badge">LIVE · 24/7</div>
@@ -847,7 +847,7 @@ function newUpgradeAlert(evts){
     confetti(); beep();
     if (PUSH && 'Notification' in window && Notification.permission === 'granted'){
       var e0 = fresh[0];
-      try { new Notification('🚀 ' + (e0.gift||'Gift') + ' #' + fmtNum(e0.counter_issued||e0.number), { body: T('improved')+' · '+T('feed'), icon: BASE+'logo.png' }); } catch(e2){}
+      try { new Notification('🚀 ' + (e0.gift||'Gift') + ' #' + fmtNum(e0.counter_issued||e0.number), { body: T('improved')+' · '+T('feed'), icon: BASE+'logo.webp' }); } catch(e2){}
     }
   }
   if (evts.length) lastSeenTs = evts[0].mint || 0;
@@ -1236,7 +1236,7 @@ function shareCard(e){
   lg.onload = function(){ try { ctx.save(); ctx.shadowColor='rgba(212,168,71,.4)'; ctx.shadowBlur=24;
     ctx.drawImage(lg, W-140, H-136, 88, 88); ctx.restore(); } catch(err){} one(); };
   lg.onerror = one;
-  lg.src = 'logo.png';
+  lg.src = 'logo.webp';
   if (img){
     var im = new Image(); im.crossOrigin = 'anonymous';
     im.onload = function(){

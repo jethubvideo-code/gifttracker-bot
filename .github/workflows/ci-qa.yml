@@ -1,0 +1,37 @@
+name: CI QA (§11)
+on:
+  push:
+    paths: ['docs/index.html', 'docs/sw.js', 'tests/**', '.github/workflows/ci-qa.yml']
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *"  # раз в сутки ночью
+
+concurrency:
+  group: ci-qa
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  budget:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: node tests/budget.test.js
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: node tests/reconcile.test.js
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: npm init -y >/dev/null && npm install --no-audit --no-fund playwright@1.49.0
+      - run: npx playwright install chromium --with-deps
+      - run: python3 -m http.server 8000 --directory docs &
+      - run: node tests/e2e.js
