@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://telegram.org; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://raw.githubusercontent.com https://raw.githack.com https://cdn.jsdelivr.net https://api.github.com; font-src 'self' data:; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
 <title>Gift Monitor Ultra — апгрейды Telegram Gifts</title>
 <meta name="theme-color" content="#0b0d10">
@@ -9,9 +10,6 @@
 <link rel="icon" href="logo.png" type="image/png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ══════════════════════════════════════════════════════════════════════
    GIFT MONITOR — BLUEPRINT v26
@@ -31,7 +29,7 @@
   --e1:none; --e2:none; --e3:none; --shadow:none;
   --t-fast:120ms; --t-med:180ms; --t-slow:260ms;
   --ease:cubic-bezier(.2,.8,.3,1); --ease-pop:cubic-bezier(.34,1.4,.64,1);
-  --fz:'Inter',-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,sans-serif;
+  --fz:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,sans-serif;
   --mono:ui-monospace,'SF Mono',Menlo,Consolas,'Roboto Mono',monospace;
 }
 html[data-theme="light"]{
@@ -922,7 +920,7 @@ function renderFeed(list){
     var dv = document.createElement('div');
     dv.className = 'ev' + (isNew ? ' new' : '');
     dv.innerHTML =
-      (img ? '<img class="ph" loading="lazy" src="'+esc(img)+'">' : '<div class="phd">🎁</div>') +
+      (img ? '<img class="ph" loading="lazy" decoding="async" src="'+esc(img)+'">' : '<div class="phd">🎁</div>') +
       '<div class="bd">' +
         '<div class="l1"><span class="nm">'+esc(e.gift||slug)+'</span><span class="num">#'+fmtNum(e.counter_issued||e.number)+'</span>' +
         (isNew ? '<span class="badge-n">NEW</span>' : '') + '</div>' +
@@ -1020,7 +1018,7 @@ function giftCard(g){
   }
   var ini = initialsOf(g.name);
   var imgHtml = img
-    ? '<img src="'+esc(img)+'" loading="lazy" onload="this.classList.add(\'ld\')">'
+    ? '<img src="'+esc(img)+'" loading="lazy" decoding="async" onload="this.classList.add(\'ld\')">'
     : '<div class="gini">'+esc(ini)+'</div>';
   var dv = document.createElement('div');
   dv.className = 'gc';
@@ -1083,7 +1081,7 @@ function openColSheet(slug){
     : '';
   var html =
   '<div class="sh-head">' +
-    (img ? '<img class="sh-img" src="'+esc(img)+'">' : '<div class="sh-imgd">🎁</div>') +
+    (img ? '<img class="sh-img" decoding="async" src="'+esc(img)+'">' : '<div class="sh-imgd">🎁</div>') +
     '<div class="sh-t"><h3>'+esc(g.name)+'</h3><div class="big">'+fmtNum(g.issued)+' '+T('of')+' '+fmtNum(g.total)+' · '+pct+'%</div></div>' +
     '<button class="heart'+(isFav(slug)?' fav':'')+'" id="shFav" style="font-size:22px">'+(isFav(slug)?'❤️':'🤍')+'</button>' +
   '</div>' +
@@ -1522,5 +1520,63 @@ try {
   }
 } catch(e){}
 </script>
+
+<script>
+/* §5.5: скрытый режим ?debug=1 — диагностика с телефона владельца, данные НЕ отправляются */
+try{
+if (location.search.indexOf('debug=1') >= 0){
+  var dbgEl = document.createElement('div');
+  dbgEl.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#0b0d10;color:#fff;font:11px/1.5 monospace;padding:10px;max-height:45vh;overflow:auto;border-top:2px solid #3d8bff;white-space:pre-wrap';
+  function hostOf(u){ try{ return new URL(u, location.href).hostname }catch(e){ return '(local)' } }
+  function imgStats(){
+    var s = {}; var imgs = document.querySelectorAll('img');
+    for (var i=0;i<imgs.length;i++){
+      var hh = hostOf(imgs[i].src || '');
+      s[hh] = s[hh] || {ok:0,fail:0,load:0};
+      if (imgs[i].complete && imgs[i].naturalWidth > 0) s[hh].ok++;
+      else if (imgs[i].complete) s[hh].fail++;
+      else s[hh].load++;
+    }
+    return s;
+  }
+  function buildReport(){
+    var s = imgStats();
+    var lines = ['GM DEBUG'];
+    lines.push('UA: ' + String(navigator.userAgent||'').slice(0,90));
+    lines.push('screen: ' + screen.width + 'x' + screen.height + ' dpr:' + (window.devicePixelRatio||1) + ' online:' + navigator.onLine);
+    var conn = (navigator.connection||{}); lines.push('сеть: ' + (conn.effectiveType||'?') + (conn.saveData ? ' (save-data)' : ''));
+    var sv = '-'; try { sv = (navigator.serviceWorker && navigator.serviceWorker.controller) ? 'активен' : 'нет'; } catch(e){}
+    lines.push('SW: ' + sv);
+    lines.push('данные: ' + ($('upd') ? $('upd').textContent : '?'));
+    var tot = {ok:0,fail:0,load:0}, hosts = 0;
+    lines.push('картинки по хостам:');
+    for (var h2 in s){ hosts++; tot.ok+=s[h2].ok; tot.fail+=s[h2].fail; tot.load+=s[h2].load;
+      lines.push('  ' + h2 + ': ok ' + s[h2].ok + ' / fail ' + s[h2].fail + ' / груз ' + s[h2].load); }
+    lines.push('итого: ' + hosts + ' хостов, ok ' + tot.ok + ', fail ' + tot.fail + ', груз ' + tot.load);
+    try {
+      var perf = performance.getEntriesByType('resource')||[]; var slow = [];
+      for (var j=0;j<perf.length;j++){ var e = perf[j]; if (e.duration > 800) slow.push(String(e.name).split('/').pop().slice(0,28) + ':' + Math.round(e.duration) + 'ms'); }
+      lines.push('медленные >800ms: ' + (slow.slice(0,8).join(', ') || 'нет'));
+    } catch(e){}
+    return lines.join('\n');
+  }
+  function render(){ dbgEl.textContent = buildReport(); }
+  document.body.appendChild(dbgEl);
+  var btn = document.createElement('button');
+  btn.textContent = '📋 Скопировать отчёт';
+  btn.style.cssText = 'display:block;width:100%;padding:10px;margin-top:8px;background:#3d8bff;color:#fff;border:0;border-radius:6px;font:13px monospace';
+  btn.onclick = function(){
+    var txt = buildReport();
+    var done = function(){ btn.textContent = '✅ Скопировано'; setTimeout(function(){ btn.textContent='📋 Скопировать отчёт'; }, 1500); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, done);
+    else { var ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta); done(); }
+  };
+  dbgEl.appendChild(btn);
+  render();
+  setInterval(render, 3000);
+}
+}catch(e){}
+</script>
+
 </body>
 </html>
