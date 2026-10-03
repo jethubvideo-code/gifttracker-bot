@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-03T09:44:56.474Z",
- "updated_unix": 1791020696,
- "runs": 3336,
+ "updated": "2026-10-03T09:45:28.392Z",
+ "updated_unix": 1791020728,
+ "runs": 3337,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 48062,
- "sent_total": 621663,
+ "detected_total": 48063,
+ "sent_total": 621687,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 44868,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 44868,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/dnnlnAYDtU57GIfvzg3NW6xBnws37vm7lSPlS87jo2XREYT83psn1JhCttxqppoxthmVv4YgRCiWqgZbgTGn29Cg8MGr5d5rYnCCprQ_DoWrFD8n4ZD_nwHGasZw9kXBU2ak-U1xzKMCfr2VVChO1CNHV78kjpb3fxVXAx98FN0OWk08Q9SOGenoqLdF1O89Psjep1xFd56d6aullPovGc4U8tB7kmCX8gpoK9FJkUbg12va7TewSYKHoE_WiBRdpr_t4n_9_2oZdvn72EGQGoKR9g_vbvEcOodMcCj5FzXBHugyyXN-Mfrpgzro4M3mtrxyu-FFwJau2i-C6m5JhQ.jpg",
-   "sent": 0,
-   "time": "2026-10-03T09:41:55.799Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-03T09:44:43.354Z",
    "u": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84604,
+   "owner": "aarash81-tg.ton",
+   "owner_addr": "0:8dfe0a2dae9eb8f4aa3f4a7f45a69b19beab5c78b8b89b34f2ab172637ff2ecd",
+   "mint": 1791013874,
+   "counter_issued": 84604,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T09:45:27.444Z",
+   "t": 1
   }
  ]
 }
