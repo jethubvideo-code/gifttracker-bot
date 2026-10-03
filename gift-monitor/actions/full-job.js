@@ -822,7 +822,7 @@ async function main() {
   try {
     // v21.1: страница t.me/nft/<num> появляется позже счётчика — провал НЕ перманентный,
     // ретраим запись на следующих свипах (до 3 попыток), страница успевает родиться
-    const need = bumpLogs.filter((e) => !e.u && (e.t || 0) < 3).slice(-24);
+    const need = bumpLogs.filter((e) => e.u !== 1 && (e.t || 0) < 3).slice(-24);
     if (need.length) {
       let done = 0;
       await pool(need, 4, async (e) => {
