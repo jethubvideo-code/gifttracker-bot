@@ -207,11 +207,15 @@ async function tonRate() {
       execSync(`git add ${path.relative(REPO_ROOT, FLOORS_FILE)} ${path.relative(REPO_ROOT, HIST_FILE)}`, { cwd: REPO_ROOT, stdio: "pipe" });
       execSync('git commit -m "floors v2: медиана+фильтр мусора+USD+15м снапшоты [skip ci]"', { cwd: REPO_ROOT, stdio: "pipe" });
     } catch (e) { console.log("нет изменений для коммита"); }
-    try { execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" }); }
-    catch {
-      execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe" });
-      execSync("git push", { cwd: REPO_ROOT, stdio: "pipe" });
+    let pushed = false, lastErr = null;
+    for (let attempt = 0; attempt < 5 && !pushed; attempt++) {
+      try {
+        if (attempt > 0) execSync("git pull --rebase --autostash", { cwd: REPO_ROOT, stdio: "pipe", timeout: 30_000 });
+        execSync("git push", { cwd: REPO_ROOT, stdio: "pipe", timeout: 30_000 });
+        pushed = true;
+      } catch (e) { lastErr = e; }
     }
+    if (!pushed) throw lastErr || new Error("git push: все 5 попыток исчерпаны (гонка с движком)");
     console.log(`CHECK COMPLETED | Duration: ${tDur}s | Collections scanned: ${ok} | Changed floors: ${FLOORS_CHANGED ? ok : "snapshot-only"} | Commit: YES | Deploy: NO (raw-CDN)`);
   } catch (e) {
     console.error("FATAL:", String(e).slice(0, 300));
