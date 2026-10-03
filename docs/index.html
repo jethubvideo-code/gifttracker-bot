@@ -706,8 +706,6 @@ function toast(msg){ var t=$('toast'); t.textContent=msg; t.classList.add('on');
 var I18N = {
   subtitle:{ru:'апгрейды Telegram Gifts · онлайн', uz:'Telegram Gifts yangilanishlari · online', en:'Telegram Gifts upgrades · live'},
   today:{ru:'сегодня', uz:'bugun', en:'today'},
-  st1:{ru:'улучшено всего', uz:'jami yaxshilangan', en:'upgraded total'},
-  st2:{ru:'коллекций', uz:'kolleksiyalar', en:'collections'},
   st3:{ru:'апгрейдов поймано', uz:'ushlangan yangilanish', en:'upgrades caught'},
   st4:{ru:'уведомлений', uz:'bildirishnomalar', en:'notifications'},
   feed:{ru:'Живая лента', uz:'Jonli lenta', en:'Live feed'},
@@ -1461,8 +1459,6 @@ $('prMineAdd').addEventListener('click', function(){
   haptic(); toast(T('saved')); renderMine();
 });
 function usdRate(){ return Number(floorsData.rate_usd)||0; }
-
-/* ═══════════ ПАРТНЁРЫ: бесплатная витрина (100% GitHub, статический JSON) ═══════════ */
 
 /* PWA: service worker */
 try {
