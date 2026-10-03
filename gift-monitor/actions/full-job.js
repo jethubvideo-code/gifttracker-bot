@@ -817,12 +817,27 @@ async function main() {
   // партнёрская витрина: раз за прогон, в фоне — никогда не блокирует свип (урок от зависания 02.10)
   if (!PT_PUBLISHED) { PT_PUBLISHED = true; publishPartners().catch((e) => console.log("partners bg:", String(e).slice(0, 60))); }
 
-  // v21: УНИКАЛЬНЫЕ ФОТО каждого апгрейда (og:image per-NFT = отрисовка его фона+модели);
-  // качаем только для новейших записей ленты (старые всё равно вытесняются), 1 раз на запись
+  try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
   try {
-    // v21.1: страница t.me/nft/<num> появляется позже счётчика — провал НЕ перманентный,
-    // ретраим запись на следующих свипах (до 3 попыток), страница успевает родиться
-    const need = bumpLogs.filter((e) => e.u !== 1 && (e.t || 0) < 3).slice(-24);
+    fs.mkdirSync(path.join(REPO_ROOT, "docs"), { recursive: true });
+    // NO-OP: штампы/счётчик прогонов двигаются ТОЛЬКО на содержательном свипе (req.4/15) —
+    // иначе каждый свип = обязательный коммит «пустышка»
+    const DIRTY = SWEEP_CHANGED;
+    // v21.2: сборка ленты (дедуп: один номер = одна запись) + уникальные per-NFT фото.
+    // og:image страница t.me/nft/<num> рождается ПОЗЖЕ счётчика → провал не перманентный:
+    // записи живут в ленте до 30 слотов и ретраятся до 3 свипов, страница успевает родиться
+    const seen = new Set();
+    const merged = [...(prev.last_upgrades || []), ...bumpLogs];
+    const feedOut = [];
+    for (let i = merged.length - 1; i >= 0; i--) {
+      const e2 = merged[i];
+      const k = String(e2.slug) + "#" + String(e2.number);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      feedOut.unshift(e2);
+      if (feedOut.length >= 30) break;
+    }
+    const need = feedOut.filter((e) => e.u !== 1 && (e.t || 0) < 3).slice(-24);
     if (need.length) {
       let done = 0;
       await pool(need, 4, async (e) => {
@@ -831,14 +846,6 @@ async function main() {
       });
       if (done) console.log(`лента: уникальных фото ${done}/${need.length}`);
     }
-  } catch (e) { console.log("feedImg:", String(e).slice(0, 60)); }
-
-  try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
-  try {
-    fs.mkdirSync(path.join(REPO_ROOT, "docs"), { recursive: true });
-    // NO-OP: штампы/счётчик прогонов двигаются ТОЛЬКО на содержательном свипе (req.4/15) —
-    // иначе каждый свип = обязательный коммит «пустышка»
-    const DIRTY = SWEEP_CHANGED;
     fs.writeFileSync(STATUS_FILE, JSON.stringify({
       updated: DIRTY ? new Date().toISOString() : (prev.updated || new Date().toISOString()),
       updated_unix: DIRTY ? NOW() : (prev.updated_unix || NOW()),
@@ -848,21 +855,7 @@ async function main() {
       errors: errors,
       detected_total: (prev.detected_total || 0) + detected,
       sent_total: (prev.sent_total || 0) + sent,
-      last_upgrades: (() => {
-        // дедуп: один номер = одна запись в ленте (раньше дубли при гонке свипов)
-        const seen = new Set();
-        const merged = [...(prev.last_upgrades || []), ...bumpLogs];
-        const out = [];
-        for (let i = merged.length - 1; i >= 0; i--) {
-          const e2 = merged[i];
-          const k = String(e2.slug) + "#" + String(e2.number);
-          if (seen.has(k)) continue;
-          seen.add(k);
-          out.unshift(e2);
-          if (out.length >= 30) break;
-        }
-        return out;
-      })(),
+      last_upgrades: feedOut,
     }, null, 1));
   } catch (e) { console.log("status.json:", String(e).slice(0, 80)); }
 
