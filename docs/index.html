@@ -1502,6 +1502,46 @@ try {
 } catch(e){}
 </script>
 <script>
+/* ═══ §12 self-heal: Telegram держит WebView живым в фоне и не делает честной перезагрузки —
+   старая версия может никогда не узнать о новом деплое. Эта проверка идёт мимо SW и HTTP-кэша
+   (fetch no-store), сверяет версию с version.json и сама перезагружает страницу при расхождении,
+   без участия пользователя. ═══ */
+(function(){
+  var BUILD = '20261003142700';
+  var checking = false;
+  function heal(){
+    if (checking) return;
+    checking = true;
+    fetch(BASE + 'version.json?_=' + Date.now(), { cache: 'no-store' })
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        if (d && d.build && d.build !== BUILD){
+          if ('serviceWorker' in navigator){
+            navigator.serviceWorker.getRegistrations().then(function(regs){
+              regs.forEach(function(r){ r.unregister(); });
+            }).catch(function(){});
+          }
+          if (window.caches){
+            caches.keys().then(function(keys){
+              return Promise.all(keys.map(function(k){ return caches.delete(k); }));
+            }).catch(function(){}).then(function(){ location.reload(); });
+          } else {
+            location.reload();
+          }
+        } else {
+          checking = false;
+          if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistration){
+            navigator.serviceWorker.getRegistration().then(function(reg){ if (reg) reg.update(); }).catch(function(){});
+          }
+        }
+      }).catch(function(){ checking = false; });
+  }
+  heal();
+  setInterval(heal, 25000);
+  document.addEventListener('visibilitychange', function(){ if (!document.hidden) heal(); });
+})();
+</script>
+<script>
 /* ═══ v14 micro-interactions ═══ */
 try {
   document.addEventListener('scroll', function(){
