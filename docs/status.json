@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-03T15:04:32.100Z",
- "updated_unix": 1791039872,
- "runs": 3716,
+ "updated": "2026-10-03T15:05:09.482Z",
+ "updated_unix": 1791039909,
+ "runs": 3717,
  "collections": 121,
  "checked": 120,
  "errors": 0,
- "detected_total": 50664,
- "sent_total": 686988,
+ "detected_total": 50665,
+ "sent_total": 687009,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328638,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328638,
-   "counter_total": 342255,
-   "img": "https://cdn4.telesco.pe/file/Cd1UDfTMVvLi5RKc-Yj2FHh9n-BVdYNi7o4e3ri0J39h_n01P6jg5wxC-MX1ZhosBG5MDcULiH9CHf5eoBArNuKXawZPK3z8AKI3tIpHbGaYS-XmldjgDC_acZFAI_eMcqmdKiXyMyZasAK_zgaaNISRb2vdRc-1p8tzmpIef9Wwvgx6sxlP7wSlFseYuLPnDs_MRr5Y0iu3PCf1OgeYMCRmqxxJ36A-bcaPjfHwUEBvBwc3T0h6EBCHmPdxVHvJCIfE4JB9YgKFMFDtDsTBgUtrFOJ1GAbl80JkhmA11fhmPkXDkEnvKDlwVIvc4hv3Geu8y82QRuqLRhicl-EtVQ.jpg",
-   "sent": 0,
-   "time": "2026-10-03T15:01:03.742Z",
-   "u": 1
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-03T15:04:23.741Z",
    "u": 1
+  },
+  {
+   "slug": "MousseCake",
+   "gift": "Mousse Cake",
+   "number": 179127,
+   "owner": "",
+   "owner_addr": "0:4ce8c48df76138def4d1721203ae96a9072f19e3d3943028f78df1a6264b0005",
+   "mint": 1791036462,
+   "counter_issued": 179127,
+   "counter_total": 230505,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T15:05:08.676Z",
+   "t": 1
   }
  ]
 }
