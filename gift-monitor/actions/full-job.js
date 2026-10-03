@@ -817,6 +817,20 @@ async function main() {
   // партнёрская витрина: раз за прогон, в фоне — никогда не блокирует свип (урок от зависания 02.10)
   if (!PT_PUBLISHED) { PT_PUBLISHED = true; publishPartners().catch((e) => console.log("partners bg:", String(e).slice(0, 60))); }
 
+  // v21: УНИКАЛЬНЫЕ ФОТО каждого апгрейда (og:image per-NFT = отрисовка его фона+модели);
+  // качаем только для новейших записей ленты (старые всё равно вытесняются), 1 раз на запись
+  try {
+    const need = bumpLogs.filter((e) => !e.u).slice(-24);
+    if (need.length) {
+      let done = 0;
+      await pool(need, 6, async (e) => {
+        const u2 = await giftImage(String(e.slug || "").toLowerCase(), e.number || e.counter_issued);
+        if (u2) { e.img = u2; e.u = 1; done++; } else { e.u = -1; }
+      });
+      if (done) console.log(`лента: уникальных фото ${done}/${need.length}`);
+    }
+  } catch (e) { console.log("feedImg:", String(e).slice(0, 60)); }
+
   try { prev = JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")); } catch {}
   try {
     fs.mkdirSync(path.join(REPO_ROOT, "docs"), { recursive: true });
