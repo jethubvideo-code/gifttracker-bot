@@ -1020,7 +1020,7 @@ function giftCard(g){
   }
   var ini = initialsOf(g.name);
   var imgHtml = img
-    ? '<img src="'+esc(IMG_MIRROR+slug+'.webp')+'" loading="lazy" decoding="async" data-fb="'+esc(img)+'" data-ini="'+esc(ini)+'" onerror="if(this.dataset.fb){var f=this.dataset.fb;this.dataset.fb=\'\';this.src=f;}else{this.outerHTML=\'<div class="gini">\'+this.dataset.ini+\'</div>\'}" onload="this.classList.add(\'ld\')">'
+    ? '<img src="'+esc(IMG_MIRROR+slug+'.webp')+'" loading="lazy" decoding="async" data-fb="'+esc(img)+'" data-ini="'+esc(ini)+'" onerror="if(this.dataset.fb){var f=this.dataset.fb;this.dataset.fb=\'\';this.src=f;}else{this.outerHTML=\'<div class=&quot;gini&quot;>\'+this.dataset.ini+\'</div>\'}" onload="this.classList.add(\'ld\')">'
     : '<div class="gini">'+esc(ini)+'</div>';
   var dv = document.createElement('div');
   dv.className = 'gc';
