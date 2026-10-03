@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-03T21:40:27.343Z",
- "updated_unix": 1791063627,
- "runs": 4142,
+ "updated": "2026-10-03T21:41:02.008Z",
+ "updated_unix": 1791063662,
+ "runs": 4143,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 53593,
- "sent_total": 728669,
+ "detected_total": 53594,
+ "sent_total": 728673,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 49579,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 49579,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/dpL86ooEh1CxI0GeKWyOsS8q_XRKY6Jt2yz-NErZAifE1jbQ6AXglApwLRxNnrGWA4Il4g6jaDLKtmTJOwVpnmyGmP4fIyN-YAzbY__rgvmHRSVMVQQv_DZzA_VT6v4rupJyP4m1J1h555XUfkMrQUHDkHYmkSx8JWmPEAtBwmxWfd9aXD-P2VdTdov_NjMAmheKe-hpOOCvh6yv9_vJg7n9ndhzYoB1Qhn0h220rZpZB5dMqHsEoe1CIDBLsOF6etKhTOkGB8TZQgRQrPUI9REMhJucMjQ5OicOBwriqt7020dbDYeoXbZ4e4w5-W4zjJqoR9g-y8_7KJvcv9AWoA.jpg",
-   "sent": 0,
-   "time": "2026-10-03T21:37:23.476Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-03T21:40:25.781Z",
    "u": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 89880,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791059324,
+   "counter_issued": 89880,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T21:41:01.518Z",
+   "t": 1
   }
  ]
 }
