@@ -1296,6 +1296,7 @@ function countUp(el, target, dur){
 }
 
 /* ═══ refresh-цикл ═══ */
+var liveTsMax = 0;
 function refresh(first, light){
   ringT0 = Date.now();
   /* v23.1: ЛЁГКИЙ ТИК — только живые счётчики (status+gifts+live, ~33КБ вместо ~480КБ);
@@ -1315,6 +1316,12 @@ function refresh(first, light){
     /* LIVE-оверлей: docs/live.json — фоновый контур движка коммитит живые счётчики каждые ~15с,
        свип-коммит раз в 60-80с при шторме = лаг 400-500. Перекрываем цифру точь-в-точь как t.me */
     var liveItems = (res[6] && res[6].items) ? res[6].items : {};
+    /* v23.1: честная метка свежести — самый свежий ts живых счётчиков (live.json
+       коммитится движком каждые ~20с при любых изменениях), а не status.json,
+       который двигается только при апгрейдах (в штиль метка врала 'минуты назад') */
+    var lvTs = 0;
+    for (var lk in liveItems) { var lt = liveItems[lk] && Number(liveItems[lk].ts)||0; if (lt > lvTs) lvTs = lt; }
+    liveTsMax = lvTs;
     if (liveItems) giftsData.forEach(function(g){
       var lv = liveItems[String(g.slug||'').trim()];
       if (!lv) return;
@@ -1335,11 +1342,11 @@ function refresh(first, light){
       if (!hotMap[key] || t > hotMap[key]) hotMap[key] = t;
     });
     newUpgradeAlert(evts);
-    var su = statD.updated_unix || 0;
+    var su = Math.max(Number(statD.updated_unix)||0, Number(liveTsMax)||0);
     $('upd').textContent = su ? (LANG==='ru'?'обновлено':(LANG==='uz'?'yangilandi':'updated')) + ' ' + evAgo({ mint: su }).replace(/[^0-9а-яa-z\s.]+$/i,'').trim() + ' ' + (LANG==='ru'?'назад':(LANG==='uz'?'oldin':'ago')) : '…';
     var mins = 0;
-    if (statD.updated_unix){
-      mins = Math.max(0, Math.round(Date.now()/1000 - statD.updated_unix)/60);
+    if (su){
+      mins = Math.max(0, Math.round(Date.now()/1000 - su)/60);
       $('upd').textContent = (LANG==='ru'?'обновлено':(LANG==='uz'?'yangilandi':'updated')) + ' ' + (mins < 1 ? (LANG==='ru'?'только что':(LANG==='uz'?'hozirgina':'just now')) : (Math.round(mins) + (LANG==='ru'?' мин. назад':(LANG==='uz'?' daq. oldin':' min ago'))));
     }
     /* LIVE-ПУЛЬС БЕЗ КОММИТОВ: данных давно нет (штиль) — показываем живость цепи мониторинга
