@@ -1296,15 +1296,21 @@ function countUp(el, target, dur){
 }
 
 /* ═══ refresh-цикл ═══ */
-function refresh(first){
+function refresh(first, light){
   ringT0 = Date.now();
-  Promise.all([jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; }), jget('history.json').catch(function(){ return { hours: [] }; }), jget('floors.json').catch(function(){ return { floors: {} }; }), jget('floors-hist.json').catch(function(){ return { hours: [] }; }), jget('live.json').catch(function(){ return { items: {} }; })])
+  /* v23.1: ЛЁГКИЙ ТИК — только живые счётчики (status+gifts+live, ~33КБ вместо ~480КБ);
+     тяжёлые history/floors-hist/images/floors тянутся ПОЛНЫМ тиком раз в 60с,
+     между тиками старые значения сохраняются в глобалах (фото/ETA/графики не мигают) */
+  var FETCHES = light
+    ? [jget('status.json'), jget('gifts.json'), null, null, null, null, jget('live.json').catch(function(){ return { items: {} }; })]
+    : [jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; }), jget('history.json').catch(function(){ return { hours: [] }; }), jget('floors.json').catch(function(){ return { floors: {} }; }), jget('floors-hist.json').catch(function(){ return { hours: [] }; }), jget('live.json').catch(function(){ return { items: {} }; })];
+  Promise.all(FETCHES)
   .then(function(res){
     /* v22.1: все источники легли и кэша нет — НЕ обнуляем живые данные, держим прошлый снимок */
     if (res[0] && res[0].__stale && feedEvents.length) return;
     statD = res[0] || {};
-    imagesData = (res[2] && res[2].images) ? res[2].images : {};
-    histData = (res[3] && res[3].hours) ? res[3].hours : [];
+    imagesData = (res[2] && res[2].images) ? res[2].images : (imagesData || {});
+    histData = (res[3] && res[3].hours) ? res[3].hours : (histData || []);
     giftsData = (res[1] && res[1].gifts) ? res[1].gifts : [];
     /* LIVE-оверлей: docs/live.json — фоновый контур движка коммитит живые счётчики каждые ~15с,
        свип-коммит раз в 60-80с при шторме = лаг 400-500. Перекрываем цифру точь-в-точь как t.me */
@@ -1345,8 +1351,8 @@ function refresh(first){
     countUp($('s3'), statD.detected_total||0, first ? 900 : 0);
     countUp($('s4'), statD.sent_total||0, first ? 900 : 0);
     try { $('heroN').textContent = fmtNum(giftsData.length); $('heroU').textContent = fmtNum(statD.detected_total||0); } catch(e){}
-    floorsData = res[4] && res[4].floors ? res[4] : { floors: {} };
-    floorsHist = res[5] && res[5].hours ? res[5].hours : [];
+    floorsData = res[4] && res[4].floors ? res[4] : (floorsData || { floors: {} });
+    floorsHist = res[5] && res[5].hours ? res[5].hours : (floorsHist || []);
     renderFeed(evts);
     renderGrid($('q').value);
     renderTicker();
@@ -1361,10 +1367,11 @@ function refresh(first){
 applyTheme();
 applyI18n();
 refresh(true);
-setInterval(function(){ if (!document.hidden) refresh(false); }, 10000); // фон-вкладка: не жжём трафик и батарейку
+var GM_TICK = 0;
+setInterval(function(){ if (!document.hidden) { GM_TICK++; refresh(false, GM_TICK % 12 !== 0); } }, 5000); /* v23.1: лёгкий тик 5с, полный раз в 60с */ // фон-вкладка: не жжём трафик и батарейку
 document.addEventListener('visibilitychange', function(){ if (!document.hidden) refresh(false); }); // возврат в мини-апп = мгновенное обновление
 ringIv = setInterval(function(){
-  var p = Math.min(100, (Date.now()-ringT0)/10000*100);
+  var p = Math.min(100, (Date.now()-ringT0)/5000*100);
   var r = $('ring'); if (r) r.style.setProperty('--p', p);
 }, 250);
     /* ═══════════ ПРО-ТАБ: мои подарки + индекс рынка ═══════════ */
