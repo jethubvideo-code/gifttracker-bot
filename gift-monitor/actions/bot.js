@@ -148,7 +148,6 @@ async function handleMessage(tg, subs, msg) {
         `/start — включить уведомления\n/stop — выключить\n\n` +
         `🎯 <b>/mine Имя №</b> — следить за СВОИМ подарком (например <code>/mine PoolFloat 12345</code>)\n` +
         `🎯 /mine — список, <code>/mine del 1</code> — удалить\n\n` +
-        `📊 /index — GM INDEX: Σ флоров, медиана, TON→USD\n\n` +
         `🌙 /night — тихий режим 23:00–08:00\n` +
         `🙈 /mute Имя — скрыть подарок, /unmute Имя — вернуть\n\n` +
         `🌐 Мини-апп: меню бота → «Мини Апп»`, reply_markup: menuKb() });
@@ -247,15 +246,7 @@ async function handleMessage(tg, subs, msg) {
   /* 📅 календарь */
   /* 📊 индекс */
   if (c === "/index") {
-    const doc = readDoc("floors.json");
-    if (!doc) { await tg("sendMessage", { chat_id: chatId, text: "⏳ Данные не готовы, попробуй через минуту" }); return changed; }
-    const vals = [];
-    for (const k of Object.keys(doc.floors || {})) { const v = Number((doc.floors[k] || {}).f) || 0; if (v > 0) vals.push(v); }
-    const sum = vals.reduce((a, b) => a + b, 0);
-    const sorted = vals.slice().sort((a, b) => a - b);
-    const median = sorted.length ? sorted[Math.floor(sorted.length / 2)] : 0;
-    const rate = Number(doc.rate_usd) || 0;
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `📊 <b>GM INDEX — индекс рынка</b>\n\nΣ флоров всех коллекций:\n<b>${fmt(sum)} TON</b>${rate ? ` ≈ <b>$${fmt(sum * rate)}</b>` : ""}\n\nКоллекций с флором: ${vals.length}\nМедианный флор: ${fmt(median)} TON${rate ? ` (≈ $${fmt(median * rate)})` : ""}\n\nТоп-дешёвые и топ-дорогие — на сайте, раздел ПРО 🌐` });
+    await tg("sendMessage", { chat_id: chatId, text: "📊 GM INDEX снят — отслеживание флоров отключено. Доступно: /mine, /help" });
     return changed;
   }
 
@@ -301,8 +292,8 @@ async function handleMessage(tg, subs, msg) {
 
 function menuKb() {
   return { inline_keyboard: [
-    [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "📊 GM INDEX", callback_data: "menu:idx" }],
-    [{ text: "🌙 Режим", callback_data: "menu:night" }, { text: "📖 Все команды", callback_data: "menu:help" }],
+    [{ text: "🎯 Мои подарки", callback_data: "menu:mine" }, { text: "🌙 Режим", callback_data: "menu:night" }],
+    [{ text: "📖 Все команды", callback_data: "menu:help" }],
   ] };
 }
 
@@ -323,7 +314,7 @@ async function handleCallback(tg, subs, q) {
       await tg("answerCallbackQuery", { callback_query_id: q.id, text: "❌ Подписки на канал ещё нет", show_alert: true });
     }
   } else if (String(q.data).indexOf("menu:") === 0) {
-    const cmd = ({ "menu:mine": "/mine", "menu:idx": "/index", "menu:night": "/night", "menu:help": "/help" })[String(q.data)];
+    const cmd = ({ "menu:mine": "/mine", "menu:night": "/night", "menu:help": "/help" })[String(q.data)];
     await tg("answerCallbackQuery", { callback_query_id: q.id });
     if (cmd) {
       const t = await handleMessage(tg, subs, { from: { id: Number(fromId) }, chat: { id: Number(chatId) }, text: cmd });
