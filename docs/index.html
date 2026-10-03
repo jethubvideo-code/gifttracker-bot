@@ -807,6 +807,7 @@ function fmtNum(n){ n = Number(n)||0; return n.toLocaleString('ru-RU').replace(/
 function fmtDate(ts){ var d = new Date(ts*1000), p = function(x){ return x<10?'0'+x:x; };
   return p(d.getDate())+'.'+p(d.getMonth()+1)+'.'+d.getFullYear()+', '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds()); }
 var JSD = atob('aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90QG1haW4vZG9jcy8=');
+var GM_SHA = 'main';
 var GHK = atob('aHR0cHM6Ly9yYXcuZ2l0aGFjay5jb20vamV0aHVidmlkZW8tY29kZS9naWZ0dHJhY2tlci1ib3QvbWFpbi9kb2NzLw==');
 function jget(f){
   var bust = (f.indexOf('?')>=0?'&':'?') + 't=' + Date.now();
@@ -818,29 +819,27 @@ function jget(f){
   // v20: цепочка источников по убыванию свежести: raw -> githack (прокси raw, другой домен,
   // работает там, где raw блокирован) -> jsDelivr (CDN, может отставать) -> Pages -> кэш
   return tryFetch(RAW + f + bust, 7000).then(save)
-    .catch(function(){ return tryFetch(GHK + f + bust, 7000).then(save); })
-    .catch(function(){ return tryFetch(JSD + f + bust, 7000).then(save); })
-    .catch(function(){ return tryFetch(BASE + f + bust, 9000).then(save); })
+      /* v25: JSD по SHA последнего коммита — иммутабельный CDN-кэш, всегда свежие данные
+         (раньше JSD@main жил на purge раз в 5 мин = лаг юзера '5-6 минут') */
+      .catch(function(){ return tryFetch(JSD.replace('@main', '@' + GM_SHA) + f + bust, 7000).then(save); })
+      .catch(function(){ return tryFetch(BASE + f + bust, 9000).then(save); })
+      /* GHK последним: замер 03.10 — githack отдавал кэш возрастом 44 мин */
+      .catch(function(){ return tryFetch(GHK + f + bust, 7000).then(save); })
     .catch(function(){
       try { var c = localStorage.getItem('gmc:'+f); if (c) return JSON.parse(c); } catch(e){}
       return { __stale: true };
     });
 }
 var LIVENESS_TS = 0;
-function livenessPulse(){
-  var nowMs = Date.now();
-  if (nowMs - LIVENESS_TS < 120000) return; // троттл: не чаще раза в 2 мин (лимит anon-API GitHub 60/ч)
-  LIVENESS_TS = nowMs;
-  fetch('https://api.github.com/repos/jethubvideo-code/gifttracker-bot/actions/runs?per_page=1')
+function livenessPulse(){ var nowMs = Date.now(); if (nowMs - LIVENESS_TS < 120000) return; /* троттл: раз в 2 мин (лимит anon-API GitHub 60/ч) */ LIVENESS_TS = nowMs;
+  /* v25: берём ПОСЛЕДНИЙ КОММИТ репо вместо runs. Из него: SHA для jsDelivr-пина.
+     JSD@sha = иммутабельный кэш CDN: содержимое ВСЕГДА соответствует последнему коммиту,
+     purge не нужен, лаг = троттл(2мин) + каденс коммитов движка(~20с при активности).
+     Метку 'обновлено' не трогаем — её честно пишет refresh() от данных. */
+  fetch('https://api.github.com/repos/jethubvideo-code/gifttracker-bot/commits?per_page=1')
     .then(function(r){ return r.ok ? r.json() : null; })
-    .then(function(d){
-      if (!d || !d.workflow_runs || !d.workflow_runs.length) return;
-      var run = d.workflow_runs[0];
-      var ageMin = Math.max(0, Math.round((Date.now() - new Date(run.created_at).getTime())/60000));
-      var alive = run.status === 'in_progress' || run.status === 'queued' || ageMin < 35;
-      if (alive) $('upd').textContent = (LANG==='ru'?'проверка жива · ':(LANG==='uz'?'tekshiruv jonli · ':'checking live · ')) + ageMin + (LANG==='ru'?' мин':(LANG==='uz'?' daq.':' min'));
-    }).catch(function(){});
-}
+    .then(function(d){ if (d && d.length && d[0] && d[0].sha) GM_SHA = d[0].sha; })
+    .catch(function(){}); }
 function addrShort(v){
   v = String(v||'');
   if (/^0:[0-9a-fA-F]{48,}$/.test(v)) return v.slice(0,6) + '…' + v.slice(-4);
