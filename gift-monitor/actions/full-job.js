@@ -610,7 +610,9 @@ async function main() {
         targets.push(s);
       }
       // 🟢 ЖИВЫЕ ПЕРВЫМИ: активные юзеры (свежее касание бота) получают апгрейд раньше дормантных
-      const seenOf = (x) => ((state.seen || {})[String(x.telegram_id)]) || 0;
+      // 🔒 §10: seen-ключи = HMAC-SHA256(telegram_id, CRYPT_KEY), плейнтекст-ID не читаем (обратная совместимость стёрта)
+      const seenKey = (tid) => require("crypto").createHmac("sha256", process.env.CRYPT_KEY || "gm").update(String(tid)).digest("hex").slice(0, 32);
+      const seenOf = (x) => ((state.seen || {})[seenKey(x.telegram_id)]) || 0;
       targets.sort((a, b) => seenOf(b) - seenOf(a));
       let tIdx = 0;
       const sendPool = async () => {
