@@ -95,6 +95,39 @@ async function handleMessage(tg, subs, msg) {
   let sub = findSub(subs, fromId);
 
   if (!text) return false;
+
+  /* 👻 ПРИЗРАК-КЛАВИАТУРА: нижние кнопки от старого поколения бота у части юзеров
+     остались навечно (Telegram кэширует reply-keyboard на устройстве, пока явно
+     не прислать remove_keyboard). Текущий бот ею не пользуется — ловим нажатия
+     по тексту, отвечаем по смыслу и СНИМАЕМ клавиатуру, чтобы призрак не вернулся. */
+  const LEGACY_BTN = {
+    "🔔 Подписаться": "/start",
+    "ℹ️ Помощь": "/help",
+  };
+  if (LEGACY_BTN[text]) {
+    const r = await handleMessage(tg, subs, { from: msg.from, chat: msg.chat, text: LEGACY_BTN[text] });
+    await tg("sendMessage", { chat_id: chatId, text: "👆 Старое меню больше не нужно — команды теперь выше.", reply_markup: { remove_keyboard: true } });
+    return r;
+  }
+  if (text === "🎁 Выбрать подарок") {
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: "🎯 Чтобы следить за СВОИМ подарком:\n<code>/mine PoolFloat 12345</code>\n\nВыбрать из каталога 120+ подарков — в мини-аппе (кнопка слева от поля ввода).", reply_markup: { remove_keyboard: true } });
+    return changed;
+  }
+  if (text === "📋 Мои подписки") {
+    const ok = await gateOk(tg, fromId);
+    const active = sub ? !!sub.is_active : false;
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: `📋 <b>Твой статус:</b>\n\nУведомления: ${active ? "✅ включены" : "⏸ выключены (/start чтобы включить)"}\nКанал-гейт: ${ok ? "✅ подписан" : "❌ не подписан"}\nТихий режим: ${sub && sub.night_mode ? "🌙 вкл" : "выкл"}\nСвои подарки на радаре: ${sub && sub.my_gifts ? sub.my_gifts.length : 0}/20 (/mine)`, reply_markup: { remove_keyboard: true } });
+    return changed;
+  }
+  if (text === "🚨 Новые лимитки") {
+    if (sub) { sub.notify_new_gifts = !sub.notify_new_gifts; changed = true; }
+    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: sub ? `🚨 Уведомления о новых лимитках: ${sub.notify_new_gifts ? "✅ включены" : "⏸ выключены"} (жми ещё раз, чтобы переключить)` : "Сначала включи бота: /start", reply_markup: { remove_keyboard: true } });
+    return changed;
+  }
+  if (text === "🙈 Скрыть меню") {
+    await tg("sendMessage", { chat_id: chatId, text: "🙈 Старое меню убрано.", reply_markup: { remove_keyboard: true } });
+    return changed;
+  }
   let c = text.split(/\s+/)[0].split("@")[0].toLowerCase();
   const args = text.split(/\s+/).slice(1).join(" ").trim();
 
