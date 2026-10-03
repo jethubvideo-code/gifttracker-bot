@@ -86,100 +86,6 @@ const WELCOME =
 const NEED_SUB = `📢 Чтобы бот работал, подпишись на канал «Банк звёзд» @unknowesecret — там бесплатные фишки и розыгрыши.\n\nПосле подписки нажми кнопку ниже 👇`;
 
 /* ═══ обработка одного апдейта ═══ */
-/* ═══════════ ПАРТНЁРСКАЯ ВИТРИНА (100% GitHub, без внешних сервисов) ═══════════
-   Анкета в 5 шагов прямо в чате. Заявка пишется в data/partners.json,
-   движок публикует её в docs/partners.json → сайт показывает карточку.
-   Шаги живут в sub.pt (шифрованный subscribers.enc, персистентны между свипами). */
-const PT_FILE = path.join(REPO_ROOT, "data", "partners.json");
-
-function ptList() {
-  try { const a = JSON.parse(fs.readFileSync(PT_FILE, "utf8")); if (Array.isArray(a)) return a; } catch {}
-  return [];
-}
-
-async function ptStep(tg, sub, chatId, text) {
-  const p = sub.pt;
-  const t = String(text || "").trim();
-  if (t.toLowerCase() === "/cancel" || t.toLowerCase() === "/stop") {
-    sub.pt = null;
-    await tg("sendMessage", { chat_id: chatId, text: "❌ Анкета отменена. Начать заново: /partner" });
-    return true;
-  }
-  // шаг logo: карточка УЖЕ опубликована, фото только дополняет
-  if (p.step === "logo") {
-    if (t.toLowerCase() === "/skip" || t.toLowerCase() === "готово" || t.toLowerCase() === "-") {
-      sub.pt = null;
-      await tg("sendMessage", { chat_id: chatId, text: "👍 Готово! Карточка уже на сайте — раздел «Партнёры»." });
-      return true;
-    }
-    await tg("sendMessage", { chat_id: chatId, text: "📷 Жду фото-логотип (или /skip)" });
-    return true;
-  }
-  // ОДНОШАГОВАЯ АНКЕТА: все 5 полей одним сообщением через «;»
-  const parts = t.split(";").map((x) => x.trim());
-  if (parts.length < 5) {
-    await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text:
-      "⚠️ Нужны все 5 полей через «;»:\n\n<b>Название; Описание; Сайт; Telegram; Instagram</b>\n\n" +
-      "Нет поля — поставь прочерк «-». Пример:\n<code>Барбершоп Бро; Стрижки в Ташкенте; -; @brobarber; @bro.barber</code>" });
-    return true;
-  }
-  const [name, desc, site, tgU, ig] = parts;
-  if (name.length < 2 || name.length > 60) {
-    await tg("sendMessage", { chat_id: chatId, text: "⚠️ Название: от 2 до 60 символов. Попробуй ещё раз" });
-    return true;
-  }
-  sub.pt = {
-    step: "save",
-    name: name.slice(0, 60),
-    desc: desc.slice(0, 200),
-    site: site === "-" ? "" : site.slice(0, 300),
-    tg: tgU === "-" ? "" : tgU.slice(0, 100),
-    ig: ig === "-" ? "" : ig.slice(0, 100),
-  };
-  return await ptFinish(tg, sub, chatId);
-}
-
-async function ptFinish(tg, sub, chatId) {
-  const p = sub.pt || {};
-  const links = [p.site, p.tg, p.ig].filter(Boolean);
-  if (!p.name || !links.length) {
-    sub.pt = { step: "site", name: p.name || "", desc: p.desc || "", site: "", tg: "", ig: "" };
-    await tg("sendMessage", { chat_id: chatId, text: "⚠️ Нужна хотя бы одна ссылка (сайт, Telegram или Instagram).\n\n🔗 Ссылка на сайт? (или «-»)" });
-    return true;
-  }
-  const list = ptList();
-  const me = String(sub.telegram_id || "");
-  const dayAgo = Date.now() - 86400_000;
-  // апдейт-режим: своя свежая карточка обновляется, а не плодится
-  const idx = list.findIndex((e) => String(e.added_by) === me && new Date(e.ts).getTime() > dayAgo);
-  const entry = {
-    id: idx >= 0 ? list[idx].id : String(Date.now()),
-    name: String(p.name).slice(0, 60),
-    desc: String(p.desc || "").slice(0, 200),
-    site: String(p.site || "").slice(0, 300),
-    tg: String(p.tg || "").slice(0, 100),
-    ig: String(p.ig || "").slice(0, 100),
-    logo_file_id: String(p.logo_file_id || ""),
-    added_by: me,
-    ts: new Date().toISOString(),
-  };
-  // старый логотип сохраняем, если новый не прислали
-  if (idx >= 0 && list[idx].logo_file && !entry.logo_file_id) entry.logo_file = list[idx].logo_file;
-  if (idx >= 0) list[idx] = entry; else list.push(entry);
-  try { fs.mkdirSync(path.dirname(PT_FILE), { recursive: true }); fs.writeFileSync(PT_FILE, JSON.stringify(list.slice(-400), null, 1)); } catch (e) {
-    await tg("sendMessage", { chat_id: chatId, text: "⚠️ Не получилось сохранить, попробуй позже (/partner)" });
-    return true;
-  }
-  // карточка ОПУБЛИКОВАНА сразу; логотип — опциональное дополнение
-  sub.pt = { step: "logo", entryId: entry.id };
-  await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
-    "✅ <b>Карточка принята — уже публикуется!</b>\n\nОна появится на сайте в течение минуты:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
-    "📷 Хочешь логотип — пришли фото следующим сообщением (или /skip).\n" +
-    "Изменить карточку: /partner заново" });
-  console.log(`партнёрская карточка: ${entry.name} (от ${me})`);
-  return true;
-}
-
 async function handleMessage(tg, subs, msg) {
   const fromId = String(msg.from && msg.from.id);
   const chatId = String(msg.chat && msg.chat.id) || fromId;
@@ -188,30 +94,11 @@ async function handleMessage(tg, subs, msg) {
   let changed = false;
   let sub = findSub(subs, fromId);
 
-  // 📷 фото-логотип: карточка УЖЕ сохранена — дописываем file_id в заявку по entryId
-  if (!text && Array.isArray(msg.photo) && msg.photo.length && sub && sub.pt && sub.pt.step === "logo") {
-    const fileId = msg.photo[msg.photo.length - 1].file_id;
-    try {
-      const list = ptList();
-      const i = list.findIndex((e) => String(e.id) === String(sub.pt.entryId));
-      if (i >= 0) { list[i].logo_file_id = fileId; fs.writeFileSync(PT_FILE, JSON.stringify(list.slice(-400), null, 1)); }
-    } catch {}
-    sub.pt = null;
-    changed = true;
-    await tg("sendMessage", { chat_id: chatId, text: "✅ Логотип принят — появится на карточке в течение минуты" });
-    return changed;
-  }
   if (!text) return false;
   let c = text.split(/\s+/)[0].split("@")[0].toLowerCase();
   const args = text.split(/\s+/).slice(1).join(" ").trim();
 
-  /* 🏷 партнёрская анкета: шаги перехватывают обычный текст (кроме /start) */
-  if (sub && sub.pt && sub.pt.step && c !== "/start" && c !== "/help") {
-    changed = (await ptStep(tg, sub, chatId, text)) || changed;
-    return changed;
-  }
-
-  if (c === "/start" || c === "/help" || c === "/track" || c === "/partner") {
+  if (c === "/start" || c === "/help" || c === "/track") {
     const ok = await gateOk(tg, fromId);
     if (!ok) {
       await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", text: NEED_SUB, reply_markup: { inline_keyboard: [
@@ -222,18 +109,6 @@ async function handleMessage(tg, subs, msg) {
     }
     if (!sub) { sub = newSub(fromId, chatId); subs.push(sub); changed = true; }
     if (!sub.is_active) { sub.is_active = true; changed = true; }
-    if (c === "/partner" || args.toLowerCase() === "partner") {
-      sub.pt = { step: "form" };
-      changed = true;
-      await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
-        "🏷 <b>Партнёрская витрина — бесплатно!</b>\n\n" +
-        "Карточка твоей компании появится на сайте Gift Monitor:\nраздел «Партнёры» + баннер в ленте апгрейдов.\n\n" +
-        "Анкета — ОДНИМ сообщением. Отмена: /cancel\n\n" +
-        "Отправь все 5 полей через «;»:\n<b>Название; Описание; Сайт; Telegram; Instagram</b>\n\n" +
-        "Нет поля — поставь «-». Пример:\n<code>Барбершоп Бро; Стрижки в Ташкенте; -; @brobarber; @bro.barber</code>\n\n" +
-        "⏳ Бот отвечает в течение 20-40 секунд — это нормально, не спеши" });
-      return changed;
-    }
     if (c === "/help") {
       await tg("sendMessage", { chat_id: chatId, parse_mode: "HTML", link_preview_options: { is_disabled: true }, text:
         `📖 <b>Все команды:</b>\n\n` +
@@ -243,7 +118,6 @@ async function handleMessage(tg, subs, msg) {
         `📊 /index — GM INDEX: Σ флоров, медиана, TON→USD\n\n` +
         `🌙 /night — тихий режим 23:00–08:00\n` +
         `🙈 /mute Имя — скрыть подарок, /unmute Имя — вернуть\n\n` +
-        `🏷 /partner — карточку компании на сайте (бесплатно)\n\n` +
         `🌐 Мини-апп: меню бота → «Мини Апп»`, reply_markup: menuKb() });
       return changed;
     }
