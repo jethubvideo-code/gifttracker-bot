@@ -556,13 +556,24 @@ function fmtDate(ts){ var d = new Date(ts*1000), p = function(x){ return x<10?'0
 var JSD = atob('aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90QG1haW4v');
 function jget(f){
   var bust = (f.indexOf('?')>=0?'&':'?') + 't=' + Date.now();
-  return fetch(RAW + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
-    .then(function(j){ try{ localStorage.setItem('gmc:'+f, JSON.stringify(j)); }catch(e){} return j; })
+  function tryFetch(url, ms){
+    var c = new AbortController(); var t = setTimeout(function(){ c.abort(); }, ms);
+    return fetch(url, { signal: c.signal }).then(function(r){ clearTimeout(t); if(!r.ok) throw 0; return r.json(); });
+  }
+  function save(j){ try{ localStorage.setItem('gmc:'+f, JSON.stringify(j)); }catch(e){} return j; }
+  return tryFetch(RAW + f + bust, 7000).then(save)
     .catch(function(){
       // v17: raw.githubusercontent иногда блокируется провайдером — пробуем jsDelivr (другой домен/CDN)
-      return fetch(JSD + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
-        .then(function(j){ try{ localStorage.setItem('gmc:'+f, JSON.stringify(j)); }catch(e){} return j; })
-        .catch(function(){ return fetch(BASE + f + bust).then(function(r){ return r.json(); }); });
+      return tryFetch(JSD + f + bust, 7000).then(save)
+        .catch(function(){
+          // v18: третий источник — Pages (тот же домен, работает почти всегда)
+          return tryFetch(BASE + f + bust, 9000).then(save)
+            .catch(function(){
+              // v19: ВСЕ сети лежат (провайдер) — последний удачный снимок, сайт не умирает
+              try { var c = localStorage.getItem('gmc:'+f); if (c) return JSON.parse(c); } catch(e){}
+              return { __stale: true };
+            });
+        });
     });
 }
 var LIVENESS_TS = 0;
