@@ -820,12 +820,14 @@ async function main() {
   // v21: УНИКАЛЬНЫЕ ФОТО каждого апгрейда (og:image per-NFT = отрисовка его фона+модели);
   // качаем только для новейших записей ленты (старые всё равно вытесняются), 1 раз на запись
   try {
-    const need = bumpLogs.filter((e) => !e.u).slice(-24);
+    // v21.1: страница t.me/nft/<num> появляется позже счётчика — провал НЕ перманентный,
+    // ретраим запись на следующих свипах (до 3 попыток), страница успевает родиться
+    const need = bumpLogs.filter((e) => !e.u && (e.t || 0) < 3).slice(-24);
     if (need.length) {
       let done = 0;
-      await pool(need, 6, async (e) => {
+      await pool(need, 4, async (e) => {
         const u2 = await giftImage(String(e.slug || "").toLowerCase(), e.number || e.counter_issued);
-        if (u2) { e.img = u2; e.u = 1; done++; } else { e.u = -1; }
+        if (u2) { e.img = u2; e.u = 1; done++; } else { e.t = (e.t || 0) + 1; }
       });
       if (done) console.log(`лента: уникальных фото ${done}/${need.length}`);
     }
