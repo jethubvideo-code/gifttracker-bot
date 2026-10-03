@@ -1201,8 +1201,12 @@ function fitNum(el){
   var floor = size * 0.62;
   while (el.scrollWidth > maxW && size > floor){ size -= 0.5; el.style.fontSize = size + 'px'; }
 }
+var CU_LAST = {}; /* v22.1: статы анимируются от прошлой цифры, а не с нуля каждый тик */
 function countUp(el, target, dur){
-  var t0 = null, start = 0;
+  var t0 = null;
+  var cid = el.id || '';
+  var start = (typeof CU_LAST[cid] === 'number') ? CU_LAST[cid] : 0;
+  CU_LAST[cid] = target;
   function step(ts){
     if (!t0) t0 = ts;
     var p = Math.min(1, (ts-t0)/(dur||700));
@@ -1218,6 +1222,8 @@ function refresh(first){
   ringT0 = Date.now();
   Promise.all([jget('status.json'), jget('gifts.json'), jget('images.json').catch(function(){ return {}; }), jget('history.json').catch(function(){ return { hours: [] }; }), jget('floors.json').catch(function(){ return { floors: {} }; }), jget('floors-hist.json').catch(function(){ return { hours: [] }; }), jget('live.json').catch(function(){ return { items: {} }; })])
   .then(function(res){
+    /* v22.1: все источники легли и кэша нет — НЕ обнуляем живые данные, держим прошлый снимок */
+    if (res[0] && res[0].__stale && feedEvents.length) return;
     statD = res[0] || {};
     imagesData = (res[2] && res[2].images) ? res[2].images : {};
     histData = (res[3] && res[3].hours) ? res[3].hours : [];
