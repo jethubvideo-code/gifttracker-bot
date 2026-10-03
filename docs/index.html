@@ -63,9 +63,12 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 @keyframes dataIn{from{opacity:.35;transform:scale(.985)}to{opacity:1;transform:none}}
 .pane{display:none}
 .pane.on{display:block;animation:fadeUp .22s cubic-bezier(.2,.8,.3,1)}
-.card{background:var(--sur);border:1px solid var(--line);border-radius:var(--r);
+.card{background:var(--sur);border:1px solid var(--line);border-radius:var(--r);position:relative;overflow:hidden;
   box-shadow:0 1px 0 rgba(255,255,255,.024) inset, 0 8px 24px rgba(0,0,0,.28);
   transition:transform .18s cubic-bezier(.2,.8,.3,1), box-shadow .2s, border-color .2s}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--ac) 50%,transparent);opacity:.0;transition:opacity .3s}
+.card:hover::before{opacity:.5}
 .card:active{transform:scale(.985)}
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
 .jelly{transition:transform .15s cubic-bezier(.34,1.4,.64,1)}
@@ -550,11 +553,17 @@ function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ re
 function fmtNum(n){ n = Number(n)||0; return n.toLocaleString('ru-RU').replace(/\u00A0/g,' '); }
 function fmtDate(ts){ var d = new Date(ts*1000), p = function(x){ return x<10?'0'+x:x; };
   return p(d.getDate())+'.'+p(d.getMonth()+1)+'.'+d.getFullYear()+', '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds()); }
+var JSD = atob('aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2pldGh1YnZpZGVvLWNvZGUvZ2lmdHRyYWNrZXItYm90QG1haW4v');
 function jget(f){
   var bust = (f.indexOf('?')>=0?'&':'?') + 't=' + Date.now();
   return fetch(RAW + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
     .then(function(j){ try{ localStorage.setItem('gmc:'+f, JSON.stringify(j)); }catch(e){} return j; })
-    .catch(function(){ return fetch(BASE + f + bust).then(function(r){ return r.json(); }); });
+    .catch(function(){
+      // v17: raw.githubusercontent иногда блокируется провайдером — пробуем jsDelivr (другой домен/CDN)
+      return fetch(JSD + f + bust).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+        .then(function(j){ try{ localStorage.setItem('gmc:'+f, JSON.stringify(j)); }catch(e){} return j; })
+        .catch(function(){ return fetch(BASE + f + bust).then(function(r){ return r.json(); }); });
+    });
 }
 var LIVENESS_TS = 0;
 function livenessPulse(){
