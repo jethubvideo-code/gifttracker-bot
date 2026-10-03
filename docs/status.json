@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-03T11:27:42.301Z",
- "updated_unix": 1791026862,
- "runs": 3458,
+ "updated": "2026-10-03T11:28:14.498Z",
+ "updated_unix": 1791026894,
+ "runs": 3459,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 49059,
- "sent_total": 645799,
+ "detected_total": 49060,
+ "sent_total": 645824,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 45752,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 45752,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/KY7bsv3cpn2zIGxrXgpapahca_Yh4udVSARG9mZVZbn2Frs5qKQ7tZEzi5kw4T1qNhodwIX1YMq4LzSaXsc0IO4fBB1RtZMSQ4IEo6mcXseqnGP8gxpfmhmtVqcQ2p4LesttfAbst8Xija7pQPHfeWJ6Wpwu0DkplhuFO4TWCXNvjXR8UtnPBaLxR8C-YqjXF78u7MxotgikZveSNuyrwhVBxmcmZVGw0ZgZN7kornli14owx9hwOD9yB9OWwCJxIU9KFpd4nap-lyawr7G9FAp6FTGw7tS7oPVqq7mxAguSV84dBUlJ_tMDk2c3oxCVQr1UrLGGTaxKSGcr4TJAJQ.jpg",
-   "sent": 0,
-   "time": "2026-10-03T11:23:21.856Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -438,6 +424,20 @@
    "sent": 0,
    "time": "2026-10-03T11:27:33.082Z",
    "u": 1
+  },
+  {
+   "slug": "PetSnake",
+   "gift": "PetSnake",
+   "number": 191670,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 191670,
+   "counter_total": 279106,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-03T11:28:13.778Z",
+   "t": 1
   }
  ]
 }
