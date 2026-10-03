@@ -875,6 +875,8 @@ $('btnSet').addEventListener('click', function(){ haptic(); renderSettings(); op
 </script>
 <script>
 "use strict";
+var IMG_MIRROR='https://jethubvideo-code.github.io/gifttracker-img/img/'; // §6.2: своё зеркало картинок, фолбэк на источник
+
 /* ═══ данные ═══ */
 var statD = {}, giftsData = [], imagesData = {}, histData = [], feedEvents = [], hotMap = {};
 var floorsData = { floors: {} }, floorsHist = [], mSort = 'price';
@@ -920,7 +922,7 @@ function renderFeed(list){
     var dv = document.createElement('div');
     dv.className = 'ev' + (isNew ? ' new' : '');
     dv.innerHTML =
-      (img ? '<img class="ph" loading="lazy" decoding="async" src="'+esc(img)+'">' : '<div class="phd">🎁</div>') +
+      (img ? '<img class="ph" loading="lazy" decoding="async" src="'+esc(img)+'" data-mb="'+esc(IMG_MIRROR+slug+'.webp')+'" data-ob="'+esc(imagesData[slug]||'')+'" onerror="if(this.dataset.mb){var f=this.dataset.mb;this.dataset.mb=\'\';this.src=f;}else if(this.dataset.ob){var f2=this.dataset.ob;this.dataset.ob=\'\';this.src=f2;}else{this.style.display=\'none\';this.insertAdjacentHTML(\'afterend\',\'<div class=phd>🎁</div>\')}">' : '<div class="phd">🎁</div>') +
       '<div class="bd">' +
         '<div class="l1"><span class="nm">'+esc(e.gift||slug)+'</span><span class="num">#'+fmtNum(e.counter_issued||e.number)+'</span>' +
         (isNew ? '<span class="badge-n">NEW</span>' : '') + '</div>' +
@@ -1018,7 +1020,7 @@ function giftCard(g){
   }
   var ini = initialsOf(g.name);
   var imgHtml = img
-    ? '<img src="'+esc(img)+'" loading="lazy" decoding="async" onload="this.classList.add(\'ld\')">'
+    ? '<img src="'+esc(IMG_MIRROR+slug+'.webp')+'" loading="lazy" decoding="async" data-fb="'+esc(img)+'" onerror="if(this.dataset.fb){this.onerror2=1;var f=this.dataset.fb;this.dataset.fb=\'\';this.src=f;}else{this.style.visibility=\'hidden\'}" onload="this.classList.add(\'ld\')">'
     : '<div class="gini">'+esc(ini)+'</div>';
   var dv = document.createElement('div');
   dv.className = 'gc';
@@ -1081,7 +1083,7 @@ function openColSheet(slug){
     : '';
   var html =
   '<div class="sh-head">' +
-    (img ? '<img class="sh-img" decoding="async" src="'+esc(img)+'">' : '<div class="sh-imgd">🎁</div>') +
+    (img ? '<img class="sh-img" decoding="async" src="'+esc(IMG_MIRROR+slug+'.webp')+'" data-fb="'+esc(img)+'" onerror="if(this.dataset.fb){var f=this.dataset.fb;this.dataset.fb=\'\';this.src=f;}">' : '<div class="sh-imgd">🎁</div>') +
     '<div class="sh-t"><h3>'+esc(g.name)+'</h3><div class="big">'+fmtNum(g.issued)+' '+T('of')+' '+fmtNum(g.total)+' · '+pct+'%</div></div>' +
     '<button class="heart'+(isFav(slug)?' fav':'')+'" id="shFav" style="font-size:22px">'+(isFav(slug)?'❤️':'🤍')+'</button>' +
   '</div>' +
