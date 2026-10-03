@@ -896,13 +896,26 @@ function evAgo(e){
   if (m < 60) return m + (LANG==='ru'?' мин. назад':(LANG==='uz'?' daq. oldin':' min ago'));
   var h = Math.floor(m/60); return h + (LANG==='ru'?' ч. назад':(LANG==='uz'?' so oldin':' h ago'));
 }
+var feedNodeCache = {};
 function renderFeed(list){
-  var feedEl = $('feed'); feedEl.innerHTML = '';
+  var feedEl = $('feed');
   var frag = document.createDocumentFragment();
   var maxTs = list.length ? list[0].mint || 0 : 0;
+  var seen = {};
   list.forEach(function(e){
     var slug = String(e.slug||'').trim();
     if (feedMine && !isFav(slug)) return;
+    var key = slug + '#' + (e.number||e.counter_issued);
+    seen[key] = true;
+    var cached = feedNodeCache[key];
+    if (cached) {
+      /* анти-H1: карточка уже построена, картинку и остальной HTML НЕ трогаем —
+         иначе <img> пересоздаётся и загрузка обрывается на каждом тике (5с) */
+      var heartEl = cached.dv.querySelector('.heart');
+      if (heartEl) { heartEl.className = 'heart' + (isFav(slug) ? ' fav' : ''); heartEl.textContent = isFav(slug) ? '❤️' : '🤍'; }
+      frag.appendChild(cached.dv);
+      return;
+    }
     var img = e.img || imagesData[slug] || '';
     var pct = e.counter_total ? Math.min(100, Math.round((e.counter_issued/e.counter_total)*100)) : 0;
     var isNew = maxTs && e.mint && (maxTs - e.mint) < 240;
@@ -925,10 +938,13 @@ function renderFeed(list){
     var links = dv.querySelectorAll('a[data-u]');
     for (var li=0;li<links.length;li++){ (function(a){ a.addEventListener('click', function(ev2){ ev2.stopPropagation(); openLink(a.getAttribute('data-u')); }); })(links[li]); }
     dv.addEventListener('click', function(){ haptic(); openColSheet(slug); });
+    feedNodeCache[key] = { dv: dv };
     frag.appendChild(dv);
   });
   if (!frag.childNodes.length){ var d = document.createElement('div'); d.className='empty'; d.textContent = T('emptyFeed'); frag.appendChild(d); }
+  feedEl.innerHTML = '';
   feedEl.appendChild(frag);
+  for (var k in feedNodeCache) if (!seen[k]) delete feedNodeCache[k];
 }
 
 /* ═══ тикер «сегодня» ═══ */
@@ -983,12 +999,25 @@ function initialsOf(name){
   var w = String(name||'?').trim().split(/\s+/);
   return (w.map(function(x){ return x.charAt(0); }).join('') || '?').slice(0,2).toUpperCase();
 }
+var gridNodeCache = {};
 function giftCard(g){
-  var pct = g.total ? Math.min(100, Math.round((g.issued/g.total)*100)) : 0;
   var slug = String(g.slug||g.name||'').trim();
   var img = imagesData[slug] || '';
+  var pct = g.total ? Math.min(100, Math.round((g.issued/g.total)*100)) : 0;
   var hot = !!hotMap[slug];
   var isNew = Number(g.added) && (Date.now()/1000 - Number(g.added)) < 7*86400;
+  var cached = gridNodeCache[slug];
+  if (cached && cached.imgKey === img) {
+    /* анти-H1: картинка та же — обновляем только текст/бейджи/избранное, <img> не трогаем */
+    if (isNew) { cached.hotEl.style.display=''; cached.hotEl.style.background='linear-gradient(135deg,#3fd68f,#1fa06a)'; cached.hotEl.style.borderColor='#2b7a55'; cached.hotEl.innerHTML = '🆕 '+(LANG==='ru'?'НОВИНКА':(LANG==='uz'?'YANGI':'NEW')); }
+    else if (hot) { cached.hotEl.style.display=''; cached.hotEl.style.background=''; cached.hotEl.style.borderColor=''; cached.hotEl.innerHTML = '🔥 '+T('hot').replace('🔥 ','').toUpperCase(); }
+    else { cached.hotEl.style.display='none'; }
+    cached.favEl.innerHTML = isFav(slug)?'❤️':'🤍';
+    cached.cntEl.innerHTML = fmtNum(g.issued)+' <span>'+T('of')+' '+fmtNum(g.total)+'</span>';
+    cached.pbarI.style.width = pct+'%';
+    cached.etaEl.textContent = etaTxt(slug, g.issued, g.total);
+    return cached.dv;
+  }
   var ini = initialsOf(g.name);
   var imgHtml = img
     ? '<img src="'+esc(img)+'" loading="lazy" onload="this.classList.add(\'ld\')">'
@@ -996,15 +1025,19 @@ function giftCard(g){
   var dv = document.createElement('div');
   dv.className = 'gc';
   dv.innerHTML =
-    (isNew ? '<span class="ghot" style="background:linear-gradient(135deg,#3fd68f,#1fa06a);border-color:#2b7a55">🆕 '+(LANG==='ru'?'НОВИНКА':(LANG==='uz'?'YANGI':'NEW'))+'</span>' : (hot ? '<span class="ghot">🔥 '+T('hot').replace('🔥 ','').toUpperCase()+'</span>' : '')) +
+    '<span class="ghot" style="display:none"></span>' +
     '<button class="gfav jelly">'+(isFav(slug)?'❤️':'🤍')+'</button>' +
     '<div class="gim">'+imgHtml+'</div>' +
     '<div class="gnm">'+esc(g.name)+'</div>' +
     '<div class="cnt">'+fmtNum(g.issued)+' <span>'+T('of')+' '+fmtNum(g.total)+'</span></div>' +
     '<div class="pbar" style="margin:0 2px 2px"><i style="width:'+pct+'%"></i></div>' +
     '<div class="eta">'+esc(etaTxt(slug, g.issued, g.total))+'</div>';
+  var hotEl = dv.querySelector('.ghot');
+  if (isNew) { hotEl.style.display=''; hotEl.style.background='linear-gradient(135deg,#3fd68f,#1fa06a)'; hotEl.style.borderColor='#2b7a55'; hotEl.innerHTML = '🆕 '+(LANG==='ru'?'НОВИНКА':(LANG==='uz'?'YANGI':'NEW')); }
+  else if (hot) { hotEl.style.display=''; hotEl.innerHTML = '🔥 '+T('hot').replace('🔥 ','').toUpperCase(); }
   dv.querySelector('.gfav').addEventListener('click', function(ev){ ev.stopPropagation(); haptic(); toggleFav(slug); renderGrid($('q').value); renderFeed(feedEvents); });
   dv.addEventListener('click', function(){ haptic(); openColSheet(slug); });
+  gridNodeCache[slug] = { dv: dv, imgKey: img, hotEl: hotEl, favEl: dv.querySelector('.gfav'), cntEl: dv.querySelector('.cnt'), pbarI: dv.querySelector('.pbar i'), etaEl: dv.querySelector('.eta') };
   return dv;
 }
 function renderGrid(filter){
@@ -1021,10 +1054,11 @@ function renderGrid(filter){
   else list.sort(function(a,b){
     var ha = hotMap[String(a.slug||a.name).trim()]||0, hb = hotMap[String(b.slug||b.name).trim()]||0;
     if (hb!==ha) return hb-ha; return String(a.name).localeCompare(String(b.name)); });
-  var gridEl = $('grid'); gridEl.innerHTML = '';
+  var gridEl = $('grid');
   var frag = document.createDocumentFragment();
   list.forEach(function(g){ frag.appendChild(giftCard(g)); });
   if (!frag.childNodes.length){ var d=document.createElement('div'); d.className='empty'; d.style.gridColumn='1/-1'; d.textContent=T('emptyFeed'); frag.appendChild(d); }
+  gridEl.innerHTML = '';
   gridEl.appendChild(frag);
   $('gcount').textContent = list.length + ' ' + (LANG==='ru'?'коллекций':(LANG==='uz'?'kolleksiya':'collections'));
 }
