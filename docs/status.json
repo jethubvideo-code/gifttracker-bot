@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T00:31:41.370Z",
- "updated_unix": 1791073901,
- "runs": 4290,
+ "updated": "2026-10-04T00:32:15.393Z",
+ "updated_unix": 1791073935,
+ "runs": 4291,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 54083,
- "sent_total": 731097,
+ "detected_total": 54084,
+ "sent_total": 731109,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 49979,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 49979,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/hdJlxiJtLm_349k25YqFR_J9trCrl4TqgJLtB2k8hr33Fr-ouOavuk2GZwh3bhEvCFjm_oOy4zr_8EHbBZnnzfFIsNifEqNcR5dKkzLaLFH74m3CtY1rz8OGgpXRKzOLUT4aVxI8e2jB1uZZ65DR-Tq_m0ARr7WJ83r80s7k1WHkJ85ExNz3YIrQc_9j16q5sdq8NTlhH2Pd7KRvdydNpJuVoBXIp_WADu2opVgqJXRtWUYsLAPMoFfW8R2JN28HTgg7VI9G7vFtKkxbG0AxiAZG4-xpgsuKXZcZ3mf8MOmtVyMhISkVO2BxEs8XvMzwhIFZQBrloa5OZdMDXCkTAA.jpg",
-   "sent": 0,
-   "time": "2026-10-04T00:21:26.148Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-04T00:31:32.348Z",
    "u": 1
+  },
+  {
+   "slug": "SantaHat",
+   "gift": "Santa Hat",
+   "number": 71599,
+   "owner": "tank.ton",
+   "owner_addr": "0:c8a7f8d7b617fc79a2e855726b0fcd2230e21c5a170d559a8f05cb85b0b94d3c",
+   "mint": 1791062289,
+   "counter_issued": 71599,
+   "counter_total": 89034,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T00:32:14.320Z",
+   "t": 1
   }
  ]
 }
