@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T13:46:07.118Z",
- "updated_unix": 1791121567,
- "runs": 4991,
+ "updated": "2026-10-04T13:46:42.446Z",
+ "updated_unix": 1791121602,
+ "runs": 4992,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 57197,
- "sent_total": 832662,
+ "detected_total": 57198,
+ "sent_total": 832696,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 52454,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 52454,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/ZXEC4wFCqbJrMTtO-T_Ul9iNhbSxXuOZhLrOGj2kKI-9ehN32WGooN0rM4c_SM5cgwF9LolEVCqLQW9Yp7Wl9PzW702MqyKuS2w9Na14PTuEdlARCymkiT3LZuGZFJ3IM8_CFMwAWogX18v0IPdNPzD0Gt84ydP-tNnMPdIlvzMWIGuTHaAQw6VtOqvzl4GtMJFTxbHOv5dUUVlWouIUn1lSKaXYbZXcvj7nPxqdRzPHyHw82SV-yZUosg6tuDlwE-TGiBjcKU3vvSrrFjEgYZe8XJTVQ7ND7-NZpIMP0dwnJGA_7m2cs8qDMLojJAVa1SLJSWGLkG73RH-x7Sj57w.jpg",
-   "sent": 0,
-   "time": "2026-10-04T13:42:13.255Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-04T13:46:00.593Z",
    "u": 1
+  },
+  {
+   "slug": "CandyCane",
+   "gift": "CandyCane",
+   "number": 229142,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 229142,
+   "counter_total": 320622,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T13:46:41.489Z",
+   "t": 1
   }
  ]
 }
