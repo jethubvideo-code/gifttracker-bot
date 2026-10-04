@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T13:58:09.934Z",
- "updated_unix": 1791122289,
- "runs": 5005,
+ "updated": "2026-10-04T13:58:28.822Z",
+ "updated_unix": 1791122308,
+ "runs": 5006,
  "collections": 121,
- "checked": 121,
+ "checked": 25,
  "errors": 0,
- "detected_total": 57262,
- "sent_total": 834872,
+ "detected_total": 57263,
+ "sent_total": 834906,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 52510,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 52510,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/jCFUGcEUlEQjRq4LsGj49CcydneCoIjOii9NgKg1Ff0YiKRm-5oA0D-0N5YVc2OCqnheS81OP7HKSzTY0U8PZ0a2EgFge0bEipwbrMMv3XlhNb8OC4RKyr61Vk_1waPUO11ShtLdbK_IKEChFXIPqu-G6x29YQY6S5uuXSFocoGi3E3lCfNrmK6_641eVXp7dB1GH1Z4vCJeH6FmKjbI6gl4Q-DnDAh7oUVDxNTTHO11DhgetZyBE6jcXtbT-VWSGIpZ-WIq5iPt1z6CCX91RZJ1T6pDjku6VRJvQ_KWm3MKt3i-fgLnLr7EuWJ_aroilCTPWk6QRAsw92eJcK9ydg.jpg",
-   "sent": 0,
-   "time": "2026-10-04T13:53:34.170Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,10 +412,25 @@
    "mint": 0,
    "counter_issued": 179170,
    "counter_total": 230505,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/EsOA1za8WVkpimhqmTEL6FSiKLwVrLrfD8Q74bkFJ5bBFqkjVeSW1ZpdIcihsbERXlwpOaC95FLGmy-St7TaRcV4dQMxd2itA9esmBoPmni1qhV4G_9Pg1nUev57W3Xcmyb62p13SL-qvkMBGKIG7y5uJRrT64TqXKcBZx9WQlO7kySPX61bqegxdE2wjP5AKefFlv6AthJ0Q_oQ-TETsHMr8FZq4yLh-UZmgrxWyYoHL1sInPusaa6KEIRyaKxiz93lZawdhoR0C9og3lm59-jbcMcPCXRkZekX5-XxP87x__cIPDRTjNIYscwNhjMGY8edKCKZHMwrPkUnvyM0gg.jpg",
    "sent": 0,
    "time": "2026-10-04T13:58:08.626Z",
-   "t": 1
+   "t": 1,
+   "u": 1
+  },
+  {
+   "slug": "PreciousPeach",
+   "gift": "PreciousPeach",
+   "number": 3008,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3008,
+   "counter_total": 3160,
+   "img": "https://cdn4.telesco.pe/file/sVThPQDja2z5hlkj6PWjlULa0SYdU5VZI9ZGsAIjw5yq3R0S7aOKoBLuNfuV1-KcTmOZsswEeqRQ-oi6Rwjf5blVPudFjS5GAAfa9biIjIMP8UAtcQlemiBFJWWcqMr5zns6_1PIn2L54MaCkP_qS4hntYOS3Gk8sQRSjXCXzyTba2kYT4zJP-VA4jn3T4oj4V76wdx4bfQPeHNJJ8YPZ7uccQ4lH0kZ9WpumhMY_V6kvzYzqnniMKuksjOg9j85vBbwoDFoRF9UcRtBgUfsD4Z7A4ZAo_6U5whR9l_MnZGx0U9UAtFpFmCVdw_UPq2FFg8p_JyMi8zZNE9s8KzzFg.jpg",
+   "sent": 0,
+   "time": "2026-10-04T13:58:27.721Z",
+   "u": 1
   }
  ]
 }
