@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T21:34:57.962Z",
- "updated_unix": 1791149697,
- "runs": 5495,
+ "updated": "2026-10-04T21:35:37.590Z",
+ "updated_unix": 1791149737,
+ "runs": 5496,
  "collections": 121,
- "checked": 121,
- "errors": 0,
- "detected_total": 60184,
- "sent_total": 934137,
+ "checked": 120,
+ "errors": 1,
+ "detected_total": 60185,
+ "sent_total": 934171,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 54855,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 54855,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/BhO4cvGMO9EAZmZWDmoozt1Qe0gUcnm8-svizc06mBEKdpbwumBCNwH3umRAhVZ1p9VmLn51tkZgkuQQ-kXowN2XcKkFcfufc2rnPZW6jZmP7vvRwUwGtagvpdVCYNg0NNbfjRI2O5IYgoD47g7LoB076GGNxZh28mPO7cWOabVwc5MCF2SPZJRdMNfZdOV-zggCpigvuL1nyeat4q2bI4yIsmzSNYE6CQnP90L-g-sIxJCqwKW2bo30qPNgxobYSkCsmUthxOo355FUHQrtAEE5DdUesxcX86DXnhqf3CaSa07FVVjBqLRPyTGoZMsgdLs2z-uIVqTEnwol8v8pyA.jpg",
-   "sent": 0,
-   "time": "2026-10-04T21:30:04.005Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -385,10 +371,11 @@
    "mint": 0,
    "counter_issued": 54878,
    "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/so9p5xB3fmXZUOcf_eUY7wvlG8_bfSRA8p67QKkCVX3w4lfJ8kOYGizwYe67RcLtJOHPI16ABiXL6N-vNge3ripcsXwXUgEYhjXHi1S1Uns3XXdT9nOBPaWeBnM5qX8EFAkZ7JfV3g5LXVEh2PMh5lX9oQN2jiRbNVq7iFsIeXA0PgQUzLr-nCYr59IxmoPYHCz7W6rEGJqQ-2d3PSqjSQ-rePSr0KZiD77nAXD_V8tsutCw_OOFusAm2f7WnxnCyjXrhFjNS-uJM_M0sg-G4gUTXz-fqOlpEAdGQ5nWDffyLdVCad1uXJfE3OpsSNUMaiAVOcb0--QmTfHuGYrY0g.jpg",
+   "img": "https://cdn4.telesco.pe/file/MlG-KORrYYZg007gpUQIN8MPlUW0MnyFrVtnA99XgwueUiCGOlKq75qaXUmnevpjT6DhW-4zs4xIpTMnzyBWOUjIom4qSfEDClUmcXv2Y7yyEnhEiPoNtvR9VU__K9kkabB3AQ3nAWnc7bIm_LSExPM2ApSiOCPNgDchXqwmQsKHfiz4Oc4MQCqUU8S8j2sgIPdLMNU8rmODioXnB1kc4KjnJBF3w_l3os21Pk9JCqMk5EbvWMr2QFdtMeLIDjBo71uLVctCRKxAtIaNc1Q1DMQYuCFEcmcW7FGu_zq-OwS4848kAPJWp2E-U9amwnwIiTr3AKqMR8_KbNVYbtSkhA.jpg",
    "sent": 0,
    "time": "2026-10-04T21:34:51.802Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -399,10 +386,11 @@
    "mint": 0,
    "counter_issued": 54879,
    "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/so9p5xB3fmXZUOcf_eUY7wvlG8_bfSRA8p67QKkCVX3w4lfJ8kOYGizwYe67RcLtJOHPI16ABiXL6N-vNge3ripcsXwXUgEYhjXHi1S1Uns3XXdT9nOBPaWeBnM5qX8EFAkZ7JfV3g5LXVEh2PMh5lX9oQN2jiRbNVq7iFsIeXA0PgQUzLr-nCYr59IxmoPYHCz7W6rEGJqQ-2d3PSqjSQ-rePSr0KZiD77nAXD_V8tsutCw_OOFusAm2f7WnxnCyjXrhFjNS-uJM_M0sg-G4gUTXz-fqOlpEAdGQ5nWDffyLdVCad1uXJfE3OpsSNUMaiAVOcb0--QmTfHuGYrY0g.jpg",
+   "img": "https://cdn4.telesco.pe/file/owqPgrEouX09Aaat5_eN_Waz8Aa_Lj1UVUiQSIunpe7YixlpdLenfVk7Wm7ioeTIf966ocbgEFWYhuKHa30ztXNoIo7mY9EG46rmg5DMcdhgKDfo_1fpySRucOiNNrGEeCHmiKtD69FqOZ3TdrVBEKFLh1ng2Ivg8M8ZYXLpyW_ARcVJh7j4R7wHU72O4O-lCVdGOBA9TeqiONfHv71KTcKRIajX4_lHXQzYzslBNz6KC-1RRzNU613r0Vd7m-gfK2YTo7e2nZY4WFApAONAM2c4V2beFWB40GM_7DVK2sYIkaKniWmSrMc1A0L504BBX1Iby5wwRoaMcpwBIlb9Ew.jpg",
    "sent": 0,
    "time": "2026-10-04T21:34:51.802Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -413,10 +401,11 @@
    "mint": 0,
    "counter_issued": 54880,
    "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/so9p5xB3fmXZUOcf_eUY7wvlG8_bfSRA8p67QKkCVX3w4lfJ8kOYGizwYe67RcLtJOHPI16ABiXL6N-vNge3ripcsXwXUgEYhjXHi1S1Uns3XXdT9nOBPaWeBnM5qX8EFAkZ7JfV3g5LXVEh2PMh5lX9oQN2jiRbNVq7iFsIeXA0PgQUzLr-nCYr59IxmoPYHCz7W6rEGJqQ-2d3PSqjSQ-rePSr0KZiD77nAXD_V8tsutCw_OOFusAm2f7WnxnCyjXrhFjNS-uJM_M0sg-G4gUTXz-fqOlpEAdGQ5nWDffyLdVCad1uXJfE3OpsSNUMaiAVOcb0--QmTfHuGYrY0g.jpg",
+   "img": "https://cdn4.telesco.pe/file/PDmwd7yHxAjoogoSWOmGBgSSEZ3B-xjMpEChUba7M6AaS244TlrMB9UGTfT6ti9qlXtrgIV_KDl5F4r4I09nFqIS00H5NsUyeYk_CcotQsIeTjG88gJrPufKPKI1iuusZyfUaB3TIckxwqmtJj_b9k5cPGF858tVHIrDPD4BKn-jdznufEJWDc0OJGsMaacNRcRgWT-6wRAEV6xkHgJVL4ljEZm34oNIz5gaPK2vrK3JlXWJDpU0YN0sS2AnMOorppgLjzvinIFJzzgRv6cihqJAOn-OTmkDmcgQLlQWFi-55CEHCWdWbXZVWZE7IsXoOonnamFWsP-3NgRtC1xgDA.jpg",
    "sent": 0,
    "time": "2026-10-04T21:34:51.802Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -430,7 +419,22 @@
    "img": "https://cdn4.telesco.pe/file/so9p5xB3fmXZUOcf_eUY7wvlG8_bfSRA8p67QKkCVX3w4lfJ8kOYGizwYe67RcLtJOHPI16ABiXL6N-vNge3ripcsXwXUgEYhjXHi1S1Uns3XXdT9nOBPaWeBnM5qX8EFAkZ7JfV3g5LXVEh2PMh5lX9oQN2jiRbNVq7iFsIeXA0PgQUzLr-nCYr59IxmoPYHCz7W6rEGJqQ-2d3PSqjSQ-rePSr0KZiD77nAXD_V8tsutCw_OOFusAm2f7WnxnCyjXrhFjNS-uJM_M0sg-G4gUTXz-fqOlpEAdGQ5nWDffyLdVCad1uXJfE3OpsSNUMaiAVOcb0--QmTfHuGYrY0g.jpg",
    "sent": 0,
    "time": "2026-10-04T21:34:51.802Z",
-   "t": 1
+   "t": 1,
+   "u": 1
+  },
+  {
+   "slug": "PoolFloat",
+   "gift": "PoolFloat",
+   "number": 226818,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 226818,
+   "counter_total": 246862,
+   "img": "https://cdn4.telesco.pe/file/lmYn_tUaC3Fbd_-vLjC0fM2zuL-5_OVmvo2JVSaW7Lb-Sncr6kOrIwtxu8iBeUzkuDPaRA8b7uWkDglH3r3lpA3AzjIrR02iSJR-v8uUMcVxKJ9iYozn-HDvAgAtzwsu7u6UJ7RbI9hWYRaIeKN3fbqo6u-Q3HT_s7DrnoAVxeBJZwcJcEIt1k2LSZqjI9dkLNBQwqTBcVVRavRjFPK3PgoxGbi7oBDxf-CC72M72HtPYwGu-rcVyN6ysD1MjRgJE_4t69ReJy0ySc_iTitpwBmMPv-P2bvCOiyYVr1UJF7Evik_-8061dDApRR8XcOv6gJg3K_hisaXMR0f-ZySug.jpg",
+   "sent": 0,
+   "time": "2026-10-04T21:35:36.625Z",
+   "u": 1
   }
  ]
 }
