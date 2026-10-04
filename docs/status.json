@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T18:14:25.759Z",
- "updated_unix": 1791137665,
- "runs": 5289,
+ "updated": "2026-10-04T18:15:00.707Z",
+ "updated_unix": 1791137700,
+ "runs": 5290,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 58996,
- "sent_total": 893816,
+ "detected_total": 58997,
+ "sent_total": 893850,
  "last_upgrades": [
-  {
-   "slug": "XmasStocking",
-   "gift": "XmasStocking",
-   "number": 229636,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229636,
-   "counter_total": 334632,
-   "img": "https://cdn4.telesco.pe/file/ZacqGHRbSc3XQvr5UyPLlO8h371COQDxyZVs89puK5kDt6F3_aIzncrqvWwJkjQWpujWuKhIpCiPlRK7oUYt7mfaQH1-jstv8hd975cath2KywfRcYBYRdhWfFw9IdNKimsz7Ri3QEtCunho-SpexRAXa_1_W-RuqDbTmwM7AYmnDF_iu-G1mTpQUKsmhayMp5D7nrbm_Q24puP3gznQYJz_FkMXbM_qbGG6iXKrTIcrxSJgaW6H0ZL_Yf8cwHrUBQfVkXRYBzMUab99zQb36TZ4463ilcBRQlJaO0PaGHI2xBJYcQjeNhpY9LA7cEO26D82WHMIIevvq6cdxfpaAw.jpg",
-   "sent": 0,
-   "time": "2026-10-04T18:10:47.155Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-04T18:14:20.981Z",
    "u": 1
+  },
+  {
+   "slug": "SnakeBox",
+   "gift": "SnakeBox",
+   "number": 188254,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 188254,
+   "counter_total": 273898,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T18:14:59.901Z",
+   "t": 1
   }
  ]
 }
