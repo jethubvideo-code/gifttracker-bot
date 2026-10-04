@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T05:57:23.334Z",
- "updated_unix": 1791093443,
- "runs": 4486,
+ "updated": "2026-10-04T05:57:34.675Z",
+ "updated_unix": 1791093454,
+ "runs": 4487,
  "collections": 121,
- "checked": 121,
+ "checked": 26,
  "errors": 0,
- "detected_total": 54542,
- "sent_total": 742444,
+ "detected_total": 54543,
+ "sent_total": 742478,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 264578,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791092471,
-   "counter_issued": 264578,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/dN1vZh9laeosvu1QkWSnH14XZkMau-SZWsQWRKL6RjSr02xg4OrwJImHCqPtEfWxIzPO337X0oZS07hRakN23fbCZzNXR4aGT0xVoP-hsHE9xa85Ci3iJGPqzlnnIDMhoGEcIucpx9GDzFXVMObfbxSuqs8ab1XwDmJ7y1-u77N9SXi_-KcwQUQKG8KbgezBI_PvOhe0dNOhhYj53GW_5ryOBYQAjpgydr9qfcm283S4E3Lq5AfFLKvJXpBDVauUMEg79J3P3OaBfJ-K0CLUvx3fr7V8UYF4GCvdu3xeJGzDLVZH77oDa6FvpnTott-XcJsDKTrCuyOOiJwpPDkmqg.jpg",
-   "sent": 0,
-   "time": "2026-10-04T05:52:26.955Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -359,10 +345,11 @@
    "mint": 0,
    "counter_issued": 437824,
    "counter_total": 490553,
-   "img": "https://cdn5.telesco.pe/file/S34kSyMam1dAlNoCbySP7dpRwn838XUcC3HaMN4eYdLDcaKBPTfRPS_hciNcPsFLJZLzDUMKQ4KVyQ14htMM_ENQ0XaneVgslH5ImAJCbDK_k0q98YwCUxmE-9pSTYXtT_ZEvHf0eeOZM7237dI1DAJC4rNjhJ6JOxHX_ZDn61AvWGD9xeq81OChJq1AUbsIcYsx1KiYwajb0SLvsd0kSm8ss7LuH0D_YeOT2DYsgrb4HHmmk0aY507ilCCJRae38Kl-fjvA3sOBpABZ3T1S7b8_kzduW8Xu2AlptY-wNIgi_2oZEVca3UBUCTk3DN5Qv274_EiGK0tDpX2a-e3TmQ.jpg",
+   "img": "https://cdn4.telesco.pe/file/YBcfBPrdptSDOJFC0fdtwPzEnCeJzNbw3WSh9maTqydOtVoWHejPTJJ5Gako2SSa2bQ1FFTlOKyx0W8lA5pPrNzXetPk-dVpRRAJWGRLN42sPk5D-qMZJiTAia5zhVdteNH_wlzIvVQ75BVL9WdjFKmKGU35qXKuKFHmszwqvv56D5nA40F0D4O0FINLY3ueNnAcE9KNwVQLNFhMPflEeFUUdNq4mPgQxFNEgPpcQQYQ3aEgqlhiTL44TcZX3RSUfjVTx9rewo4VNeVttp4inUOsoq_grEozsya3z_GW87gN3PI95kShnqRpdWf_AKEVYsDW0RaWSN82DdhxVDNXVA.jpg",
    "sent": 0,
    "time": "2026-10-04T05:57:12.214Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "ViceCream",
@@ -376,7 +363,8 @@
    "img": "https://cdn5.telesco.pe/file/S34kSyMam1dAlNoCbySP7dpRwn838XUcC3HaMN4eYdLDcaKBPTfRPS_hciNcPsFLJZLzDUMKQ4KVyQ14htMM_ENQ0XaneVgslH5ImAJCbDK_k0q98YwCUxmE-9pSTYXtT_ZEvHf0eeOZM7237dI1DAJC4rNjhJ6JOxHX_ZDn61AvWGD9xeq81OChJq1AUbsIcYsx1KiYwajb0SLvsd0kSm8ss7LuH0D_YeOT2DYsgrb4HHmmk0aY507ilCCJRae38Kl-fjvA3sOBpABZ3T1S7b8_kzduW8Xu2AlptY-wNIgi_2oZEVca3UBUCTk3DN5Qv274_EiGK0tDpX2a-e3TmQ.jpg",
    "sent": 0,
    "time": "2026-10-04T05:57:12.214Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "LibertyFigure",
@@ -387,10 +375,11 @@
    "mint": 0,
    "counter_issued": 264582,
    "counter_total": 295480,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/id3QbTwrtyi93aH8vCW6svP5eiXdrqwv7hO0RA28widhWN-RqStL-8LHln8v9tHuHUzb4oOinfbItbV4mjJMgyVodLHWXZOzC66Jdzs72KfJRps4vF14a3ySy7VqADUPhNLJO0s0mJUer6PDISMjZ3kNxdN-BPhLXehLgiuP4LSqzfWO3S_XPY4D_z-skOZV2bc9kV6Zf9Gvp5gLkVHYlzbR08mNwnmJ-f_MEEF4sCWuX8zg2aI1Ti9lHBGc-nvm4edtfmIgHKkB51x2Pl4UzJR6XpL9r2ra-b1P-u9Bir94vWwywx3UQSxz4L5HisuikkjJo0InCJrzuKvElHgE0A.jpg",
    "sent": 0,
    "time": "2026-10-04T05:57:17.747Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "LibertyFigure",
@@ -401,10 +390,11 @@
    "mint": 0,
    "counter_issued": 264583,
    "counter_total": 295480,
-   "img": "",
+   "img": "https://cdn5.telesco.pe/file/scfYW884JM-Rj7K8x7iG53EBqskzvzyzWV_xPjm9Crd5F6m9sTSEpJAFHFfWA_pFBBE2iQzu-C5bg2oOum31fbPz-2ULy72BcNYrgORav_ZzFdLAqH3bzpcKUBDVM87XAOUAJ14mR7DYo6JbBGB47AwDvCGV7srSSuc2KlvKReY5ligmN676dbWLsvNnWkShc4YNBdB0NudZj-tA8ADULPK5dKsGbOmQY89QkOEnpRyxh1zdH3pNT8hmoxfgn9Xl-rsQ2DHG5cJaZcvmmihZjMEwI0_X13Xbn5e0c2a8uKGQ0U4G4kkCtRLEa0WPqswLYpiEWVA9BO1J8SDdVtZL3g.jpg",
    "sent": 0,
    "time": "2026-10-04T05:57:17.747Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "LibertyFigure",
@@ -415,10 +405,11 @@
    "mint": 0,
    "counter_issued": 264584,
    "counter_total": 295480,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/eSOsVIhpnsMFMe0NNZ1JknjUjof-xU5Y9AktB4EssVpBvN19fSa990XEUkFZwn86iXZLFzy88dMpi2Y07_3A3LJReqM8zQ3kZldD8ziGRnLtrnCtFsD2UtViZ4T0OecVwliJksANBj9u01Oz0GNoJOBtku8CpxW8DnI7OH6hotkIDzNP5U80prWXsYaLxksfoho4dTDhCc3FthUTM0kkM_NVzOzfS7xgOW6L4AZyIOnE2Sp1y6-BWABesWsVu-dx_GnOlGPjO9E652ibZT7LDq2k4eGz9P7dIFm_o_KFrFlVhIsLmzC2tgrc2HoFcA8mBuPOQdaPzC3Nyo7RssNgSA.jpg",
    "sent": 0,
    "time": "2026-10-04T05:57:17.747Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "LibertyFigure",
@@ -429,10 +420,25 @@
    "mint": 0,
    "counter_issued": 264585,
    "counter_total": 295480,
-   "img": "",
+   "img": "https://cdn5.telesco.pe/file/OemJKaVPi_p36rJ8PIsyA0euEIVo2RO1ED5grqKx9SFo-3BzS8hb1n1-emMoyG7NpsCRAOqbfQOBciGlOIX_iRsb-q4VCukiBMUaFBCVlO7o9qK8zetVY37SojQzi5pwAFSKwxQxISqWnBZID15GJLV5XXF55D-z7BrtDiR7h1xE3fJpXQ2VFZtdnB0-AReO6M8qK2Vvsf98xU2JAwGQOd3dtstlPATfTQKND-rlO_FdL0_UNE4PziFvAoqrD_-hJI5-m7-t6Kb3RjDdTuEU9uBkYWa9DAnwteVjKhop7sSf6cWucJOL8l4b8-HAwLyH-iZQZ_maZ6MYz35ihjiymg.jpg",
    "sent": 0,
    "time": "2026-10-04T05:57:17.747Z",
-   "t": 1
+   "t": 1,
+   "u": 1
+  },
+  {
+   "slug": "ElectricSkull",
+   "gift": "ElectricSkull",
+   "number": 9234,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 9234,
+   "counter_total": 9407,
+   "img": "https://cdn1.telesco.pe/file/n1VaNg36I9j3yE1AlY3vwJPecskhV5u-36cW6RzuE8h9tKyFRnIDEiI-hj9J9hKqQGS3_6rwtM65npuSLne6gzJHQpfclykBkrdPLxVGaza_pvmH0vlG-rH4OtoIWABLe0vEsWdkr7RkvSkKLuAg_GWy28PgqvJHtm2VPJwEGuL5a-xqbUM4HCNv16gewyoH8ejRn9-226Lih8JiYL6Vx3Lo6mcmXq9qCo-N1lwgqF8Jl97OGjuhKkdKFnXuPDQE798UhXbbmBbBkSYrgpSuDHVaOBVjCbY7EyItbPoO8wn978NtKo-X-24HhRQnf-B4OgdbSMbIyW1fpqPGDALSyw.jpg",
+   "sent": 0,
+   "time": "2026-10-04T05:57:31.849Z",
+   "u": 1
   }
  ]
 }
