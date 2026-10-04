@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T13:12:04.935Z",
- "updated_unix": 1791119524,
- "runs": 4953,
+ "updated": "2026-10-04T13:12:41.860Z",
+ "updated_unix": 1791119561,
+ "runs": 4954,
  "collections": 121,
  "checked": 120,
  "errors": 0,
- "detected_total": 56992,
- "sent_total": 825700,
+ "detected_total": 56993,
+ "sent_total": 825734,
  "last_upgrades": [
-  {
-   "slug": "XmasStocking",
-   "gift": "XmasStocking",
-   "number": 229614,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229614,
-   "counter_total": 334632,
-   "img": "https://cdn4.telesco.pe/file/TSyOm1QbY2iJyVOKae2xXO4O4N_cAFpVo1mH58oMXYvKXKHtRhGNZX_p-AIVBFc6kYElL4wweZ5S-BM4QWpIUqt0SpurQYcEMrMxmB31ZSjo1IXZyMAJDicKoCoiQkjy4t8dE84BvPFsAfysTWfp7Qx8jc_eJ4f5i8p8YNc22PzlIioIXyXUovCGuWMnmMkuBp3JMD8UCKsr7gmRgDyOXK1iBX_w_c7WgNHrz9Yka7lb8nQ9BnnfFJ-5YHadWZTNRiciEBFlz3me4wWnusFdVgJiwHtm1xk9pD4GVUZ3jyOwK1oFbdp_BriqkQQnLx4FdlmxlLyXK7Erb-rrNgYuVg.jpg",
-   "sent": 0,
-   "time": "2026-10-04T13:08:42.871Z",
-   "u": 1
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -431,6 +417,20 @@
    "sent": 0,
    "time": "2026-10-04T13:11:58.902Z",
    "u": 1
+  },
+  {
+   "slug": "HangingStar",
+   "gift": "HangingStar",
+   "number": 47332,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 47332,
+   "counter_total": 58118,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T13:12:40.776Z",
+   "t": 1
   }
  ]
 }
