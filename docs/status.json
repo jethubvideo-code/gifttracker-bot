@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T09:04:00.149Z",
- "updated_unix": 1791104640,
- "runs": 4671,
+ "updated": "2026-10-04T09:04:31.435Z",
+ "updated_unix": 1791104671,
+ "runs": 4672,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 55392,
- "sent_total": 771326,
+ "detected_total": 55393,
+ "sent_total": 771360,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 51039,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 51039,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/KEv5ZPP3m00WYS-ZHgA1fpwI9kKMHjxrFl03leuaWNbQj80RI8KtUiiP0nPZiH8SUpNyqYm2RWro769HGh-9Wm-EF43uR6Wlw_HlYeF2eErs5A8GTjS4n3JekKcr5ceRXwJHfzMPa8zaLiYZwMSMYaVUph3fssN-0cp1kSBd8w6C3n3fiD8T6RW7nQwPHsGSXB6Cz48wM_YZY6DTR8_Ca8yrbKRCPPPAJyesiIl8WA0lhqmucOnPo0DnlkLu-bn76G7yRvckePPtuecRMHWMH8nzYkhLA6O4qJxx8_2pS4cvzTm-VTTB1df40bd-fGINsd_bE613ZH0B8QvDGsKgfA.jpg",
-   "sent": 0,
-   "time": "2026-10-04T09:01:36.177Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-04T09:03:48.616Z",
    "u": 1
+  },
+  {
+   "slug": "BDayCandle",
+   "gift": "BDayCandle",
+   "number": 271442,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 271442,
+   "counter_total": 307521,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T09:04:30.598Z",
+   "t": 1
   }
  ]
 }
