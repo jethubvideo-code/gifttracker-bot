@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T12:45:08.555Z",
- "updated_unix": 1791117908,
- "runs": 4926,
+ "updated": "2026-10-04T12:45:45.295Z",
+ "updated_unix": 1791117945,
+ "runs": 4927,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 56824,
- "sent_total": 819989,
+ "detected_total": 56825,
+ "sent_total": 820023,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 52159,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 52159,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/C2aDximGC3KfY4VJxP8oOtCayCKsgaCtuPhtAXhE8WJLEckj5wzxSW61hAZB-jNw0mJ2kXdiTyf_oHinL4Ou5BVRt3FfKMIEAPk4qMjSKsDhFEpoDTd2iNyVpntNFTFyNfn2b4nBp78t0dLl4BUYMwGHuv6755ZpLXKD2ENJIx6UypyR7vh5QZgByBgcmqlQArxstidPxSYHqwTpuRK7l-qGd2FcUOcPb8e564Oov0KKRePNM5mNq6sTZUbRH5ZmMMCi1mMz1xemyW8QbtAXu_HqIbRh2H-nnj_SjTrOvHTV2tHA2peVqzt6MT9u_sc8-U0iqkAZGKVTbpHa7Fz0eA.jpg",
-   "sent": 0,
-   "time": "2026-10-04T12:41:48.384Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -432,6 +418,20 @@
    "sent": 0,
    "time": "2026-10-04T12:45:02.973Z",
    "u": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108117,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108117,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T12:45:44.574Z",
+   "t": 1
   }
  ]
 }
