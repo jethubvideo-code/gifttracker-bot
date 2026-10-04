@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T17:42:20.261Z",
- "updated_unix": 1791135740,
- "runs": 5252,
+ "updated": "2026-10-04T17:42:49.622Z",
+ "updated_unix": 1791135769,
+ "runs": 5253,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 58787,
- "sent_total": 886712,
+ "detected_total": 58788,
+ "sent_total": 886746,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 53729,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 53729,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/USNX8lmXEQ1bWTgRsFsxJmxCBnXv8weARhVegDhJwuilMt6vUVnRT1KRftvKme0MLQl5qpQpO1z861GN513h-o-7ux_-0lZK8lgISmXpq_-uqdB0e9HWzGoV_cVwd0QicdzrAGHKHjqUSa7ga8b4M_V6cUzPcfwaHorh7FoltnbEvrubPanRMV0yEpscr27kXM0SI2Hs6qjofdn9D2wdaLURYV6eEzARpkvDNymDGeVxGiDjzDCot-d2HHH0rFG3TVH4U4JOxQkce7myeVUr6FcxFA0USHkXGl9olPA7ZcjeB9BOg0fnQBLqzdq70aXFmPlgUTHAa-Lv69RQp_6fHw.jpg",
-   "sent": 0,
-   "time": "2026-10-04T17:37:59.349Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -433,6 +419,20 @@
    "sent": 0,
    "time": "2026-10-04T17:42:04.850Z",
    "u": 1
+  },
+  {
+   "slug": "TamaGadget",
+   "gift": "TamaGadget",
+   "number": 108203,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108203,
+   "counter_total": 135097,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T17:42:48.894Z",
+   "t": 1
   }
  ]
 }
