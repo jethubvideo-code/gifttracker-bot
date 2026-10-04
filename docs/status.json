@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-04T20:50:58.740Z",
- "updated_unix": 1791147058,
- "runs": 5448,
+ "updated": "2026-10-04T20:51:28.648Z",
+ "updated_unix": 1791147088,
+ "runs": 5449,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 59941,
- "sent_total": 925899,
+ "detected_total": 59942,
+ "sent_total": 925932,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 54660,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 54660,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/hLbWCqTPNID2CSQhpRshx5TGoNvbOv-j-tQbt41zyIxuZf_6G4S-R_CN8a7Vh4t0J-i5FKm38ZK_4vNkhrlyPkVjY6ASN7Aet6ZIB0nnY-XocXAw834tsfSULvWQmskZerb2h3m8YkQmzzIL2pqzZ6n6wrcgEjbPyOOGvFszS_H5wAvaJT_pIWYIsChPAjzH1CZ_4tw7ilQhK9DWzXzDWfsOUxJhmW7t440jLuPbHQsVYN5r9SHWLByPXrCVGBiPIJ5vDM69DDZpwuz27a2n7MSL3PC2-F6bmkRlrRwGC7Hr9rMCC-fiYB6_qAtjdGfAYNsBYzEFMrnbcyq9pty7KQ.jpg",
-   "sent": 0,
-   "time": "2026-10-04T20:47:26.735Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-04T20:50:43.404Z",
    "u": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 108469,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108469,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-04T20:51:27.795Z",
+   "t": 1
   }
  ]
 }
