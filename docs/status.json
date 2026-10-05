@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-05T08:54:07.310Z",
- "updated_unix": 1791190447,
- "runs": 6035,
+ "updated": "2026-10-05T08:54:37.058Z",
+ "updated_unix": 1791190477,
+ "runs": 6036,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 61774,
- "sent_total": 988097,
+ "detected_total": 61775,
+ "sent_total": 988131,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47334,
-   "owner": "",
-   "owner_addr": "0:c5f35a42975475f45fea680ee484da146ee0aac7f25b8527414271b8d991e57f",
-   "mint": 1791175859,
-   "counter_issued": 47334,
-   "counter_total": 58118,
-   "img": "https://cdn4.telesco.pe/file/TGtA7F6UFHIIJJ5DM-WS6OmR_2wql07CIrZLmRSxw3Trf-HxN2sP3iaFLHnVOzQsUIdhEmkJHVZhOyKMuK3TemB4_a_apgi8o6CXrLaDL3TDMzfGtWm2zf2fxHvuCwPUbPBcgGEzv_wjBPPNEmi-2c1yrJsZHnUzOHZmrpu1oO7BU0qJVCgwteBeWN5FyF5NpJFKn3jyYunVFtldusLwMS5CNaMM5Bmx_rApYLxo629s032Uy0-w7jTTxXqaU6IVVavjiBilrB-ZPy9d5-1NARwYUsd3_buaGmo567mzKt8YTWzCpR_iiwVvSqldzSPZnJ34p1KAwxwKdo1JT55Bwg.jpg",
-   "sent": 0,
-   "time": "2026-10-05T08:45:17.874Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -434,6 +420,20 @@
    "sent": 0,
    "time": "2026-10-05T08:54:01.287Z",
    "u": 1
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 56132,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 56132,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-05T08:54:36.087Z",
+   "t": 1
   }
  ]
 }
