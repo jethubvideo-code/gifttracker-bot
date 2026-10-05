@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-05T09:49:26.399Z",
- "updated_unix": 1791193766,
- "runs": 6085,
+ "updated": "2026-10-05T09:49:55.139Z",
+ "updated_unix": 1791193795,
+ "runs": 6086,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 62008,
- "sent_total": 996051,
+ "detected_total": 62009,
+ "sent_total": 996085,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56480,
-   "owner": "",
-   "owner_addr": "0:6197e7262497af946b614f67b0fdd6efacb5a3dd2510372ab6547b0261b0ec7a",
-   "mint": 1791148161,
-   "counter_issued": 56480,
-   "counter_total": 65687,
-   "img": "https://cdn4.telesco.pe/file/kDtz9vOa2am3IRv7vSg4gy0flESkPkoKUPPDrcWikHGBBktqMac06fVdIQlPSdzfCcneRqs0Y6B9JAgK40hHcXkY8Yyq_BAJEdzejt-ZC_Q1TxB3AvH9Ald5F32KQ4sJnIgikWPA0vLHaqqJMqE6okOH3PiiiYV87D9r1q6DUt0F7EnhyPtj6umTWoZGFclZvltBv9_IKROumSDRcTolCsG25Xt9AKV9xpyCmJQfumS9apvacJtdWcw4R9eSQNMGWq4AZpHSZgVVMLoLRQIYWTCP5N3bha2UYSTqn0ZKx1CbZA5gXAhxig3IhMh3B-XerNRisCRdQyp_jVFbXRo2Zw.jpg",
-   "sent": 0,
-   "time": "2026-10-05T09:43:54.236Z",
-   "u": 1
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -430,6 +416,20 @@
    "sent": 0,
    "time": "2026-10-05T09:49:15.693Z",
    "u": 1
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 56332,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 56332,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-05T09:49:54.108Z",
+   "t": 1
   }
  ]
 }
