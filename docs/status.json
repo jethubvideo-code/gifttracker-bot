@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-05T08:35:13.586Z",
- "updated_unix": 1791189313,
- "runs": 6013,
+ "updated": "2026-10-05T08:35:58.197Z",
+ "updated_unix": 1791189358,
+ "runs": 6014,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 61712,
- "sent_total": 985989,
+ "detected_total": 61713,
+ "sent_total": 986023,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 56060,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56060,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/BQFMOGZC2HZV4A90J7N82z50oqLY67uLFGl_j7Cv3R0Jp8BKxgRrp7YjG30EWWjkmzL4Jtk7vSiiCYJ1RuNK3pTmAgv5ztaTs0H6jpBo7kXudlskaSk5kNG02SKOCsO1zswwj1Supk0mf67eXqVxjr-iN2Vkc9hor0ufVGmlg5EOR95G7dh4w60yFBObfFoQpXUtSuGBuGwKnPKfNHgggaCP1z_0Kr5psHO5aevJJIc9YxnVXEuKcoEHYk2Ntqrt9nWeiznqdwqPq0QiLOFH62yR1cLzz4sXpllDZS1SvbnY39XufDHWwzWl1jfp25Tk6EKI4jWnUAaAZKrsuBzvbw.jpg",
-   "sent": 0,
-   "time": "2026-10-05T08:32:21.641Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-05T08:35:12.274Z",
    "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 437892,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791188342,
+   "counter_issued": 437892,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-05T08:35:56.790Z",
+   "t": 1
   }
  ]
 }
