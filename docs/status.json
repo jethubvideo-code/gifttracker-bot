@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-06T11:55:41.504Z",
- "updated_unix": 1791287741,
- "runs": 7350,
+ "updated": "2026-10-06T11:56:15.148Z",
+ "updated_unix": 1791287775,
+ "runs": 7351,
  "collections": 121,
  "checked": 120,
  "errors": 0,
- "detected_total": 67590,
- "sent_total": 1185655,
+ "detected_total": 67591,
+ "sent_total": 1185689,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 229229,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229229,
-   "counter_total": 320622,
-   "img": "https://cdn4.telesco.pe/file/adDEyneoWWSGzDE5ujQNWr7Ai6l3xcsooQhBkrbenPgW9bYnyjV-Lc7hXmeuAVn3Wwp9Pn62pLVWbqzIE7OtsXGkkdIurYpJyzM4UaCFvwOKc_HSfpS6N0o96YIMMAc04fxCY2_8SjylBsvVX_e5kzirfzZ5Tfx7IuRmMfnm3Pm64RZdjXQgoeiyQerF8txwAwgCXueJgciciCjAI2gRAynYVuLnEVfpNDJfu7ZKxoQtJzBu57bluWlPQnh7tXoLdZffa5mtrWHAeZDRWqHWAL9ixymvY5ZPOZ2KDAk846c_rnx3oqrJYGwX98FZhhqPRSuW0V9M6J-zPr2nE8RKAA.jpg",
-   "sent": 0,
-   "time": "2026-10-06T11:48:21.025Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -398,10 +384,11 @@
    "mint": 0,
    "counter_issued": 60319,
    "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/MHE5pVt3icRvljxaA21KgNrg9pIJoSCFyXoqE2syFKPFAuEoq54HsLmF8NddB30FQaA9HbG5Y09BgeZJD4P9VqcGkrkkBz6WZ0QiFyl-znCiIWEuzwCCclCvmMIkQd-dPfQ9Vt3LpuoQcQdpEUF-Pe91TwpHFDj0x9XH2DvLTsfVwKzd-WDm079TpvC8i5YWxYLDLMzlDQAHc_uvv1n4V8_QPTQnBm2odeyxer1AzwNSN3NHqBeLzY4w5kvv_OCWWM-ZPeLItatmQw_nHFoRHYLzSTxJ7u1MnFOkQL_PcWeBHimWeD7j2JqBPSkEl_FqUlK5Rq9PnYcgdVNXwLqTYg.jpg",
+   "img": "https://cdn4.telesco.pe/file/CAbC086hb_oUMDlUV-LTTzDR-APfypTNkwmqWiM57C9R4_NKMbYfKO8yg1FRO3nPvesRnpmH7L1P-AxZvFUwcVQHhpTRbq8vDRPaPEP-5DFrcvHO6S_hG3LrwFOPIt6Blpj6RtgQLyvIshx2UTvVsa9o_uqpjnZF2WusE2T1yck2xUE5Egeiw2yHoZndaCN7vzM2XJJYte0I6JZKSyGAso7OAzcJlwAFlVK-Zadl0ExnwBUODsKhHKM3HtzR97YdLrdHYReqvamkA02VEoIS8cDMw8JpsbxvUvN6dCIkU2jDglAlyrnX0DlYl7FPrCxQpYo89T3rWMIQYhjE6xwqjw.jpg",
    "sent": 0,
    "time": "2026-10-06T11:55:34.233Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -412,10 +399,11 @@
    "mint": 0,
    "counter_issued": 60320,
    "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/MHE5pVt3icRvljxaA21KgNrg9pIJoSCFyXoqE2syFKPFAuEoq54HsLmF8NddB30FQaA9HbG5Y09BgeZJD4P9VqcGkrkkBz6WZ0QiFyl-znCiIWEuzwCCclCvmMIkQd-dPfQ9Vt3LpuoQcQdpEUF-Pe91TwpHFDj0x9XH2DvLTsfVwKzd-WDm079TpvC8i5YWxYLDLMzlDQAHc_uvv1n4V8_QPTQnBm2odeyxer1AzwNSN3NHqBeLzY4w5kvv_OCWWM-ZPeLItatmQw_nHFoRHYLzSTxJ7u1MnFOkQL_PcWeBHimWeD7j2JqBPSkEl_FqUlK5Rq9PnYcgdVNXwLqTYg.jpg",
+   "img": "https://cdn4.telesco.pe/file/Gzak8ledq3MR6jtGKpNpz5cJoWQMJAtHLVQIOIr6cmAQstRKAy3PXLoHdjsWLFfWZtatm7mtj3dQcI4fHN2hVl2RQwqgCPIUpk4yyUgVw16QdwMgHXM1uNnLj7YNC261vRQx_69XHmKxdlUpT44hUwd-hjTZd19D5v3IdM5WJGK44edJu5YCo0ngNb8VI8aOlqT14FdR-yvnc9xAyjUPTY1mzE-g8C57wDoEJXVfcWzivAPdUW4FRCzvJu2YsjM6CM1q1pj46PQiuCEo6QWZ01FFD0i95twvR2w1EY8-RzMvynuC1UgGbt5zbmktqBZdrYn6zliDdJMqvrMe5Rfdkw.jpg",
    "sent": 0,
    "time": "2026-10-06T11:55:34.233Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -429,6 +417,20 @@
    "img": "https://cdn4.telesco.pe/file/MHE5pVt3icRvljxaA21KgNrg9pIJoSCFyXoqE2syFKPFAuEoq54HsLmF8NddB30FQaA9HbG5Y09BgeZJD4P9VqcGkrkkBz6WZ0QiFyl-znCiIWEuzwCCclCvmMIkQd-dPfQ9Vt3LpuoQcQdpEUF-Pe91TwpHFDj0x9XH2DvLTsfVwKzd-WDm079TpvC8i5YWxYLDLMzlDQAHc_uvv1n4V8_QPTQnBm2odeyxer1AzwNSN3NHqBeLzY4w5kvv_OCWWM-ZPeLItatmQw_nHFoRHYLzSTxJ7u1MnFOkQL_PcWeBHimWeD7j2JqBPSkEl_FqUlK5Rq9PnYcgdVNXwLqTYg.jpg",
    "sent": 0,
    "time": "2026-10-06T11:55:34.233Z",
+   "u": 1
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 60322,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 60322,
+   "counter_total": 226713,
+   "img": "https://cdn4.telesco.pe/file/gceAXoKzlIM9EccIA9clrtMCQfx0Y_Z6DKKsrZhxQAdIUcddsj7PaNrHsOuyx6v6g7K7yEG7m9XsupzM7n08-_3abGf-qzc0UteuwxT6iYd80AH8jQliYyWdrcBuE4A8nn5K9DYEc_LxehoIJTxuNr6RT9dZw4vus4e2LmWeMrUvBHdL3wv1Ve53xziy62ADyMun3zn7-QWK67WyQMhktc_JeeUbziv08oVoXDGLHj8HUGVIUc9nAg_vEo3bjuw8e97hljE3ADO-2UTlm_aWEkTzUrrsm6FuWPHl2WoCI7XwU7mdtXAo7ru8gM4SD7yLIoi80VOFBrMdMo9hLcJ7TA.jpg",
+   "sent": 0,
+   "time": "2026-10-06T11:56:14.143Z",
    "u": 1
   }
  ]
