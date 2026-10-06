@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-06T16:31:51.817Z",
- "updated_unix": 1791304311,
- "runs": 7632,
+ "updated": "2026-10-06T16:32:25.316Z",
+ "updated_unix": 1791304345,
+ "runs": 7633,
  "collections": 121,
  "checked": 120,
  "errors": 0,
- "detected_total": 68682,
- "sent_total": 1222742,
+ "detected_total": 68683,
+ "sent_total": 1222774,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 61110,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 61110,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/HOLGKFfm3LWlfMFVBjZM9P-j5UkNHvsPxBXW-OLNdFb_hEiHke0ti0YFUT6_c3g4_0_ONU_N2aKutPS_JesbTa5AgG4D5Fppg9ta6Xi28FE0V0Q357vZtzqbSKgVYrNNKjsgj0MPI3hvBSuBQQJz3VLWiOaj7H2r45p4SXrygFg0QEy_gp08aLTkrgN1XKkHvkjSn1Hln8_dcRV_e2Q8LieAaPRF9YKUdqXaPLelISeAxlgPzyiqBRmrxCDWS-sjEMEh0yDzbuwFUzsu0Iq33GSKw2YZE-UXkIHSqqOvlG56kuNDSJuz-h7EENcHBki_A5C-D1rrLc-r_AZJauXgvQ.jpg",
-   "sent": 0,
-   "time": "2026-10-06T16:25:37.321Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -435,6 +421,20 @@
    "sent": 0,
    "time": "2026-10-06T16:31:45.661Z",
    "u": 1
+  },
+  {
+   "slug": "FaithAmulet",
+   "gift": "FaithAmulet",
+   "number": 142040,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 142040,
+   "counter_total": 172784,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-06T16:32:24.254Z",
+   "t": 1
   }
  ]
 }
