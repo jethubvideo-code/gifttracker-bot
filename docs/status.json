@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-07T16:45:39.219Z",
- "updated_unix": 1791391539,
- "runs": 8873,
+ "updated": "2026-10-07T16:46:17.988Z",
+ "updated_unix": 1791391577,
+ "runs": 8874,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 72737,
- "sent_total": 1362485,
+ "detected_total": 72738,
+ "sent_total": 1362519,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 63955,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 63955,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/bOgMX5o6MJtXY2GDUfdVmZQJI8RKNtI9ysPSyH_eYGR8IiPG11N2CO2218kFI-dSF_XOjhQR7RI9QvoUZNUf3r9cUCGCyxg_eoWxJ9hh0S3_qZZOzMqeFeEuXWOWyrNrDDbZnsl7Q_AIaazY6sT1gI7tJ0c455GQXPWBV8EKr035mau_ASXTdr9WR60fTObohVjSNBJWWEegVmSrEpOTyAnnhvN3Rm7LvJYbIznFRoU5Gt08_BnwlY1aiQYtJP-1iHVJbXO0_KUd7rleMlyEwlSxEPl1ZVSMxBb8GK6lZ6__2p6Q2t-D6CWbv_zTQ3YSGGu9nyJCnweM1-KZdbbj-A.jpg",
-   "sent": 0,
-   "time": "2026-10-07T16:40:33.018Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -428,6 +414,20 @@
    "sent": 0,
    "time": "2026-10-07T16:45:31.393Z",
    "u": 1
+  },
+  {
+   "slug": "BunnyMuffin",
+   "gift": "Bunny Muffin",
+   "number": 54408,
+   "owner": "",
+   "owner_addr": "0:e0790fc8137d1b2f5fa7b573b5a8cd38a70ab479bdb7a318714ecb3464deb527",
+   "mint": 1791384839,
+   "counter_issued": 54408,
+   "counter_total": 66655,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-07T16:46:16.492Z",
+   "t": 1
   }
  ]
 }
