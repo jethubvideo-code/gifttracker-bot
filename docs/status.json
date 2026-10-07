@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-07T14:58:18.825Z",
- "updated_unix": 1791385098,
- "runs": 8809,
+ "updated": "2026-10-07T14:58:59.307Z",
+ "updated_unix": 1791385139,
+ "runs": 8810,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 72371,
- "sent_total": 1349872,
+ "detected_total": 72372,
+ "sent_total": 1349907,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 63713,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 63713,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/dPOXdtRl5cpxFHkNNgzP3biQERzUGnjkXOlAByiAzJoP4m2AUDM6zUgxavfyKfR7FQxOl43FL-_8y8oa2RDnt_8YmYfwCE9LbKW8j-8SZ3NZ265BPWXZ7q1oFqjukcQE9eHEfdAvxQNQnQ2oU0RylVz28kcbXzXJ0rPqE94P47nSNYqxb60YS5uqgt5saIULuNMWVfr_CCiK_AHnvapxc_WvhOi0I__WmeFlJ0XLZ44B8gzyzZf-UU7lrxuttHk_2RlNotC2RwSUlB3rezfpikZWNg-YH9hkISzOYS3t97ERbplxmP412Pa7abHJnp0mWIqd1vV8TcKFt7O0ntGB8w.jpg",
-   "sent": 0,
-   "time": "2026-10-07T14:52:13.809Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -401,7 +387,8 @@
    "img": "https://cdn4.telesco.pe/file/mKA7C4YTtPhiWXz-iTYwqYng6kqc0g2Gi-3JYSLx01RQGHDzravMysREEq45rrTHYAaAmT6LuOJFswLXAheUv2u4ADOjCs5AICkSOt0gxqAXiUZGfgfFze_UkqLRZ_5UsNKN4KdDuP03kbtFjGMEiZOPkGc2BAyO5o0onvy2CoggCRuKNn3jBRKv6aEEx0UY-_IaLLlAtYD6evBNK1VTx-5PJI7si0nz-dewLXyoIIOose1cx3YHrt3Cw0bs_DRacrgqps2LkNYXH_636KVkHd58BC8MR34I3gYf4s7Rj6q45OZaszCLAh7LU7-DQ1Gsn2f24ClOwh9Lfa7ekT4R1w.jpg",
    "sent": 0,
    "time": "2026-10-07T14:58:14.703Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -412,10 +399,11 @@
    "mint": 0,
    "counter_issued": 63733,
    "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/QLdMTvV68OiIAy5Nd0IeXC7A1Zi5y0TWDlIUNBJCCPHdRBBA6rWmlWut1VVAOvbV1SNyHzjeYWE_az8BSn64h6o9npIupm3GlM2jK9KXZP_XSjaPFLllgU39K6L7HHTLOhsUJIGwhaEX5Nd5XHeCF1V2qDxkfppSrHORtvLXsWStktYsYWsZwBuHNptEXj5TmTvNhY5ivc-rKXTaiPwDSVk2mDoApD1Vf_oEo0GOWxYrmJ7eaKpVn2JpgAnYVEgBAI4c3Y12fqoOvS2szPuCy0ge7pqFal7csSRoQQe9RJNgG8D7fAg2byiqUhaQDLMl0jg59Ev1Y1o6xIGuSiemRA.jpg",
+   "img": "https://cdn4.telesco.pe/file/DKmqxAMtvaj6GdT_ZlfIvY8orvOQdg3TYzWyn6eHDQpkxpCov67Wbm5AVktj72CsKle0etEjuwroLSGIqLjfx3SJv_Q8i-FKFkUT-nBZUViyq2jpLU-jMCR-M3-f4D17Z_-rqQIdDYHG68TiS4a49MAPd821YGwr0Z3O0cds7YRTGIxmUMkbQfUULXDjUIFCX6Ns73r3OsfnEsgaH2vauBSmxWiFNztPwIkM5stQhUAhaf1KvO5GWZbpkLmDCwoKPKSqd-a7qi5RoxjkqSf9_HNjsC_3WK15hM52X9VPE9B97Oa-3W45MKRaWifB32_yZk4CJ2wRPVHvWb7_0a1NhA.jpg",
    "sent": 0,
    "time": "2026-10-07T14:58:15.563Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -429,7 +417,22 @@
    "img": "https://cdn4.telesco.pe/file/QLdMTvV68OiIAy5Nd0IeXC7A1Zi5y0TWDlIUNBJCCPHdRBBA6rWmlWut1VVAOvbV1SNyHzjeYWE_az8BSn64h6o9npIupm3GlM2jK9KXZP_XSjaPFLllgU39K6L7HHTLOhsUJIGwhaEX5Nd5XHeCF1V2qDxkfppSrHORtvLXsWStktYsYWsZwBuHNptEXj5TmTvNhY5ivc-rKXTaiPwDSVk2mDoApD1Vf_oEo0GOWxYrmJ7eaKpVn2JpgAnYVEgBAI4c3Y12fqoOvS2szPuCy0ge7pqFal7csSRoQQe9RJNgG8D7fAg2byiqUhaQDLMl0jg59Ev1Y1o6xIGuSiemRA.jpg",
    "sent": 0,
    "time": "2026-10-07T14:58:15.563Z",
-   "t": 1
+   "t": 1,
+   "u": 1
+  },
+  {
+   "slug": "WhipCupcake",
+   "gift": "WhipCupcake",
+   "number": 282298,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 282298,
+   "counter_total": 367619,
+   "img": "https://cdn4.telesco.pe/file/EJglYo8xtwEnNnt0CXa9YHSLvqO8uj8dgFd6D_rsr9Y8DQnPxRy2NgxRMZKtS6bikctHSX2AqoGi7lXtt_SwFlTRPgqixqy0DZuQUvHBhgDyOzcW1158t_DbqtSXYIPl3p_doWZ_A-cq23id8K9la76X_B8OJrIpMw5mEmGd16RxYxjqtLVGDmPExvgLlvdWX9Bw0iQWxm5dRI2sRczm8ep4__BdcEjt77O00DhXqZPYVwjGl0-iUCLJZ6KD4Ls9D1SjvcinMaM9VYGp6ki2h3fpsMX97hMDhIfAVggQ_8RCG6_9RBkYsA-e19GmpCN8Bf6xgwWQ-Y9M8f5u3V57lA.jpg",
+   "sent": 0,
+   "time": "2026-10-07T14:58:56.585Z",
+   "u": 1
   }
  ]
 }
