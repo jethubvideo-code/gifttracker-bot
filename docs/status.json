@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-08T14:10:20.402Z",
- "updated_unix": 1791468620,
- "runs": 9638,
+ "updated": "2026-10-08T14:11:03.281Z",
+ "updated_unix": 1791468663,
+ "runs": 9639,
  "collections": 121,
- "checked": 121,
- "errors": 0,
- "detected_total": 75889,
- "sent_total": 1473025,
+ "checked": 120,
+ "errors": 1,
+ "detected_total": 75891,
+ "sent_total": 1473097,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 66073,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 66073,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/Ceq7xIS2XYyTEkr6o243iqsOGimmWQTH_NyWiUrnUkiLHb_vA8ubCKPrVkT4EelkDy94A0vM0K26aH466-QFYsi5uPFDCA10AWwDuQ8hCBw7Oce4xGbTVlbztnnTI0hRk2bwGsemW8Zofx9aoBLVXYtXYhdkwStW-PLq4Y_mY4DBc9zV-6xxDXknWGS6bH4ise8Ix6C1VuFK8hKipDENbKC38FYXDTg1mfipuuD5XZBE32WR9KZbuN_cniK24RIyvm1-bhQ6jjBSefMGp2qnqcVUE4Q7R_O_7NuQZ50IGxLUdrllxYMMfwId8o1ccNju-eT2aoPASVTqyOJMArPsDQ.jpg",
-   "sent": 0,
-   "time": "2026-10-08T14:00:09.798Z",
-   "u": 1
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 37139,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37139,
-   "counter_total": 49529,
-   "img": "https://cdn4.telesco.pe/file/dhA_4lu_8jgLlRpS58tkmNrN0ESgU3Nv3McNfcCPFdh6t-F_3Mdmp-NjdFTU1uudRAQBwemM6KdqLzi-o42cnMX8ihtBADPl-TZ_D_7caYHHv5ZpgvoJoXnaKowDr43aShqhQtyVf83eLF7-21t8M7ZY8o08SZAN32uD-ZYzcdXhAQxwOCn_2Tm_MNRtm1CPgtJw4VFA74TZ6sa119TedyvmGBv4atJTORSPAAjNqiyVACAFGxdk8gS7FYuEr3OP9SdyC0OW9cnksq32nmkuvKyJVwRFm93dg8GV2B9HEZtnTfLVSHR2_7WVgy_MUfWEFSrUmEi_5sKsbgrh9M3Kzw.jpg",
-   "sent": 0,
-   "time": "2026-10-08T14:00:53.257Z",
-   "u": 1
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -429,6 +401,34 @@
    "sent": 0,
    "time": "2026-10-08T14:10:15.528Z",
    "u": 1
+  },
+  {
+   "slug": "PoolFloat",
+   "gift": "PoolFloat",
+   "number": 226920,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 226920,
+   "counter_total": 246862,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-08T14:10:59.809Z",
+   "t": 1
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 66098,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 66098,
+   "counter_total": 226713,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-08T14:11:01.468Z",
+   "t": 1
   }
  ]
 }
