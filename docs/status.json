@@ -1,28 +1,13 @@
 {
- "updated": "2026-10-08T20:04:55.000Z",
- "updated_unix": 1791489895,
- "runs": 10018,
+ "updated": "2026-10-08T20:05:30.275Z",
+ "updated_unix": 1791489930,
+ "runs": 10019,
  "collections": 121,
  "checked": 120,
  "errors": 0,
- "detected_total": 78233,
- "sent_total": 1557423,
+ "detected_total": 78234,
+ "sent_total": 1557459,
  "last_upgrades": [
-  {
-   "slug": "PetSnake",
-   "gift": "PetSnake",
-   "number": 191897,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 191897,
-   "counter_total": 279106,
-   "img": "https://cdn4.telesco.pe/file/KU1m8ojExnHQixiaVG-8ccSSD2K5CLCAJfmKvwCxnKTtPKndXoar9bohcSBODswS-j6PEsx1d80Kqz1sah1nBM4TLSVA3eA1am9MhUzTvn4NcXv5fn-V8w44g-c2mcDEeMifKMCz8h4zVirsOK-RlwCCXFUXfDR2JwaEK0-evZn8SzD01kVm0WOTOXOIs7_3_F-QkOnN7qYrIpJR5UTcAm09PI6bw6IWdpoAQXit7y67DkvcvsytMT4ygt_TvbFRM9UnbOdGN3x36PgL8u450CquhtkSvvbj90gjRLW9IzSpqLTkHrCFwsDs2XKnkk4ZrbwdMnbu0vpnEgAKKdw_lw.jpg",
-   "sent": 0,
-   "time": "2026-10-08T20:00:04.934Z",
-   "t": 1,
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -435,6 +420,20 @@
    "sent": 0,
    "time": "2026-10-08T20:04:49.489Z",
    "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132905,
+   "owner": "",
+   "owner_addr": "0:ec71054923f373f62efd27c410f25ca95e69b4e005c2d31655ecba5e21f68909",
+   "mint": 1791488308,
+   "counter_issued": 132905,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-08T20:05:29.193Z",
+   "t": 1
   }
  ]
 }
