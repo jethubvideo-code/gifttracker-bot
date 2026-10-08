@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-08T07:34:12.082Z",
- "updated_unix": 1791444852,
- "runs": 9257,
+ "updated": "2026-10-08T07:34:55.765Z",
+ "updated_unix": 1791444895,
+ "runs": 9258,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 74795,
- "sent_total": 1433711,
+ "detected_total": 74796,
+ "sent_total": 1433747,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 65304,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 65304,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/GqDWQj_HPplx8T49OtzPN0GFsSis7Lq0HekIMYJ1SRrXszJvCA2PbPgNDcBLv0YVwAMQaRx67-aY0WkOws0PubXyyxMNJZv4heeV07EcN9FB7ZqSOzSeXxhUaNZ4C1sngyHEMNXFtF6WhqY2Vpv1_Coeg0a2xcp5nvE2c6R9a1NstALlOXFUmjF2UWSAopjdy1ID61Qp7E7X_83qChAXBOsNvBdGpSajS6domadSLgCm8s_1APGujwiApcdi_XiwdI15NEajOoQptN0oc14o16eNANPlwMCwUyEIZZzaNYoS3M8beCSgKOpcVeiA1kYQNWzJ5qPAmXnej6fKkpSnSA.jpg",
-   "sent": 0,
-   "time": "2026-10-08T07:25:43.365Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -433,6 +419,20 @@
    "sent": 0,
    "time": "2026-10-08T07:34:08.776Z",
    "u": 1
+  },
+  {
+   "slug": "PoolFloat",
+   "gift": "PoolFloat",
+   "number": 226911,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 226911,
+   "counter_total": 246862,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-08T07:34:54.487Z",
+   "t": 1
   }
  ]
 }
