@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-08T14:11:03.281Z",
- "updated_unix": 1791468663,
- "runs": 9639,
+ "updated": "2026-10-08T14:11:37.729Z",
+ "updated_unix": 1791468697,
+ "runs": 9640,
  "collections": 121,
  "checked": 120,
- "errors": 1,
- "detected_total": 75891,
- "sent_total": 1473097,
+ "errors": 0,
+ "detected_total": 75892,
+ "sent_total": 1473133,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 37140,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37140,
-   "counter_total": 49529,
-   "img": "https://cdn4.telesco.pe/file/HoVxNJzl7y92TaQ7nPKuAQo31HzIidQuJVagzZQFt9DQd-SKXxOSNkUB0tJrI2knT6XFxuJqbYxabT0ZsKmFPH08_VTWd8R4Gc8o8vl3WRPIB2HLnO7q-9eu7uQ6iTFpJMMRDxU1sM4yZ7CBkjdpI7RfA7sNQqSWcLhuywKD-iEQHP5xnddwdbzfY6UAGceEBF1Lr3fqTrvfrDgBeWDyc75sSW_IvCl-JE3PMg-0NhtzSZTiRTQi-79-gduJg-zDZR_CrOLH-bDdyjiTBckj0BhLdFHOadN1rPk-gMssOcM_ki2l5zql0YN6T-3ONCeEa-_9cEe39gfLFqYbmqr5hw.jpg",
-   "sent": 0,
-   "time": "2026-10-08T14:00:53.257Z",
-   "u": 1
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -411,10 +397,11 @@
    "mint": 0,
    "counter_issued": 226920,
    "counter_total": 246862,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/YJoGB1bRoKNFhjMUDxsCjrjCL1PMkNnhxmhuZ4YoOOvXp2GyPlWb6ri_Z_n0Q6CpfiJpcNfFBBZg1fN1yYQri4p7g9uyflIzezM9-7m3c-_jVDvOU0qDrgXL2N-C_KJ5zLn5pcA_zVALrVNUbU-zvdEkL0WXzKjjJgTRqtlZZIzkO96in1bj1kel2ojl-O91qiBHbrSYhv_QgeqMbHZWPJOdrMKNBlJP-HKaJ96jCxNm3cSQV_kF-02ku0BeZFFpyXeiSNUa4Wo8jV71InNNDmgvfVEAiVCp82NJFtTfPADiWEB6TFfouqq5VADvv0WFuskVTscsKwdSeww0Y2mmOA.jpg",
    "sent": 0,
    "time": "2026-10-08T14:10:59.809Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "miragelamp",
@@ -425,10 +412,25 @@
    "mint": 0,
    "counter_issued": 66098,
    "counter_total": 226713,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/F44Lzc1_jMipqg2VORzafePv0nHfT3rezzPd2opdqNhCZK_5iiUtn5gP09Hf5kxx1HvfhZanup6C_Hhww5bqePxDSE91wwjmCH06UUbm7CVyfsu7vXLew-oMFP-XkBMlI3eoAgIAgXyJ20pYiaqnY3JRCRnRqAM1n25XJhCPqPr5vnACl_FvChcSXGDxfrU_C85YULR6LYVHt-frFO7L5O0JjRoEodqIZJ4WnDHjhSUughhExaDFEgPdcfjC5Cp_1aKxHoKusZoa_T7Fs6j7L-RIW5G03rtmn1_2Em3cPas5sd9M-QjFMOmboxOU3AIAWhqUt6zxUWQEwNNzDM9d3w.jpg",
    "sent": 0,
    "time": "2026-10-08T14:11:01.468Z",
-   "t": 1
+   "t": 1,
+   "u": 1
+  },
+  {
+   "slug": "miragelamp",
+   "gift": "Mirage Lamp",
+   "number": 66099,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 66099,
+   "counter_total": 226713,
+   "img": "https://cdn4.telesco.pe/file/kMVGj5yBLEjC2TI4ayw3rCM8zo7_04VmghwBIY6IVrCF6xu727eZgUPsFlJ7wqsJcTMUHgdGTQU7s_x9bkzNFa-313Z6nVufgUEatPxEdYNtYIiSkSpxjAvI1G-p2FMzMo75UNw5wNrYydgU3Hcuhcuph-pvVDbB5_0PNWu1vz1yY96CNTh5T5rJKblRClhnhMKJvPPK-lOW-gAnLKj2Bsztr8XWClxYZz5Ji5EiMSgK-crSZdzS68LggRNP59jeUv0k_B760eCxTluSEHwlq_dm-ft6MXF-_uzb9lNkxdPH-cBk1xdUTnGmjooo-fe3WhnB7DXNs3MzEcAve93JxQ.jpg",
+   "sent": 0,
+   "time": "2026-10-08T14:11:36.276Z",
+   "u": 1
   }
  ]
 }
