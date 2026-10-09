@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T14:03:05.444Z",
- "updated_unix": 1791554585,
- "runs": 10715,
+ "updated": "2026-10-09T14:09:07.265Z",
+ "updated_unix": 1791554947,
+ "runs": 10716,
  "collections": 121,
  "checked": 30,
  "errors": 91,
- "detected_total": 80403,
- "sent_total": 1636658,
+ "detected_total": 80405,
+ "sent_total": 1636732,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108556,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1791547099,
-   "counter_issued": 108556,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T12:18:27.583Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 132929,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791547579,
-   "counter_issued": 132929,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T12:22:05.559Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T13:37:38.661Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "intelligencecup",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T14:02:51.486Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T14:02:57.442Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T14:03:03.785Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389886,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791554882,
+   "counter_issued": 389886,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T14:08:59.758Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132934,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791554726,
+   "counter_issued": 132934,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T14:09:05.623Z",
    "t": 1
   }
  ]
