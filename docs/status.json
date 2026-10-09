@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T15:57:57.406Z",
- "updated_unix": 1791561477,
- "runs": 10732,
+ "updated": "2026-10-09T16:00:07.822Z",
+ "updated_unix": 1791561607,
+ "runs": 10733,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80450,
- "sent_total": 1638350,
+ "detected_total": 80452,
+ "sent_total": 1638420,
  "last_upgrades": [
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58859,
-   "owner": "eaarl.t.me",
-   "owner_addr": "0:1fb4f84cf42cca97870c84d30190e64071505a5c7b4313530f19abbcf671b95f",
-   "mint": 1791554210,
-   "counter_issued": 58859,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T14:40:03.892Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84050,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791550226,
-   "counter_issued": 84050,
-   "counter_total": 116639,
-   "img": "https://cdn4.telesco.pe/file/vF_2vrUnMgoRVqqZxiBZh7quq4jOgtCG6V-yZpfdUyZNvyY7kD0oJlDf5tG-mJ8rpjPS1CO8au4NpT7iJhvUO7EbZjdOAJ7sa40Onbjefg08hwk4pQ_EUJ86v6q3xc_nHxzLfgSSxZuxDRQd8HM-ameCK--__HE56vo4fzRBG_nTsQYKNOQRKZourpSJ3NjmIDc0afjh8FrQkH-_9YpsLL5pufQkC1Gd3ELCKRw7ewYnF2uScwDRdxB2A3dsVLALzGk8TL1NFrFVao1X8k9G5oOHiUJEXuKTNCTrANhOUZ5Zw0uOWG9rTtKwCKyHZqIJk48RZoAIVz7ESP7wzosuBQ.jpg",
-   "sent": 0,
-   "time": "2026-10-09T14:40:18.501Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:57:56.378Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438081,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791561386,
+   "counter_issued": 438081,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:00:00.405Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438082,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791561409,
+   "counter_issued": 438082,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:00:00.405Z",
    "t": 1
   }
  ]
