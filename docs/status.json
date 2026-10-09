@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T09:14:08.266Z",
- "updated_unix": 1791537248,
- "runs": 10678,
+ "updated": "2026-10-09T09:21:35.171Z",
+ "updated_unix": 1791537695,
+ "runs": 10679,
  "collections": 121,
- "checked": 29,
- "errors": 49,
- "detected_total": 80293,
- "sent_total": 1632622,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 80294,
+ "sent_total": 1632659,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 69350,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 69350,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/L8gy--bhS1EJS6zyWRQkHLjMopNHeNIHTa8j9lNs2sjOKsrcr9AjTtri8IPNxzmj9vf0aCpiXif4tsVahBL5hxVAEfurcpLaNABtrN-oEXCjvfBkoY02qPZq5ed04VMWJrhV6jXIbLDcsLXgqatYCzDdtpfnGYydY0_Lxg6CAmUUaQL2s8hDQ2-kqlV0gpw3NgmrZllSyeyHBo-aU2yHtjkx6z2c-PpfbeOSJjU9-NXiX0rAOjax5bGuV7Mhm2YRkgKP8r5gV-ESCiK7SeRM3LKd76rhV9fgRi7h1hlCdktQsSXvEn3acHnInuNRBzL0mMiacZ5LWcGgd3pJX35wBQ.jpg",
-   "sent": 0,
-   "time": "2026-10-09T09:06:54.106Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -412,7 +398,7 @@
    "img": "https://cdn4.telesco.pe/file/OdDErjBvMdbSauQ6IoaTrdAlPJtEwNu8ZTPk0VGPtWQJIxa7iLfP58CN7l9u5qhxKQkQH6-RVhhaRTZEr36MbGFrT9wNrehv9_PmUjzFD9gPjZBLcpza-IVONhEE36vB24RXDeLlRAOhTAVwFge0Fdd7QBZzvOHoC0KELNUOSqneHRlYmWynChNWkhmMxL3jjwmvwbaXenyIbQVwMxj1PNk8Vb87GBKGcdA7JUJ9MyVTSWpx4dN8rTlqM-i0SIQUJE9nVIXFiZPgnZQ-LN5RHltxFbccrGrcJE5Y8-4DdpDdwjLL63sJIQ-5JEvZH1L6FgHd2h0kBhA84dHripZALg.jpg",
    "sent": 0,
    "time": "2026-10-09T09:13:28.109Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FinePen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T09:14:06.570Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389873,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791537176,
+   "counter_issued": 389873,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T09:21:33.230Z",
    "t": 1
   }
  ]
