@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T18:58:46.147Z",
- "updated_unix": 1791572326,
- "runs": 10755,
+ "updated": "2026-10-09T19:00:45.541Z",
+ "updated_unix": 1791572445,
+ "runs": 10756,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80618,
- "sent_total": 1644223,
+ "detected_total": 80620,
+ "sent_total": 1644293,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54439,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791547279,
-   "counter_issued": 54439,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T18:47:16.365Z",
-   "t": 3
-  },
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54440,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791547352,
-   "counter_issued": 54440,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T18:47:16.365Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:58:43.402Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:58:43.402Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265348,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 265348,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T19:00:42.730Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265349,
+   "owner": "l_0_b.t.me",
+   "owner_addr": "0:725b3888d3366ba27bdd3fd5e4c2f6749683cba7b010c84e25358b227a6b739d",
+   "mint": 1791572320,
+   "counter_issued": 265349,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T19:00:42.730Z",
    "t": 1
   }
  ]
