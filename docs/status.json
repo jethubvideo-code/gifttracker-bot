@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T11:25:44.150Z",
- "updated_unix": 1791545144,
- "runs": 10698,
+ "updated": "2026-10-09T11:41:53.418Z",
+ "updated_unix": 1791546113,
+ "runs": 10699,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80358,
- "sent_total": 1634994,
+ "detected_total": 80360,
+ "sent_total": 1635068,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265277,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791541809,
-   "counter_issued": 265277,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T10:45:46.696Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438073,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1791543350,
-   "counter_issued": 438073,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T11:06:30.883Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T11:25:36.669Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T11:25:36.669Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T11:25:42.896Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 89979,
+   "owner": "",
+   "owner_addr": "0:27055727e2a638eeea0f8ab58d788b95c305cb30fa644bd1aaf0f154571c43c1",
+   "mint": 1791539191,
+   "counter_issued": 89979,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T11:41:47.940Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 89980,
+   "owner": "aarash81-tg.ton",
+   "owner_addr": "0:8dfe0a2dae9eb8f4aa3f4a7f45a69b19beab5c78b8b89b34f2ab172637ff2ecd",
+   "mint": 1791542885,
+   "counter_issued": 89980,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T11:41:47.940Z",
    "t": 1
   }
  ]
