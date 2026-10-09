@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T15:27:42.618Z",
- "updated_unix": 1791559662,
- "runs": 10728,
+ "updated": "2026-10-09T15:31:41.017Z",
+ "updated_unix": 1791559901,
+ "runs": 10729,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 80438,
- "sent_total": 1637930,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 80439,
+ "sent_total": 1637965,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31642,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31642,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T14:39:20.859Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:27:37.621Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:27:37.621Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438080,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791559777,
+   "counter_issued": 438080,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T15:31:39.902Z",
    "t": 1
   }
  ]
