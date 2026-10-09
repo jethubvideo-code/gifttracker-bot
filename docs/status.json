@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T20:40:28.186Z",
- "updated_unix": 1791578428,
- "runs": 10771,
+ "updated": "2026-10-09T20:47:25.143Z",
+ "updated_unix": 1791578845,
+ "runs": 10772,
  "collections": 121,
  "checked": 30,
  "errors": 91,
- "detected_total": 80703,
- "sent_total": 1647197,
+ "detected_total": 80704,
+ "sent_total": 1647232,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74601,
-   "owner": "",
-   "owner_addr": "0:497e63f396222e6676f0d8535621ec9302e8d3e1a36a786e4e31b55a2ee78967",
-   "mint": 1791568804,
-   "counter_issued": 74601,
-   "counter_total": 85204,
-   "img": "https://cdn4.telesco.pe/file/pZjJbxg12iZZjt3zXt2n94Ks3fy57tLSF5vrUVWCd12eJfvOqVwFkeVs9cMljarTV3fvdtRwSJK78osT8_7hnE8UmUSUy-jhZefFv7UWJyQ17yQLtqIcdLTCYqC0VB24q1d7E-W_lAXHdVSUvqsQ_wp7sEWtT9lHTWd1WCgUBXrFqvxRx-UBwg2luFW6COiOIp79rVfV9QFMG-LxEyxKkKynqcbahVQVBJbuNOu--9I1RzuMa6isM1_Ojim3ullovSImI5y3UEibCMmJzdREUyNihJNCSk7gQUxr8KXcahlOb3-VZJ9atK4wkmRQcHHEolh5TLopYUtIO02CcFKtkA.jpg",
-   "sent": 0,
-   "time": "2026-10-09T20:33:11.040Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T20:40:27.219Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "EvilEye",
+   "number": 74604,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74604,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T20:47:24.143Z",
    "t": 1
   }
  ]
