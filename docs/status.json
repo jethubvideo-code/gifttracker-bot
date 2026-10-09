@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T15:14:46.882Z",
- "updated_unix": 1791558886,
- "runs": 10722,
+ "updated": "2026-10-09T15:15:47.440Z",
+ "updated_unix": 1791558947,
+ "runs": 10723,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80431,
- "sent_total": 1637686,
+ "detected_total": 80432,
+ "sent_total": 1637721,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 389885,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1791554430,
-   "counter_issued": 389885,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T14:02:57.442Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:14:31.934Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:14:42.524Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132935,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791555151,
+   "counter_issued": 132935,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T15:15:46.364Z",
    "t": 1
   }
  ]
