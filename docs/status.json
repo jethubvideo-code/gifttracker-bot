@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T16:44:35.593Z",
- "updated_unix": 1791564275,
- "runs": 10742,
+ "updated": "2026-10-09T17:00:29.569Z",
+ "updated_unix": 1791565229,
+ "runs": 10743,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80551,
- "sent_total": 1641878,
+ "detected_total": 80552,
+ "sent_total": 1641913,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188450,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188450,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:09:30.174Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:44:34.381Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12957,
+   "owner": "xindos.t.me",
+   "owner_addr": "0:b161f496a61efa9b86a9d24926c252bdb30f04a5eb4730784c9e8900e5100ab6",
+   "mint": 1791531354,
+   "counter_issued": 12957,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T17:00:25.941Z",
    "t": 1
   }
  ]
