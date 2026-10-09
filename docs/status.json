@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T22:52:29.324Z",
- "updated_unix": 1791586349,
- "runs": 10784,
+ "updated": "2026-10-09T22:54:30.539Z",
+ "updated_unix": 1791586470,
+ "runs": 10785,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80774,
- "sent_total": 1649680,
+ "detected_total": 80776,
+ "sent_total": 1649750,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265404,
-   "owner": "",
-   "owner_addr": "0:1243fc88230086da26156b87d01fdf59a68aa797c5087e84b4f637c14813829c",
-   "mint": 1791580100,
-   "counter_issued": 265404,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T21:44:13.518Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265405,
-   "owner": "",
-   "owner_addr": "0:30073b136334c9a12eb5316c03bfd2703fd7751b073e97b2486c896fc769563d",
-   "mint": 1791580105,
-   "counter_issued": 265405,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T21:44:13.518Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T22:33:36.398Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T22:52:24.785Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T22:52:24.785Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 12961,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 12961,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T22:54:23.165Z",
+   "t": 1
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12962,
+   "owner": "",
+   "owner_addr": "0:1d2fc1bdf9896c0db5325d7d3038c7a8b043584df40ac80e2792336831409c44",
+   "mint": 1791583254,
+   "counter_issued": 12962,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T22:54:23.165Z",
    "t": 1
   }
  ]
