@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T09:30:32.241Z",
- "updated_unix": 1791538232,
- "runs": 10681,
+ "updated": "2026-10-09T09:55:55.571Z",
+ "updated_unix": 1791539755,
+ "runs": 10682,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80296,
- "sent_total": 1632733,
+ "detected_total": 80297,
+ "sent_total": 1632770,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 69353,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 69353,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/VxuZuN27QCxgZlYBpSSUOkc7ZrA7CFgNRkiSx_OreyZjjskfigctZpkVY6sHhtRUZuRkF-xLkPVtuNQxnEXmBKCIQ-N0ZncBiATx8D5dXfJf_fWWRvjGSINnCbsuRATBeE8zlXLz2gLCkgvJGm-xKmmb8L0nxQP2vMoycMYIO10aXccJKR_ZOVKkRwUiE86XRHnojpIwD_e8cx76isE1-3bOMnlUleWZ8q8vVbCEtslLE1L54KIAsVBtQl2JBYx48pekfNIx50Kq4IQOgZkYfXY8pMOQLUCfi8_4koKtblBvfmpA8OJHoiP3rAK1qeNJM6bY2aKpu-NH0mlffjDxqg.jpg",
-   "sent": 0,
-   "time": "2026-10-09T09:06:54.106Z",
-   "u": 1
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T09:30:30.802Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132921,
+   "owner": "",
+   "owner_addr": "0:96dc043eb1454102012f15da86bfcf1fe9c666f675061a38bc9490beda0fb07c",
+   "mint": 1791539171,
+   "counter_issued": 132921,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T09:55:53.772Z",
    "t": 1
   }
  ]
