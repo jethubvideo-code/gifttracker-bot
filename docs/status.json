@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T13:27:45.103Z",
- "updated_unix": 1791552465,
- "runs": 10712,
+ "updated": "2026-10-09T13:29:46.021Z",
+ "updated_unix": 1791552586,
+ "runs": 10713,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80397,
- "sent_total": 1636437,
+ "detected_total": 80399,
+ "sent_total": 1636511,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73704,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791543183,
-   "counter_issued": 73704,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T12:18:06.873Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73705,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791544742,
-   "counter_issued": 73705,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T12:18:06.873Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T13:05:34.583Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T13:27:41.294Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T13:27:41.294Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265314,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 265314,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T13:29:38.263Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265315,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 265315,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T13:29:38.263Z",
    "t": 1
   }
  ]
