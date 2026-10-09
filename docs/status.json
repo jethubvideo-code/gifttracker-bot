@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T18:10:23.698Z",
- "updated_unix": 1791569423,
- "runs": 10746,
+ "updated": "2026-10-09T18:10:59.803Z",
+ "updated_unix": 1791569459,
+ "runs": 10747,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80561,
- "sent_total": 1642228,
+ "detected_total": 80562,
+ "sent_total": 1642263,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188460,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188460,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:09:30.174Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -328,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T17:35:38.753Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:01.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:01.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:01.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:01.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:01.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:18.597Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T18:10:18.597Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23027,
+   "owner": "",
+   "owner_addr": "0:92ede361f965df9922e896531764741088ea85e3c8adccc5792c6057c971ab10",
+   "mint": 1791552490,
+   "counter_issued": 23027,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T18:10:56.059Z",
    "t": 1
   }
  ]
