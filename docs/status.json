@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T17:02:28.866Z",
- "updated_unix": 1791565348,
- "runs": 10744,
+ "updated": "2026-10-09T17:35:42.450Z",
+ "updated_unix": 1791567342,
+ "runs": 10745,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 80553,
- "sent_total": 1641948,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 80554,
+ "sent_total": 1641983,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188452,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188452,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:09:30.174Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T17:02:27.092Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 12958,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 12958,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T17:35:38.753Z",
    "t": 1
   }
  ]
