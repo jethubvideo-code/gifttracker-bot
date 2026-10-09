@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T15:13:33.896Z",
- "updated_unix": 1791558813,
- "runs": 10721,
+ "updated": "2026-10-09T15:14:46.882Z",
+ "updated_unix": 1791558886,
+ "runs": 10722,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80429,
- "sent_total": 1637616,
+ "detected_total": 80431,
+ "sent_total": 1637686,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 132933,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 132933,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T13:37:38.661Z",
-   "t": 3
-  },
-  {
-   "slug": "intelligencecup",
-   "gift": "intelligencecup",
-   "number": 123,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 123,
-   "counter_total": 220,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T14:02:51.486Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T14:53:26.978Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:13:32.751Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 163975,
+   "owner": "",
+   "owner_addr": "0:e0a989ca242337a3e15e612f89e6c12cb3a1f5973233b4856637d376762411c9",
+   "mint": 1791555525,
+   "counter_issued": 163975,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T15:14:31.934Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3780,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791554661,
+   "counter_issued": 3780,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T15:14:42.524Z",
    "t": 1
   }
  ]
