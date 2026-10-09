@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T09:55:55.571Z",
- "updated_unix": 1791539755,
- "runs": 10682,
+ "updated": "2026-10-09T10:01:57.219Z",
+ "updated_unix": 1791540117,
+ "runs": 10683,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80297,
- "sent_total": 1632770,
+ "detected_total": 80298,
+ "sent_total": 1632807,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 389872,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791536802,
-   "counter_issued": 389872,
-   "counter_total": 457382,
-   "img": "https://cdn4.telesco.pe/file/Bpdf-VZORe9ZPqDKK0vvGiDXqkMD0VX3MKRhN7OU7nLhFzvpYOKQtqiADVoY7vT2cnajGthFQYbaOuFzhw_GWYs-BPoFFNS1VdFFejGEECt72PAIoprfTA7ZNn_rW91EXgHZTZ998NBCd3cSBriaRee5gI5vsmNKrF7Acphb5DyyiNtv8kH4wh0kBhlWg7IueqV5am0Tv3TqYbngv4yuaXP2CLpANQeLMVuieXMaOg48WGNSJayFyvif2qBaKL30dGsb2KT1ejTcO0eKE55s0V-1KDAmyqyrut-xqdOwPEbAyT6FQe1fVYoVRV1VuUifQYfpZ1CU1EuLLv8iHhyQfQ.jpg",
-   "sent": 0,
-   "time": "2026-10-09T09:07:16.977Z",
-   "u": 1
-  },
   {
    "slug": "JesterHat",
    "gift": "JesterHat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T09:30:30.802Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T09:55:53.772Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74600,
+   "owner": "",
+   "owner_addr": "0:2bc59aa16ad0d2ae70231e71b8675a4f57718ac91154c7f60998757496d952a1",
+   "mint": 1791534980,
+   "counter_issued": 74600,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T10:01:53.508Z",
    "t": 1
   }
  ]
