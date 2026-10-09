@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T16:25:13.890Z",
- "updated_unix": 1791563113,
- "runs": 10737,
+ "updated": "2026-10-09T16:30:30.551Z",
+ "updated_unix": 1791563430,
+ "runs": 10738,
  "collections": 121,
  "checked": 5,
- "errors": 116,
- "detected_total": 80545,
- "sent_total": 1641668,
+ "errors": 111,
+ "detected_total": 80546,
+ "sent_total": 1641703,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183590,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183590,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:07:54.827Z",
-   "t": 2
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:07:54.827Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "MoodPack",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:25:12.359Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265328,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 265328,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:30:29.461Z",
    "t": 1
   }
  ]
