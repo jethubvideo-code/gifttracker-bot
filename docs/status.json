@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T16:39:40.582Z",
- "updated_unix": 1791563980,
- "runs": 10740,
+ "updated": "2026-10-09T16:43:15.795Z",
+ "updated_unix": 1791564195,
+ "runs": 10741,
  "collections": 121,
  "checked": 5,
- "errors": 112,
- "detected_total": 80549,
- "sent_total": 1641808,
+ "errors": 116,
+ "detected_total": 80550,
+ "sent_total": 1641843,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188448,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188448,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:09:30.174Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:39:33.338Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:39:33.338Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265329,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791563540,
+   "counter_issued": 265329,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:43:14.782Z",
    "t": 1
   }
  ]
