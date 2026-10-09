@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T16:30:30.551Z",
- "updated_unix": 1791563430,
- "runs": 10738,
+ "updated": "2026-10-09T16:35:36.618Z",
+ "updated_unix": 1791563736,
+ "runs": 10739,
  "collections": 121,
  "checked": 5,
  "errors": 111,
- "detected_total": 80546,
- "sent_total": 1641703,
+ "detected_total": 80547,
+ "sent_total": 1641738,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183591,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183591,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:07:54.827Z",
-   "t": 3
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:30:29.461Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 438083,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1791563714,
+   "counter_issued": 438083,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:35:32.867Z",
    "t": 1
   }
  ]
