@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T08:16:26.351Z",
- "updated_unix": 1791533786,
- "runs": 10600,
+ "updated": "2026-10-09T08:17:06.621Z",
+ "updated_unix": 1791533826,
+ "runs": 10601,
  "collections": 121,
  "checked": 121,
  "errors": 0,
- "detected_total": 80051,
- "sent_total": 1623680,
+ "detected_total": 80053,
+ "sent_total": 1623754,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 69191,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 69191,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/f3TPq42j9eym1rxM8kNL7Js0Vl2o5RAwgMU8DB1tZx81VSjwm934S_KY-Q3iY3YV5q-OcXZBodKvzYoxqIa-lNLMfRpDtyRgShqlc-n2dmfa4FUc7kCfK3B4f0IpWNZEXkezHuuRES8uCcsUGEdPjL4k7aeew8tZKkJLK9Ys7IksRzLRdPjGHq-1RrEof1L5RGWteUDyZ6m7H3NKtUt1CGPvBo6MJhcOTLq9Cqt7yJIg3I-3K1weYfYFIe3GDzAotvs9uLuVbqa2SAZRjQJqY_-__ubQ5Btxwl7YPD0Q2ZFPLtf7NNjH1NuXTa4T-VshRs7urdVuAKK888V1E7tCKw.jpg",
-   "sent": 0,
-   "time": "2026-10-09T08:10:17.720Z",
-   "u": 1
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 69192,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 69192,
-   "counter_total": 226713,
-   "img": "https://cdn4.telesco.pe/file/K66z_dPDQD-FtJ8kuD3cA3G5XXMkRvy7dF0exF913Hhf8u1PdIoyTQcnS8sTFyWWzsc21v_6exe1p0joyjWdzD9bfRWEzQCe5k-112EeMPBrn94lWFbFAUzV1VWR6mIMIsAxTH9Y6U7709SApXfjVFXdknCWhBybYyop3RyzcAZv195xK878ZVDGDYdFkzyimbhojp1trwuDhCD4Dw8vhDUSCXf4vW61BdtxH0HMQQarFnqYfVJarvOxgFM8dH7Vfx9OiOtewnWv9m4pUyXvuLWonFW1Agi4RZls52wkszX9uZUnX81WzVVibhFU730JU4SyzK0AfsBeurmi-Mb48w.jpg",
-   "sent": 0,
-   "time": "2026-10-09T08:10:17.720Z",
-   "u": 1
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-10-09T08:16:21.938Z",
    "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265261,
+   "owner": "",
+   "owner_addr": "0:1648e54ea85b7129e4d07bee8215ee102597ca9ebb43521612ba1f94a71e4a99",
+   "mint": 1791532916,
+   "counter_issued": 265261,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/EOKrYgc59jJZG8btVC2qSrKnF7NfsQa1_E9AZc776fNx3Sp9yP_MfTyhckTf0VMOSVFJzc2etQqd1a139dgLrGR7A0aFAjjlx7aFCbN3e2NeDc2X90GdNLK6qFTXszbum4eKSegUHbKg5nTJWuazlpw4nLRXSqZdeey4jUL1mYjPbznq1KrYC5sk8jP_iERRDJf3_Vz2XLEuJR68TmRJ-cINtwVAtfr-nCgJ6lPhHIUcHh7PUHpFLe8E0RqPO6YsJxQCeFjsmP2TYzwZTZ2Ao959CsEurlZrcw8cdvE_4VHJq8oranuzIdQcn3eiQiTPvLCuzU0hXDRXAM8RM0vZ2g.jpg",
+   "sent": 0,
+   "time": "2026-10-09T08:17:03.942Z",
+   "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265262,
+   "owner": "wmsamarabot.ton",
+   "owner_addr": "0:1d55ab47aef669b296a6491f42ea645f0ad8345b9220b53f07f7b7480e525938",
+   "mint": 1791532993,
+   "counter_issued": 265262,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/M9w8YklnG01hlsYsnH3Mu76HCOwJxw4b9HmDdj3Pk7LLBaqXZohC3CcCpFpskUbNdhDp07bc2vvJuuKG_RcpmM-ltsKhtwVWuy5AYqZR1T9gn2zIeFRHnfElB-3XdGyw7wcymSP1LbHnpDS4aMk8FUfp85EQ7Goo76T4YbznWz3RtJLgOyvtK2H_15AhzxDLiLwRVRzlb5PyXx5oFIRf7OCQZ1VBIRjErdVcAECx7jdW3dq_ezyFo4UWVaf3t0sXYPtGpujfeA6Esic9VEDkrB675BlwuOyeKlF-AL-nElsziBnRlCdtWtjH-7rQMh09jwVyWxJQazRCTzZP2BHr-Q.jpg",
+   "sent": 0,
+   "time": "2026-10-09T08:17:03.942Z",
+   "t": 1
   }
  ]
 }
