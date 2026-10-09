@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T15:31:41.017Z",
- "updated_unix": 1791559901,
- "runs": 10729,
+ "updated": "2026-10-09T15:32:41.320Z",
+ "updated_unix": 1791559961,
+ "runs": 10730,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 80439,
- "sent_total": 1637965,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 80440,
+ "sent_total": 1638000,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31643,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31643,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T14:39:20.859Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T15:31:39.902Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265317,
+   "owner": "",
+   "owner_addr": "0:503043bc86639ca807979b9dcf93edc2ef3441b425f8de16eb0d745e51c2921b",
+   "mint": 1791559844,
+   "counter_issued": 265317,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T15:32:40.150Z",
    "t": 1
   }
  ]
