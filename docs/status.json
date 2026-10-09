@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T19:56:56.827Z",
- "updated_unix": 1791575816,
- "runs": 10765,
+ "updated": "2026-10-09T20:03:11.004Z",
+ "updated_unix": 1791576191,
+ "runs": 10766,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80635,
- "sent_total": 1644817,
+ "detected_total": 80637,
+ "sent_total": 1644887,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265337,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265337,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T18:55:30.852Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265338,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265338,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T18:55:30.852Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T19:56:53.123Z",
+   "t": 3
+  },
+  {
+   "slug": "KissedFrog",
+   "gift": "Kissed Frog",
+   "number": 14088,
+   "owner": "",
+   "owner_addr": "0:1a71fbe55517a1c310679883227c7dfdd986ecd60f060ac168560ee6b000ecd9",
+   "mint": 1791527925,
+   "counter_issued": 14088,
+   "counter_total": 14278,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T20:02:56.486Z",
+   "t": 1
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15572,
+   "owner": "",
+   "owner_addr": "0:7011777930303f72dcab20ab16d67ef228c4da305706cf58acded7611e1f3ecf",
+   "mint": 1791564355,
+   "counter_issued": 15572,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T20:03:07.023Z",
    "t": 1
   }
  ]
