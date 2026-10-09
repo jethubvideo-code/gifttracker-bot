@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-09T16:35:36.618Z",
- "updated_unix": 1791563736,
- "runs": 10739,
+ "updated": "2026-10-09T16:39:40.582Z",
+ "updated_unix": 1791563980,
+ "runs": 10740,
  "collections": 121,
  "checked": 5,
- "errors": 111,
- "detected_total": 80547,
- "sent_total": 1641738,
+ "errors": 112,
+ "detected_total": 80549,
+ "sent_total": 1641808,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183592,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183592,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:07:54.827Z",
-   "t": 3
-  },
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183593,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183593,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:07:54.827Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:35:32.867Z",
+   "t": 3
+  },
+  {
+   "slug": "WinterWreath",
+   "gift": "Winter Wreath",
+   "number": 77758,
+   "owner": "",
+   "owner_addr": "0:64a6ef9ff7dddec200f7eb540b2370dcf0cbbea67a0e9546ae64f349e81dce5a",
+   "mint": 1791561139,
+   "counter_issued": 77758,
+   "counter_total": 100846,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:39:33.338Z",
+   "t": 1
+  },
+  {
+   "slug": "WinterWreath",
+   "gift": "Winter Wreath",
+   "number": 77759,
+   "owner": "",
+   "owner_addr": "0:64a6ef9ff7dddec200f7eb540b2370dcf0cbbea67a0e9546ae64f349e81dce5a",
+   "mint": 1791561201,
+   "counter_issued": 77759,
+   "counter_total": 100846,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:39:33.338Z",
    "t": 1
   }
  ]
