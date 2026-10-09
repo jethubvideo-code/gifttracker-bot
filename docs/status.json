@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T19:55:57.240Z",
- "updated_unix": 1791575757,
- "runs": 10764,
+ "updated": "2026-10-09T19:56:56.827Z",
+ "updated_unix": 1791575816,
+ "runs": 10765,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80634,
- "sent_total": 1644782,
+ "detected_total": 80635,
+ "sent_total": 1644817,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265336,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265336,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T18:55:30.852Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T19:39:40.371Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T19:55:53.190Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23028,
+   "owner": "pikmaguarantor.ton",
+   "owner_addr": "0:3d5e378e95537f91d0668cc545107b4342e1698e8df1ed62b2165ef5bada5fdd",
+   "mint": 1791574417,
+   "counter_issued": 23028,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T19:56:53.123Z",
    "t": 1
   }
  ]
