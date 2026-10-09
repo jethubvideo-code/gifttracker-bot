@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T13:29:46.021Z",
- "updated_unix": 1791552586,
- "runs": 10713,
+ "updated": "2026-10-09T13:37:40.417Z",
+ "updated_unix": 1791553060,
+ "runs": 10714,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80399,
- "sent_total": 1636511,
+ "detected_total": 80400,
+ "sent_total": 1636548,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73706,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791544912,
-   "counter_issued": 73706,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T12:18:06.873Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T13:29:38.263Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T13:29:38.263Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132933,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132933,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T13:37:38.661Z",
    "t": 1
   }
  ]
