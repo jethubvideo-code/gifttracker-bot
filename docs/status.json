@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T21:12:36.194Z",
- "updated_unix": 1791580356,
- "runs": 10774,
+ "updated": "2026-10-09T21:21:36.624Z",
+ "updated_unix": 1791580896,
+ "runs": 10775,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80708,
- "sent_total": 1647372,
+ "detected_total": 80709,
+ "sent_total": 1647407,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84057,
-   "owner": "",
-   "owner_addr": "0:7b219a7b665308dd54d5c9b641fe8bc2feb25cd6622eeca157ccccffccd2afc3",
-   "mint": 1791566026,
-   "counter_issued": 84057,
-   "counter_total": 116639,
-   "img": "https://cdn4.telesco.pe/file/cQlZ_fI7R2HURjB82noZMmHJON5FbhjPr6o2igS1sO5zVuIEi9K5M7-VeDIlEIFY2JVT5eM-JDkef9wHMtalfHy_mECE7vbOyo523lMf2iTocTFb4kuG94OmyBOroCb4Z9QdgrtmwW9vTWshliy4L4iW3Gq5qKEIqViWTegVsoh5jH9hWuvO1PfwlAgS8avqxFi1mbfJdkqUCN3UEzACrUB9Ee4QXR3-BV25OxEloGqizLJYLiSEdGYhJKRUafNehhFBl0lFnLBAQHWniY9AKIrgCgw-JSXEhv9oCQqUv9inQ_-wj3UoQj9f6XjgfbBI7rL3gwjdCTu4wzXqhz7uWw.jpg",
-   "sent": 0,
-   "time": "2026-10-09T20:33:33.213Z",
-   "u": 1
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T21:12:29.776Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T21:12:35.211Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12960,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791576165,
+   "counter_issued": 12960,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T21:21:32.195Z",
    "t": 1
   }
  ]
