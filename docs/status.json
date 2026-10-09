@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T16:43:15.795Z",
- "updated_unix": 1791564195,
- "runs": 10741,
+ "updated": "2026-10-09T16:44:35.593Z",
+ "updated_unix": 1791564275,
+ "runs": 10742,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80550,
- "sent_total": 1641843,
+ "detected_total": 80551,
+ "sent_total": 1641878,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188449,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188449,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T16:09:30.174Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T16:43:14.782Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 389891,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1791564191,
+   "counter_issued": 389891,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T16:44:34.381Z",
    "t": 1
   }
  ]
