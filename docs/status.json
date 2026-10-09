@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T11:42:52.757Z",
- "updated_unix": 1791546172,
- "runs": 10700,
+ "updated": "2026-10-09T11:46:50.668Z",
+ "updated_unix": 1791546410,
+ "runs": 10701,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80361,
- "sent_total": 1635105,
+ "detected_total": 80362,
+ "sent_total": 1635142,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 132924,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 132924,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T11:06:33.888Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T11:42:48.807Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132927,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1791546366,
+   "counter_issued": 132927,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T11:46:48.812Z",
    "t": 1
   }
  ]
