@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T10:39:19.206Z",
- "updated_unix": 1791542359,
- "runs": 10688,
+ "updated": "2026-10-09T10:42:50.336Z",
+ "updated_unix": 1791542570,
+ "runs": 10689,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 80327,
- "sent_total": 1633849,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 80328,
+ "sent_total": 1633886,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74600,
-   "owner": "",
-   "owner_addr": "0:2bc59aa16ad0d2ae70231e71b8675a4f57718ac91154c7f60998757496d952a1",
-   "mint": 1791534980,
-   "counter_issued": 74600,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T10:01:53.508Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-09T10:31:45.775Z",
    "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132922,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791541823,
+   "counter_issued": 132922,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-09T10:42:46.710Z",
+   "t": 1
   }
  ]
 }
