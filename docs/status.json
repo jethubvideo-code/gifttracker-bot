@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-09T23:27:56.568Z",
- "updated_unix": 1791588476,
- "runs": 10786,
+ "updated": "2026-10-10T00:03:06.365Z",
+ "updated_unix": 1791590586,
+ "runs": 10787,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80780,
- "sent_total": 1649890,
+ "detected_total": 80781,
+ "sent_total": 1649925,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265410,
-   "owner": "",
-   "owner_addr": "0:30073b136334c9a12eb5316c03bfd2703fd7751b073e97b2486c896fc769563d",
-   "mint": 1791580158,
-   "counter_issued": 265410,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T21:44:13.518Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T22:54:23.165Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T22:54:23.165Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T23:27:45.112Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T23:27:45.112Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T23:27:45.112Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-09T23:27:45.112Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 389909,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 389909,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T00:03:02.132Z",
    "t": 1
   }
  ]
