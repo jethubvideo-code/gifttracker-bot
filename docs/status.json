@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T03:44:10.302Z",
- "updated_unix": 1791603850,
- "runs": 10793,
+ "updated": "2026-10-10T04:10:11.876Z",
+ "updated_unix": 1791605411,
+ "runs": 10794,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80795,
- "sent_total": 1650407,
+ "detected_total": 80797,
+ "sent_total": 1650474,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265418,
-   "owner": "",
-   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
-   "mint": 1791582358,
-   "counter_issued": 265418,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T22:22:31.751Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265419,
-   "owner": "",
-   "owner_addr": "0:ad2b6c0595609d807be67bc8734fb555abc74903a99fbfe7e68bb372a00ddaec",
-   "mint": 1791582697,
-   "counter_issued": 265419,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T22:22:31.751Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T03:44:06.593Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265431,
+   "owner": "",
+   "owner_addr": "0:30073b136334c9a12eb5316c03bfd2703fd7751b073e97b2486c896fc769563d",
+   "mint": 1791604983,
+   "counter_issued": 265431,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T04:10:09.084Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265432,
+   "owner": "",
+   "owner_addr": "0:30073b136334c9a12eb5316c03bfd2703fd7751b073e97b2486c896fc769563d",
+   "mint": 1791605000,
+   "counter_issued": 265432,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T04:10:09.084Z",
    "t": 1
   }
  ]
