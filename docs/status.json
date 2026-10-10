@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-10T07:06:37.099Z",
- "updated_unix": 1791615997,
- "runs": 10801,
+ "updated": "2026-10-10T07:07:38.190Z",
+ "updated_unix": 1791616058,
+ "runs": 10802,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80808,
- "sent_total": 1650848,
+ "detected_total": 80811,
+ "sent_total": 1650950,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265427,
-   "owner": "",
-   "owner_addr": "0:1081149681595e0b1a7ed38c3e650a6bb11e1ed65d99b0d5be5b4b730bf0c0fa",
-   "mint": 1791586358,
-   "counter_issued": 265427,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T23:27:45.112Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265428,
-   "owner": "",
-   "owner_addr": "0:2fe62e53c104b62f3e6a97b77b9626b17fe27dbfee8c732191180c9be35bd61c",
-   "mint": 1791587144,
-   "counter_issued": 265428,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T23:27:45.112Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 389909,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 389909,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T00:03:02.132Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T06:31:16.303Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T06:31:16.303Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T07:06:31.925Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T07:06:31.925Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108209,
+   "owner": "",
+   "owner_addr": "0:bb9de39a9a48e9a3b67ed73f8c701cfee559a6e73f1d055e7da69a979da5364b",
+   "mint": 1791610364,
+   "counter_issued": 108209,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T07:07:33.925Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108210,
+   "owner": "",
+   "owner_addr": "0:a125fd84139c8fd43b7261647c6c78c384333ac0097ca5bd2f37661b96815fc4",
+   "mint": 1791611550,
+   "counter_issued": 108210,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T07:07:33.925Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108211,
+   "owner": "trrapis.t.me",
+   "owner_addr": "0:aa40cec95de70a7d5ecbe45c9a053aef759c0f01ffd1863494829dd4a7274907",
+   "mint": 1791613152,
+   "counter_issued": 108211,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T07:07:33.925Z",
    "t": 1
   }
  ]
