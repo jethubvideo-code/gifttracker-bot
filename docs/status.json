@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T11:16:35.980Z",
- "updated_unix": 1791630995,
- "runs": 10832,
+ "updated": "2026-10-10T11:18:35.111Z",
+ "updated_unix": 1791631115,
+ "runs": 10833,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80865,
- "sent_total": 1652825,
+ "detected_total": 80866,
+ "sent_total": 1652861,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232244,
-   "owner": "",
-   "owner_addr": "0:0eee66d298c64995f769239f6670a9c9b68de7ab8b8f584c582fe52dae6450a0",
-   "mint": 1791619874,
-   "counter_issued": 232244,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T10:05:00.137Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T11:16:32.279Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132957,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132957,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T11:18:32.822Z",
    "t": 1
   }
  ]
