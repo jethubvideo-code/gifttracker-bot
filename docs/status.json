@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T10:51:41.948Z",
- "updated_unix": 1791629501,
- "runs": 10824,
+ "updated": "2026-10-10T10:55:39.708Z",
+ "updated_unix": 1791629739,
+ "runs": 10825,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80856,
- "sent_total": 1652502,
+ "detected_total": 80857,
+ "sent_total": 1652537,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 89993,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 89993,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T08:52:25.439Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:51:30.186Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:51:30.186Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:51:30.186Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:51:40.772Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 89996,
+   "owner": "ccold.t.me",
+   "owner_addr": "0:31a0e2a09f2256395c170554be6d6733a9c263722dbdec25c09ac5f619cf3256",
+   "mint": 1791628218,
+   "counter_issued": 89996,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:55:38.754Z",
    "t": 1
   }
  ]
