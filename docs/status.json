@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T14:45:26.225Z",
- "updated_unix": 1791643526,
- "runs": 10862,
+ "updated": "2026-10-10T14:47:25.333Z",
+ "updated_unix": 1791643645,
+ "runs": 10863,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80946,
- "sent_total": 1655788,
+ "detected_total": 80947,
+ "sent_total": 1655826,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84062,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84062,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T13:05:44.405Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T14:19:00.176Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T14:45:20.095Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T14:45:23.387Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T14:45:23.387Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438146,
+   "owner": "",
+   "owner_addr": "0:d4b74402522b0d10d41e94721c743e9093b376a942c37360ceb5b27ae86271a3",
+   "mint": 1791641856,
+   "counter_issued": 438146,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T14:47:21.513Z",
    "t": 1
   }
  ]
