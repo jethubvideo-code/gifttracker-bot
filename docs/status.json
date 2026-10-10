@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T10:46:56.527Z",
- "updated_unix": 1791629216,
- "runs": 10822,
+ "updated": "2026-10-10T10:49:37.790Z",
+ "updated_unix": 1791629377,
+ "runs": 10823,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80850,
- "sent_total": 1652292,
+ "detected_total": 80852,
+ "sent_total": 1652362,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 389912,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 389912,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T08:22:07.480Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 389913,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 389913,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T08:22:07.480Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:23.722Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:23.722Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:23.722Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:41.592Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:41.592Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:52.023Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:46:52.023Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438108,
+   "owner": "",
+   "owner_addr": "0:87e2a1febca4c35c83391fc1078c9a3482e4983b72476dda1398e779dacad3ca",
+   "mint": 1791629096,
+   "counter_issued": 438108,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:49:29.256Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108214,
+   "owner": "",
+   "owner_addr": "0:f1bd9486cf263adf35516e064414d6cfd6411c5604e0270b8ef29496382a5bc8",
+   "mint": 1791621867,
+   "counter_issued": 108214,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:49:36.652Z",
    "t": 1
   }
  ]
