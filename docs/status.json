@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T18:19:05.972Z",
- "updated_unix": 1791656345,
- "runs": 10890,
+ "updated": "2026-10-10T18:19:59.846Z",
+ "updated_unix": 1791656399,
+ "runs": 10891,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81022,
- "sent_total": 1658676,
+ "detected_total": 81023,
+ "sent_total": 1658714,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265481,
-   "owner": "",
-   "owner_addr": "0:c1694760b07ba5ace7704d27fb4e2995e4ff1e7aac6eef9d4587c4dc557d380e",
-   "mint": 1791651243,
-   "counter_issued": 265481,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T17:06:26.457Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:19:01.709Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:19:01.709Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:19:01.709Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389936,
+   "owner": "horus.ton",
+   "owner_addr": "0:3c44c51bc713d92fb8d0fa278f129c713f8bf0df90cf21a8148bd92d319ef498",
+   "mint": 1791656144,
+   "counter_issued": 389936,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T18:19:59.008Z",
    "t": 1
   }
  ]
