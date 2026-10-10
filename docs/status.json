@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T08:25:14.491Z",
- "updated_unix": 1791620714,
- "runs": 10808,
+ "updated": "2026-10-10T08:27:08.939Z",
+ "updated_unix": 1791620828,
+ "runs": 10809,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 80823,
- "sent_total": 1651357,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 80824,
+ "sent_total": 1651391,
  "last_upgrades": [
-  {
-   "slug": "intelligencecup",
-   "gift": "intelligencecup",
-   "number": 124,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 124,
-   "counter_total": 220,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T02:33:24.365Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T08:25:10.646Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 389914,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 389914,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T08:27:07.486Z",
    "t": 1
   }
  ]
