@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T12:05:58.114Z",
- "updated_unix": 1791633958,
- "runs": 10840,
+ "updated": "2026-10-10T12:06:54.923Z",
+ "updated_unix": 1791634014,
+ "runs": 10841,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 80877,
- "sent_total": 1653257,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 80878,
+ "sent_total": 1653293,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84687,
-   "owner": "",
-   "owner_addr": "0:87e2a1febca4c35c83391fc1078c9a3482e4983b72476dda1398e779dacad3ca",
-   "mint": 1791628981,
-   "counter_issued": 84687,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T10:46:41.592Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T12:05:53.794Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T12:05:57.008Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438115,
+   "owner": "",
+   "owner_addr": "0:02a3c5d695f763b84c9eabd47dd92ab2d6e7744443d7bca7ba832521001fdcaa",
+   "mint": 1791633734,
+   "counter_issued": 438115,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T12:06:53.834Z",
    "t": 1
   }
  ]
