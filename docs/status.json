@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T10:02:57.064Z",
- "updated_unix": 1791626577,
- "runs": 10815,
+ "updated": "2026-10-10T10:05:07.423Z",
+ "updated_unix": 1791626707,
+ "runs": 10816,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80834,
- "sent_total": 1651732,
+ "detected_total": 80836,
+ "sent_total": 1651802,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438102,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438102,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T06:31:16.303Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438103,
-   "owner": "",
-   "owner_addr": "0:5c1a91baebff98f261e8a9eb81524682043e21c4308e3b29a1e7627bed039df9",
-   "mint": 1791612533,
-   "counter_issued": 438103,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T06:31:16.303Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T09:33:46.032Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T09:33:46.032Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:02:56.085Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232243,
+   "owner": "",
+   "owner_addr": "0:cc1bf8c5715d2946d7d93a1072266fa7d42cc55fce3f14b8de75238e487df78a",
+   "mint": 1791618394,
+   "counter_issued": 232243,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:05:00.137Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232244,
+   "owner": "",
+   "owner_addr": "0:0eee66d298c64995f769239f6670a9c9b68de7ab8b8f584c582fe52dae6450a0",
+   "mint": 1791619874,
+   "counter_issued": 232244,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:05:00.137Z",
    "t": 1
   }
  ]
