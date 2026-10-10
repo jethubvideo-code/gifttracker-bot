@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T13:35:50.831Z",
- "updated_unix": 1791639350,
- "runs": 10853,
+ "updated": "2026-10-10T13:36:48.660Z",
+ "updated_unix": 1791639408,
+ "runs": 10854,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80929,
- "sent_total": 1655134,
+ "detected_total": 80931,
+ "sent_total": 1655212,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438132,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791634154,
-   "counter_issued": 438132,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T12:26:46.467Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438133,
-   "owner": "",
-   "owner_addr": "0:02a3c5d695f763b84c9eabd47dd92ab2d6e7744443d7bca7ba832521001fdcaa",
-   "mint": 1791634581,
-   "counter_issued": 438133,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T12:26:46.467Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T13:35:43.586Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T13:35:43.586Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389927,
+   "owner": "",
+   "owner_addr": "0:9a2c4aca6f81cff3f36f978738a3c64222b687a58468ed8b0772b86ec2567b58",
+   "mint": 1791637190,
+   "counter_issued": 389927,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T13:36:45.972Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389928,
+   "owner": "",
+   "owner_addr": "0:9a2c4aca6f81cff3f36f978738a3c64222b687a58468ed8b0772b86ec2567b58",
+   "mint": 1791637330,
+   "counter_issued": 389928,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T13:36:45.972Z",
    "t": 1
   }
  ]
