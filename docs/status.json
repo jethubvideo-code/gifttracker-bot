@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-10T08:52:27.009Z",
- "updated_unix": 1791622347,
- "runs": 10811,
+ "updated": "2026-10-10T09:27:55.819Z",
+ "updated_unix": 1791624475,
+ "runs": 10812,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80827,
- "sent_total": 1651493,
+ "detected_total": 80830,
+ "sent_total": 1651595,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84061,
-   "owner": "",
-   "owner_addr": "0:80317796ccf616cda1fdbe9a5311f9ad0792c2df372b630859b9119914194a46",
-   "mint": 1791589119,
-   "counter_issued": 84061,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T04:11:06.402Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84685,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84685,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T04:12:03.863Z",
-   "t": 3
-  },
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 163978,
-   "owner": "xunnian.t.me",
-   "owner_addr": "0:a1ce39bbca9cc5a7baff7d08ce4c7725cf27b2ccfe02df153d2934455c180008",
-   "mint": 1791604567,
-   "counter_issued": 163978,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T04:26:09.308Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T08:28:07.762Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T08:28:07.762Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T08:52:25.439Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265439,
+   "owner": "",
+   "owner_addr": "0:9cc318772e5951988e7c738c6bb06275577a9520bda99db89b09d377ea960ccb",
+   "mint": 1791623150,
+   "counter_issued": 265439,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T09:27:45.576Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265440,
+   "owner": "",
+   "owner_addr": "0:cce244b5d617bc68c2f04e4a2e8b632b746909889ecfeaf1a8a2b3df1467b225",
+   "mint": 1791623774,
+   "counter_issued": 265440,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T09:27:45.576Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265441,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1791624035,
+   "counter_issued": 265441,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T09:27:45.576Z",
    "t": 1
   }
  ]
