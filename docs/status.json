@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T23:03:30.660Z",
- "updated_unix": 1791673410,
- "runs": 10919,
+ "updated": "2026-10-10T23:04:32.897Z",
+ "updated_unix": 1791673472,
+ "runs": 10920,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 81235,
- "sent_total": 1666758,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 81237,
+ "sent_total": 1666834,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265531,
-   "owner": "",
-   "owner_addr": "0:a6f9063ed718cf7543a3b4aad34d1a201088478d01a84fd62e6aec8c2ac4ca29",
-   "mint": 1791665480,
-   "counter_issued": 265531,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:18:55.271Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265532,
-   "owner": "",
-   "owner_addr": "0:a6f9063ed718cf7543a3b4aad34d1a201088478d01a84fd62e6aec8c2ac4ca29",
-   "mint": 1791665496,
-   "counter_issued": 265532,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:18:55.271Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T23:03:21.751Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SwagBag",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T23:03:27.068Z",
+   "t": 2
+  },
+  {
+   "slug": "MightyArm",
+   "gift": "MightyArm",
+   "number": 3830,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3830,
+   "counter_total": 4123,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T23:04:25.786Z",
+   "t": 1
+  },
+  {
+   "slug": "MightyArm",
+   "gift": "Mighty Arm",
+   "number": 3831,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791673030,
+   "counter_issued": 3831,
+   "counter_total": 4123,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T23:04:25.786Z",
    "t": 1
   }
  ]
