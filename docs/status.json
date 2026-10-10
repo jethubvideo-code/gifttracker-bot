@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T10:05:07.423Z",
- "updated_unix": 1791626707,
- "runs": 10816,
+ "updated": "2026-10-10T10:08:03.965Z",
+ "updated_unix": 1791626883,
+ "runs": 10817,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80836,
- "sent_total": 1651802,
+ "detected_total": 80838,
+ "sent_total": 1651872,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 132951,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 132951,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T07:06:31.925Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 132952,
-   "owner": "xiaoshuai.ton",
-   "owner_addr": "0:a9ba38463a84ac3a59932b22289c7434ba154675c2e2dff0a66bc08b2a36240c",
-   "mint": 1791607075,
-   "counter_issued": 132952,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T07:06:31.925Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:05:00.137Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T10:05:00.137Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132954,
+   "owner": "",
+   "owner_addr": "0:0d00048bd2efdd683ad1ca7c81d49a6e59116a0d55faf6dbea7f9d6b080d7ddc",
+   "mint": 1791622560,
+   "counter_issued": 132954,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:08:01.285Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132955,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791624879,
+   "counter_issued": 132955,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T10:08:01.285Z",
    "t": 1
   }
  ]
