@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T05:33:05.027Z",
- "updated_unix": 1791610385,
- "runs": 10798,
+ "updated": "2026-10-10T05:55:59.001Z",
+ "updated_unix": 1791611759,
+ "runs": 10799,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80802,
- "sent_total": 1650644,
+ "detected_total": 80804,
+ "sent_total": 1650712,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438099,
-   "owner": "",
-   "owner_addr": "0:f4c4db474d8edf4e18ab5f22a37585443ecf50bf5cb25febf33a10f4fbffd023",
-   "mint": 1791584768,
-   "counter_issued": 438099,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T22:52:24.785Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438100,
-   "owner": "pubgla222.t.me",
-   "owner_addr": "0:f4c4db474d8edf4e18ab5f22a37585443ecf50bf5cb25febf33a10f4fbffd023",
-   "mint": 1791584789,
-   "counter_issued": 438100,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T22:52:24.785Z",
-   "t": 3
-  },
   {
    "slug": "RareBird",
    "gift": "RareBird",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T05:32:58.515Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T05:33:03.837Z",
+   "t": 2
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 125,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 125,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T05:55:52.213Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 89992,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 89992,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T05:55:57.912Z",
    "t": 1
   }
  ]
