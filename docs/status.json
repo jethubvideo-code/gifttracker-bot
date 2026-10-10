@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T13:10:37.812Z",
- "updated_unix": 1791637837,
- "runs": 10849,
+ "updated": "2026-10-10T13:18:47.896Z",
+ "updated_unix": 1791638327,
+ "runs": 10850,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80925,
- "sent_total": 1654984,
+ "detected_total": 80927,
+ "sent_total": 1655056,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438128,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438128,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T12:26:46.467Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438129,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438129,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T12:26:46.467Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T13:10:36.748Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12963,
+   "owner": "sicong.ton",
+   "owner_addr": "0:c066dd0b10b1c5709136ab223903261d7b91af42543dbb9146922ce4caa3b6a3",
+   "mint": 1791636913,
+   "counter_issued": 12963,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T13:18:39.426Z",
+   "t": 1
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22042,
+   "owner": "burtonskulls.ton",
+   "owner_addr": "0:4df854f05c3a67aa632b096df3092e78bbad3551a84b95ff56cf1aaeccdced5d",
+   "mint": 1791628748,
+   "counter_issued": 22042,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T13:18:46.945Z",
    "t": 1
   }
  ]
