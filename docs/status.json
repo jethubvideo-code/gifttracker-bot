@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T04:12:04.974Z",
- "updated_unix": 1791605524,
- "runs": 10796,
+ "updated": "2026-10-10T04:26:10.696Z",
+ "updated_unix": 1791606370,
+ "runs": 10797,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80799,
- "sent_total": 1650542,
+ "detected_total": 80800,
+ "sent_total": 1650576,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265422,
-   "owner": "",
-   "owner_addr": "0:c8fdb39bb2f0cd3ff9ce2af82ef71d358c4f8c6f25d1b83509ccd5c26a63ccba",
-   "mint": 1791583116,
-   "counter_issued": 265422,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T22:22:31.751Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T04:12:03.863Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 163978,
+   "owner": "xunnian.t.me",
+   "owner_addr": "0:a1ce39bbca9cc5a7baff7d08ce4c7725cf27b2ccfe02df153d2934455c180008",
+   "mint": 1791604567,
+   "counter_issued": 163978,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T04:26:09.308Z",
    "t": 1
   }
  ]
