@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T11:48:57.111Z",
- "updated_unix": 1791632937,
- "runs": 10835,
+ "updated": "2026-10-10T11:50:53.733Z",
+ "updated_unix": 1791633053,
+ "runs": 10836,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80869,
- "sent_total": 1652969,
+ "detected_total": 80870,
+ "sent_total": 1653005,
  "last_upgrades": [
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23487,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23487,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T10:13:57.837Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T11:23:32.225Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T11:23:32.225Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T11:48:52.969Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132958,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132958,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T11:50:49.931Z",
    "t": 1
   }
  ]
