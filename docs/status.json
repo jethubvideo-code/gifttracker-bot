@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T06:31:19.616Z",
- "updated_unix": 1791613879,
- "runs": 10800,
+ "updated": "2026-10-10T07:06:37.099Z",
+ "updated_unix": 1791615997,
+ "runs": 10801,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80806,
- "sent_total": 1650780,
+ "detected_total": 80808,
+ "sent_total": 1650848,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265425,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791585481,
-   "counter_issued": 265425,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T23:27:45.112Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265426,
-   "owner": "",
-   "owner_addr": "0:acc3b00876bfd717182d8363a02a4cd2306723061f81d88657a8c471319cdaf9",
-   "mint": 1791586128,
-   "counter_issued": 265426,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-09T23:27:45.112Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T05:55:52.213Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T05:55:57.912Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T06:31:16.303Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T06:31:16.303Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132951,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132951,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T07:06:31.925Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132952,
+   "owner": "xiaoshuai.ton",
+   "owner_addr": "0:a9ba38463a84ac3a59932b22289c7434ba154675c2e2dff0a66bc08b2a36240c",
+   "mint": 1791607075,
+   "counter_issued": 132952,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T07:06:31.925Z",
    "t": 1
   }
  ]
