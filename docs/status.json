@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T16:36:12.336Z",
- "updated_unix": 1791650172,
- "runs": 10873,
+ "updated": "2026-10-10T16:40:49.294Z",
+ "updated_unix": 1791650449,
+ "runs": 10874,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 80965,
- "sent_total": 1656510,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 80967,
+ "sent_total": 1656586,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438145,
-   "owner": "",
-   "owner_addr": "0:2be212ea31703cb04069800a2d81bdc50c084c5e35840e6eb9e081933a646567",
-   "mint": 1791639386,
-   "counter_issued": 438145,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T13:39:55.611Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90001,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90001,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T13:40:01.346Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-10-10T16:34:20.294Z",
    "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438147,
+   "owner": "",
+   "owner_addr": "0:4c704da748289db1bcd4e18245e4d8616c42ce3dbc262e0b0c8579ae8a65cc58",
+   "mint": 1791649046,
+   "counter_issued": 438147,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T16:40:42.037Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438148,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791649186,
+   "counter_issued": 438148,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T16:40:42.037Z",
+   "t": 1
   }
  ]
 }
