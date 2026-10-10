@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T14:10:05.890Z",
- "updated_unix": 1791641405,
- "runs": 10859,
+ "updated": "2026-10-10T14:11:06.962Z",
+ "updated_unix": 1791641466,
+ "runs": 10860,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 80941,
- "sent_total": 1655598,
+ "detected_total": 80942,
+ "sent_total": 1655636,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265451,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265451,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T12:59:23.468Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T13:50:53.678Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T14:10:01.268Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T14:10:04.606Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26076,
+   "owner": "sicong.ton",
+   "owner_addr": "0:c066dd0b10b1c5709136ab223903261d7b91af42543dbb9146922ce4caa3b6a3",
+   "mint": 1791636771,
+   "counter_issued": 26076,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T14:11:03.276Z",
    "t": 1
   }
  ]
