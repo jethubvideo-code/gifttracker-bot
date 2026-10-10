@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T22:59:23.283Z",
- "updated_unix": 1791673163,
- "runs": 10918,
+ "updated": "2026-10-10T23:03:30.660Z",
+ "updated_unix": 1791673410,
+ "runs": 10919,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81233,
- "sent_total": 1666682,
+ "detected_total": 81235,
+ "sent_total": 1666758,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438170,
-   "owner": "nimlitry.t.me",
-   "owner_addr": "0:92288e234acd54e03683e538c67d29f8494100996ceeb98cb72bba218ee70672",
-   "mint": 1791665646,
-   "counter_issued": 438170,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:13:32.841Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265530,
-   "owner": "",
-   "owner_addr": "0:a6f9063ed718cf7543a3b4aad34d1a201088478d01a84fd62e6aec8c2ac4ca29",
-   "mint": 1791665471,
-   "counter_issued": 265530,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:18:55.271Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:30:13.761Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:30:13.761Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:59:19.458Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265545,
+   "owner": "",
+   "owner_addr": "0:1dce748a186ef31cc1af657305669273f98d9c2a0431ecbb7739cf9fa00c059a",
+   "mint": 1791673391,
+   "counter_issued": 265545,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T23:03:21.751Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232245,
+   "owner": "",
+   "owner_addr": "0:aa51c42c9470e547d22f700ffc4164e6e5f209a4531df86381640ab41aa709bf",
+   "mint": 1791673284,
+   "counter_issued": 232245,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T23:03:27.068Z",
    "t": 1
   }
  ]
