@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T22:28:20.107Z",
- "updated_unix": 1791671300,
- "runs": 10916,
+ "updated": "2026-10-10T22:30:20.860Z",
+ "updated_unix": 1791671420,
+ "runs": 10917,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81230,
- "sent_total": 1666568,
+ "detected_total": 81232,
+ "sent_total": 1666644,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438167,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438167,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:13:32.841Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438168,
-   "owner": "",
-   "owner_addr": "0:4092d8de22a31f513438bb756702ce2ff1a83ff6d5c361d23e9863c6a9b7316d",
-   "mint": 1791665128,
-   "counter_issued": 438168,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:13:32.841Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:28:10.330Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:28:10.330Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:28:10.330Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:28:17.674Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T22:28:17.674Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132974,
+   "owner": "",
+   "owner_addr": "0:9b6d9e2461a5e95d3e12ce51230d27f0b8c4ec7de9c4e6fd5e334ce1de60bed8",
+   "mint": 1791664377,
+   "counter_issued": 132974,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T22:30:13.761Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 132975,
+   "owner": "detachment.ton",
+   "owner_addr": "0:6b494d14a879283cd7c74759c1b5d1b2e6c69c1bc9fd4c70dac62983e5017e14",
+   "mint": 1791670364,
+   "counter_issued": 132975,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T22:30:13.761Z",
    "t": 1
   }
  ]
