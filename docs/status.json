@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-10T18:25:08.577Z",
- "updated_unix": 1791656708,
- "runs": 10893,
+ "updated": "2026-10-10T18:26:05.059Z",
+ "updated_unix": 1791656765,
+ "runs": 10894,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81037,
- "sent_total": 1659246,
+ "detected_total": 81039,
+ "sent_total": 1659322,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 31684,
-   "owner": "",
-   "owner_addr": "0:e362a26c4eab1ed3e735f1dcb6355541f98e3acccc86876ae3d75db0c35ba2fa",
-   "mint": 1791649005,
-   "counter_issued": 31684,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T17:42:47.000Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31685,
-   "owner": "juypeon.t.me",
-   "owner_addr": "0:9040cbf5cf9a2cc6c9bd86007e918bb29e0c0851c6d6f74579f3c6c7880a243e",
-   "mint": 1791654149,
-   "counter_issued": 31685,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T17:42:47.000Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:24:58.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:24:58.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:24:58.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:24:58.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:24:58.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T18:24:58.897Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132968,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132968,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T18:25:58.856Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265499,
+   "owner": "",
+   "owner_addr": "0:6b1fddb8b454b9fd6cece52aaaedba28ef0143e7e0c067cad595d54db13ef0d9",
+   "mint": 1791656718,
+   "counter_issued": 265499,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-10T18:26:03.942Z",
    "t": 1
   }
  ]
