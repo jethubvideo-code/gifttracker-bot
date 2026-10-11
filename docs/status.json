@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T05:01:26.785Z",
- "updated_unix": 1791694886,
- "runs": 10944,
+ "updated": "2026-10-11T05:07:22.939Z",
+ "updated_unix": 1791695242,
+ "runs": 10945,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81595,
- "sent_total": 1680746,
+ "detected_total": 81596,
+ "sent_total": 1680785,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183611,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183611,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T04:41:10.015Z",
-   "t": 3
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T05:01:18.249Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T05:01:18.249Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T05:01:25.451Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265567,
+   "owner": "",
+   "owner_addr": "0:9d21c8240549d41176498409974172ff5f5e1e05b8727aa54bb379eabdb1ded7",
+   "mint": 1791694038,
+   "counter_issued": 265567,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T05:07:21.585Z",
    "t": 1
   }
  ]
