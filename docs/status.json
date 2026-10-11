@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T19:34:50.026Z",
- "updated_unix": 1791747290,
- "runs": 11080,
+ "updated": "2026-10-11T19:37:46.149Z",
+ "updated_unix": 1791747466,
+ "runs": 11081,
  "collections": 121,
- "checked": 30,
- "errors": 91,
- "detected_total": 82742,
- "sent_total": 1730512,
+ "checked": 29,
+ "errors": 92,
+ "detected_total": 82743,
+ "sent_total": 1730556,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438304,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438304,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T19:02:43.592Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T19:15:59.599Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T19:34:46.929Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T19:34:46.929Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133017,
+   "owner": "",
+   "owner_addr": "0:a90003aed87400061e7934c13606073455bc378800392ad6ca3c1989b7b12c84",
+   "mint": 1791747102,
+   "counter_issued": 133017,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T19:37:44.859Z",
    "t": 1
   }
  ]
