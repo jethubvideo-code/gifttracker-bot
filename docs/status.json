@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-11T05:46:49.312Z",
- "updated_unix": 1791697609,
- "runs": 10949,
+ "updated": "2026-10-11T06:03:03.890Z",
+ "updated_unix": 1791698583,
+ "runs": 10950,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 81603,
- "sent_total": 1681058,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 81605,
+ "sent_total": 1681136,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183619,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183619,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T04:41:10.015Z",
-   "t": 3
-  },
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 183620,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 183620,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T04:41:10.015Z",
-   "t": 3
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T05:46:48.338Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132981,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132981,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T06:02:56.290Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438181,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791695640,
+   "counter_issued": 438181,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T06:03:02.275Z",
    "t": 1
   }
  ]
