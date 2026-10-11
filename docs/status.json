@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T16:38:17.695Z",
- "updated_unix": 1791736697,
- "runs": 11056,
+ "updated": "2026-10-11T16:47:15.220Z",
+ "updated_unix": 1791737235,
+ "runs": 11057,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82363,
- "sent_total": 1713836,
+ "detected_total": 82364,
+ "sent_total": 1713880,
  "last_upgrades": [
-  {
-   "slug": "PetSnake",
-   "gift": "PetSnake",
-   "number": 192003,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 192003,
-   "counter_total": 279106,
-   "img": "https://cdn4.telesco.pe/file/E9zVEexANyg93iF7hdytAcP5-Uga-9csfXLS72QinV5_mU9-0SKPXy9PMpvl6x3Bq7jGZPcL0gOw6Y4Zox5R4jgjwwynolyIqdiSwobdU-MShbinMEk2rviQ6caO5_JRVPWhGMXjHePsHj00-RfIsFkeECYe07-OSWXMrE6KvHeyqdIAfnW12FZhNTeYxgavZNuGK5mv-9O7saT1p3ES6mn4GEKeALPphx1JFckPgMtbA-oNFPPc7WMBYKxGpyv4frVwwqL4G-nDLkAeL10wWlqa_nevKt6rEX406B43Y2xGnGufRS5fbyH284R9sqe-64oioaKICNY_OKt2ij5wUQ.jpg",
-   "sent": 0,
-   "time": "2026-10-11T16:13:20.648Z",
-   "t": 3
-  },
   {
    "slug": "PetSnake",
    "gift": "PetSnake",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:17:43.062Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:38:14.665Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:38:14.665Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3793,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3793,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:47:14.074Z",
    "t": 1
   }
  ]
