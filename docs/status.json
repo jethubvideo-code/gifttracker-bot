@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-11T16:03:06.745Z",
- "updated_unix": 1791734586,
- "runs": 11049,
+ "updated": "2026-10-11T16:04:11.691Z",
+ "updated_unix": 1791734651,
+ "runs": 11050,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82286,
- "sent_total": 1710452,
+ "detected_total": 82288,
+ "sent_total": 1710539,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31862,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31862,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31863,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31863,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z",
-   "t": 2
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:46:21.246Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:03:01.294Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:03:01.294Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:03:01.294Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232262,
+   "owner": "",
+   "owner_addr": "0:acc3b00876bfd717182d8363a02a4cd2306723061f81d88657a8c471319cdaf9",
+   "mint": 1791725643,
+   "counter_issued": 232262,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:04:03.524Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232263,
+   "owner": "",
+   "owner_addr": "0:95d825c16798e921b25ce68bdd0060934985fdcd5c7ba9118a1d88ee1eb2239a",
+   "mint": 1791732749,
+   "counter_issued": 232263,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:04:03.524Z",
    "t": 1
   }
  ]
