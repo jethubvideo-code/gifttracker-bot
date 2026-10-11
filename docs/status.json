@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-10T23:54:00.684Z",
- "updated_unix": 1791676440,
- "runs": 10926,
+ "updated": "2026-10-11T00:45:16.223Z",
+ "updated_unix": 1791679516,
+ "runs": 10927,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 81248,
- "sent_total": 1667253,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 81249,
+ "sent_total": 1667292,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3783,
-   "owner": "",
-   "owner_addr": "0:ee61eaf13222dbf72da8b60805122e492e4bd97c08265acfef8d0878ee2705e2",
-   "mint": 1791661308,
-   "counter_issued": 3783,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T21:54:49.153Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T23:53:59.674Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108225,
+   "owner": "wolfbuffett.ton",
+   "owner_addr": "0:24616245dda9f8432753b2d774418771d9abc8cef37cc2f9f0a01f550e69eabe",
+   "mint": 1791677725,
+   "counter_issued": 108225,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T00:45:15.034Z",
    "t": 1
   }
  ]
