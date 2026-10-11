@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T15:30:48.302Z",
- "updated_unix": 1791732648,
- "runs": 11041,
+ "updated": "2026-10-11T15:33:43.755Z",
+ "updated_unix": 1791732823,
+ "runs": 11042,
  "collections": 121,
  "checked": 29,
  "errors": 92,
- "detected_total": 82205,
- "sent_total": 1706888,
+ "detected_total": 82206,
+ "sent_total": 1706932,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265771,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265771,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:52:48.281Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:30:39.078Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:30:44.619Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265789,
+   "owner": "nastyusha-nessy.ton",
+   "owner_addr": "0:f84718f7d303fdb10f226a5458447abcbfd07ce49cf7c06373dc82e7e738c507",
+   "mint": 1791732800,
+   "counter_issued": 265789,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T15:33:42.393Z",
    "t": 1
   }
  ]
