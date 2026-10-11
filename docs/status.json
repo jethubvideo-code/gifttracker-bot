@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-11T15:27:48.384Z",
- "updated_unix": 1791732468,
- "runs": 11040,
+ "updated": "2026-10-11T15:30:48.302Z",
+ "updated_unix": 1791732648,
+ "runs": 11041,
  "collections": 121,
- "checked": 30,
- "errors": 91,
- "detected_total": 82203,
- "sent_total": 1706800,
+ "checked": 29,
+ "errors": 92,
+ "detected_total": 82205,
+ "sent_total": 1706888,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265769,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265769,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:52:48.281Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265770,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265770,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:52:48.281Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:06:36.974Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:06:36.974Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:27:41.637Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SignetRing",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:27:47.147Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90022,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90022,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T15:30:39.078Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23029,
+   "owner": "",
+   "owner_addr": "0:c703f30abef64a379c740e84173cc681192b9ea3947f982e30b769c5e8b82e24",
+   "mint": 1791728936,
+   "counter_issued": 23029,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T15:30:44.619Z",
    "t": 1
   }
  ]
