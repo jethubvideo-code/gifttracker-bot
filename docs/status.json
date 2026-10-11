@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-11T16:14:47.253Z",
- "updated_unix": 1791735287,
- "runs": 11053,
+ "updated": "2026-10-11T16:16:50.923Z",
+ "updated_unix": 1791735410,
+ "runs": 11054,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 82357,
- "sent_total": 1713574,
+ "checked": 3,
+ "errors": 118,
+ "detected_total": 82360,
+ "sent_total": 1713705,
  "last_upgrades": [
-  {
-   "slug": "PetSnake",
-   "gift": "PetSnake",
-   "number": 191997,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 191997,
-   "counter_total": 279106,
-   "img": "https://cdn4.telesco.pe/file/E9zVEexANyg93iF7hdytAcP5-Uga-9csfXLS72QinV5_mU9-0SKPXy9PMpvl6x3Bq7jGZPcL0gOw6Y4Zox5R4jgjwwynolyIqdiSwobdU-MShbinMEk2rviQ6caO5_JRVPWhGMXjHePsHj00-RfIsFkeECYe07-OSWXMrE6KvHeyqdIAfnW12FZhNTeYxgavZNuGK5mv-9O7saT1p3ES6mn4GEKeALPphx1JFckPgMtbA-oNFPPc7WMBYKxGpyv4frVwwqL4G-nDLkAeL10wWlqa_nevKt6rEX406B43Y2xGnGufRS5fbyH284R9sqe-64oioaKICNY_OKt2ij5wUQ.jpg",
-   "sent": 0,
-   "time": "2026-10-11T16:13:20.648Z",
-   "t": 2
-  },
-  {
-   "slug": "PetSnake",
-   "gift": "PetSnake",
-   "number": 191998,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 191998,
-   "counter_total": 279106,
-   "img": "https://cdn4.telesco.pe/file/E9zVEexANyg93iF7hdytAcP5-Uga-9csfXLS72QinV5_mU9-0SKPXy9PMpvl6x3Bq7jGZPcL0gOw6Y4Zox5R4jgjwwynolyIqdiSwobdU-MShbinMEk2rviQ6caO5_JRVPWhGMXjHePsHj00-RfIsFkeECYe07-OSWXMrE6KvHeyqdIAfnW12FZhNTeYxgavZNuGK5mv-9O7saT1p3ES6mn4GEKeALPphx1JFckPgMtbA-oNFPPc7WMBYKxGpyv4frVwwqL4G-nDLkAeL10wWlqa_nevKt6rEX406B43Y2xGnGufRS5fbyH284R9sqe-64oioaKICNY_OKt2ij5wUQ.jpg",
-   "sent": 0,
-   "time": "2026-10-11T16:13:20.648Z",
-   "t": 2
-  },
-  {
-   "slug": "PetSnake",
-   "gift": "PetSnake",
-   "number": 191999,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 191999,
-   "counter_total": 279106,
-   "img": "https://cdn4.telesco.pe/file/E9zVEexANyg93iF7hdytAcP5-Uga-9csfXLS72QinV5_mU9-0SKPXy9PMpvl6x3Bq7jGZPcL0gOw6Y4Zox5R4jgjwwynolyIqdiSwobdU-MShbinMEk2rviQ6caO5_JRVPWhGMXjHePsHj00-RfIsFkeECYe07-OSWXMrE6KvHeyqdIAfnW12FZhNTeYxgavZNuGK5mv-9O7saT1p3ES6mn4GEKeALPphx1JFckPgMtbA-oNFPPc7WMBYKxGpyv4frVwwqL4G-nDLkAeL10wWlqa_nevKt6rEX406B43Y2xGnGufRS5fbyH284R9sqe-64oioaKICNY_OKt2ij5wUQ.jpg",
-   "sent": 0,
-   "time": "2026-10-11T16:13:20.648Z",
-   "t": 3
-  },
   {
    "slug": "PetSnake",
    "gift": "PetSnake",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:14:40.989Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:14:40.989Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:14:40.989Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T16:14:40.989Z",
+   "t": 2
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117626,
+   "owner": "",
+   "owner_addr": "0:e74cb85ab7045675dfa0643139d4b3f30490414aef12b1bedd9524bb2c68476c",
+   "mint": 1791728541,
+   "counter_issued": 117626,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:16:46.008Z",
+   "t": 1
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117627,
+   "owner": "",
+   "owner_addr": "0:ca4739990f22d84111cb668e8c639a298d74dddb5cb27e09a9fc4554acb3504c",
+   "mint": 1791731023,
+   "counter_issued": 117627,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:16:46.008Z",
+   "t": 1
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117628,
+   "owner": "",
+   "owner_addr": "0:a2c4262436158230391808be249fecc59a967dbf067a4ab6eaa134863a4d4c39",
+   "mint": 1791731089,
+   "counter_issued": 117628,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:16:46.008Z",
    "t": 1
   }
  ]
