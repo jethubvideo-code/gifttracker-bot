@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-11T11:59:00.369Z",
- "updated_unix": 1791719940,
- "runs": 11006,
+ "updated": "2026-10-11T12:02:06.894Z",
+ "updated_unix": 1791720126,
+ "runs": 11007,
  "collections": 121,
  "checked": 4,
  "errors": 117,
- "detected_total": 81858,
- "sent_total": 1691645,
+ "detected_total": 81860,
+ "sent_total": 1691731,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265689,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265689,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T11:34:08.642Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265690,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265690,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T11:34:08.642Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T11:58:56.682Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 132995,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 132995,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T12:01:57.287Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265713,
+   "owner": "onlyterpsemilia.ton",
+   "owner_addr": "0:811423940dc93bed6971ec647d735bcb757cd222203e8405f0a4d6467d9e5f4a",
+   "mint": 1791720109,
+   "counter_issued": 265713,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T12:02:05.446Z",
    "t": 1
   }
  ]
