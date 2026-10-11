@@ -1,175 +1,13 @@
 {
- "updated": "2026-10-11T18:06:06.738Z",
- "updated_unix": 1791741966,
- "runs": 11071,
+ "updated": "2026-10-11T18:07:33.264Z",
+ "updated_unix": 1791742053,
+ "runs": 11072,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82601,
- "sent_total": 1724308,
+ "detected_total": 82613,
+ "sent_total": 1724836,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71641,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740530,
-   "counter_issued": 71641,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71642,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740540,
-   "counter_issued": 71642,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71643,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740549,
-   "counter_issued": 71643,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71644,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740563,
-   "counter_issued": 71644,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71645,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740962,
-   "counter_issued": 71645,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71646,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740973,
-   "counter_issued": 71646,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71647,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740984,
-   "counter_issued": 71647,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/gwwlOda9bowxl69mezunMl5IdZQ5RFdsQSbur41uxQ7SytVrfgWci1akzfWSm52WcA24TiSTrBP3Ubq9N9OpSkXGRwiEFhADBkVexx4J7kytXB0ZewiZ72MPcG2OS2Zu10hww6asUhjCHG4ZBxr6sjuMHPOR3SxhNT3aHoQIMoJ0sj3GB-X1CFqyUN_g565YaFJ0JqczuFBAeM5WCo1v9oROUJV-olm8nqbs_8he2BZcafLvoR-Y7gEI_V06bcsw-mGqaXOb8qci2RrN6cl9u8sO4HjInH6O6BOqwTlrXdUVsVHZy420jGmlNMtkUle0mqwQ5033puSwFrek9xQFGA.jpg",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z",
-   "u": 1
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71648,
-   "owner": "",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791740993,
-   "counter_issued": 71648,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z",
-   "t": 1
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71649,
-   "owner": "capitulation.ton",
-   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
-   "mint": 1791741002,
-   "counter_issued": 71649,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:03:25.228Z",
-   "t": 1
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35330,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791640486,
-   "counter_issued": 35330,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35331,
-   "owner": "",
-   "owner_addr": "0:87c40d81fd5db656b73ce7d923e11565f2b97b3babdd9e4a72d70898aa7067df",
-   "mint": 1791654885,
-   "counter_issued": 35331,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35332,
-   "owner": "",
-   "owner_addr": "0:de9ee4367ba53bc6562ec3f7257634e7ab4606408585c472d5a6b39365385126",
-   "mint": 1791656001,
-   "counter_issued": 35332,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -182,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -196,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -210,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -224,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:04:26.858Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -238,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -252,7 +90,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -266,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -280,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -294,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -308,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -322,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -336,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -350,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -364,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -378,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -392,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -406,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T18:05:12.584Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "TrappedHeart",
@@ -420,6 +258,174 @@
    "img": "https://cdn4.telesco.pe/file/XFj1aXBU-lLddrt93j9bz2962yBRunKssrMV_uHoc6nNSVoo8mGKOIWHyrkh-K9A4OlzrBnZZKzUJSvyLjcYWyfEXJkUQvR-srLYnw98jEPvwa1h53R573mCf_E9nPbsYajffjC3Knbv8RAWCoIx9z5_0TF3Zj5Ro9QJIZdEKXHQwLIrKe-V5TBq-IoNIawtGHs29kL4t4NPhyLw0mlQ3rTGUhcv03eE42UC5XWI5BVopPtNg7FjKu9_S23xDD6PgDqbD8ntiSgJTATZTDTSavxCMxryl9Ahi0j3W5iZYDvAiRB1NZQUhzwI9oPFWcTI39ZCsV6HiKfX_wQT8S_V2w.jpg",
    "sent": 0,
    "time": "2026-10-11T18:05:59.995Z",
+   "t": 3
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20832,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20832,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20833,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20833,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20834,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20834,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20835,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20835,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20836,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20836,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20837,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20837,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20838,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20838,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20839,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20839,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:06:56.594Z",
+   "t": 1
+  },
+  {
+   "slug": "lovecandle",
+   "gift": "Love Candles",
+   "number": 24570,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 24570,
+   "counter_total": 30296,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:07:21.891Z",
+   "t": 1
+  },
+  {
+   "slug": "lovecandle",
+   "gift": "Love Candles",
+   "number": 24571,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 24571,
+   "counter_total": 30296,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:07:21.891Z",
+   "t": 1
+  },
+  {
+   "slug": "lovecandle",
+   "gift": "Love Candles",
+   "number": 24572,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 24572,
+   "counter_total": 30296,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:07:21.891Z",
+   "t": 1
+  },
+  {
+   "slug": "lovecandle",
+   "gift": "Love Candles",
+   "number": 24573,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 24573,
+   "counter_total": 30296,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T18:07:21.891Z",
    "t": 1
   }
  ]
