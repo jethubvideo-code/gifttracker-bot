@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-11T21:35:42.446Z",
- "updated_unix": 1791754542,
- "runs": 11093,
+ "updated": "2026-10-11T21:56:06.387Z",
+ "updated_unix": 1791755766,
+ "runs": 11094,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82907,
- "sent_total": 1737765,
+ "detected_total": 82910,
+ "sent_total": 1737897,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265894,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265894,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T20:27:14.184Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265895,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265895,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T20:27:14.184Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265896,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265896,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T20:27:14.184Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T21:35:34.170Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T21:35:34.170Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T21:35:34.170Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90033,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90033,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T21:55:53.118Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90034,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90034,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T21:55:53.118Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389988,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791754898,
+   "counter_issued": 389988,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T21:56:04.772Z",
    "t": 1
   }
  ]
