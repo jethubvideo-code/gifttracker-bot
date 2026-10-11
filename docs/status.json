@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T09:45:11.542Z",
- "updated_unix": 1791711911,
- "runs": 10980,
+ "updated": "2026-10-11T09:48:10.347Z",
+ "updated_unix": 1791712090,
+ "runs": 10981,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81697,
- "sent_total": 1684724,
+ "detected_total": 81698,
+ "sent_total": 1684766,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 389956,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 389956,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T09:18:48.534Z",
-   "t": 3
-  },
   {
    "slug": "LowRider",
    "gift": "Low Rider",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T09:45:08.222Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T09:45:08.222Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12964,
+   "owner": "facaiyu888.ton",
+   "owner_addr": "0:08cbc5335f41c2bd8ebea41737d5dc48dde66160199cff474dcd6caa56f761f1",
+   "mint": 1791707675,
+   "counter_issued": 12964,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T09:48:06.518Z",
    "t": 1
   }
  ]
