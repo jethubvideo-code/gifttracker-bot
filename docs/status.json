@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T09:22:02.973Z",
- "updated_unix": 1791710522,
- "runs": 10974,
+ "updated": "2026-10-11T09:34:54.167Z",
+ "updated_unix": 1791711294,
+ "runs": 10975,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 81668,
- "sent_total": 1683506,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 81669,
+ "sent_total": 1683548,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265584,
-   "owner": "",
-   "owner_addr": "0:81bb519778d80ed2e0715be085f94dcc292a3e93e1a8a14e28775bd63c7a86fc",
-   "mint": 1791701567,
-   "counter_issued": 265584,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T08:24:10.412Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-11T09:18:48.534Z",
    "t": 3
+  },
+  {
+   "slug": "LowRider",
+   "gift": "Low Rider",
+   "number": 23488,
+   "owner": "",
+   "owner_addr": "0:d6cc03fb1f932ee5d1cf1570fb2c5be4e3d1fcbffbb1992b48e7e0779cc10344",
+   "mint": 1791702085,
+   "counter_issued": 23488,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T09:34:52.610Z",
+   "t": 1
   }
  ]
 }
