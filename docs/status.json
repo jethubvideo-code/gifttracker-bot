@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-11T14:55:27.037Z",
- "updated_unix": 1791730527,
- "runs": 11035,
+ "updated": "2026-10-11T14:56:34.562Z",
+ "updated_unix": 1791730594,
+ "runs": 11036,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82184,
- "sent_total": 1705965,
+ "detected_total": 82187,
+ "sent_total": 1706097,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108269,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108269,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:32:28.475Z",
-   "t": 3
-  },
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108270,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108270,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:32:28.475Z",
-   "t": 3
-  },
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108271,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108271,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:32:28.475Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T14:55:24.201Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T14:55:24.201Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90019,
+   "owner": "",
+   "owner_addr": "0:04574f3042a514d29efdc9b859c0f6d61ad31110bec0aa5f8b20b76e94998340",
+   "mint": 1791725762,
+   "counter_issued": 90019,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T14:56:26.767Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90020,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791726756,
+   "counter_issued": 90020,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T14:56:26.767Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90021,
+   "owner": "",
+   "owner_addr": "0:11920dc1bdebc415bbbcb237666e44c1585edd35b7474a92b39336e9b8742f65",
+   "mint": 1791729973,
+   "counter_issued": 90021,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T14:56:26.767Z",
    "t": 1
   }
  ]
