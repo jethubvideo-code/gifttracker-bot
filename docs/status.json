@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T10:49:29.293Z",
- "updated_unix": 1791715769,
- "runs": 10995,
+ "updated": "2026-10-11T10:50:28.012Z",
+ "updated_unix": 1791715828,
+ "runs": 10996,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 81781,
- "sent_total": 1688335,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 81782,
+ "sent_total": 1688378,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265657,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265657,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T10:23:30.933Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T10:49:26.169Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T10:49:26.169Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265683,
+   "owner": "atlan.ton",
+   "owner_addr": "0:0944cf0badbb93bc2a7b9fbddca974dfb47df61eae8d70bcd74a004daf33c9a4",
+   "mint": 1791715746,
+   "counter_issued": 265683,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T10:50:26.147Z",
    "t": 1
   }
  ]
