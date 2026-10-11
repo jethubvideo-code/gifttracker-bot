@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-11T17:20:56.495Z",
- "updated_unix": 1791739256,
- "runs": 11062,
+ "updated": "2026-10-11T17:21:57.727Z",
+ "updated_unix": 1791739317,
+ "runs": 11063,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82469,
- "sent_total": 1718500,
+ "detected_total": 82472,
+ "sent_total": 1718632,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265810,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265810,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T17:13:39.904Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265811,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265811,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T17:13:39.904Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265812,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265812,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T17:13:39.904Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T17:20:46.041Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T17:20:46.041Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T17:20:46.041Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T17:20:46.041Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T17:20:46.041Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T17:20:46.041Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108233,
+   "owner": "",
+   "owner_addr": "0:0d2273c6e96df2b9d4cd1e705dd280bbd12505e37b734092302db8e0d05f553e",
+   "mint": 1791734539,
+   "counter_issued": 108233,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T17:21:51.637Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108234,
+   "owner": "",
+   "owner_addr": "0:8ed3894a77fa85690c777805418c73b1989d907af98c70ca160bb2d3d62cd688",
+   "mint": 1791736126,
+   "counter_issued": 108234,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T17:21:51.637Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108235,
+   "owner": "wewillalldie.ton",
+   "owner_addr": "0:8ed3894a77fa85690c777805418c73b1989d907af98c70ca160bb2d3d62cd688",
+   "mint": 1791736480,
+   "counter_issued": 108235,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T17:21:51.637Z",
    "t": 1
   }
  ]
