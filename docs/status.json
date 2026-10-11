@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-11T15:45:10.123Z",
- "updated_unix": 1791733510,
- "runs": 11047,
+ "updated": "2026-10-11T15:46:22.442Z",
+ "updated_unix": 1791733582,
+ "runs": 11048,
  "collections": 121,
- "checked": 30,
- "errors": 91,
- "detected_total": 82282,
- "sent_total": 1710276,
+ "checked": 22,
+ "errors": 99,
+ "detected_total": 82283,
+ "sent_total": 1710320,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31858,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31858,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z"
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -32,7 +19,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z"
+   "time": "2026-10-11T15:45:09.033Z",
+   "t": 1
   },
   {
    "slug": "SurgeBoard",
@@ -45,7 +33,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z"
+   "time": "2026-10-11T15:45:09.033Z",
+   "t": 1
   },
   {
    "slug": "SurgeBoard",
@@ -58,7 +47,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z"
+   "time": "2026-10-11T15:45:09.033Z",
+   "t": 1
   },
   {
    "slug": "SurgeBoard",
@@ -71,7 +61,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z"
+   "time": "2026-10-11T15:45:09.033Z",
+   "t": 1
   },
   {
    "slug": "SurgeBoard",
@@ -84,7 +75,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z"
+   "time": "2026-10-11T15:45:09.033Z",
+   "t": 1
   },
   {
    "slug": "SurgeBoard",
@@ -421,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-11T15:45:09.033Z",
    "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 438257,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 438257,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T15:46:21.246Z",
+   "t": 1
   }
  ]
 }
