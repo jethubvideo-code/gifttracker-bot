@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-11T00:45:16.223Z",
- "updated_unix": 1791679516,
- "runs": 10927,
+ "updated": "2026-10-11T01:02:24.670Z",
+ "updated_unix": 1791680544,
+ "runs": 10928,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81249,
- "sent_total": 1667292,
+ "detected_total": 81252,
+ "sent_total": 1667409,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438174,
-   "owner": "",
-   "owner_addr": "0:9f0c9b347f57dd90a8d4ca9d8e17330917d016fc66047f9eeafbf2389b140b23",
-   "mint": 1791671001,
-   "counter_issued": 438174,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T22:24:04.620Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265540,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265540,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T22:24:12.176Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265541,
-   "owner": "",
-   "owner_addr": "0:5cb3a6f16840cdf7c3503c9928d771ef50ffa04e0ed57ea94069afb348469924",
-   "mint": 1791667411,
-   "counter_issued": 265541,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T22:24:12.176Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-10T23:53:59.674Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T00:45:15.034Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84692,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84692,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T01:02:14.447Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84693,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84693,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T01:02:14.447Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84694,
+   "owner": "",
+   "owner_addr": "0:8287c19111c7dbbaa4dcc6e152126f7a6571a01ab7a5b4ea597372528bb6aa7f",
+   "mint": 1791670633,
+   "counter_issued": 84694,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T01:02:14.447Z",
    "t": 1
   }
  ]
