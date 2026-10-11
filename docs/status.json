@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T02:00:09.518Z",
- "updated_unix": 1791684009,
- "runs": 10931,
+ "updated": "2026-10-11T02:48:06.703Z",
+ "updated_unix": 1791686886,
+ "runs": 10932,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 81272,
- "sent_total": 1668189,
+ "detected_total": 81273,
+ "sent_total": 1668228,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108224,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108224,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-10T23:06:42.858Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T02:00:05.862Z",
+   "t": 3
+  },
+  {
+   "slug": "BondedRing",
+   "gift": "BondedRing",
+   "number": 7844,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 7844,
+   "counter_total": 8130,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T02:48:05.603Z",
    "t": 1
   }
  ]
