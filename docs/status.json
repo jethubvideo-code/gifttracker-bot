@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-11T15:06:40.043Z",
- "updated_unix": 1791731200,
- "runs": 11039,
+ "updated": "2026-10-11T15:27:48.384Z",
+ "updated_unix": 1791732468,
+ "runs": 11040,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 82201,
- "sent_total": 1706712,
+ "checked": 30,
+ "errors": 91,
+ "detected_total": 82203,
+ "sent_total": 1706800,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265767,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265767,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:52:48.281Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265768,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265768,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T14:52:48.281Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:06:36.974Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:06:36.974Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265788,
+   "owner": "nftsrent.ton",
+   "owner_addr": "0:ef90ee3507670db21633e24e3c38ca08d616f2b50fe4e3c5399dc2b7fc8b85eb",
+   "mint": 1791732398,
+   "counter_issued": 265788,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T15:27:41.637Z",
+   "t": 1
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16972,
+   "owner": "",
+   "owner_addr": "0:22386babe16845f4eb16be2d78774bc7db309f55c610b10f4afacc9001496378",
+   "mint": 1791728346,
+   "counter_issued": 16972,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T15:27:47.147Z",
    "t": 1
   }
  ]
