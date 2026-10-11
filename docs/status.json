@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-11T15:46:22.442Z",
- "updated_unix": 1791733582,
- "runs": 11048,
+ "updated": "2026-10-11T16:03:06.745Z",
+ "updated_unix": 1791734586,
+ "runs": 11049,
  "collections": 121,
- "checked": 22,
- "errors": 99,
- "detected_total": 82283,
- "sent_total": 1710320,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 82286,
+ "sent_total": 1710452,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31859,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31859,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z",
-   "t": 1
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31860,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31860,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z",
-   "t": 1
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31861,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31861,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T15:45:09.033Z",
-   "t": 1
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -62,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:45:09.033Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -76,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:45:09.033Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T15:46:21.246Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265791,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 265791,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:03:01.294Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265792,
+   "owner": "",
+   "owner_addr": "0:70885daf3f4c45605d563dfb6cf7bc7f3264134ee5c0201efcc77f3a39124c3a",
+   "mint": 1791733285,
+   "counter_issued": 265792,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:03:01.294Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265793,
+   "owner": "hinorum-rat.ton",
+   "owner_addr": "0:36f526a0198cdc07630721e1dcdf19db41e0e52bfaaa9c7efee452097b1a9245",
+   "mint": 1791733369,
+   "counter_issued": 265793,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T16:03:01.294Z",
    "t": 1
   }
  ]
