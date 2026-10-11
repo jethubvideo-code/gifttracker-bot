@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-11T20:50:35.317Z",
- "updated_unix": 1791751835,
- "runs": 11091,
+ "updated": "2026-10-11T21:22:37.573Z",
+ "updated_unix": 1791753757,
+ "runs": 11092,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 82903,
- "sent_total": 1737589,
+ "detected_total": 82904,
+ "sent_total": 1737633,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438330,
-   "owner": "bibsk1ll-wallet.ton",
-   "owner_addr": "0:79899330a3aaa9ce27237c567324a9be7ff9840f1c7034884ebf8b92033e6ee7",
-   "mint": 1791748642,
-   "counter_issued": 438330,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-11T20:27:01.063Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T20:50:32.681Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-11T20:50:32.681Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19783,
+   "owner": "",
+   "owner_addr": "0:4f8fa8f3d9a73fbaf9578c95f084c39136ca8d1fb14ffdca52a3ef8ebc5c8e8b",
+   "mint": 1791744051,
+   "counter_issued": 19783,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-11T21:22:36.500Z",
    "t": 1
   }
  ]
