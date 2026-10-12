@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T08:31:17.179Z",
- "updated_unix": 1791793877,
- "runs": 11142,
+ "updated": "2026-10-12T08:42:16.907Z",
+ "updated_unix": 1791794536,
+ "runs": 11143,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83154,
- "sent_total": 1748632,
+ "detected_total": 83155,
+ "sent_total": 1748676,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108244,
-   "owner": "",
-   "owner_addr": "0:ed2036748f0aa8172be6b6f174a9f0ba95dea5c72d2d04b51305bf79dd8004dc",
-   "mint": 1791780294,
-   "counter_issued": 108244,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T05:35:26.708Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T08:10:57.101Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T08:31:15.789Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 12972,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 12972,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T08:42:15.539Z",
    "t": 1
   }
  ]
