@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T16:21:34.032Z",
- "updated_unix": 1791822094,
- "runs": 11218,
+ "updated": "2026-10-12T16:26:42.798Z",
+ "updated_unix": 1791822402,
+ "runs": 11219,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83577,
- "sent_total": 1768001,
+ "detected_total": 83579,
+ "sent_total": 1768094,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265999,
-   "owner": "",
-   "owner_addr": "0:bee9ba5655cdb9d79de96629bba7654a2da781173b9a7c9d47d03b023b08b476",
-   "mint": 1791818066,
-   "counter_issued": 265999,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T15:15:23.301Z",
-   "t": 3
-  },
-  {
-   "slug": "intelligencecup",
-   "gift": "intelligencecup",
-   "number": 126,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 126,
-   "counter_total": 220,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T15:35:07.424Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T16:21:32.620Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22044,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791807198,
+   "counter_issued": 22044,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T16:26:32.463Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23031,
+   "owner": "pinkbreath.t.me",
+   "owner_addr": "0:0501d8e2d0b4e51883daba73e1823c7ef5f653b34c3c98d7354ad80b82d4f441",
+   "mint": 1791807847,
+   "counter_issued": 23031,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T16:26:38.831Z",
    "t": 1
   }
  ]
