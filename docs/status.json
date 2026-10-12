@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T09:41:59.752Z",
- "updated_unix": 1791798119,
- "runs": 11150,
+ "updated": "2026-10-12T09:42:56.197Z",
+ "updated_unix": 1791798176,
+ "runs": 11151,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 83168,
- "sent_total": 1749247,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 83169,
+ "sent_total": 1749291,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265957,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265957,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T07:20:40.664Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T09:09:35.317Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T09:41:55.143Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T09:41:55.143Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T09:41:55.143Z",
+   "t": 3
+  },
+  {
+   "slug": "LootBag",
+   "gift": "Loot Bag",
+   "number": 14434,
+   "owner": "btcmachowife.t.me",
+   "owner_addr": "0:beebf188376277c95f6e2878f8fb26cae89054a5d76927aeb8cc79ac354ad136",
+   "mint": 1791797114,
+   "counter_issued": 14434,
+   "counter_total": 14489,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T09:42:52.667Z",
    "t": 1
   }
  ]
