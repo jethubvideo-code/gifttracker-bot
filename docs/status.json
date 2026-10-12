@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T18:31:57.986Z",
- "updated_unix": 1791829917,
- "runs": 11244,
+ "updated": "2026-10-12T18:32:59.379Z",
+ "updated_unix": 1791829979,
+ "runs": 11245,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83903,
- "sent_total": 1783103,
+ "detected_total": 83905,
+ "sent_total": 1783195,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88450,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88450,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z",
-   "t": 2
-  },
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88451,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88451,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:16:58.005Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:31:50.898Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:31:56.649Z",
+   "t": 3
+  },
+  {
+   "slug": "GenieLamp",
+   "gift": "GenieLamp",
+   "number": 6601,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 6601,
+   "counter_total": 7666,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T18:32:49.901Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3841,
+   "owner": "",
+   "owner_addr": "0:c6dfdec6fbf09c408bc887ec204184e82ecf0d468dd65fba6a87f25ba48dfda6",
+   "mint": 1791828687,
+   "counter_issued": 3841,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T18:32:55.524Z",
    "t": 1
   }
  ]
