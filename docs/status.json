@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T05:49:41.455Z",
- "updated_unix": 1791784181,
- "runs": 11126,
+ "updated": "2026-10-12T05:52:45.048Z",
+ "updated_unix": 1791784365,
+ "runs": 11127,
  "collections": 121,
- "checked": 29,
- "errors": 92,
- "detected_total": 83127,
- "sent_total": 1747444,
+ "checked": 30,
+ "errors": 91,
+ "detected_total": 83129,
+ "sent_total": 1747532,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108592,
-   "owner": "",
-   "owner_addr": "0:a90003aed87400061e7934c13606073455bc378800392ad6ca3c1989b7b12c84",
-   "mint": 1791774244,
-   "counter_issued": 108592,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/leo74I6Zp8qFkd9FKsECTMcw9aQOZ0_qyB1zkthF0-rDFh9S4N56DCgM1mt4e1nSOzzn3-u-Em1dfu2GREzXnQlGl0HfLOEltaU2Ug648JtaDJKUPpU4Jaz1BwJQV1XM57p0Fq5RySmR8MbgiZw_J4H6M73sVDkwpJUkqJSB9eqF4M5UbRq1YC-BRRhHqnUlHh_ZURuXNcWNJUDLEXbWe7cE72T9cLsSILCcbWNdJgeXSSxaDtJuFUy6ORwBad8Ut7uyczUSqaPeYM3S3AIntOs-KejMpLONRgd-yQ9ZOex_rTqFZ9mDR1-sV-FVNklp97Z5iwRC2VcwfVx8_e4DKQ.jpg",
-   "sent": 0,
-   "time": "2026-10-12T03:24:28.907Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133020,
-   "owner": "",
-   "owner_addr": "0:16756e2d03eb763f1ba2d02c6c678af8675a80240ffd08fbead083fe3dd81cfb",
-   "mint": 1791766832,
-   "counter_issued": 133020,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T03:26:42.972Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:49:40.159Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 31976,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 31976,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:52:39.899Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 31977,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 31977,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:52:39.899Z",
    "t": 1
   }
  ]
