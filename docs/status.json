@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-12T14:26:43.747Z",
- "updated_unix": 1791815203,
- "runs": 11198,
+ "updated": "2026-10-12T14:28:00.616Z",
+ "updated_unix": 1791815280,
+ "runs": 11199,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83521,
- "sent_total": 1765412,
+ "detected_total": 83525,
+ "sent_total": 1765600,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32024,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32024,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T13:14:47.569Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32025,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32025,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T13:14:47.569Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265982,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265982,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T13:15:52.525Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133032,
-   "owner": "",
-   "owner_addr": "0:7a2b5d0734c8aed926140774b411d3c564e808442efcc8f891424d2a0dd4b0eb",
-   "mint": 1791810719,
-   "counter_issued": 133032,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T13:15:58.239Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T14:26:35.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WestsideSign",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T14:26:35.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WestsideSign",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T14:26:35.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WestsideSign",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T14:26:35.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WestsideSign",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T14:26:35.738Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390015,
+   "owner": "",
+   "owner_addr": "0:4ee0f1e25658bfffcd5d80073223d4cd914b60cd7a0e61e54e212681e715209d",
+   "mint": 1791815030,
+   "counter_issued": 390015,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T14:27:40.240Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390016,
+   "owner": "",
+   "owner_addr": "0:4ee0f1e25658bfffcd5d80073223d4cd914b60cd7a0e61e54e212681e715209d",
+   "mint": 1791815078,
+   "counter_issued": 390016,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T14:27:40.240Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133033,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133033,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T14:27:44.936Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133034,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133034,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T14:27:44.936Z",
    "t": 1
   }
  ]
