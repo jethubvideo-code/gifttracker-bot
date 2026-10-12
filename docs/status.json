@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T18:38:08.859Z",
- "updated_unix": 1791830288,
- "runs": 11248,
+ "updated": "2026-10-12T18:41:07.703Z",
+ "updated_unix": 1791830467,
+ "runs": 11249,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83913,
- "sent_total": 1783563,
+ "detected_total": 83914,
+ "sent_total": 1783609,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88460,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88460,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:14:17.927Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:38:07.642Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133047,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133047,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T18:41:03.793Z",
    "t": 1
   }
  ]
