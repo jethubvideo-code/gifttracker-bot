@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T15:13:25.255Z",
- "updated_unix": 1791818005,
- "runs": 11208,
+ "updated": "2026-10-12T15:15:27.117Z",
+ "updated_unix": 1791818127,
+ "runs": 11209,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 83546,
- "sent_total": 1766573,
+ "checked": 2,
+ "errors": 119,
+ "detected_total": 83548,
+ "sent_total": 1766665,
  "last_upgrades": [
-  {
-   "slug": "WestsideSign",
-   "gift": "WestsideSign",
-   "number": 11510,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 11510,
-   "counter_total": 11992,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T14:26:35.738Z",
-   "t": 3
-  },
-  {
-   "slug": "WestsideSign",
-   "gift": "WestsideSign",
-   "number": 11511,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 11511,
-   "counter_total": 11992,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T14:26:35.738Z",
-   "t": 3
-  },
   {
    "slug": "WestsideSign",
    "gift": "WestsideSign",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:06.839Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:06.839Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:16.025Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:21.900Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:21.900Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265998,
+   "owner": "",
+   "owner_addr": "0:bee9ba5655cdb9d79de96629bba7654a2da781173b9a7c9d47d03b023b08b476",
+   "mint": 1791818044,
+   "counter_issued": 265998,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T15:15:23.301Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 265999,
+   "owner": "",
+   "owner_addr": "0:bee9ba5655cdb9d79de96629bba7654a2da781173b9a7c9d47d03b023b08b476",
+   "mint": 1791818066,
+   "counter_issued": 265999,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T15:15:23.301Z",
    "t": 1
   }
  ]
