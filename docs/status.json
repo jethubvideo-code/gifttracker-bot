@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T16:45:48.957Z",
- "updated_unix": 1791823548,
- "runs": 11220,
+ "updated": "2026-10-12T16:46:52.694Z",
+ "updated_unix": 1791823612,
+ "runs": 11221,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83580,
- "sent_total": 1768141,
+ "detected_total": 83581,
+ "sent_total": 1768188,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84718,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84718,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T15:37:10.429Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T16:26:32.463Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T16:26:38.831Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "intelligencecup",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T16:45:47.773Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3840,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3840,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T16:46:48.818Z",
    "t": 1
   }
  ]
