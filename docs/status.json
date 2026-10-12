@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T17:21:11.260Z",
- "updated_unix": 1791825671,
- "runs": 11232,
+ "updated": "2026-10-12T17:28:10.704Z",
+ "updated_unix": 1791826090,
+ "runs": 11233,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83605,
- "sent_total": 1769316,
+ "detected_total": 83606,
+ "sent_total": 1769363,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266006,
-   "owner": "",
-   "owner_addr": "0:a382a69a488ebb06029d818513bfda8a1157a653229cd39ddb2b17da029c8157",
-   "mint": 1791821332,
-   "counter_issued": 266006,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T16:19:32.966Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T17:04:56.321Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T17:21:10.086Z",
+   "t": 3
+  },
+  {
+   "slug": "VoodooDoll",
+   "gift": "Voodoo Doll",
+   "number": 26836,
+   "owner": "",
+   "owner_addr": "0:076919ff20cf791cb8eeb945eb51c06ed458ba7c4765786c23222f591d430eb2",
+   "mint": 1791812923,
+   "counter_issued": 26836,
+   "counter_total": 27620,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T17:28:09.704Z",
    "t": 1
   }
  ]
