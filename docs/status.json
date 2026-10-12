@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T03:26:46.711Z",
- "updated_unix": 1791775606,
- "runs": 11117,
+ "updated": "2026-10-12T03:27:46.394Z",
+ "updated_unix": 1791775666,
+ "runs": 11118,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83099,
- "sent_total": 1746212,
+ "detected_total": 83100,
+ "sent_total": 1746256,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31969,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31969,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:04:24.279Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T03:26:42.972Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 389993,
+   "owner": "poshlaya-molly.ton",
+   "owner_addr": "0:ebe937deecb565794d6932adf70f1aa5a466574ad2f925b0813ad8d56915443a",
+   "mint": 1791767862,
+   "counter_issued": 389993,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T03:27:42.631Z",
    "t": 1
   }
  ]
