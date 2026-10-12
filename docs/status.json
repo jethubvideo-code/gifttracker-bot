@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T05:14:50.154Z",
- "updated_unix": 1791782090,
- "runs": 11122,
+ "updated": "2026-10-12T05:16:28.036Z",
+ "updated_unix": 1791782188,
+ "runs": 11123,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83112,
- "sent_total": 1746784,
+ "detected_total": 83113,
+ "sent_total": 1746828,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 163983,
-   "owner": "",
-   "owner_addr": "0:79899330a3aaa9ce27237c567324a9be7ff9840f1c7034884ebf8b92033e6ee7",
-   "mint": 1791748741,
-   "counter_issued": 163983,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T03:23:40.109Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:14:24.304Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:14:24.304Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:14:33.395Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:14:42.943Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:14:42.943Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 438338,
+   "owner": "",
+   "owner_addr": "0:a54dfc5046e7d75045ad0cd770b4fda5f59cf040c24a3371897b47a02529b5d1",
+   "mint": 1791781872,
+   "counter_issued": 438338,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:16:24.366Z",
    "t": 1
   }
  ]
