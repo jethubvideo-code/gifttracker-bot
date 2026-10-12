@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T15:35:11.643Z",
- "updated_unix": 1791819311,
- "runs": 11210,
+ "updated": "2026-10-12T15:36:09.537Z",
+ "updated_unix": 1791819369,
+ "runs": 11211,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83549,
- "sent_total": 1766711,
+ "detected_total": 83550,
+ "sent_total": 1766757,
  "last_upgrades": [
-  {
-   "slug": "WestsideSign",
-   "gift": "WestsideSign",
-   "number": 11513,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 11513,
-   "counter_total": 11992,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T14:26:35.738Z",
-   "t": 3
-  },
   {
    "slug": "WestsideSign",
    "gift": "WestsideSign",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:15:23.301Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:15:23.301Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "intelligencecup",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:35:07.424Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3839,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3839,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T15:36:08.268Z",
    "t": 1
   }
  ]
