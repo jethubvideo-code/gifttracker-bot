@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-12T12:41:49.358Z",
- "updated_unix": 1791808909,
- "runs": 11182,
+ "updated": "2026-10-12T12:49:03.860Z",
+ "updated_unix": 1791809343,
+ "runs": 11183,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 83282,
- "sent_total": 1754425,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83287,
+ "sent_total": 1754654,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32006,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32006,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T12:21:17.439Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32007,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32007,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T12:21:17.439Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32008,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32008,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T12:21:17.439Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32009,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32009,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T12:21:17.439Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32010,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32010,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T12:21:17.439Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T12:41:39.857Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T12:41:39.857Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T12:41:39.857Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T12:41:39.857Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133028,
+   "owner": "",
+   "owner_addr": "0:6a48ee247d2d43a864a5be1c8a5ada53699071170b5041962839d38985070b4f",
+   "mint": 1791808027,
+   "counter_issued": 133028,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T12:48:48.513Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133029,
+   "owner": "",
+   "owner_addr": "0:6a48ee247d2d43a864a5be1c8a5ada53699071170b5041962839d38985070b4f",
+   "mint": 1791808494,
+   "counter_issued": 133029,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T12:48:48.513Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133030,
+   "owner": "",
+   "owner_addr": "0:6a48ee247d2d43a864a5be1c8a5ada53699071170b5041962839d38985070b4f",
+   "mint": 1791808658,
+   "counter_issued": 133030,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T12:48:48.513Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133031,
+   "owner": "ghubar.t.me",
+   "owner_addr": "0:2c44adf3d0c677dad95e2d45cb9d73c71f22533804bb0a33b217dc94d362f300",
+   "mint": 1791809043,
+   "counter_issued": 133031,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T12:48:48.513Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90042,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90042,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T12:49:02.346Z",
    "t": 1
   }
  ]
