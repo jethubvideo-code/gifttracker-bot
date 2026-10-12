@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T20:57:16.675Z",
- "updated_unix": 1791838636,
- "runs": 11269,
+ "updated": "2026-10-12T21:11:13.788Z",
+ "updated_unix": 1791839473,
+ "runs": 11270,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 84040,
- "sent_total": 1789399,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 84041,
+ "sent_total": 1789445,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266047,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266047,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T20:53:19.432Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T20:57:13.833Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T20:57:13.833Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "BlingBinky",
+   "number": 9427,
+   "owner": "akfa.ton",
+   "owner_addr": "0:38ed5dabcc646291d715f6d704d64eafa215a2f1f8522d6ee55d5cf694fa3e11",
+   "mint": 1791839342,
+   "counter_issued": 9427,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T21:11:12.670Z",
    "t": 1
   }
  ]
