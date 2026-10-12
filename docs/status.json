@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T15:15:27.117Z",
- "updated_unix": 1791818127,
- "runs": 11209,
+ "updated": "2026-10-12T15:35:11.643Z",
+ "updated_unix": 1791819311,
+ "runs": 11210,
  "collections": 121,
- "checked": 2,
- "errors": 119,
- "detected_total": 83548,
- "sent_total": 1766665,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83549,
+ "sent_total": 1766711,
  "last_upgrades": [
-  {
-   "slug": "WestsideSign",
-   "gift": "WestsideSign",
-   "number": 11512,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 11512,
-   "counter_total": 11992,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T14:26:35.738Z",
-   "t": 3
-  },
   {
    "slug": "WestsideSign",
    "gift": "WestsideSign",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:06.839Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:06.839Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:16.025Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:21.900Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:13:21.900Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:15:23.301Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T15:15:23.301Z",
+   "t": 2
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 126,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 126,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T15:35:07.424Z",
    "t": 1
   }
  ]
