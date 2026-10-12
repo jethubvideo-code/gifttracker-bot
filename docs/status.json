@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T05:52:45.048Z",
- "updated_unix": 1791784365,
- "runs": 11127,
+ "updated": "2026-10-12T06:10:03.749Z",
+ "updated_unix": 1791785403,
+ "runs": 11128,
  "collections": 121,
- "checked": 30,
- "errors": 91,
- "detected_total": 83129,
- "sent_total": 1747532,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83130,
+ "sent_total": 1747576,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 389993,
-   "owner": "poshlaya-molly.ton",
-   "owner_addr": "0:ebe937deecb565794d6932adf70f1aa5a466574ad2f925b0813ad8d56915443a",
-   "mint": 1791767862,
-   "counter_issued": 389993,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T03:27:42.631Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:52:39.899Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:52:39.899Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 265951,
+   "owner": "",
+   "owner_addr": "0:5169026adc07ef28af853ef6b351d003acc5a55a0e30a57f8a9018ca9bbdc640",
+   "mint": 1791784817,
+   "counter_issued": 265951,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T06:10:01.961Z",
    "t": 1
   }
  ]
