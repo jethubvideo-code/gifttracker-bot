@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T18:17:02.431Z",
- "updated_unix": 1791829022,
- "runs": 11243,
+ "updated": "2026-10-12T18:31:57.986Z",
+ "updated_unix": 1791829917,
+ "runs": 11244,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 83901,
- "sent_total": 1783011,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83903,
+ "sent_total": 1783103,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88448,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88448,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z",
-   "t": 1
-  },
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88449,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88449,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z",
-   "t": 1
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:11:06.919Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "TimelessBook",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:14:56.726Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:14:56.726Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:16:58.005Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133045,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133045,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T18:31:50.898Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108263,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108263,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T18:31:56.649Z",
    "t": 1
   }
  ]
