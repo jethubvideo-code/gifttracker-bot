@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T19:58:52.092Z",
- "updated_unix": 1791835132,
- "runs": 11262,
+ "updated": "2026-10-12T20:18:52.520Z",
+ "updated_unix": 1791836332,
+ "runs": 11263,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 83988,
- "sent_total": 1787007,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83989,
+ "sent_total": 1787053,
  "last_upgrades": [
-  {
-   "slug": "AstralShard",
-   "gift": "AstralShard",
-   "number": 5702,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 5702,
-   "counter_total": 6196,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T19:43:26.718Z",
-   "t": 1
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -33,7 +19,8 @@
    "counter_total": 173176,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T19:51:30.761Z"
+   "time": "2026-10-12T19:51:30.761Z",
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -46,7 +33,8 @@
    "counter_total": 173176,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T19:51:30.761Z"
+   "time": "2026-10-12T19:51:30.761Z",
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -59,7 +47,8 @@
    "counter_total": 146090,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T19:51:51.944Z"
+   "time": "2026-10-12T19:51:51.944Z",
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -72,7 +61,8 @@
    "counter_total": 146090,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T19:51:51.944Z"
+   "time": "2026-10-12T19:51:51.944Z",
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -86,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:51:51.944Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -422,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:58:49.960Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22045,
+   "owner": "",
+   "owner_addr": "0:016f4c7bac8b9ed2538fd4ab959b5685ab734e6e0c18b622ea30cbb3dced70c8",
+   "mint": 1791827913,
+   "counter_issued": 22045,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T20:18:51.048Z",
    "t": 1
   }
  ]
