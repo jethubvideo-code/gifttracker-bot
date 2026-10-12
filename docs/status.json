@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-12T04:24:13.411Z",
- "updated_unix": 1791779053,
- "runs": 11120,
+ "updated": "2026-10-12T04:26:13.314Z",
+ "updated_unix": 1791779173,
+ "runs": 11121,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83104,
- "sent_total": 1746432,
+ "detected_total": 83107,
+ "sent_total": 1746564,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84080,
-   "owner": "",
-   "owner_addr": "0:214a7248ca07d90ff1dc385ee6942e46aa472901e366425f32fd3ebc030908cd",
-   "mint": 1791728943,
-   "counter_issued": 84080,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:05:50.821Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84081,
-   "owner": "",
-   "owner_addr": "0:583e4f163677b962d373fe63ee4218b281febad22585788892efc3b589328901",
-   "mint": 1791742141,
-   "counter_issued": 84081,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:05:50.821Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84082,
-   "owner": "",
-   "owner_addr": "0:3fd9ff30192578bb5c748f2fd031f5e83622ff3769610b51f7240987e297773d",
-   "mint": 1791742178,
-   "counter_issued": 84082,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:05:50.821Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:03:44.995Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:03:44.995Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:24:04.594Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:24:09.646Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117641,
+   "owner": "",
+   "owner_addr": "0:a39c1f3e3a77326f71d3494159e5353f420f2a3d966771c45de517d3c5bd9900",
+   "mint": 1791777080,
+   "counter_issued": 117641,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T04:26:08.061Z",
+   "t": 1
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117642,
+   "owner": "bestflipper.ton",
+   "owner_addr": "0:e0edcf4d62fb8e9f1cd807cb4267217a9470f0bb9e13f439893f5adecde5fb56",
+   "mint": 1791777383,
+   "counter_issued": 117642,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T04:26:08.061Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108243,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108243,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T04:26:12.390Z",
    "t": 1
   }
  ]
