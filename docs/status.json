@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T17:28:10.704Z",
- "updated_unix": 1791826090,
- "runs": 11233,
+ "updated": "2026-10-12T17:29:10.930Z",
+ "updated_unix": 1791826150,
+ "runs": 11234,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83606,
- "sent_total": 1769363,
+ "detected_total": 83607,
+ "sent_total": 1769410,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390019,
-   "owner": "",
-   "owner_addr": "0:2a33e320889d253447b267032ecc1cff400675126048a32bcba27c9e22c333c7",
-   "mint": 1791821603,
-   "counter_issued": 390019,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T16:21:32.620Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "Skull Flower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T17:28:09.704Z",
+   "t": 3
+  },
+  {
+   "slug": "ElectricSkull",
+   "gift": "Electric Skull",
+   "number": 9235,
+   "owner": "princeuthon.ton",
+   "owner_addr": "0:e47a9a33fa62a3c3eaec2ba81324043695bf17aa588d29059df7559560490a75",
+   "mint": 1791818919,
+   "counter_issued": 9235,
+   "counter_total": 9407,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T17:29:10.007Z",
    "t": 1
   }
  ]
