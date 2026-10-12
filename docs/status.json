@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T16:48:52.252Z",
- "updated_unix": 1791823732,
- "runs": 11225,
+ "updated": "2026-10-12T16:52:55.158Z",
+ "updated_unix": 1791823975,
+ "runs": 11226,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83583,
- "sent_total": 1768282,
+ "detected_total": 83584,
+ "sent_total": 1768329,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32026,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32026,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T15:37:21.398Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T16:48:48.595Z",
+   "t": 3
+  },
+  {
+   "slug": "PerfumeBottle",
+   "gift": "Perfume Bottle",
+   "number": 4436,
+   "owner": "",
+   "owner_addr": "0:5e30f8a92497f081b5f3999e6522da3b4af2a3c4810b21c46aefb655a8bc5edd",
+   "mint": 1791805478,
+   "counter_issued": 4436,
+   "counter_total": 4848,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T16:52:51.479Z",
    "t": 1
   }
  ]
