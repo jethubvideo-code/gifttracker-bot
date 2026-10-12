@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T17:29:10.930Z",
- "updated_unix": 1791826150,
- "runs": 11234,
+ "updated": "2026-10-12T17:33:11.603Z",
+ "updated_unix": 1791826391,
+ "runs": 11235,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83607,
- "sent_total": 1769410,
+ "detected_total": 83608,
+ "sent_total": 1769457,
  "last_upgrades": [
-  {
-   "slug": "SkullFlower",
-   "gift": "Skull Flower",
-   "number": 22044,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791807198,
-   "counter_issued": 22044,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T16:26:32.463Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T17:29:10.007Z",
+   "t": 3
+  },
+  {
+   "slug": "AstralShard",
+   "gift": "Astral Shard",
+   "number": 5701,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791823195,
+   "counter_issued": 5701,
+   "counter_total": 6196,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T17:33:10.486Z",
    "t": 1
   }
  ]
