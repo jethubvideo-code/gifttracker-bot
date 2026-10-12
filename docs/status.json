@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T13:55:09.705Z",
- "updated_unix": 1791813309,
- "runs": 11193,
+ "updated": "2026-10-12T14:00:09.896Z",
+ "updated_unix": 1791813609,
+ "runs": 11194,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83508,
- "sent_total": 1764805,
+ "detected_total": 83509,
+ "sent_total": 1764851,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138234,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138234,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T13:00:53.083Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T13:55:08.404Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390014,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390014,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T14:00:08.589Z",
    "t": 1
   }
  ]
