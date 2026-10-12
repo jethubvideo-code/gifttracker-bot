@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T16:47:56.153Z",
- "updated_unix": 1791823676,
- "runs": 11224,
+ "updated": "2026-10-12T16:48:52.252Z",
+ "updated_unix": 1791823732,
+ "runs": 11225,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 83582,
- "sent_total": 1768235,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83583,
+ "sent_total": 1768282,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84720,
-   "owner": "",
-   "owner_addr": "0:e7701c73aa4f8be4ec3ab99baa2f9d4ab63a42602d2e57fc2f70afb0de98c222",
-   "mint": 1791814943,
-   "counter_issued": 84720,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T15:37:10.429Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T16:47:52.484Z",
+   "t": 3
+  },
+  {
+   "slug": "SharpTongue",
+   "gift": "SharpTongue",
+   "number": 8146,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 8146,
+   "counter_total": 8546,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T16:48:48.595Z",
    "t": 1
   }
  ]
