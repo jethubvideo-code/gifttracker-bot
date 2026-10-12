@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-12T18:15:05.056Z",
- "updated_unix": 1791828905,
- "runs": 11242,
+ "updated": "2026-10-12T18:17:02.431Z",
+ "updated_unix": 1791829022,
+ "runs": 11243,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 83900,
- "sent_total": 1782965,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 83901,
+ "sent_total": 1783011,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88447,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88447,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z"
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -32,7 +19,8 @@
    "counter_total": 99421,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z"
+   "time": "2026-10-12T18:11:06.919Z",
+   "t": 1
   },
   {
    "slug": "TimelessBook",
@@ -45,7 +33,8 @@
    "counter_total": 99421,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z"
+   "time": "2026-10-12T18:11:06.919Z",
+   "t": 1
   },
   {
    "slug": "TimelessBook",
@@ -58,7 +47,8 @@
    "counter_total": 99421,
    "img": "",
    "sent": 0,
-   "time": "2026-10-12T18:11:06.919Z"
+   "time": "2026-10-12T18:11:06.919Z",
+   "t": 1
   },
   {
    "slug": "TimelessBook",
@@ -72,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:11:06.919Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "TimelessBook",
@@ -86,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:11:06.919Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "TimelessBook",
@@ -408,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:14:56.726Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -422,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T18:14:56.726Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133044,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133044,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T18:16:58.005Z",
    "t": 1
   }
  ]
