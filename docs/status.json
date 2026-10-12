@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T22:07:44.175Z",
- "updated_unix": 1791842864,
- "runs": 11284,
+ "updated": "2026-10-12T22:09:55.111Z",
+ "updated_unix": 1791842995,
+ "runs": 11285,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84061,
- "sent_total": 1790385,
+ "detected_total": 84063,
+ "sent_total": 1790479,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266068,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266068,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T20:53:19.432Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266069,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266069,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T20:53:19.432Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T22:07:43.037Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16973,
+   "owner": "feuyk.t.me",
+   "owner_addr": "0:eb6a46934545e2ae9ed2dd80e8c929662e23a242b89a4a3399b302ae3106337e",
+   "mint": 1791833924,
+   "counter_issued": 16973,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T22:09:45.885Z",
+   "t": 1
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12973,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791829636,
+   "counter_issued": 12973,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T22:09:51.209Z",
    "t": 1
   }
  ]
