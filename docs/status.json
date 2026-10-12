@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-12T04:26:13.314Z",
- "updated_unix": 1791779173,
- "runs": 11121,
+ "updated": "2026-10-12T05:14:50.154Z",
+ "updated_unix": 1791782090,
+ "runs": 11122,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83107,
- "sent_total": 1746564,
+ "detected_total": 83112,
+ "sent_total": 1746784,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84083,
-   "owner": "",
-   "owner_addr": "0:9029175c5888203cd5f186f39c793bc4fa6d3f9e1dea4dcd0c55762af070a167",
-   "mint": 1791742254,
-   "counter_issued": 84083,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:05:50.821Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84084,
-   "owner": "",
-   "owner_addr": "0:6582adb5bf22f0791754c79932efbb50cc62950837488d825cc30c870e3520c4",
-   "mint": 1791743736,
-   "counter_issued": 84084,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:05:50.821Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 389992,
-   "owner": "",
-   "owner_addr": "0:c3de7be105193214526eee697565d370caa3721d10fbcaa4de6f6de0e9ee1d02",
-   "mint": 1791764280,
-   "counter_issued": 389992,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:07:41.075Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438337,
-   "owner": "",
-   "owner_addr": "0:fb3a148bf9f27e61d9d39495e0ba19fef9f61157d1939b9d3f58b76b4b944485",
-   "mint": 1791765658,
-   "counter_issued": 438337,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T01:34:39.135Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 265943,
-   "owner": "okekar.t.me",
-   "owner_addr": "0:03019a9d9e8df44e12869a17c4d293f6cd41354b976cb51b5f844e4c39574be7",
-   "mint": 1791767207,
-   "counter_issued": 265943,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T02:04:55.578Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:26:08.061Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:26:08.061Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T04:26:12.390Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 31974,
+   "owner": "",
+   "owner_addr": "0:a39c1f3e3a77326f71d3494159e5353f420f2a3d966771c45de517d3c5bd9900",
+   "mint": 1791777110,
+   "counter_issued": 31974,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:14:24.304Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 31975,
+   "owner": "",
+   "owner_addr": "0:a39c1f3e3a77326f71d3494159e5353f420f2a3d966771c45de517d3c5bd9900",
+   "mint": 1791777198,
+   "counter_issued": 31975,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:14:24.304Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84710,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84710,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:14:33.395Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74612,
+   "owner": "",
+   "owner_addr": "0:3e05f3a89e34e35c6989c8f92cc3d3b477fcfb28dcd3199295a89f83ebb8e1ed",
+   "mint": 1791761960,
+   "counter_issued": 74612,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:14:42.943Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74613,
+   "owner": "",
+   "owner_addr": "0:bc9aa5d80f27d08b4268ee6fb14873581b4a6ca051fa72dec717427e4ffa8891",
+   "mint": 1791771434,
+   "counter_issued": 74613,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T05:14:42.943Z",
    "t": 1
   }
  ]
