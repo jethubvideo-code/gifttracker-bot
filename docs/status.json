@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T23:15:34.099Z",
- "updated_unix": 1791846934,
- "runs": 11293,
+ "updated": "2026-10-12T23:20:30.138Z",
+ "updated_unix": 1791847230,
+ "runs": 11294,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84410,
- "sent_total": 1806788,
+ "detected_total": 84411,
+ "sent_total": 1806835,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 234658,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 234658,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T22:50:29.161Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T23:15:29.523Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T23:15:29.523Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T23:15:29.523Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133054,
+   "owner": "",
+   "owner_addr": "0:9712c2d9602c95fedf8a97e1b93f93a8c1103dfa156dc9592684c9dadd5e5e9f",
+   "mint": 1791846646,
+   "counter_issued": 133054,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T23:20:28.798Z",
    "t": 1
   }
  ]
