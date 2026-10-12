@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T21:35:46.779Z",
- "updated_unix": 1791840946,
- "runs": 11278,
+ "updated": "2026-10-12T21:38:41.349Z",
+ "updated_unix": 1791841121,
+ "runs": 11279,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84051,
- "sent_total": 1789915,
+ "detected_total": 84052,
+ "sent_total": 1789962,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266058,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266058,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T20:53:19.432Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T21:35:38.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T21:35:38.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T21:35:38.105Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390032,
+   "owner": "",
+   "owner_addr": "0:efe71a703d7de43dd1f780ec3a0e9dcb14330f97c0352aa3377116097afa0c95",
+   "mint": 1791840217,
+   "counter_issued": 390032,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T21:38:40.144Z",
    "t": 1
   }
  ]
