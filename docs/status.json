@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T19:14:20.491Z",
- "updated_unix": 1791832460,
- "runs": 11254,
+ "updated": "2026-10-12T19:15:17.465Z",
+ "updated_unix": 1791832517,
+ "runs": 11255,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83944,
- "sent_total": 1784989,
+ "detected_total": 83945,
+ "sent_total": 1785035,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232264,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791815040,
-   "counter_issued": 232264,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:48:31.009Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:14:15.771Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266045,
+   "owner": "horus.ton",
+   "owner_addr": "0:3c44c51bc713d92fb8d0fa278f129c713f8bf0df90cf21a8148bd92d319ef498",
+   "mint": 1791832316,
+   "counter_issued": 266045,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:15:16.491Z",
    "t": 1
   }
  ]
