@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T09:56:14.296Z",
- "updated_unix": 1791798974,
- "runs": 11157,
+ "updated": "2026-10-12T10:00:13.791Z",
+ "updated_unix": 1791799213,
+ "runs": 11158,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83174,
- "sent_total": 1749516,
+ "detected_total": 83175,
+ "sent_total": 1749561,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 265959,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 265959,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T07:55:54.767Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T09:56:13.023Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90039,
+   "owner": "aeterna-inc.ton",
+   "owner_addr": "0:89de1e326ec76cb6c6890e7c445d5a28b9e94c68257706dcde5a055a73089a5a",
+   "mint": 1791786976,
+   "counter_issued": 90039,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T10:00:12.753Z",
    "t": 1
   }
  ]
