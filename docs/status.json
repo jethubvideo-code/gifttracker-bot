@@ -1,181 +1,13 @@
 {
- "updated": "2026-10-12T19:12:55.572Z",
- "updated_unix": 1791832375,
- "runs": 11252,
+ "updated": "2026-10-12T19:13:43.335Z",
+ "updated_unix": 1791832423,
+ "runs": 11253,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 83931,
- "sent_total": 1784391,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 83943,
+ "sent_total": 1784943,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133045,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133045,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:31:50.898Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108263,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108263,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:31:56.649Z",
-   "t": 3
-  },
-  {
-   "slug": "GenieLamp",
-   "gift": "GenieLamp",
-   "number": 6601,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 6601,
-   "counter_total": 7666,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:32:49.901Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3841,
-   "owner": "",
-   "owner_addr": "0:c6dfdec6fbf09c408bc887ec204184e82ecf0d468dd65fba6a87f25ba48dfda6",
-   "mint": 1791828687,
-   "counter_issued": 3841,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:32:55.524Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266042,
-   "owner": "",
-   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
-   "mint": 1791828562,
-   "counter_issued": 266042,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:33:56.306Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266043,
-   "owner": "",
-   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
-   "mint": 1791828574,
-   "counter_issued": 266043,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:33:56.306Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266044,
-   "owner": "jeflita.t.me",
-   "owner_addr": "0:09a3683b08ceaa7e926be0c6ff3aec1549d134268690115d0429b297c4bf2376",
-   "mint": 1791828962,
-   "counter_issued": 266044,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:33:56.306Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390026,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390026,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:34:04.298Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390027,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390027,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:34:04.298Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390028,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390028,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:34:04.298Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133046,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133046,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:35:04.472Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438361,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438361,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T18:38:07.642Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -272,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -286,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -300,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -314,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -328,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -342,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -356,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -370,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:09.623Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:50.974Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +258,174 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T19:12:50.974Z",
+   "t": 2
+  },
+  {
+   "slug": "toybear",
+   "gift": "Toy Bears",
+   "number": 56223,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 56223,
+   "counter_total": 57724,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:04.605Z",
+   "t": 1
+  },
+  {
+   "slug": "toybear",
+   "gift": "Toy Bears",
+   "number": 56224,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 56224,
+   "counter_total": 57724,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:04.605Z",
+   "t": 1
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32046,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32046,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:11.824Z",
+   "t": 1
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32047,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32047,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:11.824Z",
+   "t": 1
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32048,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32048,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:11.824Z",
+   "t": 1
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32049,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32049,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:11.824Z",
+   "t": 1
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32050,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32050,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:11.824Z",
+   "t": 1
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32051,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32051,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:11.824Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20840,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20840,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:31.966Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20841,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20841,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:31.966Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20842,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20842,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:31.966Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20843,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20843,
+   "counter_total": 25719,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T19:13:31.966Z",
    "t": 1
   }
  ]
