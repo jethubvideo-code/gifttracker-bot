@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T06:10:03.749Z",
- "updated_unix": 1791785403,
- "runs": 11128,
+ "updated": "2026-10-12T06:13:00.334Z",
+ "updated_unix": 1791785580,
+ "runs": 11129,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83130,
- "sent_total": 1747576,
+ "detected_total": 83131,
+ "sent_total": 1747620,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3814,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3814,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T04:03:44.995Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:52:39.899Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T05:52:39.899Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T06:10:01.961Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90038,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90038,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T06:12:58.356Z",
    "t": 1
   }
  ]
