@@ -1,8 +1,15 @@
 {
- "updated": "2026-10-12T22:17:58.807Z",
- "updated_unix": 1791843478,
- "count": 4,
+ "updated": "2026-10-12T22:39:08.236Z",
+ "updated_unix": 1791844748,
+ "count": 5,
  "gifts": [
+  {
+   "slug": "algorithmcup",
+   "name": "algorithmcup",
+   "issued": 165,
+   "total": 188,
+   "added": 0
+  },
   {
    "slug": "HolidayDrink",
    "name": "HolidayDrink",
@@ -11,17 +18,10 @@
    "added": 0
   },
   {
-   "slug": "intelligencecup",
-   "name": "intelligencecup",
-   "issued": 127,
-   "total": 220,
-   "added": 0
-  },
-  {
-   "slug": "LibertyFigure",
-   "name": "LibertyFigure",
-   "issued": 266090,
-   "total": 295480,
+   "slug": "InstantRamen",
+   "name": "InstantRamen",
+   "issued": 390033,
+   "total": 457382,
    "added": 0
   },
   {
@@ -29,6 +29,13 @@
    "name": "LowRider",
    "issued": 23488,
    "total": 23950,
+   "added": 0
+  },
+  {
+   "slug": "SwagBag",
+   "name": "SwagBag",
+   "issued": 232264,
+   "total": 237970,
    "added": 0
   }
  ]
