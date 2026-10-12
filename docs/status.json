@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T08:43:27.344Z",
- "updated_unix": 1791794607,
- "runs": 11144,
+ "updated": "2026-10-12T08:44:20.836Z",
+ "updated_unix": 1791794660,
+ "runs": 11145,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83157,
- "sent_total": 1748764,
+ "detected_total": 83158,
+ "sent_total": 1748808,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 31976,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 31976,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T05:52:39.899Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T08:43:20.131Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T08:43:20.131Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133025,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133025,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T08:44:19.473Z",
    "t": 1
   }
  ]
