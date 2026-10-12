@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-12T08:42:16.907Z",
- "updated_unix": 1791794536,
- "runs": 11143,
+ "updated": "2026-10-12T08:43:27.344Z",
+ "updated_unix": 1791794607,
+ "runs": 11144,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 83155,
- "sent_total": 1748676,
+ "detected_total": 83157,
+ "sent_total": 1748764,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 389997,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 389997,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T05:46:41.652Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3816,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3816,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T05:49:40.159Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T08:42:15.539Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3817,
+   "owner": "",
+   "owner_addr": "0:3041d50d053bdb0226664e672acfbee61b72df73bf591e1d620d1b30adbbe8b3",
+   "mint": 1791792722,
+   "counter_issued": 3817,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T08:43:20.131Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3818,
+   "owner": "",
+   "owner_addr": "0:fd3f06c90f04611b2ebd8354e568ef12fa7e115e2f87f162a47a3a586a8a3e0c",
+   "mint": 1791793843,
+   "counter_issued": 3818,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T08:43:20.131Z",
    "t": 1
   }
  ]
