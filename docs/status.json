@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-12T17:04:57.611Z",
- "updated_unix": 1791824697,
- "runs": 11231,
+ "updated": "2026-10-12T17:21:11.260Z",
+ "updated_unix": 1791825671,
+ "runs": 11232,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 83604,
- "sent_total": 1769269,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 83605,
+ "sent_total": 1769316,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266005,
-   "owner": "princeuthon.ton",
-   "owner_addr": "0:e47a9a33fa62a3c3eaec2ba81324043695bf17aa588d29059df7559560490a75",
-   "mint": 1791818732,
-   "counter_issued": 266005,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T15:41:40.445Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-12T17:04:56.321Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438358,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1791820101,
+   "counter_issued": 438358,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-12T17:21:10.086Z",
    "t": 1
   }
  ]
