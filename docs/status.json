@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-13T19:53:30.383Z",
- "updated_unix": 1791921210,
- "runs": 11435,
+ "updated": "2026-10-13T19:54:30.985Z",
+ "updated_unix": 1791921270,
+ "runs": 11436,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85464,
- "sent_total": 1856346,
+ "detected_total": 85466,
+ "sent_total": 1856442,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 73755,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 73755,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:43:12.392Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 73756,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 73756,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:43:12.392Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T19:53:28.875Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133088,
+   "owner": "",
+   "owner_addr": "0:b7b238ebdc7352af6e38d8525d51927fdd71f9e914d654538f218dcb79885e58",
+   "mint": 1791915303,
+   "counter_issued": 133088,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T19:54:27.812Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133089,
+   "owner": "mahyaractive.ton",
+   "owner_addr": "0:b7b238ebdc7352af6e38d8525d51927fdd71f9e914d654538f218dcb79885e58",
+   "mint": 1791915340,
+   "counter_issued": 133089,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T19:54:27.812Z",
    "t": 1
   }
  ]
