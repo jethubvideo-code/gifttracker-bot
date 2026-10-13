@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-13T11:17:41.743Z",
- "updated_unix": 1791890261,
- "runs": 11361,
+ "updated": "2026-10-13T12:12:58.062Z",
+ "updated_unix": 1791893578,
+ "runs": 11362,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84762,
- "sent_total": 1823309,
+ "detected_total": 84765,
+ "sent_total": 1823450,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266163,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266163,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T10:35:01.590Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90055,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90055,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T10:36:01.706Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23032,
-   "owner": "lalyou.ton",
-   "owner_addr": "0:d7873b7809ef045a7b8a4b6372e9fa5bf97fac74cf08ee5ca3c42e501607207d",
-   "mint": 1791872717,
-   "counter_issued": 23032,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T10:46:04.696Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:17:30.585Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:17:30.585Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:17:30.585Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:17:30.585Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:17:30.585Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:17:30.585Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438452,
+   "owner": "",
+   "owner_addr": "0:9e33a58b93d28a3ef1bacbc1c4a8d6896f57ad8d8d70bcf83e7682b2ff56eee4",
+   "mint": 1791890255,
+   "counter_issued": 438452,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T12:12:49.705Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438453,
+   "owner": "",
+   "owner_addr": "0:271bbb1565e6dfe16ff3cad7a2ec3487fd06838af6ff252ab62d5d14d8d6d507",
+   "mint": 1791892680,
+   "counter_issued": 438453,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T12:12:49.705Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90056,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90056,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T12:12:54.269Z",
    "t": 1
   }
  ]
