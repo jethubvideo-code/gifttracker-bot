@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T07:31:42.313Z",
- "updated_unix": 1791876702,
- "runs": 11324,
+ "updated": "2026-10-13T08:04:05.807Z",
+ "updated_unix": 1791878645,
+ "runs": 11325,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84630,
- "sent_total": 1817106,
+ "detected_total": 84631,
+ "sent_total": 1817153,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108298,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108298,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:46:08.204Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T07:31:38.585Z",
+   "t": 2
+  },
+  {
+   "slug": "KhabibsPapakha",
+   "gift": "Khabib’s Papakha",
+   "number": 28662,
+   "owner": "",
+   "owner_addr": "0:c1c7a746574cef4cb6d11edc438d5f36576a3a68dfb36f3f348245680da3cfb6",
+   "mint": 1791859412,
+   "counter_issued": 28662,
+   "counter_total": 29000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T08:04:01.597Z",
    "t": 1
   }
  ]
