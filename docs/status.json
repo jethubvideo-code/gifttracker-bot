@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T10:36:03.496Z",
- "updated_unix": 1791887763,
- "runs": 11354,
+ "updated": "2026-10-13T10:46:08.506Z",
+ "updated_unix": 1791888368,
+ "runs": 11355,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84734,
- "sent_total": 1821993,
+ "detected_total": 84735,
+ "sent_total": 1822040,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266148,
-   "owner": "",
-   "owner_addr": "0:471479182d1fd375d1600b98e2a2cc19dca48b620aa883cf556d2b2250e2d5e6",
-   "mint": 1791883677,
-   "counter_issued": 266148,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T09:33:01.651Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T10:36:01.706Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23032,
+   "owner": "lalyou.ton",
+   "owner_addr": "0:d7873b7809ef045a7b8a4b6372e9fa5bf97fac74cf08ee5ca3c42e501607207d",
+   "mint": 1791872717,
+   "counter_issued": 23032,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T10:46:04.696Z",
    "t": 1
   }
  ]
