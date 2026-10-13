@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-13T07:05:24.570Z",
- "updated_unix": 1791875124,
- "runs": 11322,
+ "updated": "2026-10-13T07:30:46.131Z",
+ "updated_unix": 1791876646,
+ "runs": 11323,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 84627,
- "sent_total": 1816965,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 84629,
+ "sent_total": 1817059,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108295,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108295,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:46:08.204Z",
-   "t": 3
-  },
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108296,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108296,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:46:08.204Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T06:53:21.760Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T06:53:27.148Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T07:05:21.697Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T07:05:21.697Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438400,
+   "owner": "",
+   "owner_addr": "0:1e5250160cfb820129809adcfc32d7f7eb2f014e35e0bbf531d9c0cbeae55145",
+   "mint": 1791874321,
+   "counter_issued": 438400,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T07:30:42.792Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438401,
+   "owner": "",
+   "owner_addr": "0:156be98e13c6a8f8dae6ac6dffa453267de34f3633f5e08ee4ab17aeab82141e",
+   "mint": 1791874606,
+   "counter_issued": 438401,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T07:30:42.792Z",
    "t": 1
   }
  ]
