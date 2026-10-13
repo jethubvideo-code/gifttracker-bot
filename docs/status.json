@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T09:52:03.186Z",
- "updated_unix": 1791885123,
- "runs": 11344,
+ "updated": "2026-10-13T09:53:58.626Z",
+ "updated_unix": 1791885238,
+ "runs": 11345,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84712,
- "sent_total": 1820960,
+ "detected_total": 84713,
+ "sent_total": 1821006,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438441,
-   "owner": "",
-   "owner_addr": "0:f967095145620052d1dd47dae3dca5473ce73c602e5586a3da75e6082c2c4c99",
-   "mint": 1791880984,
-   "counter_issued": 438441,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:49:24.153Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:51:55.291Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:51:55.291Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:51:55.291Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:51:55.291Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:51:55.291Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438443,
+   "owner": "",
+   "owner_addr": "0:7c81d8d1e6a35d503d866ed71cd9ecfff64cecabb8efe3e245d7975fb74e92dd",
+   "mint": 1791884621,
+   "counter_issued": 438443,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T09:53:57.258Z",
    "t": 1
   }
  ]
