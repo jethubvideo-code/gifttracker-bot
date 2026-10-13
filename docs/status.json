@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-13T09:50:56.644Z",
- "updated_unix": 1791885056,
- "runs": 11343,
+ "updated": "2026-10-13T09:52:03.186Z",
+ "updated_unix": 1791885123,
+ "runs": 11344,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84707,
- "sent_total": 1820725,
+ "detected_total": 84712,
+ "sent_total": 1820960,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133060,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133060,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:23:14.715Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133061,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133061,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:23:14.715Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133062,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133062,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:23:14.715Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90052,
-   "owner": "",
-   "owner_addr": "0:05f0cff9a381147ec8c4c590338424a3081c869cd4a8532075cd4a2f8e0a3188",
-   "mint": 1791875900,
-   "counter_issued": 90052,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:41:23.044Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 438440,
-   "owner": "",
-   "owner_addr": "0:2c984da07d539f06f68502af8ff55f3f23f3d09ff81654acb2f54dd33da82e3e",
-   "mint": 1791879397,
-   "counter_issued": 438440,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:49:24.153Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:33:01.651Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:33:01.651Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T09:50:54.985Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84724,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84724,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T09:51:55.291Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84725,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84725,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T09:51:55.291Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84726,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84726,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T09:51:55.291Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84727,
+   "owner": "",
+   "owner_addr": "0:c0f7f3bfbb355e5817ff02e528faa5ed16afa47b504e4d3457711d1f8a35f18a",
+   "mint": 1791863051,
+   "counter_issued": 84727,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T09:51:55.291Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84728,
+   "owner": "",
+   "owner_addr": "0:4e860d43883f3d23f057c235d2562b8f732903203fe38f15426142224e591ebd",
+   "mint": 1791873765,
+   "counter_issued": 84728,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T09:51:55.291Z",
    "t": 1
   }
  ]
