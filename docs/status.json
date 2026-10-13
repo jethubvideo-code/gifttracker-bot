@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T18:08:31.489Z",
- "updated_unix": 1791914911,
- "runs": 11422,
+ "updated": "2026-10-13T18:13:31.806Z",
+ "updated_unix": 1791915211,
+ "runs": 11423,
  "collections": 121,
  "checked": 30,
  "errors": 91,
- "detected_total": 85336,
- "sent_total": 1850214,
+ "detected_total": 85337,
+ "sent_total": 1850260,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266255,
-   "owner": "",
-   "owner_addr": "0:7acea520a2a6913ef5f0d00669ce241c2291b7bc452357750f280b1b696b16ed",
-   "mint": 1791912114,
-   "counter_issued": 266255,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T17:31:04.571Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:08:29.967Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26078,
+   "owner": "",
+   "owner_addr": "0:e02c250dfda261bee6cc6f3af2783375290eb87fce615336ef060de339ced21b",
+   "mint": 1791913724,
+   "counter_issued": 26078,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T18:13:30.091Z",
    "t": 1
   }
  ]
