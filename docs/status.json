@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T22:19:56.145Z",
- "updated_unix": 1791929996,
- "runs": 11455,
+ "updated": "2026-10-13T22:22:54.285Z",
+ "updated_unix": 1791930174,
+ "runs": 11456,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85516,
- "sent_total": 1858842,
+ "detected_total": 85517,
+ "sent_total": 1858890,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 438537,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 438537,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T20:44:40.284Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T22:19:53.332Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T22:19:53.332Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117650,
+   "owner": "horus.ton",
+   "owner_addr": "0:3c44c51bc713d92fb8d0fa278f129c713f8bf0df90cf21a8148bd92d319ef498",
+   "mint": 1791925024,
+   "counter_issued": 117650,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T22:22:53.257Z",
    "t": 1
   }
  ]
