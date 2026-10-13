@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T01:13:51.723Z",
- "updated_unix": 1791854031,
- "runs": 11300,
+ "updated": "2026-10-13T01:14:24.675Z",
+ "updated_unix": 1791854064,
+ "runs": 11301,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 84420,
- "sent_total": 1807236,
+ "checked": 2,
+ "errors": 119,
+ "detected_total": 84421,
+ "sent_total": 1807283,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 234668,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 234668,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T22:50:29.161Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T01:13:24.394Z",
+   "t": 2
+  },
+  {
+   "slug": "toybear",
+   "gift": "Toy Bears",
+   "number": 56225,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 56225,
+   "counter_total": 57724,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T01:14:21.122Z",
    "t": 1
   }
  ]
