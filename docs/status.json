@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T05:52:28.234Z",
- "updated_unix": 1791870748,
- "runs": 11315,
+ "updated": "2026-10-13T05:59:28.540Z",
+ "updated_unix": 1791871168,
+ "runs": 11316,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84613,
- "sent_total": 1816307,
+ "detected_total": 84614,
+ "sent_total": 1816354,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "Happy Brownie",
-   "number": 226940,
-   "owner": "",
-   "owner_addr": "0:db291cf483015cfb82f06314eddf66b46f2ea9df3f4a713896f8b63ff5e36ee1",
-   "mint": 1791831199,
-   "counter_issued": 226940,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:44:46.670Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "Happy Brownie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:52:26.973Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390035,
+   "owner": "",
+   "owner_addr": "0:8b842677f4a820764bd15f6e0cc6e4be001bffee75be8f9362da02987ee319a2",
+   "mint": 1791867482,
+   "counter_issued": 390035,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T05:59:27.165Z",
    "t": 1
   }
  ]
