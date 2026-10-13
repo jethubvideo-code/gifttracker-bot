@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T04:33:05.346Z",
- "updated_unix": 1791865985,
- "runs": 11308,
+ "updated": "2026-10-13T04:35:00.957Z",
+ "updated_unix": 1791866100,
+ "runs": 11309,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 84516,
- "sent_total": 1811748,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 84517,
+ "sent_total": 1811795,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 78992,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78992,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T01:38:57.748Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T04:32:59.843Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T04:32:59.843Z",
+   "t": 3
+  },
+  {
+   "slug": "eternalrose",
+   "gift": "Eternal Roses",
+   "number": 32053,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32053,
+   "counter_total": 37640,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T04:35:00.093Z",
    "t": 1
   }
  ]
