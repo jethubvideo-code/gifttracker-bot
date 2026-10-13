@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-13T18:49:20.176Z",
- "updated_unix": 1791917360,
- "runs": 11430,
+ "updated": "2026-10-13T18:50:13.322Z",
+ "updated_unix": 1791917413,
+ "runs": 11431,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85457,
- "sent_total": 1856010,
+ "detected_total": 85459,
+ "sent_total": 1856106,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108625,
-   "owner": "",
-   "owner_addr": "0:ed90b83831267cce8610e220330054aceb3eb2919d289f2aae86a5b7ab101cfb",
-   "mint": 1791912777,
-   "counter_issued": 108625,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:42:45.544Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78113,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78113,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:43:02.749Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:49:15.626Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:49:15.626Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:49:15.626Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108275,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108275,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T18:50:10.614Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108276,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108276,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T18:50:10.614Z",
    "t": 1
   }
  ]
