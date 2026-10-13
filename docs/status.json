@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T05:49:32.791Z",
- "updated_unix": 1791870572,
- "runs": 11314,
+ "updated": "2026-10-13T05:52:28.234Z",
+ "updated_unix": 1791870748,
+ "runs": 11315,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84612,
- "sent_total": 1816260,
+ "detected_total": 84613,
+ "sent_total": 1816307,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "Happy Brownie",
-   "number": 226939,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791831191,
-   "counter_issued": 226939,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:44:46.670Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "Happy Brownie",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:49:13.962Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:49:25.096Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:49:25.096Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:49:25.096Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:49:25.096Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T05:49:25.096Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133056,
+   "owner": "",
+   "owner_addr": "0:8b842677f4a820764bd15f6e0cc6e4be001bffee75be8f9362da02987ee319a2",
+   "mint": 1791867387,
+   "counter_issued": 133056,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T05:52:26.973Z",
    "t": 1
   }
  ]
