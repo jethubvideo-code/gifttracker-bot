@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T11:02:24.139Z",
- "updated_unix": 1791889344,
- "runs": 11356,
+ "updated": "2026-10-13T11:04:15.126Z",
+ "updated_unix": 1791889455,
+ "runs": 11357,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84739,
- "sent_total": 1822228,
+ "detected_total": 84740,
+ "sent_total": 1822275,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84726,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84726,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T09:51:55.291Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T10:46:04.696Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:02:11.269Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:02:19.598Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:02:19.598Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T11:02:19.598Z",
+   "t": 3
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 131,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 131,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T11:04:14.080Z",
    "t": 1
   }
  ]
