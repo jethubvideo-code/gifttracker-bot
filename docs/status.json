@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T19:52:30.491Z",
- "updated_unix": 1791921150,
- "runs": 11434,
+ "updated": "2026-10-13T19:53:30.383Z",
+ "updated_unix": 1791921210,
+ "runs": 11435,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85463,
- "sent_total": 1856298,
+ "detected_total": 85464,
+ "sent_total": 1856346,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 73754,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 73754,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:43:12.392Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T19:32:55.738Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T19:52:22.347Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T19:52:28.738Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390056,
+   "owner": "",
+   "owner_addr": "0:7f0ac46c000266d43dc03705c51b3278e4bf44d0caa63d61dbd308b6a8b03203",
+   "mint": 1791918154,
+   "counter_issued": 390056,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T19:53:28.875Z",
    "t": 1
   }
  ]
