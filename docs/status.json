@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T10:26:59.006Z",
- "updated_unix": 1791887219,
- "runs": 11349,
+ "updated": "2026-10-13T10:28:55.318Z",
+ "updated_unix": 1791887335,
+ "runs": 11350,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84719,
- "sent_total": 1821288,
+ "detected_total": 84720,
+ "sent_total": 1821335,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266142,
-   "owner": "",
-   "owner_addr": "0:b48ca409fa23f0e3e1f94495759d16f21d902d99d282ca64aea80813a62f536f",
-   "mint": 1791880594,
-   "counter_issued": 266142,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T08:56:53.690Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T10:26:48.106Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T10:26:55.778Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T10:26:55.778Z",
+   "t": 3
+  },
+  {
+   "slug": "KhabibsPapakha",
+   "gift": "Khabib’s Papakha",
+   "number": 28663,
+   "owner": "",
+   "owner_addr": "0:fd45c386a81a171394182edd001c77fd6fc7cc34f2a8b683b4a76fabef19ac37",
+   "mint": 1791882719,
+   "counter_issued": 28663,
+   "counter_total": 29000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T10:28:53.884Z",
    "t": 1
   }
  ]
