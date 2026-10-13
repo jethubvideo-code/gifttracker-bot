@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T21:03:03.411Z",
- "updated_unix": 1791925383,
- "runs": 11446,
+ "updated": "2026-10-13T21:05:03.174Z",
+ "updated_unix": 1791925503,
+ "runs": 11447,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85495,
- "sent_total": 1857834,
+ "detected_total": 85496,
+ "sent_total": 1857882,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133089,
-   "owner": "mahyaractive.ton",
-   "owner_addr": "0:b7b238ebdc7352af6e38d8525d51927fdd71f9e914d654538f218dcb79885e58",
-   "mint": 1791915340,
-   "counter_issued": 133089,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T19:54:27.812Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T20:46:48.687Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T21:03:02.110Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232266,
+   "owner": "povernis-scam.ton",
+   "owner_addr": "0:ae50c622d24859f70f3b2eb8d97f697ae1c3c932ecde65273837b86a162da030",
+   "mint": 1791923720,
+   "counter_issued": 232266,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T21:05:02.084Z",
    "t": 1
   }
  ]
