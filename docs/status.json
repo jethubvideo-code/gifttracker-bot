@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T06:20:11.120Z",
- "updated_unix": 1791872411,
- "runs": 11319,
+ "updated": "2026-10-13T06:25:05.129Z",
+ "updated_unix": 1791872705,
+ "runs": 11320,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84622,
- "sent_total": 1816730,
+ "detected_total": 84623,
+ "sent_total": 1816777,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108290,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108290,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:46:08.204Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T06:20:02.953Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T06:20:09.340Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390037,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390037,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T06:25:03.600Z",
    "t": 1
   }
  ]
