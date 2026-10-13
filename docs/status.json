@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T18:50:13.322Z",
- "updated_unix": 1791917413,
- "runs": 11431,
+ "updated": "2026-10-13T18:51:17.387Z",
+ "updated_unix": 1791917477,
+ "runs": 11432,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85459,
- "sent_total": 1856106,
+ "detected_total": 85460,
+ "sent_total": 1856154,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78114,
-   "owner": "",
-   "owner_addr": "0:67a7a5bed752796d5a49f5193efa04c7bb59548ac6aaacf7fa21cfef06517200",
-   "mint": 1791897850,
-   "counter_issued": 78114,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:43:02.749Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:50:10.614Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:50:10.614Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 438528,
+   "owner": "",
+   "owner_addr": "0:69cce93b55c8a2ec4bdb337ff187a7de3fd5c92807ae3d5c7aa851181a7c624c",
+   "mint": 1791917305,
+   "counter_issued": 438528,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T18:51:13.762Z",
    "t": 1
   }
  ]
