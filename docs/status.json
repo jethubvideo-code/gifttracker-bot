@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-13T06:25:05.129Z",
- "updated_unix": 1791872705,
- "runs": 11320,
+ "updated": "2026-10-13T06:53:28.348Z",
+ "updated_unix": 1791874408,
+ "runs": 11321,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84623,
- "sent_total": 1816777,
+ "detected_total": 84625,
+ "sent_total": 1816871,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108291,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108291,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:46:08.204Z",
-   "t": 3
-  },
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108292,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108292,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T05:46:08.204Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T06:25:03.600Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133057,
+   "owner": "",
+   "owner_addr": "0:19cfaae744cbc813dfcc4923bd492529d08f5e7ec894fcd5e6f80d57253ca071",
+   "mint": 1791871193,
+   "counter_issued": 133057,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T06:53:21.760Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266129,
+   "owner": "",
+   "owner_addr": "0:f680850f95148c1aca7767f67efa50e05dae0b0530bc353e192c36a100da60b5",
+   "mint": 1791873677,
+   "counter_issued": 266129,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T06:53:27.148Z",
    "t": 1
   }
  ]
