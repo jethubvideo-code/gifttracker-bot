@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T20:46:49.830Z",
- "updated_unix": 1791924409,
- "runs": 11445,
+ "updated": "2026-10-13T21:03:03.411Z",
+ "updated_unix": 1791925383,
+ "runs": 11446,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85494,
- "sent_total": 1857786,
+ "detected_total": 85495,
+ "sent_total": 1857834,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133088,
-   "owner": "",
-   "owner_addr": "0:b7b238ebdc7352af6e38d8525d51927fdd71f9e914d654538f218dcb79885e58",
-   "mint": 1791915303,
-   "counter_issued": 133088,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T19:54:27.812Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T20:46:48.687Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266282,
+   "owner": "chocoholder.ton",
+   "owner_addr": "0:3a94980cdd63c37deeaf86023a38e0d76b247640765023e1beee3397cd0814d5",
+   "mint": 1791925339,
+   "counter_issued": 266282,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T21:03:02.110Z",
    "t": 1
   }
  ]
