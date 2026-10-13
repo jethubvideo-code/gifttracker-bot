@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T01:03:21.880Z",
- "updated_unix": 1791853401,
- "runs": 11299,
+ "updated": "2026-10-13T01:13:51.723Z",
+ "updated_unix": 1791854031,
+ "runs": 11300,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84419,
- "sent_total": 1807211,
+ "detected_total": 84420,
+ "sent_total": 1807236,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 234667,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 234667,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T22:50:29.161Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T01:03:20.965Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266120,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 266120,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T01:13:24.394Z",
    "t": 1
   }
  ]
