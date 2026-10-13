@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T14:41:15.581Z",
- "updated_unix": 1791902475,
- "runs": 11384,
+ "updated": "2026-10-13T14:43:15.089Z",
+ "updated_unix": 1791902595,
+ "runs": 11385,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85216,
- "sent_total": 1844637,
+ "detected_total": 85217,
+ "sent_total": 1844684,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90058,
-   "owner": "frozed.t.me",
-   "owner_addr": "0:9aedc058dff14755f117caa1427f7bab2c798dce7e6f88ed46c2d8c90558e9df",
-   "mint": 1791897317,
-   "counter_issued": 90058,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T13:44:16.366Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T14:41:13.988Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108271,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108271,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T14:43:13.774Z",
    "t": 1
   }
  ]
