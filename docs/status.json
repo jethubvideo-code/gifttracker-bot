@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T00:06:32.720Z",
- "updated_unix": 1791849992,
- "runs": 11296,
+ "updated": "2026-10-13T00:25:09.168Z",
+ "updated_unix": 1791851109,
+ "runs": 11297,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 84414,
- "sent_total": 1806976,
+ "detected_total": 84415,
+ "sent_total": 1807023,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 234662,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 234662,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-12T22:50:29.161Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T00:06:29.836Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T00:06:29.836Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 438385,
+   "owner": "",
+   "owner_addr": "0:bb053338f80ea6a26a9e24dc8ddb622c7f2d4e6892c6210163c534a9fdc95564",
+   "mint": 1791849557,
+   "counter_issued": 438385,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T00:25:05.130Z",
    "t": 1
   }
  ]
