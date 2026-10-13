@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-13T18:51:17.387Z",
- "updated_unix": 1791917477,
- "runs": 11432,
+ "updated": "2026-10-13T19:32:59.508Z",
+ "updated_unix": 1791919979,
+ "runs": 11433,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 85460,
- "sent_total": 1856154,
+ "detected_total": 85461,
+ "sent_total": 1856202,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78115,
-   "owner": "",
-   "owner_addr": "0:c76e0ad10db6ea7ee3f1a1799e0200c01f5d2e2887a431378a6bfc019fb8ab95",
-   "mint": 1791915434,
-   "counter_issued": 78115,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-13T18:43:02.749Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-13T18:51:13.762Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3864,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3864,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-13T19:32:55.738Z",
    "t": 1
   }
  ]
