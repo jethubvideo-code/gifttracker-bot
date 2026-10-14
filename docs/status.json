@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T07:04:01.532Z",
- "updated_unix": 1791961441,
- "runs": 11507,
+ "updated": "2026-10-14T07:12:58.153Z",
+ "updated_unix": 1791961978,
+ "runs": 11508,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 86839,
- "sent_total": 1922321,
+ "detected_total": 86840,
+ "sent_total": 1922369,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266302,
-   "owner": "",
-   "owner_addr": "0:544a7dcfb382bea41cd8d75eb060c03adbedfaf7eabb7be36dd085bc3a4b409b",
-   "mint": 1791953311,
-   "counter_issued": 266302,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T05:53:11.886Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T06:45:42.882Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T07:03:53.412Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T07:03:53.412Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T07:03:53.412Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T07:03:53.412Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T07:03:53.412Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439197,
+   "owner": "",
+   "owner_addr": "0:9219094c54869c0f66b6b0209bc18d9b647bd99787f69e73f5336ac44b82b90f",
+   "mint": 1791961392,
+   "counter_issued": 439197,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T07:12:56.597Z",
    "t": 1
   }
  ]
