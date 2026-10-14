@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T18:23:41.524Z",
- "updated_unix": 1792002221,
- "runs": 11581,
+ "updated": "2026-10-14T18:25:38.514Z",
+ "updated_unix": 1792002338,
+ "runs": 11582,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87367,
- "sent_total": 1947658,
+ "detected_total": 87368,
+ "sent_total": 1947706,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185135,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185135,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T17:55:06.492Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:23:40.453Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "MadPumpkin",
+   "number": 19788,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 19788,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T18:25:37.370Z",
    "t": 1
   }
  ]
