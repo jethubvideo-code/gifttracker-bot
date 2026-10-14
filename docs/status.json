@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T18:25:38.514Z",
- "updated_unix": 1792002338,
- "runs": 11582,
+ "updated": "2026-10-14T18:27:40.769Z",
+ "updated_unix": 1792002460,
+ "runs": 11583,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87368,
- "sent_total": 1947706,
+ "detected_total": 87369,
+ "sent_total": 1947754,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185136,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185136,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T17:55:06.492Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:25:37.370Z",
+   "t": 3
+  },
+  {
+   "slug": "GemSignet",
+   "gift": "Gem Signet",
+   "number": 6259,
+   "owner": "money77money.ton",
+   "owner_addr": "0:9927f252ae334a609ed0e7330350ad58b905542b88ece5f7d565f49091a116d9",
+   "mint": 1791973299,
+   "counter_issued": 6259,
+   "counter_total": 6962,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T18:27:39.763Z",
    "t": 1
   }
  ]
