@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T18:27:40.769Z",
- "updated_unix": 1792002460,
- "runs": 11583,
+ "updated": "2026-10-14T19:02:55.454Z",
+ "updated_unix": 1792004575,
+ "runs": 11584,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87369,
- "sent_total": 1947754,
+ "detected_total": 87370,
+ "sent_total": 1947802,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185137,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185137,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T17:55:06.492Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:27:39.763Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3869,
+   "owner": "delicate.ton",
+   "owner_addr": "0:eec34a0993a131a0289f0e356b7e543aff999f064a8e61dc6dd7e2751a5569c3",
+   "mint": 1792004431,
+   "counter_issued": 3869,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T19:02:51.838Z",
    "t": 1
   }
  ]
