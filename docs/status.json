@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T02:39:30.688Z",
- "updated_unix": 1791945570,
- "runs": 11484,
+ "updated": "2026-10-14T03:31:56.899Z",
+ "updated_unix": 1791948716,
+ "runs": 11485,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 86732,
- "sent_total": 1917186,
+ "detected_total": 86733,
+ "sent_total": 1917234,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 106988,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 106988,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T02:34:15.791Z",
-   "t": 3
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T02:39:29.453Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390059,
+   "owner": "patadaxcoffee.ton",
+   "owner_addr": "0:c2fe96b8e022549610fa5c6e207cc84670506cf1c6dd2c4dbc7f714aefe3df94",
+   "mint": 1791938588,
+   "counter_issued": 390059,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T03:31:55.460Z",
    "t": 1
   }
  ]
