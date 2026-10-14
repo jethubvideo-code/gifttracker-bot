@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T11:20:26.948Z",
- "updated_unix": 1791976826,
- "runs": 11534,
+ "updated": "2026-10-14T11:23:24.124Z",
+ "updated_unix": 1791977004,
+ "runs": 11535,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87022,
- "sent_total": 1931099,
+ "detected_total": 87023,
+ "sent_total": 1931147,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390072,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390072,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T11:11:14.253Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T11:20:25.669Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390077,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390077,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T11:23:22.888Z",
    "t": 1
   }
  ]
