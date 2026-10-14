@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-14T19:28:15.082Z",
- "updated_unix": 1792006095,
- "runs": 11586,
+ "updated": "2026-10-14T19:29:18.531Z",
+ "updated_unix": 1792006158,
+ "runs": 11587,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87375,
- "sent_total": 1948042,
+ "detected_total": 87377,
+ "sent_total": 1948138,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138244,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138244,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T17:55:10.655Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138245,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138245,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T17:55:10.655Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T19:28:13.888Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133128,
+   "owner": "",
+   "owner_addr": "0:f9879e8ad5cfb5b528be3ba4377964e11b26bab41b1c5a23fbcf5dca9d2f544a",
+   "mint": 1792002386,
+   "counter_issued": 133128,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T19:29:15.562Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133129,
+   "owner": "pointercrate.ton",
+   "owner_addr": "0:f9879e8ad5cfb5b528be3ba4377964e11b26bab41b1c5a23fbcf5dca9d2f544a",
+   "mint": 1792002574,
+   "counter_issued": 133129,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T19:29:15.562Z",
    "t": 1
   }
  ]
