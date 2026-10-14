@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-14T20:04:44.608Z",
- "updated_unix": 1792008284,
- "runs": 11595,
+ "updated": "2026-10-14T20:08:45.051Z",
+ "updated_unix": 1792008525,
+ "runs": 11596,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87407,
- "sent_total": 1949578,
+ "detected_total": 87409,
+ "sent_total": 1949674,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266447,
-   "owner": "",
-   "owner_addr": "0:e700d2e2a1d57672231f09000320160cb60c5aa81d18555c677fd9a301acaf16",
-   "mint": 1792004364,
-   "counter_issued": 266447,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T19:30:21.006Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266448,
-   "owner": "",
-   "owner_addr": "0:e700d2e2a1d57672231f09000320160cb60c5aa81d18555c677fd9a301acaf16",
-   "mint": 1792004373,
-   "counter_issued": 266448,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T19:30:21.006Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:04:37.807Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:04:37.807Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:04:37.807Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:04:37.807Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439243,
+   "owner": "",
+   "owner_addr": "0:9dbfc96f32a588b19f7388cd1e5880957a7af6913cf93341145bc51a849c0d76",
+   "mint": 1792007549,
+   "counter_issued": 439243,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T20:08:41.778Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439244,
+   "owner": "",
+   "owner_addr": "0:0179c7b15ce6ea46a3f70a243bfd5f6b20b0959f074d42eb9b02bbdb3f1d73c3",
+   "mint": 1792008377,
+   "counter_issued": 439244,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T20:08:41.778Z",
    "t": 1
   }
  ]
