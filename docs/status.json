@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T06:37:49.917Z",
- "updated_unix": 1791959869,
- "runs": 11503,
+ "updated": "2026-10-14T06:39:44.419Z",
+ "updated_unix": 1791959984,
+ "runs": 11504,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 86831,
- "sent_total": 1921937,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 86832,
+ "sent_total": 1921985,
  "last_upgrades": [
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58875,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791930730,
-   "counter_issued": 58875,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T04:25:32.388Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T06:37:46.846Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T06:37:46.846Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133100,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133100,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T06:39:43.133Z",
    "t": 1
   }
  ]
