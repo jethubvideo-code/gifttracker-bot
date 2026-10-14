@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-14T20:56:08.517Z",
- "updated_unix": 1792011368,
- "runs": 11603,
+ "updated": "2026-10-14T21:13:20.959Z",
+ "updated_unix": 1792012400,
+ "runs": 11604,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 87422,
- "sent_total": 1950298,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 87425,
+ "sent_total": 1950442,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266460,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266460,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T19:36:39.396Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266461,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266461,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T19:38:42.622Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266462,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266462,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T19:38:42.622Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:53:07.617Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:53:07.617Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:53:07.617Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:53:07.617Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:56:06.563Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3870,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3870,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T21:13:16.426Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3871,
+   "owner": "",
+   "owner_addr": "0:5d9b21518e2b09a2ee31ff0607a9e6834c0c8ca61c8d8b82985d27b29cc3b39c",
+   "mint": 1792009120,
+   "counter_issued": 3871,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T21:13:16.426Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3872,
+   "owner": "",
+   "owner_addr": "0:5d9b21518e2b09a2ee31ff0607a9e6834c0c8ca61c8d8b82985d27b29cc3b39c",
+   "mint": 1792009134,
+   "counter_issued": 3872,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T21:13:16.426Z",
    "t": 1
   }
  ]
