@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T22:26:04.162Z",
- "updated_unix": 1792016764,
- "runs": 11612,
+ "updated": "2026-10-14T23:38:34.251Z",
+ "updated_unix": 1792021114,
+ "runs": 11613,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87696,
- "sent_total": 1963450,
+ "detected_total": 87697,
+ "sent_total": 1963498,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138258,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138258,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T21:54:58.942Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T22:26:00.472Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3873,
+   "owner": "",
+   "owner_addr": "0:6bad582d3c9911d9581329ee225abae10ee9ab7e98d4c9dc30e92d67888ca977",
+   "mint": 1792017590,
+   "counter_issued": 3873,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T23:38:33.075Z",
    "t": 1
   }
  ]
