@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T11:14:22.776Z",
- "updated_unix": 1791976462,
- "runs": 11531,
+ "updated": "2026-10-14T11:15:23.831Z",
+ "updated_unix": 1791976523,
+ "runs": 11532,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 87002,
- "sent_total": 1930139,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 87003,
+ "sent_total": 1930187,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582384,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582384,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T10:18:38.615Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T11:14:18.109Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T11:14:18.109Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T11:14:18.109Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90074,
+   "owner": "",
+   "owner_addr": "0:1f83f521b2a77923a4f319b084c3fc2fe5c802f7ff972cb117e04e2d16a19ff7",
+   "mint": 1791967212,
+   "counter_issued": 90074,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T11:15:22.294Z",
    "t": 1
   }
  ]
