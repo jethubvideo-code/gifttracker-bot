@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T03:31:56.899Z",
- "updated_unix": 1791948716,
- "runs": 11485,
+ "updated": "2026-10-14T03:32:53.154Z",
+ "updated_unix": 1791948773,
+ "runs": 11486,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 86733,
- "sent_total": 1917234,
+ "detected_total": 86734,
+ "sent_total": 1917282,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 106989,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 106989,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T02:34:15.791Z",
-   "t": 3
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T02:39:29.453Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T03:31:55.460Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3866,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3866,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T03:32:51.782Z",
    "t": 1
   }
  ]
