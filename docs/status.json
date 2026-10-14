@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T18:15:47.002Z",
- "updated_unix": 1792001747,
- "runs": 11580,
+ "updated": "2026-10-14T18:23:41.524Z",
+ "updated_unix": 1792002221,
+ "runs": 11581,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87366,
- "sent_total": 1947610,
+ "detected_total": 87367,
+ "sent_total": 1947658,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185134,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185134,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T17:55:06.492Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T17:56:11.478Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:15:34.455Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:15:34.455Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:15:41.250Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:15:41.250Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:15:41.250Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T18:15:41.250Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439239,
+   "owner": "",
+   "owner_addr": "0:6d239fedb1a779bdac11eaa193c1ee425de7cae087fb34b9079332644cffb468",
+   "mint": 1792001264,
+   "counter_issued": 439239,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T18:23:40.453Z",
    "t": 1
   }
  ]
