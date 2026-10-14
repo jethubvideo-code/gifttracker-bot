@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-14T09:29:35.986Z",
- "updated_unix": 1791970175,
- "runs": 11524,
+ "updated": "2026-10-14T09:36:35.315Z",
+ "updated_unix": 1791970595,
+ "runs": 11525,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 86873,
- "sent_total": 1923953,
+ "detected_total": 86875,
+ "sent_total": 1924049,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "EvilEye",
-   "number": 74623,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74623,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T07:42:10.853Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32234,
-   "owner": "",
-   "owner_addr": "0:702b41278f9a444f0f8186a677c727dd73de7ec9ce64d93023a829fa6c108c87",
-   "mint": 1791959501,
-   "counter_issued": 32234,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T07:42:16.805Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T09:29:26.677Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T09:29:33.177Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T09:29:33.177Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133105,
+   "owner": "",
+   "owner_addr": "0:70b52d5432a719505c4abbb55586e80fb0b5738b12f4af843611ae70c654add0",
+   "mint": 1791967185,
+   "counter_issued": 133105,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T09:36:30.856Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133106,
+   "owner": "",
+   "owner_addr": "0:5459bffb7539a456b626fb41b429b207d3817146dd853d771234eda7fdff9aa1",
+   "mint": 1791967648,
+   "counter_issued": 133106,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T09:36:30.856Z",
    "t": 1
   }
  ]
