@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T11:23:24.124Z",
- "updated_unix": 1791977004,
- "runs": 11535,
+ "updated": "2026-10-14T11:26:26.664Z",
+ "updated_unix": 1791977186,
+ "runs": 11536,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87023,
- "sent_total": 1931147,
+ "detected_total": 87024,
+ "sent_total": 1931195,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390073,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390073,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T11:11:14.253Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T11:23:22.888Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22046,
+   "owner": "shizo.ton",
+   "owner_addr": "0:75fe78034562fcdb4ddb0db98cc68d6bbc13ae530e50a12a98c70a0a568a1141",
+   "mint": 1791964561,
+   "counter_issued": 22046,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T11:26:25.327Z",
    "t": 1
   }
  ]
