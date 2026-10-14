@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T20:08:45.051Z",
- "updated_unix": 1792008525,
- "runs": 11596,
+ "updated": "2026-10-14T20:16:43.070Z",
+ "updated_unix": 1792009003,
+ "runs": 11597,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87409,
- "sent_total": 1949674,
+ "detected_total": 87410,
+ "sent_total": 1949722,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266449,
-   "owner": "",
-   "owner_addr": "0:e700d2e2a1d57672231f09000320160cb60c5aa81d18555c677fd9a301acaf16",
-   "mint": 1792004385,
-   "counter_issued": 266449,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T19:30:21.006Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:08:41.778Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T20:08:41.778Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16974,
+   "owner": "",
+   "owner_addr": "0:4aadc93963440cc9eccec145f460a8427354f803d682894994437e11360d6abd",
+   "mint": 1791979185,
+   "counter_issued": 16974,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T20:16:41.503Z",
    "t": 1
   }
  ]
