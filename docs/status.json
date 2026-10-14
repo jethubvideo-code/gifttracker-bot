@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T11:27:24.078Z",
- "updated_unix": 1791977244,
- "runs": 11537,
+ "updated": "2026-10-14T11:28:26.869Z",
+ "updated_unix": 1791977306,
+ "runs": 11538,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87025,
- "sent_total": 1931243,
+ "detected_total": 87026,
+ "sent_total": 1931291,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390075,
-   "owner": "lonaly.t.me",
-   "owner_addr": "0:be157b77bb7f57d2af786e6fee05552cf3fffe9aa91ba87095c4a1b48ebb3d6c",
-   "mint": 1791975853,
-   "counter_issued": 390075,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T11:11:14.253Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T11:27:22.878Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23037,
+   "owner": "",
+   "owner_addr": "0:aa4febab3d57f3d5b05c35736211ddb475b532b5274a81052a89a961bdff8805",
+   "mint": 1791973229,
+   "counter_issued": 23037,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T11:28:25.256Z",
    "t": 1
   }
  ]
