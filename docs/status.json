@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T04:07:12.262Z",
- "updated_unix": 1791950832,
- "runs": 11489,
+ "updated": "2026-10-14T04:19:12.134Z",
+ "updated_unix": 1791951552,
+ "runs": 11490,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 86751,
- "sent_total": 1918098,
+ "detected_total": 86752,
+ "sent_total": 1918146,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107007,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107007,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T02:34:15.791Z",
-   "t": 3
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T03:41:10.199Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T04:07:11.077Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3867,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3867,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T04:19:10.685Z",
    "t": 1
   }
  ]
