@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-14T23:49:45.182Z",
- "updated_unix": 1792021785,
- "runs": 11614,
+ "updated": "2026-10-14T23:50:42.700Z",
+ "updated_unix": 1792021842,
+ "runs": 11615,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 87702,
- "sent_total": 1963738,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 87703,
+ "sent_total": 1963786,
  "last_upgrades": [
-  {
-   "slug": "eternalrose",
-   "gift": "Eternal Roses",
-   "number": 32056,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32056,
-   "counter_total": 37640,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-14T21:55:23.596Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T23:49:30.838Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T23:49:39.603Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T23:49:39.603Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T23:49:39.603Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-14T23:49:39.603Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439259,
+   "owner": "khwmvssssss.ton",
+   "owner_addr": "0:8d32df6050b785a7cfc4f69a954ca2ac75320f6cf8c131fdb47c38fccb369d5d",
+   "mint": 1792021433,
+   "counter_issued": 439259,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-14T23:50:38.925Z",
    "t": 1
   }
  ]
