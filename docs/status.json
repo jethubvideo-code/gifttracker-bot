@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T12:09:13.123Z",
- "updated_unix": 1792066153,
- "runs": 11687,
+ "updated": "2026-10-15T12:30:41.057Z",
+ "updated_unix": 1792067441,
+ "runs": 11688,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88272,
- "sent_total": 1991310,
+ "detected_total": 88273,
+ "sent_total": 1991359,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77836,
-   "owner": "",
-   "owner_addr": "0:826ade9a936de9f02db2dc6382a1b7cd43b584d2ba6e0d2e914b5fe74d028729",
-   "mint": 1792051844,
-   "counter_issued": 77836,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T11:58:48.505Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:09:06.696Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:09:06.696Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:09:06.696Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:09:06.696Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 439279,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 439279,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T12:30:39.807Z",
    "t": 1
   }
  ]
