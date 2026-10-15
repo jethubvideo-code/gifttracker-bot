@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T11:25:14.710Z",
- "updated_unix": 1792063514,
- "runs": 11681,
+ "updated": "2026-10-15T11:33:14.053Z",
+ "updated_unix": 1792063994,
+ "runs": 11682,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88197,
- "sent_total": 1987636,
+ "detected_total": 88198,
+ "sent_total": 1987685,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266574,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266574,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T10:56:45.454Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T11:25:12.614Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "SignetRing",
+   "number": 16975,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 16975,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T11:33:12.362Z",
    "t": 1
   }
  ]
