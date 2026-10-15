@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T14:22:51.471Z",
- "updated_unix": 1792074171,
- "runs": 11701,
+ "updated": "2026-10-15T14:24:56.897Z",
+ "updated_unix": 1792074296,
+ "runs": 11702,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88416,
- "sent_total": 1998366,
+ "detected_total": 88418,
+ "sent_total": 1998464,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447058,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447058,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447059,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447059,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T14:22:49.470Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108293,
+   "owner": "",
+   "owner_addr": "0:c8de7f5b8f40e74a7fced426ffc0d8f3a0efeae7cb28d488029dd9a04009fbac",
+   "mint": 1792066661,
+   "counter_issued": 108293,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T14:24:53.554Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108294,
+   "owner": "",
+   "owner_addr": "0:c8de7f5b8f40e74a7fced426ffc0d8f3a0efeae7cb28d488029dd9a04009fbac",
+   "mint": 1792066679,
+   "counter_issued": 108294,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T14:24:53.554Z",
    "t": 1
   }
  ]
