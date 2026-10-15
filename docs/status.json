@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T16:38:11.147Z",
- "updated_unix": 1792082291,
- "runs": 11716,
+ "updated": "2026-10-15T16:39:07.836Z",
+ "updated_unix": 1792082347,
+ "runs": 11717,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88450,
- "sent_total": 2000032,
+ "detected_total": 88451,
+ "sent_total": 2000081,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390121,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390121,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T14:32:49.426Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T16:18:01.741Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T16:38:07.757Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T16:38:07.757Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133161,
+   "owner": "nifxx.t.me",
+   "owner_addr": "0:fedeccb03dbd8dfcd498e41db823dbb128df2047f0b4aa01e8338f6c61202ddb",
+   "mint": 1792081570,
+   "counter_issued": 133161,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T16:39:06.146Z",
    "t": 1
   }
  ]
