@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T01:23:48.529Z",
- "updated_unix": 1792027428,
- "runs": 11629,
+ "updated": "2026-10-15T01:30:12.769Z",
+ "updated_unix": 1792027812,
+ "runs": 11630,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 88035,
- "sent_total": 1979704,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 88036,
+ "sent_total": 1979752,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24585,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24585,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T01:23:45.562Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T01:23:45.562Z",
+   "t": 3
+  },
+  {
+   "slug": "LowRider",
+   "gift": "Low Rider",
+   "number": 23491,
+   "owner": "",
+   "owner_addr": "0:4ff060770998e3c5c62fb954ff05e23d26390e63d901a5180534ef2dee56c0bf",
+   "mint": 1792002882,
+   "counter_issued": 23491,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T01:30:11.602Z",
    "t": 1
   }
  ]
