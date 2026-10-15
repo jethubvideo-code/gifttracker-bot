@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-15T10:44:48.751Z",
- "updated_unix": 1792061088,
- "runs": 11671,
+ "updated": "2026-10-15T10:45:52.391Z",
+ "updated_unix": 1792061152,
+ "runs": 11672,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88151,
- "sent_total": 1985382,
+ "detected_total": 88154,
+ "sent_total": 1985529,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32301,
-   "owner": "",
-   "owner_addr": "0:c7475f2596dbac101cec2b5a051a1e27a9be1e5a983ecd2be122ff2caff2f8c4",
-   "mint": 1792051080,
-   "counter_issued": 32301,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T09:37:16.402Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32302,
-   "owner": "",
-   "owner_addr": "0:6811eaaf8956f6cf7063ab3c76dda590bb973022937a6075b296ff8b3f7a7430",
-   "mint": 1792052572,
-   "counter_issued": 32302,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T09:37:16.402Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84128,
-   "owner": "",
-   "owner_addr": "0:d1271a281c54d79075d27cde759203871e2ce90a0147d82af33a87985ce98e4b",
-   "mint": 1792050119,
-   "counter_issued": 84128,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T09:37:45.280Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T10:27:38.467Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T10:44:47.518Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84773,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84773,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T10:45:44.142Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84774,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84774,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T10:45:44.142Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84775,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84775,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T10:45:44.142Z",
    "t": 1
   }
  ]
