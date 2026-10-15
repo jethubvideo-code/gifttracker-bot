@@ -1,52 +1,13 @@
 {
- "updated": "2026-10-15T22:01:26.227Z",
- "updated_unix": 1792101686,
- "runs": 11754,
+ "updated": "2026-10-15T22:03:47.758Z",
+ "updated_unix": 1792101827,
+ "runs": 11755,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 88889,
- "sent_total": 2021534,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 88892,
+ "sent_total": 2021681,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108673,
-   "owner": "",
-   "owner_addr": "0:478d5ff193bd9781b202cfa5f0721aafd0bad458300327b22c3f64cd65655d58",
-   "mint": 1792094460,
-   "counter_issued": 108673,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T21:58:38.864Z"
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108674,
-   "owner": "micro-soft.ton",
-   "owner_addr": "0:55d8cc55e1fafe6ea76eab6248d5f0bfacfeb407d1b60079d7806ac8dadc6cb2",
-   "mint": 1792095812,
-   "counter_issued": 108674,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T21:58:38.864Z"
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78122,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78122,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T21:59:47.535Z"
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -71,7 +32,8 @@
    "counter_total": 101415,
    "img": "",
    "sent": 0,
-   "time": "2026-10-15T21:59:47.535Z"
+   "time": "2026-10-15T21:59:47.535Z",
+   "t": 1
   },
   {
    "slug": "BigYear",
@@ -84,7 +46,8 @@
    "counter_total": 101415,
    "img": "",
    "sent": 0,
-   "time": "2026-10-15T21:59:47.535Z"
+   "time": "2026-10-15T21:59:47.535Z",
+   "t": 1
   },
   {
    "slug": "BigYear",
@@ -168,7 +131,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -182,7 +145,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -196,7 +159,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -210,7 +173,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -224,7 +187,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -238,7 +201,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -252,7 +215,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -266,7 +229,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -280,7 +243,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -294,7 +257,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T21:59:47.535Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -308,7 +271,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -322,7 +285,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -336,7 +299,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -350,7 +313,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -364,7 +327,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -378,7 +341,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -392,7 +355,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -406,7 +369,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "StarNotepad",
@@ -420,6 +383,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:00:58.961Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390134,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390134,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T22:03:40.464Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390135,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390135,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T22:03:40.464Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390136,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390136,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T22:03:40.464Z",
    "t": 1
   }
  ]
