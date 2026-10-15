@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T13:43:48.552Z",
- "updated_unix": 1792071828,
- "runs": 11694,
+ "updated": "2026-10-15T13:47:48.408Z",
+ "updated_unix": 1792072068,
+ "runs": 11695,
  "collections": 121,
- "checked": 2,
- "errors": 119,
- "detected_total": 88280,
- "sent_total": 1991702,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 88282,
+ "sent_total": 1991800,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73763,
-   "owner": "",
-   "owner_addr": "0:18e961adc7e1591a34b6c056781e657cfed605eddd6a6ef81c265242544e898a",
-   "mint": 1791995624,
-   "counter_issued": 73763,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T12:00:10.225Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73764,
-   "owner": "",
-   "owner_addr": "0:18e961adc7e1591a34b6c056781e657cfed605eddd6a6ef81c265242544e898a",
-   "mint": 1791995790,
-   "counter_issued": 73764,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T12:00:10.225Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T13:06:01.788Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T13:06:01.788Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T13:43:44.684Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439280,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792070632,
+   "counter_issued": 439280,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T13:47:45.086Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439281,
+   "owner": "",
+   "owner_addr": "0:8866eb59b9eff2261ccc04a9e2b9f97385fe6f44a75d1f1272135c5027fd1e12",
+   "mint": 1792071224,
+   "counter_issued": 439281,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T13:47:45.086Z",
    "t": 1
   }
  ]
