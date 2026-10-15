@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T04:15:58.714Z",
- "updated_unix": 1792037758,
- "runs": 11633,
+ "updated": "2026-10-15T04:16:58.604Z",
+ "updated_unix": 1792037818,
+ "runs": 11634,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88042,
- "sent_total": 1980046,
+ "detected_total": 88043,
+ "sent_total": 1980095,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24592,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24592,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T02:36:04.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T02:36:04.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T02:36:04.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T02:36:04.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T02:36:04.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:15:54.813Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133138,
+   "owner": "",
+   "owner_addr": "0:5347823870760f6868b2dc9d1c7bfb5ac0851837aa9d65c14cf4e0dac72e1eab",
+   "mint": 1792030449,
+   "counter_issued": 133138,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T04:16:54.869Z",
    "t": 1
   }
  ]
