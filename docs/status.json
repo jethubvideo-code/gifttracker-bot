@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T12:05:01.601Z",
- "updated_unix": 1792065901,
- "runs": 11685,
+ "updated": "2026-10-15T12:06:04.971Z",
+ "updated_unix": 1792065964,
+ "runs": 11686,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88267,
- "sent_total": 1991066,
+ "detected_total": 88268,
+ "sent_total": 1991115,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77831,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792043670,
-   "counter_issued": 77831,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T11:58:48.505Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:04:59.815Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439278,
+   "owner": "",
+   "owner_addr": "0:cbe83a393601547df8b2cc7de5b02970f14645cccb798b8dff303bfe7bb5500a",
+   "mint": 1792065456,
+   "counter_issued": 439278,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T12:06:03.279Z",
    "t": 1
   }
  ]
