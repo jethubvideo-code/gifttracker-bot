@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T16:18:03.376Z",
- "updated_unix": 1792081083,
- "runs": 11715,
+ "updated": "2026-10-15T16:38:11.147Z",
+ "updated_unix": 1792082291,
+ "runs": 11716,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 88448,
- "sent_total": 1999934,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 88450,
+ "sent_total": 2000032,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90092,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90092,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T14:29:49.556Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266610,
-   "owner": "",
-   "owner_addr": "0:3264cda80ee7f3a3fde0d4b4638bb9f81b8507f452c0165f0ac1f75134377fc1",
-   "mint": 1792074292,
-   "counter_issued": 266610,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T14:30:52.400Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T16:16:57.850Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T16:18:01.741Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266617,
+   "owner": "",
+   "owner_addr": "0:d4dd68abe44ad422f72cabd96143f5c06eec96a60b15cf546210093fc58edf30",
+   "mint": 1792079220,
+   "counter_issued": 266617,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T16:38:07.757Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266618,
+   "owner": "dxeer.t.me",
+   "owner_addr": "0:e01df656cb74bb75c887fa5d1ed8e6eabcbf4ac0871b5742e202c7f068c04dbd",
+   "mint": 1792079971,
+   "counter_issued": 266618,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T16:38:07.757Z",
    "t": 1
   }
  ]
