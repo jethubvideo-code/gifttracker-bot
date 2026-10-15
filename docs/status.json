@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T14:55:07.681Z",
- "updated_unix": 1792076107,
- "runs": 11706,
+ "updated": "2026-10-15T15:09:11.404Z",
+ "updated_unix": 1792076951,
+ "runs": 11707,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88422,
- "sent_total": 1998660,
+ "detected_total": 88424,
+ "sent_total": 1998758,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447064,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447064,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447065,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447065,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T14:55:06.331Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266611,
+   "owner": "",
+   "owner_addr": "0:9d803edad0d29b7991e0f1f92265fc5717a5fba56e0116b5c60112eaaa18b622",
+   "mint": 1792076218,
+   "counter_issued": 266611,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:09:08.310Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266612,
+   "owner": "",
+   "owner_addr": "0:ee261ff0e32bf0b5f5638ff87b55880d9e7e9f1fba2c06b32339d0ee0c8a46a0",
+   "mint": 1792076284,
+   "counter_issued": 266612,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:09:08.310Z",
    "t": 1
   }
  ]
