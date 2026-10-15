@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T12:31:40.938Z",
- "updated_unix": 1792067500,
- "runs": 11689,
+ "updated": "2026-10-15T12:32:45.755Z",
+ "updated_unix": 1792067565,
+ "runs": 11690,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88274,
- "sent_total": 1991408,
+ "detected_total": 88275,
+ "sent_total": 1991457,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77838,
-   "owner": "",
-   "owner_addr": "0:e28fe9e270d1de748f2691235e4f169f960f56b6f07373b07e74cf3f801e471e",
-   "mint": 1792057949,
-   "counter_issued": 77838,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T11:58:48.505Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:31:39.626Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23038,
+   "owner": "",
+   "owner_addr": "0:df70d9579101f97ecc811a0a0c7bf77e96cc11cda04ffa2102fa662760f478bd",
+   "mint": 1792066308,
+   "counter_issued": 23038,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T12:32:42.091Z",
    "t": 1
   }
  ]
