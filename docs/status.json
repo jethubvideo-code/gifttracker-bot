@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T00:45:12.505Z",
- "updated_unix": 1792025112,
- "runs": 11622,
+ "updated": "2026-10-15T00:47:12.340Z",
+ "updated_unix": 1792025232,
+ "runs": 11623,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87982,
- "sent_total": 1977160,
+ "detected_total": 87983,
+ "sent_total": 1977208,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38078,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38078,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T00:18:48.427Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:45:11.341Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26079,
+   "owner": "",
+   "owner_addr": "0:568594c75f02429834ed4978a05dc74bee743543a91a154977e56f5390621acb",
+   "mint": 1791989506,
+   "counter_issued": 26079,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T00:47:11.116Z",
    "t": 1
   }
  ]
