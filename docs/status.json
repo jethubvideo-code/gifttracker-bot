@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T23:57:12.433Z",
- "updated_unix": 1792108632,
- "runs": 11765,
+ "updated": "2026-10-15T23:59:12.557Z",
+ "updated_unix": 1792108752,
+ "runs": 11766,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 89033,
- "sent_total": 2028590,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 89034,
+ "sent_total": 2028639,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55447,
-   "owner": "",
-   "owner_addr": "0:280276d72db9b76ba661060990d5616e531ffd00265d08e19b118751e447dac4",
-   "mint": 1792034583,
-   "counter_issued": 55447,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T23:49:05.824Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T23:57:08.910Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108296,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792094401,
+   "counter_issued": 108296,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T23:59:09.088Z",
    "t": 1
   }
  ]
