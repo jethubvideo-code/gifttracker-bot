@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T04:51:12.433Z",
- "updated_unix": 1792039872,
- "runs": 11636,
+ "updated": "2026-10-15T04:53:09.375Z",
+ "updated_unix": 1792039989,
+ "runs": 11637,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88045,
- "sent_total": 1980193,
+ "detected_total": 88046,
+ "sent_total": 1980242,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24595,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24595,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:26:56.505Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:51:11.194Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90087,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90087,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T04:53:08.456Z",
    "t": 1
   }
  ]
