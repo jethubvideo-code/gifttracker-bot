@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T04:16:58.604Z",
- "updated_unix": 1792037818,
- "runs": 11634,
+ "updated": "2026-10-15T04:26:58.046Z",
+ "updated_unix": 1792038418,
+ "runs": 11635,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 88043,
- "sent_total": 1980095,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 88044,
+ "sent_total": 1980144,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24593,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24593,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:16:54.869Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266504,
+   "owner": "",
+   "owner_addr": "0:f65f21f687b92ade4e4417c84f44eaa2c5785a491464a8ca0f8974d7ecf693b6",
+   "mint": 1792037799,
+   "counter_issued": 266504,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T04:26:56.505Z",
    "t": 1
   }
  ]
