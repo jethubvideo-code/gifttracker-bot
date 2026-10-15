@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T20:28:44.762Z",
- "updated_unix": 1792096124,
- "runs": 11745,
+ "updated": "2026-10-15T20:57:40.017Z",
+ "updated_unix": 1792097860,
+ "runs": 11746,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 88598,
- "sent_total": 2007282,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 88599,
+ "sent_total": 2007331,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266686,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266686,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T20:19:22.371Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T20:28:43.227Z",
+   "t": 2
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3880,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3880,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T20:57:38.625Z",
    "t": 1
   }
  ]
