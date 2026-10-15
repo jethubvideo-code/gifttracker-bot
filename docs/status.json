@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T19:41:12.157Z",
- "updated_unix": 1792093272,
- "runs": 11737,
+ "updated": "2026-10-15T19:53:12.086Z",
+ "updated_unix": 1792093992,
+ "runs": 11738,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88527,
- "sent_total": 2003803,
+ "detected_total": 88528,
+ "sent_total": 2003852,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 439304,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 439304,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T19:15:47.331Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T19:41:08.284Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26080,
+   "owner": "",
+   "owner_addr": "0:3a2abbbbb8442aa4d39235d5ee422d80b6f23c247fb224bd4030fd013b88ec89",
+   "mint": 1792091180,
+   "counter_issued": 26080,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T19:53:10.874Z",
    "t": 1
   }
  ]
