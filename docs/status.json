@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T12:35:43.507Z",
- "updated_unix": 1792067743,
- "runs": 11691,
+ "updated": "2026-10-15T12:48:45.820Z",
+ "updated_unix": 1792068525,
+ "runs": 11692,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88276,
- "sent_total": 1991506,
+ "detected_total": 88277,
+ "sent_total": 1991555,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73759,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791976471,
-   "counter_issued": 73759,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T12:00:10.225Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T12:35:41.944Z",
+   "t": 3
+  },
+  {
+   "slug": "GemSignet",
+   "gift": "Gem Signet",
+   "number": 6260,
+   "owner": "hello-kitty.ton",
+   "owner_addr": "0:019382f2f0163f7258051c0aecc60fea1c66c709dde781b6f52e8a332f159532",
+   "mint": 1792007766,
+   "counter_issued": 6260,
+   "counter_total": 6962,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T12:48:42.178Z",
    "t": 1
   }
  ]
