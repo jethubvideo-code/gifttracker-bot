@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T20:11:29.437Z",
- "updated_unix": 1792095089,
- "runs": 11740,
+ "updated": "2026-10-15T20:14:26.994Z",
+ "updated_unix": 1792095266,
+ "runs": 11741,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 88533,
- "sent_total": 2004097,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 88534,
+ "sent_total": 2004146,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266632,
-   "owner": "",
-   "owner_addr": "0:3ef18d6f229069a569914724788d81f98ae35bff1c7027fa4829c9c6bb0f1af8",
-   "mint": 1792091184,
-   "counter_issued": 266632,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T19:16:52.713Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T20:11:15.102Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "DurovsGlasses",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T20:11:15.102Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T20:11:15.102Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T20:11:15.102Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390129,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792094335,
+   "counter_issued": 390129,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T20:14:24.730Z",
    "t": 1
   }
  ]
