@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-15T15:27:43.443Z",
- "updated_unix": 1792078063,
- "runs": 11708,
+ "updated": "2026-10-15T15:29:51.185Z",
+ "updated_unix": 1792078191,
+ "runs": 11709,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88427,
- "sent_total": 1998905,
+ "detected_total": 88432,
+ "sent_total": 1999150,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447069,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447069,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447070,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447070,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447071,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447071,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447072,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447072,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447073,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447073,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -370,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:09:08.310Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:09:08.310Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:27:32.777Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:27:32.777Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:27:32.777Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90093,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90093,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:29:36.802Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266613,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 266613,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:29:45.250Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266614,
+   "owner": "",
+   "owner_addr": "0:ee261ff0e32bf0b5f5638ff87b55880d9e7e9f1fba2c06b32339d0ee0c8a46a0",
+   "mint": 1792077749,
+   "counter_issued": 266614,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:29:45.250Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266615,
+   "owner": "",
+   "owner_addr": "0:72cb0c3d99d543435e290f92e0ef2436b60b8d98f60f0d69d50a6426784d03aa",
+   "mint": 1792077852,
+   "counter_issued": 266615,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:29:45.250Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266616,
+   "owner": "giftwiki.ton",
+   "owner_addr": "0:72cb0c3d99d543435e290f92e0ef2436b60b8d98f60f0d69d50a6426784d03aa",
+   "mint": 1792077950,
+   "counter_issued": 266616,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:29:45.250Z",
    "t": 1
   }
  ]
