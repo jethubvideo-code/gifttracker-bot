@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-15T06:39:44.286Z",
- "updated_unix": 1792046384,
- "runs": 11646,
+ "updated": "2026-10-15T06:53:45.598Z",
+ "updated_unix": 1792047225,
+ "runs": 11647,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88059,
- "sent_total": 1980879,
+ "detected_total": 88062,
+ "sent_total": 1981026,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266499,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266499,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:21:56.826Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266500,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266500,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:21:56.826Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266501,
-   "owner": "",
-   "owner_addr": "0:6e913c50672c29b1bb3ab136fe1180c32e0797cc6cfc4c7e9c9a894b61dc97ec",
-   "mint": 1792022231,
-   "counter_issued": 266501,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:21:56.826Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T06:39:37.029Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T06:39:37.029Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84769,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84769,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T06:53:37.109Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84770,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84770,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T06:53:37.109Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 84771,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84771,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T06:53:37.109Z",
    "t": 1
   }
  ]
