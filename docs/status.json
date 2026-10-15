@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-15T15:09:11.404Z",
- "updated_unix": 1792076951,
- "runs": 11707,
+ "updated": "2026-10-15T15:27:43.443Z",
+ "updated_unix": 1792078063,
+ "runs": 11708,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88424,
- "sent_total": 1998758,
+ "detected_total": 88427,
+ "sent_total": 1998905,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447066,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447066,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447067,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447067,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447068,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447068,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T13:59:23.099Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:09:08.310Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T15:09:08.310Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 439283,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 439283,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:27:32.777Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439284,
+   "owner": "",
+   "owner_addr": "0:f8348500515e738475c0da258ea34b95f7833d1064fd95e8985dcffdcc017e64",
+   "mint": 1792076914,
+   "counter_issued": 439284,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:27:32.777Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439285,
+   "owner": "stealthgoose.ton",
+   "owner_addr": "0:fb9a0485da2237ae4fe7aa713a7e46a0e5bee639b8d1bea9b2988c52e37d31c2",
+   "mint": 1792077090,
+   "counter_issued": 439285,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T15:27:32.777Z",
    "t": 1
   }
  ]
