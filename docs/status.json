@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T22:45:48.687Z",
- "updated_unix": 1792104348,
- "runs": 11760,
+ "updated": "2026-10-15T23:08:06.377Z",
+ "updated_unix": 1792105686,
+ "runs": 11761,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88917,
- "sent_total": 2022906,
+ "detected_total": 88918,
+ "sent_total": 2022955,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73783,
-   "owner": "",
-   "owner_addr": "0:9982eca2f58cc535684587f358a076e8b46256ab66926c544c6758de4817bbbc",
-   "mint": 1792080081,
-   "counter_issued": 73783,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T22:00:58.961Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T22:45:47.760Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133174,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133174,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T23:08:04.596Z",
    "t": 1
   }
  ]
