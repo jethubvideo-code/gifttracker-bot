@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T04:53:09.375Z",
- "updated_unix": 1792039989,
- "runs": 11637,
+ "updated": "2026-10-15T04:57:15.522Z",
+ "updated_unix": 1792040235,
+ "runs": 11638,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88046,
- "sent_total": 1980242,
+ "detected_total": 88048,
+ "sent_total": 1980340,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24596,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24596,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24597,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24597,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:53:08.456Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439265,
+   "owner": "",
+   "owner_addr": "0:239ce5cfe0f118232e0bfb4a03999e300a2e30eb3946f1b055601630cd3e4a83",
+   "mint": 1792036208,
+   "counter_issued": 439265,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T04:57:12.770Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439266,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792038987,
+   "counter_issued": 439266,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T04:57:12.770Z",
    "t": 1
   }
  ]
