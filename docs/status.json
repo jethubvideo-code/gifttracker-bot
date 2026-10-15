@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T00:20:06.131Z",
- "updated_unix": 1792023606,
- "runs": 11618,
+ "updated": "2026-10-15T00:22:10.822Z",
+ "updated_unix": 1792023730,
+ "runs": 11619,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 87977,
- "sent_total": 1976924,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 87979,
+ "sent_total": 1977019,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38073,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38073,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T00:18:48.427Z",
-   "t": 2
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38074,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38074,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T00:18:48.427Z",
-   "t": 2
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:18:48.427Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FinePen",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:18:48.427Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FinePen",
@@ -76,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:18:48.427Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FinePen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:20:04.597Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108290,
+   "owner": "",
+   "owner_addr": "0:d9691229110f2e4bec701e8028e446c7d7ba9f1c7686cf4502d6ee92a15d0775",
+   "mint": 1792020791,
+   "counter_issued": 108290,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T00:22:05.879Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108291,
+   "owner": "meshotik.t.me",
+   "owner_addr": "0:d52a04af0fe21848055a9ea3ef45cf2d02f5a6fd0b67c5f1fdb3dfccfdbc6833",
+   "mint": 1792022273,
+   "counter_issued": 108291,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T00:22:05.879Z",
    "t": 1
   }
  ]
