@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T00:47:12.340Z",
- "updated_unix": 1792025232,
- "runs": 11623,
+ "updated": "2026-10-15T00:53:12.465Z",
+ "updated_unix": 1792025592,
+ "runs": 11624,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87983,
- "sent_total": 1977208,
+ "detected_total": 87984,
+ "sent_total": 1977256,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38079,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38079,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T00:18:48.427Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:47:11.116Z",
+   "t": 3
+  },
+  {
+   "slug": "IonGem",
+   "gift": "IonGem",
+   "number": 4536,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 4536,
+   "counter_total": 4692,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T00:53:08.697Z",
    "t": 1
   }
  ]
