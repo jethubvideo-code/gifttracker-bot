@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-15T04:57:15.522Z",
- "updated_unix": 1792040235,
- "runs": 11638,
+ "updated": "2026-10-15T05:29:31.521Z",
+ "updated_unix": 1792042171,
+ "runs": 11639,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88048,
- "sent_total": 1980340,
+ "detected_total": 88050,
+ "sent_total": 1980438,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24598,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24598,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24599,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24599,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:57:12.770Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:57:12.770Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266505,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1792038872,
+   "counter_issued": 266505,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T05:29:28.612Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266506,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1792038893,
+   "counter_issued": 266506,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T05:29:28.612Z",
    "t": 1
   }
  ]
