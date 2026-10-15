@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T00:26:04.585Z",
- "updated_unix": 1792023964,
- "runs": 11620,
+ "updated": "2026-10-15T00:44:13.389Z",
+ "updated_unix": 1792025053,
+ "runs": 11621,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87980,
- "sent_total": 1977064,
+ "detected_total": 87981,
+ "sent_total": 1977112,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38076,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38076,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T00:18:48.427Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:26:02.985Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 439262,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 439262,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T00:44:09.353Z",
    "t": 1
   }
  ]
