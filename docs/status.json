@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T00:44:13.389Z",
- "updated_unix": 1792025053,
- "runs": 11621,
+ "updated": "2026-10-15T00:45:12.505Z",
+ "updated_unix": 1792025112,
+ "runs": 11622,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 87981,
- "sent_total": 1977112,
+ "detected_total": 87982,
+ "sent_total": 1977160,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38077,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38077,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T00:18:48.427Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:26:02.985Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T00:44:09.353Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22047,
+   "owner": "pronzitelna.ton",
+   "owner_addr": "0:4ad5ecd951fc649b519c31325a32ff181365b0cb3247062244d0255735e2952e",
+   "mint": 1792015960,
+   "counter_issued": 22047,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T00:45:11.341Z",
    "t": 1
   }
  ]
