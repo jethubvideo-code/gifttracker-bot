@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T04:26:58.046Z",
- "updated_unix": 1792038418,
- "runs": 11635,
+ "updated": "2026-10-15T04:51:12.433Z",
+ "updated_unix": 1792039872,
+ "runs": 11636,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 88044,
- "sent_total": 1980144,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 88045,
+ "sent_total": 1980193,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24594,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24594,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:20:29.580Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:16:54.869Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T04:26:56.505Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390099,
+   "owner": "",
+   "owner_addr": "0:9e1a582ee32ac42c0e2c3c9ed63e62a627440dd576ade8df40784a76cd5183bd",
+   "mint": 1792033975,
+   "counter_issued": 390099,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T04:51:11.194Z",
    "t": 1
   }
  ]
