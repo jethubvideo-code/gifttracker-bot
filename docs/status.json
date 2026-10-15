@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-15T05:32:26.061Z",
- "updated_unix": 1792042346,
- "runs": 11640,
+ "updated": "2026-10-15T05:41:34.153Z",
+ "updated_unix": 1792042894,
+ "runs": 11641,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 88051,
- "sent_total": 1980487,
+ "detected_total": 88052,
+ "sent_total": 1980536,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390098,
-   "owner": "",
-   "owner_addr": "0:6e913c50672c29b1bb3ab136fe1180c32e0797cc6cfc4c7e9c9a894b61dc97ec",
-   "mint": 1792022015,
-   "counter_issued": 390098,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-15T01:21:49.911Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-15T05:32:24.956Z",
+   "t": 3
+  },
+  {
+   "slug": "SharpTongue",
+   "gift": "Sharp Tongue",
+   "number": 8147,
+   "owner": "",
+   "owner_addr": "0:52f695e142325c38d6fac215976b278c2ad105fa40d0c5821d12da9204e75011",
+   "mint": 1792015216,
+   "counter_issued": 8147,
+   "counter_total": 8546,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-15T05:41:29.900Z",
    "t": 1
   }
  ]
