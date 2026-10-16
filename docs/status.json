@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T11:42:46.425Z",
- "updated_unix": 1792150966,
- "runs": 11840,
+ "updated": "2026-10-16T11:43:46.191Z",
+ "updated_unix": 1792151026,
+ "runs": 11841,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89734,
- "sent_total": 2063475,
+ "detected_total": 89735,
+ "sent_total": 2063525,
  "last_upgrades": [
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20849,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20849,
-   "counter_total": 25719,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:58.151Z",
-   "t": 3
-  },
   {
    "slug": "ionicdryer",
    "gift": "Ionic Dryers",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:42:45.050Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22049,
+   "owner": "",
+   "owner_addr": "0:a22a24c9821fb38198d2dea797b90bd3a4e9f0d226748cadd965454c32ec7e4e",
+   "mint": 1792098289,
+   "counter_issued": 22049,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T11:43:44.775Z",
    "t": 1
   }
  ]
