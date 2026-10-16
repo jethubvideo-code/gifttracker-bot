@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T09:14:38.944Z",
- "updated_unix": 1792142078,
- "runs": 11816,
+ "updated": "2026-10-16T09:18:38.951Z",
+ "updated_unix": 1792142318,
+ "runs": 11817,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89483,
- "sent_total": 2050925,
+ "detected_total": 89485,
+ "sent_total": 2051025,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108678,
-   "owner": "",
-   "owner_addr": "0:79118e244cd47162d6d1f6dd81ae4efccec19b90a53038110804b5f10515ef74",
-   "mint": 1792138190,
-   "counter_issued": 108678,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T09:09:18.664Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56512,
-   "owner": "",
-   "owner_addr": "0:ad2b6c0595609d807be67bc8734fb555abc74903a99fbfe7e68bb372a00ddaec",
-   "mint": 1791984331,
-   "counter_issued": 56512,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T09:10:40.269Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:14:34.362Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:14:37.461Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133187,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133187,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T09:18:34.541Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90101,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90101,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T09:18:37.896Z",
    "t": 1
   }
  ]
