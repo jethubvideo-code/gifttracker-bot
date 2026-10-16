@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T09:19:36.241Z",
- "updated_unix": 1792142376,
- "runs": 11818,
+ "updated": "2026-10-16T09:21:34.889Z",
+ "updated_unix": 1792142494,
+ "runs": 11819,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 89486,
- "sent_total": 2051075,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 89487,
+ "sent_total": 2051125,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56514,
-   "owner": "",
-   "owner_addr": "0:bc2b68ecc19d72a3f5da79db7f4b3d5dcf6706fa1eccd93e1d92fa07456cd1bd",
-   "mint": 1792005938,
-   "counter_issued": 56514,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T09:10:40.269Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:19:34.596Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 439329,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 439329,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T09:21:31.201Z",
    "t": 1
   }
  ]
