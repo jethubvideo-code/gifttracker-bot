@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T19:19:01.882Z",
- "updated_unix": 1792178341,
- "runs": 11915,
+ "updated": "2026-10-16T19:22:06.696Z",
+ "updated_unix": 1792178526,
+ "runs": 11916,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90664,
- "sent_total": 2111505,
+ "detected_total": 90666,
+ "sent_total": 2111611,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266965,
-   "owner": "",
-   "owner_addr": "0:bcaddf237a8f5eba1de0725638510116198024b0399c65f5d1588a0252d34ad4",
-   "mint": 1792169817,
-   "counter_issued": 266965,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266966,
-   "owner": "",
-   "owner_addr": "0:bcaddf237a8f5eba1de0725638510116198024b0399c65f5d1588a0252d34ad4",
-   "mint": 1792169884,
-   "counter_issued": 266966,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T19:19:00.229Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 12983,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 12983,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T19:21:59.441Z",
+   "t": 1
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 12984,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 12984,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T19:21:59.441Z",
    "t": 1
   }
  ]
