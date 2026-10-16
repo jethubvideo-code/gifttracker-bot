@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T18:12:00.240Z",
- "updated_unix": 1792174320,
- "runs": 11906,
+ "updated": "2026-10-16T18:33:44.710Z",
+ "updated_unix": 1792175624,
+ "runs": 11907,
  "collections": 121,
- "checked": 3,
- "errors": 118,
- "detected_total": 90645,
- "sent_total": 2110498,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 90647,
+ "sent_total": 2110604,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266946,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266946,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266947,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266947,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:11:56.722Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90112,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90112,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T18:33:35.584Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390169,
+   "owner": "crypto-rimsian.ton",
+   "owner_addr": "0:f0867a459190dff1f13d34c4a24b63caf891595ffc41dd51480cdaa0b5d600a7",
+   "mint": 1792174090,
+   "counter_issued": 390169,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T18:33:43.424Z",
    "t": 1
   }
  ]
