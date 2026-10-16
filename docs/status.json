@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T07:36:22.751Z",
- "updated_unix": 1792136182,
- "runs": 11803,
+ "updated": "2026-10-16T07:58:43.830Z",
+ "updated_unix": 1792137523,
+ "runs": 11804,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89420,
- "sent_total": 2047775,
+ "detected_total": 89422,
+ "sent_total": 2047875,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32393,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32393,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T07:00:03.446Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32394,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32394,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T07:00:03.446Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T07:36:21.314Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32406,
+   "owner": "bole.ton",
+   "owner_addr": "0:0754b889fcaf9106ed8f8795e1c8497762944214ba6b359dca006112266fb63e",
+   "mint": 1792137071,
+   "counter_issued": 32406,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T07:58:39.807Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 108677,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108677,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T07:58:42.908Z",
    "t": 1
   }
  ]
