@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T09:43:44.409Z",
- "updated_unix": 1792143824,
- "runs": 11820,
+ "updated": "2026-10-16T09:47:41.648Z",
+ "updated_unix": 1792144061,
+ "runs": 11821,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 89490,
- "sent_total": 2051275,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 89491,
+ "sent_total": 2051325,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56518,
-   "owner": "",
-   "owner_addr": "0:ef332023908b829cf2755b337c50d82e7a62e6b6f0d99b5a1a751897cb39a378",
-   "mint": 1792074282,
-   "counter_issued": 56518,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T09:10:40.269Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:21:31.201Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:43:34.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:43:34.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:43:42.626Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108302,
+   "owner": "",
+   "owner_addr": "0:659f4651b12a261de8d2f6bddb87967b71ff7ac3262be4c9f38dc692652cb0a7",
+   "mint": 1792143515,
+   "counter_issued": 108302,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T09:47:40.180Z",
    "t": 1
   }
  ]
