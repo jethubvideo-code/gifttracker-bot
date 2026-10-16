@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T18:10:56.521Z",
- "updated_unix": 1792174256,
- "runs": 11905,
+ "updated": "2026-10-16T18:12:00.240Z",
+ "updated_unix": 1792174320,
+ "runs": 11906,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 90644,
- "sent_total": 2110445,
+ "checked": 3,
+ "errors": 118,
+ "detected_total": 90645,
+ "sent_total": 2110498,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266945,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266945,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:10:53.553Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:10:53.553Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108308,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792171759,
+   "counter_issued": 108308,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T18:11:56.722Z",
    "t": 1
   }
  ]
