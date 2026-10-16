@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T18:37:53.744Z",
- "updated_unix": 1792175873,
- "runs": 11908,
+ "updated": "2026-10-16T18:40:50.028Z",
+ "updated_unix": 1792176050,
+ "runs": 11909,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 90653,
- "sent_total": 2110922,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 90655,
+ "sent_total": 2111028,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266954,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266954,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266955,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266955,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:37:44.400Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:37:44.400Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:37:44.400Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:37:44.400Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:37:44.400Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T18:37:44.400Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108309,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108309,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T18:40:46.987Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108310,
+   "owner": "zlittle.t.me",
+   "owner_addr": "0:1a41018dc43bc74c89a58baf845be49ce30c5eedae803176a318dadcfef0458f",
+   "mint": 1792175984,
+   "counter_issued": 108310,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T18:40:46.987Z",
    "t": 1
   }
  ]
