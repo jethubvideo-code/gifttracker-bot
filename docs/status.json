@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T10:30:56.905Z",
- "updated_unix": 1792146656,
- "runs": 11827,
+ "updated": "2026-10-16T10:32:56.885Z",
+ "updated_unix": 1792146776,
+ "runs": 11828,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89558,
- "sent_total": 2054675,
+ "detected_total": 89559,
+ "sent_total": 2054725,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226986,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226986,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T10:30:55.757Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266881,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 266881,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:32:55.761Z",
    "t": 1
   }
  ]
