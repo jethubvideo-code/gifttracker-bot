@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T10:32:56.885Z",
- "updated_unix": 1792146776,
- "runs": 11828,
+ "updated": "2026-10-16T10:54:18.333Z",
+ "updated_unix": 1792148058,
+ "runs": 11829,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89559,
- "sent_total": 2054725,
+ "detected_total": 89561,
+ "sent_total": 2054825,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226987,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226987,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226988,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226988,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T10:32:55.761Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133190,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133190,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:54:10.826Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266882,
+   "owner": "",
+   "owner_addr": "0:a4cb87396683c3bb83ea575b4219ecfbd51d75845b2c9c2522b5d033533b7578",
+   "mint": 1792147983,
+   "counter_issued": 266882,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:54:17.114Z",
    "t": 1
   }
  ]
