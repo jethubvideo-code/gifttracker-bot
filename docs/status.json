@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T16:47:50.934Z",
- "updated_unix": 1792169270,
- "runs": 11896,
+ "updated": "2026-10-16T16:49:47.881Z",
+ "updated_unix": 1792169387,
+ "runs": 11897,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90579,
- "sent_total": 2107000,
+ "detected_total": 90581,
+ "sent_total": 2107106,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135205,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135205,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/EgTaeWIPvIeCpcFQng-YSm2gj8nzKbyUjztc1SIVGA6en-100mD4Q9kUICD8ZNLnfucQodXxuEI66wH0Cn-dZD8gMq5raGHFe-gW0qCvIonNSUMW0D5KcjhitOUfNnzIbQ3GZzamqCHm6mLd8IYECcYzo2dAdGEwUVt1XTTyxrgfiAe7O7_VvnPT3XGrIjKv59FfsZBGeGaagLnue1vqnr_c92O93z8QMqzqJtt4CFN3jv6d3WuRMmNnGnckM7FDzft54gbiXzMps7hP5qKbGwQwoXArDEMGiNBnD00DbUp1rQBzasgWhYJPOGlMql-xCcMGFf_inr8sr2LdWLvD_g.jpg",
-   "sent": 0,
-   "time": "2026-10-16T15:49:45.557Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135206,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135206,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/EgTaeWIPvIeCpcFQng-YSm2gj8nzKbyUjztc1SIVGA6en-100mD4Q9kUICD8ZNLnfucQodXxuEI66wH0Cn-dZD8gMq5raGHFe-gW0qCvIonNSUMW0D5KcjhitOUfNnzIbQ3GZzamqCHm6mLd8IYECcYzo2dAdGEwUVt1XTTyxrgfiAe7O7_VvnPT3XGrIjKv59FfsZBGeGaagLnue1vqnr_c92O93z8QMqzqJtt4CFN3jv6d3WuRMmNnGnckM7FDzft54gbiXzMps7hP5qKbGwQwoXArDEMGiNBnD00DbUp1rQBzasgWhYJPOGlMql-xCcMGFf_inr8sr2LdWLvD_g.jpg",
-   "sent": 0,
-   "time": "2026-10-16T15:49:45.557Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:14:19.798Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:47:39.671Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:47:39.671Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:47:48.098Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:47:48.098Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266922,
+   "owner": "",
+   "owner_addr": "0:5a512904dfc49cd793e49704b24f1b5e16633782d0be96ae1a09d78792bf6d95",
+   "mint": 1792166994,
+   "counter_issued": 266922,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T16:49:44.928Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 266923,
+   "owner": "",
+   "owner_addr": "0:0806c75a862cf54e845d1ee525220c285b19299ff1937ae352524154af147c64",
+   "mint": 1792168069,
+   "counter_issued": 266923,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T16:49:44.928Z",
    "t": 1
   }
  ]
