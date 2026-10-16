@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T11:33:43.969Z",
- "updated_unix": 1792150423,
- "runs": 11836,
+ "updated": "2026-10-16T11:35:44.046Z",
+ "updated_unix": 1792150544,
+ "runs": 11837,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89728,
- "sent_total": 2063175,
+ "detected_total": 89729,
+ "sent_total": 2063225,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188731,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188731,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:14.319Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:33:42.227Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108304,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108304,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T11:35:42.495Z",
    "t": 1
   }
  ]
