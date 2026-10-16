@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-16T21:33:26.540Z",
- "updated_unix": 1792186406,
- "runs": 11932,
+ "updated": "2026-10-16T21:36:32.994Z",
+ "updated_unix": 1792186592,
+ "runs": 11933,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90712,
- "sent_total": 2114055,
+ "detected_total": 90715,
+ "sent_total": 2114217,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266998,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266998,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T19:45:24.269Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266999,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266999,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T19:45:24.269Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267000,
-   "owner": "",
-   "owner_addr": "0:efee1812db2a98ac020508b5694805adf84736ce1caff829b23b0a842da0beab",
-   "mint": 1792177786,
-   "counter_issued": 267000,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T19:45:24.269Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T21:33:22.951Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T21:33:22.951Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133215,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133215,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T21:36:18.490Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267009,
+   "owner": "",
+   "owner_addr": "0:aa6a152603fe70567821e9e4a2671155c9996386b28bc16af134c6a49f1b2d01",
+   "mint": 1792186254,
+   "counter_issued": 267009,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T21:36:29.826Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267010,
+   "owner": "moon.ton",
+   "owner_addr": "0:aa6a152603fe70567821e9e4a2671155c9996386b28bc16af134c6a49f1b2d01",
+   "mint": 1792186285,
+   "counter_issued": 267010,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T21:36:29.826Z",
    "t": 1
   }
  ]
