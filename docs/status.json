@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T11:43:46.191Z",
- "updated_unix": 1792151026,
- "runs": 11841,
+ "updated": "2026-10-16T12:04:59.029Z",
+ "updated_unix": 1792152299,
+ "runs": 11842,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89735,
- "sent_total": 2063525,
+ "detected_total": 89737,
+ "sent_total": 2063625,
  "last_upgrades": [
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20850,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20850,
-   "counter_total": 25719,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:58.151Z",
-   "t": 3
-  },
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20851,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20851,
-   "counter_total": 25719,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:58.151Z",
-   "t": 3
-  },
   {
    "slug": "ionicdryer",
    "gift": "Ionic Dryers",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:43:44.775Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266888,
+   "owner": "",
+   "owner_addr": "0:5fc6ad1e4943bd2b62bc1b4c481a81a77a5f236fee17ec399673ffe4e5f32589",
+   "mint": 1792152176,
+   "counter_issued": 266888,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T12:04:55.790Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266889,
+   "owner": "aevaticus.t.me",
+   "owner_addr": "0:5fc6ad1e4943bd2b62bc1b4c481a81a77a5f236fee17ec399673ffe4e5f32589",
+   "mint": 1792152190,
+   "counter_issued": 266889,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T12:04:55.790Z",
    "t": 1
   }
  ]
