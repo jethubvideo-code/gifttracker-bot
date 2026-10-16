@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T07:04:21.361Z",
- "updated_unix": 1792134261,
- "runs": 11800,
+ "updated": "2026-10-16T07:06:20.183Z",
+ "updated_unix": 1792134380,
+ "runs": 11801,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89416,
- "sent_total": 2047575,
+ "detected_total": 89417,
+ "sent_total": 2047625,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3886,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3886,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T06:48:58.198Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T07:04:15.124Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T07:04:18.643Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T07:04:18.643Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108299,
+   "owner": "",
+   "owner_addr": "0:e76ab079a0c2b5493d5b94f17d212f40aa659f0018da6cef0adc9c38053701ba",
+   "mint": 1792123288,
+   "counter_issued": 108299,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T07:06:19.072Z",
    "t": 1
   }
  ]
