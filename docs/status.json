@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T20:54:55.033Z",
- "updated_unix": 1792184095,
- "runs": 11925,
+ "updated": "2026-10-16T20:55:56.549Z",
+ "updated_unix": 1792184156,
+ "runs": 11926,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90700,
- "sent_total": 2113412,
+ "detected_total": 90702,
+ "sent_total": 2113518,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266986,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266986,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T19:45:24.269Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266987,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266987,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T19:45:24.269Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T20:26:34.771Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T20:26:34.771Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T20:54:53.651Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267006,
+   "owner": "",
+   "owner_addr": "0:74178c40d57df67e39eb6355f21a6a67635451f85653b8a3557fb31b0494d932",
+   "mint": 1792182763,
+   "counter_issued": 267006,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T20:55:53.928Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267007,
+   "owner": "top77.t.me",
+   "owner_addr": "0:74178c40d57df67e39eb6355f21a6a67635451f85653b8a3557fb31b0494d932",
+   "mint": 1792182855,
+   "counter_issued": 267007,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T20:55:53.928Z",
    "t": 1
   }
  ]
