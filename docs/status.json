@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T01:44:26.836Z",
- "updated_unix": 1792115066,
- "runs": 11773,
+ "updated": "2026-10-16T01:46:27.381Z",
+ "updated_unix": 1792115187,
+ "runs": 11774,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89193,
- "sent_total": 2036427,
+ "detected_total": 89195,
+ "sent_total": 2036525,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38162,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38162,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T00:25:09.759Z",
-   "t": 3
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38163,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38163,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T00:25:09.759Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T01:44:18.488Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T01:44:18.488Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T01:44:18.488Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 439317,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 439317,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T01:46:21.975Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 439318,
+   "owner": "",
+   "owner_addr": "0:ed6de864b5cbdeb2f04443c139c25160264ab771142fa9c35e62e1cd419a7cdd",
+   "mint": 1792114066,
+   "counter_issued": 439318,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T01:46:21.975Z",
    "t": 1
   }
  ]
