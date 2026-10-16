@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T21:03:52.646Z",
- "updated_unix": 1792184632,
- "runs": 11928,
+ "updated": "2026-10-16T21:07:54.297Z",
+ "updated_unix": 1792184874,
+ "runs": 11929,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90704,
- "sent_total": 2113624,
+ "detected_total": 90705,
+ "sent_total": 2113677,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 266990,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 266990,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T19:45:24.269Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T21:03:51.595Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133214,
+   "owner": "",
+   "owner_addr": "0:c034a5319a4dea7ce97b10c5b7152e14bdf194b63ae37af585dfbcf57dea0ab5",
+   "mint": 1792183287,
+   "counter_issued": 133214,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T21:07:52.847Z",
    "t": 1
   }
  ]
