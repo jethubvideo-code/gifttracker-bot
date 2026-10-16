@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-16T19:22:06.696Z",
- "updated_unix": 1792178526,
- "runs": 11916,
+ "updated": "2026-10-16T19:44:22.739Z",
+ "updated_unix": 1792179862,
+ "runs": 11917,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90666,
- "sent_total": 2111611,
+ "detected_total": 90668,
+ "sent_total": 2111717,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266967,
-   "owner": "",
-   "owner_addr": "0:de3eba4436341a20f481a687f308e34974a7d0b4975a479abc94361174b86761",
-   "mint": 1792170256,
-   "counter_issued": 266967,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 266968,
-   "owner": "",
-   "owner_addr": "0:471479182d1fd375d1600b98e2a2cc19dca48b620aa883cf556d2b2250e2d5e6",
-   "mint": 1792171239,
-   "counter_issued": 266968,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T18:03:48.711Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T19:21:59.441Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T19:21:59.441Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390171,
+   "owner": "",
+   "owner_addr": "0:8782b6737386b5598c0a6978fc6c5d889e7c6547f9c8a5fd57c3f11487a0f494",
+   "mint": 1792177121,
+   "counter_issued": 390171,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T19:44:15.938Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90113,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90113,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T19:44:19.130Z",
    "t": 1
   }
  ]
