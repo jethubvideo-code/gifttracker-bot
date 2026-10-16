@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T07:58:43.830Z",
- "updated_unix": 1792137523,
- "runs": 11804,
+ "updated": "2026-10-16T07:59:43.212Z",
+ "updated_unix": 1792137583,
+ "runs": 11805,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89422,
- "sent_total": 2047875,
+ "detected_total": 89423,
+ "sent_total": 2047925,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32395,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32395,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T07:00:03.446Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T07:58:39.807Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T07:58:42.908Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74632,
+   "owner": "lllldomains.ton",
+   "owner_addr": "0:0d1b0dc2b8d8b79fe4db7cf44890efd47aff6866a1dc38c734d08dbae967c92b",
+   "mint": 1792124728,
+   "counter_issued": 74632,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T07:59:39.569Z",
    "t": 1
   }
  ]
