@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T02:29:02.367Z",
- "updated_unix": 1792117742,
- "runs": 11780,
+ "updated": "2026-10-16T02:39:58.180Z",
+ "updated_unix": 1792118398,
+ "runs": 11781,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 89301,
- "sent_total": 2041761,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 89302,
+ "sent_total": 2041812,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 56981,
-   "owner": "",
-   "owner_addr": "0:ee261ff0e32bf0b5f5638ff87b55880d9e7e9f1fba2c06b32339d0ee0c8a46a0",
-   "mint": 1792076065,
-   "counter_issued": 56981,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T02:23:26.234Z",
-   "t": 3
-  },
   {
    "slug": "HexPot",
    "gift": "Hex Pot",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-16T02:24:55.329Z",
    "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390138,
+   "owner": "",
+   "owner_addr": "0:f5a7f985e5fa44c6fbe0d2cc68a76ba166204828336adbc166c60a1ab0dc45d2",
+   "mint": 1792106288,
+   "counter_issued": 390138,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T02:39:57.120Z",
+   "t": 1
   }
  ]
 }
