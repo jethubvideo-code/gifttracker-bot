@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T06:30:46.675Z",
- "updated_unix": 1792132246,
- "runs": 11795,
+ "updated": "2026-10-16T06:47:03.043Z",
+ "updated_unix": 1792133223,
+ "runs": 11796,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89384,
- "sent_total": 2045975,
+ "detected_total": 89385,
+ "sent_total": 2046025,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71686,
-   "owner": "",
-   "owner_addr": "0:a33aff89294b5e6ef724b58bf963ee88cadc6a1253d3e160ca6c609383a99c83",
-   "mint": 1792049168,
-   "counter_issued": 71686,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T03:51:54.948Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T06:30:43.119Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390143,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1792130707,
+   "counter_issued": 390143,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T06:47:01.325Z",
    "t": 1
   }
  ]
