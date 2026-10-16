@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-16T10:21:03.028Z",
- "updated_unix": 1792146063,
- "runs": 11824,
+ "updated": "2026-10-16T10:23:05.385Z",
+ "updated_unix": 1792146185,
+ "runs": 11825,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89553,
- "sent_total": 2054425,
+ "detected_total": 89556,
+ "sent_total": 2054575,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226981,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226981,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226982,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226982,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226983,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226983,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T10:20:54.433Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T10:20:54.433Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T10:21:01.768Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133188,
+   "owner": "",
+   "owner_addr": "0:0795988fde4a67eb53879611d9bd39abe5a0a4cc7e33bf4f232d9f49b6a11ed1",
+   "mint": 1792144081,
+   "counter_issued": 133188,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:22:57.487Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133189,
+   "owner": "",
+   "owner_addr": "0:cefc20ab8bfcac10276bcadb20e4f48ba042d01507ca826d7c0ed51af6465c04",
+   "mint": 1792144413,
+   "counter_issued": 133189,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:22:57.487Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 266880,
+   "owner": "babyddoll.t.me",
+   "owner_addr": "0:4de59b3aa1673a411d91263058ff9a019b6aee7b5fdb52c5443000da6219721f",
+   "mint": 1792145955,
+   "counter_issued": 266880,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:23:04.276Z",
    "t": 1
   }
  ]
