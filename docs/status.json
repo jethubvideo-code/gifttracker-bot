@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T11:41:48.868Z",
- "updated_unix": 1792150908,
- "runs": 11839,
+ "updated": "2026-10-16T11:42:46.425Z",
+ "updated_unix": 1792150966,
+ "runs": 11840,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89733,
- "sent_total": 2063425,
+ "detected_total": 89734,
+ "sent_total": 2063475,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271555,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271555,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:18.364Z",
-   "t": 3
-  },
   {
    "slug": "ionicdryer",
    "gift": "Ionic Dryers",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:41:42.283Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:41:42.283Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:41:47.358Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12981,
+   "owner": "",
+   "owner_addr": "0:5d87e6183fcba3f06a08efcd00ba0fc2221d29576fcdac7ebc918d3f95f4c4e5",
+   "mint": 1792146339,
+   "counter_issued": 12981,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T11:42:45.050Z",
    "t": 1
   }
  ]
