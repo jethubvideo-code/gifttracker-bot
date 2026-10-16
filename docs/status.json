@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T08:52:03.487Z",
- "updated_unix": 1792140723,
- "runs": 11813,
+ "updated": "2026-10-16T09:09:22.432Z",
+ "updated_unix": 1792141762,
+ "runs": 11814,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89453,
- "sent_total": 2049425,
+ "detected_total": 89454,
+ "sent_total": 2049475,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84788,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84788,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T08:08:38.165Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T08:52:00.730Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T08:52:00.730Z",
+   "t": 3
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "Spiced Wine",
+   "number": 108678,
+   "owner": "",
+   "owner_addr": "0:79118e244cd47162d6d1f6dd81ae4efccec19b90a53038110804b5f10515ef74",
+   "mint": 1792138190,
+   "counter_issued": 108678,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T09:09:18.664Z",
    "t": 1
   }
  ]
