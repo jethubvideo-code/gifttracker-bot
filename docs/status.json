@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T16:50:52.274Z",
- "updated_unix": 1792169452,
- "runs": 11898,
+ "updated": "2026-10-16T16:52:44.012Z",
+ "updated_unix": 1792169564,
+ "runs": 11899,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 90583,
- "sent_total": 2107212,
+ "detected_total": 90584,
+ "sent_total": 2107265,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135209,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135209,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/EgTaeWIPvIeCpcFQng-YSm2gj8nzKbyUjztc1SIVGA6en-100mD4Q9kUICD8ZNLnfucQodXxuEI66wH0Cn-dZD8gMq5raGHFe-gW0qCvIonNSUMW0D5KcjhitOUfNnzIbQ3GZzamqCHm6mLd8IYECcYzo2dAdGEwUVt1XTTyxrgfiAe7O7_VvnPT3XGrIjKv59FfsZBGeGaagLnue1vqnr_c92O93z8QMqzqJtt4CFN3jv6d3WuRMmNnGnckM7FDzft54gbiXzMps7hP5qKbGwQwoXArDEMGiNBnD00DbUp1rQBzasgWhYJPOGlMql-xCcMGFf_inr8sr2LdWLvD_g.jpg",
-   "sent": 0,
-   "time": "2026-10-16T15:49:45.557Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:50:45.109Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T16:50:45.109Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90110,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90110,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T16:52:42.778Z",
    "t": 1
   }
  ]
