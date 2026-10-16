@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T06:29:44.757Z",
- "updated_unix": 1792132184,
- "runs": 11794,
+ "updated": "2026-10-16T06:30:46.675Z",
+ "updated_unix": 1792132246,
+ "runs": 11795,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89383,
- "sent_total": 2045925,
+ "detected_total": 89384,
+ "sent_total": 2045975,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71685,
-   "owner": "",
-   "owner_addr": "0:be157b77bb7f57d2af786e6fee05552cf3fffe9aa91ba87095c4a1b48ebb3d6c",
-   "mint": 1792044885,
-   "counter_issued": 71685,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T03:51:54.948Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T06:29:43.514Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3884,
+   "owner": "",
+   "owner_addr": "0:8573af02c4ead9d980b049d7f58e38cb82db8b813e5229095e966187e58c6a2f",
+   "mint": 1792127192,
+   "counter_issued": 3884,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T06:30:43.119Z",
    "t": 1
   }
  ]
