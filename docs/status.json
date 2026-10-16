@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T10:30:01.160Z",
- "updated_unix": 1792146601,
- "runs": 11826,
+ "updated": "2026-10-16T10:30:56.905Z",
+ "updated_unix": 1792146656,
+ "runs": 11827,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89557,
- "sent_total": 2054625,
+ "detected_total": 89558,
+ "sent_total": 2054675,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 226985,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 226985,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T10:01:16.264Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T10:29:59.968Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390156,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390156,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T10:30:55.757Z",
    "t": 1
   }
  ]
