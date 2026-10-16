@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T05:38:36.437Z",
- "updated_unix": 1792129116,
- "runs": 11791,
+ "updated": "2026-10-16T05:40:28.400Z",
+ "updated_unix": 1792129228,
+ "runs": 11792,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89378,
- "sent_total": 2045675,
+ "detected_total": 89379,
+ "sent_total": 2045725,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71680,
-   "owner": "",
-   "owner_addr": "0:72070c384984a1bf9662bc4ce5a5288ce9796d826f68fd2e1d0e289c4adb4488",
-   "mint": 1791955186,
-   "counter_issued": 71680,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T03:51:54.948Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:38:28.751Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:38:28.751Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:38:35.179Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 439324,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 439324,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T05:40:27.164Z",
    "t": 1
   }
  ]
