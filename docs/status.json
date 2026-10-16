@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T09:18:38.951Z",
- "updated_unix": 1792142318,
- "runs": 11817,
+ "updated": "2026-10-16T09:19:36.241Z",
+ "updated_unix": 1792142376,
+ "runs": 11818,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89485,
- "sent_total": 2051025,
+ "detected_total": 89486,
+ "sent_total": 2051075,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56513,
-   "owner": "",
-   "owner_addr": "0:20dc7f013ff92e3731eda2aa32251f5e080561ddca45835b2fcb202bec940751",
-   "mint": 1791990692,
-   "counter_issued": 56513,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T09:10:40.269Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:18:34.541Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T09:18:37.896Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390151,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390151,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T09:19:34.596Z",
    "t": 1
   }
  ]
