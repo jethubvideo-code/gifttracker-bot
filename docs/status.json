@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T11:35:44.046Z",
- "updated_unix": 1792150544,
- "runs": 11837,
+ "updated": "2026-10-16T11:36:43.751Z",
+ "updated_unix": 1792150603,
+ "runs": 11838,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 89729,
- "sent_total": 2063225,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 89730,
+ "sent_total": 2063275,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188732,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188732,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:14.319Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:35:42.495Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133193,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133193,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T11:36:42.216Z",
    "t": 1
   }
  ]
