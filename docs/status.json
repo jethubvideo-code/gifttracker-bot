@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-16T05:36:27.339Z",
- "updated_unix": 1792128987,
- "runs": 11790,
+ "updated": "2026-10-16T05:38:36.437Z",
+ "updated_unix": 1792129116,
+ "runs": 11791,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89375,
- "sent_total": 2045525,
+ "detected_total": 89378,
+ "sent_total": 2045675,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71677,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791925488,
-   "counter_issued": 71677,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T03:51:54.948Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71678,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1791936430,
-   "counter_issued": 71678,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T03:51:54.948Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71679,
-   "owner": "",
-   "owner_addr": "0:9fff87da8041a36d998aa1cbc5023de7cf6689a1894c7a46a750c988e032933f",
-   "mint": 1791940939,
-   "counter_issued": 71679,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T03:51:54.948Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:05:16.445Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:05:16.445Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:05:16.445Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T05:36:25.796Z",
+   "t": 3
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "Spiced Wine",
+   "number": 108675,
+   "owner": "",
+   "owner_addr": "0:5a5cff24fdbb0969d8a31a9d0142d957119010c921beb5c414bd419daea40d2a",
+   "mint": 1792104687,
+   "counter_issued": 108675,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T05:38:28.751Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "Spiced Wine",
+   "number": 108676,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792126134,
+   "counter_issued": 108676,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T05:38:28.751Z",
+   "t": 1
+  },
+  {
+   "slug": "WinterWreath",
+   "gift": "WinterWreath",
+   "number": 77847,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 77847,
+   "counter_total": 100846,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T05:38:35.179Z",
    "t": 1
   }
  ]
