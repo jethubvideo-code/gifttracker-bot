@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-16T11:29:49.740Z",
- "updated_unix": 1792150189,
- "runs": 11834,
+ "updated": "2026-10-16T11:31:43.842Z",
+ "updated_unix": 1792150303,
+ "runs": 11835,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 89726,
- "sent_total": 2063075,
+ "detected_total": 89727,
+ "sent_total": 2063125,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188729,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188729,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-16T11:00:14.319Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:08:10.148Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:29:33.151Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:29:40.459Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:29:40.459Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-16T11:29:48.039Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90103,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90103,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-16T11:31:42.182Z",
    "t": 1
   }
  ]
