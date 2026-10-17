@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T12:59:12.737Z",
- "updated_unix": 1792241952,
- "runs": 12034,
+ "updated": "2026-10-17T13:00:06.508Z",
+ "updated_unix": 1792242006,
+ "runs": 12035,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92695,
- "sent_total": 2222872,
+ "detected_total": 92696,
+ "sent_total": 2222932,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 188751,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 188751,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T12:56:40.560Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:58:55.331Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:58:55.331Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:58:55.331Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:59:03.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "KhabibsPapakha",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:59:09.058Z",
+   "t": 3
+  },
+  {
+   "slug": "LowRider",
+   "gift": "Low Rider",
+   "number": 23492,
+   "owner": "",
+   "owner_addr": "0:71b3ea438e7b07aea5a3d5b4a7ab1dbde3ebe0e1269cd1844d2e1596a4ba54eb",
+   "mint": 1792236908,
+   "counter_issued": 23492,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T13:00:05.058Z",
    "t": 1
   }
  ]
