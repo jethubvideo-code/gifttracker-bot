@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T15:55:24.646Z",
- "updated_unix": 1792252524,
- "runs": 12056,
+ "updated": "2026-10-17T16:19:33.592Z",
+ "updated_unix": 1792253973,
+ "runs": 12057,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 92753,
- "sent_total": 2226352,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92755,
+ "sent_total": 2226472,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90124,
-   "owner": "",
-   "owner_addr": "0:85601d4f14ca027922d4ab752a77ec3041a79804a468b3c628445d53ff12652f",
-   "mint": 1792245170,
-   "counter_issued": 90124,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T14:09:47.729Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3910,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3910,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T14:40:34.454Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T15:55:20.253Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T15:55:20.253Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267089,
+   "owner": "kapilyar111.ton",
+   "owner_addr": "0:1bce7b8c9ee062aae9b28d075e995b7a22c9724723885c7c30529e758f1a6aad",
+   "mint": 1792253610,
+   "counter_issued": 267089,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T16:19:26.762Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390213,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792253881,
+   "counter_issued": 390213,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T16:19:32.258Z",
    "t": 1
   }
  ]
