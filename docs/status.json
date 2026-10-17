@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T22:18:36.451Z",
- "updated_unix": 1792275516,
- "runs": 12096,
+ "updated": "2026-10-17T22:22:38.544Z",
+ "updated_unix": 1792275758,
+ "runs": 12097,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 92982,
- "sent_total": 2240651,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 92983,
+ "sent_total": 2240712,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84815,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792254051,
-   "counter_issued": 84815,
-   "counter_total": 114092,
-   "img": "https://cdn4.telesco.pe/file/AKWerDawTUAI6DvzfE8CGdDZrl1UvI37B55HhnKldkb8brR8Dwxj8ab7YGGZSgc1ZMTkKgwYQ3LD4TSSVudueg26HsucqTgCiEm1hnMvFb-oM0qi6VqvBldB21LihAPiSyrNrPlwf0wyA1_lU5y3KAMfNB2G8WkYVJoYAFBJrSvUQcA3dqX1jn_Uv72f8ERziZUl7_i7BbdPbF5wgRaKDLmKWMOzVpd-co9fPf0vNY62TOFUjtKBQUfef9ol3hMCzm_SAiPmwpMu9OSINLLVQiED2V77D3W1t7ndUTnGfdZyAPNg9QBYVp-sTGa_kKnIsYcfVRiUdfrPwhncO6qHHg.jpg",
-   "sent": 0,
-   "time": "2026-10-17T20:42:44.899Z",
-   "u": 1
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T22:18:32.989Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T22:18:32.989Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440796,
+   "owner": "",
+   "owner_addr": "0:106b1908f37c41805508475ce27935230007655db3f43701929902ecf2879bd0",
+   "mint": 1792275720,
+   "counter_issued": 440796,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T22:22:37.137Z",
    "t": 1
   }
  ]
