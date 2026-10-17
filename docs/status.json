@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T20:43:55.835Z",
- "updated_unix": 1792269835,
- "runs": 12086,
+ "updated": "2026-10-17T21:04:53.978Z",
+ "updated_unix": 1792271093,
+ "runs": 12087,
  "collections": 121,
- "checked": 30,
- "errors": 91,
- "detected_total": 92962,
- "sent_total": 2239411,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92964,
+ "sent_total": 2239535,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440786,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440786,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T20:26:49.653Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440787,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440787,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T20:26:49.653Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -413,7 +385,7 @@
    "img": "https://cdn4.telesco.pe/file/aneftNujUE1JhDdNXaFwWGyN1PQyLH96X-cXWVQrjVWl0qEbtJ3dfxoMH3T1z1kGkS97vA0KDkNz-RqPXlHrTZcgvODmzGDwoB_ufUC5FmR3ZAGHBfjRF2Zrij3MWSLjGTMZR4ltnYyx0VNNUwH4U_DuwVr4PuxeSJyCTXS28Zb4WtYIsKUSjpp7S2n_e2cLL1dSOHI3gyidzw9etv730NeaLJjlNAJX0GEunGSGwKqpoSrq3Z5IRsL3LMNRIK1CBkkUQ1dDx4_I35-mCDPd0X_FJh0hKx7xLWpCuKr1NXrYIqtBOYqjv47F6mOb-n1GnzvU-kHrL4RhuSJucFXw8g.jpg",
    "sent": 0,
    "time": "2026-10-17T20:43:31.556Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -427,6 +399,34 @@
    "img": "https://cdn4.telesco.pe/file/aneftNujUE1JhDdNXaFwWGyN1PQyLH96X-cXWVQrjVWl0qEbtJ3dfxoMH3T1z1kGkS97vA0KDkNz-RqPXlHrTZcgvODmzGDwoB_ufUC5FmR3ZAGHBfjRF2Zrij3MWSLjGTMZR4ltnYyx0VNNUwH4U_DuwVr4PuxeSJyCTXS28Zb4WtYIsKUSjpp7S2n_e2cLL1dSOHI3gyidzw9etv730NeaLJjlNAJX0GEunGSGwKqpoSrq3Z5IRsL3LMNRIK1CBkkUQ1dDx4_I35-mCDPd0X_FJh0hKx7xLWpCuKr1NXrYIqtBOYqjv47F6mOb-n1GnzvU-kHrL4RhuSJucFXw8g.jpg",
    "sent": 0,
    "time": "2026-10-17T20:43:31.556Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84819,
+   "owner": "",
+   "owner_addr": "0:a32da8c53d09922f69b4ed0709552f0c5598c85a95a176a3350d9199861d9918",
+   "mint": 1792270238,
+   "counter_issued": 84819,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T21:04:46.465Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84160,
+   "owner": "",
+   "owner_addr": "0:e0b9b016a690c7804b8e16ba7946fc2fb6208965440190726e2242019a49f02f",
+   "mint": 1792269252,
+   "counter_issued": 84160,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T21:04:52.468Z",
    "t": 1
   }
  ]
