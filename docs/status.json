@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T23:36:13.923Z",
- "updated_unix": 1792280173,
- "runs": 12101,
+ "updated": "2026-10-17T23:38:07.791Z",
+ "updated_unix": 1792280287,
+ "runs": 12102,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92994,
- "sent_total": 2241394,
+ "detected_total": 92995,
+ "sent_total": 2241456,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 440792,
-   "owner": "",
-   "owner_addr": "0:27055727e2a638eeea0f8ab58d788b95c305cb30fa644bd1aaf0f154571c43c1",
-   "mint": 1792271039,
-   "counter_issued": 440792,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T21:05:47.628Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:36:07.996Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:36:07.996Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:36:07.996Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:36:07.996Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133243,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133243,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T23:38:04.330Z",
    "t": 1
   }
  ]
