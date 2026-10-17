@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T12:34:49.902Z",
- "updated_unix": 1792240489,
- "runs": 12030,
+ "updated": "2026-10-17T12:47:46.877Z",
+ "updated_unix": 1792241266,
+ "runs": 12031,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 92546,
- "sent_total": 2213932,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92547,
+ "sent_total": 2213992,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103367,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103367,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T11:49:12.207Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-17T12:24:37.768Z",
    "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440776,
+   "owner": "",
+   "owner_addr": "0:623a077090967f62d6884c9fd9d99362d78aa9452e593b54d6f8557f69df47e4",
+   "mint": 1792240834,
+   "counter_issued": 440776,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T12:47:44.549Z",
+   "t": 1
   }
  ]
 }
