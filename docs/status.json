@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T12:19:39.461Z",
- "updated_unix": 1792239579,
- "runs": 12026,
+ "updated": "2026-10-17T12:24:39.541Z",
+ "updated_unix": 1792239879,
+ "runs": 12027,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 92545,
- "sent_total": 2213874,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92546,
+ "sent_total": 2213932,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103366,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103366,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T11:49:12.207Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:19:37.759Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267061,
+   "owner": "vipwalletton.ton",
+   "owner_addr": "0:6fcff00cb34079267d3977839f68a84cfc5716c04fcff03b3289c5a3811736fd",
+   "mint": 1792239344,
+   "counter_issued": 267061,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T12:24:37.768Z",
    "t": 1
   }
  ]
