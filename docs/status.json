@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-17T18:21:50.771Z",
- "updated_unix": 1792261310,
- "runs": 12073,
+ "updated": "2026-10-17T19:16:25.485Z",
+ "updated_unix": 1792264585,
+ "runs": 12074,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92914,
- "sent_total": 2236438,
+ "detected_total": 92919,
+ "sent_total": 2236748,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74642,
-   "owner": "cinoflex.ton",
-   "owner_addr": "0:4227cc3b276d7246a3f3ef1578f2a6d85ecfd65118c9dcdf5777e88e4a39100b",
-   "mint": 1792245171,
-   "counter_issued": 74642,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:23.280Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32445,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32445,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32446,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32446,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32447,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32447,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32448,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32448,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T18:21:40.514Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T18:21:40.514Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T18:21:45.444Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T18:21:45.444Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267091,
+   "owner": "",
+   "owner_addr": "0:71845ec3ec9a5c8ee6c67e6f08bfa4bed6435c369b309b3dca1a7dfc55ce0d5d",
+   "mint": 1792264300,
+   "counter_issued": 267091,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:16:04.233Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267092,
+   "owner": "",
+   "owner_addr": "0:71845ec3ec9a5c8ee6c67e6f08bfa4bed6435c369b309b3dca1a7dfc55ce0d5d",
+   "mint": 1792264332,
+   "counter_issued": 267092,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:16:04.233Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90129,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792262853,
+   "counter_issued": 90129,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:16:14.021Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90130,
+   "owner": "",
+   "owner_addr": "0:61ce1479e2d60ec61d7c087ec44317ac3f9b52288eec1d92718c06eedd2d9c62",
+   "mint": 1792264241,
+   "counter_issued": 90130,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:16:14.021Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390221,
+   "owner": "",
+   "owner_addr": "0:518d226d079ee1e447ba7e316e2e56f9230aceb973d78d4f4404d805b9838d2b",
+   "mint": 1792264439,
+   "counter_issued": 390221,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:16:23.402Z",
    "t": 1
   }
  ]
