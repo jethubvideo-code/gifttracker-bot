@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T14:03:54.759Z",
- "updated_unix": 1792245834,
- "runs": 12040,
+ "updated": "2026-10-17T14:09:48.952Z",
+ "updated_unix": 1792246188,
+ "runs": 12041,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92723,
- "sent_total": 2224552,
+ "detected_total": 92724,
+ "sent_total": 2224612,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90123,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792240467,
-   "counter_issued": 90123,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T12:59:03.631Z",
-   "t": 3
-  },
   {
    "slug": "KhabibsPapakha",
    "gift": "Khabib’s Papakha",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T14:03:37.761Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T14:03:37.761Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T14:03:37.761Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T14:03:37.761Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T14:03:51.028Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90124,
+   "owner": "",
+   "owner_addr": "0:85601d4f14ca027922d4ab752a77ec3041a79804a468b3c628445d53ff12652f",
+   "mint": 1792245170,
+   "counter_issued": 90124,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T14:09:47.729Z",
    "t": 1
   }
  ]
