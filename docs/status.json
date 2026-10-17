@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T06:58:08.631Z",
- "updated_unix": 1792220288,
- "runs": 11979,
+ "updated": "2026-10-17T07:00:03.131Z",
+ "updated_unix": 1792220403,
+ "runs": 11980,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91824,
- "sent_total": 2174102,
+ "detected_total": 91825,
+ "sent_total": 2174156,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54498,
-   "owner": "",
-   "owner_addr": "0:28c91b17db71b898df70905bd7374dffc17f86aeb6c9240863b70dd44a2501cf",
-   "mint": 1792181858,
-   "counter_issued": 54498,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:45:18.086Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:58:04.270Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:58:07.367Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440765,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440765,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T07:00:01.749Z",
    "t": 1
   }
  ]
