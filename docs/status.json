@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T06:00:20.497Z",
- "updated_unix": 1792216820,
- "runs": 11976,
+ "updated": "2026-10-17T06:19:35.443Z",
+ "updated_unix": 1792217975,
+ "runs": 11977,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91817,
- "sent_total": 2173724,
+ "detected_total": 91818,
+ "sent_total": 2173778,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53395,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792170406,
-   "counter_issued": 53395,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:00:19.143Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390185,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390185,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T06:19:34.078Z",
    "t": 1
   }
  ]
