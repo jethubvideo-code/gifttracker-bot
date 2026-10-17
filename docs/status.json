@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T08:08:36.838Z",
- "updated_unix": 1792224516,
- "runs": 11988,
+ "updated": "2026-10-17T08:15:33.539Z",
+ "updated_unix": 1792224933,
+ "runs": 11989,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 92019,
- "sent_total": 2184547,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 92020,
+ "sent_total": 2184601,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185187,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185187,
-   "counter_total": 231311,
-   "img": "https://cdn4.telesco.pe/file/OeT4zM8nvZz5koLD74aRY1MvoEUrAqRwXtpdhvBRwsJjcFjj0Ya7FbYnMWw4pycl_v91zhHaKZKAeN6ktb6q26QtA1yxBwaVZ_n3G1iPM15uroOxq7rakzv63YuAvvKe32k7WR0DY7X1_4T1FlXsWvrbvOkete_PNKUWdzeq56RnGJgvTZq2aK8kr2V4XYaR-puBOQ-pBcvWqtzOUCQSyi_whnTZheMd0ctHh4WmHpKf1RI6yNNcEmV8JKJ3rqrGxVyMZfdtGLvLvXuZsOX7FQypBOCz1YUtfWoaVQnKCCIBy-OkW35kQxvcFUxTB_-t-NlqrLNId5EsTvkW1hW4qQ.jpg",
-   "sent": 0,
-   "time": "2026-10-17T07:09:31.597Z",
-   "u": 1
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T08:08:35.280Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390190,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390190,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T08:15:31.706Z",
    "t": 1
   }
  ]
