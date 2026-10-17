@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T03:39:19.219Z",
- "updated_unix": 1792208359,
- "runs": 11970,
+ "updated": "2026-10-17T04:12:31.477Z",
+ "updated_unix": 1792210351,
+ "runs": 11971,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91761,
- "sent_total": 2170700,
+ "detected_total": 91762,
+ "sent_total": 2170754,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440735,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440735,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T03:25:07.020Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T03:39:17.922Z",
+   "t": 3
+  },
+  {
+   "slug": "PerfumeBottle",
+   "gift": "Perfume Bottle",
+   "number": 4437,
+   "owner": "greedsatella.ton",
+   "owner_addr": "0:36465f0ae494c93d17216234cf0729f3ec36b97ada68c25c068d0bf9aed48b72",
+   "mint": 1792180804,
+   "counter_issued": 4437,
+   "counter_total": 4848,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:12:26.829Z",
    "t": 1
   }
  ]
