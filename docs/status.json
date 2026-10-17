@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T19:25:00.755Z",
- "updated_unix": 1792265100,
- "runs": 12078,
+ "updated": "2026-10-17T19:51:19.255Z",
+ "updated_unix": 1792266679,
+ "runs": 12079,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92924,
- "sent_total": 2237058,
+ "detected_total": 92926,
+ "sent_total": 2237182,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32454,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32454,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32455,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32455,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:24:58.947Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440783,
+   "owner": "poshlaya-molly.ton",
+   "owner_addr": "0:ebe937deecb565794d6932adf70f1aa5a466574ad2f925b0813ad8d56915443a",
+   "mint": 1792265205,
+   "counter_issued": 440783,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:51:12.144Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390224,
+   "owner": "",
+   "owner_addr": "0:a11745335d3a2cad9bd2839f217c31eaf093242c35d5d6ece79d7815270a1fd0",
+   "mint": 1792265679,
+   "counter_issued": 390224,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:51:17.803Z",
    "t": 1
   }
  ]
