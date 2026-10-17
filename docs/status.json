@@ -1,189 +1,13 @@
 {
- "updated": "2026-10-17T04:45:42.037Z",
- "updated_unix": 1792212342,
- "runs": 11973,
+ "updated": "2026-10-17T04:46:42.539Z",
+ "updated_unix": 1792212402,
+ "runs": 11974,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91802,
- "sent_total": 2172914,
+ "detected_total": 91815,
+ "sent_total": 2173616,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53380,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792145941,
-   "counter_issued": 53380,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53381,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792145995,
-   "counter_issued": 53381,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53382,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792146583,
-   "counter_issued": 53382,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53383,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792163349,
-   "counter_issued": 53383,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53384,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792164152,
-   "counter_issued": 53384,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53385,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792164160,
-   "counter_issued": 53385,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53386,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792166991,
-   "counter_issued": 53386,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53387,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792167856,
-   "counter_issued": 53387,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53388,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792168900,
-   "counter_issued": 53388,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53389,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792168972,
-   "counter_issued": 53389,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53390,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792169148,
-   "counter_issued": 53390,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53391,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792169516,
-   "counter_issued": 53391,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53392,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792169827,
-   "counter_issued": 53392,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:44:26.264Z",
-   "t": 1
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -280,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -294,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -308,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -322,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -336,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -350,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -364,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:18.086Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -378,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:35.846Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -392,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:35.846Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -406,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:35.846Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -420,6 +244,188 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:45:35.846Z",
+   "t": 2
+  },
+  {
+   "slug": "RecordPlayer",
+   "gift": "Record Player",
+   "number": 35354,
+   "owner": "",
+   "owner_addr": "0:89fc6aaad55773843a432a095ab4502b0d206ae9869d3399f9f3c73288b4c288",
+   "mint": 1792161783,
+   "counter_issued": 35354,
+   "counter_total": 46888,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:45:55.610Z",
+   "t": 1
+  },
+  {
+   "slug": "RecordPlayer",
+   "gift": "Record Player",
+   "number": 35355,
+   "owner": "giftxona.ton",
+   "owner_addr": "0:2307d1bda4df3095c0ff3ca498c89d7f7ce1c93e604459914705c9fa394e60a6",
+   "mint": 1792187602,
+   "counter_issued": 35355,
+   "counter_total": 46888,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:45:55.610Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55456,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792171740,
+   "counter_issued": 55456,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55457,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792171828,
+   "counter_issued": 55457,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55458,
+   "owner": "",
+   "owner_addr": "0:70b7b6eee119c16133e662510736f6fe3a59c28839299f60ae8f24a4ceaa2e6f",
+   "mint": 1792185514,
+   "counter_issued": 55458,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55459,
+   "owner": "",
+   "owner_addr": "0:9fceff83f95d2131a929b5719c49f1dc9605a7a69f209e3f098b040eaca03b29",
+   "mint": 1792191668,
+   "counter_issued": 55459,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55460,
+   "owner": "",
+   "owner_addr": "0:fd68d4d7aae853473c35d2182dabffa8f600d72bd0cbc1c9605a3d439ed56162",
+   "mint": 1792193992,
+   "counter_issued": 55460,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55461,
+   "owner": "",
+   "owner_addr": "0:a61737dfa875f5e16fa00fb452216c74bcae423f56d06419e5368395dcb7377b",
+   "mint": 1792196033,
+   "counter_issued": 55461,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "Snow Globe",
+   "number": 55462,
+   "owner": "",
+   "owner_addr": "0:8c3936e1ea4ef6a3ad42e4e464c5cfb532b50d26bd2fb5e1b79b1d92dbcf2bb8",
+   "mint": 1792208551,
+   "counter_issued": 55462,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:11.712Z",
+   "t": 1
+  },
+  {
+   "slug": "CupidCharm",
+   "gift": "Cupid Charm",
+   "number": 30391,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792163268,
+   "counter_issued": 30391,
+   "counter_total": 33112,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:28.667Z",
+   "t": 1
+  },
+  {
+   "slug": "CupidCharm",
+   "gift": "Cupid Charm",
+   "number": 30392,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792163783,
+   "counter_issued": 30392,
+   "counter_total": 33112,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:28.667Z",
+   "t": 1
+  },
+  {
+   "slug": "CupidCharm",
+   "gift": "Cupid Charm",
+   "number": 30393,
+   "owner": "",
+   "owner_addr": "0:85601d4f14ca027922d4ab752a77ec3041a79804a468b3c628445d53ff12652f",
+   "mint": 1792170011,
+   "counter_issued": 30393,
+   "counter_total": 33112,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:28.667Z",
+   "t": 1
+  },
+  {
+   "slug": "LovePotion",
+   "gift": "Love Potion",
+   "number": 29190,
+   "owner": "azra.ton",
+   "owner_addr": "0:38f19c0725f7ec6ec82239cec4643ae5b9ad8e0c61c8cd545a367dad9bc9136e",
+   "mint": 1792129886,
+   "counter_issued": 29190,
+   "counter_total": 30412,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:46:41.004Z",
    "t": 1
   }
  ]
