@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T14:09:48.952Z",
- "updated_unix": 1792246188,
- "runs": 12041,
+ "updated": "2026-10-17T14:40:36.805Z",
+ "updated_unix": 1792248036,
+ "runs": 12042,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92724,
- "sent_total": 2224612,
+ "detected_total": 92725,
+ "sent_total": 2224672,
  "last_upgrades": [
-  {
-   "slug": "KhabibsPapakha",
-   "gift": "Khabib’s Papakha",
-   "number": 28667,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792233473,
-   "counter_issued": 28667,
-   "counter_total": 29000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T12:59:09.058Z",
-   "t": 3
-  },
   {
    "slug": "LowRider",
    "gift": "Low Rider",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T14:09:47.729Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3910,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3910,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T14:40:34.454Z",
    "t": 1
   }
  ]
