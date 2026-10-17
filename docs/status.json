@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T10:43:26.743Z",
- "updated_unix": 1792233806,
- "runs": 12008,
+ "updated": "2026-10-17T11:02:08.727Z",
+ "updated_unix": 1792234928,
+ "runs": 12009,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 92293,
- "sent_total": 2199490,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92295,
+ "sent_total": 2199604,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200105,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200105,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200106,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200106,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-10-17T10:27:34.319Z",
    "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267056,
+   "owner": "hurricanaaa.ton",
+   "owner_addr": "0:a6f9063ed718cf7543a3b4aad34d1a201088478d01a84fd62e6aec8c2ac4ca29",
+   "mint": 1792233746,
+   "counter_issued": 267056,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:01:55.979Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90121,
+   "owner": "",
+   "owner_addr": "0:7579b03a769b0087eb2a07d483c1e9fec5b607a8c690d75394c4db22c6ede0b9",
+   "mint": 1792230094,
+   "counter_issued": 90121,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:02:04.598Z",
+   "t": 1
   }
  ]
 }
