@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T11:56:16.574Z",
- "updated_unix": 1792238176,
- "runs": 12021,
+ "updated": "2026-10-17T12:13:39.708Z",
+ "updated_unix": 1792239219,
+ "runs": 12022,
  "collections": 121,
- "checked": 0,
+ "checked": 5,
  "errors": 116,
- "detected_total": 92538,
- "sent_total": 2213461,
+ "detected_total": 92540,
+ "sent_total": 2213579,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103359,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103359,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T11:49:12.207Z",
-   "t": 3
-  },
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103360,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103360,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T11:49:12.207Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-10-17T11:55:04.357Z",
    "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23043,
+   "owner": "thesonofman.ton",
+   "owner_addr": "0:8e197d5c2db27b96a7c582ef7656ac381b306acda0edc507f1852acb8e8ace67",
+   "mint": 1792225742,
+   "counter_issued": 23043,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T12:13:29.567Z",
+   "t": 1
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22052,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792233307,
+   "counter_issued": 22052,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T12:13:35.690Z",
+   "t": 1
   }
  ]
 }
