@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T06:57:10.369Z",
- "updated_unix": 1792220230,
- "runs": 11978,
+ "updated": "2026-10-17T06:58:08.631Z",
+ "updated_unix": 1792220288,
+ "runs": 11979,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91822,
- "sent_total": 2173994,
+ "detected_total": 91824,
+ "sent_total": 2174102,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54496,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792172019,
-   "counter_issued": 54496,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:45:18.086Z",
-   "t": 3
-  },
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54497,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792172337,
-   "counter_issued": 54497,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:45:18.086Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:56:58.544Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "KhabibsPapakha",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:56:58.544Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "KhabibsPapakha",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:56:58.544Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T06:57:08.829Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390186,
+   "owner": "",
+   "owner_addr": "0:f1f777c737d76f0aecd3e867a141747468756d7c9cb9dcddd0f4fac9eb048fc4",
+   "mint": 1792218637,
+   "counter_issued": 390186,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T06:58:04.270Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90118,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90118,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T06:58:07.367Z",
    "t": 1
   }
  ]
