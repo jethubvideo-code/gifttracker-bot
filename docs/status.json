@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T12:17:40.310Z",
- "updated_unix": 1792239460,
- "runs": 12025,
+ "updated": "2026-10-17T12:19:39.461Z",
+ "updated_unix": 1792239579,
+ "runs": 12026,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 92544,
- "sent_total": 2213815,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 92545,
+ "sent_total": 2213874,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103365,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103365,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T11:49:12.207Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:17:38.518Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133224,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792235776,
+   "counter_issued": 133224,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T12:19:37.759Z",
    "t": 1
   }
  ]
