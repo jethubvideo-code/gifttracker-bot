@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-17T02:31:11.601Z",
- "updated_unix": 1792204271,
- "runs": 11964,
+ "updated": "2026-10-17T02:50:01.234Z",
+ "updated_unix": 1792205401,
+ "runs": 11965,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91662,
- "sent_total": 2165354,
+ "detected_total": 91666,
+ "sent_total": 2165570,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440744,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440744,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T01:23:01.367Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440745,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440745,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T01:23:01.367Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440746,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440746,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T01:23:01.367Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440747,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440747,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T01:23:01.367Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -286,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:33.385Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -300,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:36.432Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -314,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -328,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T02:30:51.659Z",
+   "t": 3
+  },
+  {
+   "slug": "HexPot",
+   "gift": "Hex Pot",
+   "number": 56983,
+   "owner": "",
+   "owner_addr": "0:f0bdd478f58decec8da37ce7c6f32958fe2431a432de1f7e0dc9330052c5fef1",
+   "mint": 1792169745,
+   "counter_issued": 56983,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T02:49:55.481Z",
+   "t": 1
+  },
+  {
+   "slug": "HexPot",
+   "gift": "Hex Pot",
+   "number": 56984,
+   "owner": "",
+   "owner_addr": "0:f0bdd478f58decec8da37ce7c6f32958fe2431a432de1f7e0dc9330052c5fef1",
+   "mint": 1792169758,
+   "counter_issued": 56984,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T02:49:55.481Z",
+   "t": 1
+  },
+  {
+   "slug": "HexPot",
+   "gift": "Hex Pot",
+   "number": 56985,
+   "owner": "",
+   "owner_addr": "0:fa3c3bb52716b4ffac508b959811c834571bc006760c38ec0727a5a08fbe3dc6",
+   "mint": 1792184573,
+   "counter_issued": 56985,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T02:49:55.481Z",
+   "t": 1
+  },
+  {
+   "slug": "HexPot",
+   "gift": "Hex Pot",
+   "number": 56986,
+   "owner": "newt-legends.ton",
+   "owner_addr": "0:497b7f2d38218d532d0ebce9c8b2f1bd850f5319e931b66bf9b0724fcafc21b6",
+   "mint": 1792192066,
+   "counter_issued": 56986,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T02:49:55.481Z",
    "t": 1
   }
  ]
