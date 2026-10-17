@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T11:08:24.454Z",
- "updated_unix": 1792235304,
- "runs": 12012,
+ "updated": "2026-10-17T11:17:21.294Z",
+ "updated_unix": 1792235841,
+ "runs": 12013,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92301,
- "sent_total": 2199945,
+ "detected_total": 92302,
+ "sent_total": 2200002,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74502,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74502,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:34.878Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:08:10.444Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:08:10.444Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:08:22.324Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108318,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792235812,
+   "counter_issued": 108318,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:17:19.490Z",
    "t": 1
   }
  ]
