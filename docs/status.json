@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T07:01:05.658Z",
- "updated_unix": 1792220465,
- "runs": 11981,
+ "updated": "2026-10-17T07:04:10.583Z",
+ "updated_unix": 1792220650,
+ "runs": 11982,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91826,
- "sent_total": 2174210,
+ "detected_total": 91827,
+ "sent_total": 2174264,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54500,
-   "owner": "",
-   "owner_addr": "0:3a1315ae23e969ca0848fc9e4fb02145a8dc26d0a8e381843d0994645cfc7a9b",
-   "mint": 1792184664,
-   "counter_issued": 54500,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:45:18.086Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T07:01:04.231Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440766,
+   "owner": "",
+   "owner_addr": "0:c7b534ed0b5a1c0ae77d8fdebfa0262714ba9fd5b6fc6b53569c09f14b7f9e5b",
+   "mint": 1792220552,
+   "counter_issued": 440766,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T07:04:08.838Z",
    "t": 1
   }
  ]
