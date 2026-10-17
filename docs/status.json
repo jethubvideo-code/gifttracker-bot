@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T21:37:12.636Z",
- "updated_unix": 1792273032,
- "runs": 12090,
+ "updated": "2026-10-17T21:40:05.471Z",
+ "updated_unix": 1792273205,
+ "runs": 12091,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92970,
- "sent_total": 2239907,
+ "detected_total": 92971,
+ "sent_total": 2239969,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133239,
-   "owner": "fenijara.ton",
-   "owner_addr": "0:a5ade917b0d17339ad40ae2e9ec96cc09c0aa8377babb314f7f5a8d151009e0e",
-   "mint": 1792268682,
-   "counter_issued": 133239,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T20:27:12.258Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -385,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T21:08:45.578Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T21:08:45.578Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T21:37:05.429Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T21:37:11.081Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108326,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108326,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T21:40:04.038Z",
    "t": 1
   }
  ]
