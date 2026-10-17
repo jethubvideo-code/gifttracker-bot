@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T09:53:28.477Z",
- "updated_unix": 1792230808,
- "runs": 12000,
+ "updated": "2026-10-17T10:04:25.933Z",
+ "updated_unix": 1792231465,
+ "runs": 12001,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92072,
- "sent_total": 2187332,
+ "detected_total": 92073,
+ "sent_total": 2187387,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267033,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267033,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T09:23:09.848Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:53:25.850Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:53:25.850Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133221,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792230946,
+   "counter_issued": 133221,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T10:04:24.299Z",
    "t": 1
   }
  ]
