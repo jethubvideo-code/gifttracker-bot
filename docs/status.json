@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-17T23:34:12.957Z",
- "updated_unix": 1792280052,
- "runs": 12100,
+ "updated": "2026-10-17T23:36:13.923Z",
+ "updated_unix": 1792280173,
+ "runs": 12101,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92990,
- "sent_total": 2241146,
+ "detected_total": 92994,
+ "sent_total": 2241394,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32473,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32473,
-   "counter_total": 39464,
-   "img": "https://cdn4.telesco.pe/file/aneftNujUE1JhDdNXaFwWGyN1PQyLH96X-cXWVQrjVWl0qEbtJ3dfxoMH3T1z1kGkS97vA0KDkNz-RqPXlHrTZcgvODmzGDwoB_ufUC5FmR3ZAGHBfjRF2Zrij3MWSLjGTMZR4ltnYyx0VNNUwH4U_DuwVr4PuxeSJyCTXS28Zb4WtYIsKUSjpp7S2n_e2cLL1dSOHI3gyidzw9etv730NeaLJjlNAJX0GEunGSGwKqpoSrq3Z5IRsL3LMNRIK1CBkkUQ1dDx4_I35-mCDPd0X_FJh0hKx7xLWpCuKr1NXrYIqtBOYqjv47F6mOb-n1GnzvU-kHrL4RhuSJucFXw8g.jpg",
-   "sent": 0,
-   "time": "2026-10-17T20:43:31.556Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32474,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32474,
-   "counter_total": 39464,
-   "img": "https://cdn4.telesco.pe/file/aneftNujUE1JhDdNXaFwWGyN1PQyLH96X-cXWVQrjVWl0qEbtJ3dfxoMH3T1z1kGkS97vA0KDkNz-RqPXlHrTZcgvODmzGDwoB_ufUC5FmR3ZAGHBfjRF2Zrij3MWSLjGTMZR4ltnYyx0VNNUwH4U_DuwVr4PuxeSJyCTXS28Zb4WtYIsKUSjpp7S2n_e2cLL1dSOHI3gyidzw9etv730NeaLJjlNAJX0GEunGSGwKqpoSrq3Z5IRsL3LMNRIK1CBkkUQ1dDx4_I35-mCDPd0X_FJh0hKx7xLWpCuKr1NXrYIqtBOYqjv47F6mOb-n1GnzvU-kHrL4RhuSJucFXw8g.jpg",
-   "sent": 0,
-   "time": "2026-10-17T20:43:31.556Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84819,
-   "owner": "",
-   "owner_addr": "0:a32da8c53d09922f69b4ed0709552f0c5598c85a95a176a3350d9199861d9918",
-   "mint": 1792270238,
-   "counter_issued": 84819,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T21:04:46.465Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84160,
-   "owner": "",
-   "owner_addr": "0:e0b9b016a690c7804b8e16ba7946fc2fb6208965440190726e2242019a49f02f",
-   "mint": 1792269252,
-   "counter_issued": 84160,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T21:04:52.468Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:33:55.080Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:34:02.866Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:34:02.866Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T23:34:02.866Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440797,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440797,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T23:36:07.996Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440798,
+   "owner": "",
+   "owner_addr": "0:106b1908f37c41805508475ce27935230007655db3f43701929902ecf2879bd0",
+   "mint": 1792275720,
+   "counter_issued": 440798,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T23:36:07.996Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440799,
+   "owner": "",
+   "owner_addr": "0:2c7fa81eb2c439dc32ba325e31f745b5a54ab18144916f3976efdaa24304b5ee",
+   "mint": 1792276473,
+   "counter_issued": 440799,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T23:36:07.996Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440800,
+   "owner": "",
+   "owner_addr": "0:1326b473c0032b9ea9c3cc64715279ae00dd98390c68cf93503def5f8d1cc4de",
+   "mint": 1792277721,
+   "counter_issued": 440800,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T23:36:07.996Z",
    "t": 1
   }
  ]
