@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T16:45:19.023Z",
- "updated_unix": 1792255519,
- "runs": 12061,
+ "updated": "2026-10-17T16:54:51.514Z",
+ "updated_unix": 1792256091,
+ "runs": 12062,
  "collections": 121,
- "checked": 0,
- "errors": 121,
- "detected_total": 92757,
- "sent_total": 2226592,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92759,
+ "sent_total": 2226716,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84157,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792246342,
-   "counter_issued": 84157,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T14:49:41.088Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84158,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792246640,
-   "counter_issued": 84158,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T14:49:41.088Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-10-17T16:21:26.628Z",
    "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390214,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792254569,
+   "counter_issued": 390214,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T16:54:43.261Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267090,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1792256073,
+   "counter_issued": 267090,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T16:54:49.611Z",
+   "t": 1
   }
  ]
 }
