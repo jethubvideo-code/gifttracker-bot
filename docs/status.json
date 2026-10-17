@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T12:13:39.708Z",
- "updated_unix": 1792239219,
- "runs": 12022,
+ "updated": "2026-10-17T12:15:37.301Z",
+ "updated_unix": 1792239337,
+ "runs": 12023,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 92540,
- "sent_total": 2213579,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 92541,
+ "sent_total": 2213638,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103361,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103361,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T11:49:12.207Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:13:29.567Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SkullFlower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T12:13:35.690Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440775,
+   "owner": "",
+   "owner_addr": "0:0892c4fc8dc3f8a231885e8f36ed9abcb11f8ce009ac672340923c22c7d5fdff",
+   "mint": 1792238961,
+   "counter_issued": 440775,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T12:15:35.089Z",
    "t": 1
   }
  ]
