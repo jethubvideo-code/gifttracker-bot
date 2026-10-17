@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T17:04:48.279Z",
- "updated_unix": 1792256688,
- "runs": 12066,
+ "updated": "2026-10-17T17:05:49.320Z",
+ "updated_unix": 1792256749,
+ "runs": 12067,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92764,
- "sent_total": 2227026,
+ "detected_total": 92765,
+ "sent_total": 2227088,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390207,
-   "owner": "",
-   "owner_addr": "0:88d962937943b91e464eac48d019dd650b4e9a59cea6901d15800db166891155",
-   "mint": 1792246946,
-   "counter_issued": 390207,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T15:11:04.660Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T17:04:44.512Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T17:04:44.512Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23044,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792251680,
+   "counter_issued": 23044,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T17:05:47.441Z",
    "t": 1
   }
  ]
