@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-17T10:26:39.591Z",
- "updated_unix": 1792232799,
- "runs": 12004,
+ "updated": "2026-10-17T10:27:35.573Z",
+ "updated_unix": 1792232855,
+ "runs": 12005,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92292,
- "sent_total": 2199434,
+ "detected_total": 92293,
+ "sent_total": 2199490,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200104,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200104,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z"
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -32,7 +19,8 @@
    "counter_total": 264486,
    "img": "",
    "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z"
+   "time": "2026-10-17T10:20:31.034Z",
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -45,7 +33,8 @@
    "counter_total": 264486,
    "img": "",
    "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z"
+   "time": "2026-10-17T10:20:31.034Z",
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -58,7 +47,8 @@
    "counter_total": 264486,
    "img": "",
    "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z"
+   "time": "2026-10-17T10:20:31.034Z",
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -72,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T10:20:31.034Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -86,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T10:20:31.034Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -408,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T10:26:36.303Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -422,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T10:26:36.303Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22051,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792231410,
+   "counter_issued": 22051,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T10:27:34.319Z",
    "t": 1
   }
  ]
