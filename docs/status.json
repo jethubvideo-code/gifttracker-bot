@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T09:51:31.781Z",
- "updated_unix": 1792230691,
- "runs": 11999,
+ "updated": "2026-10-17T09:53:28.477Z",
+ "updated_unix": 1792230808,
+ "runs": 12000,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92070,
- "sent_total": 2187222,
+ "detected_total": 92072,
+ "sent_total": 2187332,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267031,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267031,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T09:23:09.848Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267032,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267032,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T09:23:09.848Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:51:18.419Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:51:18.419Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:51:18.419Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:51:18.419Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:51:18.419Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T09:51:30.385Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390193,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792230675,
+   "counter_issued": 390193,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T09:53:25.850Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390194,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792230774,
+   "counter_issued": 390194,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T09:53:25.850Z",
    "t": 1
   }
  ]
