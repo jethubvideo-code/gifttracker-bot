@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T19:21:02.773Z",
- "updated_unix": 1792264862,
- "runs": 12076,
+ "updated": "2026-10-17T19:23:06.888Z",
+ "updated_unix": 1792264986,
+ "runs": 12077,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92921,
- "sent_total": 2236872,
+ "detected_total": 92923,
+ "sent_total": 2236996,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32451,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32451,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32452,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32452,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:21:00.254Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108323,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792254254,
+   "counter_issued": 108323,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:23:01.815Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108324,
+   "owner": "",
+   "owner_addr": "0:fd30e137d6482fa72bfeb621e2c583815cfafe79c0ad7b41d5a4830b2d70ab73",
+   "mint": 1792263649,
+   "counter_issued": 108324,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:23:01.815Z",
    "t": 1
   }
  ]
