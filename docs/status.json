@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T19:51:19.255Z",
- "updated_unix": 1792266679,
- "runs": 12079,
+ "updated": "2026-10-17T19:54:15.342Z",
+ "updated_unix": 1792266855,
+ "runs": 12080,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92926,
- "sent_total": 2237182,
+ "detected_total": 92927,
+ "sent_total": 2237244,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32456,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32456,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:24:58.947Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:51:12.144Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:51:17.803Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15573,
+   "owner": "charlesleclerc16.ton",
+   "owner_addr": "0:dac381add52ba002bc84922cbedbd115583302acaf9ae7e1b677a9466f582db3",
+   "mint": 1792175546,
+   "counter_issued": 15573,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:54:11.754Z",
    "t": 1
   }
  ]
