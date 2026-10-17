@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T22:22:38.544Z",
- "updated_unix": 1792275758,
- "runs": 12097,
+ "updated": "2026-10-17T22:24:37.376Z",
+ "updated_unix": 1792275877,
+ "runs": 12098,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 92983,
- "sent_total": 2240712,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 92984,
+ "sent_total": 2240774,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84816,
-   "owner": "",
-   "owner_addr": "0:4296804c31ca7138da6ad6263d83d36624d8185fe40fe160c9097134038b7c03",
-   "mint": 1792267622,
-   "counter_issued": 84816,
-   "counter_total": 114092,
-   "img": "https://cdn4.telesco.pe/file/n-qqc9WhHHYDJ-0GETV9_aWtiybCNl-1j88KG08DVYsV9PL3YQ3aMf11n_gNKFq7YqgNkvCMvCza_4nHAe1VpWUPC2N-ACfdFvdtLMIws84pzmiBb4y2vHyShHsUBDdMm3gLar4Q3iLNYc1egd2tLUZSCO30va02eGz7KiAZHqr8U6HDMGy65tqRclmhRs0KYK9AIT5EUxRaOrrUiw28ma_CumxtnyuLYmayFzD-uQcbjAsZsA-5TvYZ6gUl5EWi6QGzpesjgMR0gDseVSkQ316DyY4FC50H4M3YQ8ITEAysRPxj9ZxMYl-zokFjxqoNNZTAtgFF1RTgOUZVwBiJ_Q.jpg",
-   "sent": 0,
-   "time": "2026-10-17T20:42:44.899Z",
-   "u": 1
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T22:22:37.137Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390229,
+   "owner": "",
+   "owner_addr": "0:c2d7d3e4b3f6ead7a9f32d2d1e252d5ea736047b6dd7fbf016a5cfca37e04a5a",
+   "mint": 1792273777,
+   "counter_issued": 390229,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T22:24:35.870Z",
    "t": 1
   }
  ]
