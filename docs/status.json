@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T19:23:06.888Z",
- "updated_unix": 1792264986,
- "runs": 12077,
+ "updated": "2026-10-17T19:25:00.755Z",
+ "updated_unix": 1792265100,
+ "runs": 12078,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92923,
- "sent_total": 2236996,
+ "detected_total": 92924,
+ "sent_total": 2237058,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32453,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32453,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T18:17:39.834Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:23:01.815Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T19:23:01.815Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390223,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390223,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T19:24:58.947Z",
    "t": 1
   }
  ]
