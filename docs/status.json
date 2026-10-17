@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-17T11:05:05.480Z",
- "updated_unix": 1792235105,
- "runs": 12010,
+ "updated": "2026-10-17T11:06:15.569Z",
+ "updated_unix": 1792235175,
+ "runs": 12011,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92296,
- "sent_total": 2199661,
+ "detected_total": 92298,
+ "sent_total": 2199775,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200108,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200108,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200109,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200109,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:05:03.764Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390197,
+   "owner": "",
+   "owner_addr": "0:dc987a22fd9a26879c39108a087d179c410e71577f7546be021ba0b50d1555bf",
+   "mint": 1792232755,
+   "counter_issued": 390197,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:06:04.178Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108317,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792233853,
+   "counter_issued": 108317,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:06:11.497Z",
    "t": 1
   }
  ]
