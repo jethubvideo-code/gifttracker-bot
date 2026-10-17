@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T04:12:31.477Z",
- "updated_unix": 1792210351,
- "runs": 11971,
+ "updated": "2026-10-17T04:34:46.020Z",
+ "updated_unix": 1792211686,
+ "runs": 11972,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91762,
- "sent_total": 2170754,
+ "detected_total": 91763,
+ "sent_total": 2170808,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440736,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 440736,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T03:25:07.020Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T04:12:26.829Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84152,
+   "owner": "dartsman.ton",
+   "owner_addr": "0:fd68d4d7aae853473c35d2182dabffa8f600d72bd0cbc1c9605a3d439ed56162",
+   "mint": 1792192738,
+   "counter_issued": 84152,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T04:34:44.906Z",
    "t": 1
   }
  ]
