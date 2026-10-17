@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-17T11:06:15.569Z",
- "updated_unix": 1792235175,
- "runs": 12011,
+ "updated": "2026-10-17T11:08:24.454Z",
+ "updated_unix": 1792235304,
+ "runs": 12012,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92298,
- "sent_total": 2199775,
+ "detected_total": 92301,
+ "sent_total": 2199945,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200110,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200110,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200111,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200111,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74501,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74501,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:34.878Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:06:04.178Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:06:11.497Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133222,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133222,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:08:10.444Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133223,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792232785,
+   "counter_issued": 133223,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:08:10.444Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "SwagBag",
+   "number": 232272,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792235045,
+   "counter_issued": 232272,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:08:22.324Z",
    "t": 1
   }
  ]
