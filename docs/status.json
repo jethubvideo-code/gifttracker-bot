@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T11:02:08.727Z",
- "updated_unix": 1792234928,
- "runs": 12009,
+ "updated": "2026-10-17T11:05:05.480Z",
+ "updated_unix": 1792235105,
+ "runs": 12010,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 92295,
- "sent_total": 2199604,
+ "detected_total": 92296,
+ "sent_total": 2199661,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200107,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200107,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T10:20:31.034Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:01:55.979Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T11:02:04.598Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440772,
+   "owner": "",
+   "owner_addr": "0:3032b418c43192b7528eabdc33523924fd5dffeb8b5e454123fb619951c43a1e",
+   "mint": 1792233770,
+   "counter_issued": 440772,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T11:05:03.764Z",
    "t": 1
   }
  ]
