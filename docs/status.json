@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-17T07:00:03.131Z",
- "updated_unix": 1792220403,
- "runs": 11980,
+ "updated": "2026-10-17T07:01:05.658Z",
+ "updated_unix": 1792220465,
+ "runs": 11981,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 91825,
- "sent_total": 2174156,
+ "detected_total": 91826,
+ "sent_total": 2174210,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54499,
-   "owner": "",
-   "owner_addr": "0:fadc473cb87f9c41cd4a7113ce83133d982a01f0b296c98eafad4f7789861f4e",
-   "mint": 1792184561,
-   "counter_issued": 54499,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-17T04:45:18.086Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-17T07:00:01.749Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133217,
+   "owner": "",
+   "owner_addr": "0:6c41f9337a83cb20f4e9117dbdc00fa5e0ff0019546cd7091389d3c2b2ffe840",
+   "mint": 1792214835,
+   "counter_issued": 133217,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-17T07:01:04.231Z",
    "t": 1
   }
  ]
