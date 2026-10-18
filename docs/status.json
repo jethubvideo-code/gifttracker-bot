@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T07:17:54.524Z",
- "updated_unix": 1792307874,
- "runs": 12144,
+ "updated": "2026-10-18T07:21:00.554Z",
+ "updated_unix": 1792308060,
+ "runs": 12145,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93427,
- "sent_total": 2268172,
+ "detected_total": 93429,
+ "sent_total": 2268296,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56528,
-   "owner": "",
-   "owner_addr": "0:7a9ad1f3701050249041179b24a62185d0671dfa3c3ce7aa4bc397b5a8d6763c",
-   "mint": 1792255547,
-   "counter_issued": 56528,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:18:27.246Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56529,
-   "owner": "",
-   "owner_addr": "0:8b678406662cf833f53958a3bcd59afd07ceea2408a7e0f01094b7f61735022d",
-   "mint": 1792264965,
-   "counter_issued": 56529,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:18:27.246Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T07:17:44.399Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T07:17:44.399Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T07:17:44.399Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108329,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792307758,
+   "counter_issued": 108329,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T07:20:49.320Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133250,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792306703,
+   "counter_issued": 133250,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T07:20:56.820Z",
    "t": 1
   }
  ]
