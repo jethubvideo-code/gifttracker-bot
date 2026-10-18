@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T14:05:17.624Z",
- "updated_unix": 1792332317,
- "runs": 12202,
+ "updated": "2026-10-18T14:10:12.042Z",
+ "updated_unix": 1792332612,
+ "runs": 12203,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93797,
- "sent_total": 2291443,
+ "checked": 3,
+ "errors": 118,
+ "detected_total": 93798,
+ "sent_total": 2291506,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267281,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267281,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T13:34:13.587Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T13:46:33.831Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T13:46:33.831Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T13:46:33.831Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:05:10.857Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:05:16.340Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26081,
+   "owner": "",
+   "owner_addr": "0:1076a93a512617218a187e15983cee905e84cde6c65a6d80dc6f0b6b4482985e",
+   "mint": 1792313155,
+   "counter_issued": 26081,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:10:10.380Z",
    "t": 1
   }
  ]
