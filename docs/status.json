@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T20:00:09.513Z",
- "updated_unix": 1792353609,
- "runs": 12254,
+ "updated": "2026-10-18T20:01:08.293Z",
+ "updated_unix": 1792353668,
+ "runs": 12255,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93997,
- "sent_total": 2303892,
+ "detected_total": 93999,
+ "sent_total": 2304016,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84838,
-   "owner": "",
-   "owner_addr": "0:b3ab763135b34809972626391a990c6caa0d7f918c3e8165d007fc6b475b6c6a",
-   "mint": 1792350756,
-   "counter_issued": 84838,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:34:54.659Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32519,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32519,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:35:00.298Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:00:03.538Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:00:03.538Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:00:03.538Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:00:03.538Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133277,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133277,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T20:01:03.511Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133278,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133278,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T20:01:03.511Z",
    "t": 1
   }
  ]
