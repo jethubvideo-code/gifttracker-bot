@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-18T10:33:31.565Z",
- "updated_unix": 1792319611,
- "runs": 12167,
+ "updated": "2026-10-18T11:08:55.164Z",
+ "updated_unix": 1792321735,
+ "runs": 12168,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93532,
- "sent_total": 2274749,
+ "detected_total": 93535,
+ "sent_total": 2274938,
  "last_upgrades": [
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201578,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201578,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201579,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201579,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201580,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201580,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
   {
    "slug": "LunarSnake",
    "gift": "LunarSnake",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T10:33:24.463Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T10:33:29.993Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90136,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792317293,
+   "counter_issued": 90136,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:08:48.995Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90137,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792318805,
+   "counter_issued": 90137,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:08:48.995Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90138,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792319070,
+   "counter_issued": 90138,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:08:48.995Z",
    "t": 1
   }
  ]
