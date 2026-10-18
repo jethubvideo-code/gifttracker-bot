@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T09:37:15.759Z",
- "updated_unix": 1792316235,
- "runs": 12158,
+ "updated": "2026-10-18T09:38:09.509Z",
+ "updated_unix": 1792316289,
+ "runs": 12159,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93517,
- "sent_total": 2273811,
+ "detected_total": 93518,
+ "sent_total": 2273874,
  "last_upgrades": [
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201563,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201563,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
   {
    "slug": "LunarSnake",
    "gift": "LunarSnake",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T09:37:07.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T09:37:07.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T09:37:14.526Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390249,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792315934,
+   "counter_issued": 390249,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T09:38:08.202Z",
    "t": 1
   }
  ]
