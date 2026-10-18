@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T21:22:00.275Z",
- "updated_unix": 1792358520,
- "runs": 12268,
+ "updated": "2026-10-18T21:25:59.421Z",
+ "updated_unix": 1792358759,
+ "runs": 12269,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94048,
- "sent_total": 2307054,
+ "detected_total": 94050,
+ "sent_total": 2307178,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164007,
-   "owner": "",
-   "owner_addr": "0:0564b5e9d991a3c4b040a3935757cfaf9d3c7ef6cba6bc03c45ff3cf1529cdc5",
-   "mint": 1792354878,
-   "counter_issued": 164007,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:34:52.381Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 108727,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108727,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:35:01.443Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T21:21:50.775Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T21:21:58.418Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267351,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267351,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:25:56.212Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267352,
+   "owner": "",
+   "owner_addr": "0:d345e8348808bbb06d1d06c0fd7b803b3bcc45489654ce839ed61741295eb468",
+   "mint": 1792358624,
+   "counter_issued": 267352,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:25:56.212Z",
    "t": 1
   }
  ]
