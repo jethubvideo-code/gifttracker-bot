@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-18T07:01:44.027Z",
- "updated_unix": 1792306904,
- "runs": 12143,
+ "updated": "2026-10-18T07:17:54.524Z",
+ "updated_unix": 1792307874,
+ "runs": 12144,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93424,
- "sent_total": 2267986,
+ "detected_total": 93427,
+ "sent_total": 2268172,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82857,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792253452,
-   "counter_issued": 82857,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:18:07.904Z",
-   "t": 3
-  },
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82858,
-   "owner": "",
-   "owner_addr": "0:0f9d80fd2c4b4a22b2a476b103eeb6511af816fdc872bcc560a74fb0ca5c3346",
-   "mint": 1792263310,
-   "counter_issued": 82858,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:18:07.904Z",
-   "t": 3
-  },
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82859,
-   "owner": "",
-   "owner_addr": "0:4296804c31ca7138da6ad6263d83d36624d8185fe40fe160c9097134038b7c03",
-   "mint": 1792267093,
-   "counter_issued": 82859,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:18:07.904Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:44:29.866Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T07:01:42.104Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3914,
+   "owner": "",
+   "owner_addr": "0:8573af02c4ead9d980b049d7f58e38cb82db8b813e5229095e966187e58c6a2f",
+   "mint": 1792300922,
+   "counter_issued": 3914,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T07:17:44.399Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3915,
+   "owner": "",
+   "owner_addr": "0:8573af02c4ead9d980b049d7f58e38cb82db8b813e5229095e966187e58c6a2f",
+   "mint": 1792300935,
+   "counter_issued": 3915,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T07:17:44.399Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3916,
+   "owner": "",
+   "owner_addr": "0:1ee41b21beb3993056e69cf19626841301972d7b9f4e4e406c71b60bfb8012e6",
+   "mint": 1792304282,
+   "counter_issued": 3916,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T07:17:44.399Z",
    "t": 1
   }
  ]
