@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T14:56:14.839Z",
- "updated_unix": 1792335374,
- "runs": 12214,
+ "updated": "2026-10-18T15:00:15.531Z",
+ "updated_unix": 1792335615,
+ "runs": 12215,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93852,
- "sent_total": 2294902,
+ "detected_total": 93853,
+ "sent_total": 2294965,
  "last_upgrades": [
-  {
-   "slug": "JackInTheBox",
-   "gift": "JackInTheBox",
-   "number": 96247,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 96247,
-   "counter_total": 97345,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:40.738Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:56:13.288Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390261,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792335499,
+   "counter_issued": 390261,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T15:00:13.426Z",
    "t": 1
   }
  ]
