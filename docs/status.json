@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T08:21:31.370Z",
- "updated_unix": 1792311691,
- "runs": 12152,
+ "updated": "2026-10-18T08:51:44.249Z",
+ "updated_unix": 1792313504,
+ "runs": 12153,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 93462,
- "sent_total": 2270346,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 93464,
+ "sent_total": 2270472,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32481,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32481,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T07:54:03.118Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32482,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32482,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T07:54:03.118Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T08:21:29.843Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440918,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792313381,
+   "counter_issued": 440918,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T08:51:40.726Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440919,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792313449,
+   "counter_issued": 440919,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T08:51:40.726Z",
    "t": 1
   }
  ]
