@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T14:47:11.869Z",
- "updated_unix": 1792334831,
- "runs": 12212,
+ "updated": "2026-10-18T14:55:18.554Z",
+ "updated_unix": 1792335318,
+ "runs": 12213,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93849,
- "sent_total": 2294714,
+ "detected_total": 93851,
+ "sent_total": 2294839,
  "last_upgrades": [
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56227,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56227,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:23.145Z",
-   "t": 3
-  },
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56228,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56228,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:23.145Z",
-   "t": 3
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:47:10.234Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90144,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90144,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:55:10.394Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108338,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792335140,
+   "counter_issued": 108338,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:55:16.476Z",
    "t": 1
   }
  ]
