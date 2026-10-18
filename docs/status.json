@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T01:13:56.549Z",
- "updated_unix": 1792286036,
- "runs": 12114,
+ "updated": "2026-10-18T01:16:49.962Z",
+ "updated_unix": 1792286209,
+ "runs": 12115,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93193,
- "sent_total": 2253716,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 93194,
+ "sent_total": 2253778,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55467,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792230234,
-   "counter_issued": 55467,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T00:38:32.567Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T01:13:49.458Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T01:13:49.458Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390232,
+   "owner": "",
+   "owner_addr": "0:90c35fe729a5fcc61698e68aab28d9823e8a1848fcc9a89052956559473abfa7",
+   "mint": 1792285913,
+   "counter_issued": 390232,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T01:16:48.936Z",
    "t": 1
   }
  ]
