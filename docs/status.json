@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T03:45:55.080Z",
- "updated_unix": 1792295155,
- "runs": 12124,
+ "updated": "2026-10-18T03:46:52.937Z",
+ "updated_unix": 1792295212,
+ "runs": 12125,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93374,
- "sent_total": 2264890,
+ "detected_total": 93375,
+ "sent_total": 2264950,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142236,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142236,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T03:40:22.841Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T03:45:50.949Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108327,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108327,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T03:46:51.380Z",
    "t": 1
   }
  ]
