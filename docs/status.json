@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T21:19:49.951Z",
- "updated_unix": 1792358389,
- "runs": 12267,
+ "updated": "2026-10-18T21:22:00.275Z",
+ "updated_unix": 1792358520,
+ "runs": 12268,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94046,
- "sent_total": 2306930,
+ "detected_total": 94048,
+ "sent_total": 2307054,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78171,
-   "owner": "",
-   "owner_addr": "0:aa5d9675f3fe2ab9d9107eb4a2402e29ba29e18253eeaf8347e00f7885ab0e30",
-   "mint": 1792351278,
-   "counter_issued": 78171,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:34:25.364Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78172,
-   "owner": "",
-   "owner_addr": "0:1df41d3b96764b9f580fac8aa5573c47d34313ab177039834eb84be8552f8c78",
-   "mint": 1792355562,
-   "counter_issued": 78172,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:34:25.364Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T21:19:48.527Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267350,
+   "owner": "",
+   "owner_addr": "0:f18e14fd89070a53944b710335e088234491920e17677fda9c56b7e613f69f90",
+   "mint": 1792358070,
+   "counter_issued": 267350,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:21:50.775Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440959,
+   "owner": "",
+   "owner_addr": "0:e8a9ce87d79ff621481e95638ecf8475c8e0e0a40beda2b85c15eb735af4e444",
+   "mint": 1792358237,
+   "counter_issued": 440959,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:21:58.418Z",
    "t": 1
   }
  ]
