@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-18T15:24:53.339Z",
- "updated_unix": 1792337093,
- "runs": 12218,
+ "updated": "2026-10-18T15:51:12.578Z",
+ "updated_unix": 1792338672,
+ "runs": 12219,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 93858,
- "sent_total": 2295275,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 93861,
+ "sent_total": 2295461,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74526,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74526,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:48.771Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74527,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74527,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:48.771Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74528,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74528,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:48.771Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:18:50.622Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:18:50.622Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:18:50.622Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:24:51.269Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440936,
+   "owner": "",
+   "owner_addr": "0:bcbbe83a63af2411f4e070e75e8617f9e08adf2edd58127e191f4e4f8e445a1f",
+   "mint": 1792338652,
+   "counter_issued": 440936,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T15:51:02.716Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267311,
+   "owner": "",
+   "owner_addr": "0:8b08ee4503272f8cbfb68184885e3b555db1e27ac3f1bb58b97d7c4729adf0e2",
+   "mint": 1792338443,
+   "counter_issued": 267311,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T15:51:09.419Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267312,
+   "owner": "",
+   "owner_addr": "0:bcbbe83a63af2411f4e070e75e8617f9e08adf2edd58127e191f4e4f8e445a1f",
+   "mint": 1792338605,
+   "counter_issued": 267312,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T15:51:09.419Z",
    "t": 1
   }
  ]
