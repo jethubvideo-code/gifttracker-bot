@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T05:31:26.728Z",
- "updated_unix": 1792301486,
- "runs": 12131,
+ "updated": "2026-10-18T05:56:09.488Z",
+ "updated_unix": 1792302969,
+ "runs": 12132,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93409,
- "sent_total": 2267058,
+ "detected_total": 93410,
+ "sent_total": 2267120,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 56988,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792253268,
-   "counter_issued": 56988,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:16:54.515Z",
-   "t": 3
-  },
   {
    "slug": "HexPot",
    "gift": "Hex Pot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T05:31:25.532Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133247,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133247,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T05:56:05.265Z",
    "t": 1
   }
  ]
