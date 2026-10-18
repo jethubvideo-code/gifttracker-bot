@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T09:42:12.631Z",
- "updated_unix": 1792316532,
- "runs": 12160,
+ "updated": "2026-10-18T09:58:11.317Z",
+ "updated_unix": 1792317491,
+ "runs": 12161,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93519,
- "sent_total": 2273937,
+ "detected_total": 93520,
+ "sent_total": 2274000,
  "last_upgrades": [
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201565,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201565,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
   {
    "slug": "LunarSnake",
    "gift": "LunarSnake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T09:42:08.820Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267124,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267124,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T09:58:09.628Z",
    "t": 1
   }
  ]
