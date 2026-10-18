@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T12:59:46.017Z",
- "updated_unix": 1792328386,
- "runs": 12192,
+ "updated": "2026-10-18T13:03:40.098Z",
+ "updated_unix": 1792328620,
+ "runs": 12193,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93638,
- "sent_total": 2281426,
+ "detected_total": 93639,
+ "sent_total": 2281489,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267157,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267157,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:30:35.774Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:59:35.742Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:59:35.742Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:59:35.742Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440928,
+   "owner": "",
+   "owner_addr": "0:6f49e9b9dedc22733b39b8148e0ba3896a0a4691b4a92b3bf30bd0f2ef3db3b5",
+   "mint": 1792328588,
+   "counter_issued": 440928,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T13:03:38.820Z",
    "t": 1
   }
  ]
