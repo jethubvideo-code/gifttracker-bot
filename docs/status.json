@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T06:38:32.377Z",
- "updated_unix": 1792305512,
- "runs": 12139,
+ "updated": "2026-10-18T06:40:28.224Z",
+ "updated_unix": 1792305628,
+ "runs": 12140,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 93419,
- "sent_total": 2267676,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 93420,
+ "sent_total": 2267738,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54508,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792251716,
-   "counter_issued": 54508,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:36:26.972Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:38:28.335Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133249,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133249,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:40:24.539Z",
    "t": 1
   }
  ]
