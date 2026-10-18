@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T02:55:36.809Z",
- "updated_unix": 1792292136,
- "runs": 12118,
+ "updated": "2026-10-18T02:57:36.902Z",
+ "updated_unix": 1792292256,
+ "runs": 12119,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93197,
- "sent_total": 2253964,
+ "detected_total": 93198,
+ "sent_total": 2254026,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55471,
-   "owner": "",
-   "owner_addr": "0:668c42f12fdefd3392dc721027465e62cad9cd79d81bce880480f5fc3e860e5d",
-   "mint": 1792264036,
-   "counter_issued": 55471,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T00:38:32.567Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T02:55:35.678Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390234,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390234,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T02:57:35.681Z",
    "t": 1
   }
  ]
