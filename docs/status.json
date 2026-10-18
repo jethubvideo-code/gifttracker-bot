@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-18T11:58:18.498Z",
- "updated_unix": 1792324698,
- "runs": 12175,
+ "updated": "2026-10-18T11:59:37.141Z",
+ "updated_unix": 1792324777,
+ "runs": 12176,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93545,
- "sent_total": 2275567,
+ "detected_total": 93550,
+ "sent_total": 2275882,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133257,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792314627,
-   "counter_issued": 133257,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:37:07.422Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267123,
-   "owner": "",
-   "owner_addr": "0:fbbfec7be9f56a2774b5725fff67e8ed4c888eff8d56007c74b4bc1aaada8ff5",
-   "mint": 1792315834,
-   "counter_issued": 267123,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:37:14.526Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390249,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792315934,
-   "counter_issued": 390249,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:38:08.202Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108331,
-   "owner": "xojaka.ton",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792314936,
-   "counter_issued": 108331,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:42:08.820Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267124,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267124,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:58:09.628Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:58:06.274Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:58:06.274Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:58:06.274Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:58:06.274Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133259,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133259,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:59:13.326Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133260,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792324055,
+   "counter_issued": 133260,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:59:13.326Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440923,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792324313,
+   "counter_issued": 440923,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:59:26.599Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440924,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792324566,
+   "counter_issued": 440924,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:59:26.599Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390252,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792324576,
+   "counter_issued": 390252,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:59:34.989Z",
    "t": 1
   }
  ]
