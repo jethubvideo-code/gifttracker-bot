@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-18T21:43:57.370Z",
- "updated_unix": 1792359837,
- "runs": 12270,
+ "updated": "2026-10-18T21:49:05.999Z",
+ "updated_unix": 1792360145,
+ "runs": 12271,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94051,
- "sent_total": 2307240,
+ "detected_total": 94054,
+ "sent_total": 2307426,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108729,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792343795,
-   "counter_issued": 108729,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:35:01.443Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108730,
-   "owner": "",
-   "owner_addr": "0:10e4f279cbcc63e16c1af9cd3cf83336bfd43a1f55ffc5f466f326949da4de61",
-   "mint": 1792350985,
-   "counter_issued": 108730,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:35:01.443Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 73816,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 73816,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:35:16.349Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T21:25:56.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T21:25:56.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T21:43:55.920Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3927,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3927,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:48:57.619Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3928,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3928,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:48:57.619Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3929,
+   "owner": "",
+   "owner_addr": "0:2c3627aed1c2e3b332123615ada8c72d55cc37233dde3db9acfdf19584d892e3",
+   "mint": 1792359102,
+   "counter_issued": 3929,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:48:57.619Z",
    "t": 1
   }
  ]
