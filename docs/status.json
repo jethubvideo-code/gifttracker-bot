@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T23:13:02.527Z",
- "updated_unix": 1792365182,
- "runs": 12280,
+ "updated": "2026-10-18T23:45:50.623Z",
+ "updated_unix": 1792367150,
+ "runs": 12281,
  "collections": 121,
  "checked": 5,
- "errors": 111,
- "detected_total": 94219,
- "sent_total": 2317654,
+ "errors": 116,
+ "detected_total": 94220,
+ "sent_total": 2317716,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185230,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185230,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T22:43:11.417Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T23:12:59.568Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T23:12:59.568Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84170,
+   "owner": "",
+   "owner_addr": "0:b933d889237937f4a5ac88e6a22266258d9554316cdd3b185d16cb9e1c4412ad",
+   "mint": 1792363665,
+   "counter_issued": 84170,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T23:45:46.978Z",
    "t": 1
   }
  ]
