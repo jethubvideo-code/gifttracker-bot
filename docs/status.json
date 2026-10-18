@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T14:43:53.661Z",
- "updated_unix": 1792334633,
- "runs": 12210,
+ "updated": "2026-10-18T14:46:18.138Z",
+ "updated_unix": 1792334778,
+ "runs": 12211,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93846,
- "sent_total": 2294527,
+ "detected_total": 93848,
+ "sent_total": 2294652,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267306,
-   "owner": "",
-   "owner_addr": "0:21bf3dbb793fe782507691ff3fa06b9e75899756d2d28faa4187767dd4f0f5ab",
-   "mint": 1792334409,
-   "counter_issued": 267306,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:40:46.256Z",
-   "t": 2
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267307,
-   "owner": "rublevkateam.ton",
-   "owner_addr": "0:21bf3dbb793fe782507691ff3fa06b9e75899756d2d28faa4187767dd4f0f5ab",
-   "mint": 1792334426,
-   "counter_issued": 267307,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:40:46.256Z",
-   "t": 2
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:41:23.145Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "toybear",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:41:23.145Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "toybear",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:43:50.062Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:43:50.062Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133266,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133266,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:46:10.891Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133267,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792333782,
+   "counter_issued": 133267,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:46:10.891Z",
    "t": 1
   }
  ]
