@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T06:01:08.817Z",
- "updated_unix": 1792303268,
- "runs": 12135,
+ "updated": "2026-10-18T06:26:31.126Z",
+ "updated_unix": 1792304791,
+ "runs": 12136,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 93414,
- "sent_total": 2267368,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 93415,
+ "sent_total": 2267430,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54503,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792246035,
-   "counter_issued": 54503,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:00:05.574Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:01:06.529Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133248,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792304632,
+   "counter_issued": 133248,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:26:26.999Z",
    "t": 1
   }
  ]
