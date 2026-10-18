@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T15:18:56.043Z",
- "updated_unix": 1792336736,
- "runs": 12217,
+ "updated": "2026-10-18T15:24:53.339Z",
+ "updated_unix": 1792337093,
+ "runs": 12218,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93857,
- "sent_total": 2295213,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 93858,
+ "sent_total": 2295275,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74525,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74525,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:48.771Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:18:50.622Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:18:50.622Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:18:50.622Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390263,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390263,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T15:24:51.269Z",
    "t": 1
   }
  ]
