@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T06:44:31.663Z",
- "updated_unix": 1792305871,
- "runs": 12142,
+ "updated": "2026-10-18T07:01:44.027Z",
+ "updated_unix": 1792306904,
+ "runs": 12143,
  "collections": 121,
- "checked": 3,
- "errors": 118,
- "detected_total": 93423,
- "sent_total": 2267924,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 93424,
+ "sent_total": 2267986,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54512,
-   "owner": "",
-   "owner_addr": "0:4296804c31ca7138da6ad6263d83d36624d8185fe40fe160c9097134038b7c03",
-   "mint": 1792267637,
-   "counter_issued": 54512,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:42:29.001Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:42:29.001Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:44:29.866Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440916,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792306894,
+   "counter_issued": 440916,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T07:01:42.104Z",
    "t": 1
   }
  ]
