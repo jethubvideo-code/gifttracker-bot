@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T04:40:36.207Z",
- "updated_unix": 1792298436,
- "runs": 12127,
+ "updated": "2026-10-18T04:45:32.758Z",
+ "updated_unix": 1792298732,
+ "runs": 12128,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93377,
- "sent_total": 2265074,
+ "detected_total": 93378,
+ "sent_total": 2265136,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142239,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142239,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T03:40:22.841Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T04:19:13.424Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T04:40:34.361Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108328,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108328,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T04:45:31.185Z",
    "t": 1
   }
  ]
