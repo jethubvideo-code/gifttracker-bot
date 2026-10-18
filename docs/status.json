@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T06:26:31.126Z",
- "updated_unix": 1792304791,
- "runs": 12136,
+ "updated": "2026-10-18T06:32:32.091Z",
+ "updated_unix": 1792305152,
+ "runs": 12137,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93415,
- "sent_total": 2267430,
+ "detected_total": 93417,
+ "sent_total": 2267554,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54504,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792246493,
-   "counter_issued": 54504,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54505,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792246687,
-   "counter_issued": 54505,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:01:06.529Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:26:26.999Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12986,
+   "owner": "",
+   "owner_addr": "0:1f81f9a3ce9a32712d57343fe55898c7421a0a7838f3b724ee9c2cbe78e33299",
+   "mint": 1792252423,
+   "counter_issued": 12986,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:32:28.101Z",
+   "t": 1
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12987,
+   "owner": "",
+   "owner_addr": "0:0330b87442073b1ad0462652b66c102a763d4d7702cfc0ae6b750d435205b430",
+   "mint": 1792298610,
+   "counter_issued": 12987,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:32:28.101Z",
    "t": 1
   }
  ]
