@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T20:52:47.411Z",
- "updated_unix": 1792356767,
- "runs": 12262,
+ "updated": "2026-10-18T21:11:45.131Z",
+ "updated_unix": 1792357905,
+ "runs": 12263,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94031,
- "sent_total": 2306000,
+ "detected_total": 94033,
+ "sent_total": 2306124,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90148,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90148,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:03:09.602Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90149,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90149,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:03:09.602Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:52:43.824Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16977,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792354040,
+   "counter_issued": 16977,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:11:38.420Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26083,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 26083,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T21:11:41.808Z",
    "t": 1
   }
  ]
