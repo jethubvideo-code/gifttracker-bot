@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T16:35:43.931Z",
- "updated_unix": 1792341343,
- "runs": 12229,
+ "updated": "2026-10-18T16:42:40.708Z",
+ "updated_unix": 1792341760,
+ "runs": 12230,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93891,
- "sent_total": 2297321,
+ "detected_total": 93893,
+ "sent_total": 2297445,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390264,
-   "owner": "",
-   "owner_addr": "0:57066a1c626635ce4a3f50b3817845293656c435f092a21e3dd5441c016db20e",
-   "mint": 1792338498,
-   "counter_issued": 390264,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T15:52:06.663Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133269,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133269,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T15:55:04.003Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T16:35:36.157Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T16:35:36.157Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T16:35:36.157Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T16:35:36.157Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T16:35:36.157Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440939,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440939,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T16:42:36.024Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90146,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90146,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T16:42:39.614Z",
    "t": 1
   }
  ]
