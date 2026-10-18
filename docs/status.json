@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T22:00:59.517Z",
- "updated_unix": 1792360859,
- "runs": 12272,
+ "updated": "2026-10-18T22:02:01.500Z",
+ "updated_unix": 1792360921,
+ "runs": 12273,
  "collections": 121,
  "checked": 4,
  "errors": 117,
- "detected_total": 94055,
- "sent_total": 2307488,
+ "detected_total": 94056,
+ "sent_total": 2307550,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 73818,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 73818,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T20:35:16.349Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T22:00:57.842Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440960,
+   "owner": "",
+   "owner_addr": "0:1c51b6abf21bfa62a3bf1084722808ee4bc8ebf4a1d8b9864edf562f43d43b82",
+   "mint": 1792360649,
+   "counter_issued": 440960,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T22:02:00.175Z",
    "t": 1
   }
  ]
