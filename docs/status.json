@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T06:36:28.667Z",
- "updated_unix": 1792305388,
- "runs": 12138,
+ "updated": "2026-10-18T06:38:32.377Z",
+ "updated_unix": 1792305512,
+ "runs": 12139,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93418,
- "sent_total": 2267614,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 93419,
+ "sent_total": 2267676,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54507,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792251297,
-   "counter_issued": 54507,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:36:26.972Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90134,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792304417,
+   "counter_issued": 90134,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:38:28.335Z",
    "t": 1
   }
  ]
