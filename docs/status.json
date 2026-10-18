@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-18T20:03:13.800Z",
- "updated_unix": 1792353793,
- "runs": 12256,
+ "updated": "2026-10-18T20:16:16.807Z",
+ "updated_unix": 1792354576,
+ "runs": 12257,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94004,
- "sent_total": 2304326,
+ "detected_total": 94007,
+ "sent_total": 2304512,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32525,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32525,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:35:00.298Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32526,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32526,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:35:00.298Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32527,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32527,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:35:00.298Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:03:04.035Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:03:07.100Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:03:09.602Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:03:09.602Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T20:03:09.602Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267338,
+   "owner": "",
+   "owner_addr": "0:3b2b775915924a424801be80599c34c1155684ca49d50599ea896113dbb655a0",
+   "mint": 1792354546,
+   "counter_issued": 267338,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T20:16:06.668Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108344,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108344,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T20:16:12.151Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108345,
+   "owner": "",
+   "owner_addr": "0:8090b8063f16c48d40ababd6fea53d8171924de0f25e4f7c26f346446c8b448e",
+   "mint": 1792352917,
+   "counter_issued": 108345,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T20:16:12.151Z",
    "t": 1
   }
  ]
