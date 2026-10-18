@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T06:32:32.091Z",
- "updated_unix": 1792305152,
- "runs": 12137,
+ "updated": "2026-10-18T06:36:28.667Z",
+ "updated_unix": 1792305388,
+ "runs": 12138,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93417,
- "sent_total": 2267554,
+ "detected_total": 93418,
+ "sent_total": 2267614,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54506,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792246863,
-   "counter_issued": 54506,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:32:28.101Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:32:28.101Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440914,
+   "owner": "zeba.ton",
+   "owner_addr": "0:0b2ec4c1a7de6201dc2ec7970880819cb41a1aa67448f68c44f00b3b5f723fcd",
+   "mint": 1792305178,
+   "counter_issued": 440914,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:36:26.972Z",
    "t": 1
   }
  ]
