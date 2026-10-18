@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T17:36:55.265Z",
- "updated_unix": 1792345015,
- "runs": 12234,
+ "updated": "2026-10-18T17:37:55.379Z",
+ "updated_unix": 1792345075,
+ "runs": 12235,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93898,
- "sent_total": 2297755,
+ "detected_total": 93899,
+ "sent_total": 2297817,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108724,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792331920,
-   "counter_issued": 108724,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/FAZIjQXelardZa2krh6PYPEHe_ToZv3jJnIBjqcczZ1wLVqNGxV66LFRaLLD60FnVlNPpCbNtX5a5QsD0wvrWwmEBanWXR3bdZWYgb0B1FZjmZdw4tWmPb5X1vYN7WVufulzhiTNuAIuhiwHhSHpqW9sCMN7mJNeH7rsxpiUJGdaLLWz36mcBFmtmKL8QvUPWncsOrPTsMvkgNaMn4ROsmV08iZItjR9yZ7kd7aMVsQOae3snpIa55k-99Oe9S3prbK1p4nTNv1g5XExa7ZonB1DbSWP1YZl85WV03f5J6jl3op-IlaAEOuZVrriVtylcs5c8jxNkWEXwIjqll1Vrg.jpg",
-   "sent": 0,
-   "time": "2026-10-18T16:27:22.023Z",
-   "u": 1
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T17:05:35.455Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T17:36:53.883Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22054,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792321416,
+   "counter_issued": 22054,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T17:37:53.416Z",
    "t": 1
   }
  ]
