@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T08:17:35.475Z",
- "updated_unix": 1792311455,
- "runs": 12151,
+ "updated": "2026-10-18T08:21:31.370Z",
+ "updated_unix": 1792311691,
+ "runs": 12152,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93461,
- "sent_total": 2270283,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 93462,
+ "sent_total": 2270346,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32480,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32480,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T07:54:03.118Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T08:17:27.494Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T08:17:27.494Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T08:17:27.494Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108330,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792310860,
+   "counter_issued": 108330,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T08:21:29.843Z",
    "t": 1
   }
  ]
