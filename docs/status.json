@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T15:00:15.531Z",
- "updated_unix": 1792335615,
- "runs": 12215,
+ "updated": "2026-10-18T15:15:49.892Z",
+ "updated_unix": 1792336549,
+ "runs": 12216,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93853,
- "sent_total": 2294965,
+ "detected_total": 93854,
+ "sent_total": 2295027,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74521,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74521,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:48.771Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T15:00:13.426Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390262,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792336202,
+   "counter_issued": 390262,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T15:15:47.683Z",
    "t": 1
   }
  ]
