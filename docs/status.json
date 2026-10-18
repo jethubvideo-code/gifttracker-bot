@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T12:39:04.804Z",
- "updated_unix": 1792327144,
- "runs": 12189,
+ "updated": "2026-10-18T12:54:37.670Z",
+ "updated_unix": 1792328077,
+ "runs": 12190,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93633,
- "sent_total": 2281111,
+ "detected_total": 93634,
+ "sent_total": 2281174,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267152,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267152,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:29:33.328Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:39:03.332Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440927,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792327712,
+   "counter_issued": 440927,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T12:54:36.135Z",
    "t": 1
   }
  ]
