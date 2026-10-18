@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T22:57:54.820Z",
- "updated_unix": 1792364274,
- "runs": 12277,
+ "updated": "2026-10-18T23:04:51.527Z",
+ "updated_unix": 1792364691,
+ "runs": 12278,
  "collections": 121,
  "checked": 5,
- "errors": 111,
- "detected_total": 94209,
- "sent_total": 2317034,
+ "errors": 113,
+ "detected_total": 94210,
+ "sent_total": 2317096,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185220,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185220,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T22:43:11.417Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T22:57:47.653Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T22:57:47.653Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133284,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133284,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T23:04:47.827Z",
    "t": 1
   }
  ]
