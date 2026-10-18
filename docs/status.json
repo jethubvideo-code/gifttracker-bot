@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T17:05:37.058Z",
- "updated_unix": 1792343137,
- "runs": 12233,
+ "updated": "2026-10-18T17:36:55.265Z",
+ "updated_unix": 1792345015,
+ "runs": 12234,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93897,
- "sent_total": 2297693,
+ "detected_total": 93898,
+ "sent_total": 2297755,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 440938,
-   "owner": "",
-   "owner_addr": "0:2bceefb0eafb71c6d40a433836f02caeef9a742ce8c90aa7bebf52e3adc0808d",
-   "mint": 1792339677,
-   "counter_issued": 440938,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T16:10:05.434Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T17:05:35.455Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440941,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792343779,
+   "counter_issued": 440941,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T17:36:53.883Z",
    "t": 1
   }
  ]
