@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T11:08:55.164Z",
- "updated_unix": 1792321735,
- "runs": 12168,
+ "updated": "2026-10-18T11:13:51.888Z",
+ "updated_unix": 1792322031,
+ "runs": 12169,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93535,
- "sent_total": 2274938,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 93536,
+ "sent_total": 2275001,
  "last_upgrades": [
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201581,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201581,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
   {
    "slug": "LunarSnake",
    "gift": "LunarSnake",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T10:33:24.463Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T10:33:29.993Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:08:48.995Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:08:48.995Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:08:48.995Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440922,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792322006,
+   "counter_issued": 440922,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:13:50.066Z",
    "t": 1
   }
  ]
