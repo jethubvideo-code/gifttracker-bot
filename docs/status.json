@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T23:06:24.299Z",
- "updated_unix": 1792364784,
- "runs": 12279,
+ "updated": "2026-10-18T23:13:02.527Z",
+ "updated_unix": 1792365182,
+ "runs": 12280,
  "collections": 121,
  "checked": 5,
- "errors": 113,
- "detected_total": 94217,
- "sent_total": 2317530,
+ "errors": 111,
+ "detected_total": 94219,
+ "sent_total": 2317654,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185228,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185228,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T22:43:11.417Z",
-   "t": 3
-  },
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185229,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185229,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T22:43:11.417Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T23:06:04.291Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HexPot",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T23:06:04.291Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267353,
+   "owner": "",
+   "owner_addr": "0:16107329262da6a7750bf809d5c296310807a45009f5e392111baad50ee5cf46",
+   "mint": 1792362048,
+   "counter_issued": 267353,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T23:12:59.568Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267354,
+   "owner": "iflexrich.t.me",
+   "owner_addr": "0:67b23ca1b826538b4e2474c8c9d775ba1c31da1469735defc7e5aa0c3ea38023",
+   "mint": 1792362762,
+   "counter_issued": 267354,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T23:12:59.568Z",
    "t": 1
   }
  ]
