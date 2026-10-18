@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T18:24:19.038Z",
- "updated_unix": 1792347859,
- "runs": 12243,
+ "updated": "2026-10-18T18:28:19.583Z",
+ "updated_unix": 1792348099,
+ "runs": 12244,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93943,
- "sent_total": 2300544,
+ "detected_total": 93944,
+ "sent_total": 2300606,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32514,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32514,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T17:50:10.855Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T18:24:17.519Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26082,
+   "owner": "",
+   "owner_addr": "0:d82f803e22a9231ea52dc3998871d5517cd7cdcffa5e14968c1e7a861e7a1e03",
+   "mint": 1792346912,
+   "counter_issued": 26082,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T18:28:17.748Z",
    "t": 1
   }
  ]
