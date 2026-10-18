@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T14:46:18.138Z",
- "updated_unix": 1792334778,
- "runs": 12211,
+ "updated": "2026-10-18T14:47:11.869Z",
+ "updated_unix": 1792334831,
+ "runs": 12212,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93848,
- "sent_total": 2294652,
+ "detected_total": 93849,
+ "sent_total": 2294714,
  "last_upgrades": [
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56226,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56226,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T14:41:23.145Z",
-   "t": 3
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:46:10.891Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T14:46:10.891Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90143,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90143,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:47:10.234Z",
    "t": 1
   }
  ]
