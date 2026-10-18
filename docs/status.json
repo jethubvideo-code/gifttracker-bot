@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T11:22:52.845Z",
- "updated_unix": 1792322572,
- "runs": 12172,
+ "updated": "2026-10-18T11:24:52.417Z",
+ "updated_unix": 1792322692,
+ "runs": 12173,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93539,
- "sent_total": 2275190,
+ "detected_total": 93540,
+ "sent_total": 2275253,
  "last_upgrades": [
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201585,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201585,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T09:32:52.012Z",
-   "t": 3
-  },
   {
    "slug": "LunarSnake",
    "gift": "LunarSnake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T11:22:51.070Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390251,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792322661,
+   "counter_issued": 390251,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T11:24:50.831Z",
    "t": 1
   }
  ]
