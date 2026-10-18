@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T01:08:50.175Z",
- "updated_unix": 1792285730,
- "runs": 12113,
+ "updated": "2026-10-18T01:13:56.549Z",
+ "updated_unix": 1792286036,
+ "runs": 12114,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93191,
- "sent_total": 2253592,
+ "detected_total": 93193,
+ "sent_total": 2253716,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55465,
-   "owner": "",
-   "owner_addr": "0:4725d01f79484ee893a023ef8a0420b64779bb8aa26f887d7a6fd10b38e2d80f",
-   "mint": 1792214043,
-   "counter_issued": 55465,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T00:38:32.567Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55466,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792229576,
-   "counter_issued": 55466,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T00:38:32.567Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T00:53:32.663Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T01:08:48.822Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32476,
+   "owner": "",
+   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
+   "mint": 1792282104,
+   "counter_issued": 32476,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T01:13:49.458Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32477,
+   "owner": "parisgroup.ton",
+   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
+   "mint": 1792282118,
+   "counter_issued": 32477,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T01:13:49.458Z",
    "t": 1
   }
  ]
