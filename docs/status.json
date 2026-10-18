@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T13:46:42.645Z",
- "updated_unix": 1792331202,
- "runs": 12201,
+ "updated": "2026-10-18T14:05:17.624Z",
+ "updated_unix": 1792332317,
+ "runs": 12202,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93795,
- "sent_total": 2291317,
+ "detected_total": 93797,
+ "sent_total": 2291443,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267279,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267279,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T13:34:13.587Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267280,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267280,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T13:34:13.587Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T13:46:33.831Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T13:46:33.831Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T13:46:33.831Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90142,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792330457,
+   "counter_issued": 90142,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:05:10.857Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267304,
+   "owner": "",
+   "owner_addr": "0:329b04b7939f05af9f04a83f1e2099e365b873134f4e70345372f92a41827c24",
+   "mint": 1792332242,
+   "counter_issued": 267304,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T14:05:16.340Z",
    "t": 1
   }
  ]
