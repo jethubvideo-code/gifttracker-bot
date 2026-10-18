@@ -1,139 +1,13 @@
 {
- "updated": "2026-10-18T12:20:04.200Z",
- "updated_unix": 1792326004,
- "runs": 12178,
+ "updated": "2026-10-18T12:20:43.209Z",
+ "updated_unix": 1792326043,
+ "runs": 12179,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 93584,
- "sent_total": 2278024,
+ "checked": 1,
+ "errors": 120,
+ "detected_total": 93593,
+ "sent_total": 2278591,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78163,
-   "owner": "",
-   "owner_addr": "0:6072ee6e51041f3e355530fef877628799ed35149ea3e18e854e4a0e271b1531",
-   "mint": 1792324534,
-   "counter_issued": 78163,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:18.904Z",
-   "t": 1
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73800,
-   "owner": "",
-   "owner_addr": "0:cebda75df9cb326a5c5d59da57191b9c39e59da6aac47b17beec371fe734d1e6",
-   "mint": 1792254154,
-   "counter_issued": 73800,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 1
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73801,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792254193,
-   "counter_issued": 73801,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 1
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73802,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792254607,
-   "counter_issued": 73802,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 1
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73803,
-   "owner": "",
-   "owner_addr": "0:4b18a446c8f83b80eae8488722b498319814195ba2e0b6ef2370b5fb1d7fe017",
-   "mint": 1792309246,
-   "counter_issued": 73803,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 1
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73804,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792312683,
-   "counter_issued": 73804,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 1
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73805,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792317276,
-   "counter_issued": 73805,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 2
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73806,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792319410,
-   "counter_issued": 73806,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 2
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73807,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792322051,
-   "counter_issued": 73807,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T12:00:52.732Z",
-   "t": 2
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -230,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -244,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -258,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -272,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -286,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -300,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -314,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -328,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -342,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -356,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:19:31.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:20:00.794Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +300,132 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T12:20:00.794Z",
+   "t": 2
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20853,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20853,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20854,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20854,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20855,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20855,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20856,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20856,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20857,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20857,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20858,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20858,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20859,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20859,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20860,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20860,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ionicdryer",
+   "gift": "Ionic Dryers",
+   "number": 20861,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 20861,
+   "counter_total": 25719,
+   "img": "https://cdn4.telesco.pe/file/H7D48B4SS9Ofk0MDKI_YzJZ0M8Mrl2AddvN3zRrFOUX-0YAn0Pad-dtu7fuRByXhWUt4SwM4CLgHZSmRxJtOhaG68A3z5vjlYFY5JPRVr1oySiGQmTCuCw1gjADGl7xmLZPfgDRDm02-P9W8HKlbKe2MERxwvMRX9b8C9oh2MHuv7LpHWcCFgY37LKETSm7cCKGyKJM1XH8MpO089BtjkFrouAQNp438gQkk7aCHl0d37S0BEk9g4o92SZ6LJtMNMe1oKfOOTv9IaALLzwZmKCOHUZpWXiljMhHrIZwOMx0aiK_Vj-Tq627W4bQUxJytArsnzQ51FMjBVjmdc9K8lA.jpg",
+   "sent": 0,
+   "time": "2026-10-18T12:20:15.373Z",
    "t": 1
   }
  ]
