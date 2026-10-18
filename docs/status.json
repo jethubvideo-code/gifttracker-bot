@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T05:59:11.601Z",
- "updated_unix": 1792303151,
- "runs": 12133,
+ "updated": "2026-10-18T06:00:07.372Z",
+ "updated_unix": 1792303207,
+ "runs": 12134,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93412,
- "sent_total": 2267244,
+ "detected_total": 93413,
+ "sent_total": 2267306,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 56991,
-   "owner": "",
-   "owner_addr": "0:2352d5c45f03924d8f4432a045497306b4a8c6e7383666b053ba11cdadbf2efc",
-   "mint": 1792278414,
-   "counter_issued": 56991,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:16:54.515Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T05:59:08.249Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T05:59:08.249Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390237,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390237,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:00:05.574Z",
    "t": 1
   }
  ]
