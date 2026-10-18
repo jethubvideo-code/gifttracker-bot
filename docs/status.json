@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-18T06:40:28.224Z",
- "updated_unix": 1792305628,
- "runs": 12140,
+ "updated": "2026-10-18T06:42:32.521Z",
+ "updated_unix": 1792305752,
+ "runs": 12141,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93420,
- "sent_total": 2267738,
+ "detected_total": 93422,
+ "sent_total": 2267862,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54509,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792252660,
-   "counter_issued": 54509,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54510,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792254113,
-   "counter_issued": 54510,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T05:17:25.898Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T06:40:24.539Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390239,
+   "owner": "",
+   "owner_addr": "0:b5714e8db77a2d47415a6c471e069298afe94c3596316151aa8d7d7dc30e7b2e",
+   "mint": 1792303857,
+   "counter_issued": 390239,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:42:29.001Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390240,
+   "owner": "",
+   "owner_addr": "0:73c19d8ee3ccb85b7bc28d35022418ea72bdc8ba6de882e0fe0899621e5d3310",
+   "mint": 1792304051,
+   "counter_issued": 390240,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T06:42:29.001Z",
    "t": 1
   }
  ]
