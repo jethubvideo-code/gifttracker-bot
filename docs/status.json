@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-18T03:46:52.937Z",
- "updated_unix": 1792295212,
- "runs": 12125,
+ "updated": "2026-10-18T04:19:15.084Z",
+ "updated_unix": 1792297155,
+ "runs": 12126,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93375,
- "sent_total": 2264950,
+ "detected_total": 93376,
+ "sent_total": 2265012,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142237,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142237,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T03:40:22.841Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T03:46:51.380Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3913,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3913,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T04:19:13.424Z",
    "t": 1
   }
  ]
