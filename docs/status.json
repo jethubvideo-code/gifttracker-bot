@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-18T19:37:24.945Z",
- "updated_unix": 1792352244,
- "runs": 12252,
+ "updated": "2026-10-18T19:58:13.494Z",
+ "updated_unix": 1792353493,
+ "runs": 12253,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 93990,
- "sent_total": 2303458,
+ "detected_total": 93993,
+ "sent_total": 2303644,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108343,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108343,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:22:50.474Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3921,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3921,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:29:46.908Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3922,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3922,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-18T19:29:46.908Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T19:37:14.814Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T19:37:14.814Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T19:37:22.090Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-18T19:37:22.090Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440955,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440955,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T19:58:08.585Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440956,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440956,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T19:58:08.585Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440957,
+   "owner": "",
+   "owner_addr": "0:9564574403dd066f6f547495251fa40100caae10fb77906fe81ee0e7e5ed66b2",
+   "mint": 1792353205,
+   "counter_issued": 440957,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-18T19:58:08.585Z",
    "t": 1
   }
  ]
