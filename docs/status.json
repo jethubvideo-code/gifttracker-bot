@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T05:57:53.940Z",
- "updated_unix": 1792389473,
- "runs": 12300,
+ "updated": "2026-10-19T06:22:13.977Z",
+ "updated_unix": 1792390933,
+ "runs": 12301,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 94515,
- "sent_total": 2335940,
+ "checked": 1,
+ "errors": 120,
+ "detected_total": 94516,
+ "sent_total": 2336002,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267385,
-   "owner": "",
-   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
-   "mint": 1792374309,
-   "counter_issued": 267385,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T01:51:08.649Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T05:40:35.723Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T05:57:52.645Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267393,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267393,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T06:22:12.757Z",
    "t": 1
   }
  ]
