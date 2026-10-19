@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T08:58:43.220Z",
- "updated_unix": 1792400323,
- "runs": 12324,
+ "updated": "2026-10-19T08:59:46.588Z",
+ "updated_unix": 1792400386,
+ "runs": 12325,
  "collections": 121,
- "checked": 2,
- "errors": 119,
- "detected_total": 94613,
- "sent_total": 2341999,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 94615,
+ "sent_total": 2342123,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71712,
-   "owner": "",
-   "owner_addr": "0:ba5718bb2ddc83ba4247486dccccb64e546d31b19f2427479ebda2dd2651fc1c",
-   "mint": 1792334373,
-   "counter_issued": 71712,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:22:05.487Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71713,
-   "owner": "",
-   "owner_addr": "0:ba5718bb2ddc83ba4247486dccccb64e546d31b19f2427479ebda2dd2651fc1c",
-   "mint": 1792334411,
-   "counter_issued": 71713,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:22:05.487Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:35.972Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:35.972Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:35.972Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HexPot",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:48.786Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HexPot",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:48.786Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:58:01.506Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:58:41.338Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390290,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390290,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T08:59:41.357Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390291,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792399356,
+   "counter_issued": 390291,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T08:59:41.357Z",
    "t": 1
   }
  ]
