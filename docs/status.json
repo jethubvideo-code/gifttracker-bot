@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T15:24:52.743Z",
- "updated_unix": 1792423492,
- "runs": 12372,
+ "updated": "2026-10-19T15:29:50.496Z",
+ "updated_unix": 1792423790,
+ "runs": 12373,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94968,
- "sent_total": 2364003,
+ "detected_total": 94969,
+ "sent_total": 2364065,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267450,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267450,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T14:12:19.840Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T15:24:48.276Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T15:24:51.475Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440996,
+   "owner": "wonby-wonby.ton",
+   "owner_addr": "0:9998f81b13c36e0da253a447bb744f176bd0710cd91967393fa2c6b58f079508",
+   "mint": 1792423737,
+   "counter_issued": 440996,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T15:29:48.897Z",
    "t": 1
   }
  ]
