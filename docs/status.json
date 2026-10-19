@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T10:18:17.765Z",
- "updated_unix": 1792405097,
- "runs": 12332,
+ "updated": "2026-10-19T10:23:19.140Z",
+ "updated_unix": 1792405399,
+ "runs": 12333,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 94634,
- "sent_total": 2343297,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 94636,
+ "sent_total": 2343421,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267401,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267401,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:32:36.065Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267402,
-   "owner": "korallxd.ton",
-   "owner_addr": "0:8fc9d782150e828bec44fc8a7d029ce5f682248ce55a9167d2e66bd9c0a2dc88",
-   "mint": 1792398323,
-   "counter_issued": 267402,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:32:36.065Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:18:05.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:18:05.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:18:05.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:18:05.960Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390292,
+   "owner": "",
+   "owner_addr": "0:62d48edf3a5b746b7ffe5c196aff15d1ffeb0dfc513476af36b299134f13f19d",
+   "mint": 1792404475,
+   "counter_issued": 390292,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T10:23:13.973Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390293,
+   "owner": "xiaoshuai.ton",
+   "owner_addr": "0:a9ba38463a84ac3a59932b22289c7434ba154675c2e2dff0a66bc08b2a36240c",
+   "mint": 1792405358,
+   "counter_issued": 390293,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T10:23:13.973Z",
    "t": 1
   }
  ]
