@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T07:16:49.350Z",
- "updated_unix": 1792394209,
- "runs": 12309,
+ "updated": "2026-10-19T07:22:45.938Z",
+ "updated_unix": 1792394565,
+ "runs": 12310,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94538,
- "sent_total": 2337355,
+ "detected_total": 94539,
+ "sent_total": 2337417,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390285,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390285,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T05:22:35.859Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:16:44.378Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:16:44.378Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440970,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440970,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T07:22:44.389Z",
    "t": 1
   }
  ]
