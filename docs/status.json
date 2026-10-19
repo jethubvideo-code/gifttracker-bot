@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T09:06:14.019Z",
- "updated_unix": 1792400774,
- "runs": 12326,
+ "updated": "2026-10-19T09:12:58.940Z",
+ "updated_unix": 1792401178,
+ "runs": 12327,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 94621,
- "sent_total": 2342493,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 94623,
+ "sent_total": 2342615,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71720,
-   "owner": "",
-   "owner_addr": "0:5bee770ffcfb75332dd412da6165e28e8efbd9a662955054215875d777e8a9f3",
-   "mint": 1792386719,
-   "counter_issued": 71720,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:22:05.487Z",
-   "t": 3
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35362,
-   "owner": "",
-   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
-   "mint": 1792332265,
-   "counter_issued": 35362,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:22:46.924Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -328,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:59:41.357Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:59:41.357Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "VintageCigar",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T09:05:45.846Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "VintageCigar",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T09:05:45.846Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "VintageCigar",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T09:05:45.846Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T09:05:58.419Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "TrappedHeart",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T09:06:06.450Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "TrappedHeart",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T09:06:06.450Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133293,
+   "owner": "",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792400367,
+   "counter_issued": 133293,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T09:12:51.614Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133294,
+   "owner": "xojaka.ton",
+   "owner_addr": "0:ffda0a56045f4a1708868a9401b71e8e95d0c090174241deb22adc4879a99ddc",
+   "mint": 1792400925,
+   "counter_issued": 133294,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T09:12:51.614Z",
    "t": 1
   }
  ]
