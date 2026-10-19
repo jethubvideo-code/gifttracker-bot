@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T07:13:45.839Z",
- "updated_unix": 1792394025,
- "runs": 12308,
+ "updated": "2026-10-19T07:16:49.350Z",
+ "updated_unix": 1792394209,
+ "runs": 12309,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94536,
- "sent_total": 2337231,
+ "detected_total": 94538,
+ "sent_total": 2337355,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267391,
-   "owner": "",
-   "owner_addr": "0:898492c86680265641af699e83f73221283d8ddd7355fb33e277d2c2fcb2d073",
-   "mint": 1792383801,
-   "counter_issued": 267391,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T04:47:30.593Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390284,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390284,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T05:22:35.859Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:13:44.528Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "SnoopCigar",
+   "number": 117657,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 117657,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T07:16:44.378Z",
+   "t": 1
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "SnoopCigar",
+   "number": 117658,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 117658,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T07:16:44.378Z",
    "t": 1
   }
  ]
