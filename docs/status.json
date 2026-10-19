@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T08:26:36.954Z",
- "updated_unix": 1792398396,
- "runs": 12320,
+ "updated": "2026-10-19T08:31:37.248Z",
+ "updated_unix": 1792398697,
+ "runs": 12321,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 94601,
- "sent_total": 2341255,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 94602,
+ "sent_total": 2341317,
  "last_upgrades": [
-  {
-   "slug": "LightSword",
-   "gift": "LightSword",
-   "number": 125269,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 125269,
-   "counter_total": 131222,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:21:12.658Z",
-   "t": 3
-  },
   {
    "slug": "LightSword",
    "gift": "LightSword",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:26:35.164Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108353,
+   "owner": "mistten.t.me",
+   "owner_addr": "0:7a827349283f1fe76b8e74ef2c46c4a4e3f858a7c845caa2e53164f09e5c5683",
+   "mint": 1792398254,
+   "counter_issued": 108353,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T08:31:35.601Z",
    "t": 1
   }
  ]
