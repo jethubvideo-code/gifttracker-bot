@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T18:27:47.257Z",
- "updated_unix": 1792434467,
- "runs": 12405,
+ "updated": "2026-10-19T18:35:45.972Z",
+ "updated_unix": 1792434945,
+ "runs": 12406,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95350,
- "sent_total": 2387992,
+ "detected_total": 95351,
+ "sent_total": 2388054,
  "last_upgrades": [
-  {
-   "slug": "SnoopCigar",
-   "gift": "Snoop Cigar",
-   "number": 117672,
-   "owner": "",
-   "owner_addr": "0:03170ca46d27a565ca7a513734fa80344496863ea6a61d0d2ad26e8905446a70",
-   "mint": 1792430190,
-   "counter_issued": 117672,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T17:49:45.627Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T18:27:45.957Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390318,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390318,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T18:35:43.741Z",
    "t": 1
   }
  ]
