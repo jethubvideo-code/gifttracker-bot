@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T12:28:24.565Z",
- "updated_unix": 1792412904,
- "runs": 12345,
+ "updated": "2026-10-19T12:29:20.992Z",
+ "updated_unix": 1792412960,
+ "runs": 12346,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94660,
- "sent_total": 2344908,
+ "detected_total": 94661,
+ "sent_total": 2344970,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3931,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3931,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T10:18:05.960Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:28:18.351Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:28:18.351Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:28:18.351Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90157,
+   "owner": "",
+   "owner_addr": "0:8c4a63bdea495588ab983d36c269aee303aab7aa3cadf4b0f3340a68ab47fd01",
+   "mint": 1792410042,
+   "counter_issued": 90157,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T12:29:17.406Z",
    "t": 1
   }
  ]
