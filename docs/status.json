@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-19T12:30:27.583Z",
- "updated_unix": 1792413027,
- "runs": 12347,
+ "updated": "2026-10-19T12:33:35.301Z",
+ "updated_unix": 1792413215,
+ "runs": 12348,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94664,
- "sent_total": 2345156,
+ "detected_total": 94669,
+ "sent_total": 2345466,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390292,
-   "owner": "",
-   "owner_addr": "0:62d48edf3a5b746b7ffe5c196aff15d1ffeb0dfc513476af36b299134f13f19d",
-   "mint": 1792404475,
-   "counter_issued": 390292,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T10:23:13.973Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390293,
-   "owner": "xiaoshuai.ton",
-   "owner_addr": "0:a9ba38463a84ac3a59932b22289c7434ba154675c2e2dff0a66bc08b2a36240c",
-   "mint": 1792405358,
-   "counter_issued": 390293,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T10:23:13.973Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 440978,
-   "owner": "",
-   "owner_addr": "0:f3d4373593b1ee044e9fd4bf788e32410a5e9fa3a0af707c8ab8e7e6e59cb28d",
-   "mint": 1792403553,
-   "counter_issued": 440978,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T10:40:30.602Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 440979,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792404144,
-   "counter_issued": 440979,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T10:40:30.602Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 440980,
-   "owner": "",
-   "owner_addr": "0:5b577f0013126ab4f1076f50a64adcab79804a7b2120c8f20cf1a6431ee811f6",
-   "mint": 1792406090,
-   "counter_issued": 440980,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T10:40:30.602Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:30:19.769Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:30:19.769Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:30:19.769Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133302,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133302,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T12:33:20.413Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133303,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133303,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T12:33:20.413Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133304,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133304,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T12:33:20.413Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133305,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133305,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T12:33:20.413Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133306,
+   "owner": "",
+   "owner_addr": "0:e109fc779a75afbdfc345e189054429e72ff2270a6162d4647cc574ed1043f52",
+   "mint": 1792409553,
+   "counter_issued": 133306,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T12:33:20.413Z",
    "t": 1
   }
  ]
