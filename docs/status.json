@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T16:54:29.628Z",
- "updated_unix": 1792428869,
- "runs": 12390,
+ "updated": "2026-10-19T17:09:12.250Z",
+ "updated_unix": 1792429752,
+ "runs": 12391,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95277,
- "sent_total": 2383464,
+ "detected_total": 95279,
+ "sent_total": 2383590,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107101,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107101,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T16:49:22.613Z",
-   "t": 3
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107102,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107102,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T16:49:22.613Z",
-   "t": 3
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:54:23.466Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:54:23.466Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:54:23.466Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:54:23.466Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390312,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390312,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T17:09:09.099Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390313,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390313,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T17:09:09.099Z",
    "t": 1
   }
  ]
