@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T19:46:03.635Z",
- "updated_unix": 1792439163,
- "runs": 12422,
+ "updated": "2026-10-19T19:49:01.994Z",
+ "updated_unix": 1792439341,
+ "runs": 12423,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95534,
- "sent_total": 2399405,
+ "detected_total": 95535,
+ "sent_total": 2399468,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267515,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267515,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T19:31:27.891Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T19:45:59.848Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90173,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792439173,
+   "counter_issued": 90173,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T19:49:00.172Z",
    "t": 1
   }
  ]
