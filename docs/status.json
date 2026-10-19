@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T11:33:57.609Z",
- "updated_unix": 1792409637,
- "runs": 12342,
+ "updated": "2026-10-19T11:54:03.405Z",
+ "updated_unix": 1792410843,
+ "runs": 12343,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94655,
- "sent_total": 2344598,
+ "detected_total": 94656,
+ "sent_total": 2344660,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 440974,
-   "owner": "",
-   "owner_addr": "0:afc11fe418c64df51f817d21792301e436a8652ab274f1c90fc1f388273e7f06",
-   "mint": 1792400726,
-   "counter_issued": 440974,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T09:37:10.242Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:33:56.081Z",
+   "t": 3
+  },
+  {
+   "slug": "KissedFrog",
+   "gift": "Kissed Frog",
+   "number": 14090,
+   "owner": "vkeysuk.ton",
+   "owner_addr": "0:5248e4943b8fd27d7247184428e5deb2a90925af619c091ae9eadc54c01fdca1",
+   "mint": 1792366075,
+   "counter_issued": 14090,
+   "counter_total": 14278,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T11:53:59.850Z",
    "t": 1
   }
  ]
