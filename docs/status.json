@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T10:41:35.379Z",
- "updated_unix": 1792406495,
- "runs": 12335,
+ "updated": "2026-10-19T11:15:44.832Z",
+ "updated_unix": 1792408544,
+ "runs": 12336,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94640,
- "sent_total": 2343669,
+ "detected_total": 94641,
+ "sent_total": 2343731,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 56999,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792397903,
-   "counter_issued": 56999,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:57:48.786Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:41:32.071Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267404,
+   "owner": "shah.ton",
+   "owner_addr": "0:b3ea6107f0c293a3270576b95e11355bc32cb8c080401e3763c81bf48e22054a",
+   "mint": 1792407394,
+   "counter_issued": 267404,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T11:15:43.264Z",
    "t": 1
   }
  ]
