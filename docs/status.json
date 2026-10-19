@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-19T17:48:49.091Z",
- "updated_unix": 1792432129,
- "runs": 12394,
+ "updated": "2026-10-19T17:50:01.722Z",
+ "updated_unix": 1792432201,
+ "runs": 12395,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95320,
- "sent_total": 2386132,
+ "detected_total": 95324,
+ "sent_total": 2386380,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267474,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267474,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/Yo1qkErUXlCUKPSiJGRFeLy4LwnbR7MYspCdCDejQmk-CYjdR-BeD-sZEeLFq8o0jhTFeU6A4dXrzMXCOdZs5ku6aMHuQy4oxUkzd36qseSz9O_uSykCw5mvWwdHi2HAx9YLTibm08YnFsgnO-ynaNtGLXBVqqNZO8WL5j6on5PvLJ0turg4TftV_JVFIQXHHhGV2xMLkptVrU5KoaXN6ARr557pKTy6RDT_qTmhKUTtltFuV7IIJGPnyVl_iKISWGVo7VC0nVJOOEAuE6gfta8QOMBLS9jCEpRY7p-d2qpwB2qHelbzAJpyJ2KIgd0lRBKGHnpRhWcsBeldc9hbag.jpg",
-   "sent": 0,
-   "time": "2026-10-19T17:44:29.649Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267475,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267475,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/uFlMuipGLzR5vz_ndYM8b0DEnHYM4NZw2oblzRTSe3moBpsmEMpkq8A0uzbB0Non6R4o2A75CZDhAwT2N29Whlh3BpDmdAB9YQtl4NAorbaGW3H1bvFGlHKFjeFRW_Ooh4xmtlbOMRrhXz2mdAaJCePPTA9rBKkSVWOTs_yzqJVEPfliBMNZOCeQ1kjATAiXFzc6UzRzcH1R9gqout2JUDPhREgBt7j1zSvwRhnMELB3JEeY9FxyWWFu0Ut0DZN6uDDWwclgnhmbtgnAOj_81ypm9MNyv9YLYgc3LySJiLEKTwgC3-mSLhFQsEsS7lTiNWDv4C5qpegHpNcmi6Qsig.jpg",
-   "sent": 0,
-   "time": "2026-10-19T17:44:29.649Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267476,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267476,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T17:44:29.649Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267477,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267477,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T17:44:29.649Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T17:48:42.396Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T17:48:42.396Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T17:48:42.396Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117672,
+   "owner": "",
+   "owner_addr": "0:03170ca46d27a565ca7a513734fa80344496863ea6a61d0d2ad26e8905446a70",
+   "mint": 1792430190,
+   "counter_issued": 117672,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T17:49:45.627Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90168,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90168,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T17:49:54.761Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90169,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90169,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T17:49:54.761Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90170,
+   "owner": "",
+   "owner_addr": "0:4d90c6d1d10fb57bd6e5370f7b5c47dd6423e0278afef87cc9375cc4d1cf6b1e",
+   "mint": 1792431746,
+   "counter_issued": 90170,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T17:49:54.761Z",
    "t": 1
   }
  ]
