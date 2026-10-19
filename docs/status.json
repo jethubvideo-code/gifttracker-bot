@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T07:10:54.310Z",
- "updated_unix": 1792393854,
- "runs": 12307,
+ "updated": "2026-10-19T07:13:45.839Z",
+ "updated_unix": 1792394025,
+ "runs": 12308,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94535,
- "sent_total": 2337169,
+ "detected_total": 94536,
+ "sent_total": 2337231,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267390,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1792378454,
-   "counter_issued": 267390,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T04:47:30.593Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:10:35.468Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:10:45.475Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:10:45.475Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:10:45.475Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 440969,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 440969,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T07:13:44.528Z",
    "t": 1
   }
  ]
