@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T22:07:36.826Z",
- "updated_unix": 1792447656,
- "runs": 12439,
+ "updated": "2026-10-19T22:10:39.352Z",
+ "updated_unix": 1792447839,
+ "runs": 12440,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 95584,
- "sent_total": 2402555,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 95585,
+ "sent_total": 2402618,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267544,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267544,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T21:16:14.636Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T22:07:35.690Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390322,
+   "owner": "fenijara.ton",
+   "owner_addr": "0:a5ade917b0d17339ad40ae2e9ec96cc09c0aa8377babb314f7f5a8d151009e0e",
+   "mint": 1792447005,
+   "counter_issued": 390322,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T22:10:38.128Z",
    "t": 1
   }
  ]
