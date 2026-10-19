@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T16:52:25.363Z",
- "updated_unix": 1792428745,
- "runs": 12388,
+ "updated": "2026-10-19T16:53:19.941Z",
+ "updated_unix": 1792428799,
+ "runs": 12389,
  "collections": 121,
- "checked": 3,
- "errors": 118,
- "detected_total": 95271,
- "sent_total": 2383086,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 95273,
+ "sent_total": 2383212,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107095,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107095,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T16:49:22.613Z",
-   "t": 2
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107096,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107096,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T16:49:22.613Z",
-   "t": 2
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:51:14.253Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:51:20.596Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BlingBinky",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:52:17.716Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:52:23.848Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90166,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90166,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:53:16.773Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90167,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90167,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:53:16.773Z",
    "t": 1
   }
  ]
