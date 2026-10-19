@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T23:02:10.304Z",
- "updated_unix": 1792450930,
- "runs": 12443,
+ "updated": "2026-10-19T23:16:12.691Z",
+ "updated_unix": 1792451772,
+ "runs": 12444,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95588,
- "sent_total": 2402809,
+ "detected_total": 95590,
+ "sent_total": 2402937,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133330,
-   "owner": "rich-account.ton",
-   "owner_addr": "0:bcc92e4b6dff9fb45287cf2845d2475f45f503b8ca4510a7d39c93da8a5a5db2",
-   "mint": 1792441932,
-   "counter_issued": 133330,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T21:22:18.076Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441010,
-   "owner": "",
-   "owner_addr": "0:693086284072cd27ca8f1286b64bdb93584e7c702788c5ed0245eb1b6fd8bdff",
-   "mint": 1792443441,
-   "counter_issued": 441010,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T21:28:18.029Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T23:02:06.357Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T23:02:09.146Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3935,
+   "owner": "",
+   "owner_addr": "0:455024810caef5d106159c1a1c7decc336f3bbc7198bac97409cb13cc1c88c17",
+   "mint": 1792429618,
+   "counter_issued": 3935,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T23:16:07.488Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3936,
+   "owner": "424242.ton",
+   "owner_addr": "0:455024810caef5d106159c1a1c7decc336f3bbc7198bac97409cb13cc1c88c17",
+   "mint": 1792430260,
+   "counter_issued": 3936,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T23:16:07.488Z",
    "t": 1
   }
  ]
