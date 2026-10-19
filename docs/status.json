@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T18:21:47.487Z",
- "updated_unix": 1792434107,
- "runs": 12402,
+ "updated": "2026-10-19T18:25:52.071Z",
+ "updated_unix": 1792434352,
+ "runs": 12403,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95346,
- "sent_total": 2387744,
+ "detected_total": 95348,
+ "sent_total": 2387868,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267500,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267500,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T17:47:38.991Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390314,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390314,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T17:48:42.396Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T18:21:44.121Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T18:21:44.121Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441002,
+   "owner": "",
+   "owner_addr": "0:35ed13d5149475680b9f2f16a1a656147a729e22547e935c1640051e252545ec",
+   "mint": 1792432891,
+   "counter_issued": 441002,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T18:25:44.142Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267504,
+   "owner": "Getgems Gift Minter",
+   "owner_addr": "0:c708deda737561ae355fca014b23a274d47278da0832cd542f94d2dddbe1de96",
+   "mint": 1792434331,
+   "counter_issued": 267504,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T18:25:50.226Z",
    "t": 1
   }
  ]
