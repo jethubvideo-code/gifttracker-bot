@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T07:22:45.938Z",
- "updated_unix": 1792394565,
- "runs": 12310,
+ "updated": "2026-10-19T07:24:47.993Z",
+ "updated_unix": 1792394687,
+ "runs": 12311,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94539,
- "sent_total": 2337417,
+ "detected_total": 94540,
+ "sent_total": 2337479,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390286,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390286,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T05:22:35.859Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T07:22:44.389Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "SnoopCigar",
+   "number": 117659,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 117659,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T07:24:44.369Z",
    "t": 1
   }
  ]
