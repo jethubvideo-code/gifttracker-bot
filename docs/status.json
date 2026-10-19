@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-19T13:01:43.928Z",
- "updated_unix": 1792414903,
- "runs": 12351,
+ "updated": "2026-10-19T13:03:47.654Z",
+ "updated_unix": 1792415027,
+ "runs": 12352,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94674,
- "sent_total": 2345776,
+ "detected_total": 94677,
+ "sent_total": 2345962,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84846,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84846,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T11:16:42.604Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84847,
-   "owner": "",
-   "owner_addr": "0:45932ca9ed54cfbfe62f2459885865def1e03912c9bc763ae708215c7199555d",
-   "mint": 1792408064,
-   "counter_issued": 84847,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T11:16:42.604Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90156,
-   "owner": "",
-   "owner_addr": "0:99bf4c1f3248058b3af5e7ccbf4d62c433b59f2e512f52fe46ce74faa78cd6b5",
-   "mint": 1792391938,
-   "counter_issued": 90156,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T11:17:52.253Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:43:25.633Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T12:43:25.633Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T13:01:40.337Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T13:01:40.337Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390300,
+   "owner": "",
+   "owner_addr": "0:b56863d68bc99652ad24880b42d2673362ed4ea9e5183779e46a29f73a55e121",
+   "mint": 1792413903,
+   "counter_issued": 390300,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T13:03:40.625Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390301,
+   "owner": "",
+   "owner_addr": "0:af50a985abe8db4467860899d69b16ef1c93b94ba2d0a84604ea714baf5b8676",
+   "mint": 1792414669,
+   "counter_issued": 390301,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T13:03:40.625Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90160,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90160,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T13:03:46.004Z",
    "t": 1
   }
  ]
