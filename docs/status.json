@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T16:05:59.238Z",
- "updated_unix": 1792425959,
- "runs": 12382,
+ "updated": "2026-10-19T16:12:22.941Z",
+ "updated_unix": 1792426342,
+ "runs": 12383,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94978,
- "sent_total": 2364631,
+ "detected_total": 94979,
+ "sent_total": 2364693,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390305,
-   "owner": "",
-   "owner_addr": "0:cf2fbf79e923c5ca8f51835469b87c8fed5bc511f206bd03d28889d3b281b520",
-   "mint": 1792421029,
-   "counter_issued": 390305,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T14:47:28.488Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:05:57.560Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 440997,
+   "owner": "wonby-wonby.ton",
+   "owner_addr": "0:9998f81b13c36e0da253a447bb744f176bd0710cd91967393fa2c6b58f079508",
+   "mint": 1792423737,
+   "counter_issued": 440997,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:12:21.362Z",
    "t": 1
   }
  ]
