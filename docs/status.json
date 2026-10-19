@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T06:22:13.977Z",
- "updated_unix": 1792390933,
- "runs": 12301,
+ "updated": "2026-10-19T06:39:16.189Z",
+ "updated_unix": 1792391956,
+ "runs": 12302,
  "collections": 121,
- "checked": 1,
- "errors": 120,
- "detected_total": 94516,
- "sent_total": 2336002,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 94517,
+ "sent_total": 2336064,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 108731,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108731,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T02:01:08.474Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T06:22:12.757Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3930,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3930,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T06:39:14.543Z",
    "t": 1
   }
  ]
