@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T14:18:22.496Z",
- "updated_unix": 1792419502,
- "runs": 12362,
+ "updated": "2026-10-19T14:24:16.439Z",
+ "updated_unix": 1792419856,
+ "runs": 12363,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94947,
- "sent_total": 2362702,
+ "detected_total": 94948,
+ "sent_total": 2362764,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267429,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267429,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T14:12:19.840Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T14:18:16.000Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T14:18:16.000Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T14:18:16.000Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390304,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390304,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T14:24:15.007Z",
    "t": 1
   }
  ]
