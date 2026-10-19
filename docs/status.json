@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T10:40:37.343Z",
- "updated_unix": 1792406437,
- "runs": 12334,
+ "updated": "2026-10-19T10:41:35.379Z",
+ "updated_unix": 1792406495,
+ "runs": 12335,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94639,
- "sent_total": 2343607,
+ "detected_total": 94640,
+ "sent_total": 2343669,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "HexPot",
-   "number": 56998,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56998,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:57:48.786Z",
-   "t": 3
-  },
   {
    "slug": "HexPot",
    "gift": "Hex Pot",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:23:13.973Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:23:13.973Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:40:30.602Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:40:30.602Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T10:40:30.602Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390294,
+   "owner": "xiaoshuai.ton",
+   "owner_addr": "0:a9ba38463a84ac3a59932b22289c7434ba154675c2e2dff0a66bc08b2a36240c",
+   "mint": 1792405358,
+   "counter_issued": 390294,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T10:41:32.071Z",
    "t": 1
   }
  ]
