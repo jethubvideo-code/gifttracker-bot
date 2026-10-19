@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T08:58:05.648Z",
- "updated_unix": 1792400285,
- "runs": 12323,
+ "updated": "2026-10-19T08:58:43.220Z",
+ "updated_unix": 1792400323,
+ "runs": 12324,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 94612,
- "sent_total": 2341937,
+ "checked": 2,
+ "errors": 119,
+ "detected_total": 94613,
+ "sent_total": 2341999,
  "last_upgrades": [
-  {
-   "slug": "LightSword",
-   "gift": "LightSword",
-   "number": 125280,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 125280,
-   "counter_total": 131222,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T08:21:12.658Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:35.972Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SpicedWine",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:35.972Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SpicedWine",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:35.972Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HexPot",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:48.786Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HexPot",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:57:48.786Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T08:58:01.506Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267403,
+   "owner": "",
+   "owner_addr": "0:e8d58f75c80b8809bde02cbcd4c2f4d4a73fbe533fcb2120b86351e199989106",
+   "mint": 1792400295,
+   "counter_issued": 267403,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T08:58:41.338Z",
    "t": 1
   }
  ]
