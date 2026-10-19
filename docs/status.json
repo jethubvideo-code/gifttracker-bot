@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-19T06:43:35.033Z",
- "updated_unix": 1792392215,
- "runs": 12303,
+ "updated": "2026-10-19T06:48:46.782Z",
+ "updated_unix": 1792392526,
+ "runs": 12304,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94522,
- "sent_total": 2336368,
+ "detected_total": 94526,
+ "sent_total": 2336611,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78175,
-   "owner": "",
-   "owner_addr": "0:aa6a152603fe70567821e9e4a2671155c9996386b28bc16af134c6a49f1b2d01",
-   "mint": 1792360287,
-   "counter_issued": 78175,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T02:01:30.886Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78176,
-   "owner": "",
-   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
-   "mint": 1792368144,
-   "counter_issued": 78176,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T02:01:30.886Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78177,
-   "owner": "princbog.t.me",
-   "owner_addr": "0:592bb83c4f36693eb039064859ce5898fb7dbe7532d18192b17c2d5210a905b0",
-   "mint": 1792368185,
-   "counter_issued": 78177,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T02:01:30.886Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 73821,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 73821,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T02:01:47.249Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T06:43:14.331Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T06:43:14.331Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T06:43:14.331Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T06:43:27.677Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T06:43:27.677Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108349,
+   "owner": "",
+   "owner_addr": "0:03ddedce5a3893a2f71bbda5d8e898a1eade71b324de615c74349c49ac36f80a",
+   "mint": 1792374564,
+   "counter_issued": 108349,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T06:48:31.387Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108350,
+   "owner": "midomi-team.ton",
+   "owner_addr": "0:b211b7eefe67f40e32bac401a25a3c443f48f63ec2810e2717e418e7e1b4327b",
+   "mint": 1792386212,
+   "counter_issued": 108350,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T06:48:31.387Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133290,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133290,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T06:48:39.505Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133291,
+   "owner": "",
+   "owner_addr": "0:8dfd24fb3f40f0cea787dfac54f1b7691791fbb17a21a5368004356cc8da780b",
+   "mint": 1792388478,
+   "counter_issued": 133291,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T06:48:39.505Z",
    "t": 1
   }
  ]
