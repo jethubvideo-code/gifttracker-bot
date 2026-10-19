@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T11:16:59.647Z",
- "updated_unix": 1792408619,
- "runs": 12337,
+ "updated": "2026-10-19T11:17:53.827Z",
+ "updated_unix": 1792408673,
+ "runs": 12338,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94646,
- "sent_total": 2344041,
+ "detected_total": 94647,
+ "sent_total": 2344103,
  "last_upgrades": [
-  {
-   "slug": "VintageCigar",
-   "gift": "Vintage Cigar",
-   "number": 26827,
-   "owner": "",
-   "owner_addr": "0:d7155cf8e0795b65bc32b1d667705dc43e3c29e2954a8fc71e2841a46dea7087",
-   "mint": 1792384899,
-   "counter_issued": 26827,
-   "counter_total": 31024,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T09:05:45.846Z",
-   "t": 3
-  },
   {
    "slug": "VintageCigar",
    "gift": "Vintage Cigar",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:16:42.604Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:16:42.604Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:16:42.604Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:16:42.604Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:16:42.604Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90156,
+   "owner": "",
+   "owner_addr": "0:99bf4c1f3248058b3af5e7ccbf4d62c433b59f2e512f52fe46ce74faa78cd6b5",
+   "mint": 1792391938,
+   "counter_issued": 90156,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T11:17:52.253Z",
    "t": 1
   }
  ]
