@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-19T11:17:53.827Z",
- "updated_unix": 1792408673,
- "runs": 12338,
+ "updated": "2026-10-19T11:20:52.646Z",
+ "updated_unix": 1792408852,
+ "runs": 12339,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 94647,
- "sent_total": 2344103,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 94648,
+ "sent_total": 2344165,
  "last_upgrades": [
-  {
-   "slug": "VintageCigar",
-   "gift": "Vintage Cigar",
-   "number": 26828,
-   "owner": "",
-   "owner_addr": "0:f3863c1ccee171add58076ed4609be3250abc91487ebddd3085ee41b59f97621",
-   "mint": 1792385899,
-   "counter_issued": 26828,
-   "counter_total": 31024,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T09:05:45.846Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "RecordPlayer",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T11:17:52.253Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390295,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390295,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T11:20:51.182Z",
    "t": 1
   }
  ]
