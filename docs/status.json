@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T16:00:40.328Z",
- "updated_unix": 1792425640,
- "runs": 12380,
+ "updated": "2026-10-19T16:01:44.471Z",
+ "updated_unix": 1792425704,
+ "runs": 12381,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 94975,
- "sent_total": 2364442,
+ "detected_total": 94977,
+ "sent_total": 2364568,
  "last_upgrades": [
-  {
-   "slug": "SnoopCigar",
-   "gift": "Snoop Cigar",
-   "number": 117670,
-   "owner": "",
-   "owner_addr": "0:ad014ac0a833a11c921e251a23fa74c2680a500c82d395b4704287e4994b4bdf",
-   "mint": 1792415664,
-   "counter_issued": 117670,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T14:18:16.000Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopCigar",
-   "gift": "Snoop Cigar",
-   "number": 117671,
-   "owner": "raylene-world.ton",
-   "owner_addr": "0:5a00d6b04a8c0a32876052b5c8b8ceba04cf9cacf7d80224b32ce7945a5824ca",
-   "mint": 1792418191,
-   "counter_issued": 117671,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T14:18:16.000Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:00:36.906Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:00:36.906Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390308,
+   "owner": "",
+   "owner_addr": "0:14dce80f257a87d09850eaeb519f69fc7b5fa73d61ad1177e9f76b38ed0d972f",
+   "mint": 1792422326,
+   "counter_issued": 390308,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:01:41.072Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390309,
+   "owner": "",
+   "owner_addr": "0:14dce80f257a87d09850eaeb519f69fc7b5fa73d61ad1177e9f76b38ed0d972f",
+   "mint": 1792422399,
+   "counter_issued": 390309,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:01:41.072Z",
    "t": 1
   }
  ]
