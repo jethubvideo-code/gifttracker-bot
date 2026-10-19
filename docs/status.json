@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-19T16:51:22.165Z",
- "updated_unix": 1792428682,
- "runs": 12387,
+ "updated": "2026-10-19T16:52:25.363Z",
+ "updated_unix": 1792428745,
+ "runs": 12388,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 95269,
- "sent_total": 2382960,
+ "checked": 3,
+ "errors": 118,
+ "detected_total": 95271,
+ "sent_total": 2383086,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107093,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107093,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T16:49:22.613Z",
-   "t": 1
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107094,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107094,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T16:49:22.613Z",
-   "t": 1
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:49:22.613Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "VictoryMedal",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:49:22.613Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "VictoryMedal",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:51:14.253Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-19T16:51:20.596Z",
+   "t": 2
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9428,
+   "owner": "",
+   "owner_addr": "0:f21c3c4f1f7f8e5959649f30468e55dcfbc4e8a1fbffd82102977f487d1e967e",
+   "mint": 1792368482,
+   "counter_issued": 9428,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:52:17.716Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90165,
+   "owner": "",
+   "owner_addr": "0:4d90266824f100d24389888dc3a88ebc7f0fe514516c367a662e74f428b1fcbf",
+   "mint": 1792426229,
+   "counter_issued": 90165,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-19T16:52:23.848Z",
    "t": 1
   }
  ]
