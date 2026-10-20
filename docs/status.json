@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T16:21:23.547Z",
- "updated_unix": 1792513283,
- "runs": 12528,
+ "updated": "2026-10-20T16:24:19.795Z",
+ "updated_unix": 1792513459,
+ "runs": 12529,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 96166,
- "sent_total": 2440210,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 96167,
+ "sent_total": 2440277,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84861,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84861,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T14:42:45.104Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:21:11.082Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:21:18.409Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:21:18.409Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390343,
+   "owner": "",
+   "owner_addr": "0:d295b17f64bcf7d1895e9e17cd34b5b8fe4cc4f02494a8aae4d2f5854a7c940b",
+   "mint": 1792512882,
+   "counter_issued": 390343,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:24:17.767Z",
    "t": 1
   }
  ]
