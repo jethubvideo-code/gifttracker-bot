@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T00:51:00.133Z",
- "updated_unix": 1792457460,
- "runs": 12451,
+ "updated": "2026-10-20T00:59:01.776Z",
+ "updated_unix": 1792457941,
+ "runs": 12452,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95624,
- "sent_total": 2404969,
+ "detected_total": 95625,
+ "sent_total": 2405033,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267571,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267571,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-19T23:37:32.872Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T00:50:58.648Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9429,
+   "owner": "miku-hatsune.ton",
+   "owner_addr": "0:d1af0d2c2014f6225510f5890c5cdbf0bfadd42b08c6fd05edcaafc45b048387",
+   "mint": 1792432326,
+   "counter_issued": 9429,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T00:58:58.209Z",
    "t": 1
   }
  ]
