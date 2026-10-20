@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T11:29:59.691Z",
- "updated_unix": 1792495799,
- "runs": 12505,
+ "updated": "2026-10-20T11:37:59.016Z",
+ "updated_unix": 1792496279,
+ "runs": 12506,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96109,
- "sent_total": 2436392,
+ "detected_total": 96110,
+ "sent_total": 2436459,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108366,
-   "owner": "caameo.t.me",
-   "owner_addr": "0:ec4a1dbc5186409a7dbaaffe379a35b0772defd6e4e512f5ef99b2ad5d780b91",
-   "mint": 1792490247,
-   "counter_issued": 108366,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T09:58:03.919Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T11:29:56.018Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108369,
+   "owner": "",
+   "owner_addr": "0:ad8526a078b7a52ff86ba972e7054cd50ae4d46e186aabbbc38c49fd7cc04323",
+   "mint": 1792496041,
+   "counter_issued": 108369,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T11:37:56.949Z",
    "t": 1
   }
  ]
