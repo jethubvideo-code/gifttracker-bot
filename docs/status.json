@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T07:56:03.820Z",
- "updated_unix": 1792482963,
- "runs": 12478,
+ "updated": "2026-10-20T07:58:00.763Z",
+ "updated_unix": 1792483080,
+ "runs": 12479,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96059,
- "sent_total": 2433174,
+ "detected_total": 96060,
+ "sent_total": 2433239,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282875,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282875,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T07:55:52.327Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T07:56:00.026Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108363,
+   "owner": "candyf.t.me",
+   "owner_addr": "0:8f9d72eaf29d2d6df5d45a6a3cee472da15528e1867632e3c78beba11caf59e4",
+   "mint": 1792468293,
+   "counter_issued": 108363,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T07:57:59.187Z",
    "t": 1
   }
  ]
