@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T06:10:58.854Z",
- "updated_unix": 1792476658,
- "runs": 12473,
+ "updated": "2026-10-20T06:45:17.764Z",
+ "updated_unix": 1792478717,
+ "runs": 12474,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96050,
- "sent_total": 2432589,
+ "detected_total": 96051,
+ "sent_total": 2432654,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282866,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282866,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T06:10:55.287Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441020,
+   "owner": "",
+   "owner_addr": "0:9b75163cae3e054e29972e9eb4082200b387e19e5475bc5b40b6a6555cd7d29f",
+   "mint": 1792478293,
+   "counter_issued": 441020,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T06:45:16.071Z",
    "t": 1
   }
  ]
