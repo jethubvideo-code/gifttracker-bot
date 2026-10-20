@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T06:47:18.413Z",
- "updated_unix": 1792478838,
- "runs": 12475,
+ "updated": "2026-10-20T07:19:36.390Z",
+ "updated_unix": 1792480776,
+ "runs": 12476,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96053,
- "sent_total": 2432784,
+ "detected_total": 96054,
+ "sent_total": 2432849,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282869,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282869,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T06:47:13.672Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T06:47:17.098Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90179,
+   "owner": "horus.ton",
+   "owner_addr": "0:3c44c51bc713d92fb8d0fa278f129c713f8bf0df90cf21a8148bd92d319ef498",
+   "mint": 1792480500,
+   "counter_issued": 90179,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T07:19:34.129Z",
    "t": 1
   }
  ]
