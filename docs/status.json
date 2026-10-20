@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T15:11:03.742Z",
- "updated_unix": 1792509063,
- "runs": 12520,
+ "updated": "2026-10-20T15:34:08.369Z",
+ "updated_unix": 1792510448,
+ "runs": 12521,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 96153,
- "sent_total": 2439340,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 96154,
+ "sent_total": 2439407,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84185,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84185,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T13:28:35.053Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:02:50.123Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:10:46.519Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:10:46.519Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:10:46.519Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:10:46.519Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:10:46.519Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441028,
+   "owner": "tonfortest1.ton",
+   "owner_addr": "0:4a5b876d79c38b6e927bd522e0650b4d288c1a0c79cb3adb703da276eb80b3e9",
+   "mint": 1792509785,
+   "counter_issued": 441028,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T15:34:04.255Z",
    "t": 1
   }
  ]
