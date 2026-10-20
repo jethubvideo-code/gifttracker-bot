@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T09:16:29.699Z",
- "updated_unix": 1792487789,
- "runs": 12491,
+ "updated": "2026-10-20T09:21:38.724Z",
+ "updated_unix": 1792488098,
+ "runs": 12492,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 96073,
- "sent_total": 2434103,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 96075,
+ "sent_total": 2434237,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282889,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282889,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282890,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282890,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:16:27.832Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22055,
+   "owner": "",
+   "owner_addr": "0:0fa72aa1356592d4e5a599bfe78d58f4806b37e291f27d337ea9ca2a83d382f5",
+   "mint": 1792394768,
+   "counter_issued": 22055,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:21:31.719Z",
+   "t": 1
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22056,
+   "owner": "wonby-wonby.ton",
+   "owner_addr": "0:9998f81b13c36e0da253a447bb744f176bd0710cd91967393fa2c6b58f079508",
+   "mint": 1792423287,
+   "counter_issued": 22056,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:21:31.719Z",
    "t": 1
   }
  ]
