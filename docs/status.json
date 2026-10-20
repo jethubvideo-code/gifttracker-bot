@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T09:21:38.724Z",
- "updated_unix": 1792488098,
- "runs": 12492,
+ "updated": "2026-10-20T09:41:45.987Z",
+ "updated_unix": 1792489305,
+ "runs": 12493,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 96075,
- "sent_total": 2434237,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 96076,
+ "sent_total": 2434304,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282891,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282891,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:21:31.719Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:21:31.719Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108365,
+   "owner": "luochenyaya.t.me",
+   "owner_addr": "0:20158a957f79760dbed9701e1ec9e3852447987b1946442d207b978c59b69bfb",
+   "mint": 1792489176,
+   "counter_issued": 108365,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:41:44.278Z",
    "t": 1
   }
  ]
