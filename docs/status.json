@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-20T16:18:15.249Z",
- "updated_unix": 1792513095,
- "runs": 12527,
+ "updated": "2026-10-20T16:21:23.547Z",
+ "updated_unix": 1792513283,
+ "runs": 12528,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96163,
- "sent_total": 2440009,
+ "detected_total": 96166,
+ "sent_total": 2440210,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32597,
-   "owner": "",
-   "owner_addr": "0:7735c123e5c910dba7ced0b8fb704747195143ab452098989c246d0139d8293c",
-   "mint": 1792503622,
-   "counter_issued": 32597,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T14:42:17.156Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32598,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792505983,
-   "counter_issued": 32598,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T14:42:17.156Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74650,
-   "owner": "mr-pfeiffer.ton",
-   "owner_addr": "0:38ee5ade045c5a7ffe829e3984ea6f59cae7d02bac8cf57d5e212501fca20f86",
-   "mint": 1792502275,
-   "counter_issued": 74650,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T14:42:36.192Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:18:11.742Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:18:11.742Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26087,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 26087,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:21:11.082Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23047,
+   "owner": "",
+   "owner_addr": "0:de3ea972a7c1116c838fcff3dce9d08b64f360e2fe649cef5a2df77f7f8e9231",
+   "mint": 1792512702,
+   "counter_issued": 23047,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:21:18.409Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23048,
+   "owner": "ivakidragon.ton",
+   "owner_addr": "0:de3ea972a7c1116c838fcff3dce9d08b64f360e2fe649cef5a2df77f7f8e9231",
+   "mint": 1792512720,
+   "counter_issued": 23048,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:21:18.409Z",
    "t": 1
   }
  ]
