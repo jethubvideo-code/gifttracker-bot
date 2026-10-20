@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T16:46:37.678Z",
- "updated_unix": 1792514797,
- "runs": 12531,
+ "updated": "2026-10-20T16:52:36.126Z",
+ "updated_unix": 1792515156,
+ "runs": 12532,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96171,
- "sent_total": 2440544,
+ "detected_total": 96172,
+ "sent_total": 2440610,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84866,
-   "owner": "",
-   "owner_addr": "0:4f98cd4bf87ef1d6eb42f2315a373780eb9aeae98e799e3feaec9aba8aabc4c9",
-   "mint": 1792500848,
-   "counter_issued": 84866,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T14:42:45.104Z",
-   "t": 3
-  },
   {
    "slug": "UFCStrike",
    "gift": "UFC Strike",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:46:30.325Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T16:46:30.325Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390344,
+   "owner": "",
+   "owner_addr": "0:0d76be9b2f45613e00389391213a0a00792f7dfe550b2805aaeb840a67a6931a",
+   "mint": 1792514419,
+   "counter_issued": 390344,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:52:33.478Z",
    "t": 1
   }
  ]
