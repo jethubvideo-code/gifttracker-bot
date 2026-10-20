@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T09:14:29.407Z",
- "updated_unix": 1792487669,
- "runs": 12489,
+ "updated": "2026-10-20T09:15:32.849Z",
+ "updated_unix": 1792487732,
+ "runs": 12490,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 96071,
- "sent_total": 2433969,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 96072,
+ "sent_total": 2434036,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282887,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282887,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:14:27.972Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133341,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133341,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:15:29.137Z",
    "t": 1
   }
  ]
