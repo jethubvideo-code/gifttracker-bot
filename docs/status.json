@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T22:05:12.925Z",
- "updated_unix": 1792533912,
- "runs": 12578,
+ "updated": "2026-10-20T22:08:21.148Z",
+ "updated_unix": 1792534101,
+ "runs": 12579,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96686,
- "sent_total": 2474859,
+ "detected_total": 96688,
+ "sent_total": 2474993,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 229921,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229921,
-   "counter_total": 320622,
-   "img": "https://cdn4.telesco.pe/file/e6pF0nUhBjbaumWaFVqnOixj1q1nEsF9mYCNR66kv-G2uUmql-f33MSPEfu2srKA57htct0_fFVDYaT9WzwiJrcaSu-jBqUrwTCZg-B91UVcLMXkmNN7u7WETsExeal68_Lz_HHmJ6e7qouqMPcaTizsr05VOURmAgGs53zN-VeaFxdcsRcXDCGaMP-hHId3kjSi6_1S3J7AqD1zC216m_IwP86R0BrKW5soVL8mp5pHaAzKqb-c1PXWZWA1PLCLitJofcGXvuo5yDjbuZZrddXQxUecralNq3NjjoeuyJz7feExdnDozMN9dsyvbbEmsFC0dbXlvFvFeNSlbS6KaQ.jpg",
-   "sent": 0,
-   "time": "2026-10-20T21:45:20.899Z",
-   "t": 3
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 229922,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229922,
-   "counter_total": 320622,
-   "img": "https://cdn4.telesco.pe/file/e6pF0nUhBjbaumWaFVqnOixj1q1nEsF9mYCNR66kv-G2uUmql-f33MSPEfu2srKA57htct0_fFVDYaT9WzwiJrcaSu-jBqUrwTCZg-B91UVcLMXkmNN7u7WETsExeal68_Lz_HHmJ6e7qouqMPcaTizsr05VOURmAgGs53zN-VeaFxdcsRcXDCGaMP-hHId3kjSi6_1S3J7AqD1zC216m_IwP86R0BrKW5soVL8mp5pHaAzKqb-c1PXWZWA1PLCLitJofcGXvuo5yDjbuZZrddXQxUecralNq3NjjoeuyJz7feExdnDozMN9dsyvbbEmsFC0dbXlvFvFeNSlbS6KaQ.jpg",
-   "sent": 0,
-   "time": "2026-10-20T21:45:20.899Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T22:05:11.241Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390364,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1792532964,
+   "counter_issued": 390364,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T22:08:13.771Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90191,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90191,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T22:08:19.624Z",
    "t": 1
   }
  ]
