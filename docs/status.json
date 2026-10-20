@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T18:08:21.999Z",
- "updated_unix": 1792519701,
- "runs": 12540,
+ "updated": "2026-10-20T18:09:22.618Z",
+ "updated_unix": 1792519762,
+ "runs": 12541,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96283,
- "sent_total": 2448041,
+ "detected_total": 96285,
+ "sent_total": 2448175,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55477,
-   "owner": "",
-   "owner_addr": "0:dacf16655422c6a0686b959227bd4818cc21812a3a559b45ff9fb5ed3a9ca2ad",
-   "mint": 1792439968,
-   "counter_issued": 55477,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:01:23.760Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55478,
-   "owner": "",
-   "owner_addr": "0:514d47e9fbf8036682afef3e3902318c4e0a0da39741f2ff327ac75975f577e3",
-   "mint": 1792456355,
-   "counter_issued": 55478,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:01:23.760Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:08:19.010Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:08:19.010Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441037,
+   "owner": "",
+   "owner_addr": "0:7e8961a6de827dcaa429ab780fc75da08a4b14be16bcddabcfbffb697ba82286",
+   "mint": 1792519498,
+   "counter_issued": 441037,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:09:19.572Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441038,
+   "owner": "",
+   "owner_addr": "0:7e8961a6de827dcaa429ab780fc75da08a4b14be16bcddabcfbffb697ba82286",
+   "mint": 1792519521,
+   "counter_issued": 441038,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:09:19.572Z",
    "t": 1
   }
  ]
