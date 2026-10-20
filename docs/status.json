@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T13:48:58.493Z",
- "updated_unix": 1792504138,
- "runs": 12514,
+ "updated": "2026-10-20T13:52:02.547Z",
+ "updated_unix": 1792504322,
+ "runs": 12515,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96129,
- "sent_total": 2437732,
+ "detected_total": 96130,
+ "sent_total": 2437799,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441024,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441024,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T11:12:34.468Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T13:48:56.735Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133346,
+   "owner": "",
+   "owner_addr": "0:e2c44dff43918f0cbf1bac24437fa33612d6ad3dfe1bc21541ed5cc521826ac6",
+   "mint": 1792503263,
+   "counter_issued": 133346,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T13:51:58.736Z",
    "t": 1
   }
  ]
