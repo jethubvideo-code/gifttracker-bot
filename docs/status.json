@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T19:59:37.558Z",
- "updated_unix": 1792526377,
- "runs": 12566,
+ "updated": "2026-10-20T20:16:54.827Z",
+ "updated_unix": 1792527414,
+ "runs": 12567,
  "collections": 121,
- "checked": 4,
- "errors": 117,
- "detected_total": 96480,
- "sent_total": 2461107,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 96482,
+ "sent_total": 2461241,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441164,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441164,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T19:22:04.345Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441165,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441165,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T19:22:04.345Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T19:59:33.895Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267658,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267658,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T20:16:51.553Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267659,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267659,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T20:16:51.553Z",
    "t": 1
   }
  ]
