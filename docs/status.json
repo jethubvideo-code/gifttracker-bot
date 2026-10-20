@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-20T18:33:30.608Z",
- "updated_unix": 1792521210,
- "runs": 12547,
+ "updated": "2026-10-20T18:34:50.969Z",
+ "updated_unix": 1792521290,
+ "runs": 12548,
  "collections": 121,
- "checked": 5,
- "errors": 116,
- "detected_total": 96297,
- "sent_total": 2448979,
+ "checked": 4,
+ "errors": 117,
+ "detected_total": 96300,
+ "sent_total": 2449180,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390345,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390345,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:22:57.311Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390346,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390346,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:22:57.311Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390347,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390347,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:22:57.311Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:33:23.106Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:33:23.106Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133352,
+   "owner": "",
+   "owner_addr": "0:5810a02e27476a067afe9e370d0f51659ae8e51fe5a36ca724a993a46336698a",
+   "mint": 1792519842,
+   "counter_issued": 133352,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:34:36.085Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133353,
+   "owner": "",
+   "owner_addr": "0:cb7bfbcd9aaf1cc72a9956afb2aec4df1c35bf708defa9cd8fc3d41848809c12",
+   "mint": 1792520686,
+   "counter_issued": 133353,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:34:36.085Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390354,
+   "owner": "zxxxxzz.t.me",
+   "owner_addr": "0:5b613c42ac9635ee4bdb2910b1c5ecc311fe21fdd897f61f9aeda74d3ac005ef",
+   "mint": 1792521099,
+   "counter_issued": 390354,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:34:48.053Z",
    "t": 1
   }
  ]
