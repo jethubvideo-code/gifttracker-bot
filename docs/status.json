@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T10:24:40.791Z",
- "updated_unix": 1792491880,
- "runs": 12500,
+ "updated": "2026-10-20T10:28:33.416Z",
+ "updated_unix": 1792492113,
+ "runs": 12501,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96096,
- "sent_total": 2435521,
+ "detected_total": 96097,
+ "sent_total": 2435588,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32592,
-   "owner": "",
-   "owner_addr": "0:09d992b5f5786e7c197161a38578c2be144b970944044acf5a2bbe91cf3b07da",
-   "mint": 1792484622,
-   "counter_issued": 32592,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T09:08:29.502Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T10:24:26.258Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T10:24:35.332Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T10:24:35.332Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108368,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108368,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T10:28:31.204Z",
    "t": 1
   }
  ]
