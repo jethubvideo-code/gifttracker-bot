@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T05:05:23.585Z",
- "updated_unix": 1792472723,
- "runs": 12468,
+ "updated": "2026-10-20T05:13:24.617Z",
+ "updated_unix": 1792473204,
+ "runs": 12469,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 95887,
- "sent_total": 2421995,
+ "detected_total": 95888,
+ "sent_total": 2422060,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35621,
-   "owner": "",
-   "owner_addr": "0:8b54c966e17ca18f53e7d8e877f12b8b958763b8526a0ece26102ec39be0fdfd",
-   "mint": 1792422012,
-   "counter_issued": 35621,
-   "counter_total": 41025,
-   "img": "https://cdn4.telesco.pe/file/PKTGAxmelHHXMGO_ua3-Td3U_RfJrPhNRrj7uWmOzx64xM7pRzEtJ9jRxGcu6b0dTIaBTAB_aRon2yaDrp4mH9SKkwPT4oCyIHRNGcN3iq_XW9Q7E0KW1yZ0q9tz_LxxRxSbg8L7qpz-saGEimTl96A8PBtQZJ1nShdk5wLD14ZwjhH3jL9INITOtvLRRkyOnS311UKTzD16Td8eMZf3z4GyXQ91reQYOIRkjJWUHU-9LxDDeZ5zpMuuEatulMyMkyN2VhI1BW3RZhB1b9mdh_80-0030lafG1DvoXkjvR3AiM-lPd7jLtgepkiyrMe9lO2m3pJZ-orkEUqO7l4deQ.jpg",
-   "sent": 0,
-   "time": "2026-10-20T03:22:11.524Z",
-   "u": 1
-  },
   {
    "slug": "ValentineBox",
    "gift": "Valentine Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T05:05:21.531Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90176,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90176,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T05:13:22.771Z",
    "t": 1
   }
  ]
