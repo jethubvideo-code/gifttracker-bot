@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T09:41:45.987Z",
- "updated_unix": 1792489305,
- "runs": 12493,
+ "updated": "2026-10-20T09:44:47.173Z",
+ "updated_unix": 1792489487,
+ "runs": 12494,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96076,
- "sent_total": 2434304,
+ "detected_total": 96078,
+ "sent_total": 2434438,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282892,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282892,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282893,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282893,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:41:44.278Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267606,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267606,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:44:43.892Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267607,
+   "owner": "vipq87.t.me",
+   "owner_addr": "0:d7a7dd18c85b336d304b67b89b4c76edd2e54680d15557f630495073446c8926",
+   "mint": 1792488962,
+   "counter_issued": 267607,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:44:43.892Z",
    "t": 1
   }
  ]
