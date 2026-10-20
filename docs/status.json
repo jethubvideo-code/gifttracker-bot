@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T02:02:47.868Z",
- "updated_unix": 1792461767,
- "runs": 12456,
+ "updated": "2026-10-20T02:04:39.630Z",
+ "updated_unix": 1792461879,
+ "runs": 12457,
  "collections": 121,
- "checked": 0,
+ "checked": 5,
  "errors": 116,
- "detected_total": 95692,
- "sent_total": 2409321,
+ "detected_total": 95693,
+ "sent_total": 2409386,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447616,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447616,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T01:27:28.960Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T02:02:35.737Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23045,
+   "owner": "marryc.t.me",
+   "owner_addr": "0:41c23811d41308c1ec251f28d95b09fe3d0e9eb0b3745206c754c7181ef5205d",
+   "mint": 1792455727,
+   "counter_issued": 23045,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T02:04:35.637Z",
+   "t": 1
   }
  ]
 }
