@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T15:45:31.896Z",
- "updated_unix": 1792511131,
- "runs": 12524,
+ "updated": "2026-10-20T16:09:19.432Z",
+ "updated_unix": 1792512559,
+ "runs": 12525,
  "collections": 121,
- "checked": 3,
- "errors": 118,
- "detected_total": 96158,
- "sent_total": 2439675,
+ "checked": 5,
+ "errors": 116,
+ "detected_total": 96160,
+ "sent_total": 2439809,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108370,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108370,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T13:48:56.735Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133346,
-   "owner": "",
-   "owner_addr": "0:e2c44dff43918f0cbf1bac24437fa33612d6ad3dfe1bc21541ed5cc521826ac6",
-   "mint": 1792503263,
-   "counter_issued": 133346,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T13:51:58.736Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:43:05.578Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T15:45:29.778Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390341,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390341,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:09:15.806Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390342,
+   "owner": "",
+   "owner_addr": "0:90d6e9a46fca20285adfa136f96d3ec6072f7f22cd683e56e3828997b9003180",
+   "mint": 1792511507,
+   "counter_issued": 390342,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T16:09:15.806Z",
    "t": 1
   }
  ]
