@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-20T18:06:23.248Z",
- "updated_unix": 1792519583,
- "runs": 12539,
+ "updated": "2026-10-20T18:08:21.999Z",
+ "updated_unix": 1792519701,
+ "runs": 12540,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96281,
- "sent_total": 2447907,
+ "detected_total": 96283,
+ "sent_total": 2448041,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47425,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792478938,
-   "counter_issued": 47425,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:00:15.005Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55476,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792438052,
-   "counter_issued": 55476,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T17:01:23.760Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:06:08.725Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:06:08.725Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:06:08.725Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:06:08.725Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:06:08.725Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T18:06:08.725Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108377,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108377,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:08:19.010Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108378,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108378,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T18:08:19.010Z",
    "t": 1
   }
  ]
