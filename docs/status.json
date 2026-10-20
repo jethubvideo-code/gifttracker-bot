@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T09:08:37.578Z",
- "updated_unix": 1792487317,
- "runs": 12486,
+ "updated": "2026-10-20T09:09:33.359Z",
+ "updated_unix": 1792487373,
+ "runs": 12487,
  "collections": 121,
  "checked": 5,
  "errors": 116,
- "detected_total": 96068,
- "sent_total": 2433769,
+ "detected_total": 96069,
+ "sent_total": 2433836,
  "last_upgrades": [
-  {
-   "slug": "WhipCupcake",
-   "gift": "WhipCupcake",
-   "number": 282884,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 282884,
-   "counter_total": 367619,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T05:43:22.870Z",
-   "t": 3
-  },
   {
    "slug": "WhipCupcake",
    "gift": "WhipCupcake",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:08:29.502Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:08:29.502Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T09:08:29.502Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390332,
+   "owner": "",
+   "owner_addr": "0:115526b97693ec7928abee08f271000e432d0f84b8cb060ff3e0eb27634d314b",
+   "mint": 1792483758,
+   "counter_issued": 390332,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T09:09:31.764Z",
    "t": 1
   }
  ]
