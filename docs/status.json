@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-20T22:08:21.148Z",
- "updated_unix": 1792534101,
- "runs": 12579,
- "collections": 121,
+ "updated": "2026-10-20T22:38:19.468Z",
+ "updated_unix": 1792535899,
+ "runs": 12580,
+ "collections": 122,
  "checked": 5,
- "errors": 116,
- "detected_total": 96688,
- "sent_total": 2474993,
+ "errors": 117,
+ "detected_total": 96689,
+ "sent_total": 2475060,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 229923,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229923,
-   "counter_total": 320622,
-   "img": "https://cdn4.telesco.pe/file/e6pF0nUhBjbaumWaFVqnOixj1q1nEsF9mYCNR66kv-G2uUmql-f33MSPEfu2srKA57htct0_fFVDYaT9WzwiJrcaSu-jBqUrwTCZg-B91UVcLMXkmNN7u7WETsExeal68_Lz_HHmJ6e7qouqMPcaTizsr05VOURmAgGs53zN-VeaFxdcsRcXDCGaMP-hHId3kjSi6_1S3J7AqD1zC216m_IwP86R0BrKW5soVL8mp5pHaAzKqb-c1PXWZWA1PLCLitJofcGXvuo5yDjbuZZrddXQxUecralNq3NjjoeuyJz7feExdnDozMN9dsyvbbEmsFC0dbXlvFvFeNSlbS6KaQ.jpg",
-   "sent": 0,
-   "time": "2026-10-20T21:45:20.899Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T22:08:13.771Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-20T22:08:19.624Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108380,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1792532564,
+   "counter_issued": 108380,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-20T22:38:17.413Z",
    "t": 1
   }
  ]
