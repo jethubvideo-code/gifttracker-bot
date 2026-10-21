@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T10:26:51.630Z",
- "updated_unix": 1792578411,
- "runs": 12646,
+ "updated": "2026-10-21T10:29:53.245Z",
+ "updated_unix": 1792578593,
+ "runs": 12647,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97058,
- "sent_total": 2500144,
+ "detected_total": 97059,
+ "sent_total": 2500212,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441208,
-   "owner": "",
-   "owner_addr": "0:930ca02d5b92c020fa9bfe07775fa4e480dc5766c02b4d4b185e6b8f6e0d094e",
-   "mint": 1792571726,
-   "counter_issued": 441208,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:42:57.632Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:26:48.251Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:26:48.251Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108388,
+   "owner": "",
+   "owner_addr": "0:077e3299199756342e02a3e8c8edc7253b0c63030ebf6ff602d92a2dede48231",
+   "mint": 1792577497,
+   "counter_issued": 108388,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T10:29:51.398Z",
    "t": 1
   }
  ]
