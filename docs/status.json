@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T14:42:02.270Z",
- "updated_unix": 1792593722,
- "runs": 12694,
+ "updated": "2026-10-21T14:45:00.347Z",
+ "updated_unix": 1792593900,
+ "runs": 12695,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97624,
- "sent_total": 2539498,
+ "detected_total": 97625,
+ "sent_total": 2539568,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582421,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582421,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T14:04:38.318Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T14:41:56.757Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T14:41:56.757Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T14:41:56.757Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267708,
+   "owner": "",
+   "owner_addr": "0:986956a4e891e0413b491e531210ca36771cc66745691f25a8201640d330a672",
+   "mint": 1792593866,
+   "counter_issued": 267708,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T14:44:58.081Z",
    "t": 1
   }
  ]
