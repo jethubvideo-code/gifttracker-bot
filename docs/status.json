@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T19:49:49.134Z",
- "updated_unix": 1792612189,
- "runs": 12761,
+ "updated": "2026-10-21T19:50:47.294Z",
+ "updated_unix": 1792612247,
+ "runs": 12762,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97920,
- "sent_total": 2560631,
+ "detected_total": 97921,
+ "sent_total": 2560705,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267810,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267810,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T18:22:09.396Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T19:32:35.430Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T19:49:45.667Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T19:49:45.667Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9430,
+   "owner": "",
+   "owner_addr": "0:f0f397092cf0c64bd62e4bd4ca7e4dc499e4d9c54ea9f6f5c2dff130e7092985",
+   "mint": 1792611809,
+   "counter_issued": 9430,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T19:50:43.543Z",
    "t": 1
   }
  ]
