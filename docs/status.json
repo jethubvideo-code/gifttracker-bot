@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T10:37:12.888Z",
- "updated_unix": 1792579032,
- "runs": 12648,
+ "updated": "2026-10-21T11:00:58.362Z",
+ "updated_unix": 1792580458,
+ "runs": 12649,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97064,
- "sent_total": 2500552,
+ "detected_total": 97065,
+ "sent_total": 2500620,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390381,
-   "owner": "",
-   "owner_addr": "0:55e53ad7044876a9d90637ff512c32fdd5cfc5210239ff27f2ef823186415396",
-   "mint": 1792572555,
-   "counter_issued": 390381,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:51:06.242Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:36:56.768Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:36:56.768Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:36:56.768Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:36:56.768Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:36:56.768Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232280,
+   "owner": "",
+   "owner_addr": "0:fa79a144736a2c530646d0d948970f2882f9bb7b80d90df866e54176e122cc64",
+   "mint": 1792579796,
+   "counter_issued": 232280,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T11:00:56.685Z",
    "t": 1
   }
  ]
