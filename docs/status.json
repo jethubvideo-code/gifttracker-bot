@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-21T17:03:10.027Z",
- "updated_unix": 1792602190,
- "runs": 12721,
+ "updated": "2026-10-21T17:04:11.564Z",
+ "updated_unix": 1792602251,
+ "runs": 12722,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97802,
- "sent_total": 2552128,
+ "detected_total": 97806,
+ "sent_total": 2552411,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71746,
-   "owner": "",
-   "owner_addr": "0:1a0a083e0e7a9a28e23ce5af0080e856b26fead916b4eede7966dbabfa9280bb",
-   "mint": 1792594202,
-   "counter_issued": 71746,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T16:57:52.829Z",
-   "t": 2
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71747,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792597288,
-   "counter_issued": 71747,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T16:57:52.829Z",
-   "t": 2
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35368,
-   "owner": "",
-   "owner_addr": "0:52ccbdf1a9923b07f671de0cac409383c9d17642d5b71afeb98f95f5bfa27c26",
-   "mint": 1792581812,
-   "counter_issued": 35368,
-   "counter_total": 46888,
-   "img": "https://cdn4.telesco.pe/file/nHFSIMfN1Dbl9QxgAtdLPOHFg58kf2QGR4YPEOdZbIWW-au4JQ0EQSiVqlPRR0jVY-NSx0Se9lywbN_3G92y0oeaexJq0OdLHfpvM7HsecdG9r31zYm5_SIqlhz4Tl3eFopm_EU6qmXmQPa4Zief9mOwG3hADksRIOppYfW4ETKGKG6B1ytotUhSmKCKUcmjW5vMcEOF1BgdvOacEDTkpZiAVP7qCQWTEzmY69ah4Iay3lfbIj5otaq_4NqSQt3Zha5ycMaRotjpGN4ZGgeCKSTIk6giycNoRj5kQEOh8_Mum7GhvAMmCzC8dvIsFv5ep5UnE2V4F4YyfiME6LULnQ.jpg",
-   "sent": 0,
-   "time": "2026-10-21T16:59:31.795Z",
-   "t": 3
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35369,
-   "owner": "",
-   "owner_addr": "0:aa618a91f2a3b25017ff23aeb130aa41c4730cff4691cabf35f5bead4f1540fb",
-   "mint": 1792581839,
-   "counter_issued": 35369,
-   "counter_total": 46888,
-   "img": "https://cdn4.telesco.pe/file/nHFSIMfN1Dbl9QxgAtdLPOHFg58kf2QGR4YPEOdZbIWW-au4JQ0EQSiVqlPRR0jVY-NSx0Se9lywbN_3G92y0oeaexJq0OdLHfpvM7HsecdG9r31zYm5_SIqlhz4Tl3eFopm_EU6qmXmQPa4Zief9mOwG3hADksRIOppYfW4ETKGKG6B1ytotUhSmKCKUcmjW5vMcEOF1BgdvOacEDTkpZiAVP7qCQWTEzmY69ah4Iay3lfbIj5otaq_4NqSQt3Zha5ycMaRotjpGN4ZGgeCKSTIk6giycNoRj5kQEOh8_Mum7GhvAMmCzC8dvIsFv5ep5UnE2V4F4YyfiME6LULnQ.jpg",
-   "sent": 0,
-   "time": "2026-10-21T16:59:31.795Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T17:02:59.030Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T17:02:59.030Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T17:02:59.030Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T17:03:08.016Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117675,
+   "owner": "",
+   "owner_addr": "0:abc34402cd2e2536d72929ffab1c47b4059f45d7d73d7077487f9d64864a6c11",
+   "mint": 1792601444,
+   "counter_issued": 117675,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T17:04:03.965Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108395,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108395,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T17:04:07.158Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108396,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108396,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T17:04:07.158Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108397,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108397,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T17:04:07.158Z",
    "t": 1
   }
  ]
