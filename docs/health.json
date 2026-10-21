@@ -1,29 +1,29 @@
 {
- "ts": "2026-10-21T16:45:17.682Z",
+ "ts": "2026-10-21T21:20:32.958Z",
  "chain_alive": true,
  "chain_restarted": false,
- "failures_12h": 4,
+ "failures_12h": 3,
  "backlog_total": 15176,
  "workflows": {
   "full-monitor.yml": {
    "conclusion": "cancelled",
-   "at": "2026-10-21T15:37:03Z"
+   "at": "2026-10-21T20:19:21Z"
   },
   "gift-monitor.yml": {
-   "conclusion": "success",
-   "at": "2026-10-21T15:59:32Z"
+   "conclusion": "cancelled",
+   "at": "2026-10-21T20:19:21Z"
   },
   "new-gift-watch.yml": {
    "conclusion": "success",
-   "at": "2026-10-21T15:59:32Z"
+   "at": "2026-10-21T20:03:07Z"
   },
   "floors-scan.yml": {
    "conclusion": "cancelled",
-   "at": "2026-10-21T14:20:33Z"
+   "at": "2026-10-21T18:48:26Z"
   },
   "gift-images.yml": {
-   "conclusion": "success",
-   "at": "2026-10-21T15:59:32Z"
+   "conclusion": "cancelled",
+   "at": "2026-10-21T20:19:21Z"
   }
  }
 }
