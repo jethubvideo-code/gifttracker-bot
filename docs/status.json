@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T21:07:46.860Z",
- "updated_unix": 1792616866,
- "runs": 12776,
+ "updated": "2026-10-21T21:08:49.327Z",
+ "updated_unix": 1792616929,
+ "runs": 12777,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 97987,
- "sent_total": 2565413,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 97988,
+ "sent_total": 2565487,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84896,
-   "owner": "",
-   "owner_addr": "0:9c6f0a7d37b1359add16a47c0be1cbe064d5056f1daa21e682a8bc60bb6cf6a1",
-   "mint": 1792599768,
-   "counter_issued": 84896,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T21:01:42.022Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T21:07:44.934Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108402,
+   "owner": "",
+   "owner_addr": "0:2e55637297256b33394a767bacbcd47c198a7cfe5e6aecde0c206eeac34ec53e",
+   "mint": 1792615113,
+   "counter_issued": 108402,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T21:08:47.413Z",
    "t": 1
   }
  ]
