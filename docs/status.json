@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T09:21:09.623Z",
- "updated_unix": 1792574469,
- "runs": 12639,
+ "updated": "2026-10-21T09:22:09.093Z",
+ "updated_unix": 1792574529,
+ "runs": 12640,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 97046,
- "sent_total": 2499330,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 97047,
+ "sent_total": 2499398,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390378,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390378,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:19:40.931Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T09:21:07.625Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108386,
+   "owner": "capitulation.ton",
+   "owner_addr": "0:bb3c493b93cdea52912eb6d5ccb3754cca00018652189a21137d18472b2ce188",
+   "mint": 1792573004,
+   "counter_issued": 108386,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T09:22:06.889Z",
    "t": 1
   }
  ]
