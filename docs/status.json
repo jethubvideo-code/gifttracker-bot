@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-21T00:32:00.397Z",
- "updated_unix": 1792542720,
- "runs": 12588,
+ "updated": "2026-10-21T00:35:21.811Z",
+ "updated_unix": 1792542921,
+ "runs": 12589,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 96709,
- "sent_total": 2476420,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 96713,
+ "sent_total": 2476692,
  "last_upgrades": [
-  {
-   "slug": "SnoopCigar",
-   "gift": "Snoop Cigar",
-   "number": 117674,
-   "owner": "",
-   "owner_addr": "0:8965da717078dc75bd33bb34c1c6f95b2cafa6b9f930d97bd16b7eedf0fd0bcf",
-   "mint": 1792529125,
-   "counter_issued": 117674,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T22:03:02.995Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133365,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133365,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T22:04:04.705Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133366,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133366,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T22:04:04.705Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133367,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133367,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T22:04:04.705Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -300,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:11.219Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -314,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:18.885Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -328,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T00:31:33.638Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133372,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133372,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T00:35:10.550Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133373,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133373,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T00:35:10.550Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390366,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390366,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T00:35:19.090Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390367,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390367,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T00:35:19.090Z",
    "t": 1
   }
  ]
