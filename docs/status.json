@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T17:29:32.623Z",
- "updated_unix": 1792603772,
- "runs": 12731,
+ "updated": "2026-10-21T17:30:28.779Z",
+ "updated_unix": 1792603828,
+ "runs": 12732,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97861,
- "sent_total": 2556315,
+ "detected_total": 97862,
+ "sent_total": 2556386,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267778,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267778,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T17:06:06.611Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T17:29:27.300Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T17:29:27.300Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441241,
+   "owner": "",
+   "owner_addr": "0:8518fe2ed24d953d16198a6681569aa1d5b10ea470fb581bed1df514731f385a",
+   "mint": 1792603809,
+   "counter_issued": 441241,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T17:30:27.017Z",
    "t": 1
   }
  ]
