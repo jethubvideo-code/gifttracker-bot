@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-21T19:18:30.463Z",
- "updated_unix": 1792610310,
- "runs": 12754,
+ "updated": "2026-10-21T19:20:42.273Z",
+ "updated_unix": 1792610442,
+ "runs": 12755,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97908,
- "sent_total": 2559743,
+ "detected_total": 97911,
+ "sent_total": 2559965,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133423,
-   "owner": "",
-   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
-   "mint": 1792604436,
-   "counter_issued": 133423,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T18:05:57.767Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133424,
-   "owner": "",
-   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
-   "mint": 1792604446,
-   "counter_issued": 133424,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T18:05:57.767Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390417,
-   "owner": "",
-   "owner_addr": "0:bae0270dee5be4813e087a39a90311226257ba3fb87b5002ce23f82a9a42693e",
-   "mint": 1792605645,
-   "counter_issued": 390417,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T18:09:00.235Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T19:18:26.866Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T19:18:26.866Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26089,
+   "owner": "",
+   "owner_addr": "0:ed7ef651f87eeee384b715a03368b3553f3ce53f5283c6c1d14ccb2a38b5a8b0",
+   "mint": 1792605446,
+   "counter_issued": 26089,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T19:20:26.880Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26090,
+   "owner": "sssssb.ton",
+   "owner_addr": "0:ed7ef651f87eeee384b715a03368b3553f3ce53f5283c6c1d14ccb2a38b5a8b0",
+   "mint": 1792605471,
+   "counter_issued": 26090,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T19:20:26.880Z",
+   "t": 1
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15574,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792604474,
+   "counter_issued": 15574,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T19:20:38.423Z",
    "t": 1
   }
  ]
