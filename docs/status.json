@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T12:15:56.133Z",
- "updated_unix": 1792584956,
- "runs": 12673,
+ "updated": "2026-10-21T12:23:00.679Z",
+ "updated_unix": 1792585380,
+ "runs": 12674,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97317,
- "sent_total": 2518018,
+ "detected_total": 97319,
+ "sent_total": 2518158,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103424,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103424,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T11:52:51.380Z",
-   "t": 3
-  },
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103425,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103425,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T11:52:51.380Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T12:15:49.037Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T12:15:49.037Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267703,
+   "owner": "",
+   "owner_addr": "0:c94821e69b0ccf14cfc51dea202b1f45a1c9a84280c91dea80d30639cc107b24",
+   "mint": 1792585310,
+   "counter_issued": 267703,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T12:22:52.913Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441223,
+   "owner": "",
+   "owner_addr": "0:564847b9c2ffbe8514072213a77ba2d66b54fa115e778c4adb8783a55f969469",
+   "mint": 1792585069,
+   "counter_issued": 441223,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T12:22:59.065Z",
    "t": 1
   }
  ]
