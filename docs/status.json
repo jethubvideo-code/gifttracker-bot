@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T02:21:20.431Z",
- "updated_unix": 1792549280,
- "runs": 12593,
+ "updated": "2026-10-21T02:23:14.081Z",
+ "updated_unix": 1792549394,
+ "runs": 12594,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96722,
- "sent_total": 2477304,
+ "detected_total": 96723,
+ "sent_total": 2477372,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90192,
-   "owner": "support-team.ton",
-   "owner_addr": "0:4f629395de6c6d49f4ae298005048ec5c99a68d8418e818a235ed7a239b2f42d",
-   "mint": 1792536178,
-   "counter_issued": 90192,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T23:15:48.400Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T02:21:13.061Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T02:21:13.061Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390370,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390370,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T02:23:12.579Z",
    "t": 1
   }
  ]
