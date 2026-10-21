@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T06:52:47.512Z",
- "updated_unix": 1792565567,
- "runs": 12611,
+ "updated": "2026-10-21T06:59:44.228Z",
+ "updated_unix": 1792565984,
+ "runs": 12612,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96753,
- "sent_total": 2479412,
+ "detected_total": 96754,
+ "sent_total": 2479480,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390371,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390371,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T03:20:44.520Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T06:29:22.823Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T06:52:42.484Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T06:52:46.110Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26088,
+   "owner": "",
+   "owner_addr": "0:e3fa9d59443e0fab2ce36f7f0af8468b42913d41c2d3e74ce1e27806ef9341b0",
+   "mint": 1792553884,
+   "counter_issued": 26088,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T06:59:42.371Z",
    "t": 1
   }
  ]
