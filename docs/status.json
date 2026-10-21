@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T15:49:25.075Z",
- "updated_unix": 1792597765,
- "runs": 12705,
+ "updated": "2026-10-21T15:51:19.962Z",
+ "updated_unix": 1792597879,
+ "runs": 12706,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97698,
- "sent_total": 2544749,
+ "detected_total": 97699,
+ "sent_total": 2544820,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108763,
-   "owner": "",
-   "owner_addr": "0:d6bb39129bdb8e9b25454a2a642708e796ad5157b55d6fe1ebf0f948232db633",
-   "mint": 1792568111,
-   "counter_issued": 108763,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T15:45:28.368Z",
-   "t": 2
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T15:45:28.368Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T15:45:28.368Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T15:49:20.179Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T15:49:20.179Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T15:49:20.179Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390402,
+   "owner": "",
+   "owner_addr": "0:ea9c6e902162b6a4fe9a0cae16843751f87fdd0558737841bc2106edead6b80c",
+   "mint": 1792597048,
+   "counter_issued": 390402,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T15:51:18.220Z",
    "t": 1
   }
  ]
