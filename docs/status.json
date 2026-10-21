@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T01:38:02.258Z",
- "updated_unix": 1792546682,
- "runs": 12592,
+ "updated": "2026-10-21T02:21:20.431Z",
+ "updated_unix": 1792549280,
+ "runs": 12593,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96720,
- "sent_total": 2477168,
+ "detected_total": 96722,
+ "sent_total": 2477304,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441187,
-   "owner": "",
-   "owner_addr": "0:4f629395de6c6d49f4ae298005048ec5c99a68d8418e818a235ed7a239b2f42d",
-   "mint": 1792536018,
-   "counter_issued": 441187,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T23:13:45.449Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441188,
-   "owner": "support-team.ton",
-   "owner_addr": "0:4f629395de6c6d49f4ae298005048ec5c99a68d8418e818a235ed7a239b2f42d",
-   "mint": 1792536161,
-   "counter_issued": 441188,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T23:13:45.449Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T01:37:59.254Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T01:37:59.254Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84872,
+   "owner": "",
+   "owner_addr": "0:4e6ac06009b341c0164a4f3946d6da34afa2b859547a923f7d9863f6eadaa827",
+   "mint": 1792533348,
+   "counter_issued": 84872,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T02:21:13.061Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84873,
+   "owner": "",
+   "owner_addr": "0:23b8670b28e1094d9e949c5fc3f850bceec4850d701435afdaeb7ce680ccdfdf",
+   "mint": 1792534044,
+   "counter_issued": 84873,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T02:21:13.061Z",
    "t": 1
   }
  ]
