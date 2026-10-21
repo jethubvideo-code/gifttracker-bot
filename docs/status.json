@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-21T05:06:57.743Z",
- "updated_unix": 1792559217,
- "runs": 12598,
+ "updated": "2026-10-21T05:42:13.023Z",
+ "updated_unix": 1792561333,
+ "runs": 12599,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96730,
- "sent_total": 2477848,
+ "detected_total": 96735,
+ "sent_total": 2478188,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32610,
-   "owner": "m1stervlad.ton",
-   "owner_addr": "0:4e6ac06009b341c0164a4f3946d6da34afa2b859547a923f7d9863f6eadaa827",
-   "mint": 1792533376,
-   "counter_issued": 32610,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T00:31:18.885Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84188,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84188,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T00:31:33.638Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84189,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792505559,
-   "counter_issued": 84189,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T00:31:33.638Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84190,
-   "owner": "",
-   "owner_addr": "0:8f95ac921b91ab21decba19f78d5f5cdab6eb43e5705a1c8eb167365d08e9815",
-   "mint": 1792507784,
-   "counter_issued": 84190,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T00:31:33.638Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84191,
-   "owner": "",
-   "owner_addr": "0:8f95ac921b91ab21decba19f78d5f5cdab6eb43e5705a1c8eb167365d08e9815",
-   "mint": 1792507806,
-   "counter_issued": 84191,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T00:31:33.638Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -370,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T04:36:20.041Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T05:06:44.039Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T05:06:44.039Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T05:06:44.039Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T05:06:44.039Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90194,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90194,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T05:41:58.418Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90195,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90195,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T05:41:58.418Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90196,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90196,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T05:41:58.418Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390373,
+   "owner": "",
+   "owner_addr": "0:2eba0b7d554befae7bbf5dd530300a24efedc198fa179f2c8c9e7315d89e1154",
+   "mint": 1792560053,
+   "counter_issued": 390373,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T05:42:09.559Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390374,
+   "owner": "",
+   "owner_addr": "0:435010062298fe24fc4f577d65e697d57e276aa1753b2bb425105cb58b8cb8bb",
+   "mint": 1792560911,
+   "counter_issued": 390374,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T05:42:09.559Z",
    "t": 1
   }
  ]
