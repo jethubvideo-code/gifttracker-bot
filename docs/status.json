@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T06:29:26.529Z",
- "updated_unix": 1792564166,
- "runs": 12610,
+ "updated": "2026-10-21T06:52:47.512Z",
+ "updated_unix": 1792565567,
+ "runs": 12611,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96751,
- "sent_total": 2479276,
+ "detected_total": 96753,
+ "sent_total": 2479412,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84873,
-   "owner": "",
-   "owner_addr": "0:23b8670b28e1094d9e949c5fc3f850bceec4850d701435afdaeb7ce680ccdfdf",
-   "mint": 1792534044,
-   "counter_issued": 84873,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T02:21:13.061Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390370,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390370,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T02:23:12.579Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T06:29:22.823Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390375,
+   "owner": "kolyanchik999.ton",
+   "owner_addr": "0:35ebd133beb57041c600a231654c50c04c474198a5d526f18b7194945ecd6a9b",
+   "mint": 1792563919,
+   "counter_issued": 390375,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T06:52:42.484Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90198,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90198,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T06:52:46.110Z",
    "t": 1
   }
  ]
