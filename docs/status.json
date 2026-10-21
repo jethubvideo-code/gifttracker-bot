@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T16:24:15.297Z",
- "updated_unix": 1792599855,
- "runs": 12714,
+ "updated": "2026-10-21T16:27:10.054Z",
+ "updated_unix": 1792600030,
+ "runs": 12715,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97728,
- "sent_total": 2546877,
+ "detected_total": 97729,
+ "sent_total": 2546948,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390402,
-   "owner": "",
-   "owner_addr": "0:ea9c6e902162b6a4fe9a0cae16843751f87fdd0558737841bc2106edead6b80c",
-   "mint": 1792597048,
-   "counter_issued": 390402,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T15:51:18.220Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T16:24:05.141Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T16:24:12.062Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T16:24:12.062Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267738,
+   "owner": "",
+   "owner_addr": "0:afc9cac47408e4dd6eb8cf7e1cd00dc93c0d6b8c222ce6bd7ccf3482f494b22b",
+   "mint": 1792599791,
+   "counter_issued": 267738,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T16:27:08.255Z",
    "t": 1
   }
  ]
