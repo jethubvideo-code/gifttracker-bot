@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T10:24:52.685Z",
- "updated_unix": 1792578292,
- "runs": 12645,
+ "updated": "2026-10-21T10:26:51.630Z",
+ "updated_unix": 1792578411,
+ "runs": 12646,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97056,
- "sent_total": 2500008,
+ "detected_total": 97058,
+ "sent_total": 2500144,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441206,
-   "owner": "",
-   "owner_addr": "0:893e0f404f95986d166697ce0dd3f70c69377d03455bab8b3adda204278a10d7",
-   "mint": 1792571642,
-   "counter_issued": 441206,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:42:57.632Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441207,
-   "owner": "",
-   "owner_addr": "0:893e0f404f95986d166697ce0dd3f70c69377d03455bab8b3adda204278a10d7",
-   "mint": 1792571657,
-   "counter_issued": 441207,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:42:57.632Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:02:30.232Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:02:30.232Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:02:37.738Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:24:47.223Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:24:47.223Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267689,
+   "owner": "",
+   "owner_addr": "0:325d1a447cf736c8d165bacd7e73b87e992694238e8701cab7fc1b2f6243066c",
+   "mint": 1792577814,
+   "counter_issued": 267689,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T10:26:48.251Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267690,
+   "owner": "",
+   "owner_addr": "0:e0806db2d8fbec5ac3b1158518edf57e95cb5505193a7ff8ef1b652f66f68b84",
+   "mint": 1792578154,
+   "counter_issued": 267690,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T10:26:48.251Z",
    "t": 1
   }
  ]
