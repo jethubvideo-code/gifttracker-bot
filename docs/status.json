@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T09:49:23.769Z",
- "updated_unix": 1792576163,
- "runs": 12642,
+ "updated": "2026-10-21T09:50:20.093Z",
+ "updated_unix": 1792576220,
+ "runs": 12643,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97050,
- "sent_total": 2499602,
+ "detected_total": 97051,
+ "sent_total": 2499669,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84196,
-   "owner": "",
-   "owner_addr": "0:2cfd06ce7d5862aab860bd9d41889f939cafbebacce277a5c3f1b240966a17c0",
-   "mint": 1792566006,
-   "counter_issued": 84196,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:39:49.458Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T09:33:06.220Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T09:49:20.467Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T09:49:20.467Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "SignetRing",
+   "number": 16978,
+   "owner": "",
+   "owner_addr": "0:448c4cd1e866e4cc9ca27d8a075e0b02b2cdd1875028839610106ca80133ae6f",
+   "mint": 1792575884,
+   "counter_issued": 16978,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T09:50:18.540Z",
    "t": 1
   }
  ]
