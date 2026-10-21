@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T08:44:13.572Z",
- "updated_unix": 1792572253,
- "runs": 12630,
+ "updated": "2026-10-21T08:46:07.729Z",
+ "updated_unix": 1792572367,
+ "runs": 12631,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97033,
- "sent_total": 2498449,
+ "detected_total": 97034,
+ "sent_total": 2498517,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74652,
-   "owner": "",
-   "owner_addr": "0:75cad1f42368008a546579bc5d5db7e0d9a1f27460d192058aa2a150bf3237f4",
-   "mint": 1792569875,
-   "counter_issued": 74652,
-   "counter_total": 85204,
-   "img": "https://cdn4.telesco.pe/file/rbEtxSTsuvXOmX4IRZM2pbZ_l46BnP9kXLIICVxcee5vtscQ2KHrhvzGjzBAwJ2JQ4lfcNIIdI1cdV3KVuwCXd9UYlxbauKAberfkmjOlqzeWldvPbMngXh2dFrTkNkEyQCA33JW7o_2qQ8AAz0myg47RJcF-hfW80NhNRGjRJoH4usDIvcpv3dRqpGW0jQy-uzq8r89_3o0Bj0OZxSwrCeHmKCuqLwWARnMjnblZ31jxlcNeS3V-q0r3-1kTMQ0y9fOnBd37IAJtZMF8MrmqgkJWwyoMigEqV3lu3CCTdVmnZB-HuvownkhjS6clp-j1kKLQbAq3LjpVFOeaC6Qow.jpg",
-   "sent": 0,
-   "time": "2026-10-21T08:14:16.419Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:44:03.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:44:03.960Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:44:10.590Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:44:10.590Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390380,
+   "owner": "",
+   "owner_addr": "0:b8d2cd63df0ff3dd2e4dc8f0205f00a36f5e790de960001e9d6cbda142843fb6",
+   "mint": 1792572363,
+   "counter_issued": 390380,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:46:06.357Z",
    "t": 1
   }
  ]
