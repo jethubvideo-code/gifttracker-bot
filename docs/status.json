@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T09:15:09.461Z",
- "updated_unix": 1792574109,
- "runs": 12636,
+ "updated": "2026-10-21T09:16:10.169Z",
+ "updated_unix": 1792574170,
+ "runs": 12637,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 97042,
- "sent_total": 2499059,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 97044,
+ "sent_total": 2499194,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267680,
-   "owner": "",
-   "owner_addr": "0:6c064cd2ead445e7b63b80f0a8816717bbd2c75bbf413b765b4e13775f62ed7e",
-   "mint": 1792570420,
-   "counter_issued": 267680,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:17:40.384Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267681,
-   "owner": "",
-   "owner_addr": "0:f09d139c977984be808900580a3474015acb1eab538abf4d6d6fe92e093ca8ec",
-   "mint": 1792570526,
-   "counter_issued": 267681,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:17:40.384Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T09:15:05.514Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T09:15:05.514Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267685,
+   "owner": "",
+   "owner_addr": "0:cf9c1cc128bd10bf7f5821a96873df071e082cee4289988121f214df22554c42",
+   "mint": 1792574111,
+   "counter_issued": 267685,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T09:16:06.211Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267686,
+   "owner": "",
+   "owner_addr": "0:33d19408f290ada6f555368844a71c9cb4df5140380201c20ac2afbba9834267",
+   "mint": 1792574124,
+   "counter_issued": 267686,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T09:16:06.211Z",
    "t": 1
   }
  ]
