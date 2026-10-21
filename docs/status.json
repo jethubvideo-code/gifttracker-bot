@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T07:42:26.272Z",
- "updated_unix": 1792568546,
- "runs": 12618,
+ "updated": "2026-10-21T08:03:22.782Z",
+ "updated_unix": 1792569802,
+ "runs": 12619,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96989,
- "sent_total": 2495457,
+ "detected_total": 96990,
+ "sent_total": 2495525,
  "last_upgrades": [
-  {
-   "slug": "LunarSnake",
-   "gift": "LunarSnake",
-   "number": 201689,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201689,
-   "counter_total": 259346,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:40:50.392Z",
-   "t": 2
-  },
   {
    "slug": "LunarSnake",
    "gift": "LunarSnake",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T07:40:50.392Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LunarSnake",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T07:40:50.392Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LunarSnake",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T07:42:18.365Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T07:42:18.365Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T07:42:18.365Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390376,
+   "owner": "",
+   "owner_addr": "0:168371b8787ee5bbb8c6350b5bd8e0bad423ce204d60e936e3188c4a92f9d402",
+   "mint": 1792568220,
+   "counter_issued": 390376,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:03:21.151Z",
    "t": 1
   }
  ]
