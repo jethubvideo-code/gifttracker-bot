@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T10:02:39.996Z",
- "updated_unix": 1792576959,
- "runs": 12644,
+ "updated": "2026-10-21T10:24:52.685Z",
+ "updated_unix": 1792578292,
+ "runs": 12645,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97054,
- "sent_total": 2499872,
+ "detected_total": 97056,
+ "sent_total": 2500008,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267683,
-   "owner": "",
-   "owner_addr": "0:8cbfaf5896b80e3d22539a86e57a25b4cbb181498a663071d08fd5f32e67ed39",
-   "mint": 1792572072,
-   "counter_issued": 267683,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:41:53.871Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441205,
-   "owner": "",
-   "owner_addr": "0:d12870a94c11330e744f779d99a1097cbcf0147a66aa2a540e73553bccdc4875",
-   "mint": 1792571622,
-   "counter_issued": 441205,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:42:57.632Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:02:30.232Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:02:30.232Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T10:02:37.738Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441213,
+   "owner": "",
+   "owner_addr": "0:3189be88ad4ba1e3e67facc09e780bb64159d8bda8448ec307c415de096b09b0",
+   "mint": 1792577772,
+   "counter_issued": 441213,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T10:24:47.223Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441214,
+   "owner": "",
+   "owner_addr": "0:0fdcbed19a0024cb3e203510019bd9a9c0bb7acd475757da330a1ee1c5bbe711",
+   "mint": 1792578257,
+   "counter_issued": 441214,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T10:24:47.223Z",
    "t": 1
   }
  ]
