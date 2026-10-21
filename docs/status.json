@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T22:28:32.202Z",
- "updated_unix": 1792621712,
- "runs": 12791,
+ "updated": "2026-10-21T22:29:30.024Z",
+ "updated_unix": 1792621770,
+ "runs": 12792,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98300,
- "sent_total": 2588530,
+ "detected_total": 98301,
+ "sent_total": 2588604,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200310,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200310,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T22:27:31.108Z",
-   "t": 1
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T22:27:31.108Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T22:27:31.108Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T22:27:31.108Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "CookieHeart",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T22:28:27.040Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T22:28:27.040Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390431,
+   "owner": "",
+   "owner_addr": "0:175004efb58eb4d9916d1dcc22a1613e0812af3422a62f881c8f066a1976c6c4",
+   "mint": 1792620806,
+   "counter_issued": 390431,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T22:29:26.373Z",
    "t": 1
   }
  ]
