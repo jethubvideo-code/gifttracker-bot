@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T22:32:55.070Z",
- "updated_unix": 1792621975,
- "runs": 12794,
+ "updated": "2026-10-21T23:21:58.601Z",
+ "updated_unix": 1792624918,
+ "runs": 12795,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98304,
- "sent_total": 2588634,
+ "detected_total": 98306,
+ "sent_total": 2588782,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200314,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200314,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T22:27:31.108Z",
-   "t": 3
-  },
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200315,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200315,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T22:27:31.108Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T22:32:28.307Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441258,
+   "owner": "",
+   "owner_addr": "0:b6ff9a1619472a2839c57242edccdddbc1ad46717af0a7c172087c4728773424",
+   "mint": 1792622449,
+   "counter_issued": 441258,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T23:21:50.658Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441259,
+   "owner": "",
+   "owner_addr": "0:8fd19ca8988512bd192a1816a05aab4e57ba54c91728ae1b085eaaf88572f56b",
+   "mint": 1792623215,
+   "counter_issued": 441259,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T23:21:50.658Z",
+   "t": 1
   }
  ]
 }
