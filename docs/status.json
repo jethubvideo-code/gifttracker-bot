@@ -1,97 +1,13 @@
 {
- "updated": "2026-10-21T08:14:18.211Z",
- "updated_unix": 1792570458,
- "runs": 12621,
+ "updated": "2026-10-21T08:16:58.742Z",
+ "updated_unix": 1792570618,
+ "runs": 12622,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97004,
- "sent_total": 2496477,
+ "detected_total": 97010,
+ "sent_total": 2496885,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40473,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40473,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:41:02.742Z",
-   "t": 3
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40474,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40474,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:41:02.742Z",
-   "t": 3
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40475,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40475,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:41:02.742Z",
-   "t": 3
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40476,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40476,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:41:02.742Z",
-   "t": 3
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40477,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40477,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:41:02.742Z",
-   "t": 3
-  },
-  {
-   "slug": "eternalrose",
-   "gift": "Eternal Roses",
-   "number": 32068,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32068,
-   "counter_total": 37640,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:41:21.165Z",
-   "t": 3
-  },
   {
    "slug": "eternalrose",
    "gift": "Eternal Roses",
@@ -273,7 +189,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:24.087Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -287,7 +203,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:24.087Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -315,7 +231,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:24.087Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -329,7 +245,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:24.087Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -343,7 +259,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:24.087Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -357,7 +273,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:54.553Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -371,7 +287,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:54.553Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -385,7 +301,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:54.553Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -399,7 +315,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:54.553Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -413,7 +329,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:13:54.553Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -427,6 +343,90 @@
    "img": "https://cdn4.telesco.pe/file/rbEtxSTsuvXOmX4IRZM2pbZ_l46BnP9kXLIICVxcee5vtscQ2KHrhvzGjzBAwJ2JQ4lfcNIIdI1cdV3KVuwCXd9UYlxbauKAberfkmjOlqzeWldvPbMngXh2dFrTkNkEyQCA33JW7o_2qQ8AAz0myg47RJcF-hfW80NhNRGjRJoH4usDIvcpv3dRqpGW0jQy-uzq8r89_3o0Bj0OZxSwrCeHmKCuqLwWARnMjnblZ31jxlcNeS3V-q0r3-1kTMQ0y9fOnBd37IAJtZMF8MrmqgkJWwyoMigEqV3lu3CCTdVmnZB-HuvownkhjS6clp-j1kKLQbAq3LjpVFOeaC6Qow.jpg",
    "sent": 0,
    "time": "2026-10-21T08:14:16.419Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390377,
+   "owner": "",
+   "owner_addr": "0:131408c229918c96412ec273b2758aa879544423be968f929f37c41a5a1c25d0",
+   "mint": 1792570065,
+   "counter_issued": 390377,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:16:32.618Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441202,
+   "owner": "",
+   "owner_addr": "0:6fe80fa149dd440e03c0f7fd5eaf78b02b4dbbf3c5a7c5d076d1e567688608c6",
+   "mint": 1792570463,
+   "counter_issued": 441202,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:16:40.698Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441203,
+   "owner": "",
+   "owner_addr": "0:3d26886bd627d2e3caed7284a6ecf2422dbf7d10c87e8c02c309878a51c580c8",
+   "mint": 1792570551,
+   "counter_issued": 441203,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:16:40.698Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441204,
+   "owner": "",
+   "owner_addr": "0:59e2132d76131fcb035698aa0e2981a296bb72ebdd5ca189c8b4763077464f3f",
+   "mint": 1792570580,
+   "counter_issued": 441204,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:16:40.698Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108384,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108384,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:16:51.772Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108385,
+   "owner": "",
+   "owner_addr": "0:899897e88adf230fb7ada55240b1f96985cf8bcdf4b2de0a947255de155261a0",
+   "mint": 1792569500,
+   "counter_issued": 108385,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:16:51.772Z",
    "t": 1
   }
  ]
