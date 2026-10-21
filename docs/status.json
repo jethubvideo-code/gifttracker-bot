@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T06:28:26.285Z",
- "updated_unix": 1792564106,
- "runs": 12609,
+ "updated": "2026-10-21T06:29:26.529Z",
+ "updated_unix": 1792564166,
+ "runs": 12610,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96750,
- "sent_total": 2479208,
+ "detected_total": 96751,
+ "sent_total": 2479276,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84872,
-   "owner": "",
-   "owner_addr": "0:4e6ac06009b341c0164a4f3946d6da34afa2b859547a923f7d9863f6eadaa827",
-   "mint": 1792533348,
-   "counter_issued": 84872,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T02:21:13.061Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T06:28:22.472Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441198,
+   "owner": "kolyanchik999.ton",
+   "owner_addr": "0:35ebd133beb57041c600a231654c50c04c474198a5d526f18b7194945ecd6a9b",
+   "mint": 1792564087,
+   "counter_issued": 441198,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T06:29:22.823Z",
    "t": 1
   }
  ]
