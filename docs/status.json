@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-21T01:36:08.655Z",
- "updated_unix": 1792546568,
- "runs": 12591,
+ "updated": "2026-10-21T01:38:02.258Z",
+ "updated_unix": 1792546682,
+ "runs": 12592,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 96718,
- "sent_total": 2477032,
+ "detected_total": 96720,
+ "sent_total": 2477168,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108380,
-   "owner": "",
-   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
-   "mint": 1792532564,
-   "counter_issued": 108380,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T22:38:17.413Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390365,
-   "owner": "",
-   "owner_addr": "0:9661f8eca89376ab3f79b3271fee388df40aea38e3676eb951054c6992b4e7c7",
-   "mint": 1792536712,
-   "counter_issued": 390365,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-20T23:13:37.609Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T01:35:55.195Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T01:35:55.195Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T01:35:55.195Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T01:35:55.195Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390368,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390368,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T01:37:59.254Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390369,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390369,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T01:37:59.254Z",
    "t": 1
   }
  ]
