@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T08:19:42.329Z",
- "updated_unix": 1792570782,
- "runs": 12624,
+ "updated": "2026-10-21T08:22:45.324Z",
+ "updated_unix": 1792570965,
+ "runs": 12625,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97017,
- "sent_total": 2497361,
+ "detected_total": 97018,
+ "sent_total": 2497429,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133383,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133383,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T07:42:18.365Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:19:40.931Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90203,
+   "owner": "",
+   "owner_addr": "0:b25fb305d40ed42e1fe6039d03346b16ec7916a000e1f7420425135ff9593b63",
+   "mint": 1792570578,
+   "counter_issued": 90203,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:22:43.574Z",
    "t": 1
   }
  ]
