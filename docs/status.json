@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T23:23:55.249Z",
- "updated_unix": 1792625035,
- "runs": 12797,
+ "updated": "2026-10-21T23:25:53.514Z",
+ "updated_unix": 1792625153,
+ "runs": 12798,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 98308,
- "sent_total": 2588930,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98309,
+ "sent_total": 2589004,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200318,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200318,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T22:27:31.108Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T23:22:53.609Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T23:23:52.505Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108404,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108404,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T23:25:51.114Z",
    "t": 1
   }
  ]
