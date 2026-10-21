@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T14:45:00.347Z",
- "updated_unix": 1792593900,
- "runs": 12695,
+ "updated": "2026-10-21T14:45:59.633Z",
+ "updated_unix": 1792593959,
+ "runs": 12696,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97625,
- "sent_total": 2539568,
+ "detected_total": 97626,
+ "sent_total": 2539638,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582422,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582422,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T14:04:38.318Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T14:44:58.081Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267709,
+   "owner": "",
+   "owner_addr": "0:986956a4e891e0413b491e531210ca36771cc66745691f25a8201640d330a672",
+   "mint": 1792593866,
+   "counter_issued": 267709,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T14:45:57.805Z",
    "t": 1
   }
  ]
