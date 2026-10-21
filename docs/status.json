@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-21T08:43:09.802Z",
- "updated_unix": 1792572189,
- "runs": 12629,
+ "updated": "2026-10-21T08:44:13.572Z",
+ "updated_unix": 1792572253,
+ "runs": 12630,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97029,
- "sent_total": 2498177,
+ "detected_total": 97033,
+ "sent_total": 2498449,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32612,
-   "owner": "",
-   "owner_addr": "0:636cd12cacacb192b854afc4bb19ad919509c35f1591384fe40a7a30e065256b",
-   "mint": 1792561489,
-   "counter_issued": 32612,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:13:54.553Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32613,
-   "owner": "",
-   "owner_addr": "0:636cd12cacacb192b854afc4bb19ad919509c35f1591384fe40a7a30e065256b",
-   "mint": 1792561527,
-   "counter_issued": 32613,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:13:54.553Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32614,
-   "owner": "",
-   "owner_addr": "0:3286f24975ddb42a6977d51ebe60c19685a1880cfd355dcff9fc47ed6f3339b4",
-   "mint": 1792569549,
-   "counter_issued": 32614,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:13:54.553Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32615,
-   "owner": "",
-   "owner_addr": "0:272e71bbc9c4646114a3c8e2cd26601a1054a532b023b7ce32991afe3e98f09c",
-   "mint": 1792569924,
-   "counter_issued": 32615,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T08:13:54.553Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:42:57.632Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:42:57.632Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:42:57.632Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T08:42:57.632Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133387,
+   "owner": "",
+   "owner_addr": "0:0f4aa46174ee7a4bd49886044ecbc2c3a2ff62135313db55fa993d33a51c6fad",
+   "mint": 1792570955,
+   "counter_issued": 133387,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:44:03.960Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133388,
+   "owner": "",
+   "owner_addr": "0:0f4aa46174ee7a4bd49886044ecbc2c3a2ff62135313db55fa993d33a51c6fad",
+   "mint": 1792570968,
+   "counter_issued": 133388,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:44:03.960Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90204,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90204,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:44:10.590Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90205,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90205,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T08:44:10.590Z",
    "t": 1
   }
  ]
