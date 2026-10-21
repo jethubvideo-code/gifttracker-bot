@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T14:35:52.994Z",
- "updated_unix": 1792593352,
- "runs": 12692,
+ "updated": "2026-10-21T14:40:53.393Z",
+ "updated_unix": 1792593653,
+ "runs": 12693,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 97620,
- "sent_total": 2539218,
+ "detected_total": 97621,
+ "sent_total": 2539288,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582417,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582417,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T14:04:38.318Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T14:35:51.191Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441232,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441232,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-21T14:40:51.467Z",
    "t": 1
   }
  ]
