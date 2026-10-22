@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T14:05:15.749Z",
- "updated_unix": 1792677915,
- "runs": 12908,
+ "updated": "2026-10-22T14:06:13.748Z",
+ "updated_unix": 1792677973,
+ "runs": 12909,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98952,
- "sent_total": 2637572,
+ "detected_total": 98953,
+ "sent_total": 2637648,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74656,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792665491,
-   "counter_issued": 74656,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T12:20:14.982Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T13:48:49.139Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T14:05:05.194Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T14:05:05.194Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T14:05:05.194Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441286,
+   "owner": "",
+   "owner_addr": "0:917825bde5a0b753789dfe9dfcec0b48c5f8b783a87da22e047c5478cb856e3f",
+   "mint": 1792677817,
+   "counter_issued": 441286,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T14:06:09.986Z",
    "t": 1
   }
  ]
