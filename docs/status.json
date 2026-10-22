@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T01:22:56.420Z",
- "updated_unix": 1792632176,
- "runs": 12807,
+ "updated": "2026-10-22T01:23:49.883Z",
+ "updated_unix": 1792632229,
+ "runs": 12808,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98395,
- "sent_total": 2595355,
+ "detected_total": 98397,
+ "sent_total": 2595505,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78204,
-   "owner": "",
-   "owner_addr": "0:c5bee0b2afeefe06c566a1b3d60cdee2db922b03ce153a2fa9841c47aa5efb77",
-   "mint": 1792614458,
-   "counter_issued": 78204,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78205,
-   "owner": "",
-   "owner_addr": "0:c1a0cb2bc4f5857871e568dc5c66eb329d9afeb0efa1a209d76eff22ac9fa5c8",
-   "mint": 1792614814,
-   "counter_issued": 78205,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T01:22:51.744Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T01:22:51.744Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T01:22:51.744Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267889,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267889,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T01:23:47.163Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267890,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267890,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T01:23:47.163Z",
    "t": 1
   }
  ]
