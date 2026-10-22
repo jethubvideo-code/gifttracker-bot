@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T10:34:10.767Z",
- "updated_unix": 1792665250,
- "runs": 12869,
+ "updated": "2026-10-22T10:39:13.076Z",
+ "updated_unix": 1792665553,
+ "runs": 12870,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 98856,
- "sent_total": 2630190,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 98857,
+ "sent_total": 2630266,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142314,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142314,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:35:50.704Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:34:08.646Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90238,
+   "owner": "",
+   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
+   "mint": 1792662790,
+   "counter_issued": 90238,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:39:10.953Z",
    "t": 1
   }
  ]
