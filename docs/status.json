@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T03:42:46.021Z",
- "updated_unix": 1792640566,
- "runs": 12820,
+ "updated": "2026-10-22T04:39:50.600Z",
+ "updated_unix": 1792643990,
+ "runs": 12821,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98489,
- "sent_total": 2602403,
+ "detected_total": 98490,
+ "sent_total": 2602478,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185367,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185367,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T02:40:39.635Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T03:42:32.143Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T03:42:37.976Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T03:42:42.161Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90235,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90235,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T04:39:49.123Z",
    "t": 1
   }
  ]
