@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T19:23:13.246Z",
- "updated_unix": 1792696993,
- "runs": 12959,
+ "updated": "2026-10-22T19:26:10.796Z",
+ "updated_unix": 1792697170,
+ "runs": 12960,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 99141,
- "sent_total": 2651983,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 99143,
+ "sent_total": 2652135,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133473,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133473,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T17:37:05.163Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133474,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133474,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T17:37:05.163Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T19:00:24.159Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T19:23:04.192Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T19:23:04.192Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T19:23:11.474Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390477,
+   "owner": "",
+   "owner_addr": "0:3ecf7340c8e27e1c15c2c26eaa7d1bcd03e4004536f2672f7b7bfca59b3ea753",
+   "mint": 1792697123,
+   "counter_issued": 390477,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T19:26:06.376Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108426,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108426,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T19:26:09.427Z",
    "t": 1
   }
  ]
