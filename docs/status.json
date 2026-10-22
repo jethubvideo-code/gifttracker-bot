@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-22T10:47:18.352Z",
- "updated_unix": 1792666038,
- "runs": 12873,
+ "updated": "2026-10-22T10:49:20.348Z",
+ "updated_unix": 1792666160,
+ "runs": 12874,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 98862,
- "sent_total": 2630646,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98865,
+ "sent_total": 2630874,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56538,
-   "owner": "",
-   "owner_addr": "0:42f84a36bbb0a28093500459e1ce49a8b459bf8b1cf0c202f74182655c97cf55",
-   "mint": 1792624173,
-   "counter_issued": 56538,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:38.270Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56539,
-   "owner": "",
-   "owner_addr": "0:fabf0a09bd0e38be8b6641612a9d4a9398b15c3e4bf5dacc91088a81d3a85b44",
-   "mint": 1792630442,
-   "counter_issued": 56539,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:38.270Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56540,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792635633,
-   "counter_issued": 56540,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:38.270Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:47:14.172Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:47:14.172Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390450,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390450,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:49:12.773Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390451,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390451,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:49:12.773Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90239,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90239,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:49:18.288Z",
    "t": 1
   }
  ]
