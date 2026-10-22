@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T12:55:45.898Z",
- "updated_unix": 1792673745,
- "runs": 12898,
+ "updated": "2026-10-22T12:59:44.044Z",
+ "updated_unix": 1792673984,
+ "runs": 12899,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98936,
- "sent_total": 2636340,
+ "detected_total": 98937,
+ "sent_total": 2636417,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267929,
-   "owner": "",
-   "owner_addr": "0:5be8bff3a3a2b901afae8fa72d07042edadfc730202f24e422df87e5aee640bd",
-   "mint": 1792667891,
-   "counter_issued": 267929,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T11:26:01.095Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T12:55:25.396Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T12:55:31.944Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T12:55:39.945Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T12:55:39.945Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441282,
+   "owner": "Getgems Gift Minter",
+   "owner_addr": "0:c708deda737561ae355fca014b23a274d47278da0832cd542f94d2dddbe1de96",
+   "mint": 1792673974,
+   "counter_issued": 441282,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T12:59:41.036Z",
    "t": 1
   }
  ]
