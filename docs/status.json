@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T22:59:07.294Z",
- "updated_unix": 1792709947,
- "runs": 12980,
+ "updated": "2026-10-22T23:01:04.974Z",
+ "updated_unix": 1792710064,
+ "runs": 12981,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99324,
- "sent_total": 2665893,
+ "detected_total": 99325,
+ "sent_total": 2665969,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35378,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792675036,
-   "counter_issued": 35378,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T20:49:52.750Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T22:59:03.539Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441308,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441308,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T23:01:01.406Z",
    "t": 1
   }
  ]
