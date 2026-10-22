@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T12:27:14.819Z",
- "updated_unix": 1792672034,
- "runs": 12894,
+ "updated": "2026-10-22T12:28:12.809Z",
+ "updated_unix": 1792672092,
+ "runs": 12895,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98929,
- "sent_total": 2635801,
+ "detected_total": 98930,
+ "sent_total": 2635878,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135342,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135342,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/PFa6VlFl58UCz3ij3ne94KnHg2Pj26ggutobXvr_QFTO6HAnT6BOmcIgZ_czDKhMp25WT0IzH88kmq7rRnBzrz0E9ldN8XQnivwca1lgzyoQMBo0MR3TCfIcyFirL7YkqJR3LGqW9bn-xCvUTkAgfvBRT0IHeigC6NLE_At3CzNgVnlFIRZKhyAE5o-DgvUUWmMcmgivtohXy1SRcqW_z69W5SCn9TFB0Gm15mCrqDboz2j_Bi-OATYF-D6fQWH3r8Rtxxs3fPjLJxptPl9X6GUXh6iI9F_5_cwQsBMPJKIofgM5cE1H3vmX8vperKBk8wdYdiXirS55kFDhI48pgw.jpg",
-   "sent": 0,
-   "time": "2026-10-22T11:17:26.677Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T12:27:11.298Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390456,
+   "owner": "",
+   "owner_addr": "0:0ef9f3ced05ec2d94cb960077068c39897efcc4935975fe32d3054c9c78ee59e",
+   "mint": 1792672005,
+   "counter_issued": 390456,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T12:28:11.236Z",
    "t": 1
   }
  ]
