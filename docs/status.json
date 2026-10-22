@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T13:43:52.907Z",
- "updated_unix": 1792676632,
- "runs": 12905,
+ "updated": "2026-10-22T13:47:52.879Z",
+ "updated_unix": 1792676872,
+ "runs": 12906,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 98947,
- "sent_total": 2637187,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98948,
+ "sent_total": 2637264,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390455,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792670165,
-   "counter_issued": 390455,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T11:56:50.561Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T13:43:49.102Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90245,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90245,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T13:47:49.303Z",
    "t": 1
   }
  ]
