@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T11:08:34.107Z",
- "updated_unix": 1792667314,
- "runs": 12879,
+ "updated": "2026-10-22T11:09:35.257Z",
+ "updated_unix": 1792667375,
+ "runs": 12880,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98867,
- "sent_total": 2631027,
+ "detected_total": 98868,
+ "sent_total": 2631104,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56543,
-   "owner": "",
-   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
-   "mint": 1792656775,
-   "counter_issued": 56543,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:38.270Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T11:08:30.110Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133456,
+   "owner": "",
+   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
+   "mint": 1792667293,
+   "counter_issued": 133456,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T11:09:33.185Z",
    "t": 1
   }
  ]
