@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T07:54:50.564Z",
- "updated_unix": 1792655690,
- "runs": 12845,
+ "updated": "2026-10-22T08:11:55.946Z",
+ "updated_unix": 1792656715,
+ "runs": 12846,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98529,
- "sent_total": 2605425,
+ "detected_total": 98531,
+ "sent_total": 2605577,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390435,
-   "owner": "",
-   "owner_addr": "0:f2aebdb46aa3a65fa82afa9655be862df15e9bef8198f13081ae09f04ffe5b16",
-   "mint": 1792645667,
-   "counter_issued": 390435,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T05:55:28.689Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90237,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90237,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T07:01:04.740Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T07:54:39.761Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T07:54:39.761Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T07:54:39.761Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T07:54:39.761Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T07:54:39.761Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267909,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267909,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T08:11:51.710Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267910,
+   "owner": "",
+   "owner_addr": "0:19c8714cbe0ddb37c9f82bfc79e9c78ac59fe31cd060344725dcbf7c9349d8ed",
+   "mint": 1792655947,
+   "counter_issued": 267910,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T08:11:51.710Z",
    "t": 1
   }
  ]
