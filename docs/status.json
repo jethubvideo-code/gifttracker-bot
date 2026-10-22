@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T08:20:06.472Z",
- "updated_unix": 1792657206,
- "runs": 12852,
+ "updated": "2026-10-22T08:22:08.197Z",
+ "updated_unix": 1792657328,
+ "runs": 12853,
  "collections": 122,
  "checked": 4,
  "errors": 118,
- "detected_total": 98561,
- "sent_total": 2607857,
+ "detected_total": 98562,
+ "sent_total": 2607933,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47426,
-   "owner": "",
-   "owner_addr": "0:3da718cf37dfe0f73ef784ac4d4f9c5dd76c5e76e7c713bc1f010aae58784f8b",
-   "mint": 1792605089,
-   "counter_issued": 47426,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T08:13:00.631Z",
-   "t": 3
-  },
   {
    "slug": "HangingStar",
    "gift": "Hanging Star",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T08:20:04.222Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133448,
+   "owner": "beyad.t.me",
+   "owner_addr": "0:c259c6c203cd25eb529b560f0dce3c8f60ea4ee8f14cb5749a025dc4cf647fb6",
+   "mint": 1792656964,
+   "counter_issued": 133448,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T08:22:06.150Z",
    "t": 1
   }
  ]
