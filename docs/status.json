@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T16:33:35.652Z",
- "updated_unix": 1792686815,
- "runs": 12932,
+ "updated": "2026-10-22T16:36:28.739Z",
+ "updated_unix": 1792686988,
+ "runs": 12933,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99090,
- "sent_total": 2648115,
+ "detected_total": 99091,
+ "sent_total": 2648190,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93315,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93315,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 2
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T16:31:04.771Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "miragelamp",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T16:33:21.330Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T16:33:21.330Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T16:33:32.511Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T16:33:32.511Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90250,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90250,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T16:36:27.196Z",
    "t": 1
   }
  ]
