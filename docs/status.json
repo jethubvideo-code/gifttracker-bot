@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T08:18:05.864Z",
- "updated_unix": 1792657085,
- "runs": 12851,
+ "updated": "2026-10-22T08:20:06.472Z",
+ "updated_unix": 1792657206,
+ "runs": 12852,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 98560,
- "sent_total": 2607781,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 98561,
+ "sent_total": 2607857,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267910,
-   "owner": "",
-   "owner_addr": "0:19c8714cbe0ddb37c9f82bfc79e9c78ac59fe31cd060344725dcbf7c9349d8ed",
-   "mint": 1792655947,
-   "counter_issued": 267910,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T08:11:51.710Z",
-   "t": 3
-  },
   {
    "slug": "HangingStar",
    "gift": "Hanging Star",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T08:18:03.727Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 267912,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 267912,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T08:20:04.222Z",
    "t": 1
   }
  ]
