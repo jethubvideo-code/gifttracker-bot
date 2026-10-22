@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T10:40:17.224Z",
- "updated_unix": 1792665617,
- "runs": 12871,
+ "updated": "2026-10-22T10:43:18.031Z",
+ "updated_unix": 1792665798,
+ "runs": 12872,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98859,
- "sent_total": 2630418,
+ "detected_total": 98860,
+ "sent_total": 2630494,
  "last_upgrades": [
-  {
-   "slug": "EternalCandle",
-   "gift": "Eternal Candle",
-   "number": 45185,
-   "owner": "",
-   "owner_addr": "0:60ebfe3c132a058b2cd5bf880f39eb2751982e87d6ee3ac8b4239aec9528b074",
-   "mint": 1792657469,
-   "counter_issued": 45185,
-   "counter_total": 46590,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:13.369Z",
-   "t": 3
-  },
   {
    "slug": "EternalCandle",
    "gift": "Eternal Candle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:40:12.978Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:40:12.978Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390449,
+   "owner": "",
+   "owner_addr": "0:6f2a90fa67ec05eb226d8b5350660ffa8ad7814f25a03b9d2f2f5f7fff1a02fb",
+   "mint": 1792665550,
+   "counter_issued": 390449,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:43:15.864Z",
    "t": 1
   }
  ]
