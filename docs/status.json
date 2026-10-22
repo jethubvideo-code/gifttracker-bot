@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T10:39:13.076Z",
- "updated_unix": 1792665553,
- "runs": 12870,
+ "updated": "2026-10-22T10:40:17.224Z",
+ "updated_unix": 1792665617,
+ "runs": 12871,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 98857,
- "sent_total": 2630266,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98859,
+ "sent_total": 2630418,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142315,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142315,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:35:50.704Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142316,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142316,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:35:50.704Z",
-   "t": 3
-  },
   {
    "slug": "EternalCandle",
    "gift": "Eternal Candle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:39:10.953Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441276,
+   "owner": "",
+   "owner_addr": "0:50494d0b8a12b44c4af7192c138ad56244876fa31d428da022bf9f1cc862e8c5",
+   "mint": 1792664283,
+   "counter_issued": 441276,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:40:12.978Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441277,
+   "owner": "",
+   "owner_addr": "0:cdcb2e7230fb150838dc053e798977b7c4179471ca4616fd47f77f5df530c9ad",
+   "mint": 1792665596,
+   "counter_issued": 441277,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:40:12.978Z",
    "t": 1
   }
  ]
