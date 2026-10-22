@@ -1,97 +1,13 @@
 {
- "updated": "2026-10-22T00:34:51.911Z",
- "updated_unix": 1792629291,
- "runs": 12803,
+ "updated": "2026-10-22T00:35:44.869Z",
+ "updated_unix": 1792629344,
+ "runs": 12804,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98385,
- "sent_total": 2594612,
+ "detected_total": 98391,
+ "sent_total": 2595056,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78194,
-   "owner": "",
-   "owner_addr": "0:17368baf81d06cff1fbdefb5d87742113a22da0d6bc62aec2de2bf1370c73465",
-   "mint": 1792598094,
-   "counter_issued": 78194,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78195,
-   "owner": "",
-   "owner_addr": "0:20a2e6f988652d2094a89f389aecb9f184e2456e013da7096436ed91a390dad2",
-   "mint": 1792599888,
-   "counter_issued": 78195,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78196,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792601288,
-   "counter_issued": 78196,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78197,
-   "owner": "",
-   "owner_addr": "0:e2b327adacdc3e558099dab0d3ba0652d03cfa77a5a8a826bb2350539a338aae",
-   "mint": 1792601949,
-   "counter_issued": 78197,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78198,
-   "owner": "",
-   "owner_addr": "0:a99108c64bea5ce168f1d4cff6171c853db10e86d1c71699c60354c751146309",
-   "mint": 1792602489,
-   "counter_issued": 78198,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78199,
-   "owner": "",
-   "owner_addr": "0:722a47d08b57f623ba9989a669480f9a177a37ec1997f55a1184ee871215d86f",
-   "mint": 1792602621,
-   "counter_issued": 78199,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -370,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T00:34:35.040Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T00:34:35.040Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T00:34:35.040Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T00:34:35.040Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +342,90 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T00:34:35.040Z",
+   "t": 3
+  },
+  {
+   "slug": "toybear",
+   "gift": "Toy Bears",
+   "number": 56233,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 56233,
+   "counter_total": 57724,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:35:23.400Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40478,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40478,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:35:27.474Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40479,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40479,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:35:27.474Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40480,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40480,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:35:27.474Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40481,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40481,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:35:27.474Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40482,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40482,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:35:27.474Z",
    "t": 1
   }
  ]
