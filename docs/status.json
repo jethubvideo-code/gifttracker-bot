@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T14:40:32.626Z",
- "updated_unix": 1792680032,
- "runs": 12915,
+ "updated": "2026-10-22T14:41:39.398Z",
+ "updated_unix": 1792680099,
+ "runs": 12916,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98960,
- "sent_total": 2638181,
+ "detected_total": 98962,
+ "sent_total": 2638335,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 267936,
-   "owner": "",
-   "owner_addr": "0:c5705311bbb90e777c4f37ba27700dff08725bbec0bfbc1a9ad803308dac2ff6",
-   "mint": 1792672184,
-   "counter_issued": 267936,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T12:33:11.270Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441281,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441281,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T12:37:08.844Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T14:23:29.792Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T14:23:35.693Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T14:40:30.300Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23052,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23052,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T14:41:26.845Z",
+   "t": 1
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 12991,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792675277,
+   "counter_issued": 12991,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T14:41:35.286Z",
    "t": 1
   }
  ]
