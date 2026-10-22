@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T17:07:06.222Z",
- "updated_unix": 1792688826,
- "runs": 12940,
+ "updated": "2026-10-22T17:08:07.433Z",
+ "updated_unix": 1792688887,
+ "runs": 12941,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 99102,
- "sent_total": 2649026,
+ "checked": 1,
+ "errors": 121,
+ "detected_total": 99104,
+ "sent_total": 2649177,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93327,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93327,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93328,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93328,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:04:52.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:06:59.478Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:06:59.478Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:06:59.478Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108415,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108415,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:08:03.691Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108416,
+   "owner": "",
+   "owner_addr": "0:e957bef7aad5f029f4f0665814d385f03acc1781786ad1ec18c61ae5ee8faa33",
+   "mint": 1792688286,
+   "counter_issued": 108416,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:08:03.691Z",
    "t": 1
   }
  ]
