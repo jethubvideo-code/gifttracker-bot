@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T09:58:49.341Z",
- "updated_unix": 1792663129,
- "runs": 12866,
+ "updated": "2026-10-22T10:01:55.963Z",
+ "updated_unix": 1792663315,
+ "runs": 12867,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 98850,
- "sent_total": 2629734,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 98852,
+ "sent_total": 2629886,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142308,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142308,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:35:50.704Z",
-   "t": 2
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142309,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142309,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:35:50.704Z",
-   "t": 2
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:35:50.704Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:35:50.704Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:58:46.906Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133452,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133452,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:01:51.830Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133453,
+   "owner": "mistikafinessova.ton",
+   "owner_addr": "0:b53cf7a586e7142ebcd34b3c37e075dd47539546e685489d854b5a2b9bae4794",
+   "mint": 1792661889,
+   "counter_issued": 133453,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:01:51.830Z",
    "t": 1
   }
  ]
