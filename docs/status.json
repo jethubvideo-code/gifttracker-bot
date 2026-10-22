@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T17:08:07.433Z",
- "updated_unix": 1792688887,
- "runs": 12941,
+ "updated": "2026-10-22T17:12:06.965Z",
+ "updated_unix": 1792689126,
+ "runs": 12942,
  "collections": 122,
- "checked": 1,
- "errors": 121,
- "detected_total": 99104,
- "sent_total": 2649177,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 99105,
+ "sent_total": 2649252,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93329,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93329,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:06:59.478Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:06:59.478Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:06:59.478Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:08:03.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:08:03.691Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441294,
+   "owner": "",
+   "owner_addr": "0:3808ed3d6574f166f37c8c6362e8a419d42cfa91d729e22bed4df26febeb2828",
+   "mint": 1792688818,
+   "counter_issued": 441294,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:12:05.026Z",
    "t": 1
   }
  ]
