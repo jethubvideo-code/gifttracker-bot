@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-21T23:26:59.994Z",
- "updated_unix": 1792625219,
- "runs": 12799,
+ "updated": "2026-10-22T00:01:12.427Z",
+ "updated_unix": 1792627272,
+ "runs": 12800,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98310,
- "sent_total": 2589078,
+ "detected_total": 98311,
+ "sent_total": 2589152,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 200320,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 200320,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-21T22:27:31.108Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-21T23:26:57.377Z",
+   "t": 3
+  },
+  {
+   "slug": "PreciousPeach",
+   "gift": "Precious Peach",
+   "number": 3009,
+   "owner": "",
+   "owner_addr": "0:7b20ff4b2c526733c174c2cb417fded66e0255a3540fd46e26399d74ded61a22",
+   "mint": 1792596790,
+   "counter_issued": 3009,
+   "counter_total": 3160,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T00:01:08.682Z",
    "t": 1
   }
  ]
