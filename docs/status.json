@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T22:56:09.841Z",
- "updated_unix": 1792709769,
- "runs": 12979,
+ "updated": "2026-10-22T22:59:07.294Z",
+ "updated_unix": 1792709947,
+ "runs": 12980,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99323,
- "sent_total": 2665817,
+ "detected_total": 99324,
+ "sent_total": 2665893,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35377,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792664079,
-   "counter_issued": 35377,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T20:49:52.750Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T22:29:26.083Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T22:55:51.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T22:55:51.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T22:56:02.657Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T22:56:02.657Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108431,
+   "owner": "",
+   "owner_addr": "0:37f5781bcf9d11a1f4a0e7ebe1b4b00f0d69952b2f333a73f4bf3a51cef60588",
+   "mint": 1792705178,
+   "counter_issued": 108431,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T22:59:03.539Z",
    "t": 1
   }
  ]
