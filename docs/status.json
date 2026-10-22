@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T21:15:54.659Z",
- "updated_unix": 1792703754,
- "runs": 12975,
+ "updated": "2026-10-22T21:45:12.025Z",
+ "updated_unix": 1792705512,
+ "runs": 12976,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99316,
- "sent_total": 2665285,
+ "detected_total": 99317,
+ "sent_total": 2665361,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71752,
-   "owner": "",
-   "owner_addr": "0:61eccfe0be0bbff789e32d92a28d81f9fc868d68949a62c204f68b7523e6eb41",
-   "mint": 1792691011,
-   "counter_issued": 71752,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T20:49:05.363Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T21:15:51.077Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441305,
+   "owner": "",
+   "owner_addr": "0:81cd150f19d188b4f9bea620c5a81a992e6030ae0088c2e903b362b9a56943e8",
+   "mint": 1792704656,
+   "counter_issued": 441305,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T21:45:08.256Z",
    "t": 1
   }
  ]
