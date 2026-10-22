@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T10:10:03.609Z",
- "updated_unix": 1792663803,
- "runs": 12868,
+ "updated": "2026-10-22T10:34:10.767Z",
+ "updated_unix": 1792665250,
+ "runs": 12869,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 98855,
- "sent_total": 2630114,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98856,
+ "sent_total": 2630190,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142313,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142313,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:35:50.704Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:09:58.107Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:09:58.107Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:09:58.107Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15575,
+   "owner": "",
+   "owner_addr": "0:7461b7f486386c3ae1debc1a31eb27c6068c898f8fbd8df779a66a81d7ecbeac",
+   "mint": 1792656532,
+   "counter_issued": 15575,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:34:08.646Z",
    "t": 1
   }
  ]
