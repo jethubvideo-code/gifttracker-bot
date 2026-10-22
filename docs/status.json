@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T01:50:09.075Z",
- "updated_unix": 1792633809,
- "runs": 12811,
+ "updated": "2026-10-22T01:52:06.770Z",
+ "updated_unix": 1792633926,
+ "runs": 12812,
  "collections": 122,
  "checked": 4,
  "errors": 118,
- "detected_total": 98399,
- "sent_total": 2595655,
+ "detected_total": 98400,
+ "sent_total": 2595730,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78208,
-   "owner": "",
-   "owner_addr": "0:0bea69923cacc7d242c2e135d818cdedf2b0028c919213af6c2d85ac45974c78",
-   "mint": 1792622873,
-   "counter_issued": 78208,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T00:15:59.785Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T01:50:07.677Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23050,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23050,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T01:52:05.432Z",
    "t": 1
   }
  ]
