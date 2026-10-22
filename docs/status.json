@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T11:57:53.925Z",
- "updated_unix": 1792670273,
- "runs": 12890,
+ "updated": "2026-10-22T12:19:10.031Z",
+ "updated_unix": 1792671550,
+ "runs": 12891,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98919,
- "sent_total": 2635031,
+ "detected_total": 98920,
+ "sent_total": 2635108,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135332,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135332,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/PFa6VlFl58UCz3ij3ne94KnHg2Pj26ggutobXvr_QFTO6HAnT6BOmcIgZ_czDKhMp25WT0IzH88kmq7rRnBzrz0E9ldN8XQnivwca1lgzyoQMBo0MR3TCfIcyFirL7YkqJR3LGqW9bn-xCvUTkAgfvBRT0IHeigC6NLE_At3CzNgVnlFIRZKhyAE5o-DgvUUWmMcmgivtohXy1SRcqW_z69W5SCn9TFB0Gm15mCrqDboz2j_Bi-OATYF-D6fQWH3r8Rtxxs3fPjLJxptPl9X6GUXh6iI9F_5_cwQsBMPJKIofgM5cE1H3vmX8vperKBk8wdYdiXirS55kFDhI48pgw.jpg",
-   "sent": 0,
-   "time": "2026-10-22T11:17:26.677Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T11:57:51.271Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267935,
+   "owner": "",
+   "owner_addr": "0:8602600c52c0b777a202408543e069a3a037ee7614988fdd022179784171aa91",
+   "mint": 1792671529,
+   "counter_issued": 267935,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T12:19:08.218Z",
    "t": 1
   }
  ]
