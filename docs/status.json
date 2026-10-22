@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T21:45:12.025Z",
- "updated_unix": 1792705512,
- "runs": 12976,
+ "updated": "2026-10-22T22:20:30.839Z",
+ "updated_unix": 1792707630,
+ "runs": 12977,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99317,
- "sent_total": 2665361,
+ "detected_total": 99318,
+ "sent_total": 2665437,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71753,
-   "owner": "",
-   "owner_addr": "0:a8d5ffefa39e1913d583d46ca7f04cd874d73665c4eec7c4f3471a77ed1c92e7",
-   "mint": 1792698106,
-   "counter_issued": 71753,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T20:49:05.363Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T21:15:51.077Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T21:45:08.256Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90262,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90262,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T22:20:26.671Z",
    "t": 1
   }
  ]
