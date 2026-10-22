@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T19:26:10.796Z",
- "updated_unix": 1792697170,
- "runs": 12960,
+ "updated": "2026-10-22T19:28:07.477Z",
+ "updated_unix": 1792697287,
+ "runs": 12961,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 99143,
- "sent_total": 2652135,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 99144,
+ "sent_total": 2652211,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90251,
-   "owner": "",
-   "owner_addr": "0:fdb6251edc7cdb0bb0848e24313605e671842916ab77f1819f80e88e1fb8dc40",
-   "mint": 1792690437,
-   "counter_issued": 90251,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T17:37:12.849Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T19:26:06.376Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T19:26:09.427Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133477,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133477,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T19:28:03.932Z",
    "t": 1
   }
  ]
