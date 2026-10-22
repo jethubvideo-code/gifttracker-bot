@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-22T20:52:54.333Z",
- "updated_unix": 1792702374,
- "runs": 12970,
+ "updated": "2026-10-22T21:09:55.515Z",
+ "updated_unix": 1792703395,
+ "runs": 12971,
  "collections": 122,
- "checked": 0,
+ "checked": 5,
  "errors": 117,
- "detected_total": 99304,
- "sent_total": 2664373,
+ "detected_total": 99307,
+ "sent_total": 2664601,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271632,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271632,
-   "counter_total": 307521,
-   "img": "https://cdn4.telesco.pe/file/coyaF_dFwUiEl_9dGK4t2J-Qdbcb4HmCnxc37Q88Gb7FSsZDN8cnNOJ8Ds1dh8O1GJMMYwpu9WtMqyyzMd7G6yZNYsaDABfEScvsibkL2tt071bj0s7f_F2hD8RTGPYZXl5EmwgiLWFD6tBTmydv52WvRDABoGgnOfjNeDYk0ilCXykxBSiuqD3xK1-kyOScSXOG0yTyKbXEEHp-WD0ODRxCSiHwDW0rHTMQwz4OCyL5DmZik3lVH-zsw-_ObsFzgFvC8n89cRJiNgwd-MjeuIadPk2xYc-ZqbiE4hX3NwFNiTg4C2jJxIO3IGjTJNirzWYOlhGia2f1atlfi7jffQ.jpg",
-   "sent": 0,
-   "time": "2026-10-22T20:48:21.092Z",
-   "t": 3
-  },
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271633,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271633,
-   "counter_total": 307521,
-   "img": "https://cdn4.telesco.pe/file/coyaF_dFwUiEl_9dGK4t2J-Qdbcb4HmCnxc37Q88Gb7FSsZDN8cnNOJ8Ds1dh8O1GJMMYwpu9WtMqyyzMd7G6yZNYsaDABfEScvsibkL2tt071bj0s7f_F2hD8RTGPYZXl5EmwgiLWFD6tBTmydv52WvRDABoGgnOfjNeDYk0ilCXykxBSiuqD3xK1-kyOScSXOG0yTyKbXEEHp-WD0ODRxCSiHwDW0rHTMQwz4OCyL5DmZik3lVH-zsw-_ObsFzgFvC8n89cRJiNgwd-MjeuIadPk2xYc-ZqbiE4hX3NwFNiTg4C2jJxIO3IGjTJNirzWYOlhGia2f1atlfi7jffQ.jpg",
-   "sent": 0,
-   "time": "2026-10-22T20:48:21.092Z",
-   "t": 3
-  },
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271634,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271634,
-   "counter_total": 307521,
-   "img": "https://cdn4.telesco.pe/file/coyaF_dFwUiEl_9dGK4t2J-Qdbcb4HmCnxc37Q88Gb7FSsZDN8cnNOJ8Ds1dh8O1GJMMYwpu9WtMqyyzMd7G6yZNYsaDABfEScvsibkL2tt071bj0s7f_F2hD8RTGPYZXl5EmwgiLWFD6tBTmydv52WvRDABoGgnOfjNeDYk0ilCXykxBSiuqD3xK1-kyOScSXOG0yTyKbXEEHp-WD0ODRxCSiHwDW0rHTMQwz4OCyL5DmZik3lVH-zsw-_ObsFzgFvC8n89cRJiNgwd-MjeuIadPk2xYc-ZqbiE4hX3NwFNiTg4C2jJxIO3IGjTJNirzWYOlhGia2f1atlfi7jffQ.jpg",
-   "sent": 0,
-   "time": "2026-10-22T20:48:21.092Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T20:52:37.984Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T20:52:37.984Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T20:52:37.984Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441304,
+   "owner": "",
+   "owner_addr": "0:0ee2aab9cf5ebb7e791259c1273f1316e3dde0912138293ab4737abe84c46f0c",
+   "mint": 1792702998,
+   "counter_issued": 441304,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T21:09:48.959Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390480,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390480,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T21:09:52.388Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390481,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390481,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T21:09:52.388Z",
+   "t": 1
   }
  ]
 }
