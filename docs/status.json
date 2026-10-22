@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T11:01:14.316Z",
- "updated_unix": 1792666874,
- "runs": 12878,
+ "updated": "2026-10-22T11:08:34.107Z",
+ "updated_unix": 1792667314,
+ "runs": 12879,
  "collections": 122,
- "checked": 0,
- "errors": 122,
- "detected_total": 98866,
- "sent_total": 2630950,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98867,
+ "sent_total": 2631027,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56542,
-   "owner": "",
-   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
-   "mint": 1792656766,
-   "counter_issued": 56542,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:38.270Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-22T10:51:16.351Z",
    "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90240,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90240,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T11:08:30.110Z",
+   "t": 1
   }
  ]
 }
