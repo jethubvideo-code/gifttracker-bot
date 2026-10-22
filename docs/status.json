@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T10:49:20.348Z",
- "updated_unix": 1792666160,
- "runs": 12874,
+ "updated": "2026-10-22T10:51:18.382Z",
+ "updated_unix": 1792666278,
+ "runs": 12875,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 98865,
- "sent_total": 2630874,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 98866,
+ "sent_total": 2630950,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56541,
-   "owner": "",
-   "owner_addr": "0:61a567fb54f3957b7cfc879724aa91992ad040c93287b5b28a10141e63ae9e7a",
-   "mint": 1792650367,
-   "counter_issued": 56541,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:38.270Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:49:12.773Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:49:12.773Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:49:18.288Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108408,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108408,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:51:16.351Z",
    "t": 1
   }
  ]
