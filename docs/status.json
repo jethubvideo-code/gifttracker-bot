@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T17:49:15.216Z",
- "updated_unix": 1792691355,
- "runs": 12950,
+ "updated": "2026-10-22T18:14:28.039Z",
+ "updated_unix": 1792692868,
+ "runs": 12951,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99118,
- "sent_total": 2650235,
+ "detected_total": 99119,
+ "sent_total": 2650311,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 267962,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 267962,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:33:32.511Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:49:13.564Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23053,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792682411,
+   "counter_issued": 23053,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T18:14:24.351Z",
    "t": 1
   }
  ]
