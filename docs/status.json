@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T11:56:52.703Z",
- "updated_unix": 1792670212,
- "runs": 12889,
+ "updated": "2026-10-22T11:57:53.925Z",
+ "updated_unix": 1792670273,
+ "runs": 12890,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98918,
- "sent_total": 2634954,
+ "detected_total": 98919,
+ "sent_total": 2635031,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135331,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135331,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/PFa6VlFl58UCz3ij3ne94KnHg2Pj26ggutobXvr_QFTO6HAnT6BOmcIgZ_czDKhMp25WT0IzH88kmq7rRnBzrz0E9ldN8XQnivwca1lgzyoQMBo0MR3TCfIcyFirL7YkqJR3LGqW9bn-xCvUTkAgfvBRT0IHeigC6NLE_At3CzNgVnlFIRZKhyAE5o-DgvUUWmMcmgivtohXy1SRcqW_z69W5SCn9TFB0Gm15mCrqDboz2j_Bi-OATYF-D6fQWH3r8Rtxxs3fPjLJxptPl9X6GUXh6iI9F_5_cwQsBMPJKIofgM5cE1H3vmX8vperKBk8wdYdiXirS55kFDhI48pgw.jpg",
-   "sent": 0,
-   "time": "2026-10-22T11:17:26.677Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T11:56:50.561Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441279,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792669944,
+   "counter_issued": 441279,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T11:57:51.271Z",
    "t": 1
   }
  ]
