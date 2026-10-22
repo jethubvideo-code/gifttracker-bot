@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T04:39:50.600Z",
- "updated_unix": 1792643990,
- "runs": 12821,
+ "updated": "2026-10-22T04:43:57.985Z",
+ "updated_unix": 1792644237,
+ "runs": 12822,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98490,
- "sent_total": 2602478,
+ "detected_total": 98491,
+ "sent_total": 2602553,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390433,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792633660,
-   "counter_issued": 390433,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T02:53:49.830Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T03:42:32.143Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T03:42:37.976Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T03:42:42.161Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T04:39:49.123Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 84901,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792636108,
+   "counter_issued": 84901,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T04:43:54.346Z",
    "t": 1
   }
  ]
