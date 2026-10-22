@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T09:23:27.971Z",
- "updated_unix": 1792661007,
- "runs": 12861,
+ "updated": "2026-10-22T09:24:31.350Z",
+ "updated_unix": 1792661071,
+ "runs": 12862,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98703,
- "sent_total": 2618562,
+ "detected_total": 98704,
+ "sent_total": 2618638,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271612,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271612,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T08:30:37.353Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:23:26.441Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441271,
+   "owner": "",
+   "owner_addr": "0:420548631b7aa48b63c3ae26ec77ff7095994b6c38fb370aa4ca12fb4e97c10d",
+   "mint": 1792660837,
+   "counter_issued": 441271,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T09:24:29.553Z",
    "t": 1
   }
  ]
