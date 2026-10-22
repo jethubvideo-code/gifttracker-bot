@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T11:44:55.074Z",
- "updated_unix": 1792669495,
- "runs": 12885,
+ "updated": "2026-10-22T11:46:52.563Z",
+ "updated_unix": 1792669612,
+ "runs": 12886,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98914,
- "sent_total": 2634646,
+ "detected_total": 98915,
+ "sent_total": 2634723,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135327,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135327,
-   "counter_total": 159750,
-   "img": "https://cdn4.telesco.pe/file/PFa6VlFl58UCz3ij3ne94KnHg2Pj26ggutobXvr_QFTO6HAnT6BOmcIgZ_czDKhMp25WT0IzH88kmq7rRnBzrz0E9ldN8XQnivwca1lgzyoQMBo0MR3TCfIcyFirL7YkqJR3LGqW9bn-xCvUTkAgfvBRT0IHeigC6NLE_At3CzNgVnlFIRZKhyAE5o-DgvUUWmMcmgivtohXy1SRcqW_z69W5SCn9TFB0Gm15mCrqDboz2j_Bi-OATYF-D6fQWH3r8Rtxxs3fPjLJxptPl9X6GUXh6iI9F_5_cwQsBMPJKIofgM5cE1H3vmX8vperKBk8wdYdiXirS55kFDhI48pgw.jpg",
-   "sent": 0,
-   "time": "2026-10-22T11:17:26.677Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T11:44:46.983Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T11:44:51.208Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390454,
+   "owner": "",
+   "owner_addr": "0:fe9e5d67b816cf642eaa3636559689ef3cb14e57d6a003dda2ec60591b7f40c0",
+   "mint": 1792669333,
+   "counter_issued": 390454,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T11:46:50.476Z",
    "t": 1
   }
  ]
