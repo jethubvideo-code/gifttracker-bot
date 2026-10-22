@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T17:37:16.797Z",
- "updated_unix": 1792690636,
- "runs": 12947,
+ "updated": "2026-10-22T17:39:18.070Z",
+ "updated_unix": 1792690758,
+ "runs": 12948,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99114,
- "sent_total": 2649931,
+ "detected_total": 99116,
+ "sent_total": 2650083,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93339,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93339,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93340,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93340,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:21:10.279Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:37:05.163Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:37:05.163Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:37:12.849Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267965,
+   "owner": "",
+   "owner_addr": "0:03aad216e32d1e1e0ea4170876a7a4fed1387e24c5cfe593949d73e2fe6a7fa3",
+   "mint": 1792690072,
+   "counter_issued": 267965,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:39:13.340Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108418,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108418,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:39:16.688Z",
    "t": 1
   }
  ]
