@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T10:43:18.031Z",
- "updated_unix": 1792665798,
- "runs": 12872,
+ "updated": "2026-10-22T10:47:18.352Z",
+ "updated_unix": 1792666038,
+ "runs": 12873,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 98860,
- "sent_total": 2630494,
+ "checked": 3,
+ "errors": 119,
+ "detected_total": 98862,
+ "sent_total": 2630646,
  "last_upgrades": [
-  {
-   "slug": "EternalCandle",
-   "gift": "Eternal Candle",
-   "number": 45186,
-   "owner": "",
-   "owner_addr": "0:3bb537fd390bd80e84ba37be1c5fb4c2b9554640c8eaa5c71f5490358820b247",
-   "mint": 1792659248,
-   "counter_issued": 45186,
-   "counter_total": 46590,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:13.369Z",
-   "t": 3
-  },
-  {
-   "slug": "EternalCandle",
-   "gift": "Eternal Candle",
-   "number": 45187,
-   "owner": "",
-   "owner_addr": "0:5e9ea599335e22729b851c4b83d5eefb98219254978e0360a0b8e7b9359e8e42",
-   "mint": 1792661548,
-   "counter_issued": 45187,
-   "counter_total": 46590,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T09:39:13.369Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T10:43:15.864Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133454,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133454,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:47:14.172Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133455,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133455,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T10:47:14.172Z",
    "t": 1
   }
  ]
