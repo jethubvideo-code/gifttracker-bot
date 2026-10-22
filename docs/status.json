@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T05:52:31.775Z",
- "updated_unix": 1792648351,
- "runs": 12828,
+ "updated": "2026-10-22T05:53:32.411Z",
+ "updated_unix": 1792648412,
+ "runs": 12829,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 98497,
- "sent_total": 2603002,
+ "detected_total": 98498,
+ "sent_total": 2603077,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32619,
-   "owner": "",
-   "owner_addr": "0:8b28a937659a790f33061cf13baf54a2d98c60e390e78a311cacbe03aa1502ac",
-   "mint": 1792604344,
-   "counter_issued": 32619,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T03:31:34.201Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T05:52:28.486Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T05:52:28.486Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441263,
+   "owner": "",
+   "owner_addr": "0:acdee47242e1e52ac684271df73108a50a177c0231b4dd953ee7b8d61dcaa1bd",
+   "mint": 1792647887,
+   "counter_issued": 441263,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T05:53:28.785Z",
    "t": 1
   }
  ]
