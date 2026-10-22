@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T16:03:32.636Z",
- "updated_unix": 1792685012,
- "runs": 12928,
+ "updated": "2026-10-22T16:08:36.107Z",
+ "updated_unix": 1792685316,
+ "runs": 12929,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99019,
- "sent_total": 2642720,
+ "detected_total": 99020,
+ "sent_total": 2642795,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108411,
-   "owner": "changanhuita.ton",
-   "owner_addr": "0:533cde641a5245a2a5bc5ce8f89c791a2b672c4cd845d89aec56f058593bf6ab",
-   "mint": 1792682332,
-   "counter_issued": 108411,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T15:27:19.070Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T16:03:30.512Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90249,
+   "owner": "",
+   "owner_addr": "0:f58a0d5b7095a90e6e16173f623d4fc7b96e0d1f09378e30db7b9e7d274f5c22",
+   "mint": 1792682212,
+   "counter_issued": 90249,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T16:08:32.634Z",
    "t": 1
   }
  ]
