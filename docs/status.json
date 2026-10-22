@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T17:12:06.965Z",
- "updated_unix": 1792689126,
- "runs": 12942,
+ "updated": "2026-10-22T17:17:13.131Z",
+ "updated_unix": 1792689433,
+ "runs": 12943,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99105,
- "sent_total": 2649252,
+ "detected_total": 99106,
+ "sent_total": 2649327,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93330,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93330,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:12:05.026Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232286,
+   "owner": "",
+   "owner_addr": "0:896dea137ae69e38603b5d5130674c1c717ec53e4cbbb858f5f5cfe85f44f6e3",
+   "mint": 1792688532,
+   "counter_issued": 232286,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:17:09.021Z",
    "t": 1
   }
  ]
