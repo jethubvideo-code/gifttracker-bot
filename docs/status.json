@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-22T09:01:29.804Z",
- "updated_unix": 1792659689,
- "runs": 12859,
+ "updated": "2026-10-22T09:22:31.218Z",
+ "updated_unix": 1792660951,
+ "runs": 12860,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 98700,
- "sent_total": 2618334,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 98702,
+ "sent_total": 2618486,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271609,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271609,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T08:30:37.353Z",
-   "t": 3
-  },
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271610,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271610,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T08:30:37.353Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:01:16.018Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:01:16.018Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:01:16.018Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T09:01:16.018Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133451,
+   "owner": "",
+   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
+   "mint": 1792659100,
+   "counter_issued": 133451,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T09:22:22.822Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108406,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792656667,
+   "counter_issued": 108406,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T09:22:29.129Z",
    "t": 1
   }
  ]
