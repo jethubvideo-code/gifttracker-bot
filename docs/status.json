@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-22T17:02:56.351Z",
- "updated_unix": 1792688576,
- "runs": 12938,
+ "updated": "2026-10-22T17:04:54.260Z",
+ "updated_unix": 1792688694,
+ "runs": 12939,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 99098,
- "sent_total": 2648722,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 99099,
+ "sent_total": 2648798,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 93323,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 93323,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T16:31:04.771Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:02:47.483Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:02:47.483Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PreciousPeach",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-22T17:02:54.595Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390470,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390470,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-22T17:04:52.160Z",
    "t": 1
   }
  ]
