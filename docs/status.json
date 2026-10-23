@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T00:17:41.475Z",
- "updated_unix": 1792714661,
- "runs": 12989,
+ "updated": "2026-10-23T00:41:45.587Z",
+ "updated_unix": 1792716105,
+ "runs": 12990,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99381,
- "sent_total": 2670225,
+ "detected_total": 99382,
+ "sent_total": 2670301,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32653,
-   "owner": "",
-   "owner_addr": "0:389055d59e588ebf158f79acd57cc91972e5646c1ce71606653a3a7b5c27811c",
-   "mint": 1792708175,
-   "counter_issued": 32653,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-22T23:32:46.881Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T00:17:37.918Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 267993,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792713453,
+   "counter_issued": 267993,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T00:41:43.835Z",
    "t": 1
   }
  ]
