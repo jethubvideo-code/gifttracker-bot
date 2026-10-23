@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T14:33:29.663Z",
- "updated_unix": 1792766009,
- "runs": 13090,
+ "updated": "2026-10-23T14:50:50.414Z",
+ "updated_unix": 1792767050,
+ "runs": 13091,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 100614,
- "sent_total": 2763693,
+ "checked": 1,
+ "errors": 121,
+ "detected_total": 100615,
+ "sent_total": 2763770,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390506,
-   "owner": "",
-   "owner_addr": "0:314568bce6312c1947e3508cd6e0e7146fa5d93c2b18cd0bbc6dea914e9d9da3",
-   "mint": 1792760153,
-   "counter_issued": 390506,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:17:45.176Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:33:27.917Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9431,
+   "owner": "",
+   "owner_addr": "0:17fe33fad056814ce0e8f560b6c8b14af85a0b9396e897a67b790862cb66eff2",
+   "mint": 1792760854,
+   "counter_issued": 9431,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T14:50:48.995Z",
    "t": 1
   }
  ]
