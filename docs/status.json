@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-23T07:17:31.560Z",
- "updated_unix": 1792739851,
- "runs": 13021,
+ "updated": "2026-10-23T07:18:31.162Z",
+ "updated_unix": 1792739911,
+ "runs": 13022,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99936,
- "sent_total": 2712405,
+ "detected_total": 99938,
+ "sent_total": 2712557,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582436,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582436,
-   "counter_total": 593781,
-   "img": "https://cdn4.telesco.pe/file/EdyEbCsCo6nw9ZPtbBAIFeb91AFbwzBc6LvHipADQbMfCx_jsnMdzJ3H1OiosUpiLXuUyHYa9HO-q1g6FkL5bomyhlKby5Lnxahw9TnLX6dDWIywGMI41yZlEkaMm3xu2UmmRKJ-9h1X_rmIk1tl4fAnS9jEg5wBjv5NAf6okFbWHdot3f8GPk1JiFl0rEo30dD9Zwbofxhq90ELQDK4FrAm353JH5a2Q_VllC7V90aEVnVtK2Y3j7LASlmxp3OY4U8H5wGiJwAvW9hBDNALjtpcvjSFhJU6zv_okweNOFDldFhMZPo2E0XEiZXuLjAC32FIU7QvckA2F3pIRPYxoA.jpg",
-   "sent": 0,
-   "time": "2026-10-23T06:39:30.481Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74595,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74595,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T06:40:11.590Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T07:17:27.825Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T07:17:27.825Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390487,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390487,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T07:18:27.479Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390488,
+   "owner": "",
+   "owner_addr": "0:065742de72ab9bb8d6adcee0b2b7f4e9c41f88ab4de1190213fd1ba9f5b1fbc3",
+   "mint": 1792738914,
+   "counter_issued": 390488,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T07:18:27.479Z",
    "t": 1
   }
  ]
