@@ -1,65 +1,13 @@
 {
- "updated": "2026-10-23T13:13:06.939Z",
- "updated_unix": 1792761186,
- "runs": 13077,
+ "updated": "2026-10-23T13:17:53.220Z",
+ "updated_unix": 1792761473,
+ "runs": 13078,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100582,
- "sent_total": 2761229,
+ "detected_total": 100586,
+ "sent_total": 2761537,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38637,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38637,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z"
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38638,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38638,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z"
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38639,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38639,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z"
-  },
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38640,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38640,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z"
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -72,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T13:12:03.806Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FinePen",
@@ -86,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T13:12:03.806Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FinePen",
@@ -408,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T13:12:40.257Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -422,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T13:13:02.156Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390504,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390504,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T13:17:45.176Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390505,
+   "owner": "",
+   "owner_addr": "0:97579ae87e87a5a3b6a0b6c59da8fcf91ce7810b6e501e6d382a6329e9b2b4a9",
+   "mint": 1792759934,
+   "counter_issued": 390505,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T13:17:45.176Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390506,
+   "owner": "",
+   "owner_addr": "0:314568bce6312c1947e3508cd6e0e7146fa5d93c2b18cd0bbc6dea914e9d9da3",
+   "mint": 1792760153,
+   "counter_issued": 390506,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T13:17:45.176Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390507,
+   "owner": "loopsofhope.t.me",
+   "owner_addr": "0:a22b61fdd09ba8ad69b3a25dd91617d58b9f34520df0afc7fd7aa9cba2026843",
+   "mint": 1792760858,
+   "counter_issued": 390507,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T13:17:45.176Z",
    "t": 1
   }
  ]
