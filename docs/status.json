@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T09:38:50.253Z",
- "updated_unix": 1792748330,
- "runs": 13041,
+ "updated": "2026-10-23T09:41:52.573Z",
+ "updated_unix": 1792748512,
+ "runs": 13042,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 99974,
- "sent_total": 2715262,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 99975,
+ "sent_total": 2715337,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90265,
-   "owner": "",
-   "owner_addr": "0:48f7ce4b09014114d88649441e52f9f0a3bf425f4e44d045aa0edd14ad28ffa3",
-   "mint": 1792738272,
-   "counter_issued": 90265,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T08:21:08.636Z",
-   "t": 3
-  },
   {
    "slug": "SignetRing",
    "gift": "Signet Ring",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:38:48.518Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133496,
+   "owner": "footfetishist.ton",
+   "owner_addr": "0:e79c4c862360dd7f1bc1b8bb32a5009e7cbe062de65ebe5ed2b21d571e856528",
+   "mint": 1792748188,
+   "counter_issued": 133496,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T09:41:50.949Z",
    "t": 1
   }
  ]
