@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T10:56:43.065Z",
- "updated_unix": 1792753003,
- "runs": 13051,
+ "updated": "2026-10-23T10:57:40.754Z",
+ "updated_unix": 1792753060,
+ "runs": 13052,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100155,
- "sent_total": 2728847,
+ "detected_total": 100156,
+ "sent_total": 2728922,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 94146,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 94146,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T10:55:04.728Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:56:39.170Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:56:39.170Z",
+   "t": 3
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 135,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 135,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T10:57:37.768Z",
    "t": 1
   }
  ]
