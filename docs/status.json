@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T06:17:53.174Z",
- "updated_unix": 1792736273,
- "runs": 13014,
+ "updated": "2026-10-23T06:35:08.109Z",
+ "updated_unix": 1792737308,
+ "runs": 13015,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99832,
- "sent_total": 2704501,
+ "detected_total": 99833,
+ "sent_total": 2704577,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3946,
-   "owner": "",
-   "owner_addr": "0:cf8e663751a471d3d591dcf9c8c6408cbf5d516528afc3eb355c6347e7c6867b",
-   "mint": 1792719601,
-   "counter_issued": 3946,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T05:37:30.596Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "Durov’s Glasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T06:17:51.065Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90264,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90264,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T06:35:06.720Z",
    "t": 1
   }
  ]
