@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-23T10:42:58.588Z",
- "updated_unix": 1792752178,
- "runs": 13047,
+ "updated": "2026-10-23T10:44:49.939Z",
+ "updated_unix": 1792752289,
+ "runs": 13048,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100003,
- "sent_total": 2717449,
+ "detected_total": 100006,
+ "sent_total": 2717674,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390498,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390498,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T09:38:48.518Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133496,
-   "owner": "footfetishist.ton",
-   "owner_addr": "0:e79c4c862360dd7f1bc1b8bb32a5009e7cbe062de65ebe5ed2b21d571e856528",
-   "mint": 1792748188,
-   "counter_issued": 133496,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T09:41:50.949Z",
-   "t": 3
-  },
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271640,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271640,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T09:48:50.599Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -342,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:12:10.766Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:42:34.177Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:42:34.177Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:42:34.177Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:42:34.177Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:42:52.534Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:42:52.534Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390499,
+   "owner": "",
+   "owner_addr": "0:ac51fe9bab9e6aabf1ba231302ae68ecc0d54fa32e99ad783b4f618f699c207e",
+   "mint": 1792751517,
+   "counter_issued": 390499,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T10:44:34.283Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441334,
+   "owner": "",
+   "owner_addr": "0:dea7f8eef8814724bd5f6f44ea31c096134aa26bfd7033804967599fd1c3f94d",
+   "mint": 1792750458,
+   "counter_issued": 441334,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T10:44:44.183Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441335,
+   "owner": "",
+   "owner_addr": "0:deb9f11e0729bc6c1b1a9ad40dcee05608f47f03a4ca594cef951cf4af12e359",
+   "mint": 1792751647,
+   "counter_issued": 441335,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T10:44:44.183Z",
    "t": 1
   }
  ]
