@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-23T16:13:46.888Z",
- "updated_unix": 1792772026,
- "runs": 13102,
+ "updated": "2026-10-23T16:15:46.058Z",
+ "updated_unix": 1792772146,
+ "runs": 13103,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100645,
- "sent_total": 2766078,
+ "detected_total": 100650,
+ "sent_total": 2766463,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108439,
-   "owner": "",
-   "owner_addr": "0:1ae2fad4418dedcc6cb59e56599aa3e6fdcce9f66698513bc932158dbb1bc701",
-   "mint": 1792767156,
-   "counter_issued": 108439,
-   "counter_total": 129350,
-   "img": "https://cdn4.telesco.pe/file/d0ttLsqiRSVAU8HxiKNb57tqchNJm1pBgwieeidGkKzOiYcWWBABcRaWZny8kbzNnDmmZIEtzlrhOpHimNGo1A2V-qzS8ROq63si8EEybYGArbzmzSJzE9YsB4rAsIPMHruhI2NikBv4g0y0Y50MuxKPHVnULFMFEWIWPYkGXTYZGUsKBAZ7HUZ1bW07JKGVZqNI-CbemeIYs-ngBrC6Et--REsUsOKMzsUqnMraxq_Ni07qfmVBJ6IqEoRClDWF3dPC6pTVbkJDudSKOGe_9CfSp7E33j1ON8aPkueMyZBgD1Bj0tlxUljkc2vk6UXb6ujyVhdblOtAZo6aa8_JsA.jpg",
-   "sent": 0,
-   "time": "2026-10-23T15:25:11.381Z",
-   "u": 1
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108440,
-   "owner": "",
-   "owner_addr": "0:1ae2fad4418dedcc6cb59e56599aa3e6fdcce9f66698513bc932158dbb1bc701",
-   "mint": 1792767294,
-   "counter_issued": 108440,
-   "counter_total": 129350,
-   "img": "https://cdn4.telesco.pe/file/GbriGSTr8mNiNZvlDL2-Io4_d3NwdbMEy5HUKp0vu1WnWpPMK2zsjjjCGNTClw3YKnNF5dQHuzPpKnBlgYZ9MsS_AepC9PhhtYgNIESq6Z3nC_xkvnZWJpYSSpMlcbHMDuYHLw6J-nZCa_FLrDRWpOkKKd-redp2CSJdOlHi24l67-73hAEI5r2gKjPKSKD_0udtgMQ_wp394NmqpUD_jBOTFwwFuLP-eL6sI2f7Xt-7gnko0A49aMCI7z6uiMFls7XZe0kW-9VYAXqfdFrB-djSWYYsxNqb8Sfv1_4y_85dBqYNAQV9ESCI4WYCpzwKoXPNETAaHmNkUR8CjF2RHQ.jpg",
-   "sent": 0,
-   "time": "2026-10-23T15:25:11.381Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268050,
-   "owner": "",
-   "owner_addr": "0:1a5d84e936bdc8412b3fc215457e8135e4a787f6df4160f147d345dfad4c1f9c",
-   "mint": 1792768755,
-   "counter_issued": 268050,
-   "counter_total": 295480,
-   "img": "https://cdn5.telesco.pe/file/v6d6tJorRI1kX4PWl86kE8FRqF5xJNVTCaVmOQ6Cn9OkZjoCs96SGoKU_VT7RmWtvReUIT1tEq5m0N9I7q0jLXiVbMycOzCGUoaSDs-80b4hZ1YZlY104RK2e1IhhD0A5xITyczv3MghrkilUlUH7LvAeIEMCQFWhdb2FUyWkDiN5tCZ5NuSE_N7VzFRIlnrYrKFVOFgLjljE2y2wWLjb6G3Dk_lOVqdCKY_ImcoFAMB3hGMC2LD49Y49fpxo0rnqcBaEGo8HVfW-cT4L3pXmBovfFgbyHDssibmNeCHwCfc9I4BxXxq9hc7B-FKkbbLoJvhIcWZuGmNdE_gOYJcIA.jpg",
-   "sent": 0,
-   "time": "2026-10-23T15:25:21.715Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268051,
-   "owner": "",
-   "owner_addr": "0:92067cf5f0ea380ba15afdca50c2375d445256694f5de880a85103b56177b5c7",
-   "mint": 1792769016,
-   "counter_issued": 268051,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/ELlKpzuejI8zhXye0T3AZidrNLbBXxSEiV4F76G_VHYkEoRnrGfBuVx5NwPafQHehN4zyrAWWvyG10DadpF14jGYkI8CtCSCefom-G-9iC9HCeMmG8GOMbeyF-PgQuRkllq9FeDpakXzcHnvXREWGET4HjlyTlnXegp2n_9Ovy-3ByJKMKKuDTcUi-CgbhfhIpVDsc0OBqYGKT9lHb54TOQ_JJKxoF19RW1027rkOOpehTf6ZD1coj3ygWsQWh5UakGVmRME45YARLAeYejdoFijBVWp-hQDHpN6UA4R4VHinTlgIKcbg65nBhG4knAPyvchEUl3GCGwHOWYANyw2g.jpg",
-   "sent": 0,
-   "time": "2026-10-23T15:25:21.715Z",
-   "u": 1
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390510,
-   "owner": "",
-   "owner_addr": "0:1ae2fad4418dedcc6cb59e56599aa3e6fdcce9f66698513bc932158dbb1bc701",
-   "mint": 1792767623,
-   "counter_issued": 390510,
-   "counter_total": 457382,
-   "img": "https://cdn4.telesco.pe/file/DQMpDM2foyAqZg62m_0QVNbwiynB67wye8Vs_IwR1OyRlD3mxqhZAz1o6Slkcr_47ro4x95LSgK-9_3XSYcU6nAOEfoWXkhDgmJ6D6neYO02x36rjtWO_yfqKo34PD-_-PntaEykF0B9v3q5Ee0njFIlw9HiWDs2lxK-2z5N0bzgF7qq8BArwqKWu1sLBGFPQgKAMGFhV_WiSYFUf8Xy8xdLorUlC3ez4jGPhEO8gl1Qv7qTcQ8XeB9X6pAETxbtYXl9DgjZtRG6qpPJf8-7tOOFP8QhwR_HkynN7iAsSJPev16DHPYAyjcUR9xV985oYR6bLBzKqYkKHPAfsTXPoQ.jpg",
-   "sent": 0,
-   "time": "2026-10-23T15:25:36.002Z",
-   "u": 1
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -370,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T16:13:34.060Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T16:13:34.060Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T16:13:34.060Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T16:13:34.060Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T16:13:34.060Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390518,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390518,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T16:15:37.225Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390519,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390519,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T16:15:37.225Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390520,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390520,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T16:15:37.225Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390521,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390521,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T16:15:37.225Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390522,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390522,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T16:15:37.225Z",
    "t": 1
   }
  ]
