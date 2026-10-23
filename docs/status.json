@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T18:27:57.477Z",
- "updated_unix": 1792780077,
- "runs": 13120,
+ "updated": "2026-10-23T18:30:51.887Z",
+ "updated_unix": 1792780251,
+ "runs": 13121,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 100768,
- "sent_total": 2775498,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 100769,
+ "sent_total": 2775575,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32672,
-   "owner": "",
-   "owner_addr": "0:7f150cac0407fa19e665a8a57eb2e39e2603fdbd30aeddbaffaa810b2e3d62b8",
-   "mint": 1792736355,
-   "counter_issued": 32672,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T18:03:29.833Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T18:26:52.982Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T18:27:52.073Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T18:27:52.073Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108442,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108442,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T18:30:50.191Z",
    "t": 1
   }
  ]
