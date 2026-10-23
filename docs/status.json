@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T07:19:29.286Z",
- "updated_unix": 1792739969,
- "runs": 13023,
+ "updated": "2026-10-23T07:21:31.629Z",
+ "updated_unix": 1792740091,
+ "runs": 13024,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 99939,
- "sent_total": 2712633,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 99940,
+ "sent_total": 2712709,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74597,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74597,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T06:40:11.590Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T07:19:26.866Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441331,
+   "owner": "",
+   "owner_addr": "0:5c6e51c765a9e47b0a8b7c65a20892143216a83633c8adaccaf22dfcc6341c1f",
+   "mint": 1792739998,
+   "counter_issued": 441331,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T07:21:29.026Z",
    "t": 1
   }
  ]
