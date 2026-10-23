@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T02:43:04.639Z",
- "updated_unix": 1792723384,
- "runs": 13000,
+ "updated": "2026-10-23T02:44:03.739Z",
+ "updated_unix": 1792723443,
+ "runs": 13001,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99762,
- "sent_total": 2699181,
+ "detected_total": 99763,
+ "sent_total": 2699257,
  "last_upgrades": [
-  {
-   "slug": "LushBouquet",
-   "gift": "LushBouquet",
-   "number": 112456,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 112456,
-   "counter_total": 140116,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T02:17:41.284Z",
-   "t": 3
-  },
   {
    "slug": "LushBouquet",
    "gift": "LushBouquet",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T02:42:59.559Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T02:42:59.559Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T02:42:59.559Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133490,
+   "owner": "parisgroup.ton",
+   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
+   "mint": 1792714916,
+   "counter_issued": 133490,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T02:44:00.099Z",
    "t": 1
   }
  ]
