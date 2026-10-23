@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T03:41:35.839Z",
- "updated_unix": 1792726895,
- "runs": 13005,
+ "updated": "2026-10-23T03:52:33.728Z",
+ "updated_unix": 1792727553,
+ "runs": 13006,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99780,
- "sent_total": 2700549,
+ "detected_total": 99781,
+ "sent_total": 2700625,
  "last_upgrades": [
-  {
-   "slug": "LushBouquet",
-   "gift": "LushBouquet",
-   "number": 112474,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 112474,
-   "counter_total": 140116,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T02:17:41.284Z",
-   "t": 3
-  },
   {
    "slug": "LushBouquet",
    "gift": "LushBouquet",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T03:41:28.625Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T03:41:28.625Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441313,
+   "owner": "",
+   "owner_addr": "0:54ea08b599400dc1bd74c33d39693664ebcf8e45831b88fbb32927441a6ba44a",
+   "mint": 1792726912,
+   "counter_issued": 441313,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T03:52:30.050Z",
    "t": 1
   }
  ]
