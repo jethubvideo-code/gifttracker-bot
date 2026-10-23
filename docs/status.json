@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-23T17:46:25.987Z",
- "updated_unix": 1792777585,
- "runs": 13114,
+ "updated": "2026-10-23T17:48:30.427Z",
+ "updated_unix": 1792777710,
+ "runs": 13115,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100728,
- "sent_total": 2772467,
+ "detected_total": 100730,
+ "sent_total": 2772621,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78231,
-   "owner": "",
-   "owner_addr": "0:c194ac7089766e949a202eac1dd15d1d849eddcce46532980995910996460ada",
-   "mint": 1792768276,
-   "counter_issued": 78231,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T16:43:59.044Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78232,
-   "owner": "",
-   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
-   "mint": 1792772925,
-   "counter_issued": 78232,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T16:43:59.044Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T17:27:05.561Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T17:46:24.226Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19797,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792767541,
+   "counter_issued": 19797,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T17:48:25.409Z",
+   "t": 1
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19798,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792767649,
+   "counter_issued": 19798,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T17:48:25.409Z",
    "t": 1
   }
  ]
