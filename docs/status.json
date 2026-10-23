@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T19:35:23.746Z",
- "updated_unix": 1792784123,
- "runs": 13127,
+ "updated": "2026-10-23T19:36:23.597Z",
+ "updated_unix": 1792784183,
+ "runs": 13128,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 100776,
- "sent_total": 2776108,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 100777,
+ "sent_total": 2776184,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84938,
-   "owner": "",
-   "owner_addr": "0:d8ab9cdde8b0b498c17650d0a3af2b0be59130eb817d4439359bab09f3d06b16",
-   "mint": 1792777434,
-   "counter_issued": 84938,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T18:04:19.307Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T19:35:19.901Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390529,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390529,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T19:36:22.001Z",
    "t": 1
   }
  ]
