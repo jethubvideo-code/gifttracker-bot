@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T18:31:51.887Z",
- "updated_unix": 1792780311,
- "runs": 13122,
+ "updated": "2026-10-23T18:58:06.924Z",
+ "updated_unix": 1792781886,
+ "runs": 13123,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100770,
- "sent_total": 2775652,
+ "detected_total": 100771,
+ "sent_total": 2775728,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32674,
-   "owner": "",
-   "owner_addr": "0:8faa60544f667ff4b74d9eb681cb0a1a16e5fce90e4e275cfe70e6b3eb4d57d5",
-   "mint": 1792752732,
-   "counter_issued": 32674,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T18:03:29.833Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T18:31:50.287Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133522,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792781206,
+   "counter_issued": 133522,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T18:58:04.349Z",
+   "t": 1
   }
  ]
 }
