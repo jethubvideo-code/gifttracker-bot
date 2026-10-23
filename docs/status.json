@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T01:57:27.010Z",
- "updated_unix": 1792720647,
- "runs": 12994,
+ "updated": "2026-10-23T01:59:26.828Z",
+ "updated_unix": 1792720766,
+ "runs": 12995,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99454,
- "sent_total": 2675773,
+ "detected_total": 99455,
+ "sent_total": 2675849,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77902,
-   "owner": "",
-   "owner_addr": "0:f79f52267caa9c8403d21794bbe5943790c491c714f0d439b7c68a173b10ff28",
-   "mint": 1792676275,
-   "counter_issued": 77902,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T00:52:57.112Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T01:57:23.204Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84231,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84231,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T01:59:23.111Z",
    "t": 1
   }
  ]
