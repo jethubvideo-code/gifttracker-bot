@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T01:55:29.683Z",
- "updated_unix": 1792720529,
- "runs": 12993,
+ "updated": "2026-10-23T01:57:27.010Z",
+ "updated_unix": 1792720647,
+ "runs": 12994,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99453,
- "sent_total": 2675697,
+ "detected_total": 99454,
+ "sent_total": 2675773,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77901,
-   "owner": "",
-   "owner_addr": "0:c6bf742cfa600508a14dfd2acd9ca90cd7298cd3092d5641ea522f3ad54dab60",
-   "mint": 1792675154,
-   "counter_issued": 77901,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T00:52:57.112Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T01:55:25.860Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 32654,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32654,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T01:57:23.204Z",
    "t": 1
   }
  ]
