@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T14:14:50.081Z",
- "updated_unix": 1792764890,
- "runs": 13083,
+ "updated": "2026-10-23T14:16:45.059Z",
+ "updated_unix": 1792765005,
+ "runs": 13084,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100596,
- "sent_total": 2762307,
+ "detected_total": 100597,
+ "sent_total": 2762384,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38651,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38651,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T13:41:13.471Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:14:33.612Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:14:33.612Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:14:33.612Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:14:33.612Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:14:33.612Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:14:33.612Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90273,
+   "owner": "elyaplugg.ton",
+   "owner_addr": "0:52c8f525939e2e0be44cea852aa7023053b799b303b24f4f7084a26d08dabf2c",
+   "mint": 1792764781,
+   "counter_issued": 90273,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T14:16:43.284Z",
    "t": 1
   }
  ]
