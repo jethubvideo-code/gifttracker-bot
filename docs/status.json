@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T03:52:33.728Z",
- "updated_unix": 1792727553,
- "runs": 13006,
+ "updated": "2026-10-23T04:49:12.014Z",
+ "updated_unix": 1792730952,
+ "runs": 13007,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99781,
- "sent_total": 2700625,
+ "detected_total": 99782,
+ "sent_total": 2700701,
  "last_upgrades": [
-  {
-   "slug": "LushBouquet",
-   "gift": "LushBouquet",
-   "number": 112475,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 112475,
-   "counter_total": 140116,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T02:17:41.284Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T03:52:30.050Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441314,
+   "owner": "",
+   "owner_addr": "0:cff1a414c3d667abeb28f4e7e7b3f1ca2e0cd25bc61e06ba29b161122cd8535f",
+   "mint": 1792730222,
+   "counter_issued": 441314,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T04:49:09.449Z",
    "t": 1
   }
  ]
