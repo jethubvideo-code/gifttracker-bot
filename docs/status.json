@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T20:53:56.110Z",
- "updated_unix": 1792788836,
- "runs": 13142,
+ "updated": "2026-10-23T21:19:22.711Z",
+ "updated_unix": 1792790362,
+ "runs": 13143,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 100816,
- "sent_total": 2778671,
+ "checked": 1,
+ "errors": 121,
+ "detected_total": 100817,
+ "sent_total": 2778747,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268109,
-   "owner": "",
-   "owner_addr": "0:6bf6e871746cd1d330cddc5d9de7c995a63479a3399f55aaa15a4718293ea899",
-   "mint": 1792785361,
-   "counter_issued": 268109,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T20:09:59.219Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T20:53:50.671Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133527,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792788867,
+   "counter_issued": 133527,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T21:19:19.923Z",
+   "t": 1
   }
  ]
 }
