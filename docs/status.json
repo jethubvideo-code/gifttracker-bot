@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T11:30:02.006Z",
- "updated_unix": 1792755002,
- "runs": 13056,
+ "updated": "2026-10-23T11:31:01.669Z",
+ "updated_unix": 1792755061,
+ "runs": 13057,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 100167,
- "sent_total": 2729747,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 100168,
+ "sent_total": 2729822,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 94158,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 94158,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T10:55:04.728Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T11:29:52.155Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "lovecandle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T11:29:52.155Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T11:30:00.015Z",
+   "t": 3
+  },
+  {
+   "slug": "SantaHat",
+   "gift": "Santa Hat",
+   "number": 71760,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792753971,
+   "counter_issued": 71760,
+   "counter_total": 89034,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T11:30:57.848Z",
    "t": 1
   }
  ]
