@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T19:37:21.598Z",
- "updated_unix": 1792784241,
- "runs": 13129,
+ "updated": "2026-10-23T19:38:26.654Z",
+ "updated_unix": 1792784306,
+ "runs": 13130,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 100778,
- "sent_total": 2776260,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 100779,
+ "sent_total": 2776336,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74668,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792759259,
-   "counter_issued": 74668,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T18:04:39.982Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T19:37:20.181Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441365,
+   "owner": "",
+   "owner_addr": "0:5bc82b0881dc1beea45430ab0d77eeea41346404d839256cd759bd2d15d5b15f",
+   "mint": 1792783655,
+   "counter_issued": 441365,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T19:38:24.905Z",
    "t": 1
   }
  ]
