@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T14:21:23.072Z",
- "updated_unix": 1792765283,
- "runs": 13086,
+ "updated": "2026-10-23T14:22:17.437Z",
+ "updated_unix": 1792765337,
+ "runs": 13087,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 100605,
- "sent_total": 2763000,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 100606,
+ "sent_total": 2763077,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38660,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38660,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T14:21:10.631Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108438,
+   "owner": "",
+   "owner_addr": "0:cf09b1e756a8e76c4a5dd14ab040a5fec851208284fa3dbdbfb0b95e8e5e76d4",
+   "mint": 1792762935,
+   "counter_issued": 108438,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T14:22:15.920Z",
    "t": 1
   }
  ]
