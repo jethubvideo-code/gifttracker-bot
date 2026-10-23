@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T08:39:47.106Z",
- "updated_unix": 1792744787,
- "runs": 13032,
+ "updated": "2026-10-23T08:56:32.684Z",
+ "updated_unix": 1792745792,
+ "runs": 13033,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99958,
- "sent_total": 2714062,
+ "detected_total": 99959,
+ "sent_total": 2714137,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74616,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74616,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T06:40:11.590Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -328,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:17.417Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:17.417Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:17.417Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:30.270Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:40.124Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:40.124Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:40.124Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:39:40.124Z",
+   "t": 2
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232287,
+   "owner": "",
+   "owner_addr": "0:dd6f495463baa21c50b91c5017a08cadd3fe74f30f67ec3f4e2ac6ff1ce0268a",
+   "mint": 1792740229,
+   "counter_issued": 232287,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T08:56:30.050Z",
    "t": 1
   }
  ]
