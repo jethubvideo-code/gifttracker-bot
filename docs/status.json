@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T19:38:26.654Z",
- "updated_unix": 1792784306,
- "runs": 13130,
+ "updated": "2026-10-23T20:07:42.513Z",
+ "updated_unix": 1792786062,
+ "runs": 13131,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100779,
- "sent_total": 2776336,
+ "detected_total": 100780,
+ "sent_total": 2776412,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74669,
-   "owner": "",
-   "owner_addr": "0:a22b61fdd09ba8ad69b3a25dd91617d58b9f34520df0afc7fd7aa9cba2026843",
-   "mint": 1792761203,
-   "counter_issued": 74669,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T18:04:39.982Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T19:38:24.905Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90280,
+   "owner": "",
+   "owner_addr": "0:c3da88a19adc6245f0338ee0e9b2e073f1ffcf5ebd95f7a3c7b4f1fab6d0c2ac",
+   "mint": 1792785936,
+   "counter_issued": 90280,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T20:07:40.730Z",
    "t": 1
   }
  ]
