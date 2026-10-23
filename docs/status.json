@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T08:25:10.028Z",
- "updated_unix": 1792743910,
- "runs": 13029,
+ "updated": "2026-10-23T08:33:11.289Z",
+ "updated_unix": 1792744391,
+ "runs": 13030,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99946,
- "sent_total": 2713162,
+ "detected_total": 99947,
+ "sent_total": 2713237,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74604,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74604,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T06:40:11.590Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T08:25:08.110Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3948,
+   "owner": "",
+   "owner_addr": "0:72e36220a84920990f13a7357f07383f38bd262989f43f4e68b5da846c779eb2",
+   "mint": 1792742310,
+   "counter_issued": 3948,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T08:33:08.242Z",
    "t": 1
   }
  ]
