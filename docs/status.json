@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T10:57:40.754Z",
- "updated_unix": 1792753060,
- "runs": 13052,
+ "updated": "2026-10-23T11:18:01.902Z",
+ "updated_unix": 1792754281,
+ "runs": 13053,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100156,
- "sent_total": 2728922,
+ "detected_total": 100157,
+ "sent_total": 2728997,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 94147,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 94147,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T10:55:04.728Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T10:57:37.768Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441336,
+   "owner": "",
+   "owner_addr": "0:61cd5ece737974cb8a620b4feb59990a4e3eeae29a83aea0dfa2477b5b02f032",
+   "mint": 1792753628,
+   "counter_issued": 441336,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T11:17:59.256Z",
    "t": 1
   }
  ]
