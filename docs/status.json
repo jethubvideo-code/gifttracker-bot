@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-23T09:31:48.951Z",
- "updated_unix": 1792747908,
- "runs": 13037,
+ "updated": "2026-10-23T09:33:57.351Z",
+ "updated_unix": 1792748037,
+ "runs": 13038,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99969,
- "sent_total": 2714887,
+ "detected_total": 99971,
+ "sent_total": 2715037,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441331,
-   "owner": "",
-   "owner_addr": "0:5c6e51c765a9e47b0a8b7c65a20892143216a83633c8adaccaf22dfcc6341c1f",
-   "mint": 1792739998,
-   "counter_issued": 441331,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T07:21:29.026Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390489,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390489,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T07:26:24.903Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:10:34.317Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:10:34.317Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:10:46.313Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:10:46.313Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:31:47.264Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108435,
+   "owner": "",
+   "owner_addr": "0:d4676b98465c31985dd465301662152ee6fee534f6d9e696681481f15ab46e45",
+   "mint": 1792745088,
+   "counter_issued": 108435,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T09:33:49.858Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268020,
+   "owner": "",
+   "owner_addr": "0:3f5fcb0a70c76a067ace92e3e758b47a0b1ba5a9292d22fbb198ffd6239c570d",
+   "mint": 1792747617,
+   "counter_issued": 268020,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T09:33:55.665Z",
    "t": 1
   }
  ]
