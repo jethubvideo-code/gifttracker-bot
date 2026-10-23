@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T17:22:04.989Z",
- "updated_unix": 1792776124,
- "runs": 13112,
+ "updated": "2026-10-23T17:27:07.521Z",
+ "updated_unix": 1792776427,
+ "runs": 13113,
  "collections": 122,
  "checked": 4,
  "errors": 118,
- "detected_total": 100726,
- "sent_total": 2772313,
+ "detected_total": 100727,
+ "sent_total": 2772390,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78229,
-   "owner": "",
-   "owner_addr": "0:7740d1acb2ec63dc4983e4240837be1f242136820a8ecda205edb671a05eb448",
-   "mint": 1792767232,
-   "counter_issued": 78229,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T16:43:59.044Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T17:22:03.332Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268097,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792776392,
+   "counter_issued": 268097,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T17:27:05.561Z",
    "t": 1
   }
  ]
