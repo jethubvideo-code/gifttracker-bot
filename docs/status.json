@@ -1,52 +1,13 @@
 {
- "updated": "2026-10-23T22:10:27.032Z",
- "updated_unix": 1792793427,
- "runs": 13148,
+ "updated": "2026-10-23T22:10:56.835Z",
+ "updated_unix": 1792793456,
+ "runs": 13149,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 101069,
- "sent_total": 2797899,
+ "checked": 2,
+ "errors": 120,
+ "detected_total": 101072,
+ "sent_total": 2798125,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 184275,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 184275,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T22:10:25.738Z"
-  },
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 184276,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 184276,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T22:10:25.738Z"
-  },
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 184277,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 184277,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T22:10:25.738Z"
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -58,7 +19,8 @@
    "counter_total": 198560,
    "img": "",
    "sent": 0,
-   "time": "2026-10-23T22:10:25.738Z"
+   "time": "2026-10-23T22:10:25.738Z",
+   "t": 1
   },
   {
    "slug": "MoodPack",
@@ -71,7 +33,8 @@
    "counter_total": 198560,
    "img": "",
    "sent": 0,
-   "time": "2026-10-23T22:10:25.738Z"
+   "time": "2026-10-23T22:10:25.738Z",
+   "t": 1
   },
   {
    "slug": "MoodPack",
@@ -84,7 +47,8 @@
    "counter_total": 198560,
    "img": "",
    "sent": 0,
-   "time": "2026-10-23T22:10:25.738Z"
+   "time": "2026-10-23T22:10:25.738Z",
+   "t": 1
   },
   {
    "slug": "MoodPack",
@@ -420,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T22:10:25.738Z",
+   "t": 2
+  },
+  {
+   "slug": "SantaHat",
+   "gift": "Santa Hat",
+   "number": 71761,
+   "owner": "",
+   "owner_addr": "0:3a799b1e7ee9968c5c801b3e8fb361e8fee88646ff07bd03aeac3cc899ef6703",
+   "mint": 1792777973,
+   "counter_issued": 71761,
+   "counter_total": 89034,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T22:10:46.192Z",
+   "t": 1
+  },
+  {
+   "slug": "SantaHat",
+   "gift": "Santa Hat",
+   "number": 71762,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792785886,
+   "counter_issued": 71762,
+   "counter_total": 89034,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T22:10:46.192Z",
+   "t": 1
+  },
+  {
+   "slug": "SantaHat",
+   "gift": "Santa Hat",
+   "number": 71763,
+   "owner": "gravecold.t.me",
+   "owner_addr": "0:ea6f8d81a3b88c6df5fd50db1ce5d5a9602bf8b4c26f5f543eb5ff21c9a29fa4",
+   "mint": 1792786746,
+   "counter_issued": 71763,
+   "counter_total": 89034,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T22:10:46.192Z",
    "t": 1
   }
  ]
