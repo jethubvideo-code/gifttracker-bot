@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-23T09:08:38.217Z",
- "updated_unix": 1792746518,
- "runs": 13034,
+ "updated": "2026-10-23T09:09:41.750Z",
+ "updated_unix": 1792746581,
+ "runs": 13035,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 99961,
- "sent_total": 2714287,
+ "detected_total": 99964,
+ "sent_total": 2714512,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390486,
-   "owner": "",
-   "owner_addr": "0:7f150cac0407fa19e665a8a57eb2e39e2603fdbd30aeddbaffaa810b2e3d62b8",
-   "mint": 1792736131,
-   "counter_issued": 390486,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T06:45:39.096Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108433,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108433,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T06:49:35.228Z",
-   "t": 3
-  },
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19794,
-   "owner": "",
-   "owner_addr": "0:ee7a61741025aa63c270d9fbc2c1fc390900cb3b1e9a9d4ce80b5c29ea809a85",
-   "mint": 1792728093,
-   "counter_issued": 19794,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T07:11:26.280Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:08:30.828Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T09:08:30.828Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441332,
+   "owner": "",
+   "owner_addr": "0:1d11a4707b839c65cf7ea10052d5fdf05ca37c5e65fd7fe4a3817e66f89a6566",
+   "mint": 1792746159,
+   "counter_issued": 441332,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T09:09:33.972Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390494,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390494,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T09:09:38.427Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390495,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390495,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T09:09:38.427Z",
    "t": 1
   }
  ]
