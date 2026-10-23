@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T18:23:38.836Z",
- "updated_unix": 1792779818,
- "runs": 13118,
+ "updated": "2026-10-23T18:26:54.867Z",
+ "updated_unix": 1792780014,
+ "runs": 13119,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100765,
- "sent_total": 2775267,
+ "detected_total": 100766,
+ "sent_total": 2775344,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32669,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32669,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T18:03:29.833Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T18:22:49.559Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T18:23:34.467Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90278,
+   "owner": "",
+   "owner_addr": "0:6697a284a5e13133ce159f1d44f2500b0227ed804eed3d092148d24a2750a0e7",
+   "mint": 1792777602,
+   "counter_issued": 90278,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T18:26:52.982Z",
    "t": 1
   }
  ]
