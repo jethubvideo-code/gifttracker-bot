@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T13:21:49.927Z",
- "updated_unix": 1792761709,
- "runs": 13079,
+ "updated": "2026-10-23T13:39:15.911Z",
+ "updated_unix": 1792762755,
+ "runs": 13080,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 100587,
- "sent_total": 2761614,
+ "detected_total": 100588,
+ "sent_total": 2761691,
  "last_upgrades": [
-  {
-   "slug": "FinePen",
-   "gift": "FinePen",
-   "number": 38642,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 38642,
-   "counter_total": 49529,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T13:12:03.806Z",
-   "t": 3
-  },
   {
    "slug": "FinePen",
    "gift": "FinePen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T13:21:47.895Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390508,
+   "owner": "",
+   "owner_addr": "0:bc60112de63c38c4ffc3c5bf303f6c4266faad2eab19e0060b5b5c5a79090c89",
+   "mint": 1792762218,
+   "counter_issued": 390508,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T13:39:13.943Z",
    "t": 1
   }
  ]
