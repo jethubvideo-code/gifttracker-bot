@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-23T02:44:03.739Z",
- "updated_unix": 1792723443,
- "runs": 13001,
+ "updated": "2026-10-23T02:46:03.050Z",
+ "updated_unix": 1792723563,
+ "runs": 13002,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 99763,
- "sent_total": 2699257,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 99764,
+ "sent_total": 2699333,
  "last_upgrades": [
-  {
-   "slug": "LushBouquet",
-   "gift": "LushBouquet",
-   "number": 112457,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 112457,
-   "counter_total": 140116,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T02:17:41.284Z",
-   "t": 3
-  },
   {
    "slug": "LushBouquet",
    "gift": "LushBouquet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T02:44:00.099Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90263,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90263,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T02:45:58.933Z",
    "t": 1
   }
  ]
