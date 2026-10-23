@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-23T15:34:41.608Z",
- "updated_unix": 1792769681,
- "runs": 13097,
+ "updated": "2026-10-23T15:42:46.237Z",
+ "updated_unix": 1792770166,
+ "runs": 13098,
  "collections": 122,
- "checked": 24,
- "errors": 98,
- "detected_total": 100634,
- "sent_total": 2765232,
+ "checked": 28,
+ "errors": 94,
+ "detected_total": 100637,
+ "sent_total": 2765463,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268047,
-   "owner": "",
-   "owner_addr": "0:4026d29c651cfee150d748e57423b1e4a221bb08936b2fa443f15a63dce721ea",
-   "mint": 1792765217,
-   "counter_issued": 268047,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T14:21:10.631Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108438,
-   "owner": "",
-   "owner_addr": "0:cf09b1e756a8e76c4a5dd14ab040a5fec851208284fa3dbdbfb0b95e8e5e76d4",
-   "mint": 1792762935,
-   "counter_issued": 108438,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T14:22:15.920Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441359,
-   "owner": "",
-   "owner_addr": "0:c0b6c424093316676b7c48acd123f48bb060b2a3354d18177bad7ddd2353b46d",
-   "mint": 1792765618,
-   "counter_issued": 441359,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-23T14:27:16.285Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -413,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T15:33:35.923Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -427,6 +385,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-23T15:34:39.664Z",
+   "t": 2
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3950,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3950,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T15:42:39.061Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3951,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3951,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T15:42:39.061Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3952,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3952,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-23T15:42:39.061Z",
    "t": 1
   }
  ]
