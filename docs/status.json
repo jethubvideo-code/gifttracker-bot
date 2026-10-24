@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T21:09:40.004Z",
- "updated_unix": 1792876180,
- "runs": 13289,
+ "updated": "2026-10-24T21:27:18.391Z",
+ "updated_unix": 1792877238,
+ "runs": 13290,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102901,
- "sent_total": 2941253,
+ "detected_total": 102903,
+ "sent_total": 2941411,
  "last_upgrades": [
-  {
-   "slug": "CupidCharm",
-   "gift": "Cupid Charm",
-   "number": 30398,
-   "owner": "",
-   "owner_addr": "0:94d33134d7e55596308348eef87c126e8cfbdead9f804a5b8121fe3da9dda2c7",
-   "mint": 1792714394,
-   "counter_issued": 30398,
-   "counter_total": 33112,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T20:56:20.834Z",
-   "t": 3
-  },
-  {
-   "slug": "CupidCharm",
-   "gift": "Cupid Charm",
-   "number": 30399,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792763482,
-   "counter_issued": 30399,
-   "counter_total": 33112,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T20:56:20.834Z",
-   "t": 3
-  },
   {
    "slug": "CupidCharm",
    "gift": "Cupid Charm",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T21:09:36.480Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133564,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133564,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T21:27:13.052Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133565,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133565,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T21:27:13.052Z",
    "t": 1
   }
  ]
