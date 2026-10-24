@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T12:22:32.144Z",
- "updated_unix": 1792844552,
- "runs": 13225,
+ "updated": "2026-10-24T12:37:35.606Z",
+ "updated_unix": 1792845455,
+ "runs": 13226,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102164,
- "sent_total": 2882857,
+ "detected_total": 102166,
+ "sent_total": 2883015,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441561,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441561,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T12:14:00.666Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441562,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441562,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T12:14:00.666Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T12:22:24.924Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T12:22:24.924Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133549,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133549,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T12:37:29.846Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133550,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133550,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T12:37:29.846Z",
    "t": 1
   }
  ]
