@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T16:53:11.181Z",
- "updated_unix": 1792860791,
- "runs": 13252,
+ "updated": "2026-10-24T16:57:06.942Z",
+ "updated_unix": 1792861026,
+ "runs": 13253,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102685,
- "sent_total": 2924190,
+ "detected_total": 102686,
+ "sent_total": 2924269,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 234954,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 234954,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T16:34:49.521Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T16:53:07.557Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390563,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390563,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T16:57:05.122Z",
    "t": 1
   }
  ]
