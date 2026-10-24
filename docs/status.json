@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T18:47:00.562Z",
- "updated_unix": 1792867620,
- "runs": 13265,
+ "updated": "2026-10-24T18:48:57.070Z",
+ "updated_unix": 1792867737,
+ "runs": 13266,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102735,
- "sent_total": 2928140,
+ "detected_total": 102736,
+ "sent_total": 2928219,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32696,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792844382,
-   "counter_issued": 32696,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T17:37:28.207Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T18:46:55.526Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T18:46:55.526Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133558,
+   "owner": "meytik.t.me",
+   "owner_addr": "0:0f76456e71236477705fe4b6bb9c62845c87d643cd97cd576fbdaba7b401e2cd",
+   "mint": 1792867302,
+   "counter_issued": 133558,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T18:48:55.487Z",
    "t": 1
   }
  ]
