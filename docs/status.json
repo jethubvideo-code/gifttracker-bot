@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T21:00:33.042Z",
- "updated_unix": 1792875633,
- "runs": 13285,
+ "updated": "2026-10-24T21:01:37.342Z",
+ "updated_unix": 1792875697,
+ "runs": 13286,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102889,
- "sent_total": 2940305,
+ "detected_total": 102890,
+ "sent_total": 2940384,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55524,
-   "owner": "",
-   "owner_addr": "0:5e9ea599335e22729b851c4b83d5eefb98219254978e0360a0b8e7b9359e8e42",
-   "mint": 1792861619,
-   "counter_issued": 55524,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T20:54:21.817Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T21:00:30.678Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441676,
+   "owner": "",
+   "owner_addr": "0:84e815378371241cece5672046fa889537a2bccf06b88df6acb76def850a8764",
+   "mint": 1792875246,
+   "counter_issued": 441676,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T21:01:33.829Z",
    "t": 1
   }
  ]
