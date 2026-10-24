@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T08:09:22.157Z",
- "updated_unix": 1792829362,
- "runs": 13200,
+ "updated": "2026-10-24T08:29:19.506Z",
+ "updated_unix": 1792830559,
+ "runs": 13201,
  "collections": 122,
- "checked": 0,
+ "checked": 5,
  "errors": 117,
- "detected_total": 101563,
- "sent_total": 2835381,
+ "detected_total": 101564,
+ "sent_total": 2835459,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77938,
-   "owner": "",
-   "owner_addr": "0:64a15f0e5c575ea2cd8763e92b214521adfaa41acab950a77e6c5e9d599bdff1",
-   "mint": 1792780368,
-   "counter_issued": 77938,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/hrnv6i6QklJzPC9GgzB76NRmaZ2g-hnq2VGZ2vBCqn6g-xo34c0bocyRDCFWDAweiMFqfo2eV777YvAJuIVLmHxTyR0usX2On9VbmGMBaLUfLPxK9JkT1r-dV9Up4aIz4lm6ccvqxROErMkNuuw3SAPKAeJZxdKcCCTXr0GZJylYodyOJZgIVz-AOhElHxVgYjckGs84zNZemWFRAXotoHUjCDzy8VgFCCxoCSyxdgxaKcNege6B3YgbCnhnD3g50Mrs_sQG-guHoZmKPSOvGvFwnFs1tQa8E7IhvPv0ow3YUr3ShUqv8zAthRENaJQn143Qr9cFGYDU8seLOc6wlQ.jpg",
-   "sent": 0,
-   "time": "2026-10-24T05:08:19.572Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-24T08:00:07.504Z",
    "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390552,
+   "owner": "",
+   "owner_addr": "0:7579b03a769b0087eb2a07d483c1e9fec5b607a8c690d75394c4db22c6ede0b9",
+   "mint": 1792829166,
+   "counter_issued": 390552,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T08:29:17.738Z",
+   "t": 1
   }
  ]
 }
