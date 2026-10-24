@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T05:33:46.256Z",
- "updated_unix": 1792820026,
- "runs": 13186,
+ "updated": "2026-10-24T06:08:09.521Z",
+ "updated_unix": 1792822089,
+ "runs": 13187,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101543,
- "sent_total": 2833841,
+ "detected_total": 101544,
+ "sent_total": 2833918,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78238,
-   "owner": "",
-   "owner_addr": "0:e2c93c973a050e04e244fe8e817e98db8cbc76ef40a78a0b0ea9a9b523f71a3a",
-   "mint": 1792817234,
-   "counter_issued": 78238,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:06:27.462Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T05:33:42.413Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441390,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792821586,
+   "counter_issued": 441390,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T06:08:07.619Z",
    "t": 1
   }
  ]
