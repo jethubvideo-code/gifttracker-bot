@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T06:17:25.778Z",
- "updated_unix": 1792822645,
- "runs": 13190,
+ "updated": "2026-10-24T06:21:23.018Z",
+ "updated_unix": 1792822883,
+ "runs": 13191,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101550,
- "sent_total": 2834380,
+ "detected_total": 101551,
+ "sent_total": 2834457,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 108824,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108824,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:07:27.425Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:17:04.515Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:17:15.329Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:17:15.329Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:17:15.329Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268177,
+   "owner": "",
+   "owner_addr": "0:0cbc9bdfbd4d743d2c6e629fea8dc3aee2d954f037fcd9e0c6c653e4e35d312e",
+   "mint": 1792821911,
+   "counter_issued": 268177,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T06:21:21.044Z",
    "t": 1
   }
  ]
