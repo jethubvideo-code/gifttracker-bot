@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T06:53:28.787Z",
- "updated_unix": 1792824808,
- "runs": 13193,
+ "updated": "2026-10-24T06:58:24.057Z",
+ "updated_unix": 1792825104,
+ "runs": 13194,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 101554,
- "sent_total": 2834688,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 101555,
+ "sent_total": 2834765,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108828,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792786855,
-   "counter_issued": 108828,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:07:27.425Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:53:21.664Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "MadPumpkin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:53:21.664Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390547,
+   "owner": "weathersbox.ton",
+   "owner_addr": "0:54abde6a4ed4332e1e14d01c016f858db7e80cfc6db349998eef5eb0e3057c54",
+   "mint": 1792824244,
+   "counter_issued": 390547,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T06:58:22.264Z",
    "t": 1
   }
  ]
