@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T07:54:15.505Z",
- "updated_unix": 1792828455,
- "runs": 13197,
+ "updated": "2026-10-24T07:58:11.675Z",
+ "updated_unix": 1792828691,
+ "runs": 13198,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 101561,
- "sent_total": 2835227,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 101562,
+ "sent_total": 2835304,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77936,
-   "owner": "",
-   "owner_addr": "0:0a2324e5dfe3460d42e1db8c32306458c34bb3817a9071631c87712d6337ee91",
-   "mint": 1792775747,
-   "counter_issued": 77936,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/hrnv6i6QklJzPC9GgzB76NRmaZ2g-hnq2VGZ2vBCqn6g-xo34c0bocyRDCFWDAweiMFqfo2eV777YvAJuIVLmHxTyR0usX2On9VbmGMBaLUfLPxK9JkT1r-dV9Up4aIz4lm6ccvqxROErMkNuuw3SAPKAeJZxdKcCCTXr0GZJylYodyOJZgIVz-AOhElHxVgYjckGs84zNZemWFRAXotoHUjCDzy8VgFCCxoCSyxdgxaKcNege6B3YgbCnhnD3g50Mrs_sQG-guHoZmKPSOvGvFwnFs1tQa8E7IhvPv0ow3YUr3ShUqv8zAthRENaJQn143Qr9cFGYDU8seLOc6wlQ.jpg",
-   "sent": 0,
-   "time": "2026-10-24T05:08:19.572Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T07:19:39.002Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T07:54:00.686Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T07:54:00.686Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T07:54:00.686Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T07:54:11.606Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90286,
+   "owner": "",
+   "owner_addr": "0:6dcb1be313b2dc4401dc9ac98a518c0989e7bb1e8a6fb19443037955bfee9f6a",
+   "mint": 1792825000,
+   "counter_issued": 90286,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T07:58:09.944Z",
    "t": 1
   }
  ]
