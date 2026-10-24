@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T23:19:19.767Z",
- "updated_unix": 1792883959,
- "runs": 13304,
+ "updated": "2026-10-24T23:47:38.266Z",
+ "updated_unix": 1792885658,
+ "runs": 13305,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103322,
- "sent_total": 2974512,
+ "detected_total": 103324,
+ "sent_total": 2974670,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328790,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328790,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T22:52:43.392Z",
-   "t": 3
-  },
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328791,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328791,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T22:52:43.392Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T23:19:15.842Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390571,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390571,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T23:47:32.424Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90298,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90298,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T23:47:36.578Z",
    "t": 1
   }
  ]
