@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T16:48:14.749Z",
- "updated_unix": 1792860494,
- "runs": 13251,
+ "updated": "2026-10-24T16:53:11.181Z",
+ "updated_unix": 1792860791,
+ "runs": 13252,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102684,
- "sent_total": 2924111,
+ "detected_total": 102685,
+ "sent_total": 2924190,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 234953,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 234953,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T16:34:49.521Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T16:47:56.844Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T16:48:04.521Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T16:48:04.521Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T16:48:04.521Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90292,
+   "owner": "",
+   "owner_addr": "0:0e5bacd8c49633746d4a175f06000d246f56a4ad67617591c153fc9aa39586da",
+   "mint": 1792855663,
+   "counter_issued": 90292,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T16:53:07.557Z",
    "t": 1
   }
  ]
