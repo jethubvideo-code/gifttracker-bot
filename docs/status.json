@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T13:12:47.138Z",
- "updated_unix": 1792847567,
- "runs": 13232,
+ "updated": "2026-10-24T13:20:49.514Z",
+ "updated_unix": 1792848049,
+ "runs": 13233,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102173,
- "sent_total": 2883568,
+ "detected_total": 102174,
+ "sent_total": 2883647,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441570,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441570,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T12:14:00.666Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T13:12:45.788Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26091,
+   "owner": "baxia.ton",
+   "owner_addr": "0:33c7ad5bab94cdae9e63802551d2b29d8d242bee58819f06ec3b81cb4cbc6789",
+   "mint": 1792847726,
+   "counter_issued": 26091,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T13:20:46.022Z",
    "t": 1
   }
  ]
