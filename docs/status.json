@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T03:19:31.330Z",
- "updated_unix": 1792811971,
- "runs": 13178,
+ "updated": "2026-10-24T03:24:29.141Z",
+ "updated_unix": 1792812269,
+ "runs": 13179,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101498,
- "sent_total": 2830376,
+ "detected_total": 101499,
+ "sent_total": 2830453,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230113,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230113,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T03:18:13.385Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T03:19:27.474Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108451,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108451,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T03:24:27.293Z",
    "t": 1
   }
  ]
