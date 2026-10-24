@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T02:08:55.995Z",
- "updated_unix": 1792807735,
- "runs": 13172,
+ "updated": "2026-10-24T02:16:57.676Z",
+ "updated_unix": 1792808217,
+ "runs": 13173,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101374,
- "sent_total": 2821084,
+ "detected_total": 101375,
+ "sent_total": 2821161,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268139,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268139,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T01:45:03.737Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T02:08:54.180Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441388,
+   "owner": "sotrium-crypto.ton",
+   "owner_addr": "0:f8b6a5068d8e4632df33e1872117fe7e43bcec429ec6c6e913bdddf5dca93aca",
+   "mint": 1792807940,
+   "counter_issued": 441388,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T02:16:53.973Z",
    "t": 1
   }
  ]
