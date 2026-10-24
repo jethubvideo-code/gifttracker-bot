@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T23:18:19.784Z",
- "updated_unix": 1792883899,
- "runs": 13303,
+ "updated": "2026-10-24T23:19:19.767Z",
+ "updated_unix": 1792883959,
+ "runs": 13304,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 103321,
- "sent_total": 2974433,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 103322,
+ "sent_total": 2974512,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328789,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328789,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T22:52:43.392Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T23:18:16.132Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108466,
+   "owner": "",
+   "owner_addr": "0:b6aeabd2573e0d7c9af00b265ff599f8394fee370db4ea4d0c220311f84271af",
+   "mint": 1792883434,
+   "counter_issued": 108466,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T23:19:15.842Z",
    "t": 1
   }
  ]
