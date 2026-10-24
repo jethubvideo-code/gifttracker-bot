@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T15:34:09.131Z",
- "updated_unix": 1792856049,
- "runs": 13245,
+ "updated": "2026-10-24T15:38:07.531Z",
+ "updated_unix": 1792856287,
+ "runs": 13246,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 102215,
- "sent_total": 2886886,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 102216,
+ "sent_total": 2886965,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268202,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268202,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T14:58:01.427Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T15:34:05.292Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268226,
+   "owner": "black-rent-gift.ton",
+   "owner_addr": "0:b3aca6df279aa9a8573851933f3fccf9f7435e762a50fbb45ca6b64c43a80652",
+   "mint": 1792856144,
+   "counter_issued": 268226,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T15:38:05.301Z",
    "t": 1
   }
  ]
