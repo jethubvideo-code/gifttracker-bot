@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T05:12:31.704Z",
- "updated_unix": 1792818751,
- "runs": 13185,
+ "updated": "2026-10-24T05:33:46.256Z",
+ "updated_unix": 1792820026,
+ "runs": 13186,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101542,
- "sent_total": 2833764,
+ "detected_total": 101543,
+ "sent_total": 2833841,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78237,
-   "owner": "",
-   "owner_addr": "0:00966244e2b2b1e9d89dcf9579795cdec3d109b54658196ecea3ed5c0bff1562",
-   "mint": 1792800479,
-   "counter_issued": 78237,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:06:27.462Z",
-   "t": 2
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T05:06:27.462Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T05:06:56.103Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T05:06:56.103Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T05:06:56.103Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T05:12:27.980Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32687,
+   "owner": "hipparchia.ton",
+   "owner_addr": "0:ab756af6950c358dd4f690c4bf39b0a90339a566751da68935e866b4c8495034",
+   "mint": 1792818312,
+   "counter_issued": 32687,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T05:33:42.413Z",
    "t": 1
   }
  ]
