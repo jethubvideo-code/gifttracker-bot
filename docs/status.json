@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T12:51:31.105Z",
- "updated_unix": 1792846291,
- "runs": 13229,
+ "updated": "2026-10-24T12:52:34.630Z",
+ "updated_unix": 1792846354,
+ "runs": 13230,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102169,
- "sent_total": 2883252,
+ "detected_total": 102170,
+ "sent_total": 2883331,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441566,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441566,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T12:14:00.666Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T12:51:28.836Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19801,
+   "owner": "",
+   "owner_addr": "0:ed90031c3adcd08c4f846eefa16c29fa87acbc746fa4971b81005c6d9c52d0c3",
+   "mint": 1792839466,
+   "counter_issued": 19801,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T12:52:30.728Z",
    "t": 1
   }
  ]
