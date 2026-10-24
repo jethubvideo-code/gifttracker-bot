@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T14:02:09.084Z",
- "updated_unix": 1792850529,
- "runs": 13238,
+ "updated": "2026-10-24T14:23:26.871Z",
+ "updated_unix": 1792851806,
+ "runs": 13239,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102181,
- "sent_total": 2884200,
+ "detected_total": 102182,
+ "sent_total": 2884279,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441578,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441578,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T12:14:00.666Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T14:02:07.360Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23058,
+   "owner": "",
+   "owner_addr": "0:825766c0ebbfb365eaaf25a947e2811e0e6b69af37b574eb1fba718f574f2ea8",
+   "mint": 1792848225,
+   "counter_issued": 23058,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T14:23:24.742Z",
    "t": 1
   }
  ]
