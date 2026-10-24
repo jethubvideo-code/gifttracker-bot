@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T22:18:37.351Z",
- "updated_unix": 1792880317,
- "runs": 13297,
+ "updated": "2026-10-24T22:36:57.036Z",
+ "updated_unix": 1792881417,
+ "runs": 13298,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103150,
- "sent_total": 2960924,
+ "detected_total": 103152,
+ "sent_total": 2961082,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88887,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88887,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T22:15:13.458Z",
-   "t": 3
-  },
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88888,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88888,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T22:15:13.458Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T22:18:26.655Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T22:18:33.718Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133569,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133569,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T22:36:51.967Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133570,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133570,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T22:36:51.967Z",
    "t": 1
   }
  ]
