@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T06:58:24.057Z",
- "updated_unix": 1792825104,
- "runs": 13194,
+ "updated": "2026-10-24T06:59:26.727Z",
+ "updated_unix": 1792825166,
+ "runs": 13195,
  "collections": 122,
  "checked": 4,
  "errors": 118,
- "detected_total": 101555,
- "sent_total": 2834765,
+ "detected_total": 101556,
+ "sent_total": 2834842,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108829,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792786872,
-   "counter_issued": 108829,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:07:27.425Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:58:22.264Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133536,
+   "owner": "",
+   "owner_addr": "0:0dd48bde3496e9d07ecd862cdbed163a470e3469aea265a02fd5ecccaa9be656",
+   "mint": 1792824873,
+   "counter_issued": 133536,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T06:59:22.235Z",
    "t": 1
   }
  ]
