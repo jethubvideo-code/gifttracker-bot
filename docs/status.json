@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T18:00:27.460Z",
- "updated_unix": 1792864827,
- "runs": 13257,
+ "updated": "2026-10-24T18:01:26.068Z",
+ "updated_unix": 1792864886,
+ "runs": 13258,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102714,
- "sent_total": 2926481,
+ "detected_total": 102715,
+ "sent_total": 2926560,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90292,
-   "owner": "",
-   "owner_addr": "0:0e5bacd8c49633746d4a175f06000d246f56a4ad67617591c153fc9aa39586da",
-   "mint": 1792855663,
-   "counter_issued": 90292,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T16:53:07.557Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T18:00:23.750Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108460,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108460,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T18:01:22.325Z",
    "t": 1
   }
  ]
