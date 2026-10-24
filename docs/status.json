@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T15:04:05.756Z",
- "updated_unix": 1792854245,
- "runs": 13243,
+ "updated": "2026-10-24T15:15:05.021Z",
+ "updated_unix": 1792854905,
+ "runs": 13244,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 102213,
- "sent_total": 2886728,
+ "checked": 3,
+ "errors": 119,
+ "detected_total": 102214,
+ "sent_total": 2886807,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90290,
-   "owner": "",
-   "owner_addr": "0:368e36deb8d962a37aa4bcf8ea9fb72118ac3500b47807015ff32a1e611419c7",
-   "mint": 1792843645,
-   "counter_issued": 90290,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T14:57:47.491Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T15:03:56.533Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T15:03:56.533Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T15:03:56.533Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133552,
+   "owner": "vitalypafas.ton",
+   "owner_addr": "0:d0ed28d116383628d2674337aa6df694fed503468d183f6cdb5e21d117dd94f4",
+   "mint": 1792850979,
+   "counter_issued": 133552,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T15:15:01.170Z",
    "t": 1
   }
  ]
