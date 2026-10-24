@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T19:11:34.766Z",
- "updated_unix": 1792869094,
- "runs": 13268,
+ "updated": "2026-10-24T19:16:33.165Z",
+ "updated_unix": 1792869393,
+ "runs": 13269,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102800,
- "sent_total": 2933275,
+ "detected_total": 102801,
+ "sent_total": 2933354,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441645,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441645,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T19:05:03.292Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T19:11:20.653Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T19:11:20.653Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T19:11:20.653Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T19:11:20.653Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390566,
+   "owner": "",
+   "owner_addr": "0:bea374dce1838e857097739d338ac3cc03a1c0bd4aee7b49e0abe882d2efd3e3",
+   "mint": 1792869251,
+   "counter_issued": 390566,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T19:16:30.864Z",
    "t": 1
   }
  ]
