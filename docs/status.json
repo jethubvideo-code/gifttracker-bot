@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T06:45:23.408Z",
- "updated_unix": 1792824323,
- "runs": 13192,
+ "updated": "2026-10-24T06:53:28.787Z",
+ "updated_unix": 1792824808,
+ "runs": 13193,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101552,
- "sent_total": 2834534,
+ "detected_total": 101554,
+ "sent_total": 2834688,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108826,
-   "owner": "",
-   "owner_addr": "0:d7ddeeefbf5dbb779092d315f29d95a2e2dab8fda28fe25d22193af33b9f193b",
-   "mint": 1792785819,
-   "counter_issued": 108826,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:07:27.425Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108827,
-   "owner": "",
-   "owner_addr": "0:c3da88a19adc6245f0338ee0e9b2e073f1ffcf5ebd95f7a3c7b4f1fab6d0c2ac",
-   "mint": 1792785952,
-   "counter_issued": 108827,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T05:07:27.425Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T06:45:21.788Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "MadPumpkin",
+   "number": 19799,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 19799,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T06:53:21.664Z",
+   "t": 1
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19800,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792815515,
+   "counter_issued": 19800,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T06:53:21.664Z",
    "t": 1
   }
  ]
