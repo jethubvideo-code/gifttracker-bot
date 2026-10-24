@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T10:16:19.255Z",
- "updated_unix": 1792836979,
- "runs": 13212,
+ "updated": "2026-10-24T10:20:24.972Z",
+ "updated_unix": 1792837224,
+ "runs": 13213,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 101586,
- "sent_total": 2837197,
+ "detected_total": 101588,
+ "sent_total": 2837355,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133537,
-   "owner": "",
-   "owner_addr": "0:0dd48bde3496e9d07ecd862cdbed163a470e3469aea265a02fd5ecccaa9be656",
-   "mint": 1792826084,
-   "counter_issued": 133537,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T07:19:39.002Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390548,
-   "owner": "",
-   "owner_addr": "0:3b6831891733af2caad62460e0be4b6ba9b61dbde7ad906892f51e0619023d78",
-   "mint": 1792827711,
-   "counter_issued": 390548,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T07:54:00.686Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T10:16:17.075Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441394,
+   "owner": "",
+   "owner_addr": "0:2fb4303836c3e5781b2ab01dbad3146b32c68df534b1b450c7f3c28b5b4d8662",
+   "mint": 1792835022,
+   "counter_issued": 441394,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T10:20:20.828Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441395,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792835942,
+   "counter_issued": 441395,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T10:20:20.828Z",
    "t": 1
   }
  ]
