@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-24T21:27:18.391Z",
- "updated_unix": 1792877238,
- "runs": 13290,
+ "updated": "2026-10-24T21:29:25.931Z",
+ "updated_unix": 1792877365,
+ "runs": 13291,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 102903,
- "sent_total": 2941411,
+ "detected_total": 102905,
+ "sent_total": 2941569,
  "last_upgrades": [
-  {
-   "slug": "CupidCharm",
-   "gift": "Cupid Charm",
-   "number": 30400,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792767223,
-   "counter_issued": 30400,
-   "counter_total": 33112,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T20:56:20.834Z",
-   "t": 3
-  },
-  {
-   "slug": "CupidCharm",
-   "gift": "Cupid Charm",
-   "number": 30401,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792786411,
-   "counter_issued": 30401,
-   "counter_total": 33112,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-24T20:56:20.834Z",
-   "t": 3
-  },
   {
    "slug": "CupidCharm",
    "gift": "Cupid Charm",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T21:27:13.052Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-24T21:27:13.052Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90296,
+   "owner": "",
+   "owner_addr": "0:ca199b197841d318051b833eaadea8b9ffc75199d70f12954edfed524e5925c2",
+   "mint": 1792873096,
+   "counter_issued": 90296,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T21:29:16.280Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390568,
+   "owner": "",
+   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
+   "mint": 1792877295,
+   "counter_issued": 390568,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-24T21:29:24.038Z",
    "t": 1
   }
  ]
