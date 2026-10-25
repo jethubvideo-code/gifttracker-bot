@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T17:45:15.811Z",
- "updated_unix": 1792950315,
- "runs": 13404,
+ "updated": "2026-10-25T18:04:23.319Z",
+ "updated_unix": 1792951463,
+ "runs": 13405,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104485,
- "sent_total": 3065990,
+ "detected_total": 104486,
+ "sent_total": 3066069,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74684,
-   "owner": "",
-   "owner_addr": "0:961a190c1a2f1ae0686aa2d7d10a3804be3027ad7de1a2fff575e9b1255caf5c",
-   "mint": 1792940667,
-   "counter_issued": 74684,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:44:28.532Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T17:45:07.700Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T17:45:07.700Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T17:45:07.700Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390598,
+   "owner": "sarvran.t.me",
+   "owner_addr": "0:9e910346ab60076a6609d4ae3a4622182002cd3bba16c50bd36f3aa3b838eac5",
+   "mint": 1792950694,
+   "counter_issued": 390598,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T18:04:20.913Z",
    "t": 1
   }
  ]
