@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T11:41:17.208Z",
- "updated_unix": 1792928477,
- "runs": 13353,
+ "updated": "2026-10-25T11:43:18.016Z",
+ "updated_unix": 1792928598,
+ "runs": 13354,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104037,
- "sent_total": 3030712,
+ "detected_total": 104038,
+ "sent_total": 3030790,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447944,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447944,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T11:08:25.082Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T11:41:13.588Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441702,
+   "owner": "",
+   "owner_addr": "0:09a7d478cdf014a41f909bc9d461709c1524968703771f9538e2985491acf986",
+   "mint": 1792927904,
+   "counter_issued": 441702,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T11:43:16.506Z",
    "t": 1
   }
  ]
