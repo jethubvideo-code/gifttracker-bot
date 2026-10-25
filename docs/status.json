@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T15:44:43.014Z",
- "updated_unix": 1792943083,
- "runs": 13389,
+ "updated": "2026-10-25T15:46:41.118Z",
+ "updated_unix": 1792943201,
+ "runs": 13390,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104458,
- "sent_total": 3063858,
+ "detected_total": 104460,
+ "sent_total": 3064016,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230234,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230234,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:18:48.865Z",
-   "t": 3
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230235,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230235,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:18:48.865Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:44:28.532Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:44:35.995Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:44:35.995Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390595,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390595,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T15:46:37.457Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390596,
+   "owner": "",
+   "owner_addr": "0:961a190c1a2f1ae0686aa2d7d10a3804be3027ad7de1a2fff575e9b1255caf5c",
+   "mint": 1792940614,
+   "counter_issued": 390596,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T15:46:37.457Z",
    "t": 1
   }
  ]
