@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T17:31:08.797Z",
- "updated_unix": 1792949468,
- "runs": 13402,
+ "updated": "2026-10-25T17:37:09.329Z",
+ "updated_unix": 1792949829,
+ "runs": 13403,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 104481,
- "sent_total": 3065674,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 104482,
+ "sent_total": 3065753,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441819,
-   "owner": "moro-wallet.ton",
-   "owner_addr": "0:f517e6b8f37ad66779750a62f5d01ed4294e174c1237c0160897533eb6f9c5c7",
-   "mint": 1792940751,
-   "counter_issued": 441819,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:25:11.096Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T17:31:04.958Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390597,
+   "owner": "",
+   "owner_addr": "0:0c27ad7205cec434e212c7a16614914918df6322adc72349df0ea80de71487d3",
+   "mint": 1792945437,
+   "counter_issued": 390597,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T17:37:06.944Z",
    "t": 1
   }
  ]
