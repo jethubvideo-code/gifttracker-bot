@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T21:02:39.502Z",
- "updated_unix": 1792962159,
- "runs": 13424,
+ "updated": "2026-10-25T21:03:22.334Z",
+ "updated_unix": 1792962202,
+ "runs": 13425,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 104524,
- "sent_total": 3068606,
+ "checked": 3,
+ "errors": 119,
+ "detected_total": 104526,
+ "sent_total": 3068766,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390599,
-   "owner": "",
-   "owner_addr": "0:397de2bf79fdc06ceb12a30700851c8f7447febf4117c583ea1bbcf4b3ec4309",
-   "mint": 1792953265,
-   "counter_issued": 390599,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T19:16:06.293Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390600,
-   "owner": "",
-   "owner_addr": "0:ef13b7d4ecbe19adfdbe8eceef41ac27b72117a35483ace20953237c3cbeef3f",
-   "mint": 1792953726,
-   "counter_issued": 390600,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T19:16:06.293Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T21:02:07.113Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133605,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133605,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T21:03:10.855Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133606,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133606,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T21:03:10.855Z",
    "t": 1
   }
  ]
