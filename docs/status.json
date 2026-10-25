@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T04:30:36.476Z",
- "updated_unix": 1792902636,
- "runs": 13324,
+ "updated": "2026-10-25T05:06:04.270Z",
+ "updated_unix": 1792904764,
+ "runs": 13325,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103536,
- "sent_total": 2991354,
+ "detected_total": 103538,
+ "sent_total": 2991512,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 189177,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189177,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T04:00:27.562Z",
-   "t": 3
-  },
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 189178,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189178,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T04:00:27.562Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:09:45.891Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:30:33.906Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441701,
+   "owner": "komron.ton",
+   "owner_addr": "0:d54dd2f7b5f48df15bd0649fedcb3afe2be2e19ee1d1432e9224b5fda97770ee",
+   "mint": 1792904403,
+   "counter_issued": 441701,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T05:05:55.214Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390574,
+   "owner": "gosuslugivpn.ton",
+   "owner_addr": "0:2297daee9399b1469c6bc33dd34cd19510092d432410524b9402462d27863e6e",
+   "mint": 1792901628,
+   "counter_issued": 390574,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T05:06:00.426Z",
    "t": 1
   }
  ]
