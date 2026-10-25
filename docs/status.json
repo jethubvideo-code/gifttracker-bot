@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T09:53:31.806Z",
- "updated_unix": 1792922011,
- "runs": 13343,
+ "updated": "2026-10-25T09:55:37.291Z",
+ "updated_unix": 1792922137,
+ "runs": 13344,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 103894,
- "sent_total": 3019552,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 103896,
+ "sent_total": 3019710,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133579,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133579,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T08:02:28.276Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133580,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133580,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T08:02:28.276Z",
-   "t": 3
-  },
   {
    "slug": "BlingBinky",
    "gift": "Bling Binky",
@@ -399,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T09:52:29.061Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -413,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T09:52:29.061Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T09:53:29.705Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133583,
+   "owner": "",
+   "owner_addr": "0:d64741c2d223e06624b94c5ca126bf1cc5da766d16ece009e92cbd628aa2308f",
+   "mint": 1792920809,
+   "counter_issued": 133583,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T09:55:30.214Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133584,
+   "owner": "rewel.t.me",
+   "owner_addr": "0:6656d2db1b207a68d4a0d898db6a80c79469e5e2ab2e9521647e72f7649b217d",
+   "mint": 1792921831,
+   "counter_issued": 133584,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T09:55:30.214Z",
    "t": 1
   }
  ]
