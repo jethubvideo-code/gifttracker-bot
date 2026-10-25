@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T04:09:49.482Z",
- "updated_unix": 1792901389,
- "runs": 13323,
+ "updated": "2026-10-25T04:30:36.476Z",
+ "updated_unix": 1792902636,
+ "runs": 13324,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103535,
- "sent_total": 2991275,
+ "detected_total": 103536,
+ "sent_total": 2991354,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 189176,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189176,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T04:00:27.562Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:09:45.891Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441700,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441700,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T04:30:33.906Z",
    "t": 1
   }
  ]
