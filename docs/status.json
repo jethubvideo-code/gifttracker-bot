@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T05:06:04.270Z",
- "updated_unix": 1792904764,
- "runs": 13325,
+ "updated": "2026-10-25T05:08:00.512Z",
+ "updated_unix": 1792904880,
+ "runs": 13326,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103538,
- "sent_total": 2991512,
+ "detected_total": 103539,
+ "sent_total": 2991591,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 189179,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189179,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T04:00:27.562Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:30:33.906Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T05:05:55.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T05:06:00.426Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133576,
+   "owner": "",
+   "owner_addr": "0:31ac4d162f12ed7fd917901305429bdb610500e64051cb3396bfcd7bd8e55895",
+   "mint": 1792903987,
+   "counter_issued": 133576,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T05:07:56.746Z",
    "t": 1
   }
  ]
