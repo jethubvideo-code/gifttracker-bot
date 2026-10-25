@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T09:55:37.291Z",
- "updated_unix": 1792922137,
- "runs": 13344,
+ "updated": "2026-10-25T09:57:29.077Z",
+ "updated_unix": 1792922249,
+ "runs": 13345,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103896,
- "sent_total": 3019710,
+ "detected_total": 103897,
+ "sent_total": 3019789,
  "last_upgrades": [
-  {
-   "slug": "BlingBinky",
-   "gift": "Bling Binky",
-   "number": 9432,
-   "owner": "",
-   "owner_addr": "0:f9083235447a54f9444972f9e9fabe74dcac3e24a1902266b805ef11d2fadb36",
-   "mint": 1792887037,
-   "counter_issued": 9432,
-   "counter_total": 9990,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T08:02:38.415Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T09:55:30.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T09:55:30.214Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90303,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90303,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T09:57:27.310Z",
    "t": 1
   }
  ]
