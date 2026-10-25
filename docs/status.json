@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T15:27:19.825Z",
- "updated_unix": 1792942039,
- "runs": 13387,
+ "updated": "2026-10-25T15:43:30.626Z",
+ "updated_unix": 1792943010,
+ "runs": 13388,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104454,
- "sent_total": 3063542,
+ "detected_total": 104455,
+ "sent_total": 3063621,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230230,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230230,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:18:48.865Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:27:16.455Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:27:16.455Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164035,
+   "owner": "",
+   "owner_addr": "0:3fdd2a8ae6c909276d49ec473f958135fd253511d3bd5deb976882afda6c2cb9",
+   "mint": 1792930349,
+   "counter_issued": 164035,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T15:43:28.490Z",
    "t": 1
   }
  ]
