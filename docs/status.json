@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T12:59:27.108Z",
- "updated_unix": 1792933167,
- "runs": 13359,
+ "updated": "2026-10-25T13:01:01.729Z",
+ "updated_unix": 1792933261,
+ "runs": 13360,
  "collections": 122,
- "checked": 0,
- "errors": 122,
- "detected_total": 104053,
- "sent_total": 3031960,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 104055,
+ "sent_total": 3032118,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74626,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74626,
-   "counter_total": 91779,
-   "img": "https://cdn4.telesco.pe/file/UwKLn-vDfdhsa7cDWIx4X5DTAs36Y6JF3v8rJxXy5SDsaxJh2RoQ5UMs_j2VCdPl26wGQo5kRgKcLCYO8Rv_F4elmTeP4sKc8-SsMqEQXVbygQVGBShet1hqyaRleEXFQqcpJX06CLpx5bK86SpO7wAFBQA9I07y3PNsV9toJBKKyWWBqEq1rgbqKdYjI_6-511LhOz5DJj_0WA2slshOEFUH3k9cE6NPUKuqhZxC22gLPk5fErnnuYIlhQ502_4yRw4DUdx-RtRdeWa6PQR6w7_JBmkMVjFZ2DZapZzT-9d5PMqyfDh7nm62BuTY-aA-P_Bs8wU2faw6LMarW2OKA.jpg",
-   "sent": 0,
-   "time": "2026-10-25T11:08:36.129Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74627,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74627,
-   "counter_total": 91779,
-   "img": "https://cdn4.telesco.pe/file/UwKLn-vDfdhsa7cDWIx4X5DTAs36Y6JF3v8rJxXy5SDsaxJh2RoQ5UMs_j2VCdPl26wGQo5kRgKcLCYO8Rv_F4elmTeP4sKc8-SsMqEQXVbygQVGBShet1hqyaRleEXFQqcpJX06CLpx5bK86SpO7wAFBQA9I07y3PNsV9toJBKKyWWBqEq1rgbqKdYjI_6-511LhOz5DJj_0WA2slshOEFUH3k9cE6NPUKuqhZxC22gLPk5fErnnuYIlhQ502_4yRw4DUdx-RtRdeWa6PQR6w7_JBmkMVjFZ2DZapZzT-9d5PMqyfDh7nm62BuTY-aA-P_Bs8wU2faw6LMarW2OKA.jpg",
-   "sent": 0,
-   "time": "2026-10-25T11:08:36.129Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T12:58:54.984Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T12:58:54.984Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T12:59:09.101Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T12:59:09.101Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T12:59:09.101Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390591,
+   "owner": "",
+   "owner_addr": "0:36d1074bb723c1378ef152416e02227d4267ea5ff0035f5600e384e0bbce80d3",
+   "mint": 1792932350,
+   "counter_issued": 390591,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T13:00:56.365Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390592,
+   "owner": "",
+   "owner_addr": "0:947bfcfe39d7ff64bac094cbcd691c530c8f1cfd4ad847af52c6f0c285700260",
+   "mint": 1792933092,
+   "counter_issued": 390592,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T13:00:56.365Z",
+   "t": 1
   }
  ]
 }
