@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T21:03:22.334Z",
- "updated_unix": 1792962202,
- "runs": 13425,
+ "updated": "2026-10-25T21:05:20.389Z",
+ "updated_unix": 1792962320,
+ "runs": 13426,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 104526,
- "sent_total": 3068766,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 104527,
+ "sent_total": 3068846,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90310,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792947109,
-   "counter_issued": 90310,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T19:22:05.947Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T21:02:07.113Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T21:03:10.855Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T21:03:10.855Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108479,
+   "owner": "",
+   "owner_addr": "0:eda588559687fd5d004331aa02ceb0de4dc422928746976a8570b73b6a1318e6",
+   "mint": 1792954954,
+   "counter_issued": 108479,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T21:05:15.497Z",
    "t": 1
   }
  ]
