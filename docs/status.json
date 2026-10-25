@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T19:16:09.662Z",
- "updated_unix": 1792955769,
- "runs": 13409,
+ "updated": "2026-10-25T19:22:14.653Z",
+ "updated_unix": 1792956134,
+ "runs": 13410,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104496,
- "sent_total": 3066859,
+ "detected_total": 104498,
+ "sent_total": 3067017,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268353,
-   "owner": "",
-   "owner_addr": "0:8e4b8f21524f5b35897fca645a13f999614efef11ec5d7d33938f2beffb6ceaa",
-   "mint": 1792945523,
-   "counter_issued": 268353,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T16:52:48.152Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441820,
-   "owner": "",
-   "owner_addr": "0:999cd810e83bf61d15538b0751eeda881c543450a8c443faa9c82b22da440bc9",
-   "mint": 1792943593,
-   "counter_issued": 441820,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T16:54:49.054Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T19:16:06.293Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T19:16:06.293Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90310,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1792947109,
+   "counter_issued": 90310,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T19:22:05.947Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133602,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133602,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T19:22:11.081Z",
    "t": 1
   }
  ]
