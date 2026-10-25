@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T20:39:02.287Z",
- "updated_unix": 1792960742,
- "runs": 13419,
+ "updated": "2026-10-25T20:41:02.178Z",
+ "updated_unix": 1792960862,
+ "runs": 13420,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104512,
- "sent_total": 3067998,
+ "detected_total": 104514,
+ "sent_total": 3068158,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441823,
-   "owner": "",
-   "owner_addr": "0:a744b6bece710fe2ff09cce613b0cfa012bb824a3dc48a6b2449269c25b42e0d",
-   "mint": 1792948518,
-   "counter_issued": 441823,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T17:45:07.700Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441824,
-   "owner": "",
-   "owner_addr": "0:a34c05416f37a337a563e33deff40a33f096bcb6735d6d8257c6a12880d57e62",
-   "mint": 1792948842,
-   "counter_issued": 441824,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T17:45:07.700Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T20:37:55.108Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T20:37:55.108Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T20:37:55.108Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441832,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441832,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T20:40:54.277Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441833,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441833,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T20:40:54.277Z",
    "t": 1
   }
  ]
