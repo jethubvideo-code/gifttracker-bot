@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T14:12:18.456Z",
- "updated_unix": 1792937538,
- "runs": 13376,
+ "updated": "2026-10-25T14:30:55.528Z",
+ "updated_unix": 1792938655,
+ "runs": 13377,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104208,
- "sent_total": 3044109,
+ "detected_total": 104209,
+ "sent_total": 3044188,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268323,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268323,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T13:55:35.925Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T14:12:16.209Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108473,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108473,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T14:30:53.030Z",
    "t": 1
   }
  ]
