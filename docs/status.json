@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T03:39:09.999Z",
- "updated_unix": 1792899549,
- "runs": 13319,
+ "updated": "2026-10-25T03:54:58.245Z",
+ "updated_unix": 1792900498,
+ "runs": 13320,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103440,
- "sent_total": 2983770,
+ "detected_total": 103441,
+ "sent_total": 2983849,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53433,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1792824515,
-   "counter_issued": 53433,
-   "counter_total": 66580,
-   "img": "https://cdn4.telesco.pe/file/s2Pt-uE3QCtu0ikzDjP_M-IHkRWypnLnHjwHrRcb6CGdewfnpeRpekmp98XoqZEwhWM6VcgggBi1-UD2Fpii2jTkbkEif5plwxU8-2QK0d6LsnoFgYseAzYiANZ0oMe1HtP3kKIkOm__8rLjHUBVENuB-OX4b0dIXj2q1E0H5hzBVBNidOXsrDYa0eyyciv8Yj_A3qkz8BuXiMLJAFSxuvX05qYf72BpIuJk6zLb1CE8XDB0VQHDblVjM6HmZ6DDC1ZIcaOefKAO3nPiM4JFz06sQtAeBE5Y4CA6vl5a73ixfxFFpUTFL_uyURFBGYtddUdG7l0-luo_Tf_4ZqibAw.jpg",
-   "sent": 0,
-   "time": "2026-10-25T00:34:55.258Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T03:38:36.517Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T03:38:36.517Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441699,
+   "owner": "",
+   "owner_addr": "0:c1e3e92463c7d4eda7ae706dc243dce569b9bf465bca5050881a6700942453bf",
+   "mint": 1792899982,
+   "counter_issued": 441699,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T03:54:56.078Z",
    "t": 1
   }
  ]
