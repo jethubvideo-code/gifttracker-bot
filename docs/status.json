@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T23:28:44.489Z",
- "updated_unix": 1792970924,
- "runs": 13442,
+ "updated": "2026-10-25T23:40:43.577Z",
+ "updated_unix": 1792971643,
+ "runs": 13443,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104762,
- "sent_total": 3087033,
+ "detected_total": 104763,
+ "sent_total": 3087113,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 180107,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 180107,
-   "counter_total": 230505,
-   "img": "https://cdn4.telesco.pe/file/KCmFz5N08JUowhiNXegCdsYzSaV2Y26EDXr06DqnSCs4tZemQF65mSMILR15uRNOPIGa-JixoAewO_JxKOPiu_w2s5KyUXXHrwqcOq5Vj-fOfOrFMhzjuzUhmm45EVZmXuZRSZUy272xuW6DeeVSRrzAaFILy5xMvaonV1pCBGJfLARsK-Jkka7vvwEM5o1xubqwx6W6yc4hiju6T2VanRF26EVW2LfcqCHnfS9g1P9TQkY-gpM-mN8PnNBmNsMBEzzNmJBn3bS5pvnAxnBfjT5gC3n_Q48EIrYL6DuWp5rJpR7VED-jHc_R6HELhr2xx2Cnx9cUYmmHD0AVMv5wrw.jpg",
-   "sent": 0,
-   "time": "2026-10-25T22:29:26.064Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T23:28:31.731Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T23:28:31.731Z",
+   "t": 3
+  },
+  {
+   "slug": "GemSignet",
+   "gift": "Gem Signet",
+   "number": 6261,
+   "owner": "",
+   "owner_addr": "0:db513e23f1411b5cbb01dbb7c5e9be73ee9d0244c3b0e064c0a30484788ec048",
+   "mint": 1792869954,
+   "counter_issued": 6261,
+   "counter_total": 6962,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T23:40:38.156Z",
    "t": 1
   }
  ]
