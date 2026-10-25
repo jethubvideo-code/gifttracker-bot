@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T11:13:49.135Z",
- "updated_unix": 1792926829,
- "runs": 13351,
+ "updated": "2026-10-25T11:34:23.525Z",
+ "updated_unix": 1792928063,
+ "runs": 13352,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104034,
- "sent_total": 3030478,
+ "detected_total": 104036,
+ "sent_total": 3030634,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447941,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447941,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T11:08:25.082Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 447942,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 447942,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T11:08:25.082Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T11:13:40.825Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T11:13:40.825Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T11:13:40.825Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390588,
+   "owner": "",
+   "owner_addr": "0:0852189494ef0bd589494a6c2ac686fb9eafdd7222cc961cd2926e14b7c2688c",
+   "mint": 1792927366,
+   "counter_issued": 390588,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T11:34:15.982Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133588,
+   "owner": "",
+   "owner_addr": "0:0852189494ef0bd589494a6c2ac686fb9eafdd7222cc961cd2926e14b7c2688c",
+   "mint": 1792926983,
+   "counter_issued": 133588,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T11:34:21.683Z",
    "t": 1
   }
  ]
