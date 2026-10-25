@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T04:02:51.724Z",
- "updated_unix": 1792900971,
- "runs": 13322,
+ "updated": "2026-10-25T04:09:49.482Z",
+ "updated_unix": 1792901389,
+ "runs": 13323,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103534,
- "sent_total": 2991196,
+ "detected_total": 103535,
+ "sent_total": 2991275,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 189175,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189175,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T04:00:27.562Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:02:43.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:02:43.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T04:02:43.231Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90300,
+   "owner": "",
+   "owner_addr": "0:c1e3e92463c7d4eda7ae706dc243dce569b9bf465bca5050881a6700942453bf",
+   "mint": 1792899888,
+   "counter_issued": 90300,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T04:09:45.891Z",
    "t": 1
   }
  ]
