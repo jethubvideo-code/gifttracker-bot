@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-25T05:08:00.512Z",
- "updated_unix": 1792904880,
- "runs": 13326,
+ "updated": "2026-10-25T05:08:58.162Z",
+ "updated_unix": 1792904938,
+ "runs": 13327,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 103539,
- "sent_total": 2991591,
+ "detected_total": 103540,
+ "sent_total": 2991670,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 189180,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189180,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T04:00:27.562Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T05:07:56.746Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90301,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90301,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T05:08:54.471Z",
    "t": 1
   }
  ]
