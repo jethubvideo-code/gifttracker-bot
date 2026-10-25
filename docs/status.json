@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-25T15:46:41.118Z",
- "updated_unix": 1792943201,
- "runs": 13390,
+ "updated": "2026-10-25T15:48:37.675Z",
+ "updated_unix": 1792943317,
+ "runs": 13391,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104460,
- "sent_total": 3064016,
+ "detected_total": 104462,
+ "sent_total": 3064174,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230236,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230236,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:18:48.865Z",
-   "t": 3
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230237,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230237,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T15:18:48.865Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:46:37.457Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-25T15:46:37.457Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133595,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133595,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T15:48:34.208Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133596,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133596,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-25T15:48:34.208Z",
    "t": 1
   }
  ]
