@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T08:58:56.573Z",
- "updated_unix": 1793005136,
- "runs": 13478,
+ "updated": "2026-10-26T09:21:43.313Z",
+ "updated_unix": 1793006503,
+ "runs": 13479,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104957,
- "sent_total": 3101117,
+ "detected_total": 104958,
+ "sent_total": 3101198,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268464,
-   "owner": "",
-   "owner_addr": "0:cb60f69504bb271e9c524a29ed9516c28f298f512c7187b2131f006999068f11",
-   "mint": 1792995882,
-   "counter_issued": 268464,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T07:03:46.105Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -371,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:27.710Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -385,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:37.606Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:37.606Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:37.606Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:52.632Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390625,
+   "owner": "",
+   "owner_addr": "0:2b2726f88a06493c0d53234400b1825d469ae1c76e77d2d3b7ffe06978c842ff",
+   "mint": 1793006417,
+   "counter_issued": 390625,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T09:21:38.935Z",
    "t": 1
   }
  ]
