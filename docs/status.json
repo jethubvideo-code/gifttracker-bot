@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-26T11:13:08.283Z",
- "updated_unix": 1793013188,
- "runs": 13490,
+ "updated": "2026-10-26T11:16:11.770Z",
+ "updated_unix": 1793013371,
+ "runs": 13491,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104985,
- "sent_total": 3103257,
+ "detected_total": 104988,
+ "sent_total": 3103500,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 84983,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793003292,
-   "counter_issued": 84983,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T08:58:37.606Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32737,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32737,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T08:58:52.632Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390625,
-   "owner": "",
-   "owner_addr": "0:2b2726f88a06493c0d53234400b1825d469ae1c76e77d2d3b7ffe06978c842ff",
-   "mint": 1793006417,
-   "counter_issued": 390625,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T09:21:38.935Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:13:01.415Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:13:01.415Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390627,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390627,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:16:02.754Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390628,
+   "owner": "",
+   "owner_addr": "0:efb9266398a3dafda7d49a4b5919799d52c9b05a656c07e3a60beecce1308dc8",
+   "mint": 1793009490,
+   "counter_issued": 390628,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:16:02.754Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390629,
+   "owner": "sanguinius.ton",
+   "owner_addr": "0:fefa450deebff266eb826d6a2d3fd8d30a339183999a543c156c5a0f38fe6804",
+   "mint": 1793012778,
+   "counter_issued": 390629,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:16:02.754Z",
    "t": 1
   }
  ]
