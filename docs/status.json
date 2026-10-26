@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-26T11:48:35.468Z",
- "updated_unix": 1793015315,
- "runs": 13496,
+ "updated": "2026-10-26T11:49:16.107Z",
+ "updated_unix": 1793015356,
+ "runs": 13497,
  "collections": 122,
- "checked": 1,
- "errors": 121,
- "detected_total": 104996,
- "sent_total": 3104100,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 104998,
+ "sent_total": 3104262,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108483,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108483,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T10:32:18.256Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90321,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90321,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T10:32:23.461Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:46:52.723Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:46:52.723Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:47:03.714Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:47:11.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:48:09.089Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390630,
+   "owner": "",
+   "owner_addr": "0:dcbd5a1b9181fb5b69bcf62171b36e984d717e3eae3ffe3dd8c39d1461da3090",
+   "mint": 1793014856,
+   "counter_issued": 390630,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:49:08.215Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133621,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133621,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:49:12.638Z",
    "t": 1
   }
  ]
