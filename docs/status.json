@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-26T07:35:47.873Z",
- "updated_unix": 1793000147,
- "runs": 13473,
+ "updated": "2026-10-26T08:11:21.529Z",
+ "updated_unix": 1793002281,
+ "runs": 13474,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104939,
- "sent_total": 3099723,
+ "detected_total": 104944,
+ "sent_total": 3100128,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24630,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24630,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:03:27.566Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441843,
-   "owner": "",
-   "owner_addr": "0:2046d758e733418d597f370e59f3d791985eaa6263e5feccf5d53f1c12a0725c",
-   "mint": 1792993282,
-   "counter_issued": 441843,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:04:25.035Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390616,
-   "owner": "",
-   "owner_addr": "0:a60548c8374f2fe0afd89c867f11afe29aaa57775008513250c07ba4bc6a30fd",
-   "mint": 1792995834,
-   "counter_issued": 390616,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:25:04.316Z",
-   "t": 3
-  },
-  {
-   "slug": "GemSignet",
-   "gift": "GemSignet",
-   "number": 6262,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 6262,
-   "counter_total": 6962,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:35:01.531Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32736,
-   "owner": "",
-   "owner_addr": "0:d0c32f90a161a7f7f29ab6730d2ae888235606ac37ada3b644c630d4bd2f5b1e",
-   "mint": 1792995176,
-   "counter_issued": 32736,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:42:04.182Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T07:14:14.375Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T07:14:14.375Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T07:35:44.705Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390621,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390621,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:11:03.028Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390622,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390622,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:11:03.028Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390623,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390623,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:11:03.028Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90317,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90317,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:11:14.935Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90318,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90318,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:11:14.935Z",
    "t": 1
   }
  ]
