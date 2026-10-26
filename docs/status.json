@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-26T12:24:57.737Z",
- "updated_unix": 1793017497,
- "runs": 13501,
+ "updated": "2026-10-26T12:58:18.267Z",
+ "updated_unix": 1793019498,
+ "runs": 13502,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105009,
- "sent_total": 3105025,
+ "detected_total": 105012,
+ "sent_total": 3105268,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 77970,
-   "owner": "",
-   "owner_addr": "0:9e8f4b5ec53899e648bf5d3a820bda7e44c5450d3e7919367246cca80f2ecf81",
-   "mint": 1793004015,
-   "counter_issued": 77970,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:09:32.250Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108484,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108484,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:10:49.675Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441845,
-   "owner": "",
-   "owner_addr": "0:024557302dd85b83fa65706e0038ffb0e6ecbaa25f350ee053f44f334f9811e8",
-   "mint": 1793012664,
-   "counter_issued": 441845,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:10:58.457Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -417,7 +375,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T12:23:53.332Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -431,7 +389,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T12:23:53.332Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108486,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108486,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T12:58:01.686Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441848,
+   "owner": "",
+   "owner_addr": "0:6ac21e063e148f49f8431b130945596677117314bc40087ee3073426e53921bd",
+   "mint": 1793018033,
+   "counter_issued": 441848,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T12:58:11.166Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441849,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793018455,
+   "counter_issued": 441849,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T12:58:11.166Z",
+   "t": 1
   }
  ]
 }
