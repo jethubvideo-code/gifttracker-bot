@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T21:21:39.442Z",
- "updated_unix": 1793049699,
- "runs": 13557,
+ "updated": "2026-10-26T21:23:18.003Z",
+ "updated_unix": 1793049798,
+ "runs": 13558,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105637,
- "sent_total": 3155292,
+ "detected_total": 105638,
+ "sent_total": 3155374,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 189663,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189663,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T21:01:16.216Z",
-   "t": 3
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:21:15.970Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:21:15.970Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:21:15.970Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:21:15.970Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26094,
+   "owner": "",
+   "owner_addr": "0:e1f02ae91147c4513d84081e84e80fdacc33e8eb63559023406e5d5119301714",
+   "mint": 1793045445,
+   "counter_issued": 26094,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T21:23:13.138Z",
    "t": 1
   }
  ]
