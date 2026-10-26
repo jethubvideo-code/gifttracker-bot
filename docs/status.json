@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T11:24:08.607Z",
- "updated_unix": 1793013848,
- "runs": 13493,
+ "updated": "2026-10-26T11:42:58.373Z",
+ "updated_unix": 1793014978,
+ "runs": 13494,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104990,
- "sent_total": 3103662,
+ "detected_total": 104991,
+ "sent_total": 3103743,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268473,
-   "owner": "fatjher.t.me",
-   "owner_addr": "0:2718b8afeeafb417147381811fec3625cd671d1aff8bab44bd24f98bd390d894",
-   "mint": 1793008638,
-   "counter_issued": 268473,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T09:57:57.848Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:24:06.672Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133620,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133620,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:42:54.621Z",
    "t": 1
   }
  ]
