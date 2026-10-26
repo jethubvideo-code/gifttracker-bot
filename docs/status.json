@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T23:38:12.561Z",
- "updated_unix": 1793057892,
- "runs": 13571,
+ "updated": "2026-10-26T23:43:15.793Z",
+ "updated_unix": 1793058195,
+ "runs": 13572,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 105703,
- "sent_total": 3160384,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 105704,
+ "sent_total": 3160466,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35639,
-   "owner": "",
-   "owner_addr": "0:4007a51ac2cf62ef72fea064aa215f500e2628a4e4a4a7c738aae2d88a200fdd",
-   "mint": 1793003599,
-   "counter_issued": 35639,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:33:05.212Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "Valentine Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T23:38:08.878Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133643,
+   "owner": "whiteself.t.me",
+   "owner_addr": "0:c10d4a4c821110533932f79cf22ebe38bc9b5f6736688ee143af232ea8ed4ae9",
+   "mint": 1793054984,
+   "counter_issued": 133643,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T23:43:11.840Z",
    "t": 1
   }
  ]
