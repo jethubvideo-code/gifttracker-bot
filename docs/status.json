@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T21:25:15.673Z",
- "updated_unix": 1793049915,
- "runs": 13559,
+ "updated": "2026-10-26T21:30:18.133Z",
+ "updated_unix": 1793050218,
+ "runs": 13560,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105639,
- "sent_total": 3155456,
+ "detected_total": 105640,
+ "sent_total": 3155538,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 189665,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189665,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T21:01:16.216Z",
-   "t": 3
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:25:10.967Z",
+   "t": 3
+  },
+  {
+   "slug": "BondedRing",
+   "gift": "Bonded Ring",
+   "number": 7845,
+   "owner": "",
+   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
+   "mint": 1792971188,
+   "counter_issued": 7845,
+   "counter_total": 8130,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T21:30:13.740Z",
    "t": 1
   }
  ]
