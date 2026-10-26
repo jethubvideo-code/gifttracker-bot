@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T13:02:43.006Z",
- "updated_unix": 1793019763,
- "runs": 13503,
+ "updated": "2026-10-26T13:11:20.355Z",
+ "updated_unix": 1793020280,
+ "runs": 13504,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105013,
- "sent_total": 3105285,
+ "detected_total": 105014,
+ "sent_total": 3105366,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133617,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133617,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:13:01.415Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -431,6 +417,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T13:02:10.673Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23068,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23068,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T13:11:14.730Z",
    "t": 1
   }
  ]
