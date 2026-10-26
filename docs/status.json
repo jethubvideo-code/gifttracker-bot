@@ -1,91 +1,13 @@
 {
- "updated": "2026-10-26T22:34:34.352Z",
- "updated_unix": 1793054074,
- "runs": 13566,
+ "updated": "2026-10-26T22:41:40.277Z",
+ "updated_unix": 1793054500,
+ "runs": 13567,
  "collections": 122,
- "checked": 0,
- "errors": 122,
- "detected_total": 105691,
- "sent_total": 3159720,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 105697,
+ "sent_total": 3159924,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52435,
-   "owner": "",
-   "owner_addr": "0:a086bee827225257ee7efb73623c1857e7745b3db54ad5e5e7fe49253c1c75b3",
-   "mint": 1793008046,
-   "counter_issued": 52435,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:31:46.897Z"
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52436,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793015578,
-   "counter_issued": 52436,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:31:46.897Z"
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52437,
-   "owner": "",
-   "owner_addr": "0:9baca71243add9a38ff26f6c2c0d303b8ec0b13d8eeae7c98d8359365f45fddb",
-   "mint": 1793017115,
-   "counter_issued": 52437,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:31:46.897Z"
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52438,
-   "owner": "",
-   "owner_addr": "0:73627cef8993f883f1797afb5e8599d81b140d0d738a6f42bc919ed569780f48",
-   "mint": 1793019290,
-   "counter_issued": 52438,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:31:46.897Z"
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52439,
-   "owner": "",
-   "owner_addr": "0:9838b0306ba19393eac031e56c8aaa0cdd58d9505520619b5bb981ad3759b8aa",
-   "mint": 1793037325,
-   "counter_issued": 52439,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:31:46.897Z"
-  },
-  {
-   "slug": "VintageCigar",
-   "gift": "Vintage Cigar",
-   "number": 26839,
-   "owner": "",
-   "owner_addr": "0:1e15e8c715e785576c19d05cc68efc4884f741fb5b3936cbd9695e19ce10ffd7",
-   "mint": 1792919728,
-   "counter_issued": 26839,
-   "counter_total": 31024,
-   "img": "https://cdn4.telesco.pe/file/tGLEOEZaj-ghmE5U6kepLTi0zarnzHq6BRfgUXzquRIhgxMf4iLg6OSBfEeSCpML8w3E-mi59F-DqChRtfTOC9SuEKrZYa_MDOij6MgyU1SME90OES5NuOsa6_z9_eNPPBLD2R12sk0RB42aksp4M-k2nJ5xQGIIq2W67v0J19geJ75ybkv2_kKT95Ha2rqv9bLOq1spCeKUjjrJgie8YO2qXn-Uoi3iYp52kCXHQ1GPHsjX1WL6Glorb3V8NLtjwJcz3e_g7TBXFQ4xwHIY7rYX_MiPCPY2s_RvYVfaQ9J0evIKp9Z4SbjoU9V5ARGJXhXhBodDPnaR51E5OtGC4Q.jpg",
-   "sent": 0,
-   "time": "2026-10-26T22:32:36.069Z"
-  },
   {
    "slug": "VintageCigar",
    "gift": "Vintage Cigar",
@@ -182,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T22:33:05.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -196,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T22:33:05.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -210,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T22:33:05.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -224,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T22:33:05.212Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -238,7 +160,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -252,7 +174,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -266,7 +188,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -280,7 +202,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -294,7 +216,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -308,7 +230,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -322,7 +244,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -336,7 +258,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -350,7 +272,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -364,7 +286,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -378,7 +300,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -392,7 +314,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -406,7 +328,7 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -420,7 +342,91 @@
    "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
    "sent": 0,
    "time": "2026-10-26T22:33:43.648Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268508,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793050676,
+   "counter_issued": 268508,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:39:08.385Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268509,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793050683,
+   "counter_issued": 268509,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:39:08.385Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268510,
+   "owner": "",
+   "owner_addr": "0:daf334422c8ce6d612d4b7e0c17021caf23239a4fa942ba210b62eb4b4ba661c",
+   "mint": 1793052843,
+   "counter_issued": 268510,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:39:08.385Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268511,
+   "owner": "",
+   "owner_addr": "0:e41f3b681f7e8aec38a125cc36c7b92a217cf6d77c89c4dc530172cb109b3a6a",
+   "mint": 1793053267,
+   "counter_issued": 268511,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:39:08.385Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268512,
+   "owner": "",
+   "owner_addr": "0:654ee9d54009d11051bcca505ed3ed41c55e74ea8d66781a5e137f1236587fc6",
+   "mint": 1793053717,
+   "counter_issued": 268512,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:39:08.385Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268513,
+   "owner": "",
+   "owner_addr": "0:b868023bbf6fefbf768753de02e9a5d5b9a674faceb8dc6dc11cba9957137a13",
+   "mint": 1793053978,
+   "counter_issued": 268513,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:39:08.385Z",
+   "t": 1
   }
  ]
 }
