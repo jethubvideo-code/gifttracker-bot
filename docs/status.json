@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T19:07:41.467Z",
- "updated_unix": 1793041661,
- "runs": 13539,
+ "updated": "2026-10-26T19:27:50.606Z",
+ "updated_unix": 1793042870,
+ "runs": 13540,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 105106,
- "sent_total": 3112552,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 105107,
+ "sent_total": 3112634,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390638,
-   "owner": "gosuslugivpn.ton",
-   "owner_addr": "0:2297daee9399b1469c6bc33dd34cd19510092d432410524b9402462d27863e6e",
-   "mint": 1793034160,
-   "counter_issued": 390638,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T17:06:54.966Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T19:07:35.977Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441858,
+   "owner": "snnlt.t.me",
+   "owner_addr": "0:539ba9af3f54f7d25aa9e971a1a741125dbf73fc0457006d0a81466a2bae3b60",
+   "mint": 1793042312,
+   "counter_issued": 441858,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T19:27:45.456Z",
    "t": 1
   }
  ]
