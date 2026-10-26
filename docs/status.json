@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-26T15:59:08.063Z",
- "updated_unix": 1793030348,
- "runs": 13518,
+ "updated": "2026-10-26T16:00:09.216Z",
+ "updated_unix": 1793030409,
+ "runs": 13519,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105066,
- "sent_total": 3109561,
+ "detected_total": 105068,
+ "sent_total": 3109722,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "EasterEgg",
-   "number": 164044,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 164044,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:18:05.789Z",
-   "t": 3
-  },
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164045,
-   "owner": "",
-   "owner_addr": "0:2125dce461529ff25766bbd7198f08f3424d555cce05619cd08b309178283b3b",
-   "mint": 1793016602,
-   "counter_issued": 164045,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:18:05.789Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T15:59:01.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T15:59:01.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T15:59:01.504Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90324,
+   "owner": "",
+   "owner_addr": "0:ad0c36b3fc93cbd5d6938e026f0c9791ca19028ff6e1b8ffa40fe80bdae8d846",
+   "mint": 1793023752,
+   "counter_issued": 90324,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T16:00:04.534Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90325,
+   "owner": "",
+   "owner_addr": "0:c7ec0427254d5cc8c995ab4a415b35e6c59ab7a20b4ba0ecce88e61814a3355c",
+   "mint": 1793023950,
+   "counter_issued": 90325,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T16:00:04.534Z",
    "t": 1
   }
  ]
