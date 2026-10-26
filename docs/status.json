@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-26T17:41:46.696Z",
- "updated_unix": 1793036506,
- "runs": 13526,
+ "updated": "2026-10-26T17:53:12.763Z",
+ "updated_unix": 1793037192,
+ "runs": 13527,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105081,
- "sent_total": 3110645,
+ "detected_total": 105083,
+ "sent_total": 3110807,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 108882,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108882,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:19:00.401Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108883,
-   "owner": "",
-   "owner_addr": "0:b9044fe14929936ba1a39eb800013de40bf2ed77c256879b7f387d67c633b53f",
-   "mint": 1793016400,
-   "counter_issued": 108883,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:19:00.401Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:14:51.755Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:14:51.755Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:41:43.497Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90327,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90327,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T17:53:06.059Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90328,
+   "owner": "",
+   "owner_addr": "0:6ba62477fb8e6de3b24af0cbceae19c65668c54ee0eaa83c9f1199264cc193a8",
+   "mint": 1793035791,
+   "counter_issued": 90328,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T17:53:06.059Z",
    "t": 1
   }
  ]
