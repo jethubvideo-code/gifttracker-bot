@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-26T18:17:08.430Z",
- "updated_unix": 1793038628,
- "runs": 13528,
+ "updated": "2026-10-26T18:19:48.050Z",
+ "updated_unix": 1793038788,
+ "runs": 13529,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105084,
- "sent_total": 3110888,
+ "detected_total": 105086,
+ "sent_total": 3110986,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133625,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133625,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:23:47.887Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32739,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32739,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:56:54.717Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:53:06.059Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:53:06.059Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T18:17:04.860Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441854,
+   "owner": "",
+   "owner_addr": "0:feddfc75c0c5b51d3b4103bb0a77c43daeb0a761152fc30d80f4a3740bad5496",
+   "mint": 1793038726,
+   "counter_issued": 441854,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T18:19:07.609Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268483,
+   "owner": "",
+   "owner_addr": "0:f9a0eba3498b4712e4ed06433fc3e72549e485871d58bf2129231c6f2418b154",
+   "mint": 1793036748,
+   "counter_issued": 268483,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T18:19:15.378Z",
    "t": 1
   }
  ]
