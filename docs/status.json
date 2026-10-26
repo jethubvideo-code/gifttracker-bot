@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T06:25:07.951Z",
- "updated_unix": 1792995907,
- "runs": 13465,
+ "updated": "2026-10-26T06:35:05.009Z",
+ "updated_unix": 1792996505,
+ "runs": 13466,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104912,
- "sent_total": 3098178,
+ "detected_total": 104913,
+ "sent_total": 3098259,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268441,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268441,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T05:15:32.658Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T06:04:25.035Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T06:25:04.316Z",
+   "t": 3
+  },
+  {
+   "slug": "GemSignet",
+   "gift": "GemSignet",
+   "number": 6262,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 6262,
+   "counter_total": 6962,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T06:35:01.531Z",
    "t": 1
   }
  ]
