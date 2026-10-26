@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T11:47:14.937Z",
- "updated_unix": 1793015234,
- "runs": 13495,
+ "updated": "2026-10-26T11:48:35.468Z",
+ "updated_unix": 1793015315,
+ "runs": 13496,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 104995,
- "sent_total": 3104067,
+ "checked": 1,
+ "errors": 121,
+ "detected_total": 104996,
+ "sent_total": 3104100,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133616,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133616,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T10:15:11.478Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:46:52.723Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:46:52.723Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:47:03.714Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:47:11.212Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268475,
+   "owner": "holy-celestial.ton",
+   "owner_addr": "0:1cf65c3b024bc1e6cdf08a2f0cf55b33b14273da4aece23d4c5476a509c8d255",
+   "mint": 1793015204,
+   "counter_issued": 268475,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:48:09.089Z",
    "t": 1
   }
  ]
