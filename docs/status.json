@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T21:23:18.003Z",
- "updated_unix": 1793049798,
- "runs": 13558,
+ "updated": "2026-10-26T21:25:15.673Z",
+ "updated_unix": 1793049915,
+ "runs": 13559,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105638,
- "sent_total": 3155374,
+ "detected_total": 105639,
+ "sent_total": 3155456,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 189664,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189664,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T21:01:16.216Z",
-   "t": 3
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:23:13.138Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 12997,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 12997,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T21:25:10.967Z",
    "t": 1
   }
  ]
