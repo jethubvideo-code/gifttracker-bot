@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T15:20:52.278Z",
- "updated_unix": 1793028052,
- "runs": 13515,
+ "updated": "2026-10-26T15:23:51.495Z",
+ "updated_unix": 1793028231,
+ "runs": 13516,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105054,
- "sent_total": 3108589,
+ "detected_total": 105055,
+ "sent_total": 3108670,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268480,
-   "owner": "",
-   "owner_addr": "0:ec1a64955c44d796b41ca4c5950e2ffb515d1b21d2d89546ed7db4276b63572d",
-   "mint": 1793025168,
-   "counter_issued": 268480,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T14:41:25.279Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T15:17:37.254Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T15:17:37.254Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T15:20:50.232Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133625,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133625,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T15:23:47.887Z",
    "t": 1
   }
  ]
