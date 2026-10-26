@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T19:39:59.128Z",
- "updated_unix": 1793043599,
- "runs": 13544,
+ "updated": "2026-10-26T19:43:02.528Z",
+ "updated_unix": 1793043782,
+ "runs": 13545,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105114,
- "sent_total": 3113208,
+ "detected_total": 105115,
+ "sent_total": 3113290,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441854,
-   "owner": "",
-   "owner_addr": "0:feddfc75c0c5b51d3b4103bb0a77c43daeb0a761152fc30d80f4a3740bad5496",
-   "mint": 1793038726,
-   "counter_issued": 441854,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T18:19:07.609Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T19:39:55.304Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26093,
+   "owner": "",
+   "owner_addr": "0:10394bb1588f0102018cf870e21c2608a99909e63df5a1cabf5ab0d3eff5c830",
+   "mint": 1793033560,
+   "counter_issued": 26093,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T19:42:58.830Z",
    "t": 1
   }
  ]
