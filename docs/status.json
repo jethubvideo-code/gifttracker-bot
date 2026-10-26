@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T17:15:00.146Z",
- "updated_unix": 1793034900,
- "runs": 13525,
+ "updated": "2026-10-26T17:41:46.696Z",
+ "updated_unix": 1793036506,
+ "runs": 13526,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105080,
- "sent_total": 3110564,
+ "detected_total": 105081,
+ "sent_total": 3110645,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 108881,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108881,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T15:19:00.401Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:14:51.755Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T17:14:51.755Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441853,
+   "owner": "",
+   "owner_addr": "0:c1803e2082a112aa6ac3ba3e342042aa765803e413d0ee25aac7285301b52b04",
+   "mint": 1793036137,
+   "counter_issued": 441853,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T17:41:43.497Z",
    "t": 1
   }
  ]
