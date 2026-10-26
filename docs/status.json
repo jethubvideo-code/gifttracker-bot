@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T13:42:52.416Z",
- "updated_unix": 1793022172,
- "runs": 13506,
+ "updated": "2026-10-26T13:44:50.401Z",
+ "updated_unix": 1793022290,
+ "runs": 13507,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105017,
- "sent_total": 3105593,
+ "detected_total": 105018,
+ "sent_total": 3105674,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390629,
-   "owner": "sanguinius.ton",
-   "owner_addr": "0:fefa450deebff266eb826d6a2d3fd8d30a339183999a543c156c5a0f38fe6804",
-   "mint": 1793012778,
-   "counter_issued": 390629,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:16:02.754Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -431,6 +417,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T13:42:47.198Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108487,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793019807,
+   "counter_issued": 108487,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T13:44:47.383Z",
    "t": 1
   }
  ]
