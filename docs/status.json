@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T11:49:16.107Z",
- "updated_unix": 1793015356,
- "runs": 13497,
+ "updated": "2026-10-26T11:50:12.662Z",
+ "updated_unix": 1793015412,
+ "runs": 13498,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104998,
- "sent_total": 3104262,
+ "detected_total": 104999,
+ "sent_total": 3104343,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164041,
-   "owner": "",
-   "owner_addr": "0:5efff43a1fc0521324f2b6d806db44aba741488ba7036a0ee91d0dc5072f74b5",
-   "mint": 1792997176,
-   "counter_issued": 164041,
-   "counter_total": 173176,
-   "img": "https://cdn4.telesco.pe/file/L7HhUmbtzuATF__s1zvWDeyePXev6GSi6TL-Gd9vQYbI3sl795fCMpOuusI6X7ZcS_5HvRUq5EFoWg88UZ0T_tEcmnoMtLNziAYhQkSftZCU0JyNzZgZMcGBgNW_hSEYd9XS_OXUcm-4lR7zhlmzmquWp_ZfTaZ7L1B_VZ6PBvZmnwH8bnA7kpAlo4zdg2H9h7Dso4F4A1MudXitrjHrjvt-btS6KEDveCIkZcZwMyXqu2RIemNTGw3vxlYQcFqu7sxXLnP7Ry7LYlmOHdzXXynWcrpD6FZqdO3QPU42E53qG_lW80YaBe6VPnpWIKpZC-f3FAivowLG51aiZ5EGgw.jpg",
-   "sent": 0,
-   "time": "2026-10-26T11:08:42.332Z",
-   "u": 1
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:49:08.215Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T11:49:12.638Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441847,
+   "owner": "",
+   "owner_addr": "0:dcbd5a1b9181fb5b69bcf62171b36e984d717e3eae3ffe3dd8c39d1461da3090",
+   "mint": 1793014862,
+   "counter_issued": 441847,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T11:50:09.141Z",
    "t": 1
   }
  ]
