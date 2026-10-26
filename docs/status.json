@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T23:35:36.447Z",
- "updated_unix": 1793057736,
- "runs": 13570,
+ "updated": "2026-10-26T23:38:12.561Z",
+ "updated_unix": 1793057892,
+ "runs": 13571,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105702,
- "sent_total": 3160302,
+ "detected_total": 105703,
+ "sent_total": 3160384,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35638,
-   "owner": "",
-   "owner_addr": "0:5efff43a1fc0521324f2b6d806db44aba741488ba7036a0ee91d0dc5072f74b5",
-   "mint": 1792997280,
-   "counter_issued": 35638,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T22:33:05.212Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "Valentine Box",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T23:09:45.758Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T23:35:06.676Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T23:35:15.175Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T23:35:19.961Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90338,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90338,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T23:38:08.878Z",
    "t": 1
   }
  ]
