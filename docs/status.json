@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T18:26:05.738Z",
- "updated_unix": 1793039165,
- "runs": 13532,
+ "updated": "2026-10-26T18:29:38.454Z",
+ "updated_unix": 1793039378,
+ "runs": 13533,
  "collections": 122,
- "checked": 0,
- "errors": 122,
- "detected_total": 105096,
- "sent_total": 3111796,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 105097,
+ "sent_total": 3111878,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90324,
-   "owner": "",
-   "owner_addr": "0:ad0c36b3fc93cbd5d6938e026f0c9791ca19028ff6e1b8ffa40fe80bdae8d846",
-   "mint": 1793023752,
-   "counter_issued": 90324,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T16:00:04.534Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T18:25:33.312Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T18:25:42.604Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T18:25:42.604Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T18:25:42.604Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23069,
+   "owner": "",
+   "owner_addr": "0:8105ad85b59696908c53330cd5b5f3270bff3af96c4f3326cb3d7fc0aeb17ae1",
+   "mint": 1793031476,
+   "counter_issued": 23069,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T18:29:34.092Z",
+   "t": 1
   }
  ]
 }
