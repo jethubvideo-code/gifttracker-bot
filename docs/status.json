@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T12:58:18.267Z",
- "updated_unix": 1793019498,
- "runs": 13502,
+ "updated": "2026-10-26T13:02:43.006Z",
+ "updated_unix": 1793019763,
+ "runs": 13503,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105012,
- "sent_total": 3105268,
+ "detected_total": 105013,
+ "sent_total": 3105285,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441846,
-   "owner": "sanguinius.ton",
-   "owner_addr": "0:fefa450deebff266eb826d6a2d3fd8d30a339183999a543c156c5a0f38fe6804",
-   "mint": 1793012795,
-   "counter_issued": 441846,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:10:58.457Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -403,7 +389,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T12:58:01.686Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -417,7 +403,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T12:58:11.166Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -431,6 +417,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T12:58:11.166Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268478,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 268478,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T13:02:10.673Z",
    "t": 1
   }
  ]
