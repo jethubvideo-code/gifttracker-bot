@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T23:03:50.076Z",
- "updated_unix": 1793055830,
- "runs": 13568,
+ "updated": "2026-10-26T23:09:49.540Z",
+ "updated_unix": 1793056189,
+ "runs": 13569,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105698,
- "sent_total": 3160006,
+ "detected_total": 105699,
+ "sent_total": 3160088,
  "last_upgrades": [
-  {
-   "slug": "VintageCigar",
-   "gift": "Vintage Cigar",
-   "number": 26841,
-   "owner": "",
-   "owner_addr": "0:6bc94f1b08597668bd49488c7fa674c436e24fe14f5efae7b29bd16d47f00f58",
-   "mint": 1792953123,
-   "counter_issued": 26841,
-   "counter_total": 31024,
-   "img": "https://cdn4.telesco.pe/file/tGLEOEZaj-ghmE5U6kepLTi0zarnzHq6BRfgUXzquRIhgxMf4iLg6OSBfEeSCpML8w3E-mi59F-DqChRtfTOC9SuEKrZYa_MDOij6MgyU1SME90OES5NuOsa6_z9_eNPPBLD2R12sk0RB42aksp4M-k2nJ5xQGIIq2W67v0J19geJ75ybkv2_kKT95Ha2rqv9bLOq1spCeKUjjrJgie8YO2qXn-Uoi3iYp52kCXHQ1GPHsjX1WL6Glorb3V8NLtjwJcz3e_g7TBXFQ4xwHIY7rYX_MiPCPY2s_RvYVfaQ9J0evIKp9Z4SbjoU9V5ARGJXhXhBodDPnaR51E5OtGC4Q.jpg",
-   "sent": 0,
-   "time": "2026-10-26T22:32:36.069Z",
-   "t": 3
-  },
   {
    "slug": "VintageCigar",
    "gift": "Vintage Cigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T23:03:46.301Z",
+   "t": 3
+  },
+  {
+   "slug": "VoodooDoll",
+   "gift": "Voodoo Doll",
+   "number": 26837,
+   "owner": "vkeysuk.ton",
+   "owner_addr": "0:5248e4943b8fd27d7247184428e5deb2a90925af619c091ae9eadc54c01fdca1",
+   "mint": 1793051011,
+   "counter_issued": 26837,
+   "counter_total": 27620,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T23:09:45.758Z",
    "t": 1
   }
  ]
