@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-26T08:11:21.529Z",
- "updated_unix": 1793002281,
- "runs": 13474,
+ "updated": "2026-10-26T08:16:27.397Z",
+ "updated_unix": 1793002587,
+ "runs": 13475,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104944,
- "sent_total": 3100128,
+ "detected_total": 104947,
+ "sent_total": 3100371,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84287,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84287,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:42:09.559Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84288,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84288,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:42:09.559Z",
-   "t": 3
-  },
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164039,
-   "owner": "",
-   "owner_addr": "0:c73507771b6b0d4fc1c98e1202f7a11d41ebc20b895300388afc0a9bed746069",
-   "mint": 1792994297,
-   "counter_issued": 164039,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T06:42:22.332Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T07:35:44.705Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:11:03.028Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:11:03.028Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:11:03.028Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:11:14.935Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:11:14.935Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133612,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133612,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:16:16.817Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133613,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133613,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:16:16.817Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133614,
+   "owner": "",
+   "owner_addr": "0:eb82b2ec66eca9b173282d21b26a112b7113fd494158a39229b158a23ee71753",
+   "mint": 1792999419,
+   "counter_issued": 133614,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T08:16:16.817Z",
    "t": 1
   }
  ]
