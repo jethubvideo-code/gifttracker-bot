@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T09:21:43.313Z",
- "updated_unix": 1793006503,
- "runs": 13479,
+ "updated": "2026-10-26T09:22:41.860Z",
+ "updated_unix": 1793006561,
+ "runs": 13480,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104958,
- "sent_total": 3101198,
+ "detected_total": 104959,
+ "sent_total": 3101279,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268465,
-   "owner": "",
-   "owner_addr": "0:cb60f69504bb271e9c524a29ed9516c28f298f512c7187b2131f006999068f11",
-   "mint": 1792995906,
-   "counter_issued": 268465,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T07:03:46.105Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -357,7 +343,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:27.710Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -371,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:37.606Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -385,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:37.606Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:37.606Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T08:58:52.632Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T09:21:38.935Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23063,
+   "owner": "",
+   "owner_addr": "0:6c4c7d863c220f73de85e1f4eace2211f5b8d75753068ef39ae740772d34e4b3",
+   "mint": 1792997414,
+   "counter_issued": 23063,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T09:22:38.128Z",
    "t": 1
   }
  ]
