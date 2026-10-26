@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-26T09:57:01.567Z",
- "updated_unix": 1793008621,
- "runs": 13481,
+ "updated": "2026-10-26T09:58:28.004Z",
+ "updated_unix": 1793008708,
+ "runs": 13482,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104960,
- "sent_total": 3101360,
+ "detected_total": 104962,
+ "sent_total": 3101458,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268467,
-   "owner": "",
-   "owner_addr": "0:533ecc5b3c8feade67230ae37cdd475718d2da6598c5c922dea984caeff58427",
-   "mint": 1792995974,
-   "counter_issued": 268467,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T07:03:46.105Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268468,
-   "owner": "",
-   "owner_addr": "0:335a5e371b6a604019bea8899fbcc3334b280331d19ad2cb7e91ce919def44f6",
-   "mint": 1792996306,
-   "counter_issued": 268468,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T07:03:46.105Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -413,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T09:22:38.128Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T09:56:58.129Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268473,
+   "owner": "fatjher.t.me",
+   "owner_addr": "0:2718b8afeeafb417147381811fec3625cd671d1aff8bab44bd24f98bd390d894",
+   "mint": 1793008638,
+   "counter_issued": 268473,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T09:57:57.848Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90320,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90320,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T09:58:23.533Z",
    "t": 1
   }
  ]
