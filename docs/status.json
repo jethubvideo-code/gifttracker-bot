@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T14:43:29.824Z",
- "updated_unix": 1793025809,
- "runs": 13512,
+ "updated": "2026-10-26T14:51:28.827Z",
+ "updated_unix": 1793026288,
+ "runs": 13513,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 105026,
- "sent_total": 3106322,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 105027,
+ "sent_total": 3106403,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390630,
-   "owner": "",
-   "owner_addr": "0:dcbd5a1b9181fb5b69bcf62171b36e984d717e3eae3ffe3dd8c39d1461da3090",
-   "mint": 1793014856,
-   "counter_issued": 390630,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:49:08.215Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -431,6 +417,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T14:43:27.391Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108488,
+   "owner": "",
+   "owner_addr": "0:89e7801d7c5ca3c1b1ef8bfd4eb5261f1867cbfd3b6e09461bed8394a84b397a",
+   "mint": 1793023560,
+   "counter_issued": 108488,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T14:51:26.089Z",
    "t": 1
   }
  ]
