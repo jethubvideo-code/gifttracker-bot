@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-26T01:18:11.189Z",
- "updated_unix": 1792977491,
- "runs": 13448,
+ "updated": "2026-10-26T01:24:12.591Z",
+ "updated_unix": 1792977852,
+ "runs": 13449,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 104777,
- "sent_total": 3088233,
+ "detected_total": 104778,
+ "sent_total": 3088313,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142369,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142369,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-25T22:29:32.387Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T01:18:08.782Z",
+   "t": 3
+  },
+  {
+   "slug": "GenieLamp",
+   "gift": "Genie Lamp",
+   "number": 6603,
+   "owner": "kokosnos.t.me",
+   "owner_addr": "0:3432b1ad4d4ab1df8823a6f77c503eaab564425fa515ea0c403aae9fe48c93be",
+   "mint": 1792954699,
+   "counter_issued": 6603,
+   "counter_total": 7666,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T01:24:08.698Z",
    "t": 1
   }
  ]
