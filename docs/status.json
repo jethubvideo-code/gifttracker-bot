@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-26T14:05:55.644Z",
- "updated_unix": 1793023555,
- "runs": 13510,
+ "updated": "2026-10-26T14:41:29.113Z",
+ "updated_unix": 1793025689,
+ "runs": 13511,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105022,
- "sent_total": 3105998,
+ "detected_total": 105025,
+ "sent_total": 3106241,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 84985,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84985,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:46:52.723Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32738,
-   "owner": "",
-   "owner_addr": "0:024557302dd85b83fa65706e0038ffb0e6ecbaa25f350ee053f44f334f9811e8",
-   "mint": 1793012645,
-   "counter_issued": 32738,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:47:03.714Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74689,
-   "owner": "",
-   "owner_addr": "0:d3d17e5deb7ca108a5e5c82325030141e8120c67730add8943ecf930ed1a1fdb",
-   "mint": 1793012587,
-   "counter_issued": 74689,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T11:47:11.212Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -417,7 +375,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T13:49:44.443Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -431,6 +389,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T14:05:51.751Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390632,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390632,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T14:41:14.861Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390633,
+   "owner": "mistikafinessova.ton",
+   "owner_addr": "0:b53cf7a586e7142ebcd34b3c37e075dd47539546e685489d854b5a2b9bae4794",
+   "mint": 1793024809,
+   "counter_issued": 390633,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T14:41:14.861Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268480,
+   "owner": "",
+   "owner_addr": "0:ec1a64955c44d796b41ca4c5950e2ffb515d1b21d2d89546ed7db4276b63572d",
+   "mint": 1793025168,
+   "counter_issued": 268480,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T14:41:25.279Z",
    "t": 1
   }
  ]
