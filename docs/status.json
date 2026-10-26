@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-26T21:30:18.133Z",
- "updated_unix": 1793050218,
- "runs": 13560,
+ "updated": "2026-10-26T22:24:38.562Z",
+ "updated_unix": 1793053478,
+ "runs": 13561,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105640,
- "sent_total": 3155538,
+ "detected_total": 105643,
+ "sent_total": 3155784,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 189666,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189666,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T21:01:16.216Z",
-   "t": 3
-  },
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 189667,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189667,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T21:01:16.216Z",
-   "t": 3
-  },
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 189668,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 189668,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-26T21:01:16.216Z",
-   "t": 3
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-26T21:30:13.740Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390654,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390654,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:24:26.359Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90335,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90335,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:24:31.594Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90336,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90336,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-26T22:24:31.594Z",
+   "t": 1
   }
  ]
 }
