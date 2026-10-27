@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T16:40:29.180Z",
- "updated_unix": 1793119229,
- "runs": 13654,
+ "updated": "2026-10-27T16:41:26.609Z",
+ "updated_unix": 1793119286,
+ "runs": 13655,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106407,
- "sent_total": 3213453,
+ "detected_total": 106409,
+ "sent_total": 3213617,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441915,
-   "owner": "",
-   "owner_addr": "0:10b9a9d979a9b828e4c730b9a3a18a313a87d79fcd2b4d79fc4c31e0a71d3fd0",
-   "mint": 1793111589,
-   "counter_issued": 441915,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:53:28.215Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441916,
-   "owner": "",
-   "owner_addr": "0:53529a7cc581890cebeed41b2b6c5e638aec91c4ec114c8bd01ed8105f953f77",
-   "mint": 1793112596,
-   "counter_issued": 441916,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:53:28.215Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:17:04.464Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:40:21.937Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:40:21.937Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390669,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390669,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T16:41:20.746Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390670,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390670,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T16:41:20.746Z",
    "t": 1
   }
  ]
