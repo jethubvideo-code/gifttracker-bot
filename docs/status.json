@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T04:54:05.193Z",
- "updated_unix": 1793076845,
- "runs": 13584,
+ "updated": "2026-10-27T04:55:11.412Z",
+ "updated_unix": 1793076911,
+ "runs": 13585,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105970,
- "sent_total": 3182278,
+ "detected_total": 105972,
+ "sent_total": 3182442,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88945,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88945,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T02:44:45.762Z",
-   "t": 3
-  },
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88946,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88946,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T02:44:45.762Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T04:54:02.640Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268515,
+   "owner": "",
+   "owner_addr": "0:c4fbae96a171cb20eda56a863407e012a14ec17bc3d4bf3194e0a0f94b80fc48",
+   "mint": 1793076363,
+   "counter_issued": 268515,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T04:55:04.159Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268516,
+   "owner": "",
+   "owner_addr": "0:c4fbae96a171cb20eda56a863407e012a14ec17bc3d4bf3194e0a0f94b80fc48",
+   "mint": 1793076373,
+   "counter_issued": 268516,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T04:55:04.159Z",
    "t": 1
   }
  ]
