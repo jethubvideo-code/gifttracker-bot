@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T17:15:43.025Z",
- "updated_unix": 1793121343,
- "runs": 13661,
+ "updated": "2026-10-27T17:17:47.447Z",
+ "updated_unix": 1793121467,
+ "runs": 13662,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 106420,
- "sent_total": 3214439,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 106421,
+ "sent_total": 3214521,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441922,
-   "owner": "",
-   "owner_addr": "0:2cd33322d36f5d7f100c6a39d8cc273ebf0bc9997c902f535545642eed192e1b",
-   "mint": 1793113019,
-   "counter_issued": 441922,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T15:33:58.418Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:54:35.184Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:54:35.184Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:15:39.109Z",
+   "t": 2
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22067,
+   "owner": "",
+   "owner_addr": "0:93ff16543320de0774572e0084b90ebda3d02397642cd786f178be3681a24273",
+   "mint": 1793120323,
+   "counter_issued": 22067,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T17:17:43.493Z",
    "t": 1
   }
  ]
