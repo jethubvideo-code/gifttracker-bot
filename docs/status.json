@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T06:43:07.160Z",
- "updated_unix": 1793083387,
- "runs": 13590,
+ "updated": "2026-10-27T06:45:04.885Z",
+ "updated_unix": 1793083504,
+ "runs": 13591,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 105982,
- "sent_total": 3183262,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 105983,
+ "sent_total": 3183344,
  "last_upgrades": [
-  {
-   "slug": "MoonPendant",
-   "gift": "Moon Pendant",
-   "number": 102703,
-   "owner": "",
-   "owner_addr": "0:a401dcd82cb90342a763b6376958459ff73919d3543b1af70e2cca4498719a4c",
-   "mint": 1793014578,
-   "counter_issued": 102703,
-   "counter_total": 111080,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T03:25:12.734Z",
-   "t": 3
-  },
   {
    "slug": "MoonPendant",
    "gift": "Moon Pendant",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:42:59.782Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:42:59.782Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90345,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90345,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:45:01.169Z",
    "t": 1
   }
  ]
