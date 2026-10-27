@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T21:58:38.778Z",
- "updated_unix": 1793138318,
- "runs": 13700,
+ "updated": "2026-10-27T22:00:35.036Z",
+ "updated_unix": 1793138435,
+ "runs": 13701,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106692,
- "sent_total": 3236452,
+ "detected_total": 106693,
+ "sent_total": 3236533,
  "last_upgrades": [
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 151952,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 151952,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T20:22:26.717Z",
-   "t": 3
-  },
   {
    "slug": "GingerCookie",
    "gift": "GingerCookie",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T21:23:07.513Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T21:58:24.655Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T21:58:31.317Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T21:58:31.317Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90365,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90365,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T22:00:31.225Z",
    "t": 1
   }
  ]
