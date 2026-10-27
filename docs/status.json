@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T01:24:09.868Z",
- "updated_unix": 1793064249,
- "runs": 13575,
+ "updated": "2026-10-27T01:57:28.928Z",
+ "updated_unix": 1793066248,
+ "runs": 13576,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105718,
- "sent_total": 3161614,
+ "detected_total": 105719,
+ "sent_total": 3161696,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71793,
-   "owner": "",
-   "owner_addr": "0:b1731f976d17c83eb26a48b8a5c0063610880449b6fdabae4402725d286f10d8",
-   "mint": 1793011504,
-   "counter_issued": 71793,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/ElJ_E-hgoepA5bAvoXpjU5rbg7kQBt633nYB9k4A9arqpiKRA9W08kdwMONkepQZ0AtdKzjO1jrxoUFdMX6WPj_hLQ9NG4EgGqUnTEukFjcNiJkEh4ktF5Z6XM9j4gWMzYcIMImjO86r3jW3U_TOl8u8KvQyThUREfdGMpL90qx3Si9zoatL_vNhSVXVrpDzIDP7wOYPxYQm1bf5K1I3xJsV8Ikd8RWlCjNTOHsQ7ZO3aLpw2IBJNMtxJ1gtmsGCW-ernc_r3WEqPgORENVu8kxgZ5YI__BgRv2rgi-xnhn8F2hoDga5nJWmBL6ZL_8-vSKjT3Md_9TKFqgNB9NSjQ.jpg",
-   "sent": 0,
-   "time": "2026-10-26T22:33:43.648Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T01:24:06.350Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3956,
+   "owner": "llss.t.me",
+   "owner_addr": "0:4aca21a97a120169028cf73f3ff8cf4c1bf201a59ecd06eb21bfdd89117841c8",
+   "mint": 1793060521,
+   "counter_issued": 3956,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T01:57:25.300Z",
    "t": 1
   }
  ]
