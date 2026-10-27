@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T15:46:26.946Z",
- "updated_unix": 1793115986,
- "runs": 13648,
+ "updated": "2026-10-27T16:05:06.767Z",
+ "updated_unix": 1793117106,
+ "runs": 13649,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 106399,
- "sent_total": 3212797,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 106400,
+ "sent_total": 3212879,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84305,
-   "owner": "",
-   "owner_addr": "0:1f30ba58396aa5388d5a8c33bfd189130450b90a72128cd0346910d72edcf813",
-   "mint": 1793109023,
-   "counter_issued": 84305,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:33:24.307Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:46:23.030Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390668,
+   "owner": "",
+   "owner_addr": "0:6af809273fc66f5eba9743e8925af08939fde8ba89ba68df795b6cb9b668d335",
+   "mint": 1793115691,
+   "counter_issued": 390668,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T16:05:03.262Z",
    "t": 1
   }
  ]
