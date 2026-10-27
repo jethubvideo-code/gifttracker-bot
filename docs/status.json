@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T16:48:35.455Z",
- "updated_unix": 1793119715,
- "runs": 13658,
+ "updated": "2026-10-27T16:50:40.619Z",
+ "updated_unix": 1793119840,
+ "runs": 13659,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106415,
- "sent_total": 3214029,
+ "detected_total": 106417,
+ "sent_total": 3214193,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441917,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441917,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T15:33:58.418Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441918,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 441918,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T15:33:58.418Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:48:24.168Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T16:48:30.568Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441926,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793118773,
+   "counter_issued": 441926,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T16:50:31.233Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441927,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793118901,
+   "counter_issued": 441927,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T16:50:31.233Z",
    "t": 1
   }
  ]
