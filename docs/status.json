@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T06:41:08.014Z",
- "updated_unix": 1793083268,
- "runs": 13589,
+ "updated": "2026-10-27T06:43:07.160Z",
+ "updated_unix": 1793083387,
+ "runs": 13590,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105980,
- "sent_total": 3183098,
+ "detected_total": 105982,
+ "sent_total": 3183262,
  "last_upgrades": [
-  {
-   "slug": "TrappedHeart",
-   "gift": "Trapped Heart",
-   "number": 25130,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793049678,
-   "counter_issued": 25130,
-   "counter_total": 26407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T03:08:05.428Z",
-   "t": 3
-  },
-  {
-   "slug": "TrappedHeart",
-   "gift": "Trapped Heart",
-   "number": 25131,
-   "owner": "ghostface.ton",
-   "owner_addr": "0:cfb969cafff5f2d36a946b04c598ab2a601574dce636f017b42587208c15bbe9",
-   "mint": 1793059993,
-   "counter_issued": 25131,
-   "counter_total": 26407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T03:08:05.428Z",
-   "t": 3
-  },
   {
    "slug": "MoonPendant",
    "gift": "Moon Pendant",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:40:59.775Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:40:59.775Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:40:59.775Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133645,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133645,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:42:59.782Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133646,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133646,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:42:59.782Z",
    "t": 1
   }
  ]
