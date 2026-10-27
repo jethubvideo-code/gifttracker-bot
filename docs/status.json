@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T18:09:37.606Z",
- "updated_unix": 1793124577,
- "runs": 13670,
+ "updated": "2026-10-27T18:26:55.090Z",
+ "updated_unix": 1793125615,
+ "runs": 13671,
  "collections": 122,
- "checked": 24,
- "errors": 98,
- "detected_total": 106456,
- "sent_total": 3217298,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 106457,
+ "sent_total": 3217316,
  "last_upgrades": [
-  {
-   "slug": "RareBird",
-   "gift": "Rare Bird",
-   "number": 13000,
-   "owner": "rcsaver.t.me",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1793121762,
-   "counter_issued": 13000,
-   "counter_total": 14971,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T17:33:46.971Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:57:49.220Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:57:54.838Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T18:09:33.413Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268636,
+   "owner": "",
+   "owner_addr": "0:74e653dc59484cb200b036199f57cc07078a23d3a853f28f0ac85e5c83e189ca",
+   "mint": 1793123592,
+   "counter_issued": 268636,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T18:26:22.647Z",
    "t": 1
   }
  ]
