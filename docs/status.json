@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T20:47:53.060Z",
- "updated_unix": 1793134073,
- "runs": 13696,
+ "updated": "2026-10-27T20:50:47.089Z",
+ "updated_unix": 1793134247,
+ "runs": 13697,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 106686,
- "sent_total": 3235966,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 106687,
+ "sent_total": 3236047,
  "last_upgrades": [
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 151946,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 151946,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T20:22:26.717Z",
-   "t": 3
-  },
   {
    "slug": "GingerCookie",
    "gift": "GingerCookie",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T20:33:11.937Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T20:47:47.610Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T20:47:47.610Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T20:47:47.610Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90364,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90364,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T20:50:43.500Z",
    "t": 1
   }
  ]
