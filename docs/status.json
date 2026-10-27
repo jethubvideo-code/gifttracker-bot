@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T09:36:46.610Z",
- "updated_unix": 1793093806,
- "runs": 13602,
+ "updated": "2026-10-27T09:38:50.691Z",
+ "updated_unix": 1793093930,
+ "runs": 13603,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106090,
- "sent_total": 3189887,
+ "detected_total": 106092,
+ "sent_total": 3190049,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268561,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268561,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268562,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268562,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -399,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T09:36:35.913Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -413,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T09:36:35.913Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T09:36:35.913Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390660,
+   "owner": "",
+   "owner_addr": "0:24e870efd0d5ceb58cea147dc84c5914648620111a56c91d453e149937bc9d8b",
+   "mint": 1793091568,
+   "counter_issued": 390660,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:38:43.393Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390661,
+   "owner": "brrbrrpatapim.ton",
+   "owner_addr": "0:68758057cb9a011de43d77ff92688c238ef6699822b16d46224bd326f4bd6543",
+   "mint": 1793092655,
+   "counter_issued": 390661,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:38:43.393Z",
    "t": 1
   }
  ]
