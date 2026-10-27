@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T15:42:29.008Z",
- "updated_unix": 1793115749,
- "runs": 13646,
+ "updated": "2026-10-27T15:45:27.382Z",
+ "updated_unix": 1793115927,
+ "runs": 13647,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 106397,
- "sent_total": 3212633,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 106398,
+ "sent_total": 3212715,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84303,
-   "owner": "",
-   "owner_addr": "0:50de0aaa284d35498a2479622c95b63e7e5c4926fb78a7625dcf9714c7214788",
-   "mint": 1793103251,
-   "counter_issued": 84303,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:33:24.307Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:42:24.762Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15577,
+   "owner": "oldmoneygirl.ton",
+   "owner_addr": "0:bce0249a71279121fd5b17dd49da8d13847f733cbd1e9902e8c50fc476a00156",
+   "mint": 1793105488,
+   "counter_issued": 15577,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T15:45:23.557Z",
    "t": 1
   }
  ]
