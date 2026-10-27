@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T12:41:31.663Z",
- "updated_unix": 1793104891,
- "runs": 13625,
+ "updated": "2026-10-27T12:43:32.142Z",
+ "updated_unix": 1793105012,
+ "runs": 13626,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106331,
- "sent_total": 3207534,
+ "detected_total": 106332,
+ "sent_total": 3207616,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90353,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90353,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T11:26:43.502Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:41:22.204Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:41:22.204Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:41:22.204Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133655,
+   "owner": "xiaoshuai.ton",
+   "owner_addr": "0:a9ba38463a84ac3a59932b22289c7434ba154675c2e2dff0a66bc08b2a36240c",
+   "mint": 1793103786,
+   "counter_issued": 133655,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T12:43:28.068Z",
    "t": 1
   }
  ]
