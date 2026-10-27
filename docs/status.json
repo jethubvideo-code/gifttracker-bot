@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-27T12:40:00.652Z",
- "updated_unix": 1793104800,
- "runs": 13624,
+ "updated": "2026-10-27T12:41:31.663Z",
+ "updated_unix": 1793104891,
+ "runs": 13625,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106328,
- "sent_total": 3207288,
+ "detected_total": 106331,
+ "sent_total": 3207534,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268611,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1793099150,
-   "counter_issued": 268611,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T11:21:44.150Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268612,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1793099157,
-   "counter_issued": 268612,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T11:21:44.150Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268613,
-   "owner": "",
-   "owner_addr": "0:fbbfec7be9f56a2774b5725fff67e8ed4c888eff8d56007c74b4bc1aaada8ff5",
-   "mint": 1793099414,
-   "counter_issued": 268613,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T11:21:44.150Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -315,7 +273,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:10.949Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -329,7 +287,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:10.949Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -343,7 +301,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:25.128Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -357,7 +315,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:25.128Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -371,7 +329,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:25.128Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -385,7 +343,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:47.070Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -399,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:47.070Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -413,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:47.070Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -427,6 +385,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T12:39:47.070Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441904,
+   "owner": "",
+   "owner_addr": "0:1919b679c313c9566389edfe9ef0d75d7b857338b47d9946ab47ce957e1d8ced",
+   "mint": 1793102942,
+   "counter_issued": 441904,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T12:41:22.204Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441905,
+   "owner": "",
+   "owner_addr": "0:9741085ca53c6f0f4bfcfa0aeb5c316eced295ace8c4b45e0c3cd178b3a5107f",
+   "mint": 1793103192,
+   "counter_issued": 441905,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T12:41:22.204Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441906,
+   "owner": "hansummofficial.ton",
+   "owner_addr": "0:e1c14e61635c4c3ab81033504bae35ff79450c629f7340bf3c983c8e30868674",
+   "mint": 1793103991,
+   "counter_issued": 441906,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T12:41:22.204Z",
    "t": 1
   }
  ]
