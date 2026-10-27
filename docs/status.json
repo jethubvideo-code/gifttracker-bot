@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T05:00:14.732Z",
- "updated_unix": 1793077214,
- "runs": 13586,
+ "updated": "2026-10-27T06:15:45.461Z",
+ "updated_unix": 1793081745,
+ "runs": 13587,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105974,
- "sent_total": 3182606,
+ "detected_total": 105975,
+ "sent_total": 3182688,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88949,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88949,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T02:44:45.762Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T05:00:07.279Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T05:00:07.279Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32748,
+   "owner": "",
+   "owner_addr": "0:eadc4524e5846e7db28b1af66a20765d34762b2b041ead1821d298956e74a44f",
+   "mint": 1793079359,
+   "counter_issued": 32748,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:15:43.704Z",
    "t": 1
   }
  ]
