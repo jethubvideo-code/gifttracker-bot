@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-27T15:35:17.126Z",
- "updated_unix": 1793115317,
- "runs": 13644,
+ "updated": "2026-10-27T15:39:29.010Z",
+ "updated_unix": 1793115569,
+ "runs": 13645,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 106393,
- "sent_total": 3212305,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 106396,
+ "sent_total": 3212551,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74691,
-   "owner": "",
-   "owner_addr": "0:e873e74b7f189a5e916d61d6fbd98f0062463d2b8e8dbd6557473e4b924f69bc",
-   "mint": 1793085836,
-   "counter_issued": 74691,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:33:04.947Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74692,
-   "owner": "",
-   "owner_addr": "0:ac2d15af159086678d3eb01a3f7c05951f55b77e84e818ee354d5e642d8c6fef",
-   "mint": 1793099023,
-   "counter_issued": 74692,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:33:04.947Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74693,
-   "owner": "",
-   "owner_addr": "0:85ce82a7eb5789a1af713ac448814fddee9bf46db34613e591afff4a3fa12267",
-   "mint": 1793108270,
-   "counter_issued": 74693,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T14:33:04.947Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -328,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:33:58.418Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -342,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:33:58.418Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:33:58.418Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:33:58.418Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:33:58.418Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:33:58.418Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:35:06.784Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T15:35:06.784Z",
+   "t": 3
+  },
+  {
+   "slug": "KhabibsPapakha",
+   "gift": "Khabib’s Papakha",
+   "number": 28668,
+   "owner": "",
+   "owner_addr": "0:4aca21a97a120169028cf73f3ff8cf4c1bf201a59ecd06eb21bfdd89117841c8",
+   "mint": 1793060575,
+   "counter_issued": 28668,
+   "counter_total": 29000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T15:39:14.283Z",
+   "t": 1
+  },
+  {
+   "slug": "KhabibsPapakha",
+   "gift": "Khabib’s Papakha",
+   "number": 28669,
+   "owner": "",
+   "owner_addr": "0:7bbabe915f2a6f4ef744a4d2b8636b21707b9ddc49e222ed27b74b6ec4a6355d",
+   "mint": 1793067134,
+   "counter_issued": 28669,
+   "counter_total": 29000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T15:39:14.283Z",
+   "t": 1
+  },
+  {
+   "slug": "KhabibsPapakha",
+   "gift": "Khabib’s Papakha",
+   "number": 28670,
+   "owner": "tutorins-biznes.ton",
+   "owner_addr": "0:310b76de96f2dd5144ce6e1c50f044903c42fa1219f7c326bf15fed580029144",
+   "mint": 1793092723,
+   "counter_issued": 28670,
+   "counter_total": 29000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T15:39:14.283Z",
    "t": 1
   }
  ]
