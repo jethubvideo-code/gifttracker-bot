@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T19:07:40.071Z",
- "updated_unix": 1793128060,
- "runs": 13674,
+ "updated": "2026-10-27T19:08:18.431Z",
+ "updated_unix": 1793128098,
+ "runs": 13675,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106475,
- "sent_total": 3218724,
+ "detected_total": 106476,
+ "sent_total": 3218805,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32753,
-   "owner": "",
-   "owner_addr": "0:4fd35eb9a3dbfd32e60f6db6041db4775842458b6c24df18cbecf62665b83c05",
-   "mint": 1793112838,
-   "counter_issued": 32753,
-   "counter_total": 39464,
-   "img": "https://cdn4.telesco.pe/file/BEM7zefA0BlQIcGlR50w45mbnbvlalozt3xXsREpGfV7Uzs7tgk9IqTVRhJ9ap7DXp0UZqRmucXAs1hp2kfdJSpJseayIdjXgnte3CiyMxzO8UOUis8uIwTWa77zF2WwRrV9fOzjjDVho5PHRw92RF7eJPDOfjXhO4x5KzqCahnIhN4tR1etHkTQbMz1gO_KfZV2QkLOvsmHW-9zkoa5cxtjWb2vRIdLCwvo_MZ4kxHVGk3ATu_4PvAO6J_3rX__39iZeUkJ-nVtxTqm_9MUPcF1Z_0Q2sZQgjRLoSjuXrrT_iF1_43M9oib3jlCOy6Nk6hjmR9JLvYeHnWO-euOHQ.jpg",
-   "sent": 0,
-   "time": "2026-10-27T17:55:44.632Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T19:07:07.100Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133665,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133665,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T19:08:13.673Z",
    "t": 1
   }
  ]
