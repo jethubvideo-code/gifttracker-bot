@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-27T09:01:39.683Z",
- "updated_unix": 1793091699,
- "runs": 13599,
+ "updated": "2026-10-27T09:05:44.169Z",
+ "updated_unix": 1793091944,
+ "runs": 13600,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106082,
- "sent_total": 3189231,
+ "detected_total": 106085,
+ "sent_total": 3189477,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268553,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268553,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268554,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268554,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268555,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268555,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -399,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T09:01:23.317Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -413,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T09:01:28.486Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -427,6 +385,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T09:01:35.754Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90346,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90346,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:05:33.836Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90347,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90347,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:05:33.836Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90348,
+   "owner": "",
+   "owner_addr": "0:e873e74b7f189a5e916d61d6fbd98f0062463d2b8e8dbd6557473e4b924f69bc",
+   "mint": 1793085898,
+   "counter_issued": 90348,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:05:33.836Z",
    "t": 1
   }
  ]
