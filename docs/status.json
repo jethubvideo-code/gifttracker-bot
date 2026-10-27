@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T19:37:39.905Z",
- "updated_unix": 1793129859,
- "runs": 13679,
+ "updated": "2026-10-27T19:38:10.990Z",
+ "updated_unix": 1793129890,
+ "runs": 13680,
  "collections": 122,
- "checked": 0,
- "errors": 122,
- "detected_total": 106481,
- "sent_total": 3219210,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 106482,
+ "sent_total": 3219292,
  "last_upgrades": [
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58891,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793122280,
-   "counter_issued": 58891,
-   "counter_total": 60000,
-   "img": "https://cdn4.telesco.pe/file/p7iSny4GgrglTpqJMARoCE6d9pH_vpFhrFEzM75frKBaG_BuFSCekRVsWr6QAHMLeUoX92QFg4QfxJRf8nMggFytbx3ja4v_gd_HTGeuhIOxyhdRVghlaWU5APc4MmlPEqN9u_3zbuU7zKmU2X9oPezZvSp4ZZj4qnFh1wp-kDhPMxouBAOCXsOoXXs4V7YDJJFvsOgumT84sing9U2AoeTdpRpRuaGYDi5_O5vSv9rR1zq1iZbZuolvIs1R2m3ttJW8HoLUcMg87DT_xeIiQSZYZwRJ4ZLTMd_SzRonGguqyfni93CAvvbN6efX7WCpAVh898U8yFsaaL9Qqg-MDA.jpg",
-   "sent": 0,
-   "time": "2026-10-27T17:56:34.331Z",
-   "t": 3
-  },
   {
    "slug": "UFCStrike",
    "gift": "UFCStrike",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-10-27T19:19:32.753Z",
    "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133666,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133666,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T19:38:06.947Z",
+   "t": 1
   }
  ]
 }
