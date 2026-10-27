@@ -1,28 +1,13 @@
 {
- "updated": "2026-10-27T18:26:55.090Z",
- "updated_unix": 1793125615,
- "runs": 13671,
+ "updated": "2026-10-27T18:33:35.835Z",
+ "updated_unix": 1793126015,
+ "runs": 13672,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 106457,
- "sent_total": 3217316,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 106458,
+ "sent_total": 3217398,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268633,
-   "owner": "",
-   "owner_addr": "0:d641a2afc5d50fbfa4a7776ea3be31dc324ccfb7ea533096a63b81eb8bfeabb8",
-   "mint": 1793120934,
-   "counter_issued": 268633,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/dteCaETnC4ZsmENbT-kYMRh1ybhwqFKC1TVQht0TsoZio6eEBXvFO240RKiwhClPIMn6A5EKi8aQc8xKvp-a40Y5nJj3pDrk5x3W3qrLj5uPxUvxSlb_vOsDX8ptoiC9ffppoEXKcZoRXltE003D_9AXrJVKOHz1mlHL-BblJxaYaEUWUQ8IJzPt4a4hYltPqgFrMXf4KN2eoTgkBdorwjvWmrecdKRgUSxUTVskEWGiVpW58HHaaURXMbOHZgH8y9IR8OsZMI-lDa9eeA3Q5PJpJT5zeYbplep0vZkhBhhaO7Lh78Rtb0f_bJgZp1YUjXGEHDNPIe56ZVO4fH0kHg.jpg",
-   "sent": 0,
-   "time": "2026-10-27T17:51:02.807Z",
-   "t": 1,
-   "u": 1
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -413,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T18:09:33.413Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -427,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T18:26:22.647Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441930,
+   "owner": "",
+   "owner_addr": "0:7bea972a838472bceceb9fc3e01b6a7627f0d9a0a6716dafbad2a534fa9a9718",
+   "mint": 1793124782,
+   "counter_issued": 441930,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T18:33:29.469Z",
    "t": 1
   }
  ]
