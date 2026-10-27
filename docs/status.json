@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T10:50:47.946Z",
- "updated_unix": 1793098247,
- "runs": 13611,
+ "updated": "2026-10-27T10:51:48.814Z",
+ "updated_unix": 1793098308,
+ "runs": 13612,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106269,
- "sent_total": 3204029,
+ "detected_total": 106270,
+ "sent_total": 3204111,
  "last_upgrades": [
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118046,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118046,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T10:30:17.465Z",
-   "t": 3
-  },
   {
    "slug": "JollyChimp",
    "gift": "JollyChimp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T10:50:41.990Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390662,
+   "owner": "",
+   "owner_addr": "0:f360902c3925b2bb49b924b6b0e145f3108c56a30034f55551216738a71500ee",
+   "mint": 1793097173,
+   "counter_issued": 390662,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T10:51:43.392Z",
    "t": 1
   }
  ]
