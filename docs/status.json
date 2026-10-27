@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T17:19:43.641Z",
- "updated_unix": 1793121583,
- "runs": 13663,
+ "updated": "2026-10-27T17:22:46.066Z",
+ "updated_unix": 1793121766,
+ "runs": 13664,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106422,
- "sent_total": 3214603,
+ "detected_total": 106423,
+ "sent_total": 3214685,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133660,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133660,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T15:35:06.784Z",
-   "t": 3
-  },
   {
    "slug": "KhabibsPapakha",
    "gift": "Khabib’s Papakha",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:19:39.701Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90359,
+   "owner": "tank.ton",
+   "owner_addr": "0:c8a7f8d7b617fc79a2e855726b0fcd2230e21c5a170d559a8f05cb85b0b94d3c",
+   "mint": 1793120262,
+   "counter_issued": 90359,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T17:22:42.235Z",
    "t": 1
   }
  ]
