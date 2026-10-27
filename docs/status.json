@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T06:53:05.156Z",
- "updated_unix": 1793083985,
- "runs": 13592,
+ "updated": "2026-10-27T06:55:04.056Z",
+ "updated_unix": 1793084104,
+ "runs": 13593,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105984,
- "sent_total": 3183426,
+ "detected_total": 105985,
+ "sent_total": 3183508,
  "last_upgrades": [
-  {
-   "slug": "MoonPendant",
-   "gift": "Moon Pendant",
-   "number": 102705,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793035211,
-   "counter_issued": 102705,
-   "counter_total": 111080,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T03:25:12.734Z",
-   "t": 3
-  },
   {
    "slug": "MoonPendant",
    "gift": "Moon Pendant",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:53:03.497Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23070,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23070,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:55:00.579Z",
    "t": 1
   }
  ]
