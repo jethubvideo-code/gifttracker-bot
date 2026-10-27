@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T13:17:14.693Z",
- "updated_unix": 1793107034,
- "runs": 13630,
+ "updated": "2026-10-27T13:23:11.776Z",
+ "updated_unix": 1793107391,
+ "runs": 13631,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 106348,
- "sent_total": 3208760,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 106349,
+ "sent_total": 3208842,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441903,
-   "owner": "",
-   "owner_addr": "0:2a43595f9846b3111ac22f70673268000cdd4c6de8997661d2eb44897cca54fe",
-   "mint": 1793101226,
-   "counter_issued": 441903,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T12:02:13.859Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T13:15:53.362Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T13:16:58.692Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T13:16:58.692Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T13:16:58.692Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441910,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441910,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T13:23:07.231Z",
    "t": 1
   }
  ]
