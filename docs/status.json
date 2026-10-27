@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T13:55:50.912Z",
- "updated_unix": 1793109350,
- "runs": 13633,
+ "updated": "2026-10-27T13:58:53.831Z",
+ "updated_unix": 1793109533,
+ "runs": 13634,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106352,
- "sent_total": 3209088,
+ "detected_total": 106353,
+ "sent_total": 3209170,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 73937,
-   "owner": "",
-   "owner_addr": "0:3ca76614f751b5e4793e885e50c3360698e1d937d33eb6c1736723a68a6b3f70",
-   "mint": 1793099481,
-   "counter_issued": 73937,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T12:39:25.128Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T13:55:47.160Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390665,
+   "owner": "",
+   "owner_addr": "0:d602e60752480b2831c1598eed70a9604bea5b76496848ff0a9b73897ab1566a",
+   "mint": 1793108879,
+   "counter_issued": 390665,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T13:58:51.096Z",
    "t": 1
   }
  ]
