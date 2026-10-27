@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T06:15:45.461Z",
- "updated_unix": 1793081745,
- "runs": 13587,
+ "updated": "2026-10-27T06:39:09.206Z",
+ "updated_unix": 1793083149,
+ "runs": 13588,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 105975,
- "sent_total": 3182688,
+ "detected_total": 105977,
+ "sent_total": 3182852,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88950,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88950,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T02:44:45.762Z",
-   "t": 3
-  },
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 88951,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 88951,
-   "counter_total": 99421,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T02:44:45.762Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T06:15:43.704Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441894,
+   "owner": "",
+   "owner_addr": "0:5389f72f0d9a5d710dd538184a382611159c9087bcdb343f853c8c248c9a668b",
+   "mint": 1793081942,
+   "counter_issued": 441894,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:39:02.161Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441895,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1793082961,
+   "counter_issued": 441895,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T06:39:02.161Z",
    "t": 1
   }
  ]
