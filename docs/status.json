@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-27T08:32:28.239Z",
- "updated_unix": 1793089948,
- "runs": 13598,
+ "updated": "2026-10-27T09:01:39.683Z",
+ "updated_unix": 1793091699,
+ "runs": 13599,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106079,
- "sent_total": 3188985,
+ "detected_total": 106082,
+ "sent_total": 3189231,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268550,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268550,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268551,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268551,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268552,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268552,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T07:19:57.776Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -413,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T08:32:16.476Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -427,7 +385,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T08:32:16.476Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164052,
+   "owner": "",
+   "owner_addr": "0:19fa1d22b5ee3349252224dc96d416a175da969c7939103018f54babea636ddd",
+   "mint": 1793091285,
+   "counter_issued": 164052,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:01:23.317Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 108895,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108895,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:01:28.486Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84301,
+   "owner": "",
+   "owner_addr": "0:d183b4476a8b9d00391c41661e938d27bf518a03c569104dfabb2854525f03a1",
+   "mint": 1793088490,
+   "counter_issued": 84301,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T09:01:35.754Z",
+   "t": 1
   }
  ]
 }
