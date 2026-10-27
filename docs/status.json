@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T13:23:11.776Z",
- "updated_unix": 1793107391,
- "runs": 13631,
+ "updated": "2026-10-27T13:52:55.465Z",
+ "updated_unix": 1793109175,
+ "runs": 13632,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106349,
- "sent_total": 3208842,
+ "detected_total": 106351,
+ "sent_total": 3209006,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78279,
-   "owner": "",
-   "owner_addr": "0:d473b4a6ad23ef2d3c7248d8775029e57bf8410d9f08cb74aaebd8ef5db6cadc",
-   "mint": 1793100011,
-   "counter_issued": 78279,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T12:39:10.949Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78280,
-   "owner": "424242.ton",
-   "owner_addr": "0:455024810caef5d106159c1a1c7decc336f3bbc7198bac97409cb13cc1c88c17",
-   "mint": 1793103252,
-   "counter_issued": 78280,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T12:39:10.949Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T13:23:07.231Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26095,
+   "owner": "",
+   "owner_addr": "0:39c63ab4297ea4e242d0acdedcffe5e9b1609b8226b47a01c01c53e4b6b92a1e",
+   "mint": 1793103955,
+   "counter_issued": 26095,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T13:52:43.982Z",
+   "t": 1
+  },
+  {
+   "slug": "VoodooDoll",
+   "gift": "Voodoo Doll",
+   "number": 26838,
+   "owner": "",
+   "owner_addr": "0:c39da3b594c0c629adf5287ae7e9979c8f4c35a00dab33a482964e209c818598",
+   "mint": 1793098003,
+   "counter_issued": 26838,
+   "counter_total": 27620,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T13:52:51.613Z",
+   "t": 1
   }
  ]
 }
