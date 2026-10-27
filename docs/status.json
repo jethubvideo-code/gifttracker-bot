@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-27T17:33:56.507Z",
- "updated_unix": 1793122436,
- "runs": 13666,
+ "updated": "2026-10-27T17:51:59.891Z",
+ "updated_unix": 1793123519,
+ "runs": 13667,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 106427,
- "sent_total": 3215013,
+ "checked": 30,
+ "errors": 92,
+ "detected_total": 106430,
+ "sent_total": 3215166,
  "last_upgrades": [
-  {
-   "slug": "NekoHelmet",
-   "gift": "Neko Helmet",
-   "number": 15577,
-   "owner": "oldmoneygirl.ton",
-   "owner_addr": "0:bce0249a71279121fd5b17dd49da8d13847f733cbd1e9902e8c50fc476a00156",
-   "mint": 1793105488,
-   "counter_issued": 15577,
-   "counter_total": 16149,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T15:45:23.557Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23073,
-   "owner": "mastersardor.ton",
-   "owner_addr": "0:f3d64a3cc91d6de434c70925bf85ade355560df34dc46d714401370a397071c9",
-   "mint": 1793111103,
-   "counter_issued": 23073,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T15:46:23.030Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390668,
-   "owner": "",
-   "owner_addr": "0:6af809273fc66f5eba9743e8925af08939fde8ba89ba68df795b6cb9b668d335",
-   "mint": 1793115691,
-   "counter_issued": 390668,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T16:05:03.262Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:33:46.971Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:33:46.971Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RareBird",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T17:33:46.971Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268633,
+   "owner": "",
+   "owner_addr": "0:d641a2afc5d50fbfa4a7776ea3be31dc324ccfb7ea533096a63b81eb8bfeabb8",
+   "mint": 1793120934,
+   "counter_issued": 268633,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T17:51:02.807Z",
    "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268634,
+   "owner": "",
+   "owner_addr": "0:f8e002474b74f96e086df7cb8e2845da0bc56a6d60f4313e517ee16a6ca8b138",
+   "mint": 1793120957,
+   "counter_issued": 268634,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/kB50al-UJgiKmave3AavSJNv0mONrBHFNrAQOhWL_Z0LmXrEjRt7_Xu0nJCAeCQ6SDsV6ihvaeSjwMbbeXxYZR-cWFd-cHpYuYcjdqHZUEiI773c9KwNP_7KdFKCBnv4LH-1_d5xt90m1Vet4zSAM2U26eOsAnIxhMuTR9cVYyUC_D4aw9XEU21xFz6r0aSJO0cKysS4tHtrfU7fD-TmylQF7YbjnXwg6uUSfCRk1jhcy-D32sfsze8Gc4zNFmU_CfDtWbS-tDX3z91tQcyG7rE1mYyNc6ao4BHTuXRiqVedkUakN5NFPjH1Rdc1henzpNgCAlCmdT7qQ-Prz48YEw.jpg",
+   "sent": 0,
+   "time": "2026-10-27T17:51:02.807Z",
+   "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268635,
+   "owner": "",
+   "owner_addr": "0:df08763a85325c2c07a87dfea36325859d06650591d1740a5f16edd6ddbe1d33",
+   "mint": 1793121144,
+   "counter_issued": 268635,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/UpibPKHen8bSMHJbPgZSSlMXBNnIOILjoCSpOaX8iWL45PhIoV4l41vnxzu862xcINRLjZwf5tUDwGqksuHv63hd3lr2FZrUadd9LX0l-Fh9hAiO9b0_poEyCnVhw4h2gIMKDcTh_YwJLI_y3uxvZo65XQ8iVK3i0uLXeIpcnjOUM8v3fBX0cyjo3QurDoE3mv16cF3vivOoP8uxw6T1AlKyyDdzcGijqFKt97FPgQel4RV400U8E1Eva7p-j2mwWLypI0wWAC2qvEJlkzF0zt-bhxUz0hbu-QQCarN8sdnMlb3KNqEHjYDdEfvL-Qd8bOoLF1BmbJICoZAUX6lHPQ.jpg",
+   "sent": 0,
+   "time": "2026-10-27T17:51:02.807Z",
+   "u": 1
   }
  ]
 }
