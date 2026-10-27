@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-27T14:34:20.307Z",
- "updated_unix": 1793111660,
- "runs": 13637,
+ "updated": "2026-10-27T14:35:15.106Z",
+ "updated_unix": 1793111715,
+ "runs": 13638,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106372,
- "sent_total": 3210728,
+ "detected_total": 106373,
+ "sent_total": 3210810,
  "last_upgrades": [
-  {
-   "slug": "SkullFlower",
-   "gift": "Skull Flower",
-   "number": 22065,
-   "owner": "",
-   "owner_addr": "0:0749d140299d7cafdc394c1585a3f09a9485a69c9925cf166d52c5599914b012",
-   "mint": 1793035952,
-   "counter_issued": 22065,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T13:12:57.054Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "Skull Flower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T14:34:16.458Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133658,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133658,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-27T14:35:11.623Z",
    "t": 1
   }
  ]
