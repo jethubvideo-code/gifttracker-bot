@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T08:49:41.554Z",
- "updated_unix": 1793177381,
- "runs": 13748,
+ "updated": "2026-10-28T08:50:40.667Z",
+ "updated_unix": 1793177440,
+ "runs": 13749,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107092,
- "sent_total": 3268819,
+ "detected_total": 107093,
+ "sent_total": 3268898,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441960,
-   "owner": "say-good-night.ton",
-   "owner_addr": "0:cb83d5ffd56345ba5f8cc5f2a5b24e5afb6330ed63cf017ececd46571f293950",
-   "mint": 1793167763,
-   "counter_issued": 441960,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T06:48:18.634Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:49:39.816Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133674,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133674,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T08:50:38.503Z",
    "t": 1
   }
  ]
