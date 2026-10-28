@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T18:13:25.329Z",
- "updated_unix": 1793211205,
- "runs": 13824,
+ "updated": "2026-10-28T18:16:21.917Z",
+ "updated_unix": 1793211381,
+ "runs": 13825,
  "collections": 122,
- "checked": 29,
- "errors": 93,
- "detected_total": 107650,
- "sent_total": 3312837,
+ "checked": 30,
+ "errors": 92,
+ "detected_total": 107651,
+ "sent_total": 3312916,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230384,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230384,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T18:04:46.718Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:13:23.338Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268727,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 268727,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T18:16:20.075Z",
    "t": 1
   }
  ]
