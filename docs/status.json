@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T01:30:30.803Z",
- "updated_unix": 1793151030,
- "runs": 13712,
+ "updated": "2026-10-28T01:36:23.570Z",
+ "updated_unix": 1793151383,
+ "runs": 13713,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106727,
- "sent_total": 3239287,
+ "detected_total": 106728,
+ "sent_total": 3239368,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32757,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32757,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T22:43:49.289Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T00:55:02.847Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T01:30:20.636Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T01:30:26.562Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90367,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90367,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T01:36:22.131Z",
    "t": 1
   }
  ]
