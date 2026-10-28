@@ -1,97 +1,13 @@
 {
- "updated": "2026-10-28T17:24:38.600Z",
- "updated_unix": 1793208278,
- "runs": 13812,
+ "updated": "2026-10-28T17:27:56.109Z",
+ "updated_unix": 1793208476,
+ "runs": 13813,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107454,
- "sent_total": 3297355,
+ "detected_total": 107460,
+ "sent_total": 3297829,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135458,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135458,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135459,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135459,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135460,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135460,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135461,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135461,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135462,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135462,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135463,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135463,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -370,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:50:59.531Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:24:20.201Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:24:30.596Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:24:30.596Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +342,90 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:24:30.596Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232302,
+   "owner": "",
+   "owner_addr": "0:136ecfacfb24dc5b4d9a75515bc12d4f512c7fb456a5a68e4d528ce20efdf41f",
+   "mint": 1793196383,
+   "counter_issued": 232302,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:27:39.288Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232303,
+   "owner": "",
+   "owner_addr": "0:136ecfacfb24dc5b4d9a75515bc12d4f512c7fb456a5a68e4d528ce20efdf41f",
+   "mint": 1793196391,
+   "counter_issued": 232303,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:27:39.288Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232304,
+   "owner": "",
+   "owner_addr": "0:3af761205fabb294c983fef58c90f935bc804c229e33648c3e7cd31bd6d6b26c",
+   "mint": 1793199156,
+   "counter_issued": 232304,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:27:39.288Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232305,
+   "owner": "",
+   "owner_addr": "0:872f1fe2ad026576d44d40d4d33aee3c0c2c240ce6b26b42d8fca753b5ec07d7",
+   "mint": 1793201938,
+   "counter_issued": 232305,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:27:39.288Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232306,
+   "owner": "",
+   "owner_addr": "0:cfa20fc9ef456e1a1b36de3b3a7c22b4d0fd93295ca39ff8553ce2ddea520786",
+   "mint": 1793203079,
+   "counter_issued": 232306,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:27:39.288Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232307,
+   "owner": "",
+   "owner_addr": "0:91398c0d1229aa2fa1316799a552e85471bfbddb2e241f9ee4b2ac96b63616c3",
+   "mint": 1793208125,
+   "counter_issued": 232307,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:27:39.288Z",
    "t": 1
   }
  ]
