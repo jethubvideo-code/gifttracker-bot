@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T12:44:47.742Z",
- "updated_unix": 1793191487,
- "runs": 13781,
+ "updated": "2026-10-28T12:46:49.501Z",
+ "updated_unix": 1793191609,
+ "runs": 13782,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107193,
- "sent_total": 3276795,
+ "detected_total": 107194,
+ "sent_total": 3276874,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108513,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1793180547,
-   "counter_issued": 108513,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T10:33:24.633Z",
-   "t": 3
-  },
   {
    "slug": "KissedFrog",
    "gift": "Kissed Frog",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:44:45.455Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390704,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390704,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:46:45.631Z",
    "t": 1
   }
  ]
