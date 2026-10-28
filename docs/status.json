@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T20:21:05.802Z",
- "updated_unix": 1793218865,
- "runs": 13842,
+ "updated": "2026-10-28T20:22:05.583Z",
+ "updated_unix": 1793218925,
+ "runs": 13843,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 107719,
- "sent_total": 3318322,
+ "checked": 1,
+ "errors": 121,
+ "detected_total": 107721,
+ "sent_total": 3318478,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "WitchHat",
-   "number": 82899,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 82899,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:12:28.525Z",
-   "t": 3
-  },
-  {
-   "slug": "WitchHat",
-   "gift": "WitchHat",
-   "number": 82900,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 82900,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:12:28.525Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "WitchHat",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T19:58:46.503Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T20:21:03.808Z",
+   "t": 3
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56583,
+   "owner": "",
+   "owner_addr": "0:521d97302cf60a9ffc9b7287032d3302f74690db9eeb7064e74063da4bfe5856",
+   "mint": 1793205599,
+   "counter_issued": 56583,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T20:22:01.999Z",
+   "t": 1
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56584,
+   "owner": "",
+   "owner_addr": "0:c0aa5f3dfed2a5ab1eac828a60ea4163eb84a9ecac25f19586731d3e68cf50a0",
+   "mint": 1793210583,
+   "counter_issued": 56584,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T20:22:01.999Z",
    "t": 1
   }
  ]
