@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T22:42:28.981Z",
- "updated_unix": 1793227348,
- "runs": 13853,
+ "updated": "2026-10-28T22:50:28.733Z",
+ "updated_unix": 1793227828,
+ "runs": 13854,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107778,
- "sent_total": 3322924,
+ "detected_total": 107780,
+ "sent_total": 3323080,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268758,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268758,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T20:56:30.172Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268759,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268759,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T20:56:30.172Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T22:10:02.446Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T22:42:23.721Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T22:42:23.721Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442026,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793225536,
+   "counter_issued": 442026,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T22:50:24.981Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442027,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793225559,
+   "counter_issued": 442027,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T22:50:24.981Z",
    "t": 1
   }
  ]
