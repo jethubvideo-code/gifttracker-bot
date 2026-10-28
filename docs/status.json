@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T14:10:19.644Z",
- "updated_unix": 1793196619,
- "runs": 13791,
+ "updated": "2026-10-28T14:35:05.539Z",
+ "updated_unix": 1793198105,
+ "runs": 13792,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 107204,
- "sent_total": 3277663,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 107205,
+ "sent_total": 3277742,
  "last_upgrades": [
-  {
-   "slug": "GenieLamp",
-   "gift": "GenieLamp",
-   "number": 6605,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 6605,
-   "counter_total": 7666,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T11:36:54.515Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T14:10:17.627Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108516,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108516,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T14:35:02.240Z",
    "t": 1
   }
  ]
