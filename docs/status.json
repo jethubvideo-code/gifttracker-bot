@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-28T15:15:17.555Z",
- "updated_unix": 1793200517,
- "runs": 13798,
+ "updated": "2026-10-28T15:42:28.728Z",
+ "updated_unix": 1793202148,
+ "runs": 13799,
  "collections": 122,
  "checked": 4,
  "errors": 118,
- "detected_total": 107223,
- "sent_total": 3279163,
+ "detected_total": 107226,
+ "sent_total": 3279400,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390704,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390704,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T12:46:45.631Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "SleighBell",
-   "number": 23076,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23076,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T12:53:45.389Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "SleighBell",
-   "number": 23077,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23077,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T12:54:45.780Z",
-   "t": 3
-  },
   {
    "slug": "MadPumpkin",
    "gift": "Mad Pumpkin",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:05:09.274Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:15:15.814Z",
+   "t": 2
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "SkullFlower",
+   "number": 22071,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 22071,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T15:42:20.669Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23079,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23079,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T15:42:24.870Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23080,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23080,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T15:42:24.870Z",
    "t": 1
   }
  ]
