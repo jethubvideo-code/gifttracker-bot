@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T08:45:47.674Z",
- "updated_unix": 1793177147,
- "runs": 13745,
+ "updated": "2026-10-28T08:46:25.718Z",
+ "updated_unix": 1793177185,
+ "runs": 13746,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 107082,
- "sent_total": 3268029,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 107083,
+ "sent_total": 3268108,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108568,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108568,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T05:41:28.392Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:45:23.791Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:45:23.791Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:45:31.526Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:45:37.887Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:45:43.702Z",
+   "t": 3
+  },
+  {
+   "slug": "VintageCigar",
+   "gift": "Vintage Cigar",
+   "number": 26845,
+   "owner": "",
+   "owner_addr": "0:8fd41e78de3998e80a9614d4b20a30cbc5dd4a72c2f10ab6fb5c23b094c2734e",
+   "mint": 1793145721,
+   "counter_issued": 26845,
+   "counter_total": 31024,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T08:46:21.825Z",
    "t": 1
   }
  ]
