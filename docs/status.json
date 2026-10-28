@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T14:36:12.899Z",
- "updated_unix": 1793198172,
- "runs": 13793,
+ "updated": "2026-10-28T14:41:12.025Z",
+ "updated_unix": 1793198472,
+ "runs": 13794,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107208,
- "sent_total": 3277979,
+ "detected_total": 107209,
+ "sent_total": 3278058,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74695,
-   "owner": "",
-   "owner_addr": "0:cce4a1b6517ddb340a4300d7c8b64a8cd30d6b69876c4f304ffa276128c01940",
-   "mint": 1793177818,
-   "counter_issued": 74695,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T11:46:58.755Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "Skull Flower",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T14:36:00.106Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T14:36:08.704Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T14:36:08.704Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390706,
+   "owner": "",
+   "owner_addr": "0:64e648a582f9006de32e5401d16a1416b19bd95c8bd78279d017c32487b0f762",
+   "mint": 1793197337,
+   "counter_issued": 390706,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T14:41:09.313Z",
    "t": 1
   }
  ]
