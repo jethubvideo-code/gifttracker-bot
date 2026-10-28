@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T11:07:53.785Z",
- "updated_unix": 1793185673,
- "runs": 13767,
+ "updated": "2026-10-28T11:31:00.110Z",
+ "updated_unix": 1793187060,
+ "runs": 13768,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 107172,
- "sent_total": 3275138,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 107173,
+ "sent_total": 3275217,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268706,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268706,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:44:55.235Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:06:44.169Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:06:44.169Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:07:47.039Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:07:47.039Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133677,
+   "owner": "",
+   "owner_addr": "0:08dd121f5cec674ce798674d24a83364866092a787ced36a371dca588a4afc04",
+   "mint": 1793187024,
+   "counter_issued": 133677,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T11:30:58.085Z",
    "t": 1
   }
  ]
