@@ -1,26 +1,13 @@
 {
- "updated": "2026-10-28T16:13:46.980Z",
- "updated_unix": 1793204026,
- "runs": 13805,
+ "updated": "2026-10-28T16:15:42.147Z",
+ "updated_unix": 1793204142,
+ "runs": 13806,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107439,
- "sent_total": 3296171,
+ "detected_total": 107440,
+ "sent_total": 3296250,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135443,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135443,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z"
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -32,7 +19,8 @@
    "counter_total": 159750,
    "img": "",
    "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z"
+   "time": "2026-10-28T15:59:07.201Z",
+   "t": 3
   },
   {
    "slug": "InputKey",
@@ -45,7 +33,8 @@
    "counter_total": 159750,
    "img": "",
    "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z"
+   "time": "2026-10-28T15:59:07.201Z",
+   "t": 3
   },
   {
    "slug": "InputKey",
@@ -58,7 +47,8 @@
    "counter_total": 159750,
    "img": "",
    "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z"
+   "time": "2026-10-28T15:59:07.201Z",
+   "t": 3
   },
   {
    "slug": "InputKey",
@@ -71,7 +61,8 @@
    "counter_total": 159750,
    "img": "",
    "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z"
+   "time": "2026-10-28T15:59:07.201Z",
+   "t": 3
   },
   {
    "slug": "InputKey",
@@ -85,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:59:07.201Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InputKey",
@@ -421,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:13:43.699Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "SkullFlower",
+   "number": 22072,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 22072,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T16:15:40.154Z",
    "t": 1
   }
  ]
