@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T11:05:47.063Z",
- "updated_unix": 1793185547,
- "runs": 13765,
+ "updated": "2026-10-28T11:06:50.141Z",
+ "updated_unix": 1793185610,
+ "runs": 13766,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107168,
- "sent_total": 3274822,
+ "detected_total": 107170,
+ "sent_total": 3274980,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268702,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268702,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:44:55.235Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268703,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268703,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:44:55.235Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:05:40.893Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:05:40.893Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:05:40.893Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390699,
+   "owner": "",
+   "owner_addr": "0:ba8ef48dc59f4214b340ee6803776b5835da725399e718eba83588d7ba935416",
+   "mint": 1793183829,
+   "counter_issued": 390699,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T11:06:44.169Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390700,
+   "owner": "",
+   "owner_addr": "0:ba8ef48dc59f4214b340ee6803776b5835da725399e718eba83588d7ba935416",
+   "mint": 1793183963,
+   "counter_issued": 390700,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T11:06:44.169Z",
    "t": 1
   }
  ]
