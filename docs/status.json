@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T06:48:22.753Z",
- "updated_unix": 1793170102,
- "runs": 13734,
+ "updated": "2026-10-28T06:50:17.124Z",
+ "updated_unix": 1793170217,
+ "runs": 13735,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107063,
- "sent_total": 3266518,
+ "detected_total": 107064,
+ "sent_total": 3266599,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108549,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108549,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T05:41:28.392Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T06:48:18.634Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390686,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390686,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T06:50:15.076Z",
    "t": 1
   }
  ]
