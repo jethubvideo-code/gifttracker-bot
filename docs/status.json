@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T08:00:02.236Z",
- "updated_unix": 1793174402,
- "runs": 13743,
+ "updated": "2026-10-28T08:42:27.111Z",
+ "updated_unix": 1793176947,
+ "runs": 13744,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107076,
- "sent_total": 3267555,
+ "detected_total": 107077,
+ "sent_total": 3267634,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108562,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108562,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T05:41:28.392Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T08:00:00.167Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32769,
+   "owner": "",
+   "owner_addr": "0:93ff16543320de0774572e0084b90ebda3d02397642cd786f178be3681a24273",
+   "mint": 1793169367,
+   "counter_issued": 32769,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T08:42:25.229Z",
    "t": 1
   }
  ]
