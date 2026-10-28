@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T07:23:41.320Z",
- "updated_unix": 1793172221,
- "runs": 13737,
+ "updated": "2026-10-28T07:25:40.616Z",
+ "updated_unix": 1793172340,
+ "runs": 13738,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107066,
- "sent_total": 3266760,
+ "detected_total": 107067,
+ "sent_total": 3266840,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108552,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108552,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T05:41:28.392Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T06:54:17.908Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T07:23:38.833Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441961,
+   "owner": "",
+   "owner_addr": "0:78d9e70dce044a8a2aae919803b6d5971be916f7d1099eedbb1e90e8eb6264a8",
+   "mint": 1793171291,
+   "counter_issued": 441961,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T07:25:38.123Z",
    "t": 1
   }
  ]
