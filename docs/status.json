@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T19:58:47.916Z",
- "updated_unix": 1793217527,
- "runs": 13841,
+ "updated": "2026-10-28T20:21:05.802Z",
+ "updated_unix": 1793218865,
+ "runs": 13842,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107718,
- "sent_total": 3318244,
+ "detected_total": 107719,
+ "sent_total": 3318322,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "WitchHat",
-   "number": 82898,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 82898,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:12:28.525Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "WitchHat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T19:58:46.503Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390721,
+   "owner": "",
+   "owner_addr": "0:8948144e7f02fcb00cfae35c63b6f39d2d30e193393c56619c77fad46136709c",
+   "mint": 1793217144,
+   "counter_issued": 390721,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T20:21:03.808Z",
    "t": 1
   }
  ]
