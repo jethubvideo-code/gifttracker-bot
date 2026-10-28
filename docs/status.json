@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T17:27:56.109Z",
- "updated_unix": 1793208476,
- "runs": 13813,
+ "updated": "2026-10-28T17:32:56.748Z",
+ "updated_unix": 1793208776,
+ "runs": 13814,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107460,
- "sent_total": 3297829,
+ "detected_total": 107462,
+ "sent_total": 3297987,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135464,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135464,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135465,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135465,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:27:39.288Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:27:39.288Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:27:39.288Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:27:39.288Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:27:39.288Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:27:39.288Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108518,
+   "owner": "",
+   "owner_addr": "0:c7dcde5b0607c923438ef4d8d61d5c6c541694c44a8feb8226b09213a126de6e",
+   "mint": 1793208570,
+   "counter_issued": 108518,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:32:53.200Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108519,
+   "owner": "ll0000l00l.ton",
+   "owner_addr": "0:c7dcde5b0607c923438ef4d8d61d5c6c541694c44a8feb8226b09213a126de6e",
+   "mint": 1793208578,
+   "counter_issued": 108519,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:32:53.200Z",
    "t": 1
   }
  ]
