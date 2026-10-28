@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-27T23:27:15.637Z",
- "updated_unix": 1793143635,
- "runs": 13708,
+ "updated": "2026-10-28T00:02:35.342Z",
+ "updated_unix": 1793145755,
+ "runs": 13709,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 106721,
- "sent_total": 3238801,
+ "detected_total": 106723,
+ "sent_total": 3238963,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441954,
-   "owner": "",
-   "owner_addr": "0:93c334f298a28d3f76746cc51db1c8e7a362c04cc6c13de860be38beb508d4f0",
-   "mint": 1793136815,
-   "counter_issued": 441954,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T21:58:31.317Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90365,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90365,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-27T22:00:31.225Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-27T23:27:13.723Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164053,
+   "owner": "",
+   "owner_addr": "0:bb800e439cab8153b03df186837c5beb28d6a56288567e184134a731ed2d7fb6",
+   "mint": 1793141354,
+   "counter_issued": 164053,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T00:02:28.105Z",
+   "t": 1
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164054,
+   "owner": "",
+   "owner_addr": "0:bb800e439cab8153b03df186837c5beb28d6a56288567e184134a731ed2d7fb6",
+   "mint": 1793141380,
+   "counter_issued": 164054,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T00:02:28.105Z",
    "t": 1
   }
  ]
