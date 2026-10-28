@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T16:29:08.936Z",
- "updated_unix": 1793204948,
- "runs": 13809,
+ "updated": "2026-10-28T16:30:09.262Z",
+ "updated_unix": 1793205009,
+ "runs": 13810,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107448,
- "sent_total": 3296881,
+ "detected_total": 107449,
+ "sent_total": 3296960,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135452,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135452,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:29:06.929Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268723,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 268723,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T16:30:06.861Z",
    "t": 1
   }
  ]
