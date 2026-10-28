@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T12:54:48.097Z",
- "updated_unix": 1793192088,
- "runs": 13784,
+ "updated": "2026-10-28T12:56:50.456Z",
+ "updated_unix": 1793192210,
+ "runs": 13785,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107196,
- "sent_total": 3277032,
+ "detected_total": 107197,
+ "sent_total": 3277111,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268714,
-   "owner": "",
-   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
-   "mint": 1793185449,
-   "counter_issued": 268714,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T11:05:40.893Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:54:45.780Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19805,
+   "owner": "",
+   "owner_addr": "0:3557f157cc44d299a76d8f50a1e1dbe2a92333127022a5cfca4c4b1a273be27d",
+   "mint": 1793166935,
+   "counter_issued": 19805,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:56:48.372Z",
    "t": 1
   }
  ]
