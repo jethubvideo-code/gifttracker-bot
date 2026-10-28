@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T15:46:32.725Z",
- "updated_unix": 1793202392,
- "runs": 13801,
+ "updated": "2026-10-28T15:47:33.976Z",
+ "updated_unix": 1793202453,
+ "runs": 13802,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107228,
- "sent_total": 3279558,
+ "detected_total": 107230,
+ "sent_total": 3279716,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133681,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133681,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T13:17:02.614Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441972,
-   "owner": "",
-   "owner_addr": "0:004a340ae095a6b190b826fdf6013edefda3db695100e7152b866d77dfc1aec9",
-   "mint": 1793193391,
-   "counter_issued": 441972,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T13:17:59.788Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "Durov’s Glasses",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:46:30.303Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390707,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390707,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T15:47:28.143Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390708,
+   "owner": "",
+   "owner_addr": "0:f85940040a389d2dbb0a4181f8a12d88ef2475c7d6a5e044ea7a63e0ac2cb371",
+   "mint": 1793201340,
+   "counter_issued": 390708,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T15:47:28.143Z",
    "t": 1
   }
  ]
