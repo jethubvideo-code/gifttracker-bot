@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T11:47:03.072Z",
- "updated_unix": 1793188023,
- "runs": 13772,
+ "updated": "2026-10-28T11:47:59.504Z",
+ "updated_unix": 1793188079,
+ "runs": 13773,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107179,
- "sent_total": 3275691,
+ "detected_total": 107180,
+ "sent_total": 3275770,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441963,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1793180437,
-   "counter_issued": 441963,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:45:47.569Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:46:58.755Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:46:58.755Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22070,
+   "owner": "",
+   "owner_addr": "0:5c19d7c3d17b7e02a05473825459b436625d9f468fa874b1be6d6b18e131a1eb",
+   "mint": 1793136132,
+   "counter_issued": 22070,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T11:47:57.701Z",
    "t": 1
   }
  ]
