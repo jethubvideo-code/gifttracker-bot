@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T06:50:17.124Z",
- "updated_unix": 1793170217,
- "runs": 13735,
+ "updated": "2026-10-28T06:54:19.994Z",
+ "updated_unix": 1793170459,
+ "runs": 13736,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107064,
- "sent_total": 3266599,
+ "detected_total": 107065,
+ "sent_total": 3266680,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108550,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108550,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T05:41:28.392Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T06:50:15.076Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133671,
+   "owner": "",
+   "owner_addr": "0:3bf1f62b89817482da2640f5ac4f853739c6e3fa02f7274e6fab52ae8a38e872",
+   "mint": 1793163902,
+   "counter_issued": 133671,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T06:54:17.908Z",
    "t": 1
   }
  ]
