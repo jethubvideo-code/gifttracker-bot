@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T16:30:09.262Z",
- "updated_unix": 1793205009,
- "runs": 13810,
+ "updated": "2026-10-28T16:51:01.640Z",
+ "updated_unix": 1793206261,
+ "runs": 13811,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107449,
- "sent_total": 3296960,
+ "detected_total": 107450,
+ "sent_total": 3297039,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135453,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135453,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:30:06.861Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "MadPumpkin",
+   "number": 19806,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 19806,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T16:50:59.531Z",
    "t": 1
   }
  ]
