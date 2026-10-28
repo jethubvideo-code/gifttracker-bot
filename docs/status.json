@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T11:34:00.500Z",
- "updated_unix": 1793187240,
- "runs": 13769,
+ "updated": "2026-10-28T11:36:56.322Z",
+ "updated_unix": 1793187416,
+ "runs": 13770,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107174,
- "sent_total": 3275296,
+ "detected_total": 107175,
+ "sent_total": 3275375,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268708,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268708,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:44:55.235Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:33:56.746Z",
+   "t": 3
+  },
+  {
+   "slug": "GenieLamp",
+   "gift": "GenieLamp",
+   "number": 6605,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 6605,
+   "counter_total": 7666,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T11:36:54.515Z",
    "t": 1
   }
  ]
