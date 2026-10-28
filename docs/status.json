@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T11:31:00.110Z",
- "updated_unix": 1793187060,
- "runs": 13768,
+ "updated": "2026-10-28T11:34:00.500Z",
+ "updated_unix": 1793187240,
+ "runs": 13769,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107173,
- "sent_total": 3275217,
+ "detected_total": 107174,
+ "sent_total": 3275296,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268707,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268707,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:44:55.235Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:07:47.039Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:07:47.039Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T11:30:58.085Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13001,
+   "owner": "",
+   "owner_addr": "0:c83b16b03c179d5517ae05bacda8bb6789a318e9dc452aa4220c8609aeaacc82",
+   "mint": 1793155111,
+   "counter_issued": 13001,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T11:33:56.746Z",
    "t": 1
   }
  ]
