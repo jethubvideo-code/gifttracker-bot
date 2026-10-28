@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T18:36:03.696Z",
- "updated_unix": 1793212563,
- "runs": 13828,
+ "updated": "2026-10-28T18:46:06.988Z",
+ "updated_unix": 1793213166,
+ "runs": 13829,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107669,
- "sent_total": 3314338,
+ "detected_total": 107671,
+ "sent_total": 3314498,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230403,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230403,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T18:04:46.718Z",
-   "t": 3
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230404,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230404,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T18:04:46.718Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:35:59.975Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108520,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108520,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T18:45:57.650Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232308,
+   "owner": "",
+   "owner_addr": "0:5b615dc43d2fc414e07e942369f2633824de578771880befe04c108c555c2d34",
+   "mint": 1793211119,
+   "counter_issued": 232308,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T18:46:03.222Z",
    "t": 1
   }
  ]
