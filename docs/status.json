@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T19:46:51.732Z",
- "updated_unix": 1793216811,
- "runs": 13836,
+ "updated": "2026-10-28T19:52:52.214Z",
+ "updated_unix": 1793217172,
+ "runs": 13837,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107713,
- "sent_total": 3317849,
+ "detected_total": 107714,
+ "sent_total": 3317928,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84321,
-   "owner": "",
-   "owner_addr": "0:e34dc4d42c33eef6a9e5f5a575cef131f1202b8ba09bc81861ff143b338dfe61",
-   "mint": 1793202804,
-   "counter_issued": 84321,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:11:34.868Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T19:46:40.848Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T19:46:47.970Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133700,
+   "owner": "wewillalldie.ton",
+   "owner_addr": "0:8ed3894a77fa85690c777805418c73b1989d907af98c70ca160bb2d3d62cd688",
+   "mint": 1793216171,
+   "counter_issued": 133700,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T19:52:50.472Z",
    "t": 1
   }
  ]
