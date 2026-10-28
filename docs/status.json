@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T12:46:49.501Z",
- "updated_unix": 1793191609,
- "runs": 13782,
+ "updated": "2026-10-28T12:53:47.957Z",
+ "updated_unix": 1793192027,
+ "runs": 13783,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107194,
- "sent_total": 3276874,
+ "detected_total": 107195,
+ "sent_total": 3276953,
  "last_upgrades": [
-  {
-   "slug": "KissedFrog",
-   "gift": "Kissed Frog",
-   "number": 14091,
-   "owner": "",
-   "owner_addr": "0:4d6488c78be7e1b4e0126a0268c8f0c086299b85483f5d7d37c23060aa42a2fb",
-   "mint": 1793125953,
-   "counter_issued": 14091,
-   "counter_total": 14278,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T10:37:24.865Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:46:45.631Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23076,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23076,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:53:45.389Z",
    "t": 1
   }
  ]
