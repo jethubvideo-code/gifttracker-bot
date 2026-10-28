@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T12:10:25.923Z",
- "updated_unix": 1793189425,
- "runs": 13776,
+ "updated": "2026-10-28T12:11:33.379Z",
+ "updated_unix": 1793189493,
+ "runs": 13777,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107184,
- "sent_total": 3276085,
+ "detected_total": 107186,
+ "sent_total": 3276242,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 441967,
-   "owner": "",
-   "owner_addr": "0:1cce9e26e8d00721bae6008cba5e18b57f7e99172dcb064f4f2d229e729c66e6",
-   "mint": 1793180866,
-   "counter_issued": 441967,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:49:11.295Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390694,
-   "owner": "",
-   "owner_addr": "0:7aaf2c1abd8904f78dff06fd783260ab4f1fb8d540f116d25c2ea8d7f62a68cf",
-   "mint": 1793179830,
-   "counter_issued": 390694,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:54:11.308Z",
-   "t": 3
-  },
   {
    "slug": "NekoHelmet",
    "gift": "Neko Helmet",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:10:23.448Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133678,
+   "owner": "",
+   "owner_addr": "0:08dd121f5cec674ce798674d24a83364866092a787ced36a371dca588a4afc04",
+   "mint": 1793187024,
+   "counter_issued": 133678,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:11:23.801Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441971,
+   "owner": "official-toxic.ton",
+   "owner_addr": "0:fd79b01fd91201277571e651d6d6f14991e2f1deadfe5fa661cfff23407a0087",
+   "mint": 1793189391,
+   "counter_issued": 441971,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:11:30.799Z",
    "t": 1
   }
  ]
