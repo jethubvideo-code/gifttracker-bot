@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T16:26:10.634Z",
- "updated_unix": 1793204770,
- "runs": 13808,
+ "updated": "2026-10-28T16:29:08.936Z",
+ "updated_unix": 1793204948,
+ "runs": 13809,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107447,
- "sent_total": 3296802,
+ "detected_total": 107448,
+ "sent_total": 3296881,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135451,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135451,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:26:02.464Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:26:06.894Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108517,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108517,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T16:29:06.929Z",
    "t": 1
   }
  ]
