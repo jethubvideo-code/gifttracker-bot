@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T20:22:05.583Z",
- "updated_unix": 1793218925,
- "runs": 13843,
+ "updated": "2026-10-28T20:26:00.605Z",
+ "updated_unix": 1793219160,
+ "runs": 13844,
  "collections": 122,
  "checked": 1,
  "errors": 121,
- "detected_total": 107721,
- "sent_total": 3318478,
+ "detected_total": 107722,
+ "sent_total": 3318556,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "WitchHat",
-   "number": 82901,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 82901,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:12:28.525Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "WitchHat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T20:22:01.999Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BowTie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T20:22:01.999Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23082,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23082,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T20:25:58.891Z",
    "t": 1
   }
  ]
