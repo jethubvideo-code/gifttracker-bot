@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T16:21:04.001Z",
- "updated_unix": 1793204464,
- "runs": 13807,
+ "updated": "2026-10-28T16:26:10.634Z",
+ "updated_unix": 1793204770,
+ "runs": 13808,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107445,
- "sent_total": 3296644,
+ "detected_total": 107447,
+ "sent_total": 3296802,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135449,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135449,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135450,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135450,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:20:44.814Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:20:44.814Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:20:58.010Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:20:58.010Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T16:20:58.010Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 441988,
+   "owner": "",
+   "owner_addr": "0:31d7de893218dff761474f5e1d7b38af8c266b6a4899586b3d7e891390e6fc8b",
+   "mint": 1793204662,
+   "counter_issued": 441988,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T16:26:02.464Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133685,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133685,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T16:26:06.894Z",
    "t": 1
   }
  ]
