@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T13:18:03.417Z",
- "updated_unix": 1793193483,
- "runs": 13787,
+ "updated": "2026-10-28T14:05:24.698Z",
+ "updated_unix": 1793196324,
+ "runs": 13788,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 107200,
- "sent_total": 3277348,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 107201,
+ "sent_total": 3277427,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 441968,
-   "owner": "",
-   "owner_addr": "0:854a0c577ed8274caa131ee734772a974a2a04cd792228428f585e424997257f",
-   "mint": 1793185065,
-   "counter_issued": 441968,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T11:07:47.039Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T13:17:59.788Z",
+   "t": 2
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3959,
+   "owner": "",
+   "owner_addr": "0:82cdca6d1b0ad40705f1458d93b2c7e9a27a7a33ede563b1ae4b979e21886e86",
+   "mint": 1793139190,
+   "counter_issued": 3959,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T14:05:20.612Z",
    "t": 1
   }
  ]
