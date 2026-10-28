@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T10:33:26.491Z",
- "updated_unix": 1793183606,
- "runs": 13763,
+ "updated": "2026-10-28T10:37:28.329Z",
+ "updated_unix": 1793183848,
+ "runs": 13764,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107164,
- "sent_total": 3274506,
+ "detected_total": 107165,
+ "sent_total": 3274585,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268698,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268698,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T09:44:55.235Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T10:33:24.633Z",
+   "t": 3
+  },
+  {
+   "slug": "KissedFrog",
+   "gift": "Kissed Frog",
+   "number": 14091,
+   "owner": "",
+   "owner_addr": "0:4d6488c78be7e1b4e0126a0268c8f0c086299b85483f5d7d37c23060aa42a2fb",
+   "mint": 1793125953,
+   "counter_issued": 14091,
+   "counter_total": 14278,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T10:37:24.865Z",
    "t": 1
   }
  ]
