@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T18:20:30.572Z",
- "updated_unix": 1793211630,
- "runs": 13826,
+ "updated": "2026-10-28T18:35:01.654Z",
+ "updated_unix": 1793212501,
+ "runs": 13827,
  "collections": 122,
- "checked": 30,
- "errors": 92,
- "detected_total": 107667,
- "sent_total": 3314178,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 107668,
+ "sent_total": 3314258,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 230401,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 230401,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T18:04:46.718Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -217,7 +203,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:19:27.800Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -273,7 +259,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:19:27.800Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -287,7 +273,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:19:47.008Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -301,7 +287,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:19:47.008Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -315,7 +301,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:19:47.008Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -329,7 +315,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -343,7 +329,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -357,7 +343,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -371,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -385,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T18:20:04.117Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "AstralShard",
@@ -427,6 +413,20 @@
    "img": "https://cdn4.telesco.pe/file/vH8BAI5nCG8VkeAwkh-USwdDRZoKmyp9wasyca2tNngdaW66xdsU5-66lJcKkkrB6DPu37ErO8pA0qkWiymWfhSElcK1qT6jDQad1WzvL23YVXdRAdlSkcSc-ox_P-evkRgbVcq-TFqcK5jtEnoWijF32AE-PpP8R5ZwZR1fuMEgAVJrvQdMZ86QXCUotwJvNhrB70F9tQwSizTK6pbJXN9VGcKIJretUY9OpwjAbRxA_wnTUtsmI3K5mhFrNYGHSKcbI6hJDNFtxwj93V-V2QY6e6SHcSay0YI6nkLwT9qu2ilL9BLASyEZJqEfPi-R5-iq3AaxHrSos5hvrxdCXQ.jpg",
    "sent": 0,
    "time": "2026-10-28T18:20:28.274Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390719,
+   "owner": "",
+   "owner_addr": "0:5b615dc43d2fc414e07e942369f2633824de578771880befe04c108c555c2d34",
+   "mint": 1793211108,
+   "counter_issued": 390719,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T18:34:57.645Z",
    "t": 1
   }
  ]
