@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T12:25:28.330Z",
- "updated_unix": 1793190328,
- "runs": 13778,
+ "updated": "2026-10-28T12:41:46.042Z",
+ "updated_unix": 1793191306,
+ "runs": 13779,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107187,
- "sent_total": 3276321,
+ "detected_total": 107188,
+ "sent_total": 3276400,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390695,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390695,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T10:20:17.318Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:25:25.954Z",
+   "t": 2
+  },
+  {
+   "slug": "HeroicHelmet",
+   "gift": "Heroic Helmet",
+   "number": 3441,
+   "owner": "",
+   "owner_addr": "0:385c2011610b1feae2ec508a0c2db431322f6a6cdf27ee608430b7dfc70d2802",
+   "mint": 1793181778,
+   "counter_issued": 3441,
+   "counter_total": 3794,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:41:43.253Z",
    "t": 1
   }
  ]
