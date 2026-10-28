@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-28T19:29:43.473Z",
- "updated_unix": 1793215783,
- "runs": 13835,
+ "updated": "2026-10-28T19:46:51.732Z",
+ "updated_unix": 1793216811,
+ "runs": 13836,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107711,
- "sent_total": 3317691,
+ "detected_total": 107713,
+ "sent_total": 3317849,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84319,
-   "owner": "",
-   "owner_addr": "0:fdb4f21fdbaae062ccfec54268a474bcd7151555978d90ec2d4a21adc132f54e",
-   "mint": 1793186538,
-   "counter_issued": 84319,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:11:34.868Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84320,
-   "owner": "",
-   "owner_addr": "0:320b93bad04767a2ba39593c248ddfdbc2800f4c12fb2f191e8c7fab160e5926",
-   "mint": 1793200219,
-   "counter_issued": 84320,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:11:34.868Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T19:29:41.225Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "MadPumpkin",
+   "number": 19807,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 19807,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T19:46:40.848Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23081,
+   "owner": "",
+   "owner_addr": "0:3f9175dfd6c639ea9fd0fa1e52ed22ef14df51abdd9ab692ba1fb46d1856759b",
+   "mint": 1793215212,
+   "counter_issued": 23081,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T19:46:47.970Z",
    "t": 1
   }
  ]
