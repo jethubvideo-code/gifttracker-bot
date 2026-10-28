@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T12:11:33.379Z",
- "updated_unix": 1793189493,
- "runs": 13777,
+ "updated": "2026-10-28T12:25:28.330Z",
+ "updated_unix": 1793190328,
+ "runs": 13778,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107186,
- "sent_total": 3276242,
+ "detected_total": 107187,
+ "sent_total": 3276321,
  "last_upgrades": [
-  {
-   "slug": "NekoHelmet",
-   "gift": "Neko Helmet",
-   "number": 15578,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1793176105,
-   "counter_issued": 15578,
-   "counter_total": 16149,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T10:00:11.589Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:11:23.801Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T12:11:30.799Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23075,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23075,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T12:25:25.954Z",
    "t": 1
   }
  ]
