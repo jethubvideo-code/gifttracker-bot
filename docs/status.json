@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T19:52:52.214Z",
- "updated_unix": 1793217172,
- "runs": 13837,
+ "updated": "2026-10-28T19:53:51.564Z",
+ "updated_unix": 1793217231,
+ "runs": 13838,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107714,
- "sent_total": 3317928,
+ "detected_total": 107715,
+ "sent_total": 3318007,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84322,
-   "owner": "",
-   "owner_addr": "0:719f9ba1116709d9f86d421b043225316e5752b3385d7aa82f55b0cd627b6e73",
-   "mint": 1793203881,
-   "counter_issued": 84322,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T19:11:34.868Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T19:52:50.472Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390720,
+   "owner": "",
+   "owner_addr": "0:8948144e7f02fcb00cfae35c63b6f39d2d30e193393c56619c77fad46136709c",
+   "mint": 1793217144,
+   "counter_issued": 390720,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T19:53:50.134Z",
    "t": 1
   }
  ]
