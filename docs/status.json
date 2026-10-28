@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T15:42:28.728Z",
- "updated_unix": 1793202148,
- "runs": 13799,
+ "updated": "2026-10-28T15:44:26.738Z",
+ "updated_unix": 1793202266,
+ "runs": 13800,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 107226,
- "sent_total": 3279400,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 107227,
+ "sent_total": 3279479,
  "last_upgrades": [
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19805,
-   "owner": "",
-   "owner_addr": "0:3557f157cc44d299a76d8f50a1e1dbe2a92333127022a5cfca4c4b1a273be27d",
-   "mint": 1793166935,
-   "counter_issued": 19805,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T12:56:48.372Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:15:15.814Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:42:20.669Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:42:24.870Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T15:42:24.870Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133684,
+   "owner": "",
+   "owner_addr": "0:0df72dc4c7a4c1affa143b75a3c9d258508e380ff6b38b67801c2775a64e32ef",
+   "mint": 1793201109,
+   "counter_issued": 133684,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T15:44:24.514Z",
    "t": 1
   }
  ]
