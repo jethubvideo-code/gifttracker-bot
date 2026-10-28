@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T17:34:06.060Z",
- "updated_unix": 1793208846,
- "runs": 13815,
+ "updated": "2026-10-28T17:34:58.593Z",
+ "updated_unix": 1793208898,
+ "runs": 13816,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107465,
- "sent_total": 3298224,
+ "detected_total": 107466,
+ "sent_total": 3298303,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135469,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135469,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T15:59:07.201Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:33:55.418Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:33:55.418Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T17:33:55.418Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 441990,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 441990,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T17:34:57.201Z",
    "t": 1
   }
  ]
