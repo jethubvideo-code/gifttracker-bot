@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-28T06:54:19.994Z",
- "updated_unix": 1793170459,
- "runs": 13736,
+ "updated": "2026-10-28T07:23:41.320Z",
+ "updated_unix": 1793172221,
+ "runs": 13737,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107065,
- "sent_total": 3266680,
+ "detected_total": 107066,
+ "sent_total": 3266760,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 108551,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108551,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-28T05:41:28.392Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-28T06:54:17.908Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108509,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793165081,
+   "counter_issued": 108509,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-28T07:23:38.833Z",
    "t": 1
   }
  ]
