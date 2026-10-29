@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T12:22:53.862Z",
- "updated_unix": 1793276573,
- "runs": 13915,
+ "updated": "2026-10-29T12:25:55.259Z",
+ "updated_unix": 1793276755,
+ "runs": 13916,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108188,
- "sent_total": 3354903,
+ "detected_total": 108190,
+ "sent_total": 3355057,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138359,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138359,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T10:37:19.176Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138360,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138360,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T10:37:19.176Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T12:22:50.321Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T12:22:50.321Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74699,
+   "owner": "",
+   "owner_addr": "0:94d3f169882032618e25451fe71cefd45a805fa14a4d30ba53a2b4bf6db92d8d",
+   "mint": 1793270341,
+   "counter_issued": 74699,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T12:25:51.666Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74700,
+   "owner": "",
+   "owner_addr": "0:c84a26fdb6cfe320908f85114610fd08dfc4760d28a57d1e3837d42548191f31",
+   "mint": 1793273685,
+   "counter_issued": 74700,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T12:25:51.666Z",
    "t": 1
   }
  ]
