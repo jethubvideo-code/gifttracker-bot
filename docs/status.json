@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T06:23:31.070Z",
- "updated_unix": 1793255011,
- "runs": 13879,
+ "updated": "2026-10-29T06:26:31.754Z",
+ "updated_unix": 1793255191,
+ "runs": 13880,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107960,
- "sent_total": 3337120,
+ "detected_total": 107961,
+ "sent_total": 3337198,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74650,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74650,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T06:23:29.783Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133713,
+   "owner": "oawku.t.me",
+   "owner_addr": "0:75a7ad71a52a4aa10c2f038d7f92ec9347d3e01a5f277cce9ad40ee4b17d0fd6",
+   "mint": 1793253335,
+   "counter_issued": 133713,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T06:26:30.005Z",
    "t": 1
   }
  ]
