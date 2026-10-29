@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T05:46:11.802Z",
- "updated_unix": 1793252771,
- "runs": 13876,
+ "updated": "2026-10-29T06:21:36.732Z",
+ "updated_unix": 1793254896,
+ "runs": 13877,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107956,
- "sent_total": 3336808,
+ "detected_total": 107958,
+ "sent_total": 3336964,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74646,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74646,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74647,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74647,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T05:22:15.467Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T05:46:09.254Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390729,
+   "owner": "oawku.t.me",
+   "owner_addr": "0:75a7ad71a52a4aa10c2f038d7f92ec9347d3e01a5f277cce9ad40ee4b17d0fd6",
+   "mint": 1793253430,
+   "counter_issued": 390729,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T06:21:27.272Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442032,
+   "owner": "",
+   "owner_addr": "0:2dae3f3d30fcd0e033d9d0528c564b76bcd9e7872d1fee282519a6b432eb004a",
+   "mint": 1793248698,
+   "counter_issued": 442032,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T06:21:35.173Z",
    "t": 1
   }
  ]
