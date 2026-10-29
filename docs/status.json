@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T21:39:23.749Z",
- "updated_unix": 1793309963,
- "runs": 13964,
+ "updated": "2026-10-29T22:08:11.015Z",
+ "updated_unix": 1793311691,
+ "runs": 13965,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108534,
- "sent_total": 3381888,
+ "detected_total": 108535,
+ "sent_total": 3381967,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35418,
-   "owner": "",
-   "owner_addr": "0:7bcd5f0a17e3121317d96dfcd0faa92a83d1a59a46903def26929e602146f9de",
-   "mint": 1793264506,
-   "counter_issued": 35418,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:39:21.981Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268826,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 268826,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:08:08.835Z",
    "t": 1
   }
  ]
