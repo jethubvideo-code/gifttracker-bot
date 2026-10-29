@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T06:26:31.754Z",
- "updated_unix": 1793255191,
- "runs": 13880,
+ "updated": "2026-10-29T06:40:31.632Z",
+ "updated_unix": 1793256031,
+ "runs": 13881,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 107961,
- "sent_total": 3337198,
+ "checked": 4,
+ "errors": 118,
+ "detected_total": 107962,
+ "sent_total": 3337276,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74651,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74651,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T06:26:30.005Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268793,
+   "owner": "oawku.t.me",
+   "owner_addr": "0:75a7ad71a52a4aa10c2f038d7f92ec9347d3e01a5f277cce9ad40ee4b17d0fd6",
+   "mint": 1793253819,
+   "counter_issued": 268793,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T06:40:29.827Z",
    "t": 1
   }
  ]
