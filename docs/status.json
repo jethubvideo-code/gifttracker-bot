@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T21:07:01.704Z",
- "updated_unix": 1793308021,
- "runs": 13959,
+ "updated": "2026-10-29T21:09:39.924Z",
+ "updated_unix": 1793308179,
+ "runs": 13960,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 108526,
- "sent_total": 3381263,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 108527,
+ "sent_total": 3381341,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "RecordPlayer",
-   "number": 35410,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35410,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "RecordPlayer",
@@ -328,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:57:30.441Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:41.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:41.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:41.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:41.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:41.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:41.231Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "GenieLamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:06:59.565Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108537,
+   "owner": "",
+   "owner_addr": "0:542245bf83f3012047c563ab456b9b77d815b6c537c3714ebf9e26f1d0ea8729",
+   "mint": 1793306801,
+   "counter_issued": 108537,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:09:36.261Z",
    "t": 1
   }
  ]
