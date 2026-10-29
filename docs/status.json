@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-29T21:33:00.469Z",
- "updated_unix": 1793309580,
- "runs": 13961,
+ "updated": "2026-10-29T21:34:07.372Z",
+ "updated_unix": 1793309647,
+ "runs": 13962,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108529,
- "sent_total": 3381497,
+ "detected_total": 108532,
+ "sent_total": 3381731,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35413,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793216131,
-   "counter_issued": 35413,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35414,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793216138,
-   "counter_issued": 35414,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35415,
-   "owner": "",
-   "owner_addr": "0:063fae1c6e7f049c0e21587c344460d67d8af00a033a67e85de507700abebb95",
-   "mint": 1793253652,
-   "counter_issued": 35415,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:09:36.261Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:32:53.493Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:32:58.921Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90388,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90388,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:33:53.829Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232313,
+   "owner": "",
+   "owner_addr": "0:33331c39b91aee48ab3bb19ff30ce97568d066ffb2e5411a2600dac5bc0750d3",
+   "mint": 1793302501,
+   "counter_issued": 232313,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:34:03.684Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232314,
+   "owner": "",
+   "owner_addr": "0:542245bf83f3012047c563ab456b9b77d815b6c537c3714ebf9e26f1d0ea8729",
+   "mint": 1793306918,
+   "counter_issued": 232314,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:34:03.684Z",
    "t": 1
   }
  ]
