@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T12:51:09.603Z",
- "updated_unix": 1793278269,
- "runs": 13917,
+ "updated": "2026-10-29T13:01:26.888Z",
+ "updated_unix": 1793278886,
+ "runs": 13918,
  "collections": 122,
  "checked": 30,
  "errors": 92,
- "detected_total": 108206,
- "sent_total": 3356305,
+ "detected_total": 108207,
+ "sent_total": 3356383,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133722,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133722,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T11:08:12.657Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -429,6 +415,20 @@
    "sent": 0,
    "time": "2026-10-29T12:51:03.883Z",
    "u": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74701,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793276773,
+   "counter_issued": 74701,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T13:01:24.651Z",
+   "t": 1
   }
  ]
 }
