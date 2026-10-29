@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T17:27:34.372Z",
- "updated_unix": 1793294854,
- "runs": 13933,
+ "updated": "2026-10-29T17:33:34.711Z",
+ "updated_unix": 1793295214,
+ "runs": 13934,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108256,
- "sent_total": 3360203,
+ "detected_total": 108258,
+ "sent_total": 3360359,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 442049,
-   "owner": "",
-   "owner_addr": "0:e95a0a14af3a7bea6ab444fe041f555bfff6b3d6abfe52566aa78348ba74af46",
-   "mint": 1793281200,
-   "counter_issued": 442049,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T15:40:45.019Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 442050,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793283266,
-   "counter_issued": 442050,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T15:40:45.019Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T17:27:32.630Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23084,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23084,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T17:33:30.723Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23085,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23085,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T17:33:30.723Z",
    "t": 1
   }
  ]
