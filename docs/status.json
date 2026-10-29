@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T11:41:41.140Z",
- "updated_unix": 1793274101,
- "runs": 13912,
+ "updated": "2026-10-29T11:43:41.004Z",
+ "updated_unix": 1793274221,
+ "runs": 13913,
  "collections": 122,
- "checked": 3,
- "errors": 119,
- "detected_total": 108183,
- "sent_total": 3354513,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 108185,
+ "sent_total": 3354669,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185606,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185606,
-   "counter_total": 231311,
-   "img": "https://cdn4.telesco.pe/file/Vw1CZTRo2DFK6Gr3TLLbTc9HYw0UrvUVrgCcws7HRJVIbin580IYPwI559Fs6wyKN7vwfULmcpqPP6xnsX8l4FeRI2YIvHsF8x2FyyRjqFHPKgbw4yqSE0bKLbRNCLNOU5uquM98gl5Y_im2w-6OqOm9T9p7ipkbN_Hn5pyEu-Hk1i_EPEzdFPpC_5R_jVS_5Awjcam6dUaVo3amJL_kgO7W8-wPLIbHgrr_-_bGa1fSKIUP5-yActNfaPZWWaojkFH2iRGrC-9yjcc3yd8z6HOBLBcORlwSlfpNs9xrMMLeOTqicoF7AbCdb1gglJaCqBNKix3-BpjDI25I9jv0fQ.jpg",
-   "sent": 0,
-   "time": "2026-10-29T10:37:14.798Z",
-   "t": 3
-  },
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 185607,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 185607,
-   "counter_total": 231311,
-   "img": "https://cdn4.telesco.pe/file/Vw1CZTRo2DFK6Gr3TLLbTc9HYw0UrvUVrgCcws7HRJVIbin580IYPwI559Fs6wyKN7vwfULmcpqPP6xnsX8l4FeRI2YIvHsF8x2FyyRjqFHPKgbw4yqSE0bKLbRNCLNOU5uquM98gl5Y_im2w-6OqOm9T9p7ipkbN_Hn5pyEu-Hk1i_EPEzdFPpC_5R_jVS_5Awjcam6dUaVo3amJL_kgO7W8-wPLIbHgrr_-_bGa1fSKIUP5-yActNfaPZWWaojkFH2iRGrC-9yjcc3yd8z6HOBLBcORlwSlfpNs9xrMMLeOTqicoF7AbCdb1gglJaCqBNKix3-BpjDI25I9jv0fQ.jpg",
-   "sent": 0,
-   "time": "2026-10-29T10:37:14.798Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T11:41:37.236Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T11:41:37.236Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390741,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390741,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T11:43:37.074Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390742,
+   "owner": "",
+   "owner_addr": "0:f63276cbab972556ad602a355bdd110c6adcf56b7ea9006452c0a38231f9bcbc",
+   "mint": 1793272423,
+   "counter_issued": 390742,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T11:43:37.074Z",
    "t": 1
   }
  ]
