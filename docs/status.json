@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T20:22:19.888Z",
- "updated_unix": 1793305339,
- "runs": 13949,
+ "updated": "2026-10-29T20:23:22.886Z",
+ "updated_unix": 1793305402,
+ "runs": 13950,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108415,
- "sent_total": 3372605,
+ "detected_total": 108417,
+ "sent_total": 3372761,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268816,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268816,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:36:16.253Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268817,
-   "owner": "",
-   "owner_addr": "0:f97e34ed6011820161ad7946658527a14b460c7789c2c2b8321aba7e18e99a76",
-   "mint": 1793297179,
-   "counter_issued": 268817,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:36:16.253Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:26:42.365Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:26:42.365Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:22:15.897Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:22:15.897Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442062,
+   "owner": "",
+   "owner_addr": "0:41a49a3af6b8685353b6c139aba8d8930fdc4285fe0ba7147e671add652e5e12",
+   "mint": 1793305177,
+   "counter_issued": 442062,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:23:17.031Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442063,
+   "owner": "",
+   "owner_addr": "0:a98cceba107fa617862bd4cdc5aed63a2e32006c20a24d0ff6c4a0409384f03a",
+   "mint": 1793305377,
+   "counter_issued": 442063,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:23:17.031Z",
    "t": 1
   }
  ]
