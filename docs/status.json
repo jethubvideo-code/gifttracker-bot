@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T21:09:39.924Z",
- "updated_unix": 1793308179,
- "runs": 13960,
+ "updated": "2026-10-29T21:33:00.469Z",
+ "updated_unix": 1793309580,
+ "runs": 13961,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108527,
- "sent_total": 3381341,
+ "detected_total": 108529,
+ "sent_total": 3381497,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "RecordPlayer",
-   "number": 35411,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35411,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35412,
-   "owner": "",
-   "owner_addr": "0:f1160b0ab5511fafbda4c6a1bcde0369629e21adafa50aa891865b8bb5cb8928",
-   "mint": 1793203517,
-   "counter_issued": 35412,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:09:36.261Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442067,
+   "owner": "moro-wallet.ton",
+   "owner_addr": "0:f517e6b8f37ad66779750a62f5d01ed4294e174c1237c0160897533eb6f9c5c7",
+   "mint": 1793308328,
+   "counter_issued": 442067,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:32:53.493Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133738,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133738,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:32:58.921Z",
    "t": 1
   }
  ]
