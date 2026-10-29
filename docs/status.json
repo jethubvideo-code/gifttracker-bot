@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T06:56:49.423Z",
- "updated_unix": 1793257009,
- "runs": 13882,
+ "updated": "2026-10-29T07:11:54.469Z",
+ "updated_unix": 1793257914,
+ "runs": 13883,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107963,
- "sent_total": 3337354,
+ "detected_total": 107965,
+ "sent_total": 3337510,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74653,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74653,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74654,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74654,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T06:40:29.827Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T06:56:46.630Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85013,
+   "owner": "",
+   "owner_addr": "0:c4016576f68f1fb2e98971bd6fb143de559832cdce2fe2a438b3c41adb63f167",
+   "mint": 1793252560,
+   "counter_issued": 85013,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T07:11:50.498Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85014,
+   "owner": "",
+   "owner_addr": "0:4864141b4985b28f71af25afeed078c15a6b0cb1d5c4162ed8c19dcf53ef648f",
+   "mint": 1793252740,
+   "counter_issued": 85014,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T07:11:50.498Z",
    "t": 1
   }
  ]
