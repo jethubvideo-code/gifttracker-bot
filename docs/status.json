@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:19:33.155Z",
- "updated_unix": 1793312373,
- "runs": 13968,
+ "updated": "2026-10-29T22:20:34.918Z",
+ "updated_unix": 1793312434,
+ "runs": 13969,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108538,
- "sent_total": 3382204,
+ "detected_total": 108539,
+ "sent_total": 3382283,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40541,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40541,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:31:36.539Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:19:31.505Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442068,
+   "owner": "halalseller.ton",
+   "owner_addr": "0:53db92d759f976f85de95c37552ce8a312d48461333cc04af748cfc13d7523c5",
+   "mint": 1793311104,
+   "counter_issued": 442068,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:20:31.128Z",
    "t": 1
   }
  ]
