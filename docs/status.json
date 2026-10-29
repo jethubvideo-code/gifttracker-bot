@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:55:31.728Z",
- "updated_unix": 1793314531,
- "runs": 13971,
+ "updated": "2026-10-29T23:18:47.488Z",
+ "updated_unix": 1793315927,
+ "runs": 13972,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108541,
- "sent_total": 3382441,
+ "detected_total": 108542,
+ "sent_total": 3382520,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40544,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40544,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:31:36.539Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:55:29.247Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442069,
+   "owner": "",
+   "owner_addr": "0:b2dd470c03d775f51587049bc33bacfbbfd15698688bdec1a9fd5f94f1a57e5d",
+   "mint": 1793315491,
+   "counter_issued": 442069,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T23:18:45.890Z",
    "t": 1
   }
  ]
