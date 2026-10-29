@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:20:34.918Z",
- "updated_unix": 1793312434,
- "runs": 13969,
+ "updated": "2026-10-29T22:43:31.385Z",
+ "updated_unix": 1793313811,
+ "runs": 13970,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108539,
- "sent_total": 3382283,
+ "detected_total": 108540,
+ "sent_total": 3382362,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40542,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40542,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:31:36.539Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:20:31.128Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390766,
+   "owner": "",
+   "owner_addr": "0:13071cc77bb06dc9bdd1252fe1ddb75ab859474a23b49e478fc707ecfb7a2649",
+   "mint": 1793313720,
+   "counter_issued": 390766,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:43:29.647Z",
    "t": 1
   }
  ]
