@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T04:14:17.190Z",
- "updated_unix": 1793247257,
- "runs": 13868,
+ "updated": "2026-10-29T04:35:44.471Z",
+ "updated_unix": 1793248544,
+ "runs": 13869,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107836,
- "sent_total": 3327448,
+ "detected_total": 107837,
+ "sent_total": 3327526,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164056,
-   "owner": "",
-   "owner_addr": "0:a244605f5819090d79ff81d169a5aeaef092a171f5dc5164331b5931c7cb7379",
-   "mint": 1793228754,
-   "counter_issued": 164056,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T01:05:18.693Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T04:14:13.285Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T04:14:13.285Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442031,
+   "owner": "",
+   "owner_addr": "0:401c0088babb94cb4f4bc1190c5e9b208f559487c7c2b77b9b63da15c6e128de",
+   "mint": 1793247853,
+   "counter_issued": 442031,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T04:35:42.602Z",
    "t": 1
   }
  ]
