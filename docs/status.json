@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T20:37:46.088Z",
- "updated_unix": 1793306266,
- "runs": 13957,
+ "updated": "2026-10-29T20:57:32.506Z",
+ "updated_unix": 1793307452,
+ "runs": 13958,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108518,
- "sent_total": 3380639,
+ "detected_total": 108519,
+ "sent_total": 3380717,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55572,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793230002,
-   "counter_issued": 55572,
-   "counter_total": 72788,
-   "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
-   "sent": 0,
-   "time": "2026-10-29T20:28:22.554Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:37:44.151Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442066,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442066,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:57:30.441Z",
    "t": 1
   }
  ]
