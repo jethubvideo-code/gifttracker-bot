@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T04:09:15.856Z",
- "updated_unix": 1793246955,
- "runs": 13867,
+ "updated": "2026-10-29T04:14:17.190Z",
+ "updated_unix": 1793247257,
+ "runs": 13868,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107834,
- "sent_total": 3327292,
+ "detected_total": 107836,
+ "sent_total": 3327448,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108920,
-   "owner": "",
-   "owner_addr": "0:8bbbd37395e573ac196e0ba0f792dd4617b948e7f9998aaf307992a8b3704ab6",
-   "mint": 1793231420,
-   "counter_issued": 108920,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T01:04:48.210Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108921,
-   "owner": "",
-   "owner_addr": "0:8bbbd37395e573ac196e0ba0f792dd4617b948e7f9998aaf307992a8b3704ab6",
-   "mint": 1793231438,
-   "counter_issued": 108921,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T01:04:48.210Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T04:09:11.981Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T04:09:11.981Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32779,
+   "owner": "",
+   "owner_addr": "0:a55b3bf909c1fa70e45d9e7e9ee98b4aafc96302324850d9ee289d83e1d38d18",
+   "mint": 1793224199,
+   "counter_issued": 32779,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T04:14:13.285Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32780,
+   "owner": "",
+   "owner_addr": "0:fef7372c7c9d1ab7af220e9a04fa1c7fd81cc1489492f2bf90e61d0a7277c323",
+   "mint": 1793228759,
+   "counter_issued": 32780,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T04:14:13.285Z",
    "t": 1
   }
  ]
