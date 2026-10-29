@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:09:14.915Z",
- "updated_unix": 1793311754,
- "runs": 13966,
+ "updated": "2026-10-29T22:17:33.236Z",
+ "updated_unix": 1793312253,
+ "runs": 13967,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108536,
- "sent_total": 3382046,
+ "detected_total": 108537,
+ "sent_total": 3382125,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24639,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24639,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:31:33.849Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:09:11.144Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90389,
+   "owner": "",
+   "owner_addr": "0:7d1b62088ab2e7de03d31a9e34c3afed15d8118200a5908224b37f2d10ba669a",
+   "mint": 1793310065,
+   "counter_issued": 90389,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:17:31.119Z",
    "t": 1
   }
  ]
