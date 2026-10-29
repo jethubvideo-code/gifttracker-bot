@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T07:13:00.754Z",
- "updated_unix": 1793257980,
- "runs": 13884,
+ "updated": "2026-10-29T07:14:56.306Z",
+ "updated_unix": 1793258096,
+ "runs": 13885,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 107969,
- "sent_total": 3337822,
+ "detected_total": 107970,
+ "sent_total": 3337900,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74659,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74659,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T07:12:52.217Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T07:12:52.217Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T07:12:52.217Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T07:12:52.217Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133715,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133715,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T07:14:54.010Z",
    "t": 1
   }
  ]
