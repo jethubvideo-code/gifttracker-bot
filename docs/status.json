@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T19:26:45.920Z",
- "updated_unix": 1793302005,
- "runs": 13948,
+ "updated": "2026-10-29T20:22:19.888Z",
+ "updated_unix": 1793305339,
+ "runs": 13949,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108413,
- "sent_total": 3372449,
+ "detected_total": 108415,
+ "sent_total": 3372605,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390758,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793296451,
-   "counter_issued": 390758,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:20:16.904Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268815,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268815,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:36:16.253Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:26:42.365Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:26:42.365Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268822,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793302988,
+   "counter_issued": 268822,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:22:15.897Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268823,
+   "owner": "",
+   "owner_addr": "0:803f66d450dbf038b80ab6b515fd9a7b406b6fb72a9cae1938974fa438ce94bb",
+   "mint": 1793303509,
+   "counter_issued": 268823,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:22:15.897Z",
    "t": 1
   }
  ]
