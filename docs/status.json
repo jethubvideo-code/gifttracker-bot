@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:08:11.015Z",
- "updated_unix": 1793311691,
- "runs": 13965,
+ "updated": "2026-10-29T22:09:14.915Z",
+ "updated_unix": 1793311754,
+ "runs": 13966,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108535,
- "sent_total": 3381967,
+ "detected_total": 108536,
+ "sent_total": 3382046,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35419,
-   "owner": "",
-   "owner_addr": "0:9b62d7d6b37b9baf633e4ae880cb67c8739145c0b536f659058e5146a8edeca2",
-   "mint": 1793291882,
-   "counter_issued": 35419,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:39:21.981Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:08:08.835Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390765,
+   "owner": "",
+   "owner_addr": "0:2a420109b98b5e6deb9ae65b80d8481e1008e31d0977c3c93683ecb4f4ff21eb",
+   "mint": 1793311496,
+   "counter_issued": 390765,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:09:11.144Z",
    "t": 1
   }
  ]
