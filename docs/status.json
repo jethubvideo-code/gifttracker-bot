@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T20:31:49.473Z",
- "updated_unix": 1793305909,
- "runs": 13954,
+ "updated": "2026-10-29T20:35:47.418Z",
+ "updated_unix": 1793306147,
+ "runs": 13955,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108513,
- "sent_total": 3380249,
+ "detected_total": 108515,
+ "sent_total": 3380405,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55567,
-   "owner": "",
-   "owner_addr": "0:a565542d0815c785c116685378a6e770a924a88c8b122472ec0bbde94b5338a2",
-   "mint": 1793199127,
-   "counter_issued": 55567,
-   "counter_total": 72788,
-   "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
-   "sent": 0,
-   "time": "2026-10-29T20:28:22.554Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55568,
-   "owner": "",
-   "owner_addr": "0:3976a9cfe3ee3fb4f3f172cf61928d8bf4fe2270e39411690d2b4ccb0ac05a43",
-   "mint": 1793201147,
-   "counter_issued": 55568,
-   "counter_total": 72788,
-   "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
-   "sent": 0,
-   "time": "2026-10-29T20:28:22.554Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:33.849Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:36.539Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:36.539Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:36.539Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:36.539Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:36.539Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "snowmittens",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:31:36.539Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108535,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108535,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:35:43.466Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108536,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108536,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:35:43.466Z",
    "t": 1
   }
  ]
