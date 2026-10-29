@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-29T07:50:20.176Z",
- "updated_unix": 1793260220,
- "runs": 13891,
+ "updated": "2026-10-29T08:08:35.736Z",
+ "updated_unix": 1793261315,
+ "runs": 13892,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 107998,
- "sent_total": 3340083,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 108001,
+ "sent_total": 3340317,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390733,
-   "owner": "",
-   "owner_addr": "0:23161c745467d4b62300415344e029087eb609f287461b6e6d662bcd2df92c18",
-   "mint": 1793257821,
-   "counter_issued": 390733,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T07:12:52.217Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133715,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133715,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T07:14:54.010Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582457,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582457,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T07:33:09.440Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T07:47:17.217Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T07:50:16.163Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3960,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3960,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T08:08:30.037Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3961,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3961,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T08:08:30.037Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3962,
+   "owner": "",
+   "owner_addr": "0:d2b95eeb75f0d9dda9c1fa8bc0ef4018b58c777e07fa7f09c4d29e140b7d8052",
+   "mint": 1793199361,
+   "counter_issued": 3962,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T08:08:30.037Z",
    "t": 1
   }
  ]
