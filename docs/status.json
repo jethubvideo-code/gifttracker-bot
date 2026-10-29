@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-29T12:14:52.679Z",
- "updated_unix": 1793276092,
- "runs": 13914,
+ "updated": "2026-10-29T12:22:53.862Z",
+ "updated_unix": 1793276573,
+ "runs": 13915,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108186,
- "sent_total": 3354747,
+ "detected_total": 108188,
+ "sent_total": 3354903,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138357,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138357,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T10:37:19.176Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138358,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138358,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T10:37:19.176Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T11:43:37.074Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T11:43:37.074Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T12:14:50.909Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85015,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85015,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T12:22:50.321Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85016,
+   "owner": "iampeccatrix.ton",
+   "owner_addr": "0:4aa9fdca76cde058a9b5c26e997fae932e14c7db9da30c682eba4a711745da0d",
+   "mint": 1793263124,
+   "counter_issued": 85016,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T12:22:50.321Z",
    "t": 1
   }
  ]
