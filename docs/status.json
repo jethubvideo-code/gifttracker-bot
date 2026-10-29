@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:17:33.236Z",
- "updated_unix": 1793312253,
- "runs": 13967,
+ "updated": "2026-10-29T22:19:33.155Z",
+ "updated_unix": 1793312373,
+ "runs": 13968,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108537,
- "sent_total": 3382125,
+ "detected_total": 108538,
+ "sent_total": 3382204,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40540,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40540,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:31:36.539Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:17:31.119Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268827,
+   "owner": "hurricanaaa.ton",
+   "owner_addr": "0:a6f9063ed718cf7543a3b4aad34d1a201088478d01a84fd62e6aec8c2ac4ca29",
+   "mint": 1793312072,
+   "counter_issued": 268827,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:19:31.505Z",
    "t": 1
   }
  ]
