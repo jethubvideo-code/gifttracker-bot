@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T06:21:36.732Z",
- "updated_unix": 1793254896,
- "runs": 13877,
+ "updated": "2026-10-29T06:22:30.933Z",
+ "updated_unix": 1793254950,
+ "runs": 13878,
  "collections": 122,
- "checked": 5,
- "errors": 117,
- "detected_total": 107958,
- "sent_total": 3336964,
+ "checked": 1,
+ "errors": 121,
+ "detected_total": 107959,
+ "sent_total": 3337042,
  "last_upgrades": [
-  {
-   "slug": "MoneyPot",
-   "gift": "MoneyPot",
-   "number": 74648,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74648,
-   "counter_total": 91779,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T05:15:04.122Z",
-   "t": 3
-  },
   {
    "slug": "MoneyPot",
    "gift": "MoneyPot",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T05:46:09.254Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T06:21:27.272Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T06:21:35.173Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442033,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442033,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T06:22:29.036Z",
    "t": 1
   }
  ]
