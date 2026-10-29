@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T21:34:07.372Z",
- "updated_unix": 1793309647,
- "runs": 13962,
+ "updated": "2026-10-29T21:35:00.838Z",
+ "updated_unix": 1793309700,
+ "runs": 13963,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108532,
- "sent_total": 3381731,
+ "detected_total": 108533,
+ "sent_total": 3381809,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35416,
-   "owner": "",
-   "owner_addr": "0:75a7ad71a52a4aa10c2f038d7f92ec9347d3e01a5f277cce9ad40ee4b17d0fd6",
-   "mint": 1793253748,
-   "counter_issued": 35416,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:29:13.306Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:33:53.829Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:34:03.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T21:34:03.684Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390764,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390764,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T21:34:59.200Z",
    "t": 1
   }
  ]
