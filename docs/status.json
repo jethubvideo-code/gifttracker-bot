@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T22:43:31.385Z",
- "updated_unix": 1793313811,
- "runs": 13970,
+ "updated": "2026-10-29T22:55:31.728Z",
+ "updated_unix": 1793314531,
+ "runs": 13971,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108540,
- "sent_total": 3382362,
+ "detected_total": 108541,
+ "sent_total": 3382441,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40543,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40543,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:31:36.539Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:20:31.128Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T22:43:29.647Z",
+   "t": 3
+  },
+  {
+   "slug": "MiniOscar",
+   "gift": "Mini Oscar",
+   "number": 4895,
+   "owner": "donatehater.ton",
+   "owner_addr": "0:84145a86323ad6f094c301ebaaaf74d3c2bdd99aed671fa7174bd77c8b10abed",
+   "mint": 1793222563,
+   "counter_issued": 4895,
+   "counter_total": 5614,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T22:55:29.247Z",
    "t": 1
   }
  ]
