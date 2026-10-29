@@ -1,105 +1,13 @@
 {
- "updated": "2026-10-29T20:29:42.636Z",
- "updated_unix": 1793305782,
- "runs": 13953,
+ "updated": "2026-10-29T20:31:49.473Z",
+ "updated_unix": 1793305909,
+ "runs": 13954,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108506,
- "sent_total": 3379703,
+ "detected_total": 108513,
+ "sent_total": 3380249,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71820,
-   "owner": "",
-   "owner_addr": "0:d806d79b75f45ecec11a6259b6abcee9e462f1e71393f905e72353f23a9ac7d6",
-   "mint": 1793287965,
-   "counter_issued": 71820,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:27:23.653Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71821,
-   "owner": "",
-   "owner_addr": "0:489e36e00a12ed89c7eb9bb3491dbe4b200acd356f517958b7ee2d30111142e5",
-   "mint": 1793299392,
-   "counter_issued": 71821,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:27:23.653Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71822,
-   "owner": "",
-   "owner_addr": "0:2c6b1f88013f7eff8511d8c664200456e58d14bb890764d51b7f6e1a96b0b6c5",
-   "mint": 1793300788,
-   "counter_issued": 71822,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:27:23.653Z"
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71823,
-   "owner": "",
-   "owner_addr": "0:d2940f004fa43f34f1e9fa5738cb18aaa9d173b651f754f5692277cb948c2fcf",
-   "mint": 1793300894,
-   "counter_issued": 71823,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T20:27:23.653Z"
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "SnowGlobe",
-   "number": 55564,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 55564,
-   "counter_total": 72788,
-   "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
-   "sent": 0,
-   "time": "2026-10-29T20:28:22.554Z"
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55565,
-   "owner": "",
-   "owner_addr": "0:7735c123e5c910dba7ced0b8fb704747195143ab452098989c246d0139d8293c",
-   "mint": 1793193465,
-   "counter_issued": 55565,
-   "counter_total": 72788,
-   "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
-   "sent": 0,
-   "time": "2026-10-29T20:28:22.554Z"
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55566,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793198084,
-   "counter_issued": 55566,
-   "counter_total": 72788,
-   "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
-   "sent": 0,
-   "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -112,7 +20,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -126,7 +34,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -140,7 +48,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -154,7 +62,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -168,7 +76,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -182,7 +90,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -196,7 +104,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -210,7 +118,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -224,7 +132,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -238,7 +146,7 @@
    "img": "https://cdn4.telesco.pe/file/kHXiyU_8jTb3jtkH9860jdlPtMVvoMyy2nCE7FLkHFC1E8lPdBqBENcUByGv5IGYkc1AziG54eKOAPfj4pFo7CGdK2PMFgG94ES2ShGldOqB9tN94f12AaZ7otBUAka3WB8OjrBuji_dWY9UOkYlwKOVW5ooaBSifW-ePCSzDw0Nn5QV2PMwY2ZpNtP57f1NKgBJhiKu_rpkqsODlIv_NGFj4KCQlpFGhtxkSv1cl3ybxQqg5SnZr2A3__eRPo4DH77LD_rL6GSnwreQtwrGuo3xGt6ExCTMTLnn1aIY13Qyy1Y4UcDp0PebCnJXPHSewBBOD_59xAHh-OkGrqyd3A.jpg",
    "sent": 0,
    "time": "2026-10-29T20:28:22.554Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "TrappedHeart",
@@ -252,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:28:57.418Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -266,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -280,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -294,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -308,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -322,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -336,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -350,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -364,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -378,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -392,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -406,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -420,6 +328,104 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T20:29:13.306Z",
+   "t": 3
+  },
+  {
+   "slug": "lovecandle",
+   "gift": "Love Candles",
+   "number": 24639,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 24639,
+   "counter_total": 30296,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:33.849Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40540,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40540,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:36.539Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40541,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40541,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:36.539Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40542,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40542,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:36.539Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40543,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40543,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:36.539Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40544,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40544,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:36.539Z",
+   "t": 1
+  },
+  {
+   "slug": "snowmittens",
+   "gift": "Snow Mittens",
+   "number": 40545,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 40545,
+   "counter_total": 49969,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T20:31:36.539Z",
    "t": 1
   }
  ]
