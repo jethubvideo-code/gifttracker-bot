@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-29T19:19:47.727Z",
- "updated_unix": 1793301587,
- "runs": 13946,
+ "updated": "2026-10-29T19:24:51.191Z",
+ "updated_unix": 1793301891,
+ "runs": 13947,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108408,
- "sent_total": 3372059,
+ "detected_total": 108411,
+ "sent_total": 3372293,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228430,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228430,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:17:20.202Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228431,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228431,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:17:20.202Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228432,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228432,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T18:17:20.202Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:19:38.032Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:19:38.032Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T19:19:45.700Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90384,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90384,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T19:24:38.258Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90385,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90385,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T19:24:38.258Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232312,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793298854,
+   "counter_issued": 232312,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T19:24:47.340Z",
    "t": 1
   }
  ]
