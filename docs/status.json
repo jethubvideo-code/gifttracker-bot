@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-29T16:21:17.878Z",
- "updated_unix": 1793290877,
- "runs": 13930,
+ "updated": "2026-10-29T16:56:18.030Z",
+ "updated_unix": 1793292978,
+ "runs": 13931,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108253,
- "sent_total": 3359969,
+ "detected_total": 108254,
+ "sent_total": 3360047,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268811,
-   "owner": "",
-   "owner_addr": "0:3fda9c8d0a2414cb5182505cc8975383d493a3d3cef53b7878e06418e7570fd9",
-   "mint": 1793286499,
-   "counter_issued": 268811,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T15:40:12.399Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T16:21:16.176Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13002,
+   "owner": "aarash81-tg.ton",
+   "owner_addr": "0:8dfe0a2dae9eb8f4aa3f4a7f45a69b19beab5c78b8b89b34f2ab172637ff2ecd",
+   "mint": 1793274315,
+   "counter_issued": 13002,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T16:56:14.073Z",
    "t": 1
   }
  ]
