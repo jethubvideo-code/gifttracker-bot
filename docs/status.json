@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-29T08:42:56.067Z",
- "updated_unix": 1793263376,
- "runs": 13894,
+ "updated": "2026-10-29T08:45:01.216Z",
+ "updated_unix": 1793263501,
+ "runs": 13895,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108004,
- "sent_total": 3340551,
+ "detected_total": 108007,
+ "sent_total": 3340785,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582461,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582461,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T07:33:09.440Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582462,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582462,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T07:33:09.440Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582463,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582463,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T07:33:09.440Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T08:42:50.295Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T08:42:50.295Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-29T08:42:50.295Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390735,
+   "owner": "",
+   "owner_addr": "0:e6527e56511c2218e4c676995e1651db705f669e5c9dd21ba28a8601db76b21d",
+   "mint": 1793261744,
+   "counter_issued": 390735,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T08:44:49.947Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442034,
+   "owner": "",
+   "owner_addr": "0:1bae77bebc3249ce6450ab6e11d7f9c8485cae63f570d181807b2a790849780d",
+   "mint": 1793262672,
+   "counter_issued": 442034,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T08:44:57.521Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442035,
+   "owner": "",
+   "owner_addr": "0:b941dd5764d0c2a3f3f40d37dab5b25ffa67b137df4487fb7832a9a433e82302",
+   "mint": 1793263489,
+   "counter_issued": 442035,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-29T08:44:57.521Z",
    "t": 1
   }
  ]
