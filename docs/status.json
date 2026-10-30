@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T14:06:37.558Z",
- "updated_unix": 1793369197,
- "runs": 14043,
+ "updated": "2026-10-30T14:07:35.752Z",
+ "updated_unix": 1793369255,
+ "runs": 14044,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108852,
- "sent_total": 3407006,
+ "detected_total": 108854,
+ "sent_total": 3407164,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108544,
-   "owner": "",
-   "owner_addr": "0:ba09ef1df719da2e646427be3257c9516e3c7cdbbfab310792705696a3b732ab",
-   "mint": 1793365239,
-   "counter_issued": 108544,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T13:01:14.591Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133769,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133769,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T13:07:10.871Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T14:06:27.670Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T14:06:27.670Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T14:06:35.893Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442094,
+   "owner": "",
+   "owner_addr": "0:712bf72a5e57ebe4e37243b5bc3be67148fb1b907010152c71b3071bd0eb4723",
+   "mint": 1793367051,
+   "counter_issued": 442094,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T14:07:30.590Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133770,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133770,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T14:07:34.296Z",
    "t": 1
   }
  ]
