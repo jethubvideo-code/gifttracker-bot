@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T23:04:50.668Z",
- "updated_unix": 1793401490,
- "runs": 14108,
+ "updated": "2026-10-30T23:05:47.464Z",
+ "updated_unix": 1793401547,
+ "runs": 14109,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109031,
- "sent_total": 3419198,
+ "detected_total": 109032,
+ "sent_total": 3419277,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268937,
-   "owner": "",
-   "owner_addr": "0:a824bdad0a4dbaa0f5acf707fd4b70fddfee2c988b2f7637bb594e31cfdb23c2",
-   "mint": 1793398356,
-   "counter_issued": 268937,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T22:17:24.340Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T23:04:43.647Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T23:04:48.011Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442122,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442122,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T23:05:43.664Z",
    "t": 1
   }
  ]
