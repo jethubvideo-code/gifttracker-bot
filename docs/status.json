@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T22:22:41.329Z",
- "updated_unix": 1793398961,
- "runs": 14099,
+ "updated": "2026-10-30T22:23:44.336Z",
+ "updated_unix": 1793399024,
+ "runs": 14100,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 109013,
- "sent_total": 3417780,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 109015,
+ "sent_total": 3417938,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268928,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268928,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/kBXN-OD1-56xJCzIGtcKRdPFjVpI-zOAq_kk3kKIKag5zeHBOSyAVewxpW8Ie-LPlzNYR5P2OkReBWcgeXADWR_D8MNff-yWnDFV9RegVFeKE9dRsqVMTTaUFDsQCFuXi4y7n_mcU6j4w2dFljym4emjcimGLVRdN9kX18uqTo9dJsNmZJ5yjnfUA8LOW42VnMrUJOQuvVV19XPdq1apSIq_8hvfvRQFMZCWBNooJIGOlYZMuYj7OIdK7aWjrYy5zdoWee2I34xkwbWXUa70mBLg1F5OiTSItBnpUsLS7F81ro_k2fw_SVlXEMDdV2PCf_oU_urS9gbkiUiqR6Zh-A.jpg",
-   "sent": 0,
-   "time": "2026-10-30T21:09:20.447Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268929,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268929,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T21:13:41.965Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T22:21:36.281Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T22:22:37.501Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390807,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390807,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T22:23:36.165Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390808,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390808,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T22:23:36.165Z",
    "t": 1
   }
  ]
