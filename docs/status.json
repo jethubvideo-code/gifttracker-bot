@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-30T09:00:08.915Z",
- "updated_unix": 1793350808,
- "runs": 14010,
+ "updated": "2026-10-30T09:02:09.744Z",
+ "updated_unix": 1793350929,
+ "runs": 14011,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 108659,
- "sent_total": 3391763,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 108662,
+ "sent_total": 3392000,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133749,
-   "owner": "",
-   "owner_addr": "0:9843b692304615c3ccd3e61e8d6051304a9ccfd697390dda8dcc2e3fa8c18b1f",
-   "mint": 1793343423,
-   "counter_issued": 133749,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T07:33:15.776Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133750,
-   "owner": "",
-   "owner_addr": "0:b9ddd8c4e3bbf4f110524c85ea039c223cababd7bcde799874c4bebdd4350d46",
-   "mint": 1793344323,
-   "counter_issued": 133750,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T07:33:15.776Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268852,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268852,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T07:34:15.518Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T08:59:54.464Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T08:59:54.464Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T08:59:54.464Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T09:00:04.818Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T09:00:04.818Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390778,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390778,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T09:02:03.675Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390779,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390779,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T09:02:03.675Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390780,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793348639,
+   "counter_issued": 390780,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T09:02:03.675Z",
    "t": 1
   }
  ]
