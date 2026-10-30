@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T17:12:13.505Z",
- "updated_unix": 1793380333,
- "runs": 14065,
+ "updated": "2026-10-30T17:13:14.778Z",
+ "updated_unix": 1793380394,
+ "runs": 14066,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108898,
- "sent_total": 3410636,
+ "detected_total": 108899,
+ "sent_total": 3410715,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90406,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90406,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T16:23:41.576Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T17:12:09.626Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23086,
+   "owner": "turtlve.t.me",
+   "owner_addr": "0:4a0e83f0aa6c2a5bc4a48a872c3d2cad72f26d08ff320a043a1352b498e35ce4",
+   "mint": 1793373670,
+   "counter_issued": 23086,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T17:13:12.699Z",
    "t": 1
   }
  ]
