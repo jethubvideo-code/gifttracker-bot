@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T15:22:09.080Z",
- "updated_unix": 1793373729,
- "runs": 14049,
+ "updated": "2026-10-30T15:48:27.422Z",
+ "updated_unix": 1793375307,
+ "runs": 14050,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108861,
- "sent_total": 3407716,
+ "detected_total": 108862,
+ "sent_total": 3407795,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74711,
-   "owner": "",
-   "owner_addr": "0:9f3b5a43f14ffe3359ac39100be04b371a24074209bb3885fe72d2d1f783abd9",
-   "mint": 1793365840,
-   "counter_issued": 74711,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T13:36:25.265Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T15:22:06.855Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390787,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793374258,
+   "counter_issued": 390787,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T15:48:24.886Z",
    "t": 1
   }
  ]
