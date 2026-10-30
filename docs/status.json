@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T17:09:13.680Z",
- "updated_unix": 1793380153,
- "runs": 14064,
+ "updated": "2026-10-30T17:12:13.505Z",
+ "updated_unix": 1793380333,
+ "runs": 14065,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108897,
- "sent_total": 3410558,
+ "detected_total": 108898,
+ "sent_total": 3410636,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90405,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90405,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T16:23:41.576Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T17:09:09.866Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13003,
+   "owner": "bare-birds-fam.ton",
+   "owner_addr": "0:6f8d0260a16b59052699e0734d5cf7aef6d593b452b71a437f628545e7c4b99d",
+   "mint": 1793370347,
+   "counter_issued": 13003,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T17:12:09.626Z",
    "t": 1
   }
  ]
