@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T18:19:22.636Z",
- "updated_unix": 1793384362,
- "runs": 14071,
+ "updated": "2026-10-30T18:22:04.780Z",
+ "updated_unix": 1793384524,
+ "runs": 14072,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 108913,
- "sent_total": 3411821,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 108915,
+ "sent_total": 3411979,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84342,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84342,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T17:04:11.733Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84343,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84343,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T17:04:11.733Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -314,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:18:48.345Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -328,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:18:48.345Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:00.246Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:00.246Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:11.750Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:11.750Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:11.750Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:11.750Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T18:19:11.750Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390792,
+   "owner": "",
+   "owner_addr": "0:301cbfdd7a7e0c81a75f64caa55c28c8bd7846b06b9ad1fdcc43ef1bd0948031",
+   "mint": 1793383241,
+   "counter_issued": 390792,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T18:22:00.965Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390793,
+   "owner": "",
+   "owner_addr": "0:76062e8d5d77fab7602279756a5a0b3f392db52c382d9accf48a64c6d2914d8c",
+   "mint": 1793383716,
+   "counter_issued": 390793,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T18:22:00.965Z",
    "t": 1
   }
  ]
