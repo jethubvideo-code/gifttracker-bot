@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T08:22:00.264Z",
- "updated_unix": 1793348520,
- "runs": 14008,
+ "updated": "2026-10-30T08:47:54.935Z",
+ "updated_unix": 1793350074,
+ "runs": 14009,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 108653,
- "sent_total": 3391289,
+ "detected_total": 108654,
+ "sent_total": 3391368,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 268849,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 268849,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T06:58:05.267Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T08:20:52.195Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T08:21:57.680Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16982,
+   "owner": "",
+   "owner_addr": "0:973342a3f9ee5a884ef9c068260833e90c6213b631e5cf3a8d5a5a746f8de1c0",
+   "mint": 1793335196,
+   "counter_issued": 16982,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T08:47:53.282Z",
    "t": 1
   }
  ]
