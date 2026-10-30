@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T00:40:36.738Z",
- "updated_unix": 1793320836,
- "runs": 13979,
+ "updated": "2026-10-30T00:45:34.985Z",
+ "updated_unix": 1793321134,
+ "runs": 13980,
  "collections": 122,
- "checked": 4,
- "errors": 118,
- "detected_total": 108560,
- "sent_total": 3383942,
+ "checked": 5,
+ "errors": 117,
+ "detected_total": 108561,
+ "sent_total": 3384021,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232313,
-   "owner": "",
-   "owner_addr": "0:33331c39b91aee48ab3bb19ff30ce97568d066ffb2e5411a2600dac5bc0750d3",
-   "mint": 1793302501,
-   "counter_issued": 232313,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T21:34:03.684Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T00:40:23.339Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T00:40:23.339Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T00:40:23.339Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T00:40:23.339Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T00:40:23.339Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442071,
+   "owner": "",
+   "owner_addr": "0:8f64db1f5bca764f5f1b49dd91902d2cf24c9507f7ab6c92d3614bf455c77d1d",
+   "mint": 1793320734,
+   "counter_issued": 442071,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T00:45:31.433Z",
    "t": 1
   }
  ]
