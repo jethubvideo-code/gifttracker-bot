@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T21:43:09.949Z",
- "updated_unix": 1793396589,
- "runs": 14092,
+ "updated": "2026-10-30T21:46:10.434Z",
+ "updated_unix": 1793396770,
+ "runs": 14093,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108992,
+ "detected_total": 108993,
  "sent_total": 3416407,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390799,
-   "owner": "",
-   "owner_addr": "0:c3020df4e0c1c4406e4914261777aba03411b689d4bbc9a7a7b7ee8fbfcc6a0c",
-   "mint": 1793390512,
-   "counter_issued": 390799,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T20:14:15.639Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T21:25:40.914Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T21:41:49.421Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108548,
+   "owner": "cbocil.t.me",
+   "owner_addr": "0:228d1ed5d4b0e01ef49c9157c7882cc88b8609a1ce9b56b450b557885b84788d",
+   "mint": 1793386186,
+   "counter_issued": 108548,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T21:44:49.965Z",
    "t": 1
   }
  ]
