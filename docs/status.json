@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T07:10:08.153Z",
- "updated_unix": 1793344208,
- "runs": 14000,
+ "updated": "2026-10-30T07:33:19.610Z",
+ "updated_unix": 1793345599,
+ "runs": 14001,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108629,
- "sent_total": 3389393,
+ "detected_total": 108631,
+ "sent_total": 3389551,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442073,
-   "owner": "",
-   "owner_addr": "0:9c3fda7c4c76abccb68fa51bc3cbb87db87f90894d86fa7a325acc3764424433",
-   "mint": 1793335132,
-   "counter_issued": 442073,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T04:41:39.820Z",
-   "t": 3
-  },
-  {
-   "slug": "SkullFlower",
-   "gift": "Skull Flower",
-   "number": 22073,
-   "owner": "galya.ton",
-   "owner_addr": "0:03b23f2c956265d776ffe35c4862151685088261585bb8691fff140ade153725",
-   "mint": 1793303580,
-   "counter_issued": 22073,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T04:54:39.961Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T07:10:04.107Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133749,
+   "owner": "",
+   "owner_addr": "0:9843b692304615c3ccd3e61e8d6051304a9ccfd697390dda8dcc2e3fa8c18b1f",
+   "mint": 1793343423,
+   "counter_issued": 133749,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T07:33:15.776Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133750,
+   "owner": "",
+   "owner_addr": "0:b9ddd8c4e3bbf4f110524c85ea039c223cababd7bcde799874c4bebdd4350d46",
+   "mint": 1793344323,
+   "counter_issued": 133750,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T07:33:15.776Z",
    "t": 1
   }
  ]
