@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T17:13:14.778Z",
- "updated_unix": 1793380394,
- "runs": 14066,
+ "updated": "2026-10-30T17:15:12.617Z",
+ "updated_unix": 1793380512,
+ "runs": 14067,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 108899,
- "sent_total": 3410715,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 108900,
+ "sent_total": 3410794,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442098,
-   "owner": "",
-   "owner_addr": "0:9239a86b0a5bad412a459476f13a33ce01777718047eb9f4fe773a97bf2ffd60",
-   "mint": 1793377392,
-   "counter_issued": 442098,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T16:23:53.268Z",
-   "t": 3
-  },
   {
    "slug": "algorithmcup",
    "gift": "algorithmcup",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T17:13:12.699Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390791,
+   "owner": "",
+   "owner_addr": "0:d8d47eee8de6735a743dd489e2925b603b45d47f9962957fd6a6ff449150aa95",
+   "mint": 1793380351,
+   "counter_issued": 390791,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T17:15:10.116Z",
    "t": 1
   }
  ]
