@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-30T19:31:49.773Z",
- "updated_unix": 1793388709,
- "runs": 14075,
+ "updated": "2026-10-30T19:32:32.435Z",
+ "updated_unix": 1793388752,
+ "runs": 14076,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 108927,
- "sent_total": 3412927,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 108930,
+ "sent_total": 3413164,
  "last_upgrades": [
-  {
-   "slug": "RareBird",
-   "gift": "Rare Bird",
-   "number": 13003,
-   "owner": "bare-birds-fam.ton",
-   "owner_addr": "0:6f8d0260a16b59052699e0734d5cf7aef6d593b452b71a437f628545e7c4b99d",
-   "mint": 1793370347,
-   "counter_issued": 13003,
-   "counter_total": 14971,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T17:12:09.626Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23086,
-   "owner": "turtlve.t.me",
-   "owner_addr": "0:4a0e83f0aa6c2a5bc4a48a872c3d2cad72f26d08ff320a043a1352b498e35ce4",
-   "mint": 1793373670,
-   "counter_issued": 23086,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T17:13:12.699Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390791,
-   "owner": "",
-   "owner_addr": "0:d8d47eee8de6735a743dd489e2925b603b45d47f9962957fd6a6ff449150aa95",
-   "mint": 1793380351,
-   "counter_issued": 390791,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T17:15:10.116Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "SkullFlower",
@@ -342,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:25.338Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:25.338Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:35.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:35.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:35.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:35.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:31:35.678Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390795,
+   "owner": "",
+   "owner_addr": "0:228d1ed5d4b0e01ef49c9157c7882cc88b8609a1ce9b56b450b557885b84788d",
+   "mint": 1793386042,
+   "counter_issued": 390795,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T19:32:26.408Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390796,
+   "owner": "",
+   "owner_addr": "0:52edae82f1e13a20a53d4b8f8a58b4e7f9268d6350812b4cd2f0492fdce74126",
+   "mint": 1793387655,
+   "counter_issued": 390796,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T19:32:26.408Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390797,
+   "owner": "",
+   "owner_addr": "0:73d4df2ed42ba8e6158353e6260de8aca7b03c969323be81fa094b8f55c0fa92",
+   "mint": 1793388367,
+   "counter_issued": 390797,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T19:32:26.408Z",
    "t": 1
   }
  ]
