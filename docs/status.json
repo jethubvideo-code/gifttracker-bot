@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T04:41:41.801Z",
- "updated_unix": 1793335301,
- "runs": 13990,
+ "updated": "2026-10-30T04:54:42.035Z",
+ "updated_unix": 1793336082,
+ "runs": 13991,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108600,
- "sent_total": 3387102,
+ "detected_total": 108601,
+ "sent_total": 3387181,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74703,
-   "owner": "",
-   "owner_addr": "0:d43c2162e94c5a464b3ba436fe47657151f0a37033f1632005e1e762b9631e96",
-   "mint": 1793291028,
-   "counter_issued": 74703,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T03:00:53.765Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T04:41:39.820Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22073,
+   "owner": "galya.ton",
+   "owner_addr": "0:03b23f2c956265d776ffe35c4862151685088261585bb8691fff140ade153725",
+   "mint": 1793303580,
+   "counter_issued": 22073,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T04:54:39.961Z",
    "t": 1
   }
  ]
