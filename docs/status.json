@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T20:35:41.293Z",
- "updated_unix": 1793392541,
- "runs": 14085,
+ "updated": "2026-10-30T20:36:43.227Z",
+ "updated_unix": 1793392603,
+ "runs": 14086,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108978,
- "sent_total": 3416112,
+ "detected_total": 108979,
+ "sent_total": 3416191,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32805,
-   "owner": "",
-   "owner_addr": "0:9b1b59a0ea80d87830f9cf7494b0378e331a5cba15a5189f7dbd784a4b9c5e90",
-   "mint": 1793390825,
-   "counter_issued": 32805,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T20:10:45.166Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T20:35:26.441Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T20:35:26.441Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133783,
+   "owner": "martyr.ton",
+   "owner_addr": "0:7c25f5b15995630f5205144226a2b29a161db9c2ef143744e27c19889b2f2b98",
+   "mint": 1793390627,
+   "counter_issued": 133783,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T20:36:36.727Z",
    "t": 1
   }
  ]
