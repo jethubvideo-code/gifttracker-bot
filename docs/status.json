@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T04:37:44.119Z",
- "updated_unix": 1793335064,
- "runs": 13988,
+ "updated": "2026-10-30T04:38:39.079Z",
+ "updated_unix": 1793335119,
+ "runs": 13989,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108598,
- "sent_total": 3386944,
+ "detected_total": 108599,
+ "sent_total": 3387023,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32794,
-   "owner": "",
-   "owner_addr": "0:c20c83eaee4b822e18c70482a854c91cbba8c744dc27c4e0d09eea8afe2e22ed",
-   "mint": 1793323295,
-   "counter_issued": 32794,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T03:00:41.025Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T04:37:35.958Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T04:37:35.958Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T04:37:35.958Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T04:37:35.958Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133748,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133748,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T04:38:36.988Z",
    "t": 1
   }
  ]
