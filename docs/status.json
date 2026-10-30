@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T00:00:07.830Z",
- "updated_unix": 1793318407,
- "runs": 13977,
+ "updated": "2026-10-30T00:38:22.013Z",
+ "updated_unix": 1793320702,
+ "runs": 13978,
  "collections": 122,
  "checked": 5,
  "errors": 117,
- "detected_total": 108554,
- "sent_total": 3383468,
+ "detected_total": 108555,
+ "sent_total": 3383547,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84337,
-   "owner": "",
-   "owner_addr": "0:60aa93d4c8ef63cab4482cbe708fae9da8a8743385adaafb4deba27d04ac998e",
-   "mint": 1793300113,
-   "counter_issued": 84337,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-29T21:06:41.231Z",
-   "t": 3
-  },
   {
    "slug": "GenieLamp",
    "gift": "Genie Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T00:00:04.280Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108538,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108538,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T00:38:18.315Z",
    "t": 1
   }
  ]
