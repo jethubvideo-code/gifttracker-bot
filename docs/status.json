@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T17:52:24.480Z",
- "updated_unix": 1793382744,
- "runs": 14069,
+ "updated": "2026-10-30T18:17:51.090Z",
+ "updated_unix": 1793384271,
+ "runs": 14070,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 108902,
- "sent_total": 3410952,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 108904,
+ "sent_total": 3411110,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390789,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390789,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T16:23:58.342Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133771,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133771,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T16:26:55.316Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T17:52:22.659Z",
+   "t": 2
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84352,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84352,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T18:17:47.032Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84353,
+   "owner": "",
+   "owner_addr": "0:0fbf89ede5cca422e85c61b26ad09f26e3fb411052253e372abf186e2eaebb55",
+   "mint": 1793382456,
+   "counter_issued": 84353,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T18:17:47.032Z",
    "t": 1
   }
  ]
