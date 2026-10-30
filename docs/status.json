@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-30T09:56:48.218Z",
- "updated_unix": 1793354208,
- "runs": 14018,
+ "updated": "2026-10-30T10:01:57.037Z",
+ "updated_unix": 1793354517,
+ "runs": 14019,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108683,
- "sent_total": 3393659,
+ "detected_total": 108687,
+ "sent_total": 3393975,
  "last_upgrades": [
-  {
-   "slug": "SignetRing",
-   "gift": "Signet Ring",
-   "number": 16982,
-   "owner": "",
-   "owner_addr": "0:973342a3f9ee5a884ef9c068260833e90c6213b631e5cf3a8d5a5a746f8de1c0",
-   "mint": 1793335196,
-   "counter_issued": 16982,
-   "counter_total": 18499,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T08:47:53.282Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85028,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85028,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T08:59:54.464Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85029,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793341038,
-   "counter_issued": 85029,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T08:59:54.464Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85030,
-   "owner": "",
-   "owner_addr": "0:25aea61036368484821ede4acb26e3cd794c8884525c0580fb7ba5226eb1303b",
-   "mint": 1793348188,
-   "counter_issued": 85030,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T08:59:54.464Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "EvilEye",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T09:56:38.651Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T09:56:38.651Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T09:56:38.651Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T09:56:38.651Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442083,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793352985,
+   "counter_issued": 442083,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T10:01:46.422Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442084,
+   "owner": "",
+   "owner_addr": "0:4e4cb458d77d4670db2d73e5f639d165726fb2081e4600164d83dbe6bb03e0d0",
+   "mint": 1793353576,
+   "counter_issued": 442084,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T10:01:46.422Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442085,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793353846,
+   "counter_issued": 442085,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T10:01:46.422Z",
+   "t": 1
+  },
+  {
+   "slug": "algorithmcup",
+   "gift": "algorithmcup",
+   "number": 168,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 168,
+   "counter_total": 188,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T10:01:53.070Z",
    "t": 1
   }
  ]
