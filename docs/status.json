@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T11:24:01.900Z",
- "updated_unix": 1793359441,
- "runs": 14028,
+ "updated": "2026-10-30T11:41:34.292Z",
+ "updated_unix": 1793360494,
+ "runs": 14029,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108803,
- "sent_total": 3403135,
+ "detected_total": 108805,
+ "sent_total": 3403293,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78013,
-   "owner": "",
-   "owner_addr": "0:063fae1c6e7f049c0e21587c344460d67d8af00a033a67e85de507700abebb95",
-   "mint": 1793253656,
-   "counter_issued": 78013,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78014,
-   "owner": "",
-   "owner_addr": "0:063fae1c6e7f049c0e21587c344460d67d8af00a033a67e85de507700abebb95",
-   "mint": 1793253668,
-   "counter_issued": 78014,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T11:24:00.188Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133764,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133764,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T11:41:28.511Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133765,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133765,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T11:41:28.511Z",
    "t": 1
   }
  ]
