@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T14:37:47.848Z",
- "updated_unix": 1793371067,
- "runs": 14045,
+ "updated": "2026-10-30T14:56:45.247Z",
+ "updated_unix": 1793372205,
+ "runs": 14046,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 108855,
- "sent_total": 3407243,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 108856,
+ "sent_total": 3407322,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85032,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85032,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T13:36:08.090Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T14:07:30.590Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T14:07:34.296Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T14:37:45.350Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 32800,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 32800,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T14:56:43.041Z",
    "t": 1
   }
  ]
