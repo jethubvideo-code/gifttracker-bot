@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-30T03:29:14.457Z",
- "updated_unix": 1793330954,
- "runs": 13984,
+ "updated": "2026-10-30T04:01:26.166Z",
+ "updated_unix": 1793332886,
+ "runs": 13985,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108583,
- "sent_total": 3385759,
+ "detected_total": 108585,
+ "sent_total": 3385917,
  "last_upgrades": [
-  {
-   "slug": "VoodooDoll",
-   "gift": "Voodoo Doll",
-   "number": 26839,
-   "owner": "aarash81-tg.ton",
-   "owner_addr": "0:8dfe0a2dae9eb8f4aa3f4a7f45a69b19beab5c78b8b89b34f2ab172637ff2ecd",
-   "mint": 1793274255,
-   "counter_issued": 26839,
-   "counter_total": 27620,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T00:00:04.280Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108538,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108538,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T00:38:18.315Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T03:28:58.907Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EasterEgg",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T03:28:58.907Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EasterEgg",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T03:28:58.907Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EasterEgg",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T03:28:58.907Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EasterEgg",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T03:28:58.907Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442072,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1793330818,
+   "counter_issued": 442072,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T04:01:16.996Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268829,
+   "owner": "",
+   "owner_addr": "0:3dce444a929442197399bd3aa6e374a935a4e423c5dd7e3ac4576497586748e7",
+   "mint": 1793331286,
+   "counter_issued": 268829,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T04:01:23.753Z",
    "t": 1
   }
  ]
