@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T22:54:40.852Z",
- "updated_unix": 1793400880,
- "runs": 14104,
+ "updated": "2026-10-30T22:55:43.481Z",
+ "updated_unix": 1793400943,
+ "runs": 14105,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 109025,
- "sent_total": 3418724,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 109026,
+ "sent_total": 3418803,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390802,
-   "owner": "",
-   "owner_addr": "0:247e13f07e08a39abc17bdfa94027b416c1d4cc93375a727f305844ec0abb433",
-   "mint": 1793398030,
-   "counter_issued": 390802,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T22:17:11.101Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T22:54:38.089Z",
+   "t": 3
+  },
+  {
+   "slug": "KhabibsPapakha",
+   "gift": "Khabib’s Papakha",
+   "number": 28671,
+   "owner": "",
+   "owner_addr": "0:8609f4f48058a61ef7c6589f80bef46cc2bef9fe4753f66ed11ca19ce140c792",
+   "mint": 1793341142,
+   "counter_issued": 28671,
+   "counter_total": 29000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T22:55:40.826Z",
    "t": 1
   }
  ]
