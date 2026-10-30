@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T21:46:10.434Z",
- "updated_unix": 1793396770,
- "runs": 14093,
+ "updated": "2026-10-30T21:57:31.464Z",
+ "updated_unix": 1793397451,
+ "runs": 14094,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108993,
+ "detected_total": 108994,
  "sent_total": 3416407,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90412,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90412,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T20:14:27.570Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T21:41:49.421Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T21:44:49.965Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442110,
+   "owner": "telegram-gifts.ton",
+   "owner_addr": "0:19d0698ff6ee30d2d0db8190d10c5b156f2b0da6a58fdd7112e944cbe1fffd04",
+   "mint": 1793395903,
+   "counter_issued": 442110,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T21:56:11.062Z",
    "t": 1
   }
  ]
