@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T07:02:06.034Z",
- "updated_unix": 1793343726,
- "runs": 13998,
+ "updated": "2026-10-30T07:09:11.022Z",
+ "updated_unix": 1793344151,
+ "runs": 13999,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108627,
- "sent_total": 3389235,
+ "detected_total": 108628,
+ "sent_total": 3389314,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85027,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85027,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T04:37:35.958Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T07:02:04.016Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19808,
+   "owner": "",
+   "owner_addr": "0:f63276cbab972556ad602a355bdd110c6adcf56b7ea9006452c0a38231f9bcbc",
+   "mint": 1793272509,
+   "counter_issued": 19808,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T07:09:06.918Z",
    "t": 1
   }
  ]
