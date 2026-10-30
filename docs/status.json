@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T17:08:12.247Z",
- "updated_unix": 1793380092,
- "runs": 14063,
+ "updated": "2026-10-30T17:09:13.680Z",
+ "updated_unix": 1793380153,
+ "runs": 14064,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108896,
- "sent_total": 3410479,
+ "detected_total": 108897,
+ "sent_total": 3410558,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90404,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90404,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T16:23:41.576Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T17:08:10.257Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442100,
+   "owner": "",
+   "owner_addr": "0:fd08c6fd7176026d632e785ffc484197ae05ee4f3539dfaac612dd92812244b0",
+   "mint": 1793379163,
+   "counter_issued": 442100,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T17:09:09.866Z",
    "t": 1
   }
  ]
