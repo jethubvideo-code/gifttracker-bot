@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T10:01:57.037Z",
- "updated_unix": 1793354517,
- "runs": 14019,
+ "updated": "2026-10-30T10:29:55.542Z",
+ "updated_unix": 1793356195,
+ "runs": 14020,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108687,
- "sent_total": 3393975,
+ "detected_total": 108688,
+ "sent_total": 3394054,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "EvilEye",
-   "number": 74707,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74707,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T09:00:04.818Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T10:01:46.422Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T10:01:46.422Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T10:01:46.422Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "algorithmcup",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T10:01:53.070Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390782,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1793355921,
+   "counter_issued": 390782,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T10:29:53.788Z",
    "t": 1
   }
  ]
