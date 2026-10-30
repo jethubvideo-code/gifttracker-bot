@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T19:32:32.435Z",
- "updated_unix": 1793388752,
- "runs": 14076,
+ "updated": "2026-10-30T19:34:28.492Z",
+ "updated_unix": 1793388868,
+ "runs": 14077,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 108930,
- "sent_total": 3413164,
+ "detected_total": 108931,
+ "sent_total": 3413243,
  "last_upgrades": [
-  {
-   "slug": "SkullFlower",
-   "gift": "SkullFlower",
-   "number": 22076,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 22076,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T17:43:22.296Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "SkullFlower",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:32:26.408Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:32:26.408Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T19:32:26.408Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133782,
+   "owner": "",
+   "owner_addr": "0:b96b29757a2479becf2b88359e47145dcce15883b9ad26caa148f52cf372ff4b",
+   "mint": 1793388809,
+   "counter_issued": 133782,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T19:34:26.433Z",
    "t": 1
   }
  ]
