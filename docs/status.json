@@ -1,111 +1,13 @@
 {
- "updated": "2026-10-30T12:52:04.234Z",
- "updated_unix": 1793364724,
- "runs": 14031,
+ "updated": "2026-10-30T12:54:20.175Z",
+ "updated_unix": 1793364860,
+ "runs": 14032,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108812,
- "sent_total": 3403846,
+ "detected_total": 108819,
+ "sent_total": 3404399,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78022,
-   "owner": "",
-   "owner_addr": "0:4e682e2be9c2d4dec5573ebb333d84dbc984ea1778945b067eb72f3f04faf9f8",
-   "mint": 1793333395,
-   "counter_issued": 78022,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78023,
-   "owner": "",
-   "owner_addr": "0:0bd785524c03f61804e9b509a111093a4a60fcee5c7d563536b394722102799b",
-   "mint": 1793334328,
-   "counter_issued": 78023,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78024,
-   "owner": "",
-   "owner_addr": "0:d748aa0c05cf917613a9a0ee48b9d65b5a202e113f0744e61f74f7463640541c",
-   "mint": 1793350112,
-   "counter_issued": 78024,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78025,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793354018,
-   "counter_issued": 78025,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90399,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90399,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:13:43.787Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268866,
-   "owner": "",
-   "owner_addr": "0:a3ac29d1d619baa69ae702148ad52aa596a7a3e027a66af2c2c2563a472eda04",
-   "mint": 1793356580,
-   "counter_issued": 268866,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:14:54.987Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268867,
-   "owner": "",
-   "owner_addr": "0:a3ac29d1d619baa69ae702148ad52aa596a7a3e027a66af2c2c2563a472eda04",
-   "mint": 1793356609,
-   "counter_issued": 268867,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:14:54.987Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -342,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:15:49.957Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -356,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:15:49.957Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:51:50.845Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:51:50.845Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:51:50.845Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:51:50.845Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +328,104 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:52:02.655Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268873,
+   "owner": "",
+   "owner_addr": "0:69b65c1b53da5d80e47c923f78dcf61ab4ad7a5e6e6fe38d715c7763a7001e9c",
+   "mint": 1793364040,
+   "counter_issued": 268873,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268874,
+   "owner": "",
+   "owner_addr": "0:2b1c6e401293236442b8eab00af53bd58806d353a5c4518b9ef2654a07367b03",
+   "mint": 1793364101,
+   "counter_issued": 268874,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268875,
+   "owner": "",
+   "owner_addr": "0:d39ece6a75a1c5cdb10577a75dfc4ac536b3945a7fe953061ede4681f0e22997",
+   "mint": 1793364557,
+   "counter_issued": 268875,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268876,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793364793,
+   "counter_issued": 268876,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268877,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793364802,
+   "counter_issued": 268877,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268878,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793364814,
+   "counter_issued": 268878,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268879,
+   "owner": "",
+   "owner_addr": "0:2672945a2c0f526dd3abe6c17ea4e6d83ae70552e0dfe34fd49d0057ea76935c",
+   "mint": 1793364818,
+   "counter_issued": 268879,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:54:04.582Z",
    "t": 1
   }
  ]
