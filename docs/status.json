@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-30T12:15:54.508Z",
- "updated_unix": 1793362554,
- "runs": 14030,
+ "updated": "2026-10-30T12:52:04.234Z",
+ "updated_unix": 1793364724,
+ "runs": 14031,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108807,
- "sent_total": 3403451,
+ "detected_total": 108812,
+ "sent_total": 3403846,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78017,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793268832,
-   "counter_issued": 78017,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78018,
-   "owner": "",
-   "owner_addr": "0:e25e29c8bd9564ed7e4068f0cd980235cd4dbe222566c16ebd29158b03b951c6",
-   "mint": 1793293086,
-   "counter_issued": 78018,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78019,
-   "owner": "",
-   "owner_addr": "0:ef812ff2d0bd02b78f6ce1269b411d65ec66c6d96da05b4ee700e9ff551cef65",
-   "mint": 1793296572,
-   "counter_issued": 78019,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78020,
-   "owner": "",
-   "owner_addr": "0:489e36e00a12ed89c7eb9bb3491dbe4b200acd356f517958b7ee2d30111142e5",
-   "mint": 1793299807,
-   "counter_issued": 78020,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78021,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793314797,
-   "counter_issued": 78021,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T11:41:28.511Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T11:41:28.511Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:15:49.957Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T12:15:49.957Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442090,
+   "owner": "",
+   "owner_addr": "0:721c73112e725fb2e0ce7cd8ab1c5ea918c9c3de73613b0058928e8a9fb3578f",
+   "mint": 1793361367,
+   "counter_issued": 442090,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:51:50.845Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442091,
+   "owner": "",
+   "owner_addr": "0:fd9cdce7d0558fd627de2ef04a6b81f7bcdb905de82ab40fb19407b3d3987af1",
+   "mint": 1793361898,
+   "counter_issued": 442091,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:51:50.845Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442092,
+   "owner": "",
+   "owner_addr": "0:fd9cdce7d0558fd627de2ef04a6b81f7bcdb905de82ab40fb19407b3d3987af1",
+   "mint": 1793361902,
+   "counter_issued": 442092,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:51:50.845Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442093,
+   "owner": "",
+   "owner_addr": "0:3a78350ac69e7f9a26095ffaf688205df1ba5daa94538d2892c1d595b7ab663b",
+   "mint": 1793364689,
+   "counter_issued": 442093,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:51:50.845Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90400,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90400,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T12:52:02.655Z",
    "t": 1
   }
  ]
