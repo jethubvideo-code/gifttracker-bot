@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-30T11:16:01.090Z",
- "updated_unix": 1793358961,
- "runs": 14025,
+ "updated": "2026-10-30T11:18:05.711Z",
+ "updated_unix": 1793359085,
+ "runs": 14026,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108797,
- "sent_total": 3402661,
+ "detected_total": 108801,
+ "sent_total": 3402977,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78007,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793232395,
-   "counter_issued": 78007,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78008,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793232411,
-   "counter_issued": 78008,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78009,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793232425,
-   "counter_issued": 78009,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78010,
-   "owner": "",
-   "owner_addr": "0:1b9f71ef78f253fbea0c1297dcdb9a4edf0e896d2c13a49804c165b713901e12",
-   "mint": 1793247363,
-   "counter_issued": 78010,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T11:10:22.736Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T11:15:51.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T11:15:51.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T11:15:51.678Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390783,
+   "owner": "",
+   "owner_addr": "0:6ba9bf566a8c81a1efd6d6472f12c7a1447625bd0edd6f39730a3edc2192e245",
+   "mint": 1793358840,
+   "counter_issued": 390783,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T11:17:53.989Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133761,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133761,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T11:17:59.613Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133762,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133762,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T11:17:59.613Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133763,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793357782,
+   "counter_issued": 133763,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T11:17:59.613Z",
    "t": 1
   }
  ]
