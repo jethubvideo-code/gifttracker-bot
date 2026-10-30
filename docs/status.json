@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-30T16:02:29.790Z",
- "updated_unix": 1793376149,
- "runs": 14051,
+ "updated": "2026-10-30T16:07:26.387Z",
+ "updated_unix": 1793376446,
+ "runs": 14052,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 108864,
- "sent_total": 3407953,
+ "detected_total": 108865,
+ "sent_total": 3408031,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32797,
-   "owner": "",
-   "owner_addr": "0:8948e4a027a2852edbc4b19fbdabf6709e56d08f770f597ef88dd91e5e18463d",
-   "mint": 1793361457,
-   "counter_issued": 32797,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T13:43:11.916Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T16:02:21.968Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-30T16:02:21.968Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 32801,
+   "owner": "",
+   "owner_addr": "0:34be8b144458b29f0292335bd8be276be3a6d92b92436a63800df7158f81ed88",
+   "mint": 1793376394,
+   "counter_issued": 32801,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-30T16:07:24.430Z",
    "t": 1
   }
  ]
