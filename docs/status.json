@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-31T14:51:45.443Z",
- "updated_unix": 1793458305,
- "runs": 14255,
+ "updated": "2026-10-31T14:55:57.156Z",
+ "updated_unix": 1793458557,
+ "runs": 14256,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110041,
- "sent_total": 3493026,
+ "detected_total": 110044,
+ "sent_total": 3493263,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442198,
-   "owner": "",
-   "owner_addr": "0:7f1ca8d7c4f280ecf3abbd2476a426f4d6b1b24006e7ff2343201582587d109f",
-   "mint": 1793454403,
-   "counter_issued": 442198,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:49:58.380Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269067,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269067,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:52:59.340Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269068,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269068,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:52:59.340Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:51:32.357Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:51:32.357Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108576,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108576,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T14:55:39.536Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108577,
+   "owner": "",
+   "owner_addr": "0:3535dd233fe02468905705ed34f009db69db2f741776af65210ab469d94e2d86",
+   "mint": 1793457127,
+   "counter_issued": 108577,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T14:55:39.536Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108578,
+   "owner": "",
+   "owner_addr": "0:5d18bb7f1588712a33945ef84bd522d5dbd10a64f4b27fb74b37eda09b055776",
+   "mint": 1793457821,
+   "counter_issued": 108578,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T14:55:39.536Z",
    "t": 1
   }
  ]
