@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T07:53:26.989Z",
- "updated_unix": 1793433206,
- "runs": 14173,
+ "updated": "2026-10-31T07:54:53.399Z",
+ "updated_unix": 1793433293,
+ "runs": 14174,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109340,
- "sent_total": 3440242,
+ "detected_total": 109342,
+ "sent_total": 3440352,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55580,
-   "owner": "",
-   "owner_addr": "0:25aea61036368484821ede4acb26e3cd794c8884525c0580fb7ba5226eb1303b",
-   "mint": 1793374821,
-   "counter_issued": 55580,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T07:24:52.688Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55581,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793379269,
-   "counter_issued": 55581,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T07:24:52.688Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T07:53:06.274Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T07:53:06.274Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T07:53:06.274Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T07:53:06.274Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133811,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133811,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T07:54:18.113Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269015,
+   "owner": "",
+   "owner_addr": "0:4f4696098e422424619430e313aa88871fc267a23b2d531d358927a7a6bc3378",
+   "mint": 1793433103,
+   "counter_issued": 269015,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T07:54:26.839Z",
    "t": 1
   }
  ]
