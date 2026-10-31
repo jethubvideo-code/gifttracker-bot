@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T22:26:42.815Z",
- "updated_unix": 1793485602,
- "runs": 14333,
+ "updated": "2026-10-31T22:27:37.776Z",
+ "updated_unix": 1793485657,
+ "runs": 14334,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 110981,
- "sent_total": 3565107,
+ "checked": 2,
+ "errors": 121,
+ "detected_total": 110982,
+ "sent_total": 3565185,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390926,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390926,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T21:01:12.263Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T22:08:21.894Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T22:26:33.095Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T22:26:33.095Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T22:26:41.033Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232324,
+   "owner": "",
+   "owner_addr": "0:87ae1a51c115b95c99cc8b89b03084a70dee54e0cc945584ee82a51e76baf77f",
+   "mint": 1793482270,
+   "counter_issued": 232324,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T22:27:36.280Z",
    "t": 1
   }
  ]
