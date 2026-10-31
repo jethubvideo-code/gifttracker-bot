@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T00:51:11.149Z",
- "updated_unix": 1793407871,
- "runs": 14121,
+ "updated": "2026-10-31T00:55:07.434Z",
+ "updated_unix": 1793408107,
+ "runs": 14122,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109075,
- "sent_total": 3422322,
+ "detected_total": 109076,
+ "sent_total": 3422401,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 268943,
-   "owner": "",
-   "owner_addr": "0:bc87de2fc8dfcc545b84ef4f5e9be6cfd951903e0fdb18ebeecd774a7dc6033a",
-   "mint": 1793403119,
-   "counter_issued": 268943,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-30T23:38:02.328Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T00:50:59.496Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T00:51:07.407Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16984,
+   "owner": "hashtagrich.ton",
+   "owner_addr": "0:473569ad833ad207252b305b1d45aec28864d425b9a176ea369a9579316445e2",
+   "mint": 1793360943,
+   "counter_issued": 16984,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T00:55:03.886Z",
    "t": 1
   }
  ]
