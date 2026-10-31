@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T21:20:04.903Z",
- "updated_unix": 1793481604,
- "runs": 14322,
+ "updated": "2026-10-31T21:21:00.894Z",
+ "updated_unix": 1793481660,
+ "runs": 14323,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110962,
- "sent_total": 3563625,
+ "detected_total": 110963,
+ "sent_total": 3563703,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228581,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228581,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:19:58.971Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:19:58.971Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390931,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390931,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:20:59.014Z",
    "t": 1
   }
  ]
