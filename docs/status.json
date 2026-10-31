@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T19:06:45.383Z",
- "updated_unix": 1793473605,
- "runs": 14304,
+ "updated": "2026-10-31T19:08:40.284Z",
+ "updated_unix": 1793473720,
+ "runs": 14305,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110662,
- "sent_total": 3540225,
+ "detected_total": 110663,
+ "sent_total": 3540303,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90457,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793470620,
-   "counter_issued": 90457,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:29:53.079Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T19:06:38.177Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T19:06:41.729Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390914,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390914,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T19:08:38.626Z",
    "t": 1
   }
  ]
