@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T03:38:08.431Z",
- "updated_unix": 1793417888,
- "runs": 14132,
+ "updated": "2026-10-31T03:39:42.064Z",
+ "updated_unix": 1793417982,
+ "runs": 14133,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109104,
- "sent_total": 3424245,
+ "detected_total": 109105,
+ "sent_total": 3424324,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23088,
-   "owner": "",
-   "owner_addr": "0:8e8fe4024d97556788047f621db7573ddcd7d75b25dd074a282affbd20548b6e",
-   "mint": 1793391458,
-   "counter_issued": 23088,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:51:07.407Z",
-   "t": 3
-  },
   {
    "slug": "SignetRing",
    "gift": "Signet Ring",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:37:37.304Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:37:37.304Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:37:37.304Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:37:37.304Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:37:55.398Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442137,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442137,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T03:39:38.534Z",
    "t": 1
   }
  ]
