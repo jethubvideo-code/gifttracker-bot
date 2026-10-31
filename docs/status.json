@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T21:53:20.097Z",
- "updated_unix": 1793483600,
- "runs": 14328,
+ "updated": "2026-10-31T21:54:20.210Z",
+ "updated_unix": 1793483660,
+ "runs": 14329,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 110971,
- "sent_total": 3564327,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 110973,
+ "sent_total": 3564483,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103563,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103563,
-   "counter_total": 120184,
-   "img": "https://cdn4.telesco.pe/file/HzVxnib9x4EJWa2jNWFytaxdARkjAy3v8wGtbo2wyMGBvNZRN5Fh0uaoTiMv61yK3T7uQtF-XeZntB8SvqtDrjIEr2hf24OPrziHr2RbhnipFXNUItsP_AMuvHq84nyHexf4QFKzC6Z2h_lC4z6jliebmw4zWf_8ZJWPikxgsICCLL7hu1KYGj_G4L6SqtvxHQurfuRdej2NlU8AVkuU5XujhFofdBSK2FPKgI2sLAbLm4-qcSb4LFYJpDE9dm9ZTrsu5xq0ez7rSeF5TNSMzjoPHTpjqGTBPELKjSyqd9cJKBQnJuz7FDzy9gLJ439B86O-om7RXY3U7SyINNxUUw.jpg",
-   "sent": 0,
-   "time": "2026-10-31T20:56:48.832Z",
-   "t": 3
-  },
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103564,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103564,
-   "counter_total": 120184,
-   "img": "https://cdn4.telesco.pe/file/HzVxnib9x4EJWa2jNWFytaxdARkjAy3v8wGtbo2wyMGBvNZRN5Fh0uaoTiMv61yK3T7uQtF-XeZntB8SvqtDrjIEr2hf24OPrziHr2RbhnipFXNUItsP_AMuvHq84nyHexf4QFKzC6Z2h_lC4z6jliebmw4zWf_8ZJWPikxgsICCLL7hu1KYGj_G4L6SqtvxHQurfuRdej2NlU8AVkuU5XujhFofdBSK2FPKgI2sLAbLm4-qcSb4LFYJpDE9dm9ZTrsu5xq0ez7rSeF5TNSMzjoPHTpjqGTBPELKjSyqd9cJKBQnJuz7FDzy9gLJ439B86O-om7RXY3U7SyINNxUUw.jpg",
-   "sent": 0,
-   "time": "2026-10-31T20:56:48.832Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:53:16.305Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:53:16.305Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442259,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793482592,
+   "counter_issued": 442259,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:54:16.400Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442260,
+   "owner": "",
+   "owner_addr": "0:f104878fceb4e7f1d58255dd0e7538ad526e26f8608f91fce3e7813a3128fda1",
+   "mint": 1793483356,
+   "counter_issued": 442260,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:54:16.400Z",
    "t": 1
   }
  ]
