@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-31T19:35:13.839Z",
- "updated_unix": 1793475313,
- "runs": 14310,
+ "updated": "2026-10-31T19:44:19.246Z",
+ "updated_unix": 1793475859,
+ "runs": 14311,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110677,
- "sent_total": 3541395,
+ "detected_total": 110680,
+ "sent_total": 3541629,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269159,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269159,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:34:57.056Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269160,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269160,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:34:57.056Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269161,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269161,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:34:57.056Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T19:35:07.871Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T19:35:11.944Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26097,
+   "owner": "",
+   "owner_addr": "0:5f428bd55bdd18a674a61cf77ba98f0d72039ae7bc97862088ec5956afe8e53b",
+   "mint": 1793429049,
+   "counter_issued": 26097,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T19:44:13.284Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26098,
+   "owner": "",
+   "owner_addr": "0:67fb6feef52085d62d08080c127dafac2f9e7f23ca5cf766bf35a1ac77f7c5a4",
+   "mint": 1793444724,
+   "counter_issued": 26098,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T19:44:13.284Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26099,
+   "owner": "",
+   "owner_addr": "0:27055727e2a638eeea0f8ab58d788b95c305cb30fa644bd1aaf0f154571c43c1",
+   "mint": 1793470860,
+   "counter_issued": 26099,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T19:44:13.284Z",
    "t": 1
   }
  ]
