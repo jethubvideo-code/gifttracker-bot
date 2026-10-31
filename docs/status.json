@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T10:52:31.803Z",
- "updated_unix": 1793443951,
- "runs": 14209,
+ "updated": "2026-10-31T10:53:22.439Z",
+ "updated_unix": 1793444002,
+ "runs": 14210,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 109552,
- "sent_total": 3455639,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 109554,
+ "sent_total": 3455797,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269042,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269042,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T10:40:21.700Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269043,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269043,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/O65B9x5ImkoDEBn6iNTgrOeeM15ZK5ayuPPb-J7IqG0Mr1wsLwIVeg6a8dGywVtH62cIIdRd2J3-K6tD90xVzwHhRI5y5c_ahN8-MapGtA9HNqV4u2O5dDJCnpKA49zOKNQDybNDTr04c0QBQkWQcdR3NBDebqWfoPeiFx-9CTMq8XRZxOnfCTvq92kBBXC9vJItAjftlfTUThg_RMHYIXHxnDP-X3wJktAwsFwwmyz9dIMvLJZylvrdvf_aGGGItPR6LqIAuNymGi8OmXLevLv2fcMxUfhBh7fB1Vk1_g3_b64qfgxK6Cm24rJcd5tgkcqQlkOXjiJky-NMy9oyVw.jpg",
-   "sent": 0,
-   "time": "2026-10-31T10:40:21.700Z",
-   "u": 1
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T10:51:49.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T10:51:58.367Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90440,
+   "owner": "",
+   "owner_addr": "0:994cb460b6a2927a6f8189db76a336896b753cd4c257d67d10c7e9c17b1cc63b",
+   "mint": 1793443873,
+   "counter_issued": 90440,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T10:53:06.023Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133832,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133832,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T10:53:15.133Z",
    "t": 1
   }
  ]
