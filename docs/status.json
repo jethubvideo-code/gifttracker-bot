@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T01:49:21.753Z",
- "updated_unix": 1793411361,
- "runs": 14125,
+ "updated": "2026-10-31T01:53:19.369Z",
+ "updated_unix": 1793411599,
+ "runs": 14126,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109082,
- "sent_total": 3422875,
+ "detected_total": 109083,
+ "sent_total": 3422954,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442127,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442127,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:10:23.351Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T01:33:03.560Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T01:49:19.261Z",
+   "t": 3
+  },
+  {
+   "slug": "SharpTongue",
+   "gift": "Sharp Tongue",
+   "number": 8148,
+   "owner": "",
+   "owner_addr": "0:0ea5e6ac4297c003cd7a30744f267df797f053fd175e0b540c6b1423846deed5",
+   "mint": 1793389776,
+   "counter_issued": 8148,
+   "counter_total": 8546,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T01:53:17.408Z",
    "t": 1
   }
  ]
