@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-31T03:35:42.947Z",
- "updated_unix": 1793417742,
- "runs": 14131,
+ "updated": "2026-10-31T03:38:08.431Z",
+ "updated_unix": 1793417888,
+ "runs": 14132,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109099,
- "sent_total": 3423866,
+ "detected_total": 109104,
+ "sent_total": 3424245,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84358,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793395287,
-   "counter_issued": 84358,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:41:20.507Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84359,
-   "owner": "",
-   "owner_addr": "0:42750b1a67ed874471d9fab1797f42a4322516124e88bf21ad49ae43e115aea7",
-   "mint": 1793401687,
-   "counter_issued": 84359,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:41:20.507Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84360,
-   "owner": "",
-   "owner_addr": "0:a577b3cd724e683e0bd587937c0dc1f687030f1bd2b1ea08f2771dffd1277af0",
-   "mint": 1793404036,
-   "counter_issued": 84360,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:41:20.507Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84361,
-   "owner": "",
-   "owner_addr": "0:a577b3cd724e683e0bd587937c0dc1f687030f1bd2b1ea08f2771dffd1277af0",
-   "mint": 1793404647,
-   "counter_issued": 84361,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:41:20.507Z",
-   "t": 3
-  },
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19809,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793405934,
-   "counter_issued": 19809,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T00:50:59.496Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -370,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:35:23.660Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:35:23.660Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:35:23.660Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:35:23.660Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T03:35:23.660Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442133,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442133,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T03:37:37.304Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442134,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442134,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T03:37:37.304Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442135,
+   "owner": "",
+   "owner_addr": "0:c7d0824148fe8d22b45be829f6e9f8ea54689b4e6f0ec22f7b201edc8fb254a8",
+   "mint": 1793412094,
+   "counter_issued": 442135,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T03:37:37.304Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442136,
+   "owner": "lesiz.t.me",
+   "owner_addr": "0:65f7268e5fe5085fd2a5a125e29cbdf9b3af8dd490b8de617e9533529cf2e394",
+   "mint": 1793414486,
+   "counter_issued": 442136,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T03:37:37.304Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 268950,
+   "owner": "shofiqul-islam.ton",
+   "owner_addr": "0:fb0a0cdd9b19f264bbb21b70bc85146cc329554236ae0eeefc5b6e2b3074486e",
+   "mint": 1793417734,
+   "counter_issued": 268950,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T03:37:55.398Z",
    "t": 1
   }
  ]
