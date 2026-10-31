@@ -1,195 +1,13 @@
 {
- "updated": "2026-10-31T20:41:15.706Z",
- "updated_unix": 1793479275,
- "runs": 14314,
+ "updated": "2026-10-31T20:48:14.283Z",
+ "updated_unix": 1793479694,
+ "runs": 14315,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110695,
- "sent_total": 3542799,
+ "detected_total": 110708,
+ "sent_total": 3543813,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133889,
-   "owner": "",
-   "owner_addr": "0:bb8f9dadd1d548ded080810d0af00cec81b3f56d552d0758a277574adf675dd2",
-   "mint": 1793473526,
-   "counter_issued": 133889,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:13:44.983Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 442250,
-   "owner": "",
-   "owner_addr": "0:9101ddaa1e79c5217e88b98a856f6339a08d121e19f7f127ff0d57368e36a3e1",
-   "mint": 1793473400,
-   "counter_issued": 442250,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:29:54.067Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269164,
-   "owner": "bsss.t.me",
-   "owner_addr": "0:5d2cac04eef3dcb6bb0529e1d8066c9b53eea47415178007478d887216eabfb4",
-   "mint": 1793472611,
-   "counter_issued": 269164,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:30:00.948Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90459,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90459,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:30:57.323Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390917,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390917,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:31:03.002Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390918,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390918,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:31:03.002Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390919,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390919,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:31:03.002Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390920,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390920,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:31:03.002Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390921,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390921,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:31:03.002Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390922,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390922,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:31:03.002Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269165,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269165,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:35:07.871Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108594,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108594,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:35:11.944Z",
-   "t": 3
-  },
-  {
-   "slug": "SwissWatch",
-   "gift": "Swiss Watch",
-   "number": 26097,
-   "owner": "",
-   "owner_addr": "0:5f428bd55bdd18a674a61cf77ba98f0d72039ae7bc97862088ec5956afe8e53b",
-   "mint": 1793429049,
-   "counter_issued": 26097,
-   "counter_total": 29323,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T19:44:13.284Z",
-   "t": 3
-  },
   {
    "slug": "SwissWatch",
    "gift": "Swiss Watch",
@@ -244,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:06:05.946Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -258,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:31.279Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -272,7 +90,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:31.279Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -286,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:31.279Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -300,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:39.069Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -314,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:39.069Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -328,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:39.069Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -342,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:39.069Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:55.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:55.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:55.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:40:55.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:41:09.612Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +244,188 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T20:41:09.612Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133890,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133890,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:30.872Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133891,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133891,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:30.872Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133892,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133892,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:30.872Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133893,
+   "owner": "heavydirtysoul.ton",
+   "owner_addr": "0:5b8f083d4d427115ee58606803a6901053c386db8e152624c23312c3e77cd40d",
+   "mint": 1793475407,
+   "counter_issued": 133893,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:30.872Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90465,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90465,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:42.177Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232316,
+   "owner": "",
+   "owner_addr": "0:6ba9bf566a8c81a1efd6d6472f12c7a1447625bd0edd6f39730a3edc2192e245",
+   "mint": 1793463397,
+   "counter_issued": 232316,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232317,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793465186,
+   "counter_issued": 232317,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232318,
+   "owner": "",
+   "owner_addr": "0:8471dc0a509261ca0275c7d21857abd657a4e37d455a0ad57cc5fd000486903c",
+   "mint": 1793470677,
+   "counter_issued": 232318,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232319,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793471664,
+   "counter_issued": 232319,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232320,
+   "owner": "",
+   "owner_addr": "0:96b2466e9cc9cb7783c816bb0ea4a663355809e0e7e96e93b1b4df74f7f307fc",
+   "mint": 1793472834,
+   "counter_issued": 232320,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232321,
+   "owner": "",
+   "owner_addr": "0:c4a8f300d7ea33849f01cc38e3c89f7ebaab342cdf09bb080eb4c94204c4cabf",
+   "mint": 1793474868,
+   "counter_issued": 232321,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232322,
+   "owner": "",
+   "owner_addr": "0:c4a8f300d7ea33849f01cc38e3c89f7ebaab342cdf09bb080eb4c94204c4cabf",
+   "mint": 1793474973,
+   "counter_issued": 232322,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232323,
+   "owner": "",
+   "owner_addr": "0:5e9ea599335e22729b851c4b83d5eefb98219254978e0360a0b8e7b9359e8e42",
+   "mint": 1793479323,
+   "counter_issued": 232323,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T20:47:57.608Z",
    "t": 1
   }
  ]
