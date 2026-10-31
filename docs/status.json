@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T14:47:54.390Z",
- "updated_unix": 1793458074,
- "runs": 14254,
+ "updated": "2026-10-31T14:51:45.443Z",
+ "updated_unix": 1793458305,
+ "runs": 14255,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110039,
- "sent_total": 3492868,
+ "detected_total": 110041,
+ "sent_total": 3493026,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390885,
-   "owner": "",
-   "owner_addr": "0:9329db67d9ca215a03ec1b0b9602a83569cd167e462e46277e35f9abf267443d",
-   "mint": 1793454338,
-   "counter_issued": 390885,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:49:50.281Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442197,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442197,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:49:58.380Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:25:33.415Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:47:15.411Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:47:22.613Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133857,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133857,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T14:51:32.357Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133858,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793456756,
+   "counter_issued": 133858,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T14:51:32.357Z",
    "t": 1
   }
  ]
