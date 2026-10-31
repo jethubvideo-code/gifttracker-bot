@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T21:35:09.267Z",
- "updated_unix": 1793482509,
- "runs": 14326,
+ "updated": "2026-10-31T21:52:17.116Z",
+ "updated_unix": 1793483537,
+ "runs": 14327,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110968,
- "sent_total": 3564093,
+ "detected_total": 110969,
+ "sent_total": 3564171,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103560,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103560,
-   "counter_total": 120184,
-   "img": "https://cdn4.telesco.pe/file/HzVxnib9x4EJWa2jNWFytaxdARkjAy3v8wGtbo2wyMGBvNZRN5Fh0uaoTiMv61yK3T7uQtF-XeZntB8SvqtDrjIEr2hf24OPrziHr2RbhnipFXNUItsP_AMuvHq84nyHexf4QFKzC6Z2h_lC4z6jliebmw4zWf_8ZJWPikxgsICCLL7hu1KYGj_G4L6SqtvxHQurfuRdej2NlU8AVkuU5XujhFofdBSK2FPKgI2sLAbLm4-qcSb4LFYJpDE9dm9ZTrsu5xq0ez7rSeF5TNSMzjoPHTpjqGTBPELKjSyqd9cJKBQnJuz7FDzy9gLJ439B86O-om7RXY3U7SyINNxUUw.jpg",
-   "sent": 0,
-   "time": "2026-10-31T20:56:48.832Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:35:06.993Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133897,
+   "owner": "tank.ton",
+   "owner_addr": "0:c8a7f8d7b617fc79a2e855726b0fcd2230e21c5a170d559a8f05cb85b0b94d3c",
+   "mint": 1793482164,
+   "counter_issued": 133897,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:52:15.308Z",
    "t": 1
   }
  ]
