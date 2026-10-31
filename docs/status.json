@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T06:12:26.149Z",
- "updated_unix": 1793427146,
- "runs": 14155,
+ "updated": "2026-10-31T06:14:32.229Z",
+ "updated_unix": 1793427272,
+ "runs": 14156,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109197,
- "sent_total": 3431101,
+ "detected_total": 109199,
+ "sent_total": 3431131,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108552,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108552,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T04:28:40.920Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442140,
-   "owner": "",
-   "owner_addr": "0:d6fcdece64543aff2cd2f80c4fa7f0e7a2c9e114b1d79a2833b98bf477413617",
-   "mint": 1793423849,
-   "counter_issued": 442140,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T05:21:57.480Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T06:12:24.276Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268963,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1793425949,
+   "counter_issued": 268963,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T06:13:27.981Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268964,
+   "owner": "",
+   "owner_addr": "0:404ea5faf20b15ff3bd465069e968a3fc16660f04d13baf33e6632574eb857e6",
+   "mint": 1793426672,
+   "counter_issued": 268964,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T06:13:27.981Z",
    "t": 1
   }
  ]
