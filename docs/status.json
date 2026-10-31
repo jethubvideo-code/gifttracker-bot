@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T04:23:46.288Z",
- "updated_unix": 1793420626,
- "runs": 14138,
+ "updated": "2026-10-31T04:26:48.589Z",
+ "updated_unix": 1793420808,
+ "runs": 14139,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 109166,
- "sent_total": 3428652,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 109167,
+ "sent_total": 3428731,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108963,
-   "owner": "",
-   "owner_addr": "0:770d489bb48e9bac1bc1ced2a50e7d280c8e405300496de2c9339010571a2a77",
-   "mint": 1793360077,
-   "counter_issued": 108963,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T04:23:39.663Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390826,
+   "owner": "",
+   "owner_addr": "0:ab0e023ca802581f6c4c67239cae793e0890be364ff498f84113d96c942394e6",
+   "mint": 1793420490,
+   "counter_issued": 390826,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T04:26:42.121Z",
    "t": 1
   }
  ]
