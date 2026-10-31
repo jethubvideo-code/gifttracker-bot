@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T23:49:34.155Z",
- "updated_unix": 1793490574,
- "runs": 14344,
+ "updated": "2026-10-31T23:54:35.210Z",
+ "updated_unix": 1793490875,
+ "runs": 14345,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 111006,
- "sent_total": 3567057,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 111007,
+ "sent_total": 3567135,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23099,
-   "owner": "",
-   "owner_addr": "0:d6f01429a0d7193ab5e348625a88f4aa6f5ebbc3cd6611bbb9ea206edecb81e2",
-   "mint": 1793479350,
-   "counter_issued": 23099,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T22:03:23.577Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T23:49:32.165Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133905,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133905,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T23:54:30.974Z",
    "t": 1
   }
  ]
