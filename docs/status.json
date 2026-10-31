@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T13:37:07.480Z",
- "updated_unix": 1793453827,
- "runs": 14239,
+ "updated": "2026-10-31T13:42:43.457Z",
+ "updated_unix": 1793454163,
+ "runs": 14240,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109999,
- "sent_total": 3490353,
+ "detected_total": 110000,
+ "sent_total": 3490432,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228522,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228522,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:00:26.572Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:17:40.849Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:17:40.849Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:17:40.849Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:36:35.472Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442196,
+   "owner": "",
+   "owner_addr": "0:1838b063d2eefa045b4ba635967f1d65e64530c0fdbf4c5b22f7a43037cc79ce",
+   "mint": 1793453499,
+   "counter_issued": 442196,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T13:42:41.441Z",
    "t": 1
   }
  ]
