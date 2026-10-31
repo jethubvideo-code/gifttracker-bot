@@ -1,56 +1,13 @@
 {
- "updated": "2026-10-31T17:51:00.223Z",
- "updated_unix": 1793469060,
- "runs": 14289,
+ "updated": "2026-10-31T17:55:09.498Z",
+ "updated_unix": 1793469309,
+ "runs": 14290,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 110489,
- "sent_total": 3526732,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 110492,
+ "sent_total": 3526966,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 390901,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793465369,
-   "counter_issued": 390901,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T17:16:21.477Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442233,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442233,
-   "counter_total": 490553,
-   "img": "https://cdn4.telesco.pe/file/tWMxVPfoGoy7ytrM7RnIL_4vBpSxjoPWyS-sN0jXSzliAWLYAmDUSJVIBBzRN4o-MUd-KilJc9VLSlcNjogOBB8bi4Ykgk-Y-v7Dz4oen9gWrB0n4fCkNyMFr716OrkTRK7kVRn04lKCAIOOmBlwv5BuBo_wTLatkIoXG_RNI-GMZWpkaDXwzNVTedhk2V_dtSL5S47mRszgXa3d2RLFCeOoI65PBiE5ucjzTNsJs-ye_3lFL8l18AEzvCfBs-p2BDGMbjoYrqUChUYs_At3NQ-q8DmxIapr-puG4sD1GvC4vDW-bwOA8PnAjx9-ZakJ4GzLsgi6cXTGpdxqKQyt5A.jpg",
-   "sent": 0,
-   "time": "2026-10-31T17:18:22.260Z",
-   "t": 1,
-   "u": 1
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442234,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442234,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T17:18:22.260Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -385,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T17:47:53.610Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -399,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T17:47:53.610Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -413,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T17:47:53.610Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -427,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T17:50:57.288Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23094,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23094,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T17:55:00.386Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23095,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23095,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T17:55:00.386Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23096,
+   "owner": "tagirdictator.ton",
+   "owner_addr": "0:d2ee6fba02c7c4407e24465bf183a4ee913d0abe682e588ad896284adb98ddef",
+   "mint": 1793448496,
+   "counter_issued": 23096,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T17:55:00.386Z",
    "t": 1
   }
  ]
