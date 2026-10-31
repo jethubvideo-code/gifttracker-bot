@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T21:19:04.938Z",
- "updated_unix": 1793481544,
- "runs": 14321,
+ "updated": "2026-10-31T21:20:04.903Z",
+ "updated_unix": 1793481604,
+ "runs": 14322,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110960,
- "sent_total": 3563469,
+ "detected_total": 110962,
+ "sent_total": 3563625,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228579,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228579,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228580,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228580,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:18:58.991Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:18:58.991Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:18:58.991Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90466,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90466,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:19:58.971Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90467,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90467,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:19:58.971Z",
    "t": 1
   }
  ]
