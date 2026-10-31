@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T11:50:56.090Z",
- "updated_unix": 1793447456,
- "runs": 14219,
+ "updated": "2026-10-31T11:52:57.033Z",
+ "updated_unix": 1793447577,
+ "runs": 14220,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 109566,
- "sent_total": 3456681,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 109567,
+ "sent_total": 3456760,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133825,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133825,
-   "counter_total": 181231,
-   "img": "https://cdn4.telesco.pe/file/dabLiXZIQrzIBTd7uD0KbkLVgNTd4jCzDthmCufCUG3kq0Xbk5ePI2UR_p0dl_wdGRXwlUCd1JjSTaujTz6ClisqgDREzDIy4YwaP9cu5TJtGqmPVraziNstwk0uESnzxu5JUNFeoGvO1RJ2fUcLTklO0c4cAbhl268avNm3icQUkyiKbnICcGSuDVm06XvbCKWkfLqRDNJZB05adLnKX63RsuIvQJdd6H2zTGRHjaG3_8awEwlOZix5wM1BBSqwfGoGjh2riI9sXc1vOoMYW5eqSDXEuZjUqDS4alqt5FoSA_H7oERn74SauXsa4eogIFgpqbhHOIv5CUCwsyyGQA.jpg",
-   "sent": 0,
-   "time": "2026-10-31T10:44:54.719Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T11:30:32.187Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T11:50:44.868Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T11:50:44.868Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133838,
+   "owner": "gena1488.ton",
+   "owner_addr": "0:34805623eb79ad7417cfc77fd7fd3e6ef436a6030a4584ccda543ebc18a7b6b1",
+   "mint": 1793446356,
+   "counter_issued": 133838,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T11:52:52.185Z",
    "t": 1
   }
  ]
