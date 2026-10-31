@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T18:57:33.200Z",
- "updated_unix": 1793473053,
- "runs": 14301,
+ "updated": "2026-10-31T19:02:39.113Z",
+ "updated_unix": 1793473359,
+ "runs": 14302,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110655,
- "sent_total": 3539679,
+ "detected_total": 110657,
+ "sent_total": 3539835,
  "last_upgrades": [
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118094,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118094,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:23:56.835Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390909,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390909,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:26:39.396Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:57:30.885Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13005,
+   "owner": "",
+   "owner_addr": "0:67fb6feef52085d62d08080c127dafac2f9e7f23ca5cf766bf35a1ac77f7c5a4",
+   "mint": 1793467788,
+   "counter_issued": 13005,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T19:02:31.795Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23097,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23097,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T19:02:35.745Z",
    "t": 1
   }
  ]
