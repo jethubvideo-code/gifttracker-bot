@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T13:08:38.796Z",
- "updated_unix": 1793452118,
- "runs": 14234,
+ "updated": "2026-10-31T13:11:46.278Z",
+ "updated_unix": 1793452306,
+ "runs": 14235,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 109991,
- "sent_total": 3489785,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 109992,
+ "sent_total": 3489864,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228514,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228514,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:00:26.572Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:08:27.847Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:08:31.627Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:08:31.627Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390879,
+   "owner": "",
+   "owner_addr": "0:8639bbd113b421fc693a657cd54600a0a44e26510f1fcdb6dfee4126cfcdc283",
+   "mint": 1793451890,
+   "counter_issued": 390879,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T13:11:43.604Z",
    "t": 1
   }
  ]

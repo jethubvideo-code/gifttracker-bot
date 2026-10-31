@@ -1,8 +1,15 @@
 {
- "updated": "2026-10-31T13:08:38.796Z",
- "updated_unix": 1793452118,
- "count": 4,
+ "updated": "2026-10-31T13:11:46.278Z",
+ "updated_unix": 1793452306,
+ "count": 5,
  "gifts": [
+  {
+   "slug": "algorithmcup",
+   "name": "algorithmcup",
+   "issued": 169,
+   "total": 188,
+   "added": 0
+  },
   {
    "slug": "HolidayDrink",
    "name": "HolidayDrink",
@@ -11,10 +18,17 @@
    "added": 0
   },
   {
-   "slug": "LibertyFigure",
-   "name": "LibertyFigure",
-   "issued": 269063,
-   "total": 295480,
+   "slug": "InstantRamen",
+   "name": "InstantRamen",
+   "issued": 390879,
+   "total": 457382,
+   "added": 0
+  },
+  {
+   "slug": "intelligencecup",
+   "name": "intelligencecup",
+   "issued": 138,
+   "total": 220,
    "added": 0
   },
   {
@@ -22,13 +36,6 @@
    "name": "MightyArm",
    "issued": 3834,
    "total": 4123,
-   "added": 0
-  },
-  {
-   "slug": "ViceCream",
-   "name": "ViceCream",
-   "issued": 442195,
-   "total": 490553,
    "added": 0
   }
  ]
