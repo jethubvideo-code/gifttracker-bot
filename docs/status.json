@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-31T15:30:03.319Z",
- "updated_unix": 1793460603,
- "runs": 14265,
+ "updated": "2026-10-31T15:34:21.988Z",
+ "updated_unix": 1793460861,
+ "runs": 14266,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110063,
- "sent_total": 3494444,
+ "detected_total": 110067,
+ "sent_total": 3494760,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269075,
-   "owner": "",
-   "owner_addr": "0:84f993866b1f488f4a177f81837dae86656d7cd8a15eadb3b8409c4626003071",
-   "mint": 1793455456,
-   "counter_issued": 269075,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T14:20:23.112Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390890,
-   "owner": "crazywallet.ton",
-   "owner_addr": "0:2d6ce72cf895e12214804e1b5bc8f2d9229b8b4155f942624054fc14441633ac",
-   "mint": 1793456151,
-   "counter_issued": 390890,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T14:21:28.176Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269076,
-   "owner": "",
-   "owner_addr": "0:31663d1003a8a68b4a45945caabcf2992c13cd12d01bee4dee714cd5827fbb05",
-   "mint": 1793456573,
-   "counter_issued": 269076,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T14:23:30.363Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390891,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390891,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T14:25:33.415Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T15:29:42.660Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T15:29:42.660Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T15:29:42.660Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133860,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133860,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T15:33:58.550Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133861,
+   "owner": "",
+   "owner_addr": "0:93bc5d762d36329f1e47200cdd8e035ab21b25ee451349182e604668e68aa52f",
+   "mint": 1793458950,
+   "counter_issued": 133861,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T15:33:58.550Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133862,
+   "owner": "",
+   "owner_addr": "0:7e3662cee5ea7d50b9c41bbf8371f0dfca5300184f2e15e72dee6bb5c5aef3d4",
+   "mint": 1793458987,
+   "counter_issued": 133862,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T15:33:58.550Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133863,
+   "owner": "",
+   "owner_addr": "0:288a1976a522de08328081a54928b49a75adbe21448491be96e05b3bdd031290",
+   "mint": 1793459621,
+   "counter_issued": 133863,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T15:33:58.550Z",
    "t": 1
   }
  ]
