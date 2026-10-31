@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T07:54:53.399Z",
- "updated_unix": 1793433293,
- "runs": 14174,
+ "updated": "2026-10-31T07:58:39.519Z",
+ "updated_unix": 1793433519,
+ "runs": 14175,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109342,
- "sent_total": 3440352,
+ "detected_total": 109344,
+ "sent_total": 3440510,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55582,
-   "owner": "",
-   "owner_addr": "0:fa378e9ddf97bdee83a3dc58005735bab5076c7de20439565a531611128c58fe",
-   "mint": 1793392205,
-   "counter_issued": 55582,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T07:24:52.688Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55583,
-   "owner": "",
-   "owner_addr": "0:a577b3cd724e683e0bd587937c0dc1f687030f1bd2b1ea08f2771dffd1277af0",
-   "mint": 1793404234,
-   "counter_issued": 55583,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T07:24:52.688Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T07:54:18.113Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T07:54:26.839Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90428,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90428,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T07:58:24.792Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90429,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90429,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T07:58:24.792Z",
    "t": 1
   }
  ]
