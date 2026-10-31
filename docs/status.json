@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-31T21:01:18.078Z",
- "updated_unix": 1793480478,
- "runs": 14319,
+ "updated": "2026-10-31T21:16:06.706Z",
+ "updated_unix": 1793481366,
+ "runs": 14320,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110953,
- "sent_total": 3562923,
+ "detected_total": 110957,
+ "sent_total": 3563235,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228572,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228572,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228573,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228573,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228574,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228574,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228575,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228575,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T20:56:44.570Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:01:08.534Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:01:12.263Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:01:12.263Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:01:12.263Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269171,
+   "owner": "",
+   "owner_addr": "0:c965322aff88e26b754b28bfe2108bd98a6ea35100a64a161d9fbbd0ae543046",
+   "mint": 1793480928,
+   "counter_issued": 269171,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:15:56.146Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390928,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390928,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:16:00.751Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390929,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390929,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:16:00.751Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390930,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390930,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:16:00.751Z",
    "t": 1
   }
  ]
