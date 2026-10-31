@@ -1,41 +1,13 @@
 {
- "updated": "2026-10-31T18:35:09.289Z",
- "updated_unix": 1793471709,
- "runs": 14299,
+ "updated": "2026-10-31T18:36:11.011Z",
+ "updated_unix": 1793471771,
+ "runs": 14300,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110652,
- "sent_total": 3539445,
+ "detected_total": 110654,
+ "sent_total": 3539601,
  "last_upgrades": [
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118091,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118091,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:23:56.835Z",
-   "t": 3
-  },
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118092,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118092,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T18:23:56.835Z",
-   "t": 3
-  },
   {
    "slug": "JollyChimp",
    "gift": "JollyChimp",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:34:57.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:34:57.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:34:57.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:34:57.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:34:57.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T18:34:57.056Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390912,
+   "owner": "",
+   "owner_addr": "0:4475bc821de6df59b3feda15eb084434884e99b3ff5c11ee9556cb10c802f8ab",
+   "mint": 1793471643,
+   "counter_issued": 390912,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T18:36:04.505Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442248,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442248,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T18:36:09.086Z",
    "t": 1
   }
  ]
