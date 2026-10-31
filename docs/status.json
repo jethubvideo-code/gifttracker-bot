@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T14:58:58.054Z",
- "updated_unix": 1793458738,
- "runs": 14258,
+ "updated": "2026-10-31T15:02:58.428Z",
+ "updated_unix": 1793458978,
+ "runs": 14259,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 110046,
- "sent_total": 3493421,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 110047,
+ "sent_total": 3493500,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 390886,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 390886,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:56:08.995Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:58:53.274Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390892,
+   "owner": "sperminator.ton",
+   "owner_addr": "0:fd6025bfa89777deedd5ad423477fc369760e1986bc7724359edb04a1389e449",
+   "mint": 1793458389,
+   "counter_issued": 390892,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T15:02:53.816Z",
    "t": 1
   }
  ]
