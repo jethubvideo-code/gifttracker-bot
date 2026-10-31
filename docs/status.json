@@ -1,83 +1,13 @@
 {
- "updated": "2026-10-31T05:36:27.913Z",
- "updated_unix": 1793424987,
- "runs": 14143,
+ "updated": "2026-10-31T05:37:36.654Z",
+ "updated_unix": 1793425056,
+ "runs": 14144,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 109176,
- "sent_total": 3429442,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 109181,
+ "sent_total": 3429837,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108973,
-   "owner": "",
-   "owner_addr": "0:675b7130ed80473b40601ca8c48e62b8b127b23b2ef7fae1f1f6d11fc5c3ce2d",
-   "mint": 1793400052,
-   "counter_issued": 108973,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108974,
-   "owner": "",
-   "owner_addr": "0:675b7130ed80473b40601ca8c48e62b8b127b23b2ef7fae1f1f6d11fc5c3ce2d",
-   "mint": 1793400103,
-   "counter_issued": 108974,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108975,
-   "owner": "",
-   "owner_addr": "0:2506b69dd11637d06a620dace723fe8520f1a7e4ab44c1bbb6a3e7956e09446a",
-   "mint": 1793401815,
-   "counter_issued": 108975,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108976,
-   "owner": "",
-   "owner_addr": "0:a577b3cd724e683e0bd587937c0dc1f687030f1bd2b1ea08f2771dffd1277af0",
-   "mint": 1793404673,
-   "counter_issued": 108976,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108977,
-   "owner": "",
-   "owner_addr": "0:2b24953360746a93f379e470fcf87c1e0fada718a0fb26a805239c42ab859344",
-   "mint": 1793405157,
-   "counter_issued": 108977,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:36:05.998Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:36:05.998Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:36:17.227Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:36:24.817Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133795,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133795,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:37:20.029Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133796,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133796,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:37:20.029Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133797,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133797,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:37:20.029Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133798,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133798,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:37:20.029Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133799,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133799,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:37:20.029Z",
    "t": 1
   }
  ]
