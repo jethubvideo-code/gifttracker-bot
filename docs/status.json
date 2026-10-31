@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T21:31:11.019Z",
- "updated_unix": 1793482271,
- "runs": 14325,
+ "updated": "2026-10-31T21:35:09.267Z",
+ "updated_unix": 1793482509,
+ "runs": 14326,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 110967,
- "sent_total": 3564015,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 110968,
+ "sent_total": 3564093,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103559,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103559,
-   "counter_total": 120184,
-   "img": "https://cdn4.telesco.pe/file/HzVxnib9x4EJWa2jNWFytaxdARkjAy3v8wGtbo2wyMGBvNZRN5Fh0uaoTiMv61yK3T7uQtF-XeZntB8SvqtDrjIEr2hf24OPrziHr2RbhnipFXNUItsP_AMuvHq84nyHexf4QFKzC6Z2h_lC4z6jliebmw4zWf_8ZJWPikxgsICCLL7hu1KYGj_G4L6SqtvxHQurfuRdej2NlU8AVkuU5XujhFofdBSK2FPKgI2sLAbLm4-qcSb4LFYJpDE9dm9ZTrsu5xq0ez7rSeF5TNSMzjoPHTpjqGTBPELKjSyqd9cJKBQnJuz7FDzy9gLJ439B86O-om7RXY3U7SyINNxUUw.jpg",
-   "sent": 0,
-   "time": "2026-10-31T20:56:48.832Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:31:02.287Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:31:02.287Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T21:31:09.249Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390932,
+   "owner": "",
+   "owner_addr": "0:dacbfeff2c2976fa7665e6ec8a4b4a5cedde49119dbe87eee222123295d42f51",
+   "mint": 1793481694,
+   "counter_issued": 390932,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T21:35:06.993Z",
    "t": 1
   }
  ]
