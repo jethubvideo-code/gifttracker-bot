@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T08:37:10.397Z",
- "updated_unix": 1793435830,
- "runs": 14181,
+ "updated": "2026-10-31T08:38:04.710Z",
+ "updated_unix": 1793435884,
+ "runs": 14182,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 109365,
- "sent_total": 3442169,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 109366,
+ "sent_total": 3442248,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 442156,
-   "owner": "",
-   "owner_addr": "0:090e4ae1147b831a6040b0772fb7318fd7d11aa88d26e5f2ce5a2ed0bd85a181",
-   "mint": 1793432747,
-   "counter_issued": 442156,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T07:51:58.351Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T08:36:56.614Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SleighBell",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T08:37:01.651Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SleighBell",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T08:37:01.651Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T08:37:01.651Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442160,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442160,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T08:38:02.216Z",
    "t": 1
   }
  ]
