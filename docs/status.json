@@ -1,55 +1,13 @@
 {
- "updated": "2026-10-31T13:15:45.248Z",
- "updated_unix": 1793452545,
- "runs": 14237,
+ "updated": "2026-10-31T13:17:46.767Z",
+ "updated_unix": 1793452666,
+ "runs": 14238,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 109995,
- "sent_total": 3490101,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 109998,
+ "sent_total": 3490338,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228518,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228518,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:00:26.572Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228519,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228519,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:00:26.572Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228520,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228520,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:00:26.572Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:15:41.011Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T13:15:41.011Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390880,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390880,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T13:17:40.849Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390881,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390881,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T13:17:40.849Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390882,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390882,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T13:17:40.849Z",
    "t": 1
   }
  ]
