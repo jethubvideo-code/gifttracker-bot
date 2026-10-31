@@ -1,69 +1,13 @@
 {
- "updated": "2026-10-31T05:33:10.328Z",
- "updated_unix": 1793424790,
- "runs": 14142,
+ "updated": "2026-10-31T05:36:27.913Z",
+ "updated_unix": 1793424987,
+ "runs": 14143,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 109172,
- "sent_total": 3429126,
+ "detected_total": 109176,
+ "sent_total": 3429442,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108969,
-   "owner": "",
-   "owner_addr": "0:779f5ce96abd4c08ca503c33ec9364859b47ea35328f6a34d5178c6e356c39cb",
-   "mint": 1793384609,
-   "counter_issued": 108969,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108970,
-   "owner": "",
-   "owner_addr": "0:b96b29757a2479becf2b88359e47145dcce15883b9ad26caa148f52cf372ff4b",
-   "mint": 1793388832,
-   "counter_issued": 108970,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108971,
-   "owner": "",
-   "owner_addr": "0:0aef811f9bf8c70be605e428be31ddc7686b5f8f2a276c069f4f6aedbadc5b45",
-   "mint": 1793389808,
-   "counter_issued": 108971,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 108972,
-   "owner": "",
-   "owner_addr": "0:0bbf70325bb11db6e2e4f8ba77b38645392db4d491574f6419395d48742d475b",
-   "mint": 1793394659,
-   "counter_issued": 108972,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/p3IZS90I6UUyJN0W91Ieyo2dOnGz-bOiJ_grDhHR08qbpKrjZ7xLBmRRKGDO-hz631LmCuInW2U3KndqddeM5ox8FB1BjzHcKUJ-pwNhc6giniq1kAfxXLZKSnYYgx8OK75kJ2nMkHISAk0o_aDsu5bW3Tb1LbzM-hpjRud90JAV5gBT0NpKev5yFzt_10a9pqdKdMnh91qq6FVFp041h_lqcVoR9Mh87AW1YDriys1Weq11bPcYRV_dwVtfWZBYsOfzzU5Yr_v1k6B8Y5TFWbgpR0Wa5wa6_wZyHD81Bs10Whpgew7qRmyaHnpbdtTjCQiT98pa_dLwzTyZGdcPDg.jpg",
-   "sent": 0,
-   "time": "2026-10-31T03:50:51.986Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:32:59.120Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:32:59.120Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T05:32:59.120Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390827,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390827,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:36:05.998Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 390828,
+   "owner": "",
+   "owner_addr": "0:3662828fb8eb49979d2e322e9eb66f31cbb97c9f4a1b709a297b24ad41983507",
+   "mint": 1793421200,
+   "counter_issued": 390828,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:36:05.998Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 268962,
+   "owner": "",
+   "owner_addr": "0:e020d88ef3317e3af0dc6ebe25e45a9e83de7ba6fbab964b71dc9eba3fdb4fa2",
+   "mint": 1793424164,
+   "counter_issued": 268962,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:36:17.227Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108553,
+   "owner": "",
+   "owner_addr": "0:e020d88ef3317e3af0dc6ebe25e45a9e83de7ba6fbab964b71dc9eba3fdb4fa2",
+   "mint": 1793423902,
+   "counter_issued": 108553,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T05:36:24.817Z",
    "t": 1
   }
  ]
