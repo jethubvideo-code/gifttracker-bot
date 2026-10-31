@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-31T14:20:55.231Z",
- "updated_unix": 1793456455,
- "runs": 14250,
+ "updated": "2026-10-31T14:21:33.024Z",
+ "updated_unix": 1793456493,
+ "runs": 14251,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 110034,
- "sent_total": 3492601,
+ "detected_total": 110035,
+ "sent_total": 3492680,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 133851,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 133851,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-10-31T13:45:37.818Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-10-31T14:20:23.112Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390890,
+   "owner": "crazywallet.ton",
+   "owner_addr": "0:2d6ce72cf895e12214804e1b5bc8f2d9229b8b4155f942624054fc14441633ac",
+   "mint": 1793456151,
+   "counter_issued": 390890,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-10-31T14:21:28.176Z",
    "t": 1
   }
  ]
