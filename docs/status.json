@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T20:15:21.430Z",
- "updated_unix": 1793564121,
- "runs": 14531,
+ "updated": "2026-11-01T20:18:20.538Z",
+ "updated_unix": 1793564300,
+ "runs": 14532,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112758,
- "sent_total": 3700846,
+ "detected_total": 112760,
+ "sent_total": 3700998,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391009,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391009,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:04:48.613Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108621,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108621,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:04:52.011Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T19:56:52.346Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:15:08.448Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:15:08.448Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:15:08.448Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:15:19.131Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391021,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391021,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:18:14.598Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90508,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90508,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:18:18.980Z",
    "t": 1
   }
  ]
