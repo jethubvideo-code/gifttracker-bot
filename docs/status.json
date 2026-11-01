@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T04:21:05.911Z",
- "updated_unix": 1793506865,
- "runs": 14362,
+ "updated": "2026-11-01T04:25:04.233Z",
+ "updated_unix": 1793507104,
+ "runs": 14363,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111253,
- "sent_total": 3586323,
+ "detected_total": 111254,
+ "sent_total": 3586401,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78318,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78318,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T03:57:36.817Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T04:20:54.720Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T04:21:02.233Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T04:21:02.233Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232325,
+   "owner": "",
+   "owner_addr": "0:c90486778ecd148e2c55c5753cade3e4a40d2e801b75edfa9efd3c356aafd288",
+   "mint": 1793499121,
+   "counter_issued": 232325,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T04:25:00.574Z",
    "t": 1
   }
  ]
