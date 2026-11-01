@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T18:44:43.910Z",
- "updated_unix": 1793558683,
- "runs": 14514,
+ "updated": "2026-11-01T18:47:43.854Z",
+ "updated_unix": 1793558863,
+ "runs": 14515,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112715,
- "sent_total": 3697578,
+ "detected_total": 112716,
+ "sent_total": 3697654,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391003,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391003,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T18:34:15.308Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T18:44:42.107Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133969,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133969,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T18:47:42.042Z",
    "t": 1
   }
  ]
