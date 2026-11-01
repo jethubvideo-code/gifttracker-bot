@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T11:33:17.700Z",
- "updated_unix": 1793532797,
- "runs": 14425,
+ "updated": "2026-11-01T11:34:15.569Z",
+ "updated_unix": 1793532855,
+ "runs": 14426,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 111802,
- "sent_total": 3628194,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 111804,
+ "sent_total": 3628346,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52465,
-   "owner": "",
-   "owner_addr": "0:183b5e9dfaddd5373c03cb368dfc0dc9633f71eead757bb4a51e70abaa8d98cb",
-   "mint": 1793446251,
-   "counter_issued": 52465,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T11:29:07.785Z",
-   "t": 2
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52466,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793449560,
-   "counter_issued": 52466,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T11:29:07.785Z",
-   "t": 2
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T11:29:07.785Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T11:29:07.785Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T11:33:13.910Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T11:33:13.910Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390964,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390964,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T11:34:11.730Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390965,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390965,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T11:34:11.730Z",
    "t": 1
   }
  ]
