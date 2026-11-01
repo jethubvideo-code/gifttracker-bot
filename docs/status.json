@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T05:37:31.425Z",
- "updated_unix": 1793511451,
- "runs": 14367,
+ "updated": "2026-11-01T05:39:31.232Z",
+ "updated_unix": 1793511571,
+ "runs": 14368,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 111258,
- "sent_total": 3586713,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 111259,
+ "sent_total": 3586791,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78323,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78323,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T05:37:29.827Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269183,
+   "owner": "",
+   "owner_addr": "0:c10afef8d1787e833a9b1c95b5f7c8942973d4eb57c9b144c97d479d57843602",
+   "mint": 1793510863,
+   "counter_issued": 269183,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T05:39:29.737Z",
    "t": 1
   }
  ]
