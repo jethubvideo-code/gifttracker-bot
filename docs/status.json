@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-01T23:13:40.190Z",
- "updated_unix": 1793574820,
- "runs": 14564,
+ "updated": "2026-11-01T23:14:47.374Z",
+ "updated_unix": 1793574887,
+ "runs": 14565,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112843,
- "sent_total": 3707306,
+ "detected_total": 112846,
+ "sent_total": 3707534,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 442996,
-   "owner": "",
-   "owner_addr": "0:3a012f738800439bb66322e3eda91a2ef8424da6d45dc272d916b485579dc8bd",
-   "mint": 1793569641,
-   "counter_issued": 442996,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T22:01:02.210Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442997,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442997,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T22:03:05.855Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442998,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442998,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T22:03:05.855Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:13:36.472Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:13:36.472Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23107,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23107,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T23:14:36.009Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23108,
+   "owner": "",
+   "owner_addr": "0:b9db1044b74a3037d59c92d81f8b0789fba0deacbc27f04ae5e1ead2d52fcc07",
+   "mint": 1793572410,
+   "counter_issued": 23108,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T23:14:36.009Z",
+   "t": 1
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22079,
+   "owner": "missmuar.ton",
+   "owner_addr": "0:da747ca5837b730eb11fd358c3540d96b74dced6f1b6b90e4c2ad51439656067",
+   "mint": 1793569067,
+   "counter_issued": 22079,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T23:14:45.683Z",
    "t": 1
   }
  ]
