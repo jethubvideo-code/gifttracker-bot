@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T15:50:03.359Z",
- "updated_unix": 1793548203,
- "runs": 14481,
+ "updated": "2026-11-01T15:52:01.548Z",
+ "updated_unix": 1793548321,
+ "runs": 14482,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112545,
- "sent_total": 3684659,
+ "detected_total": 112547,
+ "sent_total": 3684811,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90500,
-   "owner": "",
-   "owner_addr": "0:5ff4f61d2cc429e72815103b2b14c45e9dd932a77f26409aaf4a4fe39e188a0c",
-   "mint": 1793546796,
-   "counter_issued": 90500,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T15:32:34.100Z",
-   "t": 3
-  },
-  {
-   "slug": "GenieLamp",
-   "gift": "Genie Lamp",
-   "number": 6608,
-   "owner": "kokosnos.t.me",
-   "owner_addr": "0:3432b1ad4d4ab1df8823a6f77c503eaab564425fa515ea0c403aae9fe48c93be",
-   "mint": 1793546188,
-   "counter_issued": 6608,
-   "counter_total": 7666,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T15:34:33.281Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:49:50.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:49:50.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:49:50.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:49:50.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:49:50.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:50:01.832Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442937,
+   "owner": "",
+   "owner_addr": "0:e34cdc4431dca1272ba631fb990d91b04e3c3d45e3cdd93af610b3899d0d7be1",
+   "mint": 1793545996,
+   "counter_issued": 442937,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T15:51:57.886Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442938,
+   "owner": "deltagambling.ton",
+   "owner_addr": "0:c8acefa1cb80b2585011be656fd1123555399c8f7a7d3f2a49f1a87408020860",
+   "mint": 1793546120,
+   "counter_issued": 442938,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T15:51:57.886Z",
    "t": 1
   }
  ]
