@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T20:31:23.411Z",
- "updated_unix": 1793565083,
- "runs": 14535,
+ "updated": "2026-11-01T20:34:21.002Z",
+ "updated_unix": 1793565261,
+ "runs": 14536,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112765,
- "sent_total": 3701378,
+ "detected_total": 112766,
+ "sent_total": 3701454,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391013,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391013,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:19:28.094Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "Skull Flower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:31:21.511Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391023,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391023,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:34:18.968Z",
    "t": 1
   }
  ]
