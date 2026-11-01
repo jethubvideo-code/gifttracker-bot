@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T14:41:16.335Z",
- "updated_unix": 1793544076,
- "runs": 14470,
+ "updated": "2026-11-01T15:10:19.422Z",
+ "updated_unix": 1793545819,
+ "runs": 14471,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112496,
- "sent_total": 3680936,
+ "detected_total": 112497,
+ "sent_total": 3681012,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84407,
-   "owner": "",
-   "owner_addr": "0:b64e3f31d4f7298ced97c97bbc3dd452881d841115a9059cade966454ff9d16a",
-   "mint": 1793534231,
-   "counter_issued": 84407,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T14:32:16.536Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T14:41:14.945Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 442936,
+   "owner": "",
+   "owner_addr": "0:f1a4f528994229dd964427ceb6550ee98cbb64c918e7bca5699112b1b90aa652",
+   "mint": 1793544612,
+   "counter_issued": 442936,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T15:10:17.511Z",
    "t": 1
   }
  ]
