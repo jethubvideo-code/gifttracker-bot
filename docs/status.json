@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T05:41:38.286Z",
- "updated_unix": 1793511698,
- "runs": 14369,
+ "updated": "2026-11-01T06:08:29.664Z",
+ "updated_unix": 1793513309,
+ "runs": 14370,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111262,
- "sent_total": 3587025,
+ "detected_total": 111263,
+ "sent_total": 3587103,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78327,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78327,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T05:41:32.620Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T05:41:32.620Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T05:41:32.620Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 13007,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 13007,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T06:08:27.489Z",
    "t": 1
   }
  ]
