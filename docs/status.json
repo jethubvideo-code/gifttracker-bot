@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T16:25:14.418Z",
- "updated_unix": 1793550314,
- "runs": 14490,
+ "updated": "2026-11-01T16:43:14.246Z",
+ "updated_unix": 1793551394,
+ "runs": 14491,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112576,
- "sent_total": 3687015,
+ "detected_total": 112578,
+ "sent_total": 3687167,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 442938,
-   "owner": "deltagambling.ton",
-   "owner_addr": "0:c8acefa1cb80b2585011be656fd1123555399c8f7a7d3f2a49f1a87408020860",
-   "mint": 1793546120,
-   "counter_issued": 442938,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T15:51:57.886Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108614,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108614,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T16:07:51.245Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T16:25:12.339Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390993,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390993,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T16:43:10.621Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390994,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390994,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T16:43:10.621Z",
    "t": 1
   }
  ]
