@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T16:08:54.465Z",
- "updated_unix": 1793549334,
- "runs": 14484,
+ "updated": "2026-11-01T16:12:54.203Z",
+ "updated_unix": 1793549574,
+ "runs": 14485,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112550,
- "sent_total": 3685039,
+ "detected_total": 112551,
+ "sent_total": 3685115,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32851,
-   "owner": "",
-   "owner_addr": "0:197b46c57ce26125a75492dd20d98fdcb2d2ae94558216bbf29ba68f248d485b",
-   "mint": 1793531566,
-   "counter_issued": 32851,
-   "counter_total": 39464,
-   "img": "https://cdn4.telesco.pe/file/TCRfpxNT_2PhVXovS4_dKr9k4cD-ZBMnk9lL8e3W7ZBMoKeVjfRZ9g6mwTJAeGUEVQ3S_J4h4UMMdRB6bH5ob4qrnX-qQeotv-2ve8fpaKptNFL7gGsStrvs2RXf_sf8cAAMYZHuGw98JVZF7hQIZTAPcLoIbV4q4xp8Oj3Xs9Mq6TIC5JjbBJ3Ev0GpsQYRxU2LCWGJt6S4hL7wXCwrkNPtnfB-5qxpH7uJVYDz5g407njwvUNAENNH5ktJdf7cjf-AKoX0QvQOHr6370wD-Je4kZC77KECqiwyKVI79nkCYFV9crJbohM16sIZl-0bs1zdMBs4qlcQclarOiQMgw.jpg",
-   "sent": 0,
-   "time": "2026-11-01T15:45:50.216Z",
-   "u": 1
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T16:08:52.566Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442940,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442940,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T16:12:51.984Z",
    "t": 1
   }
  ]
