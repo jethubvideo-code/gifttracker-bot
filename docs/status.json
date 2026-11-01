@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-01T03:57:38.981Z",
- "updated_unix": 1793505458,
- "runs": 14361,
+ "updated": "2026-11-01T04:21:05.911Z",
+ "updated_unix": 1793506865,
+ "runs": 14362,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 111250,
- "sent_total": 3586089,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 111253,
+ "sent_total": 3586323,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78315,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78315,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78316,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78316,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78317,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78317,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T03:46:35.067Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T03:57:36.817Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90472,
+   "owner": "",
+   "owner_addr": "0:0e477442bf13a0e34491be37ba55b651025d0d4f951083b19c988421faed9dfe",
+   "mint": 1793502069,
+   "counter_issued": 90472,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T04:20:54.720Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133906,
+   "owner": "",
+   "owner_addr": "0:0e477442bf13a0e34491be37ba55b651025d0d4f951083b19c988421faed9dfe",
+   "mint": 1793504268,
+   "counter_issued": 133906,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T04:21:02.233Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133907,
+   "owner": "",
+   "owner_addr": "0:0e477442bf13a0e34491be37ba55b651025d0d4f951083b19c988421faed9dfe",
+   "mint": 1793504278,
+   "counter_issued": 133907,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T04:21:02.233Z",
    "t": 1
   }
  ]
