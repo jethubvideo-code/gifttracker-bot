@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T15:32:36.284Z",
- "updated_unix": 1793547156,
- "runs": 14476,
+ "updated": "2026-11-01T15:34:34.719Z",
+ "updated_unix": 1793547274,
+ "runs": 14477,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112516,
- "sent_total": 3682455,
+ "detected_total": 112517,
+ "sent_total": 3682531,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269304,
-   "owner": "",
-   "owner_addr": "0:1f0e6767974390bbfc3a35a84bfc1129345ada39c88c80a32768e4d9115acd24",
-   "mint": 1793543609,
-   "counter_issued": 269304,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T14:34:23.562Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:15:28.281Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T15:32:34.100Z",
+   "t": 3
+  },
+  {
+   "slug": "GenieLamp",
+   "gift": "Genie Lamp",
+   "number": 6608,
+   "owner": "kokosnos.t.me",
+   "owner_addr": "0:3432b1ad4d4ab1df8823a6f77c503eaab564425fa515ea0c403aae9fe48c93be",
+   "mint": 1793546188,
+   "counter_issued": 6608,
+   "counter_total": 7666,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T15:34:33.281Z",
    "t": 1
   }
  ]
