@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T10:18:53.194Z",
- "updated_unix": 1793528333,
- "runs": 14410,
+ "updated": "2026-11-01T10:20:51.047Z",
+ "updated_unix": 1793528451,
+ "runs": 14411,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111617,
- "sent_total": 3614135,
+ "detected_total": 111618,
+ "sent_total": 3614211,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 89051,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 89051,
-   "counter_total": 99421,
-   "img": "https://cdn4.telesco.pe/file/Ix6q2PnZ31TJfC-gKL0D3RMgxcJg_qMTY4ECZbF8bPrlNIygqqwIwD4DBLq7lsRkVmQWJiQUyeX5NtAacrCpYN6dXOOxsFx0rdsSG1uMwOIF-MsLnrEw9EtVYIgx2XZuXxowCljL_CaGikdPQlMtnpKiOCBBatN3nikEwCxRRTOo7iCv7mbGCi9ppPqwkJwcCRKyUMHa_qlJnOfLZV5LrQBFtLzRW4uuym9i3XEpuYvN-FQmOzwarAyawkhrRqmGtTe5dGVGBtP2O6LHkN5gyzN8jxkRmnD2WX8Gkue6UNQKAyS2MNHuYY3DKRGQzetE7KkaXiUL_p-vt7W-Zmi9CQ.jpg",
-   "sent": 0,
-   "time": "2026-11-01T09:59:33.088Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T10:18:49.248Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15581,
+   "owner": "",
+   "owner_addr": "0:54c2ab8088293623da98fd2aaf42d4b7dafb8e9e0c1d5ada2bca8dde91c84392",
+   "mint": 1793515497,
+   "counter_issued": 15581,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T10:20:49.223Z",
    "t": 1
   }
  ]
