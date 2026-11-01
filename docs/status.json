@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T10:17:48.553Z",
- "updated_unix": 1793528268,
- "runs": 14409,
+ "updated": "2026-11-01T10:18:53.194Z",
+ "updated_unix": 1793528333,
+ "runs": 14410,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111616,
- "sent_total": 3614059,
+ "detected_total": 111617,
+ "sent_total": 3614135,
  "last_upgrades": [
-  {
-   "slug": "TimelessBook",
-   "gift": "TimelessBook",
-   "number": 89050,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 89050,
-   "counter_total": 99421,
-   "img": "https://cdn4.telesco.pe/file/Ix6q2PnZ31TJfC-gKL0D3RMgxcJg_qMTY4ECZbF8bPrlNIygqqwIwD4DBLq7lsRkVmQWJiQUyeX5NtAacrCpYN6dXOOxsFx0rdsSG1uMwOIF-MsLnrEw9EtVYIgx2XZuXxowCljL_CaGikdPQlMtnpKiOCBBatN3nikEwCxRRTOo7iCv7mbGCi9ppPqwkJwcCRKyUMHa_qlJnOfLZV5LrQBFtLzRW4uuym9i3XEpuYvN-FQmOzwarAyawkhrRqmGtTe5dGVGBtP2O6LHkN5gyzN8jxkRmnD2WX8Gkue6UNQKAyS2MNHuYY3DKRGQzetE7KkaXiUL_p-vt7W-Zmi9CQ.jpg",
-   "sent": 0,
-   "time": "2026-11-01T09:59:33.088Z",
-   "t": 3
-  },
   {
    "slug": "TimelessBook",
    "gift": "TimelessBook",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T10:17:46.571Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19814,
+   "owner": "",
+   "owner_addr": "0:b0aa7a0b861be4457ad49168e9f7803f5bd08b468e705d26d68203049b45500f",
+   "mint": 1793515517,
+   "counter_issued": 19814,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T10:18:49.248Z",
    "t": 1
   }
  ]
