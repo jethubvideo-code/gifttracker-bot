@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T06:10:31.773Z",
- "updated_unix": 1793513431,
- "runs": 14371,
+ "updated": "2026-11-01T06:11:32.202Z",
+ "updated_unix": 1793513492,
+ "runs": 14372,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111264,
- "sent_total": 3587181,
+ "detected_total": 111265,
+ "sent_total": 3587259,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78329,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78329,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T06:10:29.968Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15580,
+   "owner": "naarcos.t.me",
+   "owner_addr": "0:595c2bbf64b4e266df549d86ea145eb1cdd6ecd524c129f2b8e0dcb5859a235e",
+   "mint": 1793476239,
+   "counter_issued": 15580,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T06:11:30.311Z",
    "t": 1
   }
  ]
