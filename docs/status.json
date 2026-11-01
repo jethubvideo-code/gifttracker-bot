@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T19:19:31.838Z",
- "updated_unix": 1793560771,
- "runs": 14520,
+ "updated": "2026-11-01T19:22:38.094Z",
+ "updated_unix": 1793560958,
+ "runs": 14521,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112736,
- "sent_total": 3699174,
+ "detected_total": 112737,
+ "sent_total": 3699250,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269367,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269367,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T18:42:40.659Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T19:19:28.094Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T19:19:28.094Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22078,
+   "owner": "mecenatstore.t.me",
+   "owner_addr": "0:65308404528ddfa7a7478354b99a1283ec9a53df292ee33457b7a3d6e9159750",
+   "mint": 1793552327,
+   "counter_issued": 22078,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T19:22:36.026Z",
    "t": 1
   }
  ]
