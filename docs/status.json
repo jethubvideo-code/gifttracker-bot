@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T23:47:55.975Z",
- "updated_unix": 1793576875,
- "runs": 14569,
+ "updated": "2026-11-01T23:50:56.243Z",
+ "updated_unix": 1793577056,
+ "runs": 14570,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112853,
- "sent_total": 3708066,
+ "detected_total": 112854,
+ "sent_total": 3708142,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443001,
-   "owner": "",
-   "owner_addr": "0:f2baa65935f4dcc5e71843cdc38b8e6bdb37c7798d4a0c54a80c5f982d2a0d41",
-   "mint": 1793571996,
-   "counter_issued": 443001,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T22:36:29.524Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:47:54.484Z",
+   "t": 3
+  },
+  {
+   "slug": "AstralShard",
+   "gift": "Astral Shard",
+   "number": 5707,
+   "owner": "",
+   "owner_addr": "0:b95e1cb4b38d6e28e49262a47f65288dd3221b5312aa282650c58d3e8206432b",
+   "mint": 1793539794,
+   "counter_issued": 5707,
+   "counter_total": 6196,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T23:50:54.323Z",
    "t": 1
   }
  ]
