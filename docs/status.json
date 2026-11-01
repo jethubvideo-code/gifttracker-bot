@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T01:24:47.175Z",
- "updated_unix": 1793496287,
- "runs": 14352,
+ "updated": "2026-11-01T01:32:53.790Z",
+ "updated_unix": 1793496773,
+ "runs": 14353,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111092,
- "sent_total": 3573765,
+ "detected_total": 111093,
+ "sent_total": 3573843,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32826,
-   "owner": "",
-   "owner_addr": "0:d2bb4526d806fcbd4bac14a61bf65f789319a69bfd7746111f4814e115f19bde",
-   "mint": 1793455498,
-   "counter_issued": 32826,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T00:22:16.673Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T01:24:45.639Z",
+   "t": 3
+  },
+  {
+   "slug": "ElectricSkull",
+   "gift": "Electric Skull",
+   "number": 9236,
+   "owner": "",
+   "owner_addr": "0:30f8c119d0a46fdc718d71c9a0bc626ac53e8014e4876d0368e94461a5a2475e",
+   "mint": 1793475156,
+   "counter_issued": 9236,
+   "counter_total": 9407,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T01:32:50.162Z",
    "t": 1
   }
  ]
