@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T03:13:17.450Z",
- "updated_unix": 1793502797,
- "runs": 14359,
+ "updated": "2026-11-01T03:46:36.964Z",
+ "updated_unix": 1793504796,
+ "runs": 14360,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111248,
- "sent_total": 3585933,
+ "detected_total": 111249,
+ "sent_total": 3586011,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78313,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78313,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T03:13:16.121Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13006,
+   "owner": "",
+   "owner_addr": "0:9d294dc7d942fd0e2434d0c728f1c7610f899fa9a68da6e3747e50293a4836da",
+   "mint": 1793494797,
+   "counter_issued": 13006,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T03:46:35.067Z",
    "t": 1
   }
  ]
