@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T13:46:45.960Z",
- "updated_unix": 1793540805,
- "runs": 14454,
+ "updated": "2026-11-01T13:49:51.765Z",
+ "updated_unix": 1793540991,
+ "runs": 14455,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112427,
- "sent_total": 3675693,
+ "detected_total": 112429,
+ "sent_total": 3675845,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108608,
-   "owner": "",
-   "owner_addr": "0:a9bd75b25554656a606824dd32f80013ecff671ceb02534097823402344c8790",
-   "mint": 1793538693,
-   "counter_issued": 108608,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T13:13:30.727Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269264,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269264,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T13:14:27.628Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T13:27:50.808Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T13:46:43.031Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26100,
+   "owner": "",
+   "owner_addr": "0:944cd0a2a00fed5c519d2ba450c95c2c003ef972a68a36b061d9f6eec6e2181a",
+   "mint": 1793524989,
+   "counter_issued": 26100,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T13:49:42.226Z",
+   "t": 1
+  },
+  {
+   "slug": "GenieLamp",
+   "gift": "Genie Lamp",
+   "number": 6607,
+   "owner": "",
+   "owner_addr": "0:dbe4c22ad2ab1295ce9887c171145b24f007ca2e63839db5219aa0cca9dc5bb5",
+   "mint": 1793515546,
+   "counter_issued": 6607,
+   "counter_total": 7666,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T13:49:48.898Z",
    "t": 1
   }
  ]
