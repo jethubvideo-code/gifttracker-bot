@@ -1,26 +1,13 @@
 {
- "updated": "2026-11-01T00:24:38.721Z",
- "updated_unix": 1793492678,
- "runs": 14349,
+ "updated": "2026-11-01T00:30:31.616Z",
+ "updated_unix": 1793493031,
+ "runs": 14350,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111087,
- "sent_total": 3573375,
+ "detected_total": 111088,
+ "sent_total": 3573453,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32821,
-   "owner": "",
-   "owner_addr": "0:36465f0ae494c93d17216234cf0729f3ec36b97ada68c25c068d0bf9aed48b72",
-   "mint": 1793436940,
-   "counter_issued": 32821,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T00:22:16.673Z"
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -32,7 +19,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-11-01T00:22:16.673Z"
+   "time": "2026-11-01T00:22:16.673Z",
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -45,7 +33,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-11-01T00:22:16.673Z"
+   "time": "2026-11-01T00:22:16.673Z",
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -58,7 +47,8 @@
    "counter_total": 39464,
    "img": "",
    "sent": 0,
-   "time": "2026-11-01T00:22:16.673Z"
+   "time": "2026-11-01T00:22:16.673Z",
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -72,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T00:22:16.673Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -86,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T00:22:16.673Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -408,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T00:24:31.178Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -422,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T00:24:36.544Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 442269,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 442269,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T00:30:30.067Z",
    "t": 1
   }
  ]
