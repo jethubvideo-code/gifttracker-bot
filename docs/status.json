@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T14:38:22.531Z",
- "updated_unix": 1793543902,
- "runs": 14468,
+ "updated": "2026-11-01T14:40:22.606Z",
+ "updated_unix": 1793544022,
+ "runs": 14469,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112493,
- "sent_total": 3680709,
+ "detected_total": 112495,
+ "sent_total": 3680861,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84404,
-   "owner": "",
-   "owner_addr": "0:7f094ce2997bbea90d5dd64c403e3667d72faae824921e815409c51b2e545449",
-   "mint": 1793532800,
-   "counter_issued": 84404,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T14:32:16.536Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84405,
-   "owner": "",
-   "owner_addr": "0:be845daa42e44ce0d976c4a879678536795bc30ac0d898896ae85ce3534c6c9f",
-   "mint": 1793533107,
-   "counter_issued": 84405,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T14:32:16.536Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T14:38:07.635Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T14:38:07.635Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T14:38:16.826Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T14:38:16.826Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T14:38:16.826Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 390980,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 390980,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T14:40:13.893Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269307,
+   "owner": "",
+   "owner_addr": "0:1f0e6767974390bbfc3a35a84bfc1129345ada39c88c80a32768e4d9115acd24",
+   "mint": 1793543890,
+   "counter_issued": 269307,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T14:40:19.380Z",
    "t": 1
   }
  ]
