@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T01:05:31.160Z",
- "updated_unix": 1793495131,
- "runs": 14351,
+ "updated": "2026-11-01T01:24:47.175Z",
+ "updated_unix": 1793496287,
+ "runs": 14352,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111091,
- "sent_total": 3573687,
+ "detected_total": 111092,
+ "sent_total": 3573765,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32825,
-   "owner": "",
-   "owner_addr": "0:40f734e71ad324092b3419183709d0f917402864e650e0622a42ca678cb891c9",
-   "mint": 1793452739,
-   "counter_issued": 32825,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T00:22:16.673Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T01:05:22.980Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T01:05:22.980Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T01:05:22.980Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23101,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23101,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T01:24:45.639Z",
    "t": 1
   }
  ]
