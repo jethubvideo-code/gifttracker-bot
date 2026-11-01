@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T23:29:52.964Z",
- "updated_unix": 1793575792,
- "runs": 14568,
+ "updated": "2026-11-01T23:47:55.975Z",
+ "updated_unix": 1793576875,
+ "runs": 14569,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112852,
- "sent_total": 3707990,
+ "detected_total": 112853,
+ "sent_total": 3708066,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443000,
-   "owner": "",
-   "owner_addr": "0:a69e515aaa6bc41dbfea1c91ec582ee50212f12a4cd4a23d3c46655e8352bb08",
-   "mint": 1793571670,
-   "counter_issued": 443000,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T22:36:29.524Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:29:45.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:29:45.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:29:45.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T23:29:45.056Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3964,
+   "owner": "",
+   "owner_addr": "0:1c604b7218a982b1fe5af2ad673bafed60b39cec27e3e6f4c3e3576370f9e8db",
+   "mint": 1793573565,
+   "counter_issued": 3964,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T23:47:54.484Z",
    "t": 1
   }
  ]
