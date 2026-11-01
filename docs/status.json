@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T20:34:21.002Z",
- "updated_unix": 1793565261,
- "runs": 14536,
+ "updated": "2026-11-01T20:50:24.857Z",
+ "updated_unix": 1793566224,
+ "runs": 14537,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112766,
- "sent_total": 3701454,
+ "detected_total": 112767,
+ "sent_total": 3701530,
  "last_upgrades": [
-  {
-   "slug": "SkullFlower",
-   "gift": "Skull Flower",
-   "number": 22078,
-   "owner": "mecenatstore.t.me",
-   "owner_addr": "0:65308404528ddfa7a7478354b99a1283ec9a53df292ee33457b7a3d6e9159750",
-   "mint": 1793552327,
-   "counter_issued": 22078,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:22:36.026Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:34:18.968Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90509,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90509,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:50:20.186Z",
    "t": 1
   }
  ]
