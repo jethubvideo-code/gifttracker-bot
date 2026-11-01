@@ -1,97 +1,13 @@
 {
- "updated": "2026-11-01T07:20:34.995Z",
- "updated_unix": 1793517634,
- "runs": 14378,
+ "updated": "2026-11-01T07:21:40.531Z",
+ "updated_unix": 1793517700,
+ "runs": 14379,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 111294,
- "sent_total": 3589514,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 111300,
+ "sent_total": 3589976,
  "last_upgrades": [
-  {
-   "slug": "NekoHelmet",
-   "gift": "Neko Helmet",
-   "number": 15580,
-   "owner": "naarcos.t.me",
-   "owner_addr": "0:595c2bbf64b4e266df549d86ea145eb1cdd6ecd524c129f2b8e0dcb5859a235e",
-   "mint": 1793476239,
-   "counter_issued": 15580,
-   "counter_total": 16149,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T06:11:30.311Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74728,
-   "owner": "",
-   "owner_addr": "0:efeb93077bcab3364cfb03fd28a3a0ecdc436e01f4d0a220cb73615af7b19c3a",
-   "mint": 1793492892,
-   "counter_issued": 74728,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T06:17:30.633Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32838,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32838,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T06:17:39.811Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32839,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32839,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T06:17:39.811Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32840,
-   "owner": "",
-   "owner_addr": "0:4b198caed722e03587bcf208a215b55cb07d84de945044a3d447ff81ae006e95",
-   "mint": 1793494514,
-   "counter_issued": 32840,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T06:17:39.811Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32841,
-   "owner": "",
-   "owner_addr": "0:21f8ff2dd519380b08898c6ae41008b1f5ca3f2adaa32cd96e2c351ae0488c8a",
-   "mint": 1793508161,
-   "counter_issued": 32841,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T06:17:39.811Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -342,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:18:19.040Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:18:19.040Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:18:19.040Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:18:19.040Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:18:19.040Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:18:19.040Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +342,90 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T07:20:32.026Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269196,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269196,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T07:21:28.203Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269197,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269197,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T07:21:28.203Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269198,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269198,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T07:21:28.203Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269199,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269199,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T07:21:28.203Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269200,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269200,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T07:21:28.203Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269201,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269201,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T07:21:28.203Z",
    "t": 1
   }
  ]
