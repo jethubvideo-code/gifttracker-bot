@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T06:08:29.664Z",
- "updated_unix": 1793513309,
- "runs": 14370,
+ "updated": "2026-11-01T06:10:31.773Z",
+ "updated_unix": 1793513431,
+ "runs": 14371,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 111263,
- "sent_total": 3587103,
+ "detected_total": 111264,
+ "sent_total": 3587181,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78328,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78328,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T02:58:05.165Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T06:08:27.489Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23103,
+   "owner": "sexygangster.ton",
+   "owner_addr": "0:151b3324e18da5ae8a2ba2a92e274d17df93e886ad398fd44c65334de9a1d69e",
+   "mint": 1793507739,
+   "counter_issued": 23103,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T06:10:29.968Z",
    "t": 1
   }
  ]
