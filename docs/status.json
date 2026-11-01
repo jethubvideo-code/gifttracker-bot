@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T20:51:29.856Z",
- "updated_unix": 1793566289,
- "runs": 14538,
+ "updated": "2026-11-01T20:52:25.311Z",
+ "updated_unix": 1793566345,
+ "runs": 14539,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112770,
- "sent_total": 3701758,
+ "detected_total": 112771,
+ "sent_total": 3701834,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391014,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793561991,
-   "counter_issued": 391014,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:45:47.975Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:51:24.018Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:51:24.018Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:51:24.018Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9433,
+   "owner": "persian-squad.ton",
+   "owner_addr": "0:b5d67559ba93d933b0d8430746c8133eb2850a5fc101851670e839440dc56bcd",
+   "mint": 1793554717,
+   "counter_issued": 9433,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:52:23.642Z",
    "t": 1
   }
  ]
