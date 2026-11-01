@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-01T20:18:20.538Z",
- "updated_unix": 1793564300,
- "runs": 14532,
+ "updated": "2026-11-01T20:22:26.557Z",
+ "updated_unix": 1793564546,
+ "runs": 14533,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112760,
- "sent_total": 3700998,
+ "detected_total": 112762,
+ "sent_total": 3701150,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 133970,
-   "owner": "degol77.t.me",
-   "owner_addr": "0:fc6ff5905aed9b18f0863dc0bd41ea46946d56ad8550cefbb5a712aa1845e334",
-   "mint": 1793559287,
-   "counter_issued": 133970,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:08:30.530Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391010,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391010,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T19:09:28.419Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:18:14.598Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T20:18:18.980Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269387,
+   "owner": "",
+   "owner_addr": "0:c12a091c3f4366da65c39330b6c1b02a9f1c15dd2240a8944c3af8226482ffbd",
+   "mint": 1793564301,
+   "counter_issued": 269387,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:22:17.458Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108622,
+   "owner": "",
+   "owner_addr": "0:90c010b2296f4adba51934138d0b972fdce3afa95e66f1755e44b310e443c9ff",
+   "mint": 1793563048,
+   "counter_issued": 108622,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T20:22:24.378Z",
    "t": 1
   }
  ]
