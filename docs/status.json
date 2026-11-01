@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-01T12:40:42.277Z",
- "updated_unix": 1793536842,
- "runs": 14438,
+ "updated": "2026-11-01T12:41:39.314Z",
+ "updated_unix": 1793536899,
+ "runs": 14439,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 112310,
- "sent_total": 3666801,
+ "detected_total": 112311,
+ "sent_total": 3666877,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 442891,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 442891,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-01T12:38:17.075Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T12:40:30.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T12:40:30.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T12:40:30.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T12:40:30.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T12:40:30.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-01T12:40:30.422Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232327,
+   "owner": "",
+   "owner_addr": "0:308ab61251856a881a266f4f604c4872934f1c068ae64b7865cba7ef73d6573d",
+   "mint": 1793535595,
+   "counter_issued": 232327,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-01T12:41:37.509Z",
    "t": 1
   }
  ]
