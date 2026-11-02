@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T06:58:35.813Z",
- "updated_unix": 1793602715,
- "runs": 14609,
+ "updated": "2026-11-02T07:01:31.146Z",
+ "updated_unix": 1793602891,
+ "runs": 14610,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113301,
- "sent_total": 3742114,
+ "detected_total": 113302,
+ "sent_total": 3742190,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53506,
-   "owner": "",
-   "owner_addr": "0:ce9eb13b5acbf2f887486adda5e172749868eef1de2ede93511b9191c48a7336",
-   "mint": 1793548515,
-   "counter_issued": 53506,
-   "counter_total": 66580,
-   "img": "https://cdn4.telesco.pe/file/ImmCAhPRQqGK6ZULVdcWizaBiHtZG51GKOGDtbEoytzc-ZwL5baCkYs4YpPMoPPeso2aqrMuqMLnbg7Ugto4NO-9iVHyeJNebUWOkI8wG-RYCK4VsDKhvmM5zBgY8-B6HHR03tnZZliGeQOs0PeI-5T7IK2xgBjgsniidhYpoZorFXLTVlCeUSwAcuIf4QerQLKJ_lKiF6w15EYVECeljnXlVkMqWIMjYDn351V6kwzlZ87td74EGsD_E5ji9SpGHIMHB49VwLLZq3KFuHmXjNqQh_WRQW2I2UcUxwW3T3nw25JnvNn8b1l-IdgIPIPyaESW3vvcgIkwk0_FiOYYvg.jpg",
-   "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z",
-   "u": 1
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:58:25.941Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:58:25.941Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:58:33.650Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133998,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133998,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:01:27.212Z",
    "t": 1
   }
  ]
