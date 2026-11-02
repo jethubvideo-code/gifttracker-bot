@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T14:49:01.277Z",
- "updated_unix": 1793630941,
- "runs": 14679,
+ "updated": "2026-11-02T14:53:57.704Z",
+ "updated_unix": 1793631237,
+ "runs": 14680,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 113553,
- "sent_total": 3761133,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 113555,
+ "sent_total": 3761285,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391069,
-   "owner": "",
-   "owner_addr": "0:295337be4dac98f27f852d91ed85da25bb8b9172f390b4c07dd7db0db7e11146",
-   "mint": 1793626602,
-   "counter_issued": 391069,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T14:10:18.961Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391070,
-   "owner": "panamerovich.ton",
-   "owner_addr": "0:ebaedc2e359716826a0e5e62674e886a7e61d4709bcded8848da9cb2377eda18",
-   "mint": 1793627748,
-   "counter_issued": 391070,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T14:10:18.961Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:48:48.268Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:48:56.320Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:48:56.320Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108636,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108636,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:53:54.010Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108637,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108637,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:53:54.010Z",
    "t": 1
   }
  ]
