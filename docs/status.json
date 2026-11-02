@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T09:55:20.620Z",
- "updated_unix": 1793613320,
- "runs": 14634,
+ "updated": "2026-11-02T09:57:21.512Z",
+ "updated_unix": 1793613441,
+ "runs": 14635,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113376,
- "sent_total": 3747750,
+ "detected_total": 113377,
+ "sent_total": 3747826,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269473,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793606112,
-   "counter_issued": 269473,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T09:16:35.131Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T09:55:16.070Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T09:55:16.070Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443165,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793613289,
+   "counter_issued": 443165,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T09:57:18.156Z",
    "t": 1
   }
  ]
