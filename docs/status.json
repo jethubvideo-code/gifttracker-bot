@@ -1,65 +1,13 @@
 {
- "updated": "2026-11-02T06:55:07.808Z",
- "updated_unix": 1793602507,
- "runs": 14606,
+ "updated": "2026-11-02T06:56:30.279Z",
+ "updated_unix": 1793602590,
+ "runs": 14607,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 113293,
- "sent_total": 3741506,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 113297,
+ "sent_total": 3741810,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53498,
-   "owner": "",
-   "owner_addr": "0:7bef166bd518c1402b394dcb716e41be19221abe7edff3e3a07ca9ff02272090",
-   "mint": 1793392461,
-   "counter_issued": 53498,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53499,
-   "owner": "",
-   "owner_addr": "0:a577b3cd724e683e0bd587937c0dc1f687030f1bd2b1ea08f2771dffd1277af0",
-   "mint": 1793404549,
-   "counter_issued": 53499,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53500,
-   "owner": "",
-   "owner_addr": "0:3a156e2349c553aa15ca8a11e0a920ddb2cda556a40392be284b9094ae1ee7f4",
-   "mint": 1793459066,
-   "counter_issued": 53500,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z"
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53501,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793464833,
-   "counter_issued": 53501,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z"
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -84,7 +32,8 @@
    "counter_total": 66580,
    "img": "",
    "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z"
+   "time": "2026-11-02T06:52:13.383Z",
+   "t": 1
   },
   {
    "slug": "BerryBox",
@@ -168,7 +117,7 @@
    "img": "https://cdn4.telesco.pe/file/LIjTBvfpHnwi8b9pPfCNrVorgZeIQEzEqCut7vkDJGCvBqZMbDLTh1rYZuV6-SZo95ftBLJ0wB-ZFopQPPFgJnFG63xr76MUJyjMAZ37CtOG-ii6PA5daJkT2kcBLji4H2uwOyRrgDlrHn4Rj9UFikyZzVaI5fUMmQlvzrlMf_HDowtYG2eNp1sHr2LOb3XCW636u1qH35pD5MWJ7o0up6xGWfl0iGq4t1L0bbXKFcLZMcO4IvVIuslWEGna9-ODPt8FOsZoKF5xFVgSvVdl1HlC4lciFnv07EqqOQi9_RD_jYFOV248pzeRkkMMHhveEfYV-CovPmD2AUgcACpRJw.jpg",
    "sent": 0,
    "time": "2026-11-02T06:53:56.673Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BowTie",
@@ -182,7 +131,7 @@
    "img": "https://cdn4.telesco.pe/file/LIjTBvfpHnwi8b9pPfCNrVorgZeIQEzEqCut7vkDJGCvBqZMbDLTh1rYZuV6-SZo95ftBLJ0wB-ZFopQPPFgJnFG63xr76MUJyjMAZ37CtOG-ii6PA5daJkT2kcBLji4H2uwOyRrgDlrHn4Rj9UFikyZzVaI5fUMmQlvzrlMf_HDowtYG2eNp1sHr2LOb3XCW636u1qH35pD5MWJ7o0up6xGWfl0iGq4t1L0bbXKFcLZMcO4IvVIuslWEGna9-ODPt8FOsZoKF5xFVgSvVdl1HlC4lciFnv07EqqOQi9_RD_jYFOV248pzeRkkMMHhveEfYV-CovPmD2AUgcACpRJw.jpg",
    "sent": 0,
    "time": "2026-11-02T06:53:56.673Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BowTie",
@@ -196,7 +145,7 @@
    "img": "https://cdn4.telesco.pe/file/LIjTBvfpHnwi8b9pPfCNrVorgZeIQEzEqCut7vkDJGCvBqZMbDLTh1rYZuV6-SZo95ftBLJ0wB-ZFopQPPFgJnFG63xr76MUJyjMAZ37CtOG-ii6PA5daJkT2kcBLji4H2uwOyRrgDlrHn4Rj9UFikyZzVaI5fUMmQlvzrlMf_HDowtYG2eNp1sHr2LOb3XCW636u1qH35pD5MWJ7o0up6xGWfl0iGq4t1L0bbXKFcLZMcO4IvVIuslWEGna9-ODPt8FOsZoKF5xFVgSvVdl1HlC4lciFnv07EqqOQi9_RD_jYFOV248pzeRkkMMHhveEfYV-CovPmD2AUgcACpRJw.jpg",
    "sent": 0,
    "time": "2026-11-02T06:53:56.673Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BowTie",
@@ -210,7 +159,7 @@
    "img": "https://cdn4.telesco.pe/file/LIjTBvfpHnwi8b9pPfCNrVorgZeIQEzEqCut7vkDJGCvBqZMbDLTh1rYZuV6-SZo95ftBLJ0wB-ZFopQPPFgJnFG63xr76MUJyjMAZ37CtOG-ii6PA5daJkT2kcBLji4H2uwOyRrgDlrHn4Rj9UFikyZzVaI5fUMmQlvzrlMf_HDowtYG2eNp1sHr2LOb3XCW636u1qH35pD5MWJ7o0up6xGWfl0iGq4t1L0bbXKFcLZMcO4IvVIuslWEGna9-ODPt8FOsZoKF5xFVgSvVdl1HlC4lciFnv07EqqOQi9_RD_jYFOV248pzeRkkMMHhveEfYV-CovPmD2AUgcACpRJw.jpg",
    "sent": 0,
    "time": "2026-11-02T06:53:56.673Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SkyStilettos",
@@ -224,7 +173,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:16.173Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SkyStilettos",
@@ -238,7 +187,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:16.173Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SkyStilettos",
@@ -252,7 +201,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:16.173Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SkyStilettos",
@@ -266,7 +215,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:16.173Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -280,7 +229,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -294,7 +243,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -308,7 +257,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -322,7 +271,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -336,7 +285,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -350,7 +299,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -364,7 +313,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -378,7 +327,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -392,7 +341,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -406,7 +355,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "WitchHat",
@@ -420,6 +369,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T06:54:42.131Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133994,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133994,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T06:56:21.675Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133995,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133995,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T06:56:21.675Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 133996,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 133996,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T06:56:21.675Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 133997,
+   "owner": "",
+   "owner_addr": "0:265e2070cd004364dcc0b0e8ce98b9ff5a4a3e333509e48ad322b292b5c4b4af",
+   "mint": 1793597564,
+   "counter_issued": 133997,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T06:56:21.675Z",
    "t": 1
   }
  ]
