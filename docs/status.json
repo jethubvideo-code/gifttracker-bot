@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T10:42:44.779Z",
- "updated_unix": 1793616164,
- "runs": 14642,
+ "updated": "2026-11-02T11:00:52.931Z",
+ "updated_unix": 1793617252,
+ "runs": 14643,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113400,
- "sent_total": 3749510,
+ "detected_total": 113402,
+ "sent_total": 3749662,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443163,
-   "owner": "",
-   "owner_addr": "0:21c7dbabf73eeb55b3003c2ef9381ecd86f46010b64d1def8bd741a5942b2a39",
-   "mint": 1793611803,
-   "counter_issued": 443163,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T09:49:35.225Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443164,
-   "owner": "",
-   "owner_addr": "0:648ad16a13dfc29223d937cfcdd197b35732ab9a6f87b7822d9c4a7e2eb2ed7a",
-   "mint": 1793611991,
-   "counter_issued": 443164,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T09:49:35.225Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T10:42:37.453Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T10:42:37.453Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T10:42:37.453Z",
+   "t": 2
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 140,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 140,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T11:00:43.910Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443167,
+   "owner": "",
+   "owner_addr": "0:9026e323c5c4e459420b7e2a5db98768a8e22418efb1b09c4df21ffa0b05fa43",
+   "mint": 1793616971,
+   "counter_issued": 443167,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T11:00:49.616Z",
    "t": 1
   }
  ]
