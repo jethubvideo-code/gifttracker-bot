@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T11:04:52.434Z",
- "updated_unix": 1793617492,
- "runs": 14646,
+ "updated": "2026-11-02T11:05:54.636Z",
+ "updated_unix": 1793617554,
+ "runs": 14647,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113406,
- "sent_total": 3749966,
+ "detected_total": 113408,
+ "sent_total": 3750118,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443165,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793613289,
-   "counter_issued": 443165,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T09:57:18.156Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391055,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391055,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T10:08:16.068Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T11:04:47.645Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T11:04:47.645Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13013,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793606082,
+   "counter_issued": 13013,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T11:05:49.118Z",
+   "t": 1
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13014,
+   "owner": "",
+   "owner_addr": "0:3a07546829757ea9fea5c5ad805841799231c127a1df27f506316b708fb59011",
+   "mint": 1793614724,
+   "counter_issued": 13014,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T11:05:49.118Z",
    "t": 1
   }
  ]
