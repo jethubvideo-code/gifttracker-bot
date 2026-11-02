@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-02T03:26:49.850Z",
- "updated_unix": 1793590009,
- "runs": 14593,
+ "updated": "2026-11-02T03:28:01.709Z",
+ "updated_unix": 1793590081,
+ "runs": 14594,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 113204,
- "sent_total": 3734742,
+ "detected_total": 113207,
+ "sent_total": 3734970,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443126,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443126,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T02:11:18.011Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443127,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443127,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T02:11:18.011Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443128,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443128,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T02:17:37.448Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T03:26:46.312Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T03:26:46.312Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74734,
+   "owner": "",
+   "owner_addr": "0:19ac83aa198955432eec3da652a7d35af1f315ce3bfe4152970259b2fa071a0c",
+   "mint": 1793587089,
+   "counter_issued": 74734,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T03:27:50.056Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74735,
+   "owner": "",
+   "owner_addr": "0:086cfd1d42475bdb7bc7bafe47752a7f0b5c7c3013ab963f9fa9f21bfb4ae08f",
+   "mint": 1793589221,
+   "counter_issued": 74735,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T03:27:50.056Z",
+   "t": 1
+  },
+  {
+   "slug": "UFCStrike",
+   "gift": "UFC Strike",
+   "number": 58902,
+   "owner": "",
+   "owner_addr": "0:ee4fb68998c4a0ce5c3207a91ce27ff4bea1c830cf73b7f6ed8b4ed90f728dce",
+   "mint": 1793584570,
+   "counter_issued": 58902,
+   "counter_total": 60000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T03:27:57.850Z",
    "t": 1
   }
  ]
