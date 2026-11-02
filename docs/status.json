@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T07:36:30.503Z",
- "updated_unix": 1793604990,
- "runs": 14618,
+ "updated": "2026-11-02T07:40:22.408Z",
+ "updated_unix": 1793605222,
+ "runs": 14619,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113317,
- "sent_total": 3743330,
+ "detected_total": 113318,
+ "sent_total": 3743406,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82912,
-   "owner": "",
-   "owner_addr": "0:a1d97dc99c68b0c9572fa5b5743e30237822f101d74bc0026b7dbd0e0824f576",
-   "mint": 1793598627,
-   "counter_issued": 82912,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:54:42.131Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:36:18.178Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:36:18.178Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:36:26.914Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:36:26.914Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269458,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269458,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:40:20.846Z",
    "t": 1
   }
  ]
