@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-02T18:55:51.359Z",
- "updated_unix": 1793645751,
- "runs": 14725,
+ "updated": "2026-11-02T18:58:53.306Z",
+ "updated_unix": 1793645933,
+ "runs": 14726,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 114520,
- "sent_total": 3835521,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 114523,
+ "sent_total": 3835752,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269566,
-   "owner": "",
-   "owner_addr": "0:27e69027ea27832849f39110c68db93b1658089af625a2dca8ff165f59eaaf40",
-   "mint": 1793644623,
-   "counter_issued": 269566,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:46:33.686Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90545,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90545,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:48:32.464Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90546,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90546,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:48:32.464Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:54:38.704Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:54:38.704Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:55:41.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:55:47.442Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443198,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443198,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T18:58:47.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443199,
+   "owner": "",
+   "owner_addr": "0:cec4745ec641ea3503c2e9b25c6203bbd1647f32b16c767654a0355038743f21",
+   "mint": 1793644348,
+   "counter_issued": 443199,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T18:58:47.373Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443200,
+   "owner": "",
+   "owner_addr": "0:dbe46a56351cbc0022b11df2c78df5e3afd86fee260f8e1c98698beede011ee8",
+   "mint": 1793644961,
+   "counter_issued": 443200,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T18:58:47.373Z",
    "t": 1
   }
  ]
