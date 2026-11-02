@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T03:28:01.709Z",
- "updated_unix": 1793590081,
- "runs": 14594,
+ "updated": "2026-11-02T03:31:59.177Z",
+ "updated_unix": 1793590319,
+ "runs": 14595,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 113207,
- "sent_total": 3734970,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 113208,
+ "sent_total": 3735046,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443129,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443129,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T02:17:37.448Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T03:27:50.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T03:27:50.056Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T03:27:57.850Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269452,
+   "owner": "",
+   "owner_addr": "0:bb5c8f0c647bc49604d07c5d4be10912d2a36bf49a3b4d4010b08f9db7ef01f0",
+   "mint": 1793590177,
+   "counter_issued": 269452,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T03:31:57.914Z",
    "t": 1
   }
  ]
