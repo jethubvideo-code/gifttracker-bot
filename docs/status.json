@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T12:59:34.076Z",
- "updated_unix": 1793624374,
- "runs": 14664,
+ "updated": "2026-11-02T13:02:31.940Z",
+ "updated_unix": 1793624551,
+ "runs": 14665,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113506,
- "sent_total": 3757565,
+ "detected_total": 113507,
+ "sent_total": 3757641,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40563,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40563,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T12:59:27.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T12:59:27.430Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T12:59:32.516Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391064,
+   "owner": "",
+   "owner_addr": "0:8ac38246a183eba17ff0fbf83a7282d5601272f3f6b1e4faf0914d574fcfcb21",
+   "mint": 1793621816,
+   "counter_issued": 391064,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T13:02:30.277Z",
    "t": 1
   }
  ]
