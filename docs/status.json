@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T15:59:55.554Z",
- "updated_unix": 1793635195,
- "runs": 14685,
+ "updated": "2026-11-02T16:02:01.903Z",
+ "updated_unix": 1793635321,
+ "runs": 14686,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113791,
- "sent_total": 3779456,
+ "detected_total": 113793,
+ "sent_total": 3779610,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271775,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271775,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T15:55:52.804Z",
-   "t": 3
-  },
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271776,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271776,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T15:55:52.804Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T15:59:45.470Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T15:59:49.712Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T15:59:49.712Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T15:59:49.712Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9434,
+   "owner": "shmoks-kent.ton",
+   "owner_addr": "0:d59ba5104f20d70507516c209b13dcb397946238397ecc456c1db91630ad5a8d",
+   "mint": 1793623831,
+   "counter_issued": 9434,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:01:51.149Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391078,
+   "owner": "",
+   "owner_addr": "0:75e76505a5b0df34f754d157b74966e58aaffba69cb37d99e025e2a553e597b8",
+   "mint": 1793635234,
+   "counter_issued": 391078,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:01:59.699Z",
    "t": 1
   }
  ]
