@@ -1,53 +1,13 @@
 {
- "updated": "2026-11-02T16:34:06.165Z",
- "updated_unix": 1793637246,
- "runs": 14695,
+ "updated": "2026-11-02T16:37:13.250Z",
+ "updated_unix": 1793637433,
+ "runs": 14696,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113917,
- "sent_total": 3789157,
+ "detected_total": 113920,
+ "sent_total": 3789388,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228779,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228779,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T16:33:14.269Z"
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228780,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228780,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T16:33:14.269Z"
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 228781,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 228781,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T16:33:14.269Z",
-   "t": 2
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -60,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:14.269Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PoolFloat",
@@ -74,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:14.269Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PoolFloat",
@@ -88,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:14.269Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PoolFloat",
@@ -382,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:55.203Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -396,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:55.203Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -410,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:55.203Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -424,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:33:55.203Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134028,
+   "owner": "",
+   "owner_addr": "0:8277a9ecbb60aa205ada52b6712134b6e09b5b18c3a77f65e89f13d35050162e",
+   "mint": 1793636699,
+   "counter_issued": 134028,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:37:04.409Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134029,
+   "owner": "",
+   "owner_addr": "0:9f986ad6dcc951de91cf33a562fb520312f6d183db4ef8f296cc05910853e449",
+   "mint": 1793636860,
+   "counter_issued": 134029,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:37:04.409Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391080,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391080,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:37:11.202Z",
    "t": 1
   }
  ]
