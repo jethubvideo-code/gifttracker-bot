@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-02T14:07:22.898Z",
- "updated_unix": 1793628442,
- "runs": 14672,
+ "updated": "2026-11-02T14:10:24.681Z",
+ "updated_unix": 1793628624,
+ "runs": 14673,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113522,
- "sent_total": 3758779,
+ "detected_total": 113525,
+ "sent_total": 3759005,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40579,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40579,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "t": 3
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40580,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40580,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "t": 3
-  },
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56241,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56241,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:55:01.052Z",
-   "t": 3
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:07:07.154Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:07:07.154Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:07:17.051Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:07:17.051Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391068,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391068,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:10:18.961Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391069,
+   "owner": "",
+   "owner_addr": "0:295337be4dac98f27f852d91ed85da25bb8b9172f390b4c07dd7db0db7e11146",
+   "mint": 1793626602,
+   "counter_issued": 391069,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:10:18.961Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391070,
+   "owner": "panamerovich.ton",
+   "owner_addr": "0:ebaedc2e359716826a0e5e62674e886a7e61d4709bcded8848da9cb2377eda18",
+   "mint": 1793627748,
+   "counter_issued": 391070,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:10:18.961Z",
    "t": 1
   }
  ]
