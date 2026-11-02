@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T16:02:01.903Z",
- "updated_unix": 1793635321,
- "runs": 14686,
+ "updated": "2026-11-02T16:04:01.790Z",
+ "updated_unix": 1793635441,
+ "runs": 14687,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113793,
- "sent_total": 3779610,
+ "detected_total": 113794,
+ "sent_total": 3779687,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271777,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271777,
-   "counter_total": 307521,
-   "img": "https://cdn4.telesco.pe/file/QtCQTMmnlr0nDMrmoyie2XV9YRoY9_TEQdGuqagJnPoBuFcFjMMWaoBedqQ5XKgEGpPh7k3IlH2hfCvlO8deq7DpyaNAr_uM-FEwdCrQIQ7IjJw-0SjCAPnbZTGJmnAU5h3QxRASJz9xYmoRh6RpObZ5NMEPC_BTuREozj7JUadvCWWqzEGeq_XLiC_RA2i2ne8bjt3RFw6YHpjy93QXEA6WrHhBN00nZCLjJ18ojDGlFLbiGcGRrC56dTdPsAaOxr6fYFzoZqMDlCRefzBO6Kk-SNA-XlqotALpN_teKt3HQvdoO8dblj0vt8DNbTQNX2-7CptMexQ2HHU9EpB_7A.jpg",
-   "sent": 0,
-   "time": "2026-11-02T15:55:52.804Z",
-   "u": 1
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:01:51.149Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:01:59.699Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443185,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443185,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:03:56.430Z",
    "t": 1
   }
  ]
