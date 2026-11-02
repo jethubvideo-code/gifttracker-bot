@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T07:05:30.323Z",
- "updated_unix": 1793603130,
- "runs": 14611,
+ "updated": "2026-11-02T07:26:18.712Z",
+ "updated_unix": 1793604378,
+ "runs": 14612,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 113303,
- "sent_total": 3742266,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 113304,
+ "sent_total": 3742342,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56615,
-   "owner": "",
-   "owner_addr": "0:cf946688e58c2459222e664273fd7bd7ce3ce388d342dbc8049ebe8232fa1684",
-   "mint": 1793571668,
-   "counter_issued": 56615,
-   "counter_total": 65687,
-   "img": "https://cdn4.telesco.pe/file/tooAPflHNoewqKX_21EQjbJfLhxjF7mv-GEN84Afa_ZWFj5JvzaeXsw8TBYtG1gctR27a1NKUFc_uXV1BvOs7BmVYWIAsk1J64b8G5rC33sUgzTPsyM7dZfUXhzf5Mx6pCbPJAL01vAgj_41OypY6cjK8p0n1h8NXX900uiZmhHGiiReSc7Ir0YOwuODbYKSv_ZW-CNGu_7U4yP_NQDzWgP-JjzBE47QDm-p3ahRZFg4aeROMm-gT8geP3_GB23kuWOmXS5TiBgnhCBFPNB5F4z47If8ovKrS5x-iFniZTFyFR04gl4W_wTTR463-mSwAUnOguZYpj-Q-cQdkOjksQ.jpg",
-   "sent": 0,
-   "time": "2026-11-02T06:53:56.673Z",
-   "u": 1
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:05:27.318Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90519,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90519,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:26:16.589Z",
    "t": 1
   }
  ]
