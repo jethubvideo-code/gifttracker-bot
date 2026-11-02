@@ -1,218 +1,13 @@
 {
- "updated": "2026-11-02T01:32:56.727Z",
- "updated_unix": 1793583176,
- "runs": 14586,
+ "updated": "2026-11-02T01:36:29.732Z",
+ "updated_unix": 1793583389,
+ "runs": 14587,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113046,
- "sent_total": 3722734,
+ "detected_total": 113061,
+ "sent_total": 3723874,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32874,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32874,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z"
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32875,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32875,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z"
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32876,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32876,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z"
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32877,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32877,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z"
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32878,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32878,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z"
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32879,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32879,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 1
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32880,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32880,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32881,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32881,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32882,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32882,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32883,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32883,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32884,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32884,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32885,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32885,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32886,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32886,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32887,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32887,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32888,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32888,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -225,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -239,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -253,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -267,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -281,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -295,7 +90,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -309,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -323,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -337,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -351,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -365,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -379,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -393,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -407,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:11:41.160Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -421,6 +216,216 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T01:32:53.552Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85110,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85110,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85111,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85111,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85112,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85112,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85113,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85113,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85114,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85114,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85115,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85115,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85116,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85116,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85117,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85117,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85118,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85118,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85119,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85119,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85120,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85120,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85121,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85121,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85122,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85122,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85123,
+   "owner": "",
+   "owner_addr": "0:90c010b2296f4adba51934138d0b972fdce3afa95e66f1755e44b310e443c9ff",
+   "mint": 1793563095,
+   "counter_issued": 85123,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85124,
+   "owner": "",
+   "owner_addr": "0:f2e3f45cd5a687535aef86c9482b56cb9e4816a7f08e9c7e9a626ab3bf6986ba",
+   "mint": 1793568736,
+   "counter_issued": 85124,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T01:35:57.190Z",
    "t": 1
   }
  ]
