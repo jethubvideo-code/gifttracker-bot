@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T17:18:23.019Z",
- "updated_unix": 1793639903,
- "runs": 14704,
+ "updated": "2026-11-02T17:34:32.007Z",
+ "updated_unix": 1793640872,
+ "runs": 14705,
  "collections": 123,
- "checked": 24,
- "errors": 99,
- "detected_total": 113948,
- "sent_total": 3791544,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 113950,
+ "sent_total": 3791698,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134029,
-   "owner": "",
-   "owner_addr": "0:9f986ad6dcc951de91cf33a562fb520312f6d183db4ef8f296cc05910853e449",
-   "mint": 1793636860,
-   "counter_issued": 134029,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T16:37:04.409Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391080,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391080,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T16:37:11.202Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T17:10:59.482Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T17:18:20.989Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90538,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90538,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T17:34:28.247Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90539,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90539,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T17:34:28.247Z",
    "t": 1
   }
  ]
