@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T07:41:23.158Z",
- "updated_unix": 1793605283,
- "runs": 14620,
+ "updated": "2026-11-02T07:42:24.927Z",
+ "updated_unix": 1793605344,
+ "runs": 14621,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113319,
- "sent_total": 3743482,
+ "detected_total": 113320,
+ "sent_total": 3743558,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82914,
-   "owner": "",
-   "owner_addr": "0:f0a80709331dd052bcaebf95cfa566782d371c9b639b81c81b452e7404f6f7b8",
-   "mint": 1793599374,
-   "counter_issued": 82914,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:54:42.131Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:41:21.263Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269459,
+   "owner": "",
+   "owner_addr": "0:6365d8c9b6548d941b054fde8ce041699522067c52fd19b76a3004c36304fc05",
+   "mint": 1793605285,
+   "counter_issued": 269459,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:42:23.393Z",
    "t": 1
   }
  ]
