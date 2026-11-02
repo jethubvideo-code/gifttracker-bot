@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T16:25:18.746Z",
- "updated_unix": 1793636718,
- "runs": 14691,
+ "updated": "2026-11-02T16:26:18.501Z",
+ "updated_unix": 1793636778,
+ "runs": 14692,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113804,
- "sent_total": 3780456,
+ "detected_total": 113805,
+ "sent_total": 3780533,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 271788,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 271788,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T15:55:52.804Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T16:25:16.346Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391079,
+   "owner": "",
+   "owner_addr": "0:5a29a834ec43baeeca6fa5e8a23ee97677734c415eb84072540b3fdf0c585a44",
+   "mint": 1793636601,
+   "counter_issued": 391079,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T16:26:16.084Z",
    "t": 1
   }
  ]
