@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T00:39:39.690Z",
- "updated_unix": 1793579979,
- "runs": 14581,
+ "updated": "2026-11-02T00:59:32.698Z",
+ "updated_unix": 1793581172,
+ "runs": 14582,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113012,
- "sent_total": 3720150,
+ "detected_total": 113013,
+ "sent_total": 3720226,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84413,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793573957,
-   "counter_issued": 84413,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T00:31:30.202Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T00:39:32.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T00:39:32.668Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23109,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23109,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T00:59:30.745Z",
    "t": 1
   }
  ]
