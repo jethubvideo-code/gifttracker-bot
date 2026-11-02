@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-02T07:27:21.197Z",
- "updated_unix": 1793604441,
- "runs": 14613,
+ "updated": "2026-11-02T07:28:27.947Z",
+ "updated_unix": 1793604507,
+ "runs": 14614,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113306,
- "sent_total": 3742494,
+ "detected_total": 113309,
+ "sent_total": 3742722,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56618,
-   "owner": "",
-   "owner_addr": "0:4ee7c9f9e9955b593c544ab800b2a74b516aa59fe0daf1b93a0f1ea5d3434303",
-   "mint": 1793586806,
-   "counter_issued": 56618,
-   "counter_total": 65687,
-   "img": "https://cdn4.telesco.pe/file/LIjTBvfpHnwi8b9pPfCNrVorgZeIQEzEqCut7vkDJGCvBqZMbDLTh1rYZuV6-SZo95ftBLJ0wB-ZFopQPPFgJnFG63xr76MUJyjMAZ37CtOG-ii6PA5daJkT2kcBLji4H2uwOyRrgDlrHn4Rj9UFikyZzVaI5fUMmQlvzrlMf_HDowtYG2eNp1sHr2LOb3XCW636u1qH35pD5MWJ7o0up6xGWfl0iGq4t1L0bbXKFcLZMcO4IvVIuslWEGna9-ODPt8FOsZoKF5xFVgSvVdl1HlC4lciFnv07EqqOQi9_RD_jYFOV248pzeRkkMMHhveEfYV-CovPmD2AUgcACpRJw.jpg",
-   "sent": 0,
-   "time": "2026-11-02T06:53:56.673Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56619,
-   "owner": "",
-   "owner_addr": "0:a4e46480d946e74f828644244693ae29aba452850e451f9742a03b6976519a0e",
-   "mint": 1793596487,
-   "counter_issued": 56619,
-   "counter_total": 65687,
-   "img": "https://cdn4.telesco.pe/file/LIjTBvfpHnwi8b9pPfCNrVorgZeIQEzEqCut7vkDJGCvBqZMbDLTh1rYZuV6-SZo95ftBLJ0wB-ZFopQPPFgJnFG63xr76MUJyjMAZ37CtOG-ii6PA5daJkT2kcBLji4H2uwOyRrgDlrHn4Rj9UFikyZzVaI5fUMmQlvzrlMf_HDowtYG2eNp1sHr2LOb3XCW636u1qH35pD5MWJ7o0up6xGWfl0iGq4t1L0bbXKFcLZMcO4IvVIuslWEGna9-ODPt8FOsZoKF5xFVgSvVdl1HlC4lciFnv07EqqOQi9_RD_jYFOV248pzeRkkMMHhveEfYV-CovPmD2AUgcACpRJw.jpg",
-   "sent": 0,
-   "time": "2026-11-02T06:53:56.673Z",
-   "t": 3
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52480,
-   "owner": "",
-   "owner_addr": "0:1c3b43f11599d7dfd7ac7287e78fe7aca2c943149fe3a7949d5aa3da7ae27dcd",
-   "mint": 1793563425,
-   "counter_issued": 52480,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:54:16.173Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:27:15.836Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:27:15.836Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164089,
+   "owner": "",
+   "owner_addr": "0:4ee7c9f9e9955b593c544ab800b2a74b516aa59fe0daf1b93a0f1ea5d3434303",
+   "mint": 1793587933,
+   "counter_issued": 164089,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:28:20.832Z",
+   "t": 1
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164090,
+   "owner": "",
+   "owner_addr": "0:cb9413af56b818d36c729181f4203f45f7d96f44fac858d223d718129b4d05bb",
+   "mint": 1793595552,
+   "counter_issued": 164090,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:28:20.832Z",
+   "t": 1
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164091,
+   "owner": "",
+   "owner_addr": "0:56f57ea7eaefe75ffd6c82a0269bddc38dfd48f56baa812fd92ea200f1f29c76",
+   "mint": 1793603342,
+   "counter_issued": 164091,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:28:20.832Z",
    "t": 1
   }
  ]
