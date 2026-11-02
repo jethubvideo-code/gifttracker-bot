@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T19:24:38.749Z",
- "updated_unix": 1793647478,
- "runs": 14731,
+ "updated": "2026-11-02T19:26:38.040Z",
+ "updated_unix": 1793647598,
+ "runs": 14732,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114532,
- "sent_total": 3836445,
+ "detected_total": 114534,
+ "sent_total": 3836599,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32927,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32927,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:52:35.808Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32928,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32928,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:52:35.808Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:24:31.935Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:24:31.935Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "RareBird",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:24:31.935Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90549,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90549,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T19:26:31.433Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391098,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391098,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T19:26:35.724Z",
    "t": 1
   }
  ]
