@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T13:27:46.647Z",
- "updated_unix": 1793626066,
- "runs": 14669,
+ "updated": "2026-11-02T14:00:12.148Z",
+ "updated_unix": 1793628012,
+ "runs": 14670,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 113515,
- "sent_total": 3758249,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 113517,
+ "sent_total": 3758400,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40572,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40572,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "t": 3
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40573,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40573,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:27:43.787Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269500,
+   "owner": "",
+   "owner_addr": "0:295337be4dac98f27f852d91ed85da25bb8b9172f390b4c07dd7db0db7e11146",
+   "mint": 1793625686,
+   "counter_issued": 269500,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:00:06.820Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269501,
+   "owner": "",
+   "owner_addr": "0:575c7ee38b857fc166e9527ff5541f94f2c8326250f0a29a2c1a8adabeda81ca",
+   "mint": 1793627959,
+   "counter_issued": 269501,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:00:06.820Z",
    "t": 1
   }
  ]
