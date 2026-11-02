@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T14:18:22.702Z",
- "updated_unix": 1793629102,
- "runs": 14676,
+ "updated": "2026-11-02T14:36:31.357Z",
+ "updated_unix": 1793630191,
+ "runs": 14677,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113529,
- "sent_total": 3759309,
+ "detected_total": 113530,
+ "sent_total": 3759385,
  "last_upgrades": [
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56246,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56246,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:55:01.052Z",
-   "t": 3
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:18:18.917Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:18:18.917Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19816,
+   "owner": "tyrkakruptan.ton",
+   "owner_addr": "0:39a277f060a778be569563b8bcc3bc2e8fb6a24ada504b24b78260cb9e075e7e",
+   "mint": 1793624112,
+   "counter_issued": 19816,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:36:29.310Z",
    "t": 1
   }
  ]
