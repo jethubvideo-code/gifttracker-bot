@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-02T18:13:21.950Z",
- "updated_unix": 1793643201,
- "runs": 14712,
+ "updated": "2026-11-02T18:14:25.691Z",
+ "updated_unix": 1793643265,
+ "runs": 14713,
  "collections": 123,
- "checked": 2,
- "errors": 121,
- "detected_total": 114301,
- "sent_total": 3818658,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 114304,
+ "sent_total": 3818889,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328971,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328971,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:00:53.931Z",
-   "t": 3
-  },
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328972,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328972,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:00:53.931Z",
-   "t": 3
-  },
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328973,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328973,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:00:53.931Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -305,7 +263,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -319,7 +277,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -333,7 +291,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -347,7 +305,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -361,7 +319,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -375,7 +333,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -389,7 +347,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -403,7 +361,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:11:16.016Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -417,7 +375,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:13:16.810Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -431,6 +389,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T18:13:16.810Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269553,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269553,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T18:14:18.012Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269554,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269554,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T18:14:18.012Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269555,
+   "owner": "",
+   "owner_addr": "0:3cd5010a90559db43d3465cd6d159e53a65831eb6314100806957ef0dc862146",
+   "mint": 1793643039,
+   "counter_issued": 269555,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T18:14:18.012Z",
    "t": 1
   }
  ]
