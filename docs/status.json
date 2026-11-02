@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T19:29:44.359Z",
- "updated_unix": 1793647784,
- "runs": 14733,
+ "updated": "2026-11-02T19:31:41.862Z",
+ "updated_unix": 1793647901,
+ "runs": 14734,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 114539,
- "sent_total": 3836984,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 114540,
+ "sent_total": 3837061,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 32934,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32934,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:52:35.808Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:29:32.128Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:29:32.128Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:29:32.128Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:29:32.128Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:29:42.243Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391100,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391100,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T19:31:39.263Z",
    "t": 1
   }
  ]
