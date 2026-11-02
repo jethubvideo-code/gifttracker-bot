@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T23:09:38.112Z",
- "updated_unix": 1793660978,
- "runs": 14759,
+ "updated": "2026-11-02T23:31:02.210Z",
+ "updated_unix": 1793662262,
+ "runs": 14760,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114626,
- "sent_total": 3843683,
+ "detected_total": 114627,
+ "sent_total": 3843760,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443211,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443211,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T21:56:22.746Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T23:09:34.037Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108648,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793652699,
+   "counter_issued": 108648,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T23:30:59.963Z",
    "t": 1
   }
  ]
