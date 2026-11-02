@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T23:33:04.651Z",
- "updated_unix": 1793662384,
- "runs": 14762,
+ "updated": "2026-11-02T23:35:04.964Z",
+ "updated_unix": 1793662504,
+ "runs": 14763,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114636,
- "sent_total": 3844453,
+ "detected_total": 114638,
+ "sent_total": 3844607,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84439,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84439,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T23:06:30.126Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84440,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84440,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T23:06:30.126Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T23:33:00.418Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134048,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134048,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T23:35:01.012Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134049,
+   "owner": "",
+   "owner_addr": "0:e7d21677877e3d648cc390945cdaa1bd285a02ed839a5f362cb027de333fca44",
+   "mint": 1793660180,
+   "counter_issued": 134049,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T23:35:01.012Z",
    "t": 1
   }
  ]
