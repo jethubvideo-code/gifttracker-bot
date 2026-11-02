@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-02T14:13:18.157Z",
- "updated_unix": 1793628798,
- "runs": 14675,
+ "updated": "2026-11-02T14:18:22.702Z",
+ "updated_unix": 1793629102,
+ "runs": 14676,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 113527,
- "sent_total": 3759157,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 113529,
+ "sent_total": 3759309,
  "last_upgrades": [
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56244,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56244,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:55:01.052Z",
-   "t": 3
-  },
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56245,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56245,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:55:01.052Z",
-   "t": 3
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T14:13:16.212Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269504,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269504,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:18:18.917Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269505,
+   "owner": "",
+   "owner_addr": "0:2d249f6109538e1a3599992d94056c99e48c5336d2f0f40afaf112e6646dadd4",
+   "mint": 1793628756,
+   "counter_issued": 269505,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T14:18:18.917Z",
    "t": 1
   }
  ]
