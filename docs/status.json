@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T13:24:50.922Z",
- "updated_unix": 1793625890,
- "runs": 14668,
+ "updated": "2026-11-02T13:27:46.647Z",
+ "updated_unix": 1793626066,
+ "runs": 14669,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 113514,
- "sent_total": 3758173,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 113515,
+ "sent_total": 3758249,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40571,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40571,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:06:31.001Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:24:40.491Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:24:40.491Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:24:40.491Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:24:48.867Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134018,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134018,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T13:27:43.787Z",
    "t": 1
   }
  ]
