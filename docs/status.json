@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T07:32:22.726Z",
- "updated_unix": 1793604742,
- "runs": 14616,
+ "updated": "2026-11-02T07:33:22.160Z",
+ "updated_unix": 1793604802,
+ "runs": 14617,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113312,
- "sent_total": 3742950,
+ "detected_total": 113313,
+ "sent_total": 3743026,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82907,
-   "owner": "",
-   "owner_addr": "0:4ee7c9f9e9955b593c544ab800b2a74b516aa59fe0daf1b93a0f1ea5d3434303",
-   "mint": 1793585041,
-   "counter_issued": 82907,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:54:42.131Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:32:18.164Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90521,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90521,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:33:18.163Z",
    "t": 1
   }
  ]
