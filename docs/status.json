@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T07:31:25.152Z",
- "updated_unix": 1793604685,
- "runs": 14615,
+ "updated": "2026-11-02T07:32:22.726Z",
+ "updated_unix": 1793604742,
+ "runs": 14616,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113311,
- "sent_total": 3742874,
+ "detected_total": 113312,
+ "sent_total": 3742950,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52483,
-   "owner": "",
-   "owner_addr": "0:e3fa9d59443e0fab2ce36f7f0af8468b42913d41c2d3e74ce1e27806ef9341b0",
-   "mint": 1793599202,
-   "counter_issued": 52483,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T06:54:16.173Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:31:20.735Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:31:23.716Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90520,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90520,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:32:18.164Z",
    "t": 1
   }
  ]
