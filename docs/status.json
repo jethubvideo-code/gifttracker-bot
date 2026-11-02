@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T13:04:36.904Z",
- "updated_unix": 1793624676,
- "runs": 14666,
+ "updated": "2026-11-02T13:06:33.642Z",
+ "updated_unix": 1793624793,
+ "runs": 14667,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 113509,
- "sent_total": 3757793,
+ "detected_total": 113510,
+ "sent_total": 3757869,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40566,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40566,
-   "counter_total": 49969,
-   "img": "https://cdn4.telesco.pe/file/uA-dlBi-6pjlE7yJPct8Aq1MLSainYa8PlDTbXrhf82hdnvyvari_vM0_FEapp8Jdbqz06qCihn-EGLVfpjgBjoWcQzAoE0AypNB8NComrRFnvLfskSIGZJqaMw94qIcyIVbkVVA_5TIA2YREtX9tnRqCz8gOWVzf54MMWtJ1PrA_RJOrOwXrERBS7Ufvllu5HUnVLCnf3nqwiLZMKneSltKsiOnCmEw2Si8TIP6COLj343LLxPoK41PAtn6mH4K_lYFy4MJYos_ZmbKqruFwYISY4lGPUmwaFLdHQMzlCn9NSvRHDt0DJfW5HYj3Tvx5wQkEHQGK0WMyCbQ-4wtig.jpg",
-   "sent": 0,
-   "time": "2026-11-02T12:53:47.719Z",
-   "u": 1
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:04:31.070Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T13:04:34.805Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443171,
+   "owner": "",
+   "owner_addr": "0:e6e874eb17f67cc597825c7870494e253e30c9db1481084ef26a70cd616a8e9e",
+   "mint": 1793624653,
+   "counter_issued": 443171,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T13:06:31.001Z",
    "t": 1
   }
  ]
