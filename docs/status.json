@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-02T19:39:48.663Z",
- "updated_unix": 1793648388,
- "runs": 14735,
+ "updated": "2026-11-02T19:57:50.572Z",
+ "updated_unix": 1793649470,
+ "runs": 14736,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114543,
- "sent_total": 3837292,
+ "detected_total": 114546,
+ "sent_total": 3837523,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 32938,
-   "owner": "",
-   "owner_addr": "0:14caa8e219b0b3e59d03ad3b3fb6217fd1e4b135359c26d8ce463276ae2067ab",
-   "mint": 1793645286,
-   "counter_issued": 32938,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:52:35.808Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85146,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85146,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:53:02.075Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90547,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90547,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-02T18:53:36.025Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:39:42.431Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:39:42.431Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T19:39:42.431Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443205,
+   "owner": "",
+   "owner_addr": "0:bcb0f24ebd7597eef885681e6d0b74afb4ab7d2a90004ac0e518ed1dfac072f1",
+   "mint": 1793648500,
+   "counter_issued": 443205,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T19:57:39.126Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391101,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391101,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T19:57:42.725Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269578,
+   "owner": "",
+   "owner_addr": "0:9cb1874d89b4324445053ab62dd688831510946e4cf14944aaa5ca1ca8318256",
+   "mint": 1793649009,
+   "counter_issued": 269578,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T19:57:48.652Z",
    "t": 1
   }
  ]
