@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-02T07:01:31.146Z",
- "updated_unix": 1793602891,
- "runs": 14610,
+ "updated": "2026-11-02T07:05:30.323Z",
+ "updated_unix": 1793603130,
+ "runs": 14611,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 113302,
- "sent_total": 3742190,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 113303,
+ "sent_total": 3742266,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53507,
-   "owner": "savemod-jester.ton",
-   "owner_addr": "0:c12a091c3f4366da65c39330b6c1b02a9f1c15dd2240a8944c3af8226482ffbd",
-   "mint": 1793564298,
-   "counter_issued": 53507,
-   "counter_total": 66580,
-   "img": "https://cdn4.telesco.pe/file/WoDnyJiKRYcPmeRZxfU9jZn-XiTu3H3gyUiRSoxKy6PhOJ7qXt6fJJca2aN-D9uvMOuBb3M99NoFUKN4anOVk5BkUMFc6cWQMC8ot9o29HHFmxVrYZj6YoVI45Qmk4ez4olxiCOptWzmZvKrnWMtZziUXZ4CoBE1sMiSK0HANC4TbRJrzTtFabbazt6ZyK2UQPwujFL4655uFVOAkpfio_SRKqzUNjKT4E3Odzl-njdIrvS96ANTpPMDLwx777DXsRVY_H2WmyQR71YJzVkO9yz1CU3w3hkCTgrfzj0f156R9Uf59s8-PgIQzjElVgHYmKwOtboDNWkIwpeoem7CXw.jpg",
-   "sent": 0,
-   "time": "2026-11-02T06:52:13.383Z",
-   "u": 1
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-02T07:01:27.212Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391043,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391043,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-02T07:05:27.318Z",
    "t": 1
   }
  ]
