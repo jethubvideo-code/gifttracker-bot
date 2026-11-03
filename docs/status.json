@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T20:55:34.344Z",
- "updated_unix": 1793739334,
- "runs": 14909,
+ "updated": "2026-11-03T20:57:39.259Z",
+ "updated_unix": 1793739459,
+ "runs": 14910,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115515,
- "sent_total": 3911751,
+ "detected_total": 115516,
+ "sent_total": 3911828,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78112,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78112,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T20:53:59.002Z",
-   "t": 2
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T20:53:59.002Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T20:53:59.002Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T20:53:59.002Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T20:55:30.305Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T20:55:30.305Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134090,
+   "owner": "",
+   "owner_addr": "0:cb2339f469f7db124658b58bd601f5175c8d490da884730fe6f48e830bf325dc",
+   "mint": 1793739229,
+   "counter_issued": 134090,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T20:57:37.170Z",
    "t": 1
   }
  ]
