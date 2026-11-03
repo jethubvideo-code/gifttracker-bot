@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T16:02:29.779Z",
- "updated_unix": 1793721749,
- "runs": 14857,
+ "updated": "2026-11-03T16:04:28.973Z",
+ "updated_unix": 1793721868,
+ "runs": 14858,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115100,
- "sent_total": 3880180,
+ "detected_total": 115101,
+ "sent_total": 3880257,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90567,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90567,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T14:55:47.789Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T15:45:03.534Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:02:27.198Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108661,
+   "owner": "derrn.t.me",
+   "owner_addr": "0:67143512f5037002db7e02c267eff5c815834995c21d21485c3c006db5f6afb9",
+   "mint": 1793718069,
+   "counter_issued": 108661,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T16:04:26.762Z",
    "t": 1
   }
  ]
