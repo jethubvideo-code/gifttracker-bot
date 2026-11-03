@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T09:05:38.807Z",
- "updated_unix": 1793696738,
- "runs": 14797,
+ "updated": "2026-11-03T09:08:35.274Z",
+ "updated_unix": 1793696915,
+ "runs": 14798,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114809,
- "sent_total": 3857774,
+ "detected_total": 114810,
+ "sent_total": 3857851,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85159,
-   "owner": "",
-   "owner_addr": "0:e7d21677877e3d648cc390945cdaa1bd285a02ed839a5f362cb027de333fca44",
-   "mint": 1793660190,
-   "counter_issued": 85159,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T06:16:15.296Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T09:05:33.413Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T09:05:37.175Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23117,
+   "owner": "",
+   "owner_addr": "0:482662d4bcf3497c94f5d2bb22b199700f74bb840fbbb168c463776965c54ecb",
+   "mint": 1793694429,
+   "counter_issued": 23117,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T09:08:33.376Z",
    "t": 1
   }
  ]
