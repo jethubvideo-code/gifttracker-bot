@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-03T10:11:58.194Z",
- "updated_unix": 1793700718,
- "runs": 14802,
+ "updated": "2026-11-03T10:13:07.020Z",
+ "updated_unix": 1793700787,
+ "runs": 14803,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 114819,
- "sent_total": 3858544,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 114824,
+ "sent_total": 3858929,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391120,
-   "owner": "",
-   "owner_addr": "0:1e29e80e5baeccaca6f7c150baeee8c7685f87a375fc060d262a4d5a0a297636",
-   "mint": 1793691756,
-   "counter_issued": 391120,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T07:47:38.660Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134051,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134051,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T07:47:45.516Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134052,
-   "owner": "",
-   "owner_addr": "0:6929512f245e51e6a13093fec3f0a62805c41aa47782022aad08f88db39c2c4c",
-   "mint": 1793679797,
-   "counter_issued": 134052,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T07:47:45.516Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134053,
-   "owner": "",
-   "owner_addr": "0:6929512f245e51e6a13093fec3f0a62805c41aa47782022aad08f88db39c2c4c",
-   "mint": 1793679800,
-   "counter_issued": 134053,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T07:47:45.516Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108651,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108651,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T07:50:46.468Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:11:49.187Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:11:49.187Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:11:54.491Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:11:54.491Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443229,
+   "owner": "",
+   "owner_addr": "0:bb053338f80ea6a26a9e24dc8ddb622c7f2d4e6892c6210163c534a9fdc95564",
+   "mint": 1793699727,
+   "counter_issued": 443229,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:12:56.887Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443230,
+   "owner": "",
+   "owner_addr": "0:bb053338f80ea6a26a9e24dc8ddb622c7f2d4e6892c6210163c534a9fdc95564",
+   "mint": 1793699765,
+   "counter_issued": 443230,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:12:56.887Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443231,
+   "owner": "",
+   "owner_addr": "0:a4329cab503884635a2995b20b763539ea4f4c7734b41a2ea3d02e1f9a4207be",
+   "mint": 1793699767,
+   "counter_issued": 443231,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:12:56.887Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443232,
+   "owner": "",
+   "owner_addr": "0:a4329cab503884635a2995b20b763539ea4f4c7734b41a2ea3d02e1f9a4207be",
+   "mint": 1793699795,
+   "counter_issued": 443232,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:12:56.887Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443233,
+   "owner": "steps666.ton",
+   "owner_addr": "0:4da1281ef34d7ee463beb10a699eb26112db86d62a65678a9fc70cc6d5283f06",
+   "mint": 1793699987,
+   "counter_issued": 443233,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:12:56.887Z",
    "t": 1
   }
  ]
