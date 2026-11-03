@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T09:01:32.471Z",
- "updated_unix": 1793696492,
- "runs": 14795,
+ "updated": "2026-11-03T09:02:36.031Z",
+ "updated_unix": 1793696556,
+ "runs": 14796,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 114806,
- "sent_total": 3857543,
+ "detected_total": 114807,
+ "sent_total": 3857620,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85156,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85156,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T06:16:15.296Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T09:01:28.458Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T09:01:28.458Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108653,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793695783,
+   "counter_issued": 108653,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T09:02:33.755Z",
    "t": 1
   }
  ]
