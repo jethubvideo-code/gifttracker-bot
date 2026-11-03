@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T10:53:01.991Z",
- "updated_unix": 1793703181,
- "runs": 14814,
+ "updated": "2026-11-03T10:55:04.723Z",
+ "updated_unix": 1793703304,
+ "runs": 14815,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114954,
- "sent_total": 3868939,
+ "detected_total": 114955,
+ "sent_total": 3869016,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269633,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269633,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T10:27:19.776Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:52:59.435Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16986,
+   "owner": "bayishop.ton",
+   "owner_addr": "0:a3bdfb80d85fa26fb35ca4163dc90a3e988998be3cf37566530921047f4b0341",
+   "mint": 1793672476,
+   "counter_issued": 16986,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:55:02.735Z",
    "t": 1
   }
  ]
