@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T10:22:26.298Z",
- "updated_unix": 1793701346,
- "runs": 14809,
+ "updated": "2026-11-03T10:26:24.773Z",
+ "updated_unix": 1793701584,
+ "runs": 14810,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114921,
- "sent_total": 3866398,
+ "detected_total": 114922,
+ "sent_total": 3866475,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40587,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40587,
-   "counter_total": 49969,
-   "img": "https://cdn4.telesco.pe/file/ngymydmS-QA8mrwLUL_TMu15omG0j8C188gr-HGwB9mf6fJFbQ-mHekM1Ix9issDD9Q7VjlkZfpqYk0RV-Bn6e_mwd8iEMoX9NGOFRL6UeWQO5SK9II5JKGTWyDy9YR95Dv5ayMWQM3B2wogCam33PkpGI13nA1ECno6T5GvTcgmCkRj107MD0fFkV48cK1N79iUlZ7RgoYWWiqrytgrgCR8SfN9PIyZN6Og_d3un41im4k5vsubo3qIE6E4EvWIia6kNBo0d7k-YF5JAR_3IxoKo5TLDnBQSpyPy90MWTlnlOQ3kD8-doN8iCQO_n2PNWEZgOJd5jpu2h6gZGdXpA.jpg",
-   "sent": 0,
-   "time": "2026-11-03T10:19:08.515Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:22:24.437Z",
+   "t": 3
+  },
+  {
+   "slug": "LowRider",
+   "gift": "Low Rider",
+   "number": 23493,
+   "owner": "",
+   "owner_addr": "0:6e756e7a344a94343731ab2eaf1ee2df9b2da996d8bbda46570fb4e67f6175c4",
+   "mint": 1793695293,
+   "counter_issued": 23493,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:26:22.970Z",
    "t": 1
   }
  ]
