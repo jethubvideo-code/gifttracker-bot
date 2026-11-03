@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T21:37:04.243Z",
- "updated_unix": 1793741824,
- "runs": 14918,
+ "updated": "2026-11-03T22:31:57.406Z",
+ "updated_unix": 1793745117,
+ "runs": 14919,
  "collections": 123,
- "checked": 24,
- "errors": 99,
- "detected_total": 115532,
- "sent_total": 3913060,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 115533,
+ "sent_total": 3913137,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78129,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78129,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T20:53:59.002Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:35:36.357Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:35:41.793Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:37:02.188Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443262,
+   "owner": "huai_baike.t.me",
+   "owner_addr": "0:275ef1872eaf465a8abc00a2f74615df83664552b7d4c4ab139d001c7e1127ad",
+   "mint": 1793744664,
+   "counter_issued": 443262,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T22:31:55.598Z",
    "t": 1
   }
  ]
