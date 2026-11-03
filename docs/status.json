@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T14:21:17.657Z",
- "updated_unix": 1793715677,
- "runs": 14843,
+ "updated": "2026-11-03T14:22:18.229Z",
+ "updated_unix": 1793715738,
+ "runs": 14844,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115060,
- "sent_total": 3877100,
+ "detected_total": 115061,
+ "sent_total": 3877177,
  "last_upgrades": [
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19817,
-   "owner": "",
-   "owner_addr": "0:409ea208b0404dffbb5c75d39eb68ec044b2c691f3c7246c4d5133c209d164bf",
-   "mint": 1793686794,
-   "counter_issued": 19817,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T12:09:51.057Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T14:21:15.302Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443240,
+   "owner": "expion.t.me",
+   "owner_addr": "0:85e7b188b8dfc7fec7bd982f976a2d2967fbde4da82db2227128244d336a4d2a",
+   "mint": 1793715488,
+   "counter_issued": 443240,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T14:22:15.302Z",
    "t": 1
   }
  ]
