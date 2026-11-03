@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T19:06:14.813Z",
- "updated_unix": 1793732774,
- "runs": 14889,
+ "updated": "2026-11-03T19:09:23.205Z",
+ "updated_unix": 1793732963,
+ "runs": 14890,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115167,
- "sent_total": 3885003,
+ "detected_total": 115168,
+ "sent_total": 3885080,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74059,
-   "owner": "",
-   "owner_addr": "0:6ed284e46bf3415222e0576988307f8d30fc7a78e4e3350bcaacf6060e38a85d",
-   "mint": 1793727674,
-   "counter_issued": 74059,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T18:05:48.593Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:06:03.591Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:06:03.591Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:06:11.013Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90579,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90579,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:09:21.667Z",
    "t": 1
   }
  ]
