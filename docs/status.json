@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T19:37:33.058Z",
- "updated_unix": 1793734653,
- "runs": 14895,
+ "updated": "2026-11-03T19:40:02.540Z",
+ "updated_unix": 1793734802,
+ "runs": 14896,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 115416,
- "sent_total": 3904145,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 115418,
+ "sent_total": 3904299,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138397,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138397,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138398,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138398,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:37:24.351Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:37:30.415Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391164,
+   "owner": "",
+   "owner_addr": "0:a034f35652181548292f6c0bfee9b8e9f13ffdc58e5bc2c84e58b014cc6e7787",
+   "mint": 1793733354,
+   "counter_issued": 391164,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:39:58.700Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391165,
+   "owner": "",
+   "owner_addr": "0:a817f5950d0efaba99c9051045f8475a7fa56baf8786b881f2b59a5a0e7dba9f",
+   "mint": 1793733480,
+   "counter_issued": 391165,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:39:58.700Z",
    "t": 1
   }
  ]
