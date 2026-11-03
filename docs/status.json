@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T04:24:23.959Z",
- "updated_unix": 1793679863,
- "runs": 14774,
+ "updated": "2026-11-03T04:27:16.055Z",
+ "updated_unix": 1793680036,
+ "runs": 14775,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114758,
- "sent_total": 3853847,
+ "detected_total": 114759,
+ "sent_total": 3853924,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78379,
-   "owner": "",
-   "owner_addr": "0:ceca12b247f216b4b3ca153f17cda0259c27c71a70c37a72fa75ca7844a161be",
-   "mint": 1793630667,
-   "counter_issued": 78379,
-   "counter_total": 101415,
-   "img": "https://cdn4.telesco.pe/file/MseSfkOhejBcUH2wcOX3DNMJ2LlCa3Ulvq9lf7BafpBx0pJ0XGBoqqdA2DwGsrSmDYORSPBq_uenVXrIppKsfewQVSSS8hsE6_H4cVjIuWfGn4mlwvjSh4y2dnqz5tLKZTpbccmo3_lqDACDAe7Yvb1GQZ_9C21d04oDA44r_66FbkqcsTl9DdTRtx0fiYPEPeArpp3eYNCfK6zc6hn_oBV6pKiJm7coBo0CE87XurWUKoR33pSan1t37GqQDsHixOvNJZqy-xpsWRoI3Gou9dnqgNj4gQI8YO_CXmlUWtNgHZZEyVNARrbFBIUnEJljMRXFKmFI_C4LWGmt74uqlg.jpg",
-   "sent": 0,
-   "time": "2026-11-03T03:46:03.107Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T04:24:16.481Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T04:24:21.993Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443219,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443219,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T04:27:14.272Z",
    "t": 1
   }
  ]
