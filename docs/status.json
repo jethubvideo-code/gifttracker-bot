@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T06:47:52.408Z",
- "updated_unix": 1793688472,
- "runs": 14783,
+ "updated": "2026-11-03T07:13:13.769Z",
+ "updated_unix": 1793689993,
+ "runs": 14784,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114786,
- "sent_total": 3856003,
+ "detected_total": 114787,
+ "sent_total": 3856080,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443218,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793678743,
-   "counter_issued": 443218,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T04:24:16.481Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T06:47:48.690Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22080,
+   "owner": "",
+   "owner_addr": "0:5a73546d2df5c318af83df874ed6c0af6e7c6bf2a054dc1d9eb8d76f906cdf9a",
+   "mint": 1793674110,
+   "counter_issued": 22080,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T07:13:11.704Z",
    "t": 1
   }
  ]
