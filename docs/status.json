@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T18:06:02.341Z",
- "updated_unix": 1793729162,
- "runs": 14877,
+ "updated": "2026-11-03T18:08:04.476Z",
+ "updated_unix": 1793729284,
+ "runs": 14878,
  "collections": 123,
- "checked": 1,
- "errors": 122,
- "detected_total": 115138,
- "sent_total": 3882770,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 115140,
+ "sent_total": 3882924,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134076,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134076,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T16:20:48.556Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90572,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90572,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T16:37:46.662Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:05:48.593Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:05:48.593Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:05:48.593Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:05:48.593Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:05:48.593Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391156,
+   "owner": "",
+   "owner_addr": "0:2307d1bda4df3095c0ff3ca498c89d7f7ce1c93e604459914705c9fa394e60a6",
+   "mint": 1793728226,
+   "counter_issued": 391156,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:07:59.402Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391157,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793729138,
+   "counter_issued": 391157,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:07:59.402Z",
    "t": 1
   }
  ]
