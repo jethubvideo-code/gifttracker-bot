@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T17:17:34.841Z",
- "updated_unix": 1793726254,
- "runs": 14869,
+ "updated": "2026-11-03T17:20:31.746Z",
+ "updated_unix": 1793726431,
+ "runs": 14870,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 115119,
- "sent_total": 3881307,
+ "detected_total": 115120,
+ "sent_total": 3881384,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391143,
-   "owner": "",
-   "owner_addr": "0:4cd255da389a98dc4307209632fb6ea25176eebf86f04d6d6a4da191fe18e214",
-   "mint": 1793717367,
-   "counter_issued": 391143,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T15:27:07.345Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T17:17:24.470Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T17:17:31.636Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232343,
+   "owner": "meytik.t.me",
+   "owner_addr": "0:0f76456e71236477705fe4b6bb9c62845c87d643cd97cd576fbdaba7b401e2cd",
+   "mint": 1793725174,
+   "counter_issued": 232343,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T17:20:28.759Z",
    "t": 1
   }
  ]
