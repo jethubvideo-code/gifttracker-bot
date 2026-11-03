@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T14:56:57.314Z",
- "updated_unix": 1793717817,
- "runs": 14849,
+ "updated": "2026-11-03T15:04:49.479Z",
+ "updated_unix": 1793718289,
+ "runs": 14850,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115075,
- "sent_total": 3878255,
+ "detected_total": 115076,
+ "sent_total": 3878332,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232342,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793707944,
-   "counter_issued": 232342,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:13:34.885Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T14:56:50.061Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T14:56:50.061Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T14:56:50.061Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134072,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134072,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T15:04:47.900Z",
    "t": 1
   }
  ]
