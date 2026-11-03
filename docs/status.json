@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T21:04:59.974Z",
- "updated_unix": 1793739899,
- "runs": 14913,
+ "updated": "2026-11-03T21:21:28.481Z",
+ "updated_unix": 1793740888,
+ "runs": 14914,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 115525,
- "sent_total": 3912521,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 115527,
+ "sent_total": 3912675,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78122,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78122,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T20:53:59.002Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78123,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78123,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T20:53:59.002Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:04:49.675Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:04:49.675Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:04:49.675Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:04:49.675Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:04:49.675Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108673,
+   "owner": "",
+   "owner_addr": "0:7a2fc160a60850f4d8510e083cfbe64d2ce1c1d30899b1afb8cec40badb505ed",
+   "mint": 1793739006,
+   "counter_issued": 108673,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T21:21:20.628Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232344,
+   "owner": "",
+   "owner_addr": "0:3cea337d694b8de55a604251f3fe31c52d7e72e276cf3b18afbc3be4a929dcfd",
+   "mint": 1793736903,
+   "counter_issued": 232344,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T21:21:26.799Z",
    "t": 1
   }
  ]
