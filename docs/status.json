@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T21:23:25.752Z",
- "updated_unix": 1793741005,
- "runs": 14915,
+ "updated": "2026-11-03T21:28:30.285Z",
+ "updated_unix": 1793741310,
+ "runs": 14916,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 115528,
- "sent_total": 3912752,
+ "detected_total": 115529,
+ "sent_total": 3912829,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78125,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78125,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T20:53:59.002Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T21:23:23.952Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391172,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391172,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T21:28:28.537Z",
    "t": 1
   }
  ]
