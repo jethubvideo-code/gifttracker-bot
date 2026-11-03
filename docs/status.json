@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-03T09:33:03.494Z",
- "updated_unix": 1793698383,
- "runs": 14800,
+ "updated": "2026-11-03T10:08:54.119Z",
+ "updated_unix": 1793700534,
+ "runs": 14801,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114812,
- "sent_total": 3858005,
+ "detected_total": 114815,
+ "sent_total": 3858236,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391119,
-   "owner": "",
-   "owner_addr": "0:3579ec1fb08856625cdd8341701d38d189f24290eac855219e59bc8ca0c488ff",
-   "mint": 1793685537,
-   "counter_issued": 391119,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T06:18:21.540Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443223,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443223,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T06:35:51.728Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443224,
-   "owner": "",
-   "owner_addr": "0:eb330c77ca0b3e43c1b26f6d2b7011732a15e3a800dd55c122e34aa78ed15ad3",
-   "mint": 1793686952,
-   "counter_issued": 443224,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T06:35:51.728Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T09:12:33.289Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T09:33:01.234Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134056,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134056,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:08:43.071Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134057,
+   "owner": "",
+   "owner_addr": "0:c448eebadb0781063d86e1d398c7e231ceed9c5f42147cc0325b3cf714f8e67e",
+   "mint": 1793697077,
+   "counter_issued": 134057,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:08:43.071Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391123,
+   "owner": "",
+   "owner_addr": "0:183eebaf19f14ac0a9c200793205ffebc778a33265e842e4246055df99787992",
+   "mint": 1793700152,
+   "counter_issued": 391123,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:08:52.314Z",
    "t": 1
   }
  ]
