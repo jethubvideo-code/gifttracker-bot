@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T20:21:09.366Z",
- "updated_unix": 1793737269,
- "runs": 14904,
+ "updated": "2026-11-03T20:23:09.154Z",
+ "updated_unix": 1793737389,
+ "runs": 14905,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 115438,
- "sent_total": 3905839,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 115439,
+ "sent_total": 3905916,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138419,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138419,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T20:21:07.675Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134088,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134088,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T20:23:07.648Z",
    "t": 1
   }
  ]
