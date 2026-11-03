@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T15:06:55.218Z",
- "updated_unix": 1793718415,
- "runs": 14851,
+ "updated": "2026-11-03T15:07:51.733Z",
+ "updated_unix": 1793718471,
+ "runs": 14852,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115078,
- "sent_total": 3878486,
+ "detected_total": 115079,
+ "sent_total": 3878563,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108659,
-   "owner": "",
-   "owner_addr": "0:4babc3c939c93ad382a9fbda6f5efbdf662566211431b615cdee9bea41a7bcda",
-   "mint": 1793710935,
-   "counter_issued": 108659,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:43:47.926Z",
-   "t": 3
-  },
   {
    "slug": "SwissWatch",
    "gift": "Swiss Watch",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T15:06:50.286Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T15:06:53.594Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23118,
+   "owner": "expion.t.me",
+   "owner_addr": "0:85e7b188b8dfc7fec7bd982f976a2d2967fbde4da82db2227128244d336a4d2a",
+   "mint": 1793715499,
+   "counter_issued": 23118,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T15:07:50.086Z",
    "t": 1
   }
  ]
