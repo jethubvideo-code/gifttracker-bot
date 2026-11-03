@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T01:19:32.133Z",
- "updated_unix": 1793668772,
- "runs": 14767,
+ "updated": "2026-11-03T02:28:15.281Z",
+ "updated_unix": 1793672895,
+ "runs": 14768,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114674,
- "sent_total": 3847379,
+ "detected_total": 114676,
+ "sent_total": 3847533,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35662,
-   "owner": "",
-   "owner_addr": "0:00d10f3e101070c002cb3aefa83a42e9814ef400ad90fec190d611c4fce33481",
-   "mint": 1793622270,
-   "counter_issued": 35662,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T00:07:28.800Z",
-   "t": 3
-  },
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35663,
-   "owner": "",
-   "owner_addr": "0:00d10f3e101070c002cb3aefa83a42e9814ef400ad90fec190d611c4fce33481",
-   "mint": 1793622317,
-   "counter_issued": 35663,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T00:07:28.800Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "Valentine Box",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T01:19:28.174Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443215,
+   "owner": "",
+   "owner_addr": "0:f9627391aa0348813cee948ec2547bc4b62c86fb67e2d8aa7b0e97af3d027431",
+   "mint": 1793668423,
+   "counter_issued": 443215,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T02:28:05.724Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90556,
+   "owner": "nesanya.ton",
+   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
+   "mint": 1793659446,
+   "counter_issued": 90556,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T02:28:12.977Z",
    "t": 1
   }
  ]
