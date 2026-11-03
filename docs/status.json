@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-03T19:40:02.540Z",
- "updated_unix": 1793734802,
- "runs": 14896,
+ "updated": "2026-11-03T19:43:41.564Z",
+ "updated_unix": 1793735021,
+ "runs": 14897,
  "collections": 123,
- "checked": 1,
- "errors": 122,
- "detected_total": 115418,
- "sent_total": 3904299,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 115422,
+ "sent_total": 3904607,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138399,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138399,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138400,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138400,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138401,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138401,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138402,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138402,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:37:24.351Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:37:30.415Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:39:58.700Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:39:58.700Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443255,
+   "owner": "",
+   "owner_addr": "0:4c16c9a45b37cc351f3d96838e21c41be4fc97c642f963a60ae3cd25241d913c",
+   "mint": 1793734587,
+   "counter_issued": 443255,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:43:30.973Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108669,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108669,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:43:34.524Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108670,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108670,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:43:34.524Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108671,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108671,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:43:34.524Z",
    "t": 1
   }
  ]
