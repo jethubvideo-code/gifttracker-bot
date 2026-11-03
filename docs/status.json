@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T10:50:03.852Z",
- "updated_unix": 1793703003,
- "runs": 14813,
+ "updated": "2026-11-03T10:53:01.991Z",
+ "updated_unix": 1793703181,
+ "runs": 14814,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114953,
- "sent_total": 3868862,
+ "detected_total": 114954,
+ "sent_total": 3868939,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269632,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269632,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T10:27:19.776Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:49:59.457Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T10:49:59.457Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "SkullFlower",
+   "number": 22081,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 22081,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T10:52:59.435Z",
    "t": 1
   }
  ]
