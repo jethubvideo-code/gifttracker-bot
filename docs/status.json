@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T16:12:38.542Z",
- "updated_unix": 1793722358,
- "runs": 14861,
+ "updated": "2026-11-03T16:18:35.808Z",
+ "updated_unix": 1793722715,
+ "runs": 14862,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 115106,
- "sent_total": 3880642,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 115108,
+ "sent_total": 3880684,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443246,
-   "owner": "",
-   "owner_addr": "0:e4b4141422f7f108f4647ab39f5bb7bc6c1200879d764a63be1b7b48b104b769",
-   "mint": 1793717619,
-   "counter_issued": 443246,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T15:06:50.286Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269703,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269703,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T15:06:53.594Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:12:34.583Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:12:34.583Z",
-   "t": 1
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134074,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793721435,
+   "counter_issued": 134074,
+   "counter_total": 181231,
+   "img": "https://cdn4.telesco.pe/file/e71jpcQ5QJDHQyvevZPVkhfB1QR7XNlgttZOrfRqNKMV3VKVO35GdLL059qXalzBMQm-IJCwylsujKIjfWGvGISu2_vioSKND8aySk16823q3OTLmndb2GL4rtgxPwJNsyHm8hCbmYd1yccXAloFThMwXMysta0imrAik6a2L6nGszkDopLP9lJTp1x2z3GHAeaRh1XDKDLtua7ltTavth0dwdw2V72_ZfrpPGnvw7CAeJaTtOyX96Ohn6ggTnDAxDg41MKZMDCNTJS8z_H5kzqV4PexkBSi-59OFNtHiI65SDquC-QEb6xZpZxn162qc7KChxDw0xCQZ4DkwVyG9Q.jpg",
+   "sent": 0,
+   "time": "2026-11-03T16:17:40.443Z",
+   "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134075,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1793721627,
+   "counter_issued": 134075,
+   "counter_total": 181231,
+   "img": "https://cdn4.telesco.pe/file/lBtJobU6URU1iTboufrD3m5wpD3jNEt7OZRQ-yd7tPy_hFqV6gg9PEEc9Ooht9TLUZt7v5Cb4J9O8uU7ft3ubfnV187vGKiLH1CATgJS3rDMfvn1WRgWK7sn5seBTmV6YFCQNbheEieOpV3QIxXvtAVPQAP33_87tMqO9-SdVHiUJmufzCkEf_4XGratlZ_urq2WyqjDsm4qvc7fARB7Jwk3TJE4avpjil5tY-xVuDVT0vAouolQ1NfwyGpmPuZZj_EzG1rRG2yYysgpVlP2XY1oJaOk6831C3wVc7pSeAdnJsIVyxXpL0VUZRxoVFQWdlS-O5ah_-ZyXFrjBnDb8Q.jpg",
+   "sent": 0,
+   "time": "2026-11-03T16:17:40.443Z",
+   "u": 1
   }
  ]
 }
