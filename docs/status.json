@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T19:12:44.057Z",
- "updated_unix": 1793733164,
- "runs": 14891,
+ "updated": "2026-11-03T19:13:25.492Z",
+ "updated_unix": 1793733205,
+ "runs": 14892,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115176,
- "sent_total": 3885696,
+ "detected_total": 115177,
+ "sent_total": 3885773,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391158,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391158,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T18:27:29.730Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -328,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:26.486Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:12:42.538Z",
+   "t": 2
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164102,
+   "owner": "",
+   "owner_addr": "0:80f03acd0fe09661cdac7197e504d49681a1ad5d5f064a75655875d1c7d74522",
+   "mint": 1793730659,
+   "counter_issued": 164102,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:13:23.456Z",
    "t": 1
   }
  ]
