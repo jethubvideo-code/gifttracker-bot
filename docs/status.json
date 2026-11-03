@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T13:43:50.056Z",
- "updated_unix": 1793713430,
- "runs": 14839,
+ "updated": "2026-11-03T13:45:52.440Z",
+ "updated_unix": 1793713552,
+ "runs": 14840,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115049,
- "sent_total": 3876253,
+ "detected_total": 115050,
+ "sent_total": 3876330,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85162,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85162,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T12:00:33.564Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T13:43:47.926Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26104,
+   "owner": "",
+   "owner_addr": "0:54c076cd5bc7885208bb71bdc0f4d06d322eefec17615438516f9af6523e0008",
+   "mint": 1793706494,
+   "counter_issued": 26104,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T13:45:48.746Z",
    "t": 1
   }
  ]
