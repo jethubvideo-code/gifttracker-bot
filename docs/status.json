@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T15:04:49.479Z",
- "updated_unix": 1793718289,
- "runs": 14850,
+ "updated": "2026-11-03T15:06:55.218Z",
+ "updated_unix": 1793718415,
+ "runs": 14851,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115076,
- "sent_total": 3878332,
+ "detected_total": 115078,
+ "sent_total": 3878486,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134067,
-   "owner": "",
-   "owner_addr": "0:0ab503e2df706a817ba33c361b4c7052adf406d9168477b622475e24b4bcae86",
-   "mint": 1793712513,
-   "counter_issued": 134067,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:41:49.136Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134068,
-   "owner": "nesanya.ton",
-   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
-   "mint": 1793713216,
-   "counter_issued": 134068,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:41:49.136Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T15:04:47.900Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443246,
+   "owner": "",
+   "owner_addr": "0:e4b4141422f7f108f4647ab39f5bb7bc6c1200879d764a63be1b7b48b104b769",
+   "mint": 1793717619,
+   "counter_issued": 443246,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T15:06:50.286Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269703,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269703,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T15:06:53.594Z",
    "t": 1
   }
  ]
