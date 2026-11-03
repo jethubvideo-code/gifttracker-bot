@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-03T14:55:53.277Z",
- "updated_unix": 1793717753,
- "runs": 14848,
+ "updated": "2026-11-03T14:56:57.314Z",
+ "updated_unix": 1793717817,
+ "runs": 14849,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115072,
- "sent_total": 3878024,
+ "detected_total": 115075,
+ "sent_total": 3878255,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443238,
-   "owner": "",
-   "owner_addr": "0:9663eb98b43c8e68e2f2a9c521b0a0e09a6113580f5923ee542dcfeb8b151f79",
-   "mint": 1793710626,
-   "counter_issued": 443238,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:05:33.081Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443239,
-   "owner": "",
-   "owner_addr": "0:636f75d2ab8dbcb49be010fbc9626669ad6bf96d34bbf7d0b15f5ff233f05dbf",
-   "mint": 1793710666,
-   "counter_issued": 443239,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:05:33.081Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269700,
-   "owner": "",
-   "owner_addr": "0:92182d93b26a9b7a000e4a95d4779c52ef3341baed453765e9c0717c3be75d08",
-   "mint": 1793710448,
-   "counter_issued": 269700,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T13:11:34.892Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T14:55:47.789Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T14:55:47.789Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134069,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134069,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T14:56:50.061Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134070,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134070,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T14:56:50.061Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134071,
+   "owner": "nesanya.ton",
+   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
+   "mint": 1793713216,
+   "counter_issued": 134071,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T14:56:50.061Z",
    "t": 1
   }
  ]
