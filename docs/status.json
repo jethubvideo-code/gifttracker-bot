@@ -1,209 +1,13 @@
 {
- "updated": "2026-11-03T11:27:32.120Z",
- "updated_unix": 1793705252,
- "runs": 14821,
+ "updated": "2026-11-03T11:30:13.957Z",
+ "updated_unix": 1793705413,
+ "runs": 14822,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115002,
- "sent_total": 3872635,
+ "detected_total": 115016,
+ "sent_total": 3873713,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3971,
-   "owner": "",
-   "owner_addr": "0:fe7b7961b376b0b381caaff010e547af44c9d786e3fa04b838d2696f9c748d9b",
-   "mint": 1793636896,
-   "counter_issued": 3971,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:20:53.570Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3972,
-   "owner": "",
-   "owner_addr": "0:2b89b829ac2a4689e1d5fdfa562377f97f6f94c0d0dbdfdca7d507abf6226b92",
-   "mint": 1793655971,
-   "counter_issued": 3972,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:20:53.570Z",
-   "t": 3
-  },
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3973,
-   "owner": "",
-   "owner_addr": "0:2623a456397f26c2d6ef2d87d17b1d086f246179f46d5bcb7b45d9952ad74f72",
-   "mint": 1793700722,
-   "counter_issued": 3973,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:20:53.570Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391126,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391126,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:23:32.188Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391127,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391127,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:23:32.188Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391128,
-   "owner": "",
-   "owner_addr": "0:895271bfcea2919b9bf28b43e241033c1d0cc3730a8172b7309e2b47b031bb48",
-   "mint": 1793702951,
-   "counter_issued": 391128,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:23:32.188Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391129,
-   "owner": "",
-   "owner_addr": "0:ab6610ff0656d4d90086a9a9563faa8f2a1a4c9519491c535c78bd4434bb3387",
-   "mint": 1793704039,
-   "counter_issued": 391129,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:23:32.188Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134060,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134060,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:23:41.607Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134061,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134061,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:23:41.607Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108658,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108658,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T11:25:35.757Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269659,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269659,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/pLV62jA-gkWg8gbZIpB_K8SUdbwG9WnsXF--ZS8u4T47G1SesrDuKU1CvpgAIEEwkMU7sglQzxBAHoQenDMPtxbKgPQCm4fI4IjFi2Oga7hk5Bo0R9td1uMhWark1m1bJaGVimzyvdxh6JR9KPrqbQOJHFBNJVq0i7IXpP3S8DCmtDPMOPi4wq69QSyfdksJ0cXrWAuazBoiG7FLMmtzSEc20Q3r7EVOVz9L4gm4IIxy8kipxr_8MEga3Uc4pjQPt0YWNQsUKEgWfigHEtdBYkXvB53Vyt7YRmLw_1hKvfTmT3oTgSpc_yHYT9KNb4Jxxk4j8PQ4yCUoH4Og74btww.jpg",
-   "sent": 0,
-   "time": "2026-11-03T11:26:49.668Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269660,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269660,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/kM0JSNw-z7H4dHBfWDzxr_VgXOMQxLwb36RUd1vO403kAN5sC5PPlUaAGTM8VJplQv9EiGunzr8cMuYtY_KdHAezcLCVLdvQm97gMXIALooyAURSsu_PYjjsG6qrmkGABWk3DktB86gVKFoIMcfuSBNOK7SKKSCVc9eMWjW0989DRrbWa5Se09DIb4NvlpyLZslmHSFdd2_Uxc8EP510nEq4y25y8gM8k46lF49JYZzUFgHzTBioMrp_QhKzXkXyd4nkBhx63qAOpx7Zpv2WrEos5uULWI96f6Iqz-WhiIxZVCccZ1x2QVR3UG5yMoSwA4jWw4rPzQ18-QkN6831Gw.jpg",
-   "sent": 0,
-   "time": "2026-11-03T11:26:49.668Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269661,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269661,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/n6xPsA_HHCZUt6CxZTKu0wVJ_JEGfqKZMsQJBGxdikgBqtMtZWIQ7942V_GmZxH_B2Qh8Qd2_qEN_yQJxtbtbPIpU22_imAtZu4ddm97ItRDDK6TUwemPA5dKu6-ieUUjKaCV-SauwOkbon3wmi_Yp-NDqDOqmxCL8kpyk5-rvxn7u-wDSme0Rr60k-O5-lyfK7xcj_5cMzBfNIcMszh25L042C62zvgadp-3S6mK4ooy1IFANWl1kNHpL8HseS5NFx9hk7OJjuHPuyL5DZNTijkHz5PwbeqNFJS_aaHA6bTyJep-OC2KM9kdEzEK8wRD3k0WJWZbokdcTgE4aM-Gg.jpg",
-   "sent": 0,
-   "time": "2026-11-03T11:26:49.668Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269662,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269662,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/RIeyFkaTyUPkUOpWhJWswyctk8PyeoQskkUnSB310QAjx4HSPVPfO2suXdwpX1siRuYKE7TzOGssw44YKyCMuj_z-D-kZdRaZdHZzN4VG37uYJrp-FoxnsGBH9EI8dcwor-hEe_WdtgaHGHUs4XNsaiCL_OeqB9ct3Ld0RZ1fhrjWAzqwm2L1NhE1zfDoOOfNJGL-E7nPUZiRxtdjCqin5S2xd_-6AAvjjuS4DTmr6nne_JlLSyLR-81Jq3LHLjpnx48LXPjsEkZt639M41iZXUWoMbplhhuPYj2FF26ZMZfXp2rIL_UZj4sx261DoZxneyLYfS_WpQscSXFY_lyCQ.jpg",
-   "sent": 0,
-   "time": "2026-11-03T11:26:49.668Z",
-   "u": 1
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -230,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -244,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -258,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -272,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -286,7 +90,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -300,7 +104,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -314,7 +118,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -328,7 +132,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -342,7 +146,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -356,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +230,202 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T11:26:49.668Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269679,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269679,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269680,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269680,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269681,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269681,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269682,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269682,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269683,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269683,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269684,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269684,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269685,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269685,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269686,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269686,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269687,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269687,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269688,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269688,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269689,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269689,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269690,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269690,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269691,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269691,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269692,
+   "owner": "",
+   "owner_addr": "0:8602600c52c0b777a202408543e069a3a037ee7614988fdd022179784171aa91",
+   "mint": 1793705197,
+   "counter_issued": 269692,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T11:29:45.003Z",
    "t": 1
   }
  ]
