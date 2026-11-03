@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T18:24:21.774Z",
- "updated_unix": 1793730261,
- "runs": 14879,
+ "updated": "2026-11-03T18:26:30.985Z",
+ "updated_unix": 1793730390,
+ "runs": 14880,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115144,
- "sent_total": 3883232,
+ "detected_total": 115146,
+ "sent_total": 3883386,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134078,
-   "owner": "",
-   "owner_addr": "0:2691df8a8ed8083ffe604b833fd0bcf2971681aa2ded0983ca6cc88885473a80",
-   "mint": 1793723538,
-   "counter_issued": 134078,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T16:49:13.750Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443248,
-   "owner": "pyshoook228.ton",
-   "owner_addr": "0:aa57ea9fffa02bf2258331210bcb96e1b9a0980158f115428923aced9ab72e54",
-   "mint": 1793725608,
-   "counter_issued": 443248,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T17:13:25.556Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:07:59.402Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:07:59.402Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:24:10.664Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:24:14.310Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:24:14.310Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:24:14.310Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269713,
+   "owner": "",
+   "owner_addr": "0:25767643ffa71fa9c59312248861c63dd134a9acd72d347da2864018c64f6fb3",
+   "mint": 1793730215,
+   "counter_issued": 269713,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:26:26.359Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269714,
+   "owner": "",
+   "owner_addr": "0:415e6472fc1687495b006d64275c0775f50ce220a4dce82c7fb9b74290c6caf8",
+   "mint": 1793730227,
+   "counter_issued": 269714,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:26:26.359Z",
    "t": 1
   }
  ]
