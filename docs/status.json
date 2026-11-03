@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T19:49:52.460Z",
- "updated_unix": 1793735392,
- "runs": 14899,
+ "updated": "2026-11-03T19:51:55.849Z",
+ "updated_unix": 1793735515,
+ "runs": 14900,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115425,
- "sent_total": 3904838,
+ "detected_total": 115426,
+ "sent_total": 3904915,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138406,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138406,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:49:46.678Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:49:50.622Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443257,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443257,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:51:54.146Z",
    "t": 1
   }
  ]
