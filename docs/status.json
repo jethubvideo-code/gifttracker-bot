@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T04:32:17.926Z",
- "updated_unix": 1793680337,
- "runs": 14776,
+ "updated": "2026-11-03T04:49:33.481Z",
+ "updated_unix": 1793681373,
+ "runs": 14777,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 114760,
- "sent_total": 3854001,
+ "detected_total": 114761,
+ "sent_total": 3854078,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78381,
-   "owner": "",
-   "owner_addr": "0:fa97b2d146480b850a34b65b2ca4b14bf4a90f4cd19ae0baf5be0eae642aa04c",
-   "mint": 1793634367,
-   "counter_issued": 78381,
-   "counter_total": 101415,
-   "img": "https://cdn4.telesco.pe/file/MseSfkOhejBcUH2wcOX3DNMJ2LlCa3Ulvq9lf7BafpBx0pJ0XGBoqqdA2DwGsrSmDYORSPBq_uenVXrIppKsfewQVSSS8hsE6_H4cVjIuWfGn4mlwvjSh4y2dnqz5tLKZTpbccmo3_lqDACDAe7Yvb1GQZ_9C21d04oDA44r_66FbkqcsTl9DdTRtx0fiYPEPeArpp3eYNCfK6zc6hn_oBV6pKiJm7coBo0CE87XurWUKoR33pSan1t37GqQDsHixOvNJZqy-xpsWRoI3Gou9dnqgNj4gQI8YO_CXmlUWtNgHZZEyVNARrbFBIUnEJljMRXFKmFI_C4LWGmt74uqlg.jpg",
-   "sent": 0,
-   "time": "2026-11-03T03:46:03.107Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T04:32:14.367Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90559,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90559,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T04:49:31.790Z",
    "t": 1
   }
  ]
