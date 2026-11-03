@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-03T18:38:25.291Z",
- "updated_unix": 1793731105,
- "runs": 14884,
+ "updated": "2026-11-03T18:41:12.153Z",
+ "updated_unix": 1793731272,
+ "runs": 14885,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 115156,
- "sent_total": 3884156,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 115158,
+ "sent_total": 3884310,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269708,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269708,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T17:32:39.264Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269709,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269709,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T17:32:39.264Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:34:38.022Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:38:19.018Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:38:23.437Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269716,
+   "owner": "",
+   "owner_addr": "0:5347823870760f6868b2dc9d1c7bfb5ac0851837aa9d65c14cf4e0dac72e1eab",
+   "mint": 1793731024,
+   "counter_issued": 269716,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:41:06.678Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134082,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134082,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:41:10.169Z",
    "t": 1
   }
  ]
