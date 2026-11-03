@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T16:39:04.339Z",
- "updated_unix": 1793723944,
- "runs": 14864,
+ "updated": "2026-11-03T16:47:18.728Z",
+ "updated_unix": 1793724438,
+ "runs": 14865,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115112,
- "sent_total": 3880800,
+ "detected_total": 115113,
+ "sent_total": 3880845,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391136,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391136,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T15:27:07.345Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:20:48.556Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:37:46.662Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:38:24.699Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T16:38:24.699Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23119,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793720628,
+   "counter_issued": 23119,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T16:46:58.356Z",
    "t": 1
   }
  ]
