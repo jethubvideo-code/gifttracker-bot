@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T02:28:15.281Z",
- "updated_unix": 1793672895,
- "runs": 14768,
+ "updated": "2026-11-03T02:30:12.705Z",
+ "updated_unix": 1793673012,
+ "runs": 14769,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 114676,
- "sent_total": 3847533,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 114677,
+ "sent_total": 3847610,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35664,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793623409,
-   "counter_issued": 35664,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T00:07:28.800Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "Valentine Box",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T01:19:28.174Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T02:28:05.724Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T02:28:12.977Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391118,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391118,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T02:30:10.308Z",
    "t": 1
   }
  ]
