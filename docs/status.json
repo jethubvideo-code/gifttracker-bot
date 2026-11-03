@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T07:51:56.237Z",
- "updated_unix": 1793692316,
- "runs": 14788,
+ "updated": "2026-11-03T07:59:48.594Z",
+ "updated_unix": 1793692788,
+ "runs": 14789,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 114796,
- "sent_total": 3856773,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 114797,
+ "sent_total": 3856850,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84445,
-   "owner": "",
-   "owner_addr": "0:f419e58d96caa95b69e98bffd4877fccb239bb74d91124d0ad4bdab7c45045cc",
-   "mint": 1793685722,
-   "counter_issued": 84445,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T06:09:15.073Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T07:51:49.140Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T07:51:49.140Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108652,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108652,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T07:59:46.903Z",
    "t": 1
   }
  ]
