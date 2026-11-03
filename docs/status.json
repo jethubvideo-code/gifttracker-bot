@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-03T19:43:41.564Z",
- "updated_unix": 1793735021,
- "runs": 14897,
+ "updated": "2026-11-03T19:46:40.054Z",
+ "updated_unix": 1793735200,
+ "runs": 14898,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115422,
- "sent_total": 3904607,
+ "detected_total": 115423,
+ "sent_total": 3904684,
  "last_upgrades": [
-  {
-   "slug": "StellarRocket",
-   "gift": "StellarRocket",
-   "number": 138403,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 138403,
-   "counter_total": 156318,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T19:23:19.282Z",
-   "t": 3
-  },
   {
    "slug": "StellarRocket",
    "gift": "StellarRocket",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:43:30.973Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:43:34.524Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:43:34.524Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T19:43:34.524Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269728,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1793734806,
+   "counter_issued": 269728,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T19:46:38.276Z",
    "t": 1
   }
  ]
