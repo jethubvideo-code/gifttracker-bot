@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-03T18:26:30.985Z",
- "updated_unix": 1793730390,
- "runs": 14880,
+ "updated": "2026-11-03T18:27:36.821Z",
+ "updated_unix": 1793730456,
+ "runs": 14881,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115146,
- "sent_total": 3883386,
+ "detected_total": 115149,
+ "sent_total": 3883617,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391153,
-   "owner": "",
-   "owner_addr": "0:f2182d02c3262d7394e79d1109d0b5ee6b7cae0fd98cec76f0217b9b27b65265",
-   "mint": 1793725600,
-   "counter_issued": 391153,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T17:15:24.571Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90573,
-   "owner": "",
-   "owner_addr": "0:da53b3ef4a68595d2dc154eae05be2fa6830e44f7955596ed5f2807f31204ff4",
-   "mint": 1793725398,
-   "counter_issued": 90573,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T17:17:24.470Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108662,
-   "owner": "",
-   "owner_addr": "0:344545a013c11d8f4cefe9610ceaad0d7100158784f3ab820ac9855f806eb1c3",
-   "mint": 1793723101,
-   "counter_issued": 108662,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-03T17:17:31.636Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:26:26.359Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-03T18:26:26.359Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391158,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391158,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:27:29.730Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391159,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391159,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:27:29.730Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391160,
+   "owner": "",
+   "owner_addr": "0:daca27fa148e04f204b8231d681e073d95228a9694844f59f9e8d81cf5083416",
+   "mint": 1793730113,
+   "counter_issued": 391160,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-03T18:27:29.730Z",
    "t": 1
   }
  ]
