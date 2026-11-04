@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T16:51:40.188Z",
- "updated_unix": 1793811100,
- "runs": 15018,
+ "updated": "2026-11-04T16:52:35.480Z",
+ "updated_unix": 1793811155,
+ "runs": 15019,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 116894,
- "sent_total": 4017810,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 116895,
+ "sent_total": 4017887,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391210,
-   "owner": "",
-   "owner_addr": "0:8d8197a5392d583c91178aa02aa2fdc141fb995da2ff80e486c40add3a7fb662",
-   "mint": 1793806652,
-   "counter_issued": 391210,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:44:58.306Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:50:35.732Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwissWatch",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:50:35.732Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwissWatch",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:50:35.732Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:51:37.847Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269869,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269869,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:52:33.566Z",
    "t": 1
   }
  ]
