@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T07:22:51.809Z",
- "updated_unix": 1793776971,
- "runs": 14950,
+ "updated": "2026-11-04T07:23:52.759Z",
+ "updated_unix": 1793777032,
+ "runs": 14951,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116077,
- "sent_total": 3955024,
+ "detected_total": 116079,
+ "sent_total": 3955178,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78121,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78121,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/CEj8U8izTv0B6tJ29KyMTUk4kF7DgIYpsyYnJQxhdiKcOVjLRZK8Tkogds-OcGgTBM3yd_CWrZqrpvAhsImmzqbZmvlp4G8qGnNQxfv8w0d_NWyGRDCzlOYc46B0BNk2pc4IKwXo8xj0QPhacdVIxRQScJtA9MIMsAtnIcruKGxi3W2ZNtODPdCOtS4SncTjX0DP49HkDhQ1hFDut58_NtfiHpnJYvaxhUl6zXixIYsn3BGxsiREd5fi86zflch2hv8jsfkmtwEMWh1MGAKIhAMbiaPaBrzhY32JNIF9B1AqOOTdQQG9wRd-Dp10wgxkIP1jONRXJXDZJPJXmn5r5A.jpg",
-   "sent": 0,
-   "time": "2026-11-04T06:27:02.696Z",
-   "u": 1
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78122,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78122,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/RoSr9y1Ti3Yjv14G_nnLeBBWwmyMJzezqBl-lD034qa28xwKhgfE2eUTeSNKh-Grq8pLXgiGDt_GPq_GYxLEZGt5l0Vmo8TBwTPXTcIHj77kecnBkkz8MiszkSzUNcXhnGM4aHcDmj9JUM0PABxU1eXUutmJZo9Gd27RQyrm78R7rxwNrlek_5HahWN7Or9bGwg0QResDCoqVa1BlJ3zSVNisYC1JdnCAlVko_AKQCkkFgyC5Or2Q_IvOLvrzf1FJEWB-zc8cFLVQnKgP0WdsMQ4E6Hs5rUsrEq_fDSgkt12eXZ2CmQFh1eH1FJdn-EUhxHAXWVd4Q5UOzSdH4hOJg.jpg",
-   "sent": 0,
-   "time": "2026-11-04T06:27:02.696Z",
-   "u": 1
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T06:56:14.478Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T07:22:44.348Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T07:22:49.011Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391185,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391185,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T07:23:47.801Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391186,
+   "owner": "",
+   "owner_addr": "0:f1f777c737d76f0aecd3e867a141747468756d7c9cb9dcddd0f4fac9eb048fc4",
+   "mint": 1793776750,
+   "counter_issued": 391186,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T07:23:47.801Z",
    "t": 1
   }
  ]
