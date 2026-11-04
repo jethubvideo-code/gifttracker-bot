@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-04T21:50:13.069Z",
- "updated_unix": 1793829013,
- "runs": 15054,
+ "updated": "2026-11-04T22:07:54.229Z",
+ "updated_unix": 1793830074,
+ "runs": 15055,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 117198,
- "sent_total": 4041114,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 117201,
+ "sent_total": 4041342,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78402,
-   "owner": "",
-   "owner_addr": "0:c806367d5505b32a6c62d0c20cb99a1285745511d6af9c7ebddafc19beb85e56",
-   "mint": 1793797159,
-   "counter_issued": 78402,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T21:40:42.744Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78403,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793797605,
-   "counter_issued": 78403,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T21:40:42.744Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78404,
-   "owner": "",
-   "owner_addr": "0:08e62382568d98b6a49a8e88b812613df1e72586ec6cc43849a450c9577af7ef",
-   "mint": 1793800617,
-   "counter_issued": 78404,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T21:40:42.744Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T21:50:05.654Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T21:50:05.654Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T21:50:05.654Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391229,
+   "owner": "",
+   "owner_addr": "0:a11ddd282629761b91e43bd12d407be1b67455f8038d125be7485bc5605fbf4e",
+   "mint": 1793826976,
+   "counter_issued": 391229,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T22:07:48.426Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391230,
+   "owner": "",
+   "owner_addr": "0:a11ddd282629761b91e43bd12d407be1b67455f8038d125be7485bc5605fbf4e",
+   "mint": 1793827071,
+   "counter_issued": 391230,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T22:07:48.426Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391231,
+   "owner": "",
+   "owner_addr": "0:a11ddd282629761b91e43bd12d407be1b67455f8038d125be7485bc5605fbf4e",
+   "mint": 1793827239,
+   "counter_issued": 391231,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T22:07:48.426Z",
    "t": 1
   }
  ]
