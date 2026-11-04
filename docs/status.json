@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T18:36:48.170Z",
- "updated_unix": 1793817408,
- "runs": 15033,
+ "updated": "2026-11-04T18:48:50.590Z",
+ "updated_unix": 1793818130,
+ "runs": 15034,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117075,
- "sent_total": 4031732,
+ "detected_total": 117076,
+ "sent_total": 4031809,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227604,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227604,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T18:11:35.391Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T18:36:45.252Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84469,
+   "owner": "ciumr.t.me",
+   "owner_addr": "0:bb29012a0e95ec43451b76a8bb6e36b35d0bd9707f4e735a4af178b252b39633",
+   "mint": 1793810701,
+   "counter_issued": 84469,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T18:48:48.253Z",
    "t": 1
   }
  ]
