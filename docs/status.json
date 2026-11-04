@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T12:55:17.310Z",
- "updated_unix": 1793796917,
- "runs": 14993,
+ "updated": "2026-11-04T12:57:15.784Z",
+ "updated_unix": 1793797035,
+ "runs": 14994,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116522,
- "sent_total": 3989178,
+ "detected_total": 116523,
+ "sent_total": 3989255,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269834,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269834,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T11:05:05.503Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:55:07.582Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LowRider",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:55:14.522Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "SnoopCigar",
+   "number": 117676,
+   "owner": "",
+   "owner_addr": "0:d1532dd193cfdc1dc8c7b14120a6b66174b18789958635d470b9c25d156057e1",
+   "mint": 1793796539,
+   "counter_issued": 117676,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T12:57:13.552Z",
    "t": 1
   }
  ]
