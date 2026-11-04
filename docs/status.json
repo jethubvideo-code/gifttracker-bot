@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T21:11:36.106Z",
- "updated_unix": 1793826696,
- "runs": 15048,
+ "updated": "2026-11-04T21:33:31.531Z",
+ "updated_unix": 1793828011,
+ "runs": 15049,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 117149,
- "sent_total": 4037390,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 117151,
+ "sent_total": 4037542,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23128,
-   "owner": "",
-   "owner_addr": "0:d769847488b67747855ca69f6592bdf3a7eece254ddca6feee355c2000007e01",
-   "mint": 1793820354,
-   "counter_issued": 23128,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T20:31:58.419Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391224,
-   "owner": "",
-   "owner_addr": "0:e3171c0bafbee57b1a5d977177fc75ba856af34d6db5bdd0df9a65d881088a84",
-   "mint": 1793822446,
-   "counter_issued": 391224,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T20:57:09.019Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -428,6 +400,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T21:11:34.487Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "EvilEye",
+   "number": 74770,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74770,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T21:33:23.313Z",
+   "t": 1
+  },
+  {
+   "slug": "UFCStrike",
+   "gift": "UFC Strike",
+   "number": 58903,
+   "owner": "",
+   "owner_addr": "0:fa4344fc5ebafc1e5a1504441f96722351c18707d8ef0838d9d4b9cb358a2bf3",
+   "mint": 1793806744,
+   "counter_issued": 58903,
+   "counter_total": 60000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T21:33:29.473Z",
    "t": 1
   }
  ]
