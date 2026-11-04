@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T15:10:55.149Z",
- "updated_unix": 1793805055,
- "runs": 15007,
+ "updated": "2026-11-04T15:40:57.744Z",
+ "updated_unix": 1793806857,
+ "runs": 15008,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116858,
- "sent_total": 4015041,
+ "detected_total": 116860,
+ "sent_total": 4015195,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269850,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269850,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T14:07:14.296Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269851,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269851,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T14:07:14.296Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:10:47.815Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:10:47.815Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134128,
+   "owner": "oguser.ton",
+   "owner_addr": "0:19df33d500987ad77bfd91108f34f4b98eb4bcd687c5664e683b80bac3561353",
+   "mint": 1793806210,
+   "counter_issued": 134128,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T15:40:47.211Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23127,
+   "owner": "",
+   "owner_addr": "0:f8bd93e12ee117b04f4ba21c4728eceb164dc5bf111342df6f8bf4b5b2cfa590",
+   "mint": 1793806484,
+   "counter_issued": 23127,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T15:40:54.098Z",
    "t": 1
   }
  ]
