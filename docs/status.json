@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T07:57:59.997Z",
- "updated_unix": 1793779079,
- "runs": 14952,
+ "updated": "2026-11-04T08:03:04.958Z",
+ "updated_unix": 1793779384,
+ "runs": 14953,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 116081,
- "sent_total": 3955332,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 116083,
+ "sent_total": 3955486,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78125,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78125,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/oMipupIxcVAGP5sdqZyyiVZboKBJuL8b0eWVcCo-e0F62nD561XQvlKMXc1Hr09j-T3xnN6vWguLXKc9U3Zm2SO352aNmeOVpynv7QGYRFVy0HxL7TwQ5XnvA7O96lLOfUHag0fnW176LpTDTAuLnfjd_YagoYLOojWAgJYy-h7v60k5mTj8AVlFCmRwseStwjcL17zpI5DDbGzhMZ2R-kCGT6tW90VPA2dZeJ0jB2y-Ife2o0kJnAoEJAYXDHIh1xSW0OcTWYBIQpF6u_5fX8OmQ_W2aGyrA8Cw3on1jFre0E4PmfFsZEw3HvN-sCX66fpAvuj9mT1ttDx8ra6UgQ.jpg",
-   "sent": 0,
-   "time": "2026-11-04T06:27:02.696Z",
-   "u": 1
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78126,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78126,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/avM8zeZAT8pTdmGzKbqoB2IwNNv54deb32UDknjxfPMLaihh01IuU5ukX3xy0CYz0vX24OmzUUqhOJ-KX8WJ-sief65ozRQum6Ao1vAhqQDfYD_h-T3zv0hUqbPFfzVczVLS1YHoKbzPjdjGl91B69YVLNs-oTCC2t_z8mSdfcmURcyDM1bBFxirWHFrdReRRCYGUaj8NnQb7DubN69NnhsAUdfA4ets5_IjxV70D_rNmF5VdWgcJsSqP7JKn1ocwlLSjn4t82_j5e59rE2JK53p_udv1rbuWmyNNYUMuxEU80HT2ZQ4JjpbyFEhLhTuFGT7Lu97ER-K4viE63VyKA.jpg",
-   "sent": 0,
-   "time": "2026-11-04T06:27:02.696Z",
-   "u": 1
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T07:23:47.801Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T07:23:47.801Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T07:57:56.319Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T07:57:56.319Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85187,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85187,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T08:02:55.334Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74760,
+   "owner": "",
+   "owner_addr": "0:52b3afb0498265f87a18dcc3e1abfdcfc8539ce927b7a7bc99f597dacf8551eb",
+   "mint": 1793763248,
+   "counter_issued": 74760,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T08:03:01.134Z",
    "t": 1
   }
  ]
