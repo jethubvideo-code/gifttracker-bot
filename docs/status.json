@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T16:56:43.278Z",
- "updated_unix": 1793811403,
- "runs": 15020,
+ "updated": "2026-11-04T16:57:43.081Z",
+ "updated_unix": 1793811463,
+ "runs": 15021,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116897,
- "sent_total": 4018041,
+ "detected_total": 116899,
+ "sent_total": 4018195,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74763,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793794316,
-   "counter_issued": 74763,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:48:05.784Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74764,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793794390,
-   "counter_issued": 74764,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:48:05.784Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:56:37.547Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:56:37.547Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391213,
+   "owner": "",
+   "owner_addr": "0:245fcc30383ed9a38072116e2d15e9a502cdb654dc8384ecddee5d67a4da47d3",
+   "mint": 1793810680,
+   "counter_issued": 391213,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:57:39.369Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391214,
+   "owner": "",
+   "owner_addr": "0:3da0200eb2402e7a1133e408aa039ac54173713180609edfb13c467f2e613473",
+   "mint": 1793810754,
+   "counter_issued": 391214,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:57:39.369Z",
    "t": 1
   }
  ]
