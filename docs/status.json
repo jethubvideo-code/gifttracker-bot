@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T09:11:47.241Z",
- "updated_unix": 1793783507,
- "runs": 14962,
+ "updated": "2026-11-04T09:12:47.542Z",
+ "updated_unix": 1793783567,
+ "runs": 14963,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116151,
- "sent_total": 3960631,
+ "detected_total": 116152,
+ "sent_total": 3960708,
  "last_upgrades": [
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23526,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23526,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:07:07.777Z",
-   "t": 3
-  },
   {
    "slug": "LowRider",
    "gift": "LowRider",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T09:11:45.196Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391191,
+   "owner": "",
+   "owner_addr": "0:6f2a90fa67ec05eb226d8b5350660ffa8ad7814f25a03b9d2f2f5f7fff1a02fb",
+   "mint": 1793783509,
+   "counter_issued": 391191,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T09:12:45.482Z",
    "t": 1
   }
  ]
