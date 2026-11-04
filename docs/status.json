@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T08:14:31.037Z",
- "updated_unix": 1793780071,
- "runs": 14958,
+ "updated": "2026-11-04T08:33:21.770Z",
+ "updated_unix": 1793781201,
+ "runs": 14959,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116135,
- "sent_total": 3959490,
+ "detected_total": 116137,
+ "sent_total": 3959644,
  "last_upgrades": [
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23510,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23510,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:07:07.777Z",
-   "t": 3
-  },
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23511,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23511,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:07:07.777Z",
-   "t": 3
-  },
   {
    "slug": "LowRider",
    "gift": "LowRider",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:14:29.357Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443279,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793780867,
+   "counter_issued": 443279,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T08:33:16.396Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443280,
+   "owner": "",
+   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
+   "mint": 1793780875,
+   "counter_issued": 443280,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T08:33:16.396Z",
    "t": 1
   }
  ]
