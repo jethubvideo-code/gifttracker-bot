@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T01:05:20.071Z",
- "updated_unix": 1793754320,
- "runs": 14926,
+ "updated": "2026-11-04T01:08:12.029Z",
+ "updated_unix": 1793754492,
+ "runs": 14927,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 115788,
- "sent_total": 3932771,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 115789,
+ "sent_total": 3932848,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "SnowGlobe",
-   "number": 55677,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 55677,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T00:59:32.150Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "SnowGlobe",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T01:05:12.904Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T01:05:12.904Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391174,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391174,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T01:08:10.693Z",
    "t": 1
   }
  ]
