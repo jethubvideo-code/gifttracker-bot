@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T05:16:13.160Z",
- "updated_unix": 1793769373,
- "runs": 14937,
+ "updated": "2026-11-04T05:19:16.364Z",
+ "updated_unix": 1793769556,
+ "runs": 14938,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115822,
- "sent_total": 3935389,
+ "detected_total": 115823,
+ "sent_total": 3935466,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134095,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134095,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T01:13:10.660Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T05:16:11.336Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13018,
+   "owner": "",
+   "owner_addr": "0:52b3afb0498265f87a18dcc3e1abfdcfc8539ce927b7a7bc99f597dacf8551eb",
+   "mint": 1793763121,
+   "counter_issued": 13018,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T05:19:14.134Z",
    "t": 1
   }
  ]
