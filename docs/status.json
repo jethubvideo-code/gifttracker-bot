@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T15:56:07.092Z",
- "updated_unix": 1793807767,
- "runs": 15013,
+ "updated": "2026-11-04T16:24:13.442Z",
+ "updated_unix": 1793809453,
+ "runs": 15014,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116885,
- "sent_total": 4017119,
+ "detected_total": 116887,
+ "sent_total": 4017272,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108679,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108679,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:08:50.043Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443289,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443289,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:10:47.815Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:56:05.294Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391212,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391212,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:24:02.684Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443295,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793808023,
+   "counter_issued": 443295,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:24:09.578Z",
    "t": 1
   }
  ]
