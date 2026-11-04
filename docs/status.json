@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T08:33:21.770Z",
- "updated_unix": 1793781201,
- "runs": 14959,
+ "updated": "2026-11-04T08:37:16.618Z",
+ "updated_unix": 1793781436,
+ "runs": 14960,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116137,
- "sent_total": 3959644,
+ "detected_total": 116138,
+ "sent_total": 3959721,
  "last_upgrades": [
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23512,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23512,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:07:07.777Z",
-   "t": 3
-  },
   {
    "slug": "LowRider",
    "gift": "LowRider",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:14:29.357Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:33:16.396Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:33:16.396Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19818,
+   "owner": "rcsaver.t.me",
+   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
+   "mint": 1793727374,
+   "counter_issued": 19818,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T08:37:14.690Z",
    "t": 1
   }
  ]
