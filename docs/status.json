@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T11:05:15.626Z",
- "updated_unix": 1793790315,
- "runs": 14980,
+ "updated": "2026-11-04T11:07:17.850Z",
+ "updated_unix": 1793790437,
+ "runs": 14981,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116497,
- "sent_total": 3987257,
+ "detected_total": 116498,
+ "sent_total": 3987333,
  "last_upgrades": [
-  {
-   "slug": "InputKey",
-   "gift": "InputKey",
-   "number": 135637,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 135637,
-   "counter_total": 159750,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T10:48:15.576Z",
-   "t": 3
-  },
   {
    "slug": "InputKey",
    "gift": "InputKey",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:05:05.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:05:05.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:05:05.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:05:05.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:05:05.503Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90591,
+   "owner": "Getgems Gift Minter",
+   "owner_addr": "0:c708deda737561ae355fca014b23a274d47278da0832cd542f94d2dddbe1de96",
+   "mint": 1793790405,
+   "counter_issued": 90591,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T11:07:15.732Z",
    "t": 1
   }
  ]
