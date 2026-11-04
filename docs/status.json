@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T11:14:45.487Z",
- "updated_unix": 1793790885,
- "runs": 14985,
+ "updated": "2026-11-04T11:29:59.950Z",
+ "updated_unix": 1793791799,
+ "runs": 14986,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 116503,
- "sent_total": 3987716,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 116505,
+ "sent_total": 3987870,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391197,
-   "owner": "",
-   "owner_addr": "0:612efe6622fb8b668615f8a7a6634149ba2290d4264b5dd78aece90fe9c04deb",
-   "mint": 1793787656,
-   "counter_issued": 391197,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T10:58:44.646Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269816,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269816,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T11:02:28.547Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:13:58.610Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:13:58.610Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:14:43.382Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391199,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391199,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T11:29:55.872Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391200,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391200,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T11:29:55.872Z",
    "t": 1
   }
  ]
