@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-04T16:29:10.488Z",
- "updated_unix": 1793809750,
- "runs": 15016,
+ "updated": "2026-11-04T16:50:41.778Z",
+ "updated_unix": 1793811041,
+ "runs": 15017,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116890,
- "sent_total": 4017502,
+ "detected_total": 116893,
+ "sent_total": 4017733,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443291,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443291,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:41:55.803Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443292,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443292,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:41:55.803Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443293,
-   "owner": "",
-   "owner_addr": "0:91ffc3217e2f8080c0e54ab5f301c583fc973859e3a8ca0446256b41c771abc2",
-   "mint": 1793806179,
-   "counter_issued": 443293,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:41:55.803Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:29:04.326Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:29:04.326Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26107,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 26107,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:50:35.732Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26108,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 26108,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:50:35.732Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26109,
+   "owner": "",
+   "owner_addr": "0:5957c9e715f1dc8e22e33dbf93bdcd50966bfdbcb59364075dc0daa55490b15b",
+   "mint": 1793806892,
+   "counter_issued": 26109,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:50:35.732Z",
    "t": 1
   }
  ]
