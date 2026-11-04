@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T11:29:59.950Z",
- "updated_unix": 1793791799,
- "runs": 14986,
+ "updated": "2026-11-04T12:06:15.589Z",
+ "updated_unix": 1793793975,
+ "runs": 14987,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116505,
- "sent_total": 3987870,
+ "detected_total": 116506,
+ "sent_total": 3987947,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269817,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269817,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T11:02:28.547Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:14:43.382Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:29:55.872Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T11:29:55.872Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26106,
+   "owner": "",
+   "owner_addr": "0:d3537650f606cb36db4ee72515b13d9a1ace1022438773ec4964417a7eb630ea",
+   "mint": 1793789382,
+   "counter_issued": 26106,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T12:06:13.726Z",
    "t": 1
   }
  ]
