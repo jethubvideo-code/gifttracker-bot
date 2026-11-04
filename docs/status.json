@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T15:42:05.246Z",
- "updated_unix": 1793806925,
- "runs": 15009,
+ "updated": "2026-11-04T15:45:00.397Z",
+ "updated_unix": 1793807100,
+ "runs": 15010,
  "collections": 123,
- "checked": 2,
- "errors": 121,
- "detected_total": 116864,
- "sent_total": 4015503,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 116865,
+ "sent_total": 4015580,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269856,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269856,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T14:07:14.296Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:40:47.211Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:40:54.098Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:41:55.803Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:41:55.803Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:41:55.803Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T15:41:55.803Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391210,
+   "owner": "",
+   "owner_addr": "0:8d8197a5392d583c91178aa02aa2fdc141fb995da2ff80e486c40add3a7fb662",
+   "mint": 1793806652,
+   "counter_issued": 391210,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T15:44:58.306Z",
    "t": 1
   }
  ]
