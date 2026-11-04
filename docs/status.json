@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T03:50:24.240Z",
- "updated_unix": 1793764224,
- "runs": 14933,
+ "updated": "2026-11-04T03:57:21.834Z",
+ "updated_unix": 1793764641,
+ "runs": 14934,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 115803,
- "sent_total": 3933926,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 115804,
+ "sent_total": 3934003,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35445,
-   "owner": "",
-   "owner_addr": "0:b02a01420739e158f66cb5b0dc10eb76d715916f70e69047e469afe2178a829a",
-   "mint": 1793609847,
-   "counter_issued": 35445,
-   "counter_total": 46888,
-   "img": "https://cdn4.telesco.pe/file/mtgQ6qqQGkBwjzCf77MrL084tMywaH3AEjYfPaWFnvmdcIg-B3phC2JIXeCrDlbICb0ygTtx39MTOOseFGCkxoCOOuEXPYHPBi6s_rfUCAk3MG3F6ezQhi4T48JNnBRYM8bD2DuXM9j8cEvbi_ww9_u5iSCkszl0SMXbym8xiqIAkwsNXu2f9Q0i6zIYPOOFfvl9l2jekKh_XtJnO5O1f59PPHYP02CcZkgIk0mgRwhF3B12xIyk2YkBkkb9z9Gq4U1Ytgn8nTFduUwljHRD7rCgy2AEtqoMbyEDZH0-ZcXkMPRETRCkeQj-Rlh8iSNg4Xb5kqLhtQy50g4dmJwv1w.jpg",
-   "sent": 0,
-   "time": "2026-11-04T01:00:03.360Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T03:18:05.322Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T03:50:20.510Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T03:50:20.510Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134099,
+   "owner": "",
+   "owner_addr": "0:f0fe914c26bcda7c39de2724bae52a2a54f9b00adeb2dffc0cf79c8aa6d36d46",
+   "mint": 1793763455,
+   "counter_issued": 134099,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T03:57:20.108Z",
    "t": 1
   }
  ]
