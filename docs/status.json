@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T16:50:41.778Z",
- "updated_unix": 1793811041,
- "runs": 15017,
+ "updated": "2026-11-04T16:51:40.188Z",
+ "updated_unix": 1793811100,
+ "runs": 15018,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 116893,
- "sent_total": 4017733,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 116894,
+ "sent_total": 4017810,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443294,
-   "owner": "",
-   "owner_addr": "0:abb166ab2631b3d6d6f36a502fabdd6a54d394db2be26d0a7c3dc62a13e2dd3f",
-   "mint": 1793806269,
-   "counter_issued": 443294,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:41:55.803Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:50:35.732Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SwissWatch",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:50:35.732Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SwissWatch",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:50:35.732Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134131,
+   "owner": "",
+   "owner_addr": "0:b172fbd322b167d976b314450fb57a78447ae52264de05ef31890e046634edb8",
+   "mint": 1793809947,
+   "counter_issued": 134131,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:51:37.847Z",
    "t": 1
   }
  ]
