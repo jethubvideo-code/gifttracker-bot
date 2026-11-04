@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T12:52:10.648Z",
- "updated_unix": 1793796730,
- "runs": 14992,
+ "updated": "2026-11-04T12:55:17.310Z",
+ "updated_unix": 1793796917,
+ "runs": 14993,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 116520,
- "sent_total": 3989024,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 116522,
+ "sent_total": 3989178,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269832,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269832,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T11:02:28.547Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269833,
-   "owner": "",
-   "owner_addr": "0:6bc0309827531f34703ba2f05c2b2af9e334e3cb0539e0383af29310992243e5",
-   "mint": 1793789718,
-   "counter_issued": 269833,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T11:02:28.547Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:44:57.259Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:44:57.259Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:44:57.259Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:44:57.259Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:44:57.259Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:44:57.259Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T12:52:07.985Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90595,
+   "owner": "nesanya.ton",
+   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
+   "mint": 1793796189,
+   "counter_issued": 90595,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T12:55:07.582Z",
+   "t": 1
+  },
+  {
+   "slug": "LowRider",
+   "gift": "Low Rider",
+   "number": 23535,
+   "owner": "rrexa.t.me",
+   "owner_addr": "0:d6eec571c9ecf057041549daf399b29696fcfda7908e7a126759b972ec951e45",
+   "mint": 1793786415,
+   "counter_issued": 23535,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T12:55:14.522Z",
    "t": 1
   }
  ]
