@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T10:19:18.832Z",
- "updated_unix": 1793787558,
- "runs": 14972,
+ "updated": "2026-11-04T10:25:17.563Z",
+ "updated_unix": 1793787917,
+ "runs": 14973,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116167,
- "sent_total": 3961863,
+ "detected_total": 116169,
+ "sent_total": 3962017,
  "last_upgrades": [
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19818,
-   "owner": "rcsaver.t.me",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1793727374,
-   "counter_issued": 19818,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:37:14.690Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134101,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134101,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T09:08:29.890Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T10:03:29.875Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T10:19:12.250Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T10:19:16.466Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90589,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90589,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T10:25:12.943Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90590,
+   "owner": "",
+   "owner_addr": "0:843eb51561248b8357fc6d6ca40390b6b969fc58dcaca4851fcc711c2fea1bec",
+   "mint": 1793783892,
+   "counter_issued": 90590,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T10:25:12.943Z",
    "t": 1
   }
  ]
