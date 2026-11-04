@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T09:17:00.504Z",
- "updated_unix": 1793783820,
- "runs": 14964,
+ "updated": "2026-11-04T09:24:52.996Z",
+ "updated_unix": 1793784292,
+ "runs": 14965,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 116155,
- "sent_total": 3960939,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 116156,
+ "sent_total": 3961016,
  "last_upgrades": [
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23530,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23530,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:07:07.777Z",
-   "t": 3
-  },
   {
    "slug": "LowRider",
    "gift": "LowRider",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T09:16:47.054Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T09:16:47.054Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T09:16:56.776Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134106,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134106,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T09:24:51.017Z",
    "t": 1
   }
  ]
