@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T21:10:35.978Z",
- "updated_unix": 1793826635,
- "runs": 15047,
+ "updated": "2026-11-04T21:11:36.106Z",
+ "updated_unix": 1793826696,
+ "runs": 15048,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 117148,
- "sent_total": 4037314,
+ "detected_total": 117149,
+ "sent_total": 4037390,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134147,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134147,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T20:28:55.676Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -428,6 +414,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T21:10:34.494Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391228,
+   "owner": "",
+   "owner_addr": "0:bc780bb0b6c602050224f3e836f26ac55b16e66b29da0cfea16e94e5b34ef8d0",
+   "mint": 1793826687,
+   "counter_issued": 391228,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T21:11:34.487Z",
    "t": 1
   }
  ]
