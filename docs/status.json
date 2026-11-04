@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T17:35:03.366Z",
- "updated_unix": 1793813703,
- "runs": 15025,
+ "updated": "2026-11-04T17:38:02.250Z",
+ "updated_unix": 1793813882,
+ "runs": 15026,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116904,
- "sent_total": 4018580,
+ "detected_total": 116905,
+ "sent_total": 4018657,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84464,
-   "owner": "",
-   "owner_addr": "0:aee8c0e264b13bdcfda9f8961c2c5177469369723d1b7bc0018467d162439f6a",
-   "mint": 1793770269,
-   "counter_issued": 84464,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:48:31.345Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T17:35:01.106Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26110,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 26110,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T17:37:59.993Z",
    "t": 1
   }
  ]
