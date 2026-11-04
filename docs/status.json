@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T20:28:57.245Z",
- "updated_unix": 1793824137,
- "runs": 15043,
+ "updated": "2026-11-04T20:32:00.483Z",
+ "updated_unix": 1793824320,
+ "runs": 15044,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117119,
- "sent_total": 4035110,
+ "detected_total": 117120,
+ "sent_total": 4035186,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134142,
-   "owner": "wweikun.t.me",
-   "owner_addr": "0:c84b37bbfa8e2ba2c070c0dc4cfae8b7b02e2b38f43102a69661926ca1b106c4",
-   "mint": 1793818353,
-   "counter_issued": 134142,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T19:12:36.548Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T20:28:55.676Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23128,
+   "owner": "",
+   "owner_addr": "0:d769847488b67747855ca69f6592bdf3a7eece254ddca6feee355c2000007e01",
+   "mint": 1793820354,
+   "counter_issued": 23128,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T20:31:58.419Z",
    "t": 1
   }
  ]
