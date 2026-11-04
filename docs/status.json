@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T14:08:29.968Z",
- "updated_unix": 1793801309,
- "runs": 15002,
+ "updated": "2026-11-04T14:12:33.390Z",
+ "updated_unix": 1793801553,
+ "runs": 15003,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116839,
- "sent_total": 4013580,
+ "detected_total": 116841,
+ "sent_total": 4013733,
  "last_upgrades": [
-  {
-   "slug": "XmasStocking",
-   "gift": "XmasStocking",
-   "number": 231827,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231827,
-   "counter_total": 334632,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T14:02:50.795Z",
-   "t": 3
-  },
-  {
-   "slug": "XmasStocking",
-   "gift": "XmasStocking",
-   "number": 231828,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231828,
-   "counter_total": 334632,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T14:02:50.795Z",
-   "t": 3
-  },
   {
    "slug": "XmasStocking",
    "gift": "XmasStocking",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T14:08:28.359Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134123,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134123,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T14:12:26.240Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134124,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134124,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T14:12:26.240Z",
    "t": 1
   }
  ]
