@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T06:51:18.597Z",
- "updated_unix": 1793775078,
- "runs": 14948,
+ "updated": "2026-11-04T06:56:16.239Z",
+ "updated_unix": 1793775376,
+ "runs": 14949,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 116074,
- "sent_total": 3954793,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 116075,
+ "sent_total": 3954870,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78118,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78118,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/ReE-kbpFn3U9zF3W5vj_EyUsWGs2EaHr4ofVl552ON43AmIRhBfx_vShZ-ZCQcF0wKygQsJpIAGh8Jm_BqbwV7_2AR02XoFTvXONx5_0B06iek2DhQBR16hO3skmHcCLru-HxXzSso4RER1yU6UjxKHJmrZcm6IyrSsIpyaJHy6685WHupoqtXWB6sWj8-_kFWOnU-dAIyVxMyJ1POriK0m7hukSZ1JRZ0h9O0_rAB491btHSJ6TxUZGsXms2n6r2u6IpvYe4bgFjnoIZNxGUF3ZELi_XQSD7kiDfzHrA9ANe5XnDoQeMHR4KmJ8AKsO0RL_kDsGS-VJW5h6-O8zHw.jpg",
-   "sent": 0,
-   "time": "2026-11-04T06:27:02.696Z",
-   "u": 1
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T06:51:14.511Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23124,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23124,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T06:56:14.478Z",
    "t": 1
   }
  ]
