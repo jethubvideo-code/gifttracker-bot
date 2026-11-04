@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T08:10:38.529Z",
- "updated_unix": 1793779838,
- "runs": 14957,
+ "updated": "2026-11-04T08:14:31.037Z",
+ "updated_unix": 1793780071,
+ "runs": 14958,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116134,
- "sent_total": 3959413,
+ "detected_total": 116135,
+ "sent_total": 3959490,
  "last_upgrades": [
-  {
-   "slug": "LowRider",
-   "gift": "LowRider",
-   "number": 23509,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23509,
-   "counter_total": 23950,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T08:07:07.777Z",
-   "t": 2
-  },
   {
    "slug": "LowRider",
    "gift": "LowRider",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:07:07.777Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LowRider",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:10:30.570Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:10:30.570Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:10:30.570Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T08:10:30.570Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134100,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134100,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T08:14:29.357Z",
    "t": 1
   }
  ]
