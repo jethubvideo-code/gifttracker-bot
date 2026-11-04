@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T03:15:10.553Z",
- "updated_unix": 1793762110,
- "runs": 14931,
+ "updated": "2026-11-04T03:18:07.080Z",
+ "updated_unix": 1793762287,
+ "runs": 14932,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 115800,
- "sent_total": 3933695,
+ "detected_total": 115801,
+ "sent_total": 3933772,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35442,
-   "owner": "",
-   "owner_addr": "0:19ac83aa198955432eec3da652a7d35af1f315ce3bfe4152970259b2fa071a0c",
-   "mint": 1793587072,
-   "counter_issued": 35442,
-   "counter_total": 46888,
-   "img": "https://cdn4.telesco.pe/file/mtgQ6qqQGkBwjzCf77MrL084tMywaH3AEjYfPaWFnvmdcIg-B3phC2JIXeCrDlbICb0ygTtx39MTOOseFGCkxoCOOuEXPYHPBi6s_rfUCAk3MG3F6ezQhi4T48JNnBRYM8bD2DuXM9j8cEvbi_ww9_u5iSCkszl0SMXbym8xiqIAkwsNXu2f9Q0i6zIYPOOFfvl9l2jekKh_XtJnO5O1f59PPHYP02CcZkgIk0mgRwhF3B12xIyk2YkBkkb9z9Gq4U1Ytgn8nTFduUwljHRD7rCgy2AEtqoMbyEDZH0-ZcXkMPRETRCkeQj-Rlh8iSNg4Xb5kqLhtQy50g4dmJwv1w.jpg",
-   "sent": 0,
-   "time": "2026-11-04T01:00:03.360Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T02:49:38.348Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T02:49:44.251Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T03:15:06.569Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T03:15:06.569Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391175,
+   "owner": "",
+   "owner_addr": "0:22e17da8cd8e4d341e92a8eb52754e14aad667dd6c0035e6e933501639cc38c9",
+   "mint": 1793761429,
+   "counter_issued": 391175,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T03:18:05.322Z",
    "t": 1
   }
  ]
