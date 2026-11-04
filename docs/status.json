@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T16:57:43.081Z",
- "updated_unix": 1793811463,
- "runs": 15021,
+ "updated": "2026-11-04T16:59:38.027Z",
+ "updated_unix": 1793811578,
+ "runs": 15022,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116899,
- "sent_total": 4018195,
+ "detected_total": 116900,
+ "sent_total": 4018272,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74765,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793794653,
-   "counter_issued": 74765,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:48:05.784Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:57:39.369Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:57:39.369Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269870,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269870,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:59:35.955Z",
    "t": 1
   }
  ]
