@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-04T16:52:35.480Z",
- "updated_unix": 1793811155,
- "runs": 15019,
+ "updated": "2026-11-04T16:56:43.278Z",
+ "updated_unix": 1793811403,
+ "runs": 15020,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 116895,
- "sent_total": 4017887,
+ "detected_total": 116897,
+ "sent_total": 4018041,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74761,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793794086,
-   "counter_issued": 74761,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:48:05.784Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74762,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793794258,
-   "counter_issued": 74762,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T15:48:05.784Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T16:52:33.566Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108680,
+   "owner": "",
+   "owner_addr": "0:adb59db795a2b96f4921ac27b29ff3180bece4c9f58a73c23de2182b78f391ff",
+   "mint": 1793810746,
+   "counter_issued": 108680,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:56:37.547Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108681,
+   "owner": "",
+   "owner_addr": "0:adb59db795a2b96f4921ac27b29ff3180bece4c9f58a73c23de2182b78f391ff",
+   "mint": 1793810750,
+   "counter_issued": 108681,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T16:56:37.547Z",
    "t": 1
   }
  ]
