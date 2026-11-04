@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-04T06:11:53.698Z",
- "updated_unix": 1793772713,
- "runs": 14941,
+ "updated": "2026-11-04T06:12:50.770Z",
+ "updated_unix": 1793772770,
+ "runs": 14942,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 115838,
- "sent_total": 3936621,
+ "detected_total": 115839,
+ "sent_total": 3936698,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269791,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269791,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T05:01:03.977Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T05:40:35.193Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T05:40:35.193Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-04T06:11:49.372Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32973,
+   "owner": "g3nft.t.me",
+   "owner_addr": "0:b8c65c1a938a10489cde2a43e18907134fde98df171ee02dad9a6c1da40a536f",
+   "mint": 1793763934,
+   "counter_issued": 32973,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-04T06:12:48.686Z",
    "t": 1
   }
  ]
