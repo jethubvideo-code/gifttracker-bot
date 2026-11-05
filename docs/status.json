@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T14:47:14.089Z",
- "updated_unix": 1793890034,
- "runs": 15136,
+ "updated": "2026-11-05T14:47:32.337Z",
+ "updated_unix": 1793890052,
+ "runs": 15137,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117629,
- "sent_total": 4073708,
+ "detected_total": 117630,
+ "sent_total": 4073785,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134172,
-   "owner": "",
-   "owner_addr": "0:2d0d79432819bec68bf33594805a007f547f66e78f644a62541d21e31cac0e60",
-   "mint": 1793879264,
-   "counter_issued": 134172,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T14:10:10.003Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T14:46:22.609Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T14:46:22.609Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391272,
+   "owner": "",
+   "owner_addr": "0:7c5c6ac3f2eae5c7d36d5862eeec25a37043b27b396da0d26fef7e86ed55742a",
+   "mint": 1793890042,
+   "counter_issued": 391272,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T14:47:27.378Z",
    "t": 1
   }
  ]
