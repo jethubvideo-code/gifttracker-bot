@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T07:01:05.096Z",
- "updated_unix": 1793862065,
- "runs": 15092,
+ "updated": "2026-11-05T07:02:07.364Z",
+ "updated_unix": 1793862127,
+ "runs": 15093,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 117260,
- "sent_total": 4045828,
+ "checked": 29,
+ "errors": 94,
+ "detected_total": 117261,
+ "sent_total": 4045904,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391236,
-   "owner": "",
-   "owner_addr": "0:4c992a902f0a0f7f46bcb5ade69504eb7f44ec3738ea84799c212bbe0722cbc6",
-   "mint": 1793841377,
-   "counter_issued": 391236,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T02:54:40.072Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T07:01:03.189Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269887,
+   "owner": "",
+   "owner_addr": "0:bab63d93ea0e68f091afcfaa0268e0d4a4773a49a0904e369c025099be45dce2",
+   "mint": 1793862098,
+   "counter_issued": 269887,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T07:02:05.702Z",
    "t": 1
   }
  ]
