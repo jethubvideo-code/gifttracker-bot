@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T22:04:45.259Z",
- "updated_unix": 1793916285,
- "runs": 15192,
+ "updated": "2026-11-05T22:24:11.823Z",
+ "updated_unix": 1793917451,
+ "runs": 15193,
  "collections": 123,
- "checked": 2,
- "errors": 121,
- "detected_total": 118522,
- "sent_total": 4141961,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 118524,
+ "sent_total": 4142115,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84479,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84479,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:40:15.186Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84480,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84480,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:40:15.186Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T22:04:43.053Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391297,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793915740,
+   "counter_issued": 391297,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T22:24:01.854Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443385,
+   "owner": "",
+   "owner_addr": "0:11b9e1a4b0e17ef5a741bbcf2d17e539359918e06144fa1225101349afc3a2c0",
+   "mint": 1793914278,
+   "counter_issued": 443385,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T22:24:09.687Z",
    "t": 1
   }
  ]
