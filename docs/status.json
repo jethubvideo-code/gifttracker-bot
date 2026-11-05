@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T21:14:31.066Z",
- "updated_unix": 1793913271,
- "runs": 15186,
+ "updated": "2026-11-05T21:18:30.398Z",
+ "updated_unix": 1793913510,
+ "runs": 15187,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118515,
- "sent_total": 4141423,
+ "detected_total": 118516,
+ "sent_total": 4141500,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443373,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443373,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:20:17.311Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T21:14:20.123Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T21:14:28.029Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391296,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793912972,
+   "counter_issued": 391296,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T21:18:27.680Z",
    "t": 1
   }
  ]
