@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T09:19:31.698Z",
- "updated_unix": 1793870371,
- "runs": 15113,
+ "updated": "2026-11-05T09:22:29.035Z",
+ "updated_unix": 1793870549,
+ "runs": 15114,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117544,
- "sent_total": 4067412,
+ "detected_total": 117545,
+ "sent_total": 4067488,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142599,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142599,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T07:56:38.023Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:59:06.642Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:59:06.642Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T09:19:22.896Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T09:19:28.972Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134159,
+   "owner": "",
+   "owner_addr": "0:d12870a94c11330e744f779d99a1097cbcf0147a66aa2a540e73553bccdc4875",
+   "mint": 1793869400,
+   "counter_issued": 134159,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T09:22:25.353Z",
    "t": 1
   }
  ]
