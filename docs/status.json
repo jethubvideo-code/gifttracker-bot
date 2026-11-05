@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T21:51:45.638Z",
- "updated_unix": 1793915505,
- "runs": 15190,
+ "updated": "2026-11-05T21:53:45.891Z",
+ "updated_unix": 1793915625,
+ "runs": 15191,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118519,
- "sent_total": 4141730,
+ "detected_total": 118521,
+ "sent_total": 4141884,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443377,
-   "owner": "",
-   "owner_addr": "0:65b9e9792d4f0668697f142bf78f73b79264f141e8900b25bc82064b2412760e",
-   "mint": 1793909493,
-   "counter_issued": 443377,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:20:17.311Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391291,
-   "owner": "",
-   "owner_addr": "0:5cf2ff6ee7d9c42b12d98389b430bd86f26ba9f914508bdfb0b23a1268edf831",
-   "mint": 1793909417,
-   "counter_issued": 391291,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:21:39.260Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T21:51:43.368Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90618,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90618,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T21:53:40.541Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90619,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90619,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T21:53:40.541Z",
    "t": 1
   }
  ]
