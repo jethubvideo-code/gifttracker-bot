@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T16:42:01.754Z",
- "updated_unix": 1793896921,
- "runs": 15154,
+ "updated": "2026-11-05T16:44:06.192Z",
+ "updated_unix": 1793897046,
+ "runs": 15155,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117665,
- "sent_total": 4076396,
+ "detected_total": 117667,
+ "sent_total": 4076550,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85217,
-   "owner": "",
-   "owner_addr": "0:4dc46f0a6d48c23eabcc4c924e67b60c08523c7984625f2efc46abdb6831abd1",
-   "mint": 1793879361,
-   "counter_issued": 85217,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T15:23:49.981Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85218,
-   "owner": "",
-   "owner_addr": "0:e19c36872e2002c8e0778af9ccf01a1e234d0e4a40c9bb0c590415a5d3b17554",
-   "mint": 1793888342,
-   "counter_issued": 85218,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T15:23:49.981Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T16:41:58.615Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23130,
+   "owner": "",
+   "owner_addr": "0:1d8fa164bd010c66bb8d137c71477b3be34df2457a4801f6ec4ffe5b0df0065d",
+   "mint": 1793895238,
+   "counter_issued": 23130,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T16:43:58.926Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23131,
+   "owner": "qewdi.t.me",
+   "owner_addr": "0:1d8fa164bd010c66bb8d137c71477b3be34df2457a4801f6ec4ffe5b0df0065d",
+   "mint": 1793895242,
+   "counter_issued": 23131,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T16:43:58.926Z",
    "t": 1
   }
  ]
