@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T22:24:11.823Z",
- "updated_unix": 1793917451,
- "runs": 15193,
+ "updated": "2026-11-05T22:26:08.381Z",
+ "updated_unix": 1793917568,
+ "runs": 15194,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118524,
- "sent_total": 4142115,
+ "detected_total": 118525,
+ "sent_total": 4142192,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84481,
-   "owner": "",
-   "owner_addr": "0:22dda606b4b40a7ce56666965cbc52b28da72434452d2f81fcb79d4df1a377c6",
-   "mint": 1793895821,
-   "counter_issued": 84481,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:40:15.186Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T22:04:43.053Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T22:24:01.854Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T22:24:09.687Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117677,
+   "owner": "",
+   "owner_addr": "0:4896e7fe072d80634895b00cfa95e483a492b044ff518987501c534c4716853f",
+   "mint": 1793916570,
+   "counter_issued": 117677,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T22:26:04.610Z",
    "t": 1
   }
  ]
