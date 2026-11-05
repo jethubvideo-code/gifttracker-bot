@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-05T20:47:37.340Z",
- "updated_unix": 1793911657,
- "runs": 15184,
+ "updated": "2026-11-05T20:53:44.509Z",
+ "updated_unix": 1793912024,
+ "runs": 15185,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118510,
- "sent_total": 4141038,
+ "detected_total": 118513,
+ "sent_total": 4141269,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443368,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443368,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:20:17.311Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443369,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443369,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:20:17.311Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443370,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443370,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:20:17.311Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:47:21.439Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:47:30.546Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:47:30.546Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134197,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134197,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T20:53:34.529Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134198,
+   "owner": "",
+   "owner_addr": "0:2036ee6a608b51bc95d939eda7c93ea8b0920a67bf467fd814c1655caa423dfa",
+   "mint": 1793909056,
+   "counter_issued": 134198,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T20:53:34.529Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134199,
+   "owner": "tank.ton",
+   "owner_addr": "0:c8a7f8d7b617fc79a2e855726b0fcd2230e21c5a170d559a8f05cb85b0b94d3c",
+   "mint": 1793911785,
+   "counter_issued": 134199,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T20:53:34.529Z",
    "t": 1
   }
  ]
