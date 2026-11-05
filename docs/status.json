@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T16:03:22.530Z",
- "updated_unix": 1793894602,
- "runs": 15147,
+ "updated": "2026-11-05T16:14:19.435Z",
+ "updated_unix": 1793895259,
+ "runs": 15148,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117648,
- "sent_total": 4075167,
+ "detected_total": 117650,
+ "sent_total": 4075321,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391265,
-   "owner": "",
-   "owner_addr": "0:24297c172fb85015f4d28ec7dea5cb592a156f892a352bfe4d40d769ccb48049",
-   "mint": 1793876653,
-   "counter_issued": 391265,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T14:19:33.293Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391266,
-   "owner": "",
-   "owner_addr": "0:6144d703610831bc968d43dc0f591985a16677b7a7dbca6dd60cde25b9fd4a8b",
-   "mint": 1793878633,
-   "counter_issued": 391266,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T14:19:33.293Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T16:03:09.966Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T16:03:09.966Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T16:03:09.966Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T16:03:09.966Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74773,
+   "owner": "",
+   "owner_addr": "0:0642d42b78eebd13da96b549dbe6eed52b22946ff581d8cfc8328546382143b9",
+   "mint": 1793894510,
+   "counter_issued": 74773,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T16:14:14.657Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "EvilEye",
+   "number": 74774,
+   "owner": "",
+   "owner_addr": "0:f83c70c62719bd2b0d2ce8bcdb9f08eb85782579e7488ef49822650050fbacb1",
+   "mint": 1793895095,
+   "counter_issued": 74774,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T16:14:14.657Z",
    "t": 1
   }
  ]
