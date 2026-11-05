@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T20:40:37.964Z",
- "updated_unix": 1793911237,
- "runs": 15180,
+ "updated": "2026-11-05T20:42:19.784Z",
+ "updated_unix": 1793911339,
+ "runs": 15181,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 118497,
- "sent_total": 4140037,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 118499,
+ "sent_total": 4140191,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391290,
-   "owner": "laffkabank.ton",
-   "owner_addr": "0:2a388d400555a8444e28c9a85a0aecd2d755631f96be3a8e4cd5274e5c2e45e1",
-   "mint": 1793909281,
-   "counter_issued": 391290,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:10:03.315Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443363,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443363,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:10:25.370Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:40:02.905Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:40:15.186Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:40:15.186Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:40:15.186Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:40:15.186Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T20:40:15.186Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391292,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391292,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T20:42:11.484Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391293,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391293,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T20:42:11.484Z",
    "t": 1
   }
  ]
