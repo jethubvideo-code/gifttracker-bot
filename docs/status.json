@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T08:20:11.828Z",
- "updated_unix": 1793866811,
- "runs": 15109,
+ "updated": "2026-11-05T08:25:08.306Z",
+ "updated_unix": 1793867108,
+ "runs": 15110,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 117537,
- "sent_total": 4066880,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 117538,
+ "sent_total": 4066956,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142592,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142592,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T07:56:38.023Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:20:05.829Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:20:05.829Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:20:05.829Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269902,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793866797,
+   "counter_issued": 269902,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T08:25:06.440Z",
    "t": 1
   }
  ]
