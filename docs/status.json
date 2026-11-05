@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T10:12:56.806Z",
- "updated_unix": 1793873576,
- "runs": 15122,
+ "updated": "2026-11-05T10:32:05.826Z",
+ "updated_unix": 1793874725,
+ "runs": 15123,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 117563,
- "sent_total": 4068855,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 117564,
+ "sent_total": 4068931,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269901,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269901,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T08:18:03.618Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T10:10:49.017Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T10:12:52.886Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269912,
+   "owner": "",
+   "owner_addr": "0:9c35be7eecede46169c49898b4c71b33dbf75764bc6ef966ca5d6a1af5a369c9",
+   "mint": 1793874505,
+   "counter_issued": 269912,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T10:32:03.396Z",
    "t": 1
   }
  ]
