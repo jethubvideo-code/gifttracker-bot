@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T18:58:05.334Z",
- "updated_unix": 1793905085,
- "runs": 15169,
+ "updated": "2026-11-05T19:27:26.371Z",
+ "updated_unix": 1793906846,
+ "runs": 15170,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 118446,
- "sent_total": 4136345,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 118448,
+ "sent_total": 4136499,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328996,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328996,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 3
-  },
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328997,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328997,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T18:58:02.456Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443352,
+   "owner": "",
+   "owner_addr": "0:f0f4a568ec3f3847bb78fc9ae5b90f7b2c6743b1435a26115df1c2ff55da9c76",
+   "mint": 1793906326,
+   "counter_issued": 443352,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T19:27:18.476Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90615,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90615,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T19:27:23.338Z",
    "t": 1
   }
  ]
