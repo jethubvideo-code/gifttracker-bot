@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T10:10:51.334Z",
- "updated_unix": 1793873451,
- "runs": 15121,
+ "updated": "2026-11-05T10:12:56.806Z",
+ "updated_unix": 1793873576,
+ "runs": 15122,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 117562,
- "sent_total": 4068779,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 117563,
+ "sent_total": 4068855,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269900,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269900,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T08:18:03.618Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T10:10:49.017Z",
+   "t": 2
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232346,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793870264,
+   "counter_issued": 232346,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T10:12:52.886Z",
    "t": 1
   }
  ]
