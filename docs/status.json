@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-05T19:28:31.641Z",
- "updated_unix": 1793906911,
- "runs": 15171,
+ "updated": "2026-11-05T19:33:35.145Z",
+ "updated_unix": 1793907215,
+ "runs": 15172,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118451,
- "sent_total": 4136730,
+ "detected_total": 118454,
+ "sent_total": 4136961,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 329001,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 329001,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 3
-  },
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 329002,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 329002,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 3
-  },
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 329003,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 329003,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T19:28:20.629Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T19:28:25.292Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T19:28:25.292Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443353,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443353,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T19:33:24.701Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443354,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443354,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T19:33:24.701Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134195,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134195,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T19:33:32.347Z",
    "t": 1
   }
  ]
