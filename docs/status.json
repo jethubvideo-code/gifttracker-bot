@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T19:41:29.491Z",
- "updated_unix": 1793907689,
- "runs": 15173,
+ "updated": "2026-11-05T20:03:13.441Z",
+ "updated_unix": 1793908993,
+ "runs": 15174,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118455,
- "sent_total": 4137038,
+ "detected_total": 118456,
+ "sent_total": 4137051,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 329005,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 329005,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T19:41:27.046Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269928,
+   "owner": "bayishop.ton",
+   "owner_addr": "0:a3bdfb80d85fa26fb35ca4163dc90a3e988998be3cf37566530921047f4b0341",
+   "mint": 1793907530,
+   "counter_issued": 269928,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T20:02:40.459Z",
    "t": 1
   }
  ]
