@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T05:57:29.890Z",
- "updated_unix": 1793858249,
- "runs": 15087,
+ "updated": "2026-11-05T06:22:45.052Z",
+ "updated_unix": 1793859765,
+ "runs": 15088,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 117247,
- "sent_total": 4044840,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 117248,
+ "sent_total": 4044916,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78415,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78415,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T00:11:01.034Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T05:57:27.768Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443330,
+   "owner": "",
+   "owner_addr": "0:d6abacf718ad750b90f4b674873efe0270394179b21ed4069266dd19f044c071",
+   "mint": 1793859224,
+   "counter_issued": 443330,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T06:22:43.228Z",
    "t": 1
   }
  ]
