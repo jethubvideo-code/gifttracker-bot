@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T05:47:27.526Z",
- "updated_unix": 1793857647,
- "runs": 15083,
+ "updated": "2026-11-05T05:51:31.897Z",
+ "updated_unix": 1793857891,
+ "runs": 15084,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 117242,
- "sent_total": 4044460,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 117244,
+ "sent_total": 4044612,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269882,
-   "owner": "",
-   "owner_addr": "0:27f72b8debe3f858772b84e5d477d32cffc34c327aa28e4672016f4ff71e3973",
-   "mint": 1793834940,
-   "counter_issued": 269882,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T23:54:53.826Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269883,
-   "owner": "",
-   "owner_addr": "0:034d576663bac0d5753064893edfb84f4d7bb08a4329b13e876137e00823ae2b",
-   "mint": 1793836004,
-   "counter_issued": 269883,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T23:54:53.826Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T05:12:05.062Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T05:12:05.062Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T05:12:14.364Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T05:47:24.887Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391239,
+   "owner": "",
+   "owner_addr": "0:daf334422c8ce6d612d4b7e0c17021caf23239a4fa942ba210b62eb4b4ba661c",
+   "mint": 1793857575,
+   "counter_issued": 391239,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T05:51:27.670Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391240,
+   "owner": "",
+   "owner_addr": "0:daf334422c8ce6d612d4b7e0c17021caf23239a4fa942ba210b62eb4b4ba661c",
+   "mint": 1793857590,
+   "counter_issued": 391240,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T05:51:27.670Z",
    "t": 1
   }
  ]
