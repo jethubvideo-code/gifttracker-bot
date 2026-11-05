@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T22:26:08.381Z",
- "updated_unix": 1793917568,
- "runs": 15194,
+ "updated": "2026-11-05T22:29:34.328Z",
+ "updated_unix": 1793917774,
+ "runs": 15195,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 118525,
- "sent_total": 4142192,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 118527,
+ "sent_total": 4142298,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84482,
-   "owner": "",
-   "owner_addr": "0:2108bd9a2a4118965bb401948913fc0e87afe18ef490ffb303e66ee783821054",
-   "mint": 1793898613,
-   "counter_issued": 84482,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:40:15.186Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84483,
-   "owner": "rayil.t.me",
-   "owner_addr": "0:2108bd9a2a4118965bb401948913fc0e87afe18ef490ffb303e66ee783821054",
-   "mint": 1793898747,
-   "counter_issued": 84483,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:40:15.186Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T22:26:04.610Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134201,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134201,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T22:29:02.254Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269932,
+   "owner": "",
+   "owner_addr": "0:84404eb9a505cd59cbfcfaffe4d61c2ee3882f01564919d7ac0f5d4451b67da1",
+   "mint": 1793917565,
+   "counter_issued": 269932,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T22:29:08.458Z",
    "t": 1
   }
  ]
