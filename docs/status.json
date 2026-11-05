@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T21:53:45.891Z",
- "updated_unix": 1793915625,
- "runs": 15191,
+ "updated": "2026-11-05T22:04:45.259Z",
+ "updated_unix": 1793916285,
+ "runs": 15192,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 118521,
- "sent_total": 4141884,
+ "checked": 2,
+ "errors": 121,
+ "detected_total": 118522,
+ "sent_total": 4141961,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33005,
-   "owner": "",
-   "owner_addr": "0:2b023da3a27c96675e2b246f0e59aed6ba8c33f9e7ee25c5615720d4eba0a428",
-   "mint": 1793910106,
-   "counter_issued": 33005,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:40:02.905Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T21:53:40.541Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T21:53:40.541Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15583,
+   "owner": "",
+   "owner_addr": "0:6787448bf2d4eeedf9e05b39f1bc93ae9c6ef476e9b8b4a77a58e318b8d1a145",
+   "mint": 1793894153,
+   "counter_issued": 15583,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T22:04:43.053Z",
    "t": 1
   }
  ]
