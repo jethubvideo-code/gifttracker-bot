@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T08:56:13.907Z",
- "updated_unix": 1793868973,
- "runs": 15111,
+ "updated": "2026-11-05T08:59:11.325Z",
+ "updated_unix": 1793869151,
+ "runs": 15112,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117540,
- "sent_total": 4067108,
+ "detected_total": 117542,
+ "sent_total": 4067260,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142595,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142595,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T07:56:38.023Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142596,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142596,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T07:56:38.023Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:56:04.111Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T08:56:11.133Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90602,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90602,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T08:59:06.642Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90603,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90603,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T08:59:06.642Z",
    "t": 1
   }
  ]
