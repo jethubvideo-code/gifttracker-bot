@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-05T01:40:01.914Z",
- "updated_unix": 1793842801,
- "runs": 15071,
+ "updated": "2026-11-05T01:57:11.469Z",
+ "updated_unix": 1793843831,
+ "runs": 15072,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117225,
- "sent_total": 4043168,
+ "detected_total": 117228,
+ "sent_total": 4043396,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443318,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443318,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T21:50:05.654Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443319,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443319,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T21:50:05.654Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443320,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443320,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-04T21:50:05.654Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T01:11:30.239Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T01:40:00.012Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85210,
+   "owner": "",
+   "owner_addr": "0:1c5088f2975040723057441c430c649fd8cc996dc6abf1126bbdd00fde64e130",
+   "mint": 1793828593,
+   "counter_issued": 85210,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T01:56:59.654Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32989,
+   "owner": "",
+   "owner_addr": "0:9dd704902e848c7d7d42530e9bd93d1d506d24814da7d41361293ee1abdd858a",
+   "mint": 1793834176,
+   "counter_issued": 32989,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T01:57:07.663Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 32990,
+   "owner": "",
+   "owner_addr": "0:b4511ce4185de53de42f3fa9c37209c3e64078ac8e4dec46310ef7fda9babc1c",
+   "mint": 1793839237,
+   "counter_issued": 32990,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T01:57:07.663Z",
    "t": 1
   }
  ]
