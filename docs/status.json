@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T14:58:32.302Z",
- "updated_unix": 1793890712,
- "runs": 15139,
+ "updated": "2026-11-05T15:00:31.949Z",
+ "updated_unix": 1793890831,
+ "runs": 15140,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117632,
- "sent_total": 4073939,
+ "detected_total": 117633,
+ "sent_total": 4074015,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108690,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793874751,
-   "counter_issued": 108690,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T14:12:21.548Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T14:58:27.739Z",
+   "t": 3
+  },
+  {
+   "slug": "SharpTongue",
+   "gift": "Sharp Tongue",
+   "number": 8149,
+   "owner": "",
+   "owner_addr": "0:bdce887c966c1e1187daf31c4b132bf0b8f8f3400bc3454fde38f52adbe79986",
+   "mint": 1793861519,
+   "counter_issued": 8149,
+   "counter_total": 8546,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T15:00:27.722Z",
    "t": 1
   }
  ]
