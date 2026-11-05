@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T17:31:14.645Z",
- "updated_unix": 1793899874,
- "runs": 15161,
+ "updated": "2026-11-05T17:31:32.854Z",
+ "updated_unix": 1793899892,
+ "runs": 15162,
  "collections": 123,
- "checked": 12,
- "errors": 111,
- "detected_total": 118125,
- "sent_total": 4111742,
+ "checked": 22,
+ "errors": 101,
+ "detected_total": 118126,
+ "sent_total": 4111819,
  "last_upgrades": [
-  {
-   "slug": "eternalrose",
-   "gift": "Eternal Roses",
-   "number": 32113,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32113,
-   "counter_total": 37640,
-   "img": "https://cdn4.telesco.pe/file/lyPU_RyVLVKMq-raA_5ei9FYIxWp9Eix7Bl9PSMfaIi3Xb-RpNBxR9DRMEvnUUWo66PyagYRqwMnGdu0_c5CSpba60vaO4HyBE0X1YIPf_v_o9gH5XO31wrqbOHZQLy_92p4EB0RyyFxaFFfH30ooRHBpdFxrGnxFJgBNvNngwedYKFgEjcpBq6fSz4qaezUzd9DrE0duVZnMUo1G9dm0zeY5RtlFpqYP8HzuIYiTgolNIa12HSAnEzrk_MfN8KF59JIHCaaRgaCrJTKcVtfYMqnht19DbSA2lrNM4qNddztJZlMLXaukB0v8i2h5AjDehNmBlZKoflpVMxs1-1JUw.jpg",
-   "sent": 0,
-   "time": "2026-11-05T17:29:10.767Z",
-   "u": 1
-  },
   {
    "slug": "eternalrose",
    "gift": "Eternal Roses",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-11-05T17:31:12.411Z",
    "u": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391280,
+   "owner": "n_z_k.t.me",
+   "owner_addr": "0:f305e8aee03f99d72eccd88869a718c655e91bf676dd3e83130e3cb38c350e52",
+   "mint": 1793899735,
+   "counter_issued": 391280,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T17:31:28.994Z",
+   "t": 1
   }
  ]
 }
