@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-05T07:09:05.316Z",
- "updated_unix": 1793862545,
- "runs": 15098,
+ "updated": "2026-11-05T07:33:33.263Z",
+ "updated_unix": 1793864013,
+ "runs": 15099,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 117267,
- "sent_total": 4046360,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 117269,
+ "sent_total": 4046512,
  "last_upgrades": [
-  {
-   "slug": "SignetRing",
-   "gift": "Signet Ring",
-   "number": 16988,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793840610,
-   "counter_issued": 16988,
-   "counter_total": 18499,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T04:40:45.123Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443327,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1793855449,
-   "counter_issued": 443327,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T05:12:05.062Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T07:09:03.491Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443331,
+   "owner": "",
+   "owner_addr": "0:b18f4acbd5e3e6211d41bc3ace34c7f769007f09565b8d8b9d76a4463213bb94",
+   "mint": 1793862857,
+   "counter_issued": 443331,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T07:33:22.779Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232345,
+   "owner": "",
+   "owner_addr": "0:152dc1e69ec895ab505460a7fef07e024f78abc85143c8e7ccb134e4bd323e2a",
+   "mint": 1793858769,
+   "counter_issued": 232345,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T07:33:30.028Z",
    "t": 1
   }
  ]
