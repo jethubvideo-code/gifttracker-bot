@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-05T07:33:33.263Z",
- "updated_unix": 1793864013,
- "runs": 15099,
+ "updated": "2026-11-05T07:37:31.042Z",
+ "updated_unix": 1793864251,
+ "runs": 15100,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 117269,
- "sent_total": 4046512,
+ "detected_total": 117270,
+ "sent_total": 4046588,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443328,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1793855481,
-   "counter_issued": 443328,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T05:12:05.062Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T07:09:03.491Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T07:33:22.779Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T07:33:30.028Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108686,
+   "owner": "pahnw.t.me",
+   "owner_addr": "0:c99161b0d56ab05405a8a1aa352b8b925b7b49b5d16aed6303497e011b8366de",
+   "mint": 1793864207,
+   "counter_issued": 108686,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T07:37:28.750Z",
    "t": 1
   }
  ]
