@@ -1,28 +1,13 @@
 {
- "updated": "2026-11-05T18:53:11.645Z",
- "updated_unix": 1793904791,
- "runs": 15167,
+ "updated": "2026-11-05T18:54:07.917Z",
+ "updated_unix": 1793904847,
+ "runs": 15168,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 118444,
- "sent_total": 4136191,
+ "checked": 29,
+ "errors": 94,
+ "detected_total": 118445,
+ "sent_total": 4136268,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 328994,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 328994,
-   "counter_total": 342255,
-   "img": "https://cdn4.telesco.pe/file/Cb9vcrJhCc9wXFD38J9-1C6AR_VUwuIl33Ulx6zRsahHe9sPjDNI0kAWOlPaf86a9ThEmLhHTAM8tZAJL0SGqoem_JNUhgx3tkLo7os_PcZITk6qWtaMWMZVQ-FlJF6rL_h8x3S6uNSaPS7BR9oHup5BYDnjegjradUhsUK0i1II9YwUMYHlcgFtlCYkVr2RGuK3zXogDVrZxscvreuskd5wTXpTlabvBn-oLtOcW6VuPjwhDGDhALz7UVXkyNMNhh4ARw-bjl7_k7sgQ7vY1S9DRXX2v7Z5lhHq95X8tOIIFcnXr4MMXlmPzcMdIytaNb2ZfhT_RvvqsDr0RnZdIw.jpg",
-   "sent": 0,
-   "time": "2026-11-05T18:28:43.326Z",
-   "t": 2,
-   "u": 1
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -400,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T18:52:55.005Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -414,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T18:52:55.005Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -428,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T18:53:07.708Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443351,
+   "owner": "",
+   "owner_addr": "0:f0f4a568ec3f3847bb78fc9ae5b90f7b2c6743b1435a26115df1c2ff55da9c76",
+   "mint": 1793904840,
+   "counter_issued": 443351,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-05T18:54:04.597Z",
    "t": 1
   }
  ]
