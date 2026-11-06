@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T21:26:16.590Z",
- "updated_unix": 1794000376,
- "runs": 15338,
+ "updated": "2026-11-06T21:29:21.399Z",
+ "updated_unix": 1794000561,
+ "runs": 15339,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119764,
- "sent_total": 4233501,
+ "detected_total": 119766,
+ "sent_total": 4233651,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78182,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78182,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/fwZMz2enSFGlVR5aFdaMGvdN6CslP0YaKqr6TldVcaTesKPi4DHSx4dLqr8ct8DZx1DO-TpC3cHFCyRkQ_Y0JKCm3xLCMQI-R8Mk7z_74dLs-4uFobLvWfm1m4H7ACVErZQNGnzgEIu38c8Q6Ht8p-D7iZvkxOGluMUo1SvwH2qbuv4lhKUhLH_YPKrsjHbyW5I0RFAva8iP3_n-areNsfBd-TqixnPxfKujFuSUUwb-TAZiWIEoYrsuh08L5OMSZVZgX8VavwpXsh0UnANEImjXaL3OJ8O-sbt12m1wuP9pr8sehGaq_iJfT0xBh88wMbOCpCTxYG6SFloWtxOUWQ.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:15:13.544Z",
-   "u": 1
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78183,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78183,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/usBjjfGScxV0VWdAvogwqQ-eh1elxnzOejf95uB4Wy2L6Ja49J_7B12WvcTaQ56eTT_1uT9QI_vwWh7wKEu74q9JGqjH046hb9p6gCWj6_pKDqrCQweIReQaxkb1eY_mkUPveWLZD4e6fwNQQRaHztkS-Ulo1nB_qBEoU1X0QX_sthxjciASNQ6IjkwNFXxmh9U8iRnCD36qy_bkxDpXi3KLt7PAJdLr3KO3j_ZzrWdunTLDTcLeRL_3i8gue1ryUh5LosiBbk8JXnp0OHbXrFX_mb9g5sL2U_qrLa_i7hhLuoUpKaN7Vm4x3DPilAL4VLcDLxwy_sjwdVPNP8D7JQ.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:15:13.544Z",
-   "u": 1
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T21:26:09.448Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T21:26:09.448Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443420,
+   "owner": "",
+   "owner_addr": "0:06a1d5bf4a935d2f6f2ee314b692c207fc739ed49c9ff652076cf715cb17c161",
+   "mint": 1794000454,
+   "counter_issued": 443420,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T21:29:12.028Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391343,
+   "owner": "",
+   "owner_addr": "0:1fc4c581b694c74f88178eed1b8f7e498f00c8d624a51df42b93f59663bb7154",
+   "mint": 1793998710,
+   "counter_issued": 391343,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T21:29:18.649Z",
    "t": 1
   }
  ]
