@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T16:05:41.646Z",
- "updated_unix": 1793981141,
- "runs": 15284,
+ "updated": "2026-11-06T16:11:38.665Z",
+ "updated_unix": 1793981498,
+ "runs": 15285,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 118749,
- "sent_total": 4157713,
+ "detected_total": 118750,
+ "sent_total": 4157788,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90633,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90633,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T14:33:14.347Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:46:15.855Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:05:21.759Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:05:30.547Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:05:37.653Z",
+   "t": 3
+  },
+  {
+   "slug": "AstralShard",
+   "gift": "Astral Shard",
+   "number": 5708,
+   "owner": "",
+   "owner_addr": "0:7e6408074035358f64042354ac60ad6e721ee9c23bfd13fd8c1a87e050d6965b",
+   "mint": 1793967598,
+   "counter_issued": 5708,
+   "counter_total": 6196,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T16:11:34.954Z",
    "t": 1
   }
  ]
