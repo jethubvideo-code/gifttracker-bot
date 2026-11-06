@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T15:42:21.297Z",
- "updated_unix": 1793979741,
- "runs": 15281,
+ "updated": "2026-11-06T15:43:21.533Z",
+ "updated_unix": 1793979801,
+ "runs": 15282,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118744,
- "sent_total": 4157342,
+ "detected_total": 118745,
+ "sent_total": 4157417,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85234,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85234,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T14:28:04.219Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:42:18.333Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443404,
+   "owner": "",
+   "owner_addr": "0:dc60af901cf27fe15e3a1206a1d059866625dcb6c562b7b99a0f60ea578e951f",
+   "mint": 1793979591,
+   "counter_issued": 443404,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T15:43:18.632Z",
    "t": 1
   }
  ]
