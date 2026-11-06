@@ -1,111 +1,13 @@
 {
- "updated": "2026-11-06T12:05:35.479Z",
- "updated_unix": 1793966735,
- "runs": 15259,
+ "updated": "2026-11-06T12:17:22.741Z",
+ "updated_unix": 1793967442,
+ "runs": 15260,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 118683,
- "sent_total": 4153112,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 118690,
+ "sent_total": 4153651,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443395,
-   "owner": "",
-   "owner_addr": "0:d7f0feb68b1e3d319d8ae7a904ff69e470049034922c0f30bd7b47bcb0a7d8fb",
-   "mint": 1793955979,
-   "counter_issued": 443395,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:40:11.163Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443396,
-   "owner": "",
-   "owner_addr": "0:6232a535b35fb7fdd744e9e67fd676525a3adaec32eaabe046d12795e9cc2307",
-   "mint": 1793956258,
-   "counter_issued": 443396,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:40:11.163Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443397,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793957528,
-   "counter_issued": 443397,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:40:11.163Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443398,
-   "owner": "",
-   "owner_addr": "0:d3fa5c943216b5d9f8472f2448ed463335db4eb5e4114a44a1b9661eb8dfda0c",
-   "mint": 1793957853,
-   "counter_issued": 443398,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:40:11.163Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443399,
-   "owner": "",
-   "owner_addr": "0:af087cda5a2421b7c8d0483bea8e355b27afab4f8734f1f86bb0c82d2243e046",
-   "mint": 1793958986,
-   "counter_issued": 443399,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T10:11:56.064Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391312,
-   "owner": "",
-   "owner_addr": "0:b01e3cea3cbfa7c9ca604f0338698e992c1698ebf53c08f1755c501493fffb8b",
-   "mint": 1793959289,
-   "counter_issued": 391312,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T10:12:04.431Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90627,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90627,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T10:12:10.135Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -370,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:02:06.059Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:04:09.886Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:04:09.886Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:04:09.886Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +328,104 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:04:09.886Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391318,
+   "owner": "",
+   "owner_addr": "0:bd81eecf4de3e4a9cda57c3ed3aed38e2533de04f10041742ba22e8b1a8e138d",
+   "mint": 1793966963,
+   "counter_issued": 391318,
+   "counter_total": 457382,
+   "img": "https://cdn4.telesco.pe/file/TlpTraGutnWfJJieY0lkAW4cY5iRjyzD5KpQPNiV-yIj0XljOpPoLKHRa2Sf7xwww96SxGWzV1NZVMb3RgIS9IShOY7KsT_ZfIbcDG6g5XJAcYwiOjv6VlvedeqLLOt8qCh31Pq6zl3G0mdtQfQuY0_seDifpnGd884X0M8GNgafN7nivaTpyACIBcmK3i_fIHdiERb5VBfe3lOxR1pEIl7O_nE0iqDWK9W5MVgCShTZnap0G6Ku8NWCX4kz8Mz1ITCazN49Z7qIy2Q_dF2G9Ffv2GLE4kpaRWBrZ3w3NtRhS9XTDOHnJL9qi4tAEA4T3KVLgS-myv9qCCeoUcBjnA.jpg",
+   "sent": 0,
+   "time": "2026-11-06T12:16:28.598Z",
+   "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134216,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134216,
+   "counter_total": 181231,
+   "img": "https://cdn4.telesco.pe/file/h8GzYXrNsr_7iHqTfQUws6tevOhqKasD_DnJyGK0QPnx0p0cOpf6-i7tGvparZPn3hZ-J7rg3y2BVgGI0i1iGuiDpvaN6ECKH9njh4BSAycBqMOcp85c-5g9d3ehAFPy3cuYNw09uPiGc3G2etGpxWQw2fCV73IZJZBLa3MHbt-nv8cJEMvm3u7RmLLVGokD77MoZmhWixVQIBRilvshWRfPZ2uA-IdjCXEU1cdLaKkuTQLUnhAlY2zql7P14ULz0ufX-QNrsqtam4WSEuzPRqph5rnZEqPQSL1tkEIJvC-vbVUEePpx26mwSR1gtjzO3hjFawgSQaSKvPsk39sbHg.jpg",
+   "sent": 0,
+   "time": "2026-11-06T12:16:41.702Z",
+   "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134217,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134217,
+   "counter_total": 181231,
+   "img": "https://cdn4.telesco.pe/file/ddy9FOWJcWPu8stkJ0N-ov6vZIMy5rgYzrydw0EO4UqMyp_xEg-9NE-ofeu6KKmZ20BInYrRHluh5AluP5Ied-qvjKk78aNQG3BID9ZRvMNr0OcnSOY50KtOqPkteOBxo-bDboHr7GB9ZPudnf3SnKemp3ATydlXI5HhBz8Eqt4lFp9SXiv3r0lH2-iK2scLFg5aA8FSXVsks6eFwqZ5JBF7lEyZw5G2n5HNl8Px_Qqjot1LSL2sUH6Nw_4EXJ7gIG1hXDe1GkEM74H6iRFuEOS51YxP7iy6X7Stdx6_Os8_e7-thiKjvIAiTq8RfXzsGHD2f8ZydsrZ8HH-5R7XnA.jpg",
+   "sent": 0,
+   "time": "2026-11-06T12:16:41.702Z",
+   "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134218,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134218,
+   "counter_total": 181231,
+   "img": "https://cdn4.telesco.pe/file/DUAgC0oIDB9psmGowaxfbvlsy_iL2aBSb5ZJQEPo5TG1QHVqQZs_HEnJdLoj1xTjx1IiPfSh0IFnqo1Wy9AC1i2nXXrThmDvcpZxlu0_Kf8DDjKj7BY9lh9T6fn4ZK7GByEDO_VF54lQge8iBdMTI23BMt1fGOuaOi8zrWQLDMpigob3eRR4uZ3ugVNpi2ZDcROl6e_gIPN529yFD2a8-NaP342fnsWB8ZLscytHkUDKYoWXOZNkocOv4Lhd69igoLmLQ9MUt-ytbUabeD4K4wdWOYi5RHyL1P1bK4d3ommREwAmF_43S1I0EH90OVV10Clgvnnu-kjEkDb90YSd6A.jpg",
+   "sent": 0,
+   "time": "2026-11-06T12:16:41.702Z",
+   "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134219,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134219,
+   "counter_total": 181231,
+   "img": "https://cdn4.telesco.pe/file/pm7-_7AkITIMR40Vm81UOtH2nXkt6k1npl95CcQXbZpWLvRDmJ53tdQLvZJWBMI4JS69Ou_4GOgsHVfvmwwxC5RRhhSa_7kxQVsU8087I5QfZov1bc1NaUE5sKKr_2cz7mzkbTgh7rbMfN2h0VDCyXgdIrSs9V2rUC_eXJcRpOqBtVsVdKjCmjqaPvTseabjuO_Ei6qGBndbEvL8i5ZFGlm6-PusxT5X26HzFp_2NKeqNJ6P0dsq6UHiP3TsR77JsB5fpRUkv73n7jEjKrc6LmmMElHoGGmRnf243sRtfdDIiZcitOUcUSsuBZyh6V8XfNEVr4bzLo5mil6VppkI2g.jpg",
+   "sent": 0,
+   "time": "2026-11-06T12:16:41.702Z",
+   "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134220,
+   "owner": "",
+   "owner_addr": "0:b934748c1e862394b7b72868de28a6a4e15d7eb467e2b43d58d4d0324c8e1409",
+   "mint": 1793962622,
+   "counter_issued": 134220,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T12:16:41.702Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134221,
+   "owner": "",
+   "owner_addr": "0:adb04b423b085bee44d05693617f6da77e7c6f50adcdba4b02693ade6c06825d",
+   "mint": 1793963273,
+   "counter_issued": 134221,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T12:16:41.702Z",
    "t": 1
   }
  ]
