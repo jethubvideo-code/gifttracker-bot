@@ -1,28 +1,13 @@
 {
- "updated": "2026-11-06T23:49:23.584Z",
- "updated_unix": 1794008963,
- "runs": 15355,
+ "updated": "2026-11-06T23:51:25.281Z",
+ "updated_unix": 1794009085,
+ "runs": 15356,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 119809,
- "sent_total": 4236635,
+ "detected_total": 119810,
+ "sent_total": 4236710,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84500,
-   "owner": "",
-   "owner_addr": "0:35e4df31ffb952824c4103a851e0af54c754d30d2716e00e22ad2bb56cc6f900",
-   "mint": 1793992973,
-   "counter_issued": 84500,
-   "counter_total": 116639,
-   "img": "https://cdn4.telesco.pe/file/fxL0ZS_mpasXLOPY1s_c0-VMtiHKbb_LkTCvaO8U2mjvQ5xxOUyKS34ib30PnhCCl1sGQ21Qg_M3y-9KFZIpIklsvyX2GLs4WIL0FLsji8lnnsBBLa_620_iSRCLblCNvRMZIP4oZgIBuoWihwsJBPjc70-gNZrBFy2wBDp2RTBsfGbQnJ49N3K-6wo4xjkhsdi08zBYWV2s6NxX0C1HeGO38lmpeH_L53FUTEcakBNBTjm1cg3DxYP96JYuU-QwX1E7cuRBd6cxAuMOyRPOk0GM3eKt9G1HNu3bw8VnF3zr-EyPxYnXi94m9867pqS1F0_j2IluO2z3UhIVaeTjpQ.jpg",
-   "sent": 0,
-   "time": "2026-11-06T22:51:42.199Z",
-   "t": 1,
-   "u": 1
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -435,6 +420,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T23:49:16.861Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108715,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794006649,
+   "counter_issued": 108715,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:51:18.798Z",
    "t": 1
   }
  ]
