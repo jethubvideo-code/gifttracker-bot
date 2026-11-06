@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-06T03:42:42.998Z",
- "updated_unix": 1793936562,
- "runs": 15214,
+ "updated": "2026-11-06T05:29:44.534Z",
+ "updated_unix": 1793942984,
+ "runs": 15215,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 118589,
- "sent_total": 4146900,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 118594,
+ "sent_total": 4147285,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78425,
-   "owner": "",
-   "owner_addr": "0:24616245dda9f8432753b2d774418771d9abc8cef37cc2f9f0a01f550e69eabe",
-   "mint": 1793898838,
-   "counter_issued": 78425,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T01:22:47.042Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78426,
-   "owner": "",
-   "owner_addr": "0:674d34ecbf50a2a1fada7352ac9db463cf663d90eb2b36fe92e9060d2be8d50c",
-   "mint": 1793900166,
-   "counter_issued": 78426,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T01:22:47.042Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78427,
-   "owner": "",
-   "owner_addr": "0:ba1a0dc3325284b5d08a53ba503b0310cc3a3b41d4da42adda964d7effb9b691",
-   "mint": 1793907614,
-   "counter_issued": 78427,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T01:22:47.042Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78428,
-   "owner": "",
-   "owner_addr": "0:ba1a0dc3325284b5d08a53ba503b0310cc3a3b41d4da42adda964d7effb9b691",
-   "mint": 1793907621,
-   "counter_issued": 78428,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T01:22:47.042Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78429,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793917984,
-   "counter_issued": 78429,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T01:22:47.042Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T02:39:31.332Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T03:41:59.206Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T03:42:03.514Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T03:42:10.598Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134205,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134205,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T05:29:27.976Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134206,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134206,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T05:29:27.976Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134207,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134207,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T05:29:27.976Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134208,
+   "owner": "",
+   "owner_addr": "0:0f4b95418bd1dccde1de0dedffca91e17e2ef7d5180c5d8e88a5917e893a2fcc",
+   "mint": 1793940778,
+   "counter_issued": 134208,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T05:29:27.976Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134209,
+   "owner": "",
+   "owner_addr": "0:0f4b95418bd1dccde1de0dedffca91e17e2ef7d5180c5d8e88a5917e893a2fcc",
+   "mint": 1793942248,
+   "counter_issued": 134209,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T05:29:27.976Z",
    "t": 1
   }
  ]
