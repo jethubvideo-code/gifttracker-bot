@@ -1,28 +1,13 @@
 {
- "updated": "2026-11-06T23:51:25.281Z",
- "updated_unix": 1794009085,
- "runs": 15356,
+ "updated": "2026-11-06T23:55:24.010Z",
+ "updated_unix": 1794009324,
+ "runs": 15357,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 119810,
- "sent_total": 4236710,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 119811,
+ "sent_total": 4236785,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109178,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109178,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/pnct0VGAsjWdYRpy2g-97VR2iMLoBfoyllgSqvGTMA54TSJdDBcg_htkzQ2-fM3hstXiCCcoM2SmzWkxTcoWaMxDrE3Z-584PIAEifhI-J-77j4rnxJb36xWlmbeI_dTjHV-TvIlEpaHt6COwIWg0VN4es5JhiXVnAvobiiDOw8t-IIk9EYPw_KSsZai1W_DXyUKgCOOY7HfCr2RgnmUqRrDmrlElrYP3p82yXlORyMWgaJrH1pc8yDHH4-0bef6IIucDAY0QicgqnkJg1pff8yvXm_HmybOgNoqqZ_uUzcCuYZmBpatTQ7qggUgArMOVSB4dTcBjRV8RsR-AF_0XQ.jpg",
-   "sent": 0,
-   "time": "2026-11-06T22:51:49.324Z",
-   "t": 1,
-   "u": 1
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -434,6 +419,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T23:51:18.798Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134252,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134252,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:55:17.960Z",
    "t": 1
   }
  ]
