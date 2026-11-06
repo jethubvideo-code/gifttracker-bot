@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T15:43:21.533Z",
- "updated_unix": 1793979801,
- "runs": 15282,
+ "updated": "2026-11-06T15:46:18.716Z",
+ "updated_unix": 1793979978,
+ "runs": 15283,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118745,
- "sent_total": 4157417,
+ "detected_total": 118746,
+ "sent_total": 4157492,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85235,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85235,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T14:28:04.219Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:43:18.632Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90637,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90637,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T15:46:15.855Z",
    "t": 1
   }
  ]
