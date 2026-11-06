@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T18:36:43.378Z",
- "updated_unix": 1793990203,
- "runs": 15305,
+ "updated": "2026-11-06T18:38:43.574Z",
+ "updated_unix": 1793990323,
+ "runs": 15306,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119691,
- "sent_total": 4228274,
+ "detected_total": 119693,
+ "sent_total": 4228424,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110321,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110321,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110322,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110322,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:36:35.893Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:36:35.893Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:36:35.893Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134230,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1793989541,
+   "counter_issued": 134230,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T18:38:39.631Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134231,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1793989776,
+   "counter_issued": 134231,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T18:38:39.631Z",
    "t": 1
   }
  ]
