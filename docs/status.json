@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T20:56:10.625Z",
- "updated_unix": 1793998570,
- "runs": 15333,
+ "updated": "2026-11-06T21:00:06.419Z",
+ "updated_unix": 1793998806,
+ "runs": 15334,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119753,
- "sent_total": 4232677,
+ "detected_total": 119754,
+ "sent_total": 4232752,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 74103,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74103,
-   "counter_total": 99082,
-   "img": "https://cdn4.telesco.pe/file/BHjrGdGAlYdj9MnnY4VHhD6KaVgn6X8-coMJI3gpPPNyI8t2beckYStcK5cCGbmqxNoGo8IsoqNC9JidHGyf9zRggKNOPZmljxFS10XQflJc-MEbXZMV9iUXrNPdHMxAGrjHVyvee2HZ9QFocj_2DVTUmc7S2FC2DzkevCH_XGk-a1eY0nE9vQiLc9suoJGoD7Lr1UgPtHDPhyNDrLtAFXlMyDjpoFymsLo7jmFZMM6Xp89ah3DSOfMdFD5d_OkQtspURVuBmUfK4DqCyq5P9fT84caGLZhEzS09K89_lI4fr9jICy093TvC5pgQDGEbTHVKAU2xo7c6puxmQ01W-Q.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:14:13.740Z",
-   "u": 1
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:55:49.382Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:56:07.321Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391342,
+   "owner": "",
+   "owner_addr": "0:1fc4c581b694c74f88178eed1b8f7e498f00c8d624a51df42b93f59663bb7154",
+   "mint": 1793998710,
+   "counter_issued": 391342,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T21:00:03.339Z",
    "t": 1
   }
  ]
