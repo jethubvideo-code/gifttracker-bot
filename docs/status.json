@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T23:10:57.939Z",
- "updated_unix": 1794006657,
- "runs": 15350,
+ "updated": "2026-11-06T23:24:18.204Z",
+ "updated_unix": 1794007458,
+ "runs": 15351,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 119803,
- "sent_total": 4236250,
+ "checked": 28,
+ "errors": 95,
+ "detected_total": 119804,
+ "sent_total": 4236325,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33023,
-   "owner": "",
-   "owner_addr": "0:055645971258fb0ef1c4062e1f37b230e86fa3779c6152ebf7be988135f30ecf",
-   "mint": 1794000089,
-   "counter_issued": 33023,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T22:06:30.972Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -90,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:51:34.453Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -436,6 +422,20 @@
    "sent": 0,
    "time": "2026-11-06T23:10:43.204Z",
    "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443422,
+   "owner": "",
+   "owner_addr": "0:85354b83522224769c3237d40cac3f46edc4eb9545f3cb90ad086bf01e2902a3",
+   "mint": 1794006560,
+   "counter_issued": 443422,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:24:12.379Z",
+   "t": 1
   }
  ]
 }
