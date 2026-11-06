@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T20:48:16.506Z",
- "updated_unix": 1793998096,
- "runs": 15331,
+ "updated": "2026-11-06T20:49:53.206Z",
+ "updated_unix": 1793998193,
+ "runs": 15332,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119749,
- "sent_total": 4232393,
+ "detected_total": 119751,
+ "sent_total": 4232543,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33021,
-   "owner": "",
-   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
-   "mint": 1793995484,
-   "counter_issued": 33021,
-   "counter_total": 39464,
-   "img": "https://cdn4.telesco.pe/file/bop2oVGjEKKM__D2Y6Eb3LmBOyqLAAJ3oKj8V7zQL9WW2PNjg53uBcNkPQ1yl0LsMwEOaiNP1mAFSX-MJfZ-BvRvX5Y3aTc5NElHxSMX92O3acGRxfirdKLoG9yvLGoN5blaA2ryltyg3rxttLPYwYQ1QDOfcU6tx0Ym8Tw-Nd8k-COaZax_2Z7iPprYjaSxJ2F-O8IpMAU4ZX5hbHfPFgqJREYJXbrPvM4CmiPeGHqb6h3ladrGAHQol_4bM9Awas01hMCVzmG2Zj1h6urhkoGO22-7FkT_nJ72mCV5wYxJcI5iXSPZmkNsy8s0xLKJDiZq9r83_zFNIRiK9o9AEg.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:13:40.081Z",
-   "u": 1
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74783,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793990488,
-   "counter_issued": 74783,
-   "counter_total": 85204,
-   "img": "https://cdn4.telesco.pe/file/hpYdHwzACySeG2UU4GvhJ558EXLC_uJ0RYsyRNxu1R-wmxq4ptR1NiFtMeN85ZsAXG87tA_Nio_hymI052QBEQmpDMdgVsvB3fLt2gjeBif0kc6sCMKfTQSnEO5Cit_yvPdid2Cj8E44ntlZ3Zl0zb3odpUwbDMkQubcNC43YEnvyhDlLLujRtEpb-1bCDkhhkPB2IjO8QX8Qa4h8tf1MDv9mDnAFu2iHAoRltxnbrmbn5uCXiDZRoocm1Q51rV1MWUr9C1rtzmqVQBGZk3CqQp2uILz0RWpgEpAPnIEWmAXPaywEqxWGFr4MQ3f7RWDBf1LNeMDcbPelT5D4JUYnw.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:13:58.809Z",
-   "u": 1
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:26:38.173Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:47:43.349Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:48:13.724Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134241,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134241,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T20:49:46.902Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134242,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134242,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T20:49:46.902Z",
    "t": 1
   }
  ]
