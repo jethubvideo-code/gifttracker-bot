@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-06T19:03:04.225Z",
- "updated_unix": 1793991784,
- "runs": 15311,
+ "updated": "2026-11-06T19:07:56.064Z",
+ "updated_unix": 1793992076,
+ "runs": 15312,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119700,
- "sent_total": 4228948,
+ "detected_total": 119703,
+ "sent_total": 4229061,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110330,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110330,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110331,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110331,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110332,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110332,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:02:52.662Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BowTie",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:03:00.467Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BowTie",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:03:00.467Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269969,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793991121,
+   "counter_issued": 269969,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:07:00.392Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269970,
+   "owner": "",
+   "owner_addr": "0:2528db98a4970b3d23beb96b77cff5b8ec86701e0fcc862176678d4480937a06",
+   "mint": 1793991171,
+   "counter_issued": 269970,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:07:00.392Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269971,
+   "owner": "",
+   "owner_addr": "0:2528db98a4970b3d23beb96b77cff5b8ec86701e0fcc862176678d4480937a06",
+   "mint": 1793991217,
+   "counter_issued": 269971,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:07:00.392Z",
    "t": 1
   }
  ]
