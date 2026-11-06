@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T06:39:54.005Z",
- "updated_unix": 1793947194,
- "runs": 15223,
+ "updated": "2026-11-06T06:45:07.031Z",
+ "updated_unix": 1793947507,
+ "runs": 15224,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118610,
- "sent_total": 4148485,
+ "detected_total": 118612,
+ "sent_total": 4148639,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "SwagBag",
-   "number": 232350,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 232350,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T02:33:24.216Z",
-   "t": 3
-  },
-  {
-   "slug": "SwagBag",
-   "gift": "SwagBag",
-   "number": 232351,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 232351,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T02:33:24.216Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "SwagBag",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:22:02.298Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108701,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793941880,
+   "counter_issued": 108701,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T06:45:01.789Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108702,
+   "owner": "",
+   "owner_addr": "0:8f703b53d76362d1afb087e275bf53bcf633dab7a63875dea2a7646ebb3aeec0",
+   "mint": 1793942521,
+   "counter_issued": 108702,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T06:45:01.789Z",
+   "t": 1
   }
  ]
 }
