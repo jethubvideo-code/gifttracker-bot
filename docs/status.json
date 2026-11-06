@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T19:52:16.904Z",
- "updated_unix": 1793994736,
- "runs": 15321,
+ "updated": "2026-11-06T19:53:19.012Z",
+ "updated_unix": 1793994799,
+ "runs": 15322,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119714,
- "sent_total": 4229822,
+ "detected_total": 119715,
+ "sent_total": 4229896,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110344,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110344,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:52:12.945Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23133,
+   "owner": "",
+   "owner_addr": "0:2e1943e5d533487876a1a21b2a76dbbcdd72966a8a25b83cb0a446a8b6302ffc",
+   "mint": 1793991050,
+   "counter_issued": 23133,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:53:15.222Z",
    "t": 1
   }
  ]
