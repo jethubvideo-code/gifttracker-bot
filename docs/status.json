@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T23:24:18.204Z",
- "updated_unix": 1794007458,
- "runs": 15351,
+ "updated": "2026-11-06T23:27:17.092Z",
+ "updated_unix": 1794007637,
+ "runs": 15352,
  "collections": 123,
- "checked": 28,
- "errors": 95,
- "detected_total": 119804,
- "sent_total": 4236325,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 119805,
+ "sent_total": 4236400,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391344,
-   "owner": "",
-   "owner_addr": "0:e8f931c632c888e10867372eaca83859adce15070b7b5b6bf132fec68537f938",
-   "mint": 1794001669,
-   "counter_issued": 391344,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T22:09:31.215Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:51:34.453Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -435,6 +421,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T23:24:12.379Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 33024,
+   "owner": "",
+   "owner_addr": "0:41d19ac037ba04230285e15461f9b3ddb4997547cfb34ab274546480ba936286",
+   "mint": 1794007273,
+   "counter_issued": 33024,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:27:11.577Z",
    "t": 1
   }
  ]
