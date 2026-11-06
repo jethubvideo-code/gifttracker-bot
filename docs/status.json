@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T18:43:40.316Z",
- "updated_unix": 1793990620,
- "runs": 15308,
+ "updated": "2026-11-06T18:44:37.317Z",
+ "updated_unix": 1793990677,
+ "runs": 15309,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119695,
- "sent_total": 4228574,
+ "detected_total": 119696,
+ "sent_total": 4228649,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110325,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110325,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:43:38.559Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108711,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108711,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T18:44:35.481Z",
    "t": 1
   }
  ]
