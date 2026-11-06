@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T13:53:59.897Z",
- "updated_unix": 1793973239,
- "runs": 15269,
+ "updated": "2026-11-06T13:58:54.107Z",
+ "updated_unix": 1793973534,
+ "runs": 15270,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118713,
- "sent_total": 4155407,
+ "detected_total": 118714,
+ "sent_total": 4155482,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391318,
-   "owner": "",
-   "owner_addr": "0:bd81eecf4de3e4a9cda57c3ed3aed38e2533de04f10041742ba22e8b1a8e138d",
-   "mint": 1793966963,
-   "counter_issued": 391318,
-   "counter_total": 457382,
-   "img": "https://cdn4.telesco.pe/file/TlpTraGutnWfJJieY0lkAW4cY5iRjyzD5KpQPNiV-yIj0XljOpPoLKHRa2Sf7xwww96SxGWzV1NZVMb3RgIS9IShOY7KsT_ZfIbcDG6g5XJAcYwiOjv6VlvedeqLLOt8qCh31Pq6zl3G0mdtQfQuY0_seDifpnGd884X0M8GNgafN7nivaTpyACIBcmK3i_fIHdiERb5VBfe3lOxR1pEIl7O_nE0iqDWK9W5MVgCShTZnap0G6Ku8NWCX4kz8Mz1ITCazN49Z7qIy2Q_dF2G9Ffv2GLE4kpaRWBrZ3w3NtRhS9XTDOHnJL9qi4tAEA4T3KVLgS-myv9qCCeoUcBjnA.jpg",
-   "sent": 0,
-   "time": "2026-11-06T12:16:28.598Z",
-   "u": 1
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T13:53:47.423Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T13:53:55.718Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90632,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90632,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T13:58:51.421Z",
    "t": 1
   }
  ]
