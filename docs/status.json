@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T22:11:35.049Z",
- "updated_unix": 1794003095,
- "runs": 15346,
+ "updated": "2026-11-06T22:12:57.545Z",
+ "updated_unix": 1794003177,
+ "runs": 15347,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 119776,
- "sent_total": 4234401,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 119777,
+ "sent_total": 4234428,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108713,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108713,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T20:26:38.173Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:11:31.296Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269977,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794002971,
+   "counter_issued": 269977,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T22:12:31.510Z",
    "t": 1
   }
  ]
