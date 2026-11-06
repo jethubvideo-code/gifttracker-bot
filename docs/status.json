@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T19:14:10.122Z",
- "updated_unix": 1793992450,
- "runs": 15313,
+ "updated": "2026-11-06T19:19:41.696Z",
+ "updated_unix": 1793992781,
+ "runs": 15314,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 119704,
- "sent_total": 4229136,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 119705,
+ "sent_total": 4229147,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110334,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110334,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:14:07.017Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269972,
+   "owner": "",
+   "owner_addr": "0:c0768243976939c160f0a0823579ac808edaac65b35747e1460e87a24701213f",
+   "mint": 1793992370,
+   "counter_issued": 269972,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:19:09.597Z",
    "t": 1
   }
  ]
