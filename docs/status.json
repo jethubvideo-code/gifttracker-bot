@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T22:06:36.417Z",
- "updated_unix": 1794002796,
- "runs": 15344,
+ "updated": "2026-11-06T22:09:33.664Z",
+ "updated_unix": 1794002973,
+ "runs": 15345,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119774,
- "sent_total": 4234251,
+ "detected_total": 119775,
+ "sent_total": 4234326,
  "last_upgrades": [
-  {
-   "slug": "SkullFlower",
-   "gift": "Skull Flower",
-   "number": 22086,
-   "owner": "",
-   "owner_addr": "0:e9cabd479f5d3688616b605af8983671d1fcf0284cb93ce10d7e1e1af8f73ab9",
-   "mint": 1793995539,
-   "counter_issued": 22086,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T20:21:40.560Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:06:20.958Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:06:20.958Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:06:30.972Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T22:06:30.972Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391344,
+   "owner": "",
+   "owner_addr": "0:e8f931c632c888e10867372eaca83859adce15070b7b5b6bf132fec68537f938",
+   "mint": 1794001669,
+   "counter_issued": 391344,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T22:09:31.215Z",
    "t": 1
   }
  ]
