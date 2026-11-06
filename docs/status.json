@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-05T23:53:13.375Z",
- "updated_unix": 1793922793,
- "runs": 15203,
+ "updated": "2026-11-06T00:11:05.813Z",
+ "updated_unix": 1793923865,
+ "runs": 15204,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118541,
- "sent_total": 4143376,
+ "detected_total": 118544,
+ "sent_total": 4143499,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134198,
-   "owner": "",
-   "owner_addr": "0:2036ee6a608b51bc95d939eda7c93ea8b0920a67bf467fd814c1655caa423dfa",
-   "mint": 1793909056,
-   "counter_issued": 134198,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:53:34.529Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134199,
-   "owner": "tank.ton",
-   "owner_addr": "0:c8a7f8d7b617fc79a2e855726b0fcd2230e21c5a170d559a8f05cb85b0b94d3c",
-   "mint": 1793911785,
-   "counter_issued": 134199,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T20:53:34.529Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85224,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85224,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T21:14:20.123Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -356,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T23:52:44.172Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T23:52:58.962Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T23:52:58.962Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T23:52:58.962Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T23:52:58.962Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-05T23:52:58.962Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269933,
+   "owner": "",
+   "owner_addr": "0:8f917a4541c65958c130094d7a778156390fc68ffaea62af9c208a52e1d9065e",
+   "mint": 1793922030,
+   "counter_issued": 269933,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T00:10:03.861Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269934,
+   "owner": "",
+   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
+   "mint": 1793922465,
+   "counter_issued": 269934,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T00:10:03.861Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269935,
+   "owner": "parisgroup.ton",
+   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
+   "mint": 1793922475,
+   "counter_issued": 269935,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T00:10:03.861Z",
    "t": 1
   }
  ]
