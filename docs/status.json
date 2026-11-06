@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T23:45:55.514Z",
- "updated_unix": 1794008755,
- "runs": 15354,
+ "updated": "2026-11-06T23:49:23.584Z",
+ "updated_unix": 1794008963,
+ "runs": 15355,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 119808,
- "sent_total": 4236560,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 119809,
+ "sent_total": 4236635,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74786,
-   "owner": "",
-   "owner_addr": "0:182b335c075a79f99310eb980dddd4f3f2f02b046cc4c27ce6a177c1ba834664",
-   "mint": 1794005049,
-   "counter_issued": 74786,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T22:51:34.453Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -421,7 +407,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T23:45:11.128Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -435,6 +421,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T23:45:48.337Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391346,
+   "owner": "",
+   "owner_addr": "0:39393b180458edaba99b5770445b192b433a0f147c6198a5cc6527f7fdc82130",
+   "mint": 1794006579,
+   "counter_issued": 391346,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:49:16.861Z",
    "t": 1
   }
  ]
