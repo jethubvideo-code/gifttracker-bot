@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T18:06:42.144Z",
- "updated_unix": 1793988402,
- "runs": 15300,
+ "updated": "2026-11-06T18:27:36.486Z",
+ "updated_unix": 1793989656,
+ "runs": 15301,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 119550,
- "sent_total": 4217699,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 119551,
+ "sent_total": 4217774,
  "last_upgrades": [
-  {
-   "slug": "IceCream",
-   "gift": "IceCream",
-   "number": 329006,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 329006,
-   "counter_total": 342255,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T17:40:57.889Z",
-   "t": 3
-  },
   {
    "slug": "IceCream",
    "gift": "IceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:06:31.965Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:06:31.965Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:06:31.965Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:06:31.965Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:06:31.965Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "DurovsGlasses",
+   "number": 3976,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 3976,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T18:27:32.584Z",
    "t": 1
   }
  ]
