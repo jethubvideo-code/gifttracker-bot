@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T17:18:04.294Z",
- "updated_unix": 1793985484,
- "runs": 15291,
+ "updated": "2026-11-06T17:19:12.894Z",
+ "updated_unix": 1793985552,
+ "runs": 15292,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119270,
- "sent_total": 4196700,
+ "detected_total": 119272,
+ "sent_total": 4196850,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142614,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142614,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T16:36:31.614Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142615,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142615,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T16:36:31.614Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:18:02.072Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443407,
+   "owner": "",
+   "owner_addr": "0:14d8722da8d8bf0495e1b1ce08fdd05615552c6ef0ca8aa5b835a4b2a0870837",
+   "mint": 1793984771,
+   "counter_issued": 443407,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T17:19:06.327Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443408,
+   "owner": "mobincrypto.ton",
+   "owner_addr": "0:c579ee39d4307c8e4b939e258835604585b5a53a2465f6047bf27c6844242090",
+   "mint": 1793985153,
+   "counter_issued": 443408,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T17:19:06.327Z",
    "t": 1
   }
  ]
