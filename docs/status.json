@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T10:14:17.588Z",
- "updated_unix": 1793960057,
- "runs": 15248,
+ "updated": "2026-11-06T10:18:13.740Z",
+ "updated_unix": 1793960293,
+ "runs": 15249,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118662,
- "sent_total": 4151781,
+ "detected_total": 118664,
+ "sent_total": 4151823,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269945,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269945,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T07:59:03.880Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269946,
-   "owner": "",
-   "owner_addr": "0:703132a4971e75bd3821a1e05c95c99da1dfad9f2390a7671febc20d3e35e0c3",
-   "mint": 1793951882,
-   "counter_issued": 269946,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T07:59:03.880Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T10:14:07.320Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T10:14:15.006Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269950,
+   "owner": "",
+   "owner_addr": "0:98d8562f3d261f7b9ef996e692ebdf3cde586e1282e24e8897dc80d3d41caecd",
+   "mint": 1793958090,
+   "counter_issued": 269950,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T10:17:15.461Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269951,
+   "owner": "",
+   "owner_addr": "0:cf71bd5ee153acdacfed4dbcd177c40fca6d7d327ca3f06d7eb5ec61345fa5da",
+   "mint": 1793959031,
+   "counter_issued": 269951,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T10:17:15.461Z",
    "t": 1
   }
  ]
