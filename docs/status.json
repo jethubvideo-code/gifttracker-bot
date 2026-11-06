@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T20:21:42.577Z",
- "updated_unix": 1793996502,
- "runs": 15328,
+ "updated": "2026-11-06T20:23:40.259Z",
+ "updated_unix": 1793996620,
+ "runs": 15329,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 119745,
- "sent_total": 4232145,
+ "checked": 29,
+ "errors": 94,
+ "detected_total": 119746,
+ "sent_total": 4232220,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90644,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793990241,
-   "counter_issued": 90644,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T20:12:33.575Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "DurovsGlasses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:21:40.560Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134240,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134240,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T20:23:38.230Z",
    "t": 1
   }
  ]
