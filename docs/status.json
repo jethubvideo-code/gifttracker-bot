@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T13:22:36.239Z",
- "updated_unix": 1793971356,
- "runs": 15267,
+ "updated": "2026-11-06T13:52:53.203Z",
+ "updated_unix": 1793973173,
+ "runs": 15268,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118709,
- "sent_total": 4155107,
+ "detected_total": 118711,
+ "sent_total": 4155257,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269953,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793962295,
-   "counter_issued": 269953,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T12:04:09.886Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269954,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793962301,
-   "counter_issued": 269954,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T12:04:09.886Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T13:22:33.338Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3974,
+   "owner": "",
+   "owner_addr": "0:112b1485000c2a79a8e0d2b74e6ae1963457994ed45a49ef70d4f9a2d706006b",
+   "mint": 1793900509,
+   "counter_issued": 3974,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T13:52:46.498Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3975,
+   "owner": "",
+   "owner_addr": "0:5d537c96d7c1bea44f31f23a203586b03ca871907b46f970586c66141d69c16b",
+   "mint": 1793957487,
+   "counter_issued": 3975,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T13:52:46.498Z",
    "t": 1
   }
  ]
