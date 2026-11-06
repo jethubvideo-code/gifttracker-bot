@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T19:07:56.064Z",
- "updated_unix": 1793992076,
- "runs": 15312,
+ "updated": "2026-11-06T19:14:10.122Z",
+ "updated_unix": 1793992450,
+ "runs": 15313,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 119703,
- "sent_total": 4229061,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 119704,
+ "sent_total": 4229136,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110333,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110333,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:02:52.662Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BowTie",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:03:00.467Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BowTie",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:03:00.467Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:07:00.392Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:07:00.392Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:07:00.392Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134233,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134233,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:14:07.017Z",
    "t": 1
   }
  ]
