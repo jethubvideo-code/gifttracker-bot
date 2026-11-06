@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T19:44:22.006Z",
- "updated_unix": 1793994262,
- "runs": 15319,
+ "updated": "2026-11-06T19:49:19.480Z",
+ "updated_unix": 1793994559,
+ "runs": 15320,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119712,
- "sent_total": 4229672,
+ "detected_total": 119713,
+ "sent_total": 4229747,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110342,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110342,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:44:12.338Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:44:12.338Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22085,
+   "owner": "",
+   "owner_addr": "0:bc9374b23bb9d82976bb9cbf1823c118f754e9e7b4adcfaeee39db467a36ea2f",
+   "mint": 1793984733,
+   "counter_issued": 22085,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:49:15.236Z",
    "t": 1
   }
  ]
