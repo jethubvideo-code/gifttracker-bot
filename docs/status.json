@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T00:14:23.039Z",
- "updated_unix": 1793924063,
- "runs": 15205,
+ "updated": "2026-11-06T01:02:22.891Z",
+ "updated_unix": 1793926942,
+ "runs": 15206,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 118545,
- "sent_total": 4143576,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 118546,
+ "sent_total": 4143653,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391296,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793912972,
-   "counter_issued": 391296,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T21:18:27.680Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T00:14:17.429Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84489,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84489,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T01:02:18.295Z",
+   "t": 1
   }
  ]
 }
