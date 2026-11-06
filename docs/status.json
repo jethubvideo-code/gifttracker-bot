@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T06:45:07.031Z",
- "updated_unix": 1793947507,
- "runs": 15224,
+ "updated": "2026-11-06T06:46:29.827Z",
+ "updated_unix": 1793947589,
+ "runs": 15225,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 118612,
- "sent_total": 4148639,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 118613,
+ "sent_total": 4148652,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "SwagBag",
-   "number": 232352,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 232352,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T02:33:24.216Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "SwagBag",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:45:01.789Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:45:01.789Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 269938,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 269938,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T06:45:58.086Z",
    "t": 1
   }
  ]
