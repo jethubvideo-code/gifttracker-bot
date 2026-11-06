@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T18:42:37.715Z",
- "updated_unix": 1793990557,
- "runs": 15307,
+ "updated": "2026-11-06T18:43:40.316Z",
+ "updated_unix": 1793990620,
+ "runs": 15308,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119694,
- "sent_total": 4228499,
+ "detected_total": 119695,
+ "sent_total": 4228574,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110324,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110324,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T18:42:35.471Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391336,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1793990559,
+   "counter_issued": 391336,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T18:43:38.559Z",
    "t": 1
   }
  ]
