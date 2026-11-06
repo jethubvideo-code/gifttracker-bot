@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T12:01:13.001Z",
- "updated_unix": 1793966473,
- "runs": 15257,
+ "updated": "2026-11-06T12:02:10.500Z",
+ "updated_unix": 1793966530,
+ "runs": 15258,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118678,
- "sent_total": 4152875,
+ "detected_total": 118679,
+ "sent_total": 4152952,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85230,
-   "owner": "",
-   "owner_addr": "0:abcfd3e612190154b8e363194c91fc9bf9d1ce5185491e58782aaebbcba99b70",
-   "mint": 1793950997,
-   "counter_issued": 85230,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:37:44.201Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:01:06.081Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T12:01:06.081Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108705,
+   "owner": "",
+   "owner_addr": "0:5c13128a7b2851cc6c3052694d05a94dd32cb23f4a060a8bfab4bbf656bd063a",
+   "mint": 1793961631,
+   "counter_issued": 108705,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T12:02:06.059Z",
    "t": 1
   }
  ]
