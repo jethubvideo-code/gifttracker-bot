@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T21:32:16.692Z",
- "updated_unix": 1794000736,
- "runs": 15340,
+ "updated": "2026-11-06T21:38:17.107Z",
+ "updated_unix": 1794001097,
+ "runs": 15341,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119767,
- "sent_total": 4233726,
+ "detected_total": 119768,
+ "sent_total": 4233801,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78185,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793990222,
-   "counter_issued": 78185,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/Iyhqcyaa6T2SC5azQ_JPdKGXSun8T-DFWE9S811prTiN7p_90-8Kc7v1QqPQLlB3kN5aAtOOUZcf1ys8dqT7G9wV16fmlVZgkrST1w9Q05JuK38xuLNMkClyymYul4x0BBGnIaZkCyAHkweG_yXaVnh61Jw447CHzNVfK79KH3llwjm5jDS5DQY80mA6l4W_UvXDfcWzcGyjlh4BeLYc71LIzph11ieeE7BV6tqoV7yT4d5UIoUN29rB_2ClHUi7zd-c6H2LonLEuXpr_3wrPnAC3a5c8lus26srKG53Wmfby3XvJDC2RS9k6j4TN5rsLmpfEn4L558pXlKDPrtkIg.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:15:13.544Z",
-   "u": 1
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T21:32:14.211Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "SwagBag",
+   "number": 232356,
+   "owner": "",
+   "owner_addr": "0:79a6fbd0bc52a92ee8d85b8d707004ca09603a6b0fbba3c97854966fd865c963",
+   "mint": 1794001000,
+   "counter_issued": 232356,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T21:38:14.697Z",
    "t": 1
   }
  ]
