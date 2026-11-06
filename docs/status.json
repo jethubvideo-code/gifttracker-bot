@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T14:33:17.258Z",
- "updated_unix": 1793975597,
- "runs": 15273,
+ "updated": "2026-11-06T14:34:17.923Z",
+ "updated_unix": 1793975657,
+ "runs": 15274,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 118720,
- "sent_total": 4155932,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 118721,
+ "sent_total": 4156007,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74779,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793945854,
-   "counter_issued": 74779,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T12:34:08.547Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T14:31:09.633Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T14:31:16.826Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T14:33:14.347Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391322,
+   "owner": "",
+   "owner_addr": "0:fa378e9ddf97bdee83a3dc58005735bab5076c7de20439565a531611128c58fe",
+   "mint": 1793975644,
+   "counter_issued": 391322,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T14:34:15.129Z",
    "t": 1
   }
  ]
