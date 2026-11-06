@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T20:16:45.277Z",
- "updated_unix": 1793996205,
- "runs": 15325,
+ "updated": "2026-11-06T20:18:40.388Z",
+ "updated_unix": 1793996320,
+ "runs": 15326,
  "collections": 123,
- "checked": 24,
- "errors": 99,
- "detected_total": 119742,
- "sent_total": 4231920,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 119743,
+ "sent_total": 4231995,
  "last_upgrades": [
-  {
-   "slug": "SkullFlower",
-   "gift": "Skull Flower",
-   "number": 22085,
-   "owner": "",
-   "owner_addr": "0:bc9374b23bb9d82976bb9cbf1823c118f754e9e7b4adcfaeee39db467a36ea2f",
-   "mint": 1793984733,
-   "counter_issued": 22085,
-   "counter_total": 24126,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T19:49:15.236Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:12:33.575Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "DurovsGlasses",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:13:30.346Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "https://cdn4.telesco.pe/file/hDcEiP77rQdzLrHxoI46CYhZhHafuSIu-BI4snXf3cgR3aON3bpIaFPjU4h_s5E51wdmhqLUd5lXv1Knhrc44mUfCZur06TKgR-c8ziBkuOZLjRYGtrYFupfXiiO3wnmnPYeOWMcEH8VEcscyIr_C-cCrHbZrg_uar1ohnB8qogabPehdj2rJ0dCY-UsjB3aPGHbxH-UdOo6OPxotpaOW3VVvPn7x1bc1todv0S3Ze2Of9VMQ27vAJZMcCVOxrixcL6icb0wwunp_4et4Lnew3zY8ygRn2vOT67Gx2pUGDBVfMuQJASMkA7L7ssyS872U6bwDt8pDQJTDt1iJBYLKg.jpg",
    "sent": 0,
    "time": "2026-11-06T20:15:35.445Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BunnyMuffin",
@@ -412,7 +398,7 @@
    "img": "https://cdn4.telesco.pe/file/hDcEiP77rQdzLrHxoI46CYhZhHafuSIu-BI4snXf3cgR3aON3bpIaFPjU4h_s5E51wdmhqLUd5lXv1Knhrc44mUfCZur06TKgR-c8ziBkuOZLjRYGtrYFupfXiiO3wnmnPYeOWMcEH8VEcscyIr_C-cCrHbZrg_uar1ohnB8qogabPehdj2rJ0dCY-UsjB3aPGHbxH-UdOo6OPxotpaOW3VVvPn7x1bc1todv0S3Ze2Of9VMQ27vAJZMcCVOxrixcL6icb0wwunp_4et4Lnew3zY8ygRn2vOT67Gx2pUGDBVfMuQJASMkA7L7ssyS872U6bwDt8pDQJTDt1iJBYLKg.jpg",
    "sent": 0,
    "time": "2026-11-06T20:15:35.445Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:16:42.354Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391340,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391340,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T20:18:38.013Z",
    "t": 1
   }
  ]
