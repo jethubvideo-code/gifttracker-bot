@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T11:58:13.239Z",
- "updated_unix": 1793966293,
- "runs": 15256,
+ "updated": "2026-11-06T12:01:13.001Z",
+ "updated_unix": 1793966473,
+ "runs": 15257,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118676,
- "sent_total": 4152721,
+ "detected_total": 118678,
+ "sent_total": 4152875,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85228,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85228,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:37:44.201Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85229,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85229,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T09:37:44.201Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T11:57:48.383Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T11:57:56.175Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T11:58:05.843Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T11:58:05.843Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391316,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391316,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T12:01:06.081Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391317,
+   "owner": "",
+   "owner_addr": "0:4b636e30fcc2072bf43aed71e7303d91a570431e94252dddfde68624d973dec9",
+   "mint": 1793966156,
+   "counter_issued": 391317,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T12:01:06.081Z",
    "t": 1
   }
  ]
