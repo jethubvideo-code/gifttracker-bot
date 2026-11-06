@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T20:23:40.259Z",
- "updated_unix": 1793996620,
- "runs": 15329,
+ "updated": "2026-11-06T20:26:40.409Z",
+ "updated_unix": 1793996800,
+ "runs": 15330,
  "collections": 123,
  "checked": 29,
  "errors": 94,
- "detected_total": 119746,
- "sent_total": 4232220,
+ "detected_total": 119747,
+ "sent_total": 4232295,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "DurovsGlasses",
-   "number": 3977,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 3977,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T20:13:30.346Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:23:38.230Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108713,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108713,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T20:26:38.173Z",
    "t": 1
   }
  ]
