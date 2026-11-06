@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T19:21:18.461Z",
- "updated_unix": 1793992878,
- "runs": 15315,
+ "updated": "2026-11-06T19:37:21.183Z",
+ "updated_unix": 1793993841,
+ "runs": 15316,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119706,
- "sent_total": 4229222,
+ "detected_total": 119708,
+ "sent_total": 4229372,
  "last_upgrades": [
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110336,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110336,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
-  {
-   "slug": "miragelamp",
-   "gift": "Mirage Lamp",
-   "number": 110337,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 110337,
-   "counter_total": 226713,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T18:34:17.683Z",
-   "t": 3
-  },
   {
    "slug": "miragelamp",
    "gift": "Mirage Lamp",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:21:12.594Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391338,
+   "owner": "",
+   "owner_addr": "0:3801c6487a2ddab20f82130f53feab148bf09874d80365f072e5da9d0d059f03",
+   "mint": 1793991598,
+   "counter_issued": 391338,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:37:09.568Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391339,
+   "owner": "",
+   "owner_addr": "0:8a8d7ebf1c829143b3c1524b0bd2f6bda48525bf2ad12b2b2d62e4075719cd09",
+   "mint": 1793993152,
+   "counter_issued": 391339,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T19:37:09.568Z",
    "t": 1
   }
  ]
