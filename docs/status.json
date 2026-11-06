@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T14:28:13.553Z",
- "updated_unix": 1793975293,
- "runs": 15271,
+ "updated": "2026-11-06T14:31:19.654Z",
+ "updated_unix": 1793975479,
+ "runs": 15272,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118717,
- "sent_total": 4155707,
+ "detected_total": 118719,
+ "sent_total": 4155857,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134219,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134219,
-   "counter_total": 181231,
-   "img": "https://cdn4.telesco.pe/file/pm7-_7AkITIMR40Vm81UOtH2nXkt6k1npl95CcQXbZpWLvRDmJ53tdQLvZJWBMI4JS69Ou_4GOgsHVfvmwwxC5RRhhSa_7kxQVsU8087I5QfZov1bc1NaUE5sKKr_2cz7mzkbTgh7rbMfN2h0VDCyXgdIrSs9V2rUC_eXJcRpOqBtVsVdKjCmjqaPvTseabjuO_Ei6qGBndbEvL8i5ZFGlm6-PusxT5X26HzFp_2NKeqNJ6P0dsq6UHiP3TsR77JsB5fpRUkv73n7jEjKrc6LmmMElHoGGmRnf243sRtfdDIiZcitOUcUSsuBZyh6V8XfNEVr4bzLo5mil6VppkI2g.jpg",
-   "sent": 0,
-   "time": "2026-11-06T12:16:41.702Z",
-   "u": 1
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134220,
-   "owner": "",
-   "owner_addr": "0:b934748c1e862394b7b72868de28a6a4e15d7eb467e2b43d58d4d0324c8e1409",
-   "mint": 1793962622,
-   "counter_issued": 134220,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T12:16:41.702Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T14:28:04.219Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T14:28:04.219Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T14:28:04.219Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443403,
+   "owner": "",
+   "owner_addr": "0:651de9b22a6880405d34d8db9db8c853f548733fafb2885d6794e5f204225b51",
+   "mint": 1793975321,
+   "counter_issued": 443403,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T14:31:09.633Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232355,
+   "owner": "",
+   "owner_addr": "0:755c48b6dbdc83db13288eb83d31a3325ee32b0fa0ae57054fb3f330109f1150",
+   "mint": 1793973432,
+   "counter_issued": 232355,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T14:31:16.826Z",
    "t": 1
   }
  ]
