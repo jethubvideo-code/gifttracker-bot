@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T23:28:13.856Z",
- "updated_unix": 1794007693,
- "runs": 15353,
+ "updated": "2026-11-06T23:45:55.514Z",
+ "updated_unix": 1794008755,
+ "runs": 15354,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119806,
- "sent_total": 4236475,
+ "detected_total": 119808,
+ "sent_total": 4236560,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269977,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794002971,
-   "counter_issued": 269977,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T22:12:31.510Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391345,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391345,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T22:13:29.846Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -435,7 +407,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T23:28:08.614Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269990,
+   "owner": "",
+   "owner_addr": "0:37fc53eabcc31ceac80fb707e4ab331492ac687eee67888e3b5a3fd18e8905a6",
+   "mint": 1794008022,
+   "counter_issued": 269990,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:45:11.128Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443423,
+   "owner": "",
+   "owner_addr": "0:38686b62d4242308f4dbb15fe9abc6fc130ca317cd766d7440a4ce0fe5c498f9",
+   "mint": 1794008002,
+   "counter_issued": 443423,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T23:45:48.337Z",
+   "t": 1
   }
  ]
 }
