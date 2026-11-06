@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T08:40:59.612Z",
- "updated_unix": 1793954459,
- "runs": 15243,
+ "updated": "2026-11-06T09:01:17.904Z",
+ "updated_unix": 1793955677,
+ "runs": 15244,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118644,
- "sent_total": 4150395,
+ "detected_total": 118645,
+ "sent_total": 4150472,
  "last_upgrades": [
-  {
-   "slug": "ElectricSkull",
-   "gift": "Electric Skull",
-   "number": 9237,
-   "owner": "",
-   "owner_addr": "0:9ee8b3d425e65349acd1b200359e510e4d18e58cc4018ca12c4f922ff41caec2",
-   "mint": 1793833598,
-   "counter_issued": 9237,
-   "counter_total": 9407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T06:56:02.788Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T08:40:56.455Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90626,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90626,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T09:01:14.494Z",
    "t": 1
   }
  ]
