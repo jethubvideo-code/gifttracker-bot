@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T17:26:23.141Z",
- "updated_unix": 1793985983,
- "runs": 15294,
+ "updated": "2026-11-06T17:28:18.126Z",
+ "updated_unix": 1793986098,
+ "runs": 15295,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119280,
- "sent_total": 4197449,
+ "detected_total": 119281,
+ "sent_total": 4197524,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142624,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142624,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T16:36:31.614Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:26:17.791Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:26:17.791Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443409,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443409,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T17:28:15.720Z",
    "t": 1
   }
  ]
