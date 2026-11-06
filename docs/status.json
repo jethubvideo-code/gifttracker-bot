@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-06T17:23:23.698Z",
- "updated_unix": 1793985803,
- "runs": 15293,
+ "updated": "2026-11-06T17:26:23.141Z",
+ "updated_unix": 1793985983,
+ "runs": 15294,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119278,
- "sent_total": 4197300,
+ "detected_total": 119280,
+ "sent_total": 4197449,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142622,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142622,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T16:36:31.614Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142623,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142623,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T16:36:31.614Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:23:04.637Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:23:04.637Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:23:04.637Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:23:04.637Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:23:04.637Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SantaHat",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T17:23:04.637Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134227,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134227,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T17:26:17.791Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134228,
+   "owner": "",
+   "owner_addr": "0:b17c4fb81a177db822ae22ff74bea1f94e9a134ec4b2e7f1235a85cbd08f45c6",
+   "mint": 1793984837,
+   "counter_issued": 134228,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T17:26:17.791Z",
    "t": 1
   }
  ]
