@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T20:15:46.582Z",
- "updated_unix": 1793996146,
- "runs": 15324,
+ "updated": "2026-11-06T20:16:45.277Z",
+ "updated_unix": 1793996205,
+ "runs": 15325,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 119741,
- "sent_total": 4231845,
+ "checked": 24,
+ "errors": 99,
+ "detected_total": 119742,
+ "sent_total": 4231920,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134237,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134237,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T19:44:12.338Z",
-   "t": 3
-  },
   {
    "slug": "SkullFlower",
    "gift": "Skull Flower",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T19:53:15.222Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T20:12:33.575Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "DurovsGlasses",
@@ -89,7 +75,8 @@
    "counter_total": 4982,
    "img": "",
    "sent": 0,
-   "time": "2026-11-06T20:13:30.346Z"
+   "time": "2026-11-06T20:13:30.346Z",
+   "t": 1
   },
   {
    "slug": "SurgeBoard",
@@ -411,7 +398,7 @@
    "img": "https://cdn4.telesco.pe/file/hDcEiP77rQdzLrHxoI46CYhZhHafuSIu-BI4snXf3cgR3aON3bpIaFPjU4h_s5E51wdmhqLUd5lXv1Knhrc44mUfCZur06TKgR-c8ziBkuOZLjRYGtrYFupfXiiO3wnmnPYeOWMcEH8VEcscyIr_C-cCrHbZrg_uar1ohnB8qogabPehdj2rJ0dCY-UsjB3aPGHbxH-UdOo6OPxotpaOW3VVvPn7x1bc1todv0S3Ze2Of9VMQ27vAJZMcCVOxrixcL6icb0wwunp_4et4Lnew3zY8ygRn2vOT67Gx2pUGDBVfMuQJASMkA7L7ssyS872U6bwDt8pDQJTDt1iJBYLKg.jpg",
    "sent": 0,
    "time": "2026-11-06T20:15:35.445Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BunnyMuffin",
@@ -425,6 +412,20 @@
    "img": "https://cdn4.telesco.pe/file/hDcEiP77rQdzLrHxoI46CYhZhHafuSIu-BI4snXf3cgR3aON3bpIaFPjU4h_s5E51wdmhqLUd5lXv1Knhrc44mUfCZur06TKgR-c8ziBkuOZLjRYGtrYFupfXiiO3wnmnPYeOWMcEH8VEcscyIr_C-cCrHbZrg_uar1ohnB8qogabPehdj2rJ0dCY-UsjB3aPGHbxH-UdOo6OPxotpaOW3VVvPn7x1bc1todv0S3Ze2Of9VMQ27vAJZMcCVOxrixcL6icb0wwunp_4et4Lnew3zY8ygRn2vOT67Gx2pUGDBVfMuQJASMkA7L7ssyS872U6bwDt8pDQJTDt1iJBYLKg.jpg",
    "sent": 0,
    "time": "2026-11-06T20:15:35.445Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108712,
+   "owner": "",
+   "owner_addr": "0:2cb6880b6a641bcf4897473566d7ebc469a0b7a8470b8e2fee6dcf30bcaa3bea",
+   "mint": 1793993388,
+   "counter_issued": 108712,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T20:16:42.354Z",
    "t": 1
   }
  ]
