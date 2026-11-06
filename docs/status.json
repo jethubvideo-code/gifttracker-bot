@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T06:18:08.218Z",
- "updated_unix": 1793945888,
- "runs": 15221,
+ "updated": "2026-11-06T06:22:19.268Z",
+ "updated_unix": 1793946139,
+ "runs": 15222,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 118609,
- "sent_total": 4148440,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 118610,
+ "sent_total": 4148485,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "SwagBag",
-   "number": 232349,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 232349,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T02:33:24.216Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "SwagBag",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:17:42.724Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:17:48.213Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "BigYear",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:17:48.213Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HexPot",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:18:00.580Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HexPot",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:18:00.580Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HexPot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:18:00.580Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269937,
+   "owner": "",
+   "owner_addr": "0:11efaf2dbfa20a32211491a8f9b9041947b75b91e6c07331b06a5848d5cc5738",
+   "mint": 1793945020,
+   "counter_issued": 269937,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T06:22:02.298Z",
    "t": 1
   }
  ]
