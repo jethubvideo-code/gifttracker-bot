@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T21:40:14.197Z",
- "updated_unix": 1794001214,
- "runs": 15342,
+ "updated": "2026-11-06T21:58:23.327Z",
+ "updated_unix": 1794002303,
+ "runs": 15343,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119769,
- "sent_total": 4233876,
+ "detected_total": 119770,
+ "sent_total": 4233951,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54663,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793990649,
-   "counter_issued": 54663,
-   "counter_total": 66655,
-   "img": "https://cdn4.telesco.pe/file/hDcEiP77rQdzLrHxoI46CYhZhHafuSIu-BI4snXf3cgR3aON3bpIaFPjU4h_s5E51wdmhqLUd5lXv1Knhrc44mUfCZur06TKgR-c8ziBkuOZLjRYGtrYFupfXiiO3wnmnPYeOWMcEH8VEcscyIr_C-cCrHbZrg_uar1ohnB8qogabPehdj2rJ0dCY-UsjB3aPGHbxH-UdOo6OPxotpaOW3VVvPn7x1bc1todv0S3Ze2Of9VMQ27vAJZMcCVOxrixcL6icb0wwunp_4et4Lnew3zY8ygRn2vOT67Gx2pUGDBVfMuQJASMkA7L7ssyS872U6bwDt8pDQJTDt1iJBYLKg.jpg",
-   "sent": 0,
-   "time": "2026-11-06T20:15:35.445Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T21:40:11.870Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443421,
+   "owner": "",
+   "owner_addr": "0:06a1d5bf4a935d2f6f2ee314b692c207fc739ed49c9ff652076cf715cb17c161",
+   "mint": 1794000454,
+   "counter_issued": 443421,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T21:58:20.678Z",
    "t": 1
   }
  ]
