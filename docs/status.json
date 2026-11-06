@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T11:02:28.435Z",
- "updated_unix": 1793962948,
- "runs": 15254,
+ "updated": "2026-11-06T11:06:29.603Z",
+ "updated_unix": 1793963189,
+ "runs": 15255,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118671,
- "sent_total": 4152336,
+ "detected_total": 118672,
+ "sent_total": 4152413,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90625,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90625,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T08:26:56.602Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T11:02:21.372Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85231,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793959974,
+   "counter_issued": 85231,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T11:06:23.283Z",
    "t": 1
   }
  ]
