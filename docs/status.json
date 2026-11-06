@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T01:02:22.891Z",
- "updated_unix": 1793926942,
- "runs": 15206,
+ "updated": "2026-11-06T01:20:44.627Z",
+ "updated_unix": 1793928044,
+ "runs": 15207,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 118546,
- "sent_total": 4143653,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 118547,
+ "sent_total": 4143730,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108698,
-   "owner": "yoyo-alt3ban.ton",
-   "owner_addr": "0:e089a6532bb117aa937e7b40b642d7eb0fc2084f935c1227acba64e1673434b4",
-   "mint": 1793913579,
-   "counter_issued": 108698,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-05T21:20:27.686Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T01:02:18.295Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443386,
+   "owner": "",
+   "owner_addr": "0:66f8175ba39b4a0c68329998d6535ddf0603c3541e984cc13d7eadb2cc411316",
+   "mint": 1793926808,
+   "counter_issued": 443386,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T01:20:41.094Z",
    "t": 1
   }
  ]
