@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T16:41:41.969Z",
- "updated_unix": 1793983301,
- "runs": 15287,
+ "updated": "2026-11-06T16:42:41.362Z",
+ "updated_unix": 1793983361,
+ "runs": 15288,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119258,
- "sent_total": 4195866,
+ "detected_total": 119259,
+ "sent_total": 4195941,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142602,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142602,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T16:36:31.614Z",
-   "t": 2
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:36:31.614Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:36:31.614Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:36:31.614Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:36:31.614Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T16:41:39.621Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134226,
+   "owner": "",
+   "owner_addr": "0:faf24907d75bc249f6fea35160d5a0ba4172c1401fac3d8b076e3771570ada84",
+   "mint": 1793981750,
+   "counter_issued": 134226,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T16:42:39.565Z",
    "t": 1
   }
  ]
