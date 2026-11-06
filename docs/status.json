@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T08:03:37.546Z",
- "updated_unix": 1793952217,
- "runs": 15236,
+ "updated": "2026-11-06T08:07:34.658Z",
+ "updated_unix": 1793952454,
+ "runs": 15237,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118635,
- "sent_total": 4149896,
+ "detected_total": 118636,
+ "sent_total": 4149973,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78433,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78433,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T06:17:48.213Z",
-   "t": 3
-  },
   {
    "slug": "HexPot",
    "gift": "Hex Pot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T08:03:30.066Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134212,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134212,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T08:07:27.909Z",
    "t": 1
   }
  ]
