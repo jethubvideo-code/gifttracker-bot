@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T07:17:02.826Z",
- "updated_unix": 1793949422,
- "runs": 15228,
+ "updated": "2026-11-06T07:18:38.818Z",
+ "updated_unix": 1793949518,
+ "runs": 15229,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118622,
- "sent_total": 4149343,
+ "detected_total": 118623,
+ "sent_total": 4149420,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134208,
-   "owner": "",
-   "owner_addr": "0:0f4b95418bd1dccde1de0dedffca91e17e2ef7d5180c5d8e88a5917e893a2fcc",
-   "mint": 1793940778,
-   "counter_issued": 134208,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T05:29:27.976Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:26.164Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:33.618Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:38.764Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:47.402Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:47.402Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:47.402Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T07:16:47.402Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134211,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1793945915,
+   "counter_issued": 134211,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T07:18:35.298Z",
    "t": 1
   }
  ]
