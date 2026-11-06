@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T15:40:43.307Z",
- "updated_unix": 1793979643,
- "runs": 15280,
+ "updated": "2026-11-06T15:42:21.297Z",
+ "updated_unix": 1793979741,
+ "runs": 15281,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118743,
- "sent_total": 4157267,
+ "detected_total": 118744,
+ "sent_total": 4157342,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90632,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90632,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T13:58:51.421Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:05.321Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:05.321Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:17.980Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:17.980Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:17.980Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:35.957Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T15:40:35.957Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391324,
+   "owner": "",
+   "owner_addr": "0:38686b62d4242308f4dbb15fe9abc6fc130ca317cd766d7440a4ce0fe5c498f9",
+   "mint": 1793979074,
+   "counter_issued": 391324,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T15:42:18.333Z",
    "t": 1
   }
  ]
