@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-06T06:51:06.096Z",
- "updated_unix": 1793947866,
- "runs": 15226,
+ "updated": "2026-11-06T06:56:06.425Z",
+ "updated_unix": 1793948166,
+ "runs": 15227,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 118614,
- "sent_total": 4148729,
+ "detected_total": 118615,
+ "sent_total": 4148806,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232354,
-   "owner": "",
-   "owner_addr": "0:34a547418698ad7c9cc2419946c5926dbd98fafa5000b5a017d1fe64a7a7cb41",
-   "mint": 1793916598,
-   "counter_issued": 232354,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T02:33:24.216Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-06T06:51:02.478Z",
+   "t": 3
+  },
+  {
+   "slug": "ElectricSkull",
+   "gift": "Electric Skull",
+   "number": 9237,
+   "owner": "",
+   "owner_addr": "0:9ee8b3d425e65349acd1b200359e510e4d18e58cc4018ca12c4f922ff41caec2",
+   "mint": 1793833598,
+   "counter_issued": 9237,
+   "counter_total": 9407,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-06T06:56:02.788Z",
    "t": 1
   }
  ]
