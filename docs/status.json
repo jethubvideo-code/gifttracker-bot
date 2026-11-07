@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T22:12:30.189Z",
- "updated_unix": 1794089550,
- "runs": 15496,
+ "updated": "2026-11-07T22:24:30.542Z",
+ "updated_unix": 1794090270,
+ "runs": 15497,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120574,
- "sent_total": 4291867,
+ "detected_total": 120576,
+ "sent_total": 4292017,
  "last_upgrades": [
-  {
-   "slug": "NekoHelmet",
-   "gift": "Neko Helmet",
-   "number": 15584,
-   "owner": "snos.ton",
-   "owner_addr": "0:8910d920660798e663cfc1f59c33768a7cd76ac6f83c09109d4247ed615fc292",
-   "mint": 1794066163,
-   "counter_issued": 15584,
-   "counter_total": 16149,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:37:13.716Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90676,
-   "owner": "",
-   "owner_addr": "0:5eb55db30818c8a1f15aaf75f26f76f95956c45258c248fbb9c948f8e3fa393f",
-   "mint": 1794084825,
-   "counter_issued": 90676,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:54:29.638Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T22:12:22.835Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T22:12:22.835Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391390,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391390,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T22:24:23.482Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391391,
+   "owner": "",
+   "owner_addr": "0:5a9e9712182b34cbf924e571382e1aa30e3f7f9bbe0357111db0077677a00bcf",
+   "mint": 1794089485,
+   "counter_issued": 391391,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T22:24:23.482Z",
    "t": 1
   }
  ]
