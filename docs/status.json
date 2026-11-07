@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T14:01:17.115Z",
- "updated_unix": 1794060077,
- "runs": 15428,
+ "updated": "2026-11-07T14:02:09.208Z",
+ "updated_unix": 1794060129,
+ "runs": 15429,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120007,
- "sent_total": 4250055,
+ "detected_total": 120008,
+ "sent_total": 4250129,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164116,
-   "owner": "stockholm2044.ton",
-   "owner_addr": "0:aa5d9675f3fe2ab9d9107eb4a2402e29ba29e18253eeaf8347e00f7885ab0e30",
-   "mint": 1794056031,
-   "counter_issued": 164116,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T13:30:10.259Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:01:07.473Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:01:13.503Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90660,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90660,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T14:02:07.307Z",
    "t": 1
   }
  ]
