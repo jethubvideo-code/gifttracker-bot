@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T13:58:07.116Z",
- "updated_unix": 1794059887,
- "runs": 15427,
+ "updated": "2026-11-07T14:01:17.115Z",
+ "updated_unix": 1794060077,
+ "runs": 15428,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 120005,
- "sent_total": 4249907,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 120007,
+ "sent_total": 4250055,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443441,
-   "owner": "zayronexxgod.ton",
-   "owner_addr": "0:17ac7b7a65e7c50b47cb49dfe990992c7bdf96dfb155b5ba4eedb2f3f109f812",
-   "mint": 1794056023,
-   "counter_issued": 443441,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T13:23:08.201Z",
-   "t": 3
-  },
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164115,
-   "owner": "",
-   "owner_addr": "0:aa5d9675f3fe2ab9d9107eb4a2402e29ba29e18253eeaf8347e00f7885ab0e30",
-   "mint": 1794056020,
-   "counter_issued": 164115,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T13:30:10.259Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T13:58:05.207Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90659,
+   "owner": "endridzou.t.me",
+   "owner_addr": "0:aac02191ee54435d1c55ab6ed07940fa99388d2b7cc5842cdab08acf9873c251",
+   "mint": 1794059859,
+   "counter_issued": 90659,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T14:01:07.473Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391368,
+   "owner": "",
+   "owner_addr": "0:6f2a90fa67ec05eb226d8b5350660ffa8ad7814f25a03b9d2f2f5f7fff1a02fb",
+   "mint": 1794059794,
+   "counter_issued": 391368,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T14:01:13.503Z",
    "t": 1
   }
  ]
