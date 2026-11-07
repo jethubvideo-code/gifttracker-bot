@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T05:37:21.561Z",
- "updated_unix": 1794029841,
- "runs": 15369,
+ "updated": "2026-11-07T05:40:19.571Z",
+ "updated_unix": 1794030019,
+ "runs": 15370,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119839,
- "sent_total": 4238837,
+ "detected_total": 119840,
+ "sent_total": 4238912,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108715,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794006649,
-   "counter_issued": 108715,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T23:51:18.798Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T05:20:46.155Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T05:20:50.993Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T05:20:50.993Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T05:37:07.989Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T05:37:07.989Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T05:37:18.561Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108718,
+   "owner": "",
+   "owner_addr": "0:9b215810fcaad9ca0ddad043186355429dd6b8651920f7a581928924f75f60e4",
+   "mint": 1794027066,
+   "counter_issued": 108718,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T05:40:16.660Z",
    "t": 1
   }
  ]
