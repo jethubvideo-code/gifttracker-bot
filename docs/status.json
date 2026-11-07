@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T06:16:13.876Z",
- "updated_unix": 1794032173,
- "runs": 15372,
+ "updated": "2026-11-07T06:27:55.007Z",
+ "updated_unix": 1794032875,
+ "runs": 15373,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 119847,
- "sent_total": 4239245,
+ "detected_total": 119848,
+ "sent_total": 4239320,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 57130,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1793990750,
-   "counter_issued": 57130,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T01:01:58.425Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -432,6 +418,20 @@
    "sent": 0,
    "time": "2026-11-07T06:14:36.843Z",
    "u": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90648,
+   "owner": "",
+   "owner_addr": "0:94c5ff696e02972a257bdc3a37d72e3acaaa42f444c707aff089605fc59d34a0",
+   "mint": 1794017822,
+   "counter_issued": 90648,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T06:27:47.585Z",
+   "t": 1
   }
  ]
 }
