@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T22:11:24.002Z",
- "updated_unix": 1794089484,
- "runs": 15495,
+ "updated": "2026-11-07T22:12:30.189Z",
+ "updated_unix": 1794089550,
+ "runs": 15496,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120572,
- "sent_total": 4291717,
+ "detected_total": 120574,
+ "sent_total": 4291867,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134292,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134292,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:23:11.364Z",
-   "t": 3
-  },
-  {
-   "slug": "RareBird",
-   "gift": "Rare Bird",
-   "number": 13021,
-   "owner": "",
-   "owner_addr": "0:7bed82c03bfa87de156d0b3d4206897f0066ebd3976ea7c27cff07d5755bcd45",
-   "mint": 1794070433,
-   "counter_issued": 13021,
-   "counter_total": 14971,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:35:13.806Z",
-   "t": 3
-  },
   {
    "slug": "NekoHelmet",
    "gift": "Neko Helmet",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T22:11:20.439Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134299,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134299,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T22:12:22.835Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134300,
+   "owner": "sanyalox.ton",
+   "owner_addr": "0:178d565685f095557fd695b93f522bef75ae396f8fc4d3b6053fa312454c1523",
+   "mint": 1794088283,
+   "counter_issued": 134300,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T22:12:22.835Z",
    "t": 1
   }
  ]
