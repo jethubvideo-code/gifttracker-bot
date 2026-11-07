@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-07T06:48:43.967Z",
- "updated_unix": 1794034123,
- "runs": 15374,
+ "updated": "2026-11-07T06:49:51.471Z",
+ "updated_unix": 1794034191,
+ "runs": 15375,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119850,
- "sent_total": 4239470,
+ "detected_total": 119853,
+ "sent_total": 4239695,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443424,
-   "owner": "",
-   "owner_addr": "0:8078e31e0b78845d6614757a84fe056c96787cf4b8893c270a05f6cbf0b25893",
-   "mint": 1794008938,
-   "counter_issued": 443424,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T01:08:02.176Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134253,
-   "owner": "",
-   "owner_addr": "0:4961584b08b1052e414bb6c5269bf29f5cf95969d2a2c305202858aa2018159a",
-   "mint": 1794011424,
-   "counter_issued": 134253,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T01:31:01.763Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 269992,
-   "owner": "parisgroup.ton",
-   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
-   "mint": 1794011540,
-   "counter_issued": 269992,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T02:05:20.964Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -417,7 +375,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T06:48:36.169Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -431,6 +389,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T06:48:36.169Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 33029,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 33029,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T06:49:40.052Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33030,
+   "owner": "",
+   "owner_addr": "0:f9d3413ba00d8454dba5e7dc15973efb85d6acd6794ca7ddd0c5407af12e31ef",
+   "mint": 1794025954,
+   "counter_issued": 33030,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T06:49:40.052Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33031,
+   "owner": "",
+   "owner_addr": "0:0df20df48f5e42066397c6a63d5b96a1bd0918b768cd243a5eb8d51c608b0452",
+   "mint": 1794030963,
+   "counter_issued": 33031,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T06:49:40.052Z",
    "t": 1
   }
  ]
