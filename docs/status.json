@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T21:09:43.247Z",
- "updated_unix": 1794085783,
- "runs": 15486,
+ "updated": "2026-11-07T21:11:41.017Z",
+ "updated_unix": 1794085901,
+ "runs": 15487,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120554,
- "sent_total": 4290463,
+ "detected_total": 120555,
+ "sent_total": 4290538,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85263,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794077528,
-   "counter_issued": 85263,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T19:45:06.562Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T21:09:41.563Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "RareBird",
+   "number": 13022,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 13022,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T21:11:39.178Z",
    "t": 1
   }
  ]
