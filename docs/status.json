@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T20:03:33.656Z",
- "updated_unix": 1794081813,
- "runs": 15475,
+ "updated": "2026-11-07T20:19:20.484Z",
+ "updated_unix": 1794082760,
+ "runs": 15476,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120539,
- "sent_total": 4289338,
+ "detected_total": 120541,
+ "sent_total": 4289488,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443460,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443460,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T19:24:48.576Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443461,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443461,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T19:24:48.576Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:03:24.843Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:03:24.843Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:03:24.843Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391381,
+   "owner": "",
+   "owner_addr": "0:a97afeed5530a26fe13e1b0f6d7c2ceac50c5eae1713bde83324d2934418a057",
+   "mint": 1794081720,
+   "counter_issued": 391381,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T20:19:15.370Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391382,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794081947,
+   "counter_issued": 391382,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T20:19:15.370Z",
    "t": 1
   }
  ]
