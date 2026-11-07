@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T11:14:33.874Z",
- "updated_unix": 1794050073,
- "runs": 15408,
+ "updated": "2026-11-07T11:29:57.617Z",
+ "updated_unix": 1794050997,
+ "runs": 15409,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119936,
- "sent_total": 4244863,
+ "detected_total": 119937,
+ "sent_total": 4244937,
  "last_upgrades": [
-  {
-   "slug": "SharpTongue",
-   "gift": "Sharp Tongue",
-   "number": 8150,
-   "owner": "",
-   "owner_addr": "0:6551f7928d23897b1c5968dffd2ee5a38c78abce866bb29e49d5bd3cd8ac7d75",
-   "mint": 1794040947,
-   "counter_issued": 8150,
-   "counter_total": 8546,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T09:58:03.709Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T11:14:21.134Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T11:14:21.134Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443438,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443438,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T11:29:52.062Z",
    "t": 1
   }
  ]
