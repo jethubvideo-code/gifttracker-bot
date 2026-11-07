@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T19:08:58.228Z",
- "updated_unix": 1794078538,
- "runs": 15462,
+ "updated": "2026-11-07T19:12:56.566Z",
+ "updated_unix": 1794078776,
+ "runs": 15463,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120491,
- "sent_total": 4285796,
+ "detected_total": 120493,
+ "sent_total": 4285948,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109195,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109195,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:39:51.359Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109196,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109196,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:39:51.359Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -328,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:35:31.113Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:35:31.113Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:35:39.134Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T19:08:41.216Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T19:08:41.216Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T19:08:52.035Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T19:08:52.035Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T19:08:52.035Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90670,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90670,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:12:50.994Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90671,
+   "owner": "",
+   "owner_addr": "0:4fcbd9ac14c32d70cd757df3f12f66c7d5d493e55c42411583bce1d95c3908b9",
+   "mint": 1794075151,
+   "counter_issued": 90671,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:12:50.994Z",
    "t": 1
   }
  ]
