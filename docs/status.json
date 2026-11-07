@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T11:13:26.089Z",
- "updated_unix": 1794050006,
- "runs": 15407,
+ "updated": "2026-11-07T11:14:33.874Z",
+ "updated_unix": 1794050073,
+ "runs": 15408,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 119934,
- "sent_total": 4244713,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 119936,
+ "sent_total": 4244863,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391359,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391359,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T09:47:01.338Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108724,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108724,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T09:47:04.914Z",
-   "t": 3
-  },
   {
    "slug": "SharpTongue",
    "gift": "Sharp Tongue",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T11:13:19.589Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443436,
+   "owner": "",
+   "owner_addr": "0:030aacf9e1ea92299e518b72fb3c7bcfc5eebf9a78d2c90e84abe42f388f6db8",
+   "mint": 1794048950,
+   "counter_issued": 443436,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T11:14:21.134Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443437,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1794049198,
+   "counter_issued": 443437,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T11:14:21.134Z",
    "t": 1
   }
  ]
