@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T17:05:54.904Z",
- "updated_unix": 1794071154,
- "runs": 15450,
+ "updated": "2026-11-07T17:35:51.629Z",
+ "updated_unix": 1794072951,
+ "runs": 15451,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120460,
- "sent_total": 4283454,
+ "detected_total": 120461,
+ "sent_total": 4283529,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270023,
-   "owner": "tgshield.t.me",
-   "owner_addr": "0:3fe4a1b53b45d585f85452460050ee9d56433ac8bea58c9ae58d8e855b7c5edd",
-   "mint": 1794063549,
-   "counter_issued": 270023,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T15:44:12.135Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T17:05:52.769Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "EvilEye",
+   "number": 74793,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74793,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T17:35:49.281Z",
    "t": 1
   }
  ]
