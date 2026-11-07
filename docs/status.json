@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T10:37:52.730Z",
- "updated_unix": 1794047872,
- "runs": 15401,
+ "updated": "2026-11-07T10:54:42.977Z",
+ "updated_unix": 1794048882,
+ "runs": 15402,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119918,
- "sent_total": 4243885,
+ "detected_total": 119919,
+ "sent_total": 4243960,
  "last_upgrades": [
-  {
-   "slug": "eternalrose",
-   "gift": "Eternal Roses",
-   "number": 32129,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32129,
-   "counter_total": 37640,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T09:09:51.340Z",
-   "t": 3
-  },
   {
    "slug": "eternalrose",
    "gift": "Eternal Roses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:37:47.614Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443435,
+   "owner": "",
+   "owner_addr": "0:0087cd3845392ca8af3ec541459306c079e160bcc316a40918634f8d72e26c1c",
+   "mint": 1794047748,
+   "counter_issued": 443435,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T10:54:39.449Z",
    "t": 1
   }
  ]
