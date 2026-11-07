@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T10:29:55.299Z",
- "updated_unix": 1794047395,
- "runs": 15399,
+ "updated": "2026-11-07T10:33:53.623Z",
+ "updated_unix": 1794047633,
+ "runs": 15400,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 119916,
- "sent_total": 4243735,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 119917,
+ "sent_total": 4243810,
  "last_upgrades": [
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56259,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56259,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T09:09:44.628Z",
-   "t": 3
-  },
   {
    "slug": "eternalrose",
    "gift": "Eternal Roses",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:29:49.326Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391361,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391361,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T10:33:47.909Z",
    "t": 1
   }
  ]
