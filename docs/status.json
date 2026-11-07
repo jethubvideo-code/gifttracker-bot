@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T18:33:35.231Z",
- "updated_unix": 1794076415,
- "runs": 15459,
+ "updated": "2026-11-07T18:34:31.571Z",
+ "updated_unix": 1794076471,
+ "runs": 15460,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120482,
- "sent_total": 4285112,
+ "detected_total": 120483,
+ "sent_total": 4285188,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74791,
-   "owner": "",
-   "owner_addr": "0:60eddff08cffa8ac1ebb53a52e0cf08d2308f728b7bd0ae53b77c1d2d350b694",
-   "mint": 1794049417,
-   "counter_issued": 74791,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:00:57.416Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:07:07.453Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:07:07.453Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:33:29.515Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:33:29.515Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391377,
+   "owner": "",
+   "owner_addr": "0:6600c1e0a7407d3eb26500574556504742925e0f84cccf08a9d4c64bfa35b0f2",
+   "mint": 1794075412,
+   "counter_issued": 391377,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T18:34:29.523Z",
    "t": 1
   }
  ]
