@@ -1,28 +1,13 @@
 {
- "updated": "2026-11-07T08:03:35.845Z",
- "updated_unix": 1794038615,
- "runs": 15381,
+ "updated": "2026-11-07T08:05:32.939Z",
+ "updated_unix": 1794038732,
+ "runs": 15382,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119872,
- "sent_total": 4240847,
+ "detected_total": 119873,
+ "sent_total": 4240922,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134255,
-   "owner": "",
-   "owner_addr": "0:7d86819c48a3c12ca65156993b46dbb3330957d3aa2fa20a6e7e2c37c7e49735",
-   "mint": 1794031924,
-   "counter_issued": 134255,
-   "counter_total": 181231,
-   "img": "https://cdn4.telesco.pe/file/s2BU_Avq8r2UdnZ4hduxbMMWMo1gfBgRfs4iKwNH_df0sR0roTyIP0rKnwEn6auTdGP3C2lwY2dZ0mbpB6A1hbg3BnXoL6TJCtC5TRzIiExIj1GSPYyIEgGRK3OkBBhrJMbBEBJI8ndQtNLFpcrOSvKGre8CkLwvf4aAQq3kCyvHIL3Q3k1GLyS32KZLDwidw1AUK7PIkFUSQggvMfB3raQsD2bmcLVEICugahYFZl8VyzFY9apcPIQ3cpyVjc40Kn3Wqn3U55Hpmvq_kbqmY8JNaiF_GhyqJ6W8UH-F5eBpxZl1oNVrbhIURsTbbaB28cLbSSAjO9N2tnbPowKMdA.jpg",
-   "sent": 0,
-   "time": "2026-11-07T06:12:27.719Z",
-   "t": 1,
-   "u": 1
-  },
   {
    "slug": "RareBird",
    "gift": "Rare Bird",
@@ -428,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T08:03:28.588Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90650,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90650,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T08:05:26.041Z",
    "t": 1
   }
  ]
