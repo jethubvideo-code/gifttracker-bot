@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T01:31:04.451Z",
- "updated_unix": 1794015064,
- "runs": 15363,
+ "updated": "2026-11-07T02:05:44.412Z",
+ "updated_unix": 1794017144,
+ "runs": 15364,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119822,
- "sent_total": 4237610,
+ "detected_total": 119823,
+ "sent_total": 4237637,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 269981,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 269981,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/maMr8tPsrI_kFFnHZL6_RCoMbokBARhgiFOngpv6XXqqWLqDIx08Tfh7WZosw_a8T9J5M_F4HN3Uf8Yo0fmuyOnVjt_ZZkyVugN9vo_HS7eIEPzlXMu-9R9VPAavshygLwBr67oHwXXBZ4iMqO3tnDO_Kff7LQQWgLLUigm3jU6MdOGN3LL4lR2riHYo-Z4gPhiaxgl67Dpm14uotYQsamANl87U9WZTTY-V8uZmQloti8qDDyqEfw44fsEmd5Q1N-8oObb6MvsQG3Uv4_dHKhb-BMB5ZNea97nARzgsR2xvqnNKQQqkFqo1AvPPcPCcnKnUumS2UkyvmK-lFjJaYg.jpg",
-   "sent": 0,
-   "time": "2026-11-06T23:08:57.074Z",
-   "u": 1
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T01:31:01.763Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 269992,
+   "owner": "parisgroup.ton",
+   "owner_addr": "0:119234db489474ea4dcedad7270b20be1c316692649f889759744d802a0bc569",
+   "mint": 1794011540,
+   "counter_issued": 269992,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T02:05:20.964Z",
    "t": 1
   }
  ]
