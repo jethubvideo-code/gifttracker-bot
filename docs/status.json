@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T21:36:02.553Z",
- "updated_unix": 1794087362,
- "runs": 15491,
+ "updated": "2026-11-07T21:47:01.984Z",
+ "updated_unix": 1794088021,
+ "runs": 15492,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120565,
- "sent_total": 4291288,
+ "detected_total": 120566,
+ "sent_total": 4291363,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443473,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443473,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:02:24.801Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T21:36:00.985Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "MadPumpkin",
+   "number": 19820,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 19820,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T21:46:58.331Z",
    "t": 1
   }
  ]
