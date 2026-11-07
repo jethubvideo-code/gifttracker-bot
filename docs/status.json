@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T20:23:13.269Z",
- "updated_unix": 1794082993,
- "runs": 15478,
+ "updated": "2026-11-07T20:35:15.709Z",
+ "updated_unix": 1794083715,
+ "runs": 15479,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120543,
- "sent_total": 4289638,
+ "detected_total": 120544,
+ "sent_total": 4289713,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443464,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443464,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T19:24:48.576Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:23:11.364Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13021,
+   "owner": "",
+   "owner_addr": "0:7bed82c03bfa87de156d0b3d4206897f0066ebd3976ea7c27cff07d5755bcd45",
+   "mint": 1794070433,
+   "counter_issued": 13021,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T20:35:13.806Z",
    "t": 1
   }
  ]
