@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T20:36:29.134Z",
- "updated_unix": 1794083789,
- "runs": 15480,
+ "updated": "2026-11-07T20:37:15.475Z",
+ "updated_unix": 1794083835,
+ "runs": 15481,
  "collections": 123,
- "checked": 0,
+ "checked": 5,
  "errors": 118,
- "detected_total": 120544,
- "sent_total": 4289713,
+ "detected_total": 120545,
+ "sent_total": 4289788,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443465,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443465,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T19:24:48.576Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-11-07T20:35:13.806Z",
    "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15584,
+   "owner": "snos.ton",
+   "owner_addr": "0:8910d920660798e663cfc1f59c33768a7cd76ac6f83c09109d4247ed615fc292",
+   "mint": 1794066163,
+   "counter_issued": 15584,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T20:37:13.716Z",
+   "t": 1
   }
  ]
 }
