@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T10:28:54.404Z",
- "updated_unix": 1794047334,
- "runs": 15398,
+ "updated": "2026-11-07T10:29:55.299Z",
+ "updated_unix": 1794047395,
+ "runs": 15399,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119915,
- "sent_total": 4243660,
+ "detected_total": 119916,
+ "sent_total": 4243735,
  "last_upgrades": [
-  {
-   "slug": "toybear",
-   "gift": "Toy Bears",
-   "number": 56258,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 56258,
-   "counter_total": 57724,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T09:09:44.628Z",
-   "t": 3
-  },
   {
    "slug": "toybear",
    "gift": "Toy Bears",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:28:48.377Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391360,
+   "owner": "",
+   "owner_addr": "0:454f85dbc90d0f50a5ae2d5a3f55e97262adf00cc9c3c0ba521422d96c880fdd",
+   "mint": 1794045335,
+   "counter_issued": 391360,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T10:29:49.326Z",
    "t": 1
   }
  ]
