@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T18:07:11.817Z",
- "updated_unix": 1794074831,
- "runs": 15458,
+ "updated": "2026-11-07T18:33:35.231Z",
+ "updated_unix": 1794076415,
+ "runs": 15459,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120480,
- "sent_total": 4284960,
+ "detected_total": 120482,
+ "sent_total": 4285112,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74789,
-   "owner": "",
-   "owner_addr": "0:b3f9fb4daddeae391c44fb68fca8954a51da761a45d89ebfa001d52c27da2ace",
-   "mint": 1794022010,
-   "counter_issued": 74789,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:00:57.416Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74790,
-   "owner": "",
-   "owner_addr": "0:6b91521a3594e37a48daa5295da65b49b0f54e827360e131685172e4bb086be9",
-   "mint": 1794027126,
-   "counter_issued": 74790,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:00:57.416Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:07:07.453Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:07:07.453Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134282,
+   "owner": "",
+   "owner_addr": "0:4fcbd9ac14c32d70cd757df3f12f66c7d5d493e55c42411583bce1d95c3908b9",
+   "mint": 1794074712,
+   "counter_issued": 134282,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T18:33:29.515Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134283,
+   "owner": "",
+   "owner_addr": "0:4fcbd9ac14c32d70cd757df3f12f66c7d5d493e55c42411583bce1d95c3908b9",
+   "mint": 1794075058,
+   "counter_issued": 134283,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T18:33:29.515Z",
    "t": 1
   }
  ]
