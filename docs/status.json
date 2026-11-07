@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T19:17:52.934Z",
- "updated_unix": 1794079072,
- "runs": 15465,
+ "updated": "2026-11-07T19:18:52.486Z",
+ "updated_unix": 1794079132,
+ "runs": 15466,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120498,
- "sent_total": 4286327,
+ "detected_total": 120500,
+ "sent_total": 4286477,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78450,
-   "owner": "",
-   "owner_addr": "0:08cf0b8e6df06522f64bb868da13dd6bb1ea084ab0de91bb37c2d5879424fc10",
-   "mint": 1794069427,
-   "counter_issued": 78450,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:40:09.174Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78451,
-   "owner": "",
-   "owner_addr": "0:9b69e3402b6e308e93d462ca6e249a8d9b6a7e2e025989baf011ba718155b1e3",
-   "mint": 1794069964,
-   "counter_issued": 78451,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:40:09.174Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T19:17:51.009Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134288,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134288,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:18:48.614Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134289,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134289,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:18:48.614Z",
    "t": 1
   }
  ]
