@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-07T18:35:41.008Z",
- "updated_unix": 1794076541,
- "runs": 15461,
+ "updated": "2026-11-07T19:08:58.228Z",
+ "updated_unix": 1794078538,
+ "runs": 15462,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120486,
- "sent_total": 4285416,
+ "detected_total": 120491,
+ "sent_total": 4285796,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90666,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90666,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:02:47.554Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90667,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90667,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:02:47.554Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90668,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90668,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:04:47.600Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134276,
-   "owner": "",
-   "owner_addr": "0:8daff475209d84705bc6b28a1bdfcda0bed747db211d8fcaa118903017703408",
-   "mint": 1794069182,
-   "counter_issued": 134276,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:05:52.769Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "EvilEye",
-   "number": 74793,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74793,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T17:35:49.281Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:35:31.113Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:35:31.113Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T18:35:39.134Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391378,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1794077597,
+   "counter_issued": 391378,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:08:41.216Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391379,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794077849,
+   "counter_issued": 391379,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:08:41.216Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443448,
+   "owner": "",
+   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
+   "mint": 1794077800,
+   "counter_issued": 443448,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:08:52.035Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443449,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794077836,
+   "counter_issued": 443449,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:08:52.035Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443450,
+   "owner": "",
+   "owner_addr": "0:62e6943aac94d141987ebd3158830f0b8b8adaacb18d5cbb5de086591afc382b",
+   "mint": 1794078518,
+   "counter_issued": 443450,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T19:08:52.035Z",
    "t": 1
   }
  ]
