@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T14:49:35.568Z",
- "updated_unix": 1794062975,
- "runs": 15435,
+ "updated": "2026-11-07T15:01:44.795Z",
+ "updated_unix": 1794063704,
+ "runs": 15436,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 120419,
- "sent_total": 4280399,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 120421,
+ "sent_total": 4280549,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190137,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190137,
-   "counter_total": 273898,
-   "img": "https://cdn4.telesco.pe/file/JJoepmLBhtCAXOcGSRdHQDxpaovTm2hVWnADkbwgcH6HRXSnh9nIDJghjQNQDKoiAQyPEt83bO4YkIkBhvSTv773aIGv8YNW5uxqDETm9qGBXWAETut1bHf3WWuTs5TA_HCpEUCLq7atqAmCTcVEHYM4gtdGY00oFM9Nkvn3TSsBgScIakr_aCVxyNEpqKiUlM0RT2gAd-FvpOL5SlmgNzRCU5R_VT-E1gmlxHMF-1Ulih4ndQ2BAhLq0YrXhShoGFqwWbqfZ3lkob0rUbMjq6xRPXnNSEdPAu1TLbRt3yRcfHRmJzCxtPjLW1Zzo-3JOO1aRPRqOWtFzw-5IWHjBw.jpg",
-   "sent": 0,
-   "time": "2026-11-07T14:45:12.701Z",
-   "u": 1
-  },
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190138,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190138,
-   "counter_total": 273898,
-   "img": "https://cdn4.telesco.pe/file/typRknlAyEBrwfrnM6cVmVveMvAYrvqTqo7e2RcJXynzcMFcu0xMn81ldzQWDZPqI9xJ1itiM3Pchft9OKiyATK9XWoPzGvrcDEvWVi5zmIFJLBVohsCiggi6B_T9zZMunNtDkbikFHomBHY3Hskt7G1yAeVu62G_Xr5C20y526QvDrx-Q63I2uMuhCTDw7TcT3kk0zRisblCKYDZs1KkD3e6X3zBV0AmX-RVba74Lgd1EdTx77qdE7I9CRmOiJfHzo-gH7dDfCwHO1l6WzSnW4Lbf6829Nvp10kZO54cvo5qUmA7qcgcq3oCgvw_amPpd7BXKWZc8SLAzrO_WKOBw.jpg",
-   "sent": 0,
-   "time": "2026-11-07T14:45:12.701Z",
-   "u": 1
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:49:29.515Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:49:33.863Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391371,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391371,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T15:01:40.619Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391372,
+   "owner": "",
+   "owner_addr": "0:d24f4a0fd8ff24c53d1c5e035e12de2ff6b93963bb6ef1134e276bacf93b7de6",
+   "mint": 1794063416,
+   "counter_issued": 391372,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T15:01:40.619Z",
    "t": 1
   }
  ]
