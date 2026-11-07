@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T15:50:11.614Z",
- "updated_unix": 1794066611,
- "runs": 15440,
+ "updated": "2026-11-07T15:55:14.388Z",
+ "updated_unix": 1794066914,
+ "runs": 15441,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120432,
- "sent_total": 4281366,
+ "detected_total": 120433,
+ "sent_total": 4281440,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190150,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190150,
-   "counter_total": 273898,
-   "img": "https://cdn4.telesco.pe/file/jCTETnpSUErX2AQZyIzkYmDZZhzJ1_lb7wn7EvXBpBlXUBBMi7dZz4Jcd8OJ0E_nMCU-MnVy5DH86Hy5ztnXWlMQVJV4heCxOe2xi_5_Xr8SDQOh8Oki29eATHHH_PfLSPg9HUoFFihK3Cvv8s6d25Zl_QF_dkm8OYUsKQRUQshnIM54hpE1DPOGxvNXAw70gS01lsHWan41rDBOsJfE4HCPQrko0LrQbKLzSHSk3F8zsJAcfKazn6cryuLh2sllYkspnHxqKXUhQBG8ZwVE07H0DmFGdngLYcRlOQF8RTFj9rNvwWE8S1-pEQYtBeYjHll5HInZYGiZxvKdCpt9wg.jpg",
-   "sent": 0,
-   "time": "2026-11-07T14:45:12.701Z",
-   "u": 1
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T15:50:09.311Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26112,
+   "owner": "",
+   "owner_addr": "0:d6da6c1406df733a59f5f700ad6a5a0a1595649b1a03f1b3e1d098f9bce4ff32",
+   "mint": 1794042775,
+   "counter_issued": 26112,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T15:55:11.733Z",
    "t": 1
   }
  ]
