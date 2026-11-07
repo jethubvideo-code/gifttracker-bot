@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T06:49:51.471Z",
- "updated_unix": 1794034191,
- "runs": 15375,
+ "updated": "2026-11-07T06:54:47.802Z",
+ "updated_unix": 1794034487,
+ "runs": 15376,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119853,
- "sent_total": 4239695,
+ "detected_total": 119854,
+ "sent_total": 4239770,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391347,
-   "owner": "",
-   "owner_addr": "0:36d1074bb723c1378ef152416e02227d4267ea5ff0035f5600e384e0bbce80d3",
-   "mint": 1794013405,
-   "counter_issued": 391347,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T02:09:38.419Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -403,7 +389,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T06:49:40.052Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -417,7 +403,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T06:49:40.052Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -431,6 +417,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T06:49:40.052Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391350,
+   "owner": "",
+   "owner_addr": "0:68dc3a666de7b98df999449279872fa911c981852dd18a2d3af3b4e079dae2ff",
+   "mint": 1794034197,
+   "counter_issued": 391350,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T06:54:44.807Z",
    "t": 1
   }
  ]
