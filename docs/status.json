@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T10:21:52.021Z",
- "updated_unix": 1794046912,
- "runs": 15396,
+ "updated": "2026-11-07T10:25:53.385Z",
+ "updated_unix": 1794047153,
+ "runs": 15397,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 119913,
- "sent_total": 4243510,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 119914,
+ "sent_total": 4243585,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90653,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90653,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T08:39:42.012Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:19:28.820Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:19:28.820Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:19:28.820Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:19:28.820Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:21:36.597Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T10:21:36.597Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108725,
+   "owner": "",
+   "owner_addr": "0:297ce68e31ca9da90fd9e2fcd62746c83a781e411b4c7d614347bedb52b2d8d5",
+   "mint": 1794045820,
+   "counter_issued": 108725,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T10:25:46.711Z",
    "t": 1
   }
  ]
