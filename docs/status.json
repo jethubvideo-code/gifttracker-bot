@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-07T22:24:30.542Z",
- "updated_unix": 1794090270,
- "runs": 15497,
+ "updated": "2026-11-07T23:34:01.171Z",
+ "updated_unix": 1794094441,
+ "runs": 15498,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120576,
- "sent_total": 4292017,
+ "detected_total": 120580,
+ "sent_total": 4292317,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232358,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794083531,
-   "counter_issued": 232358,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:55:29.141Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443474,
-   "owner": "",
-   "owner_addr": "0:cb2d5d8fb7fc16260a0c9931c37a0ca33630955a54232e389c4b3d537ce503b1",
-   "mint": 1794084911,
-   "counter_issued": 443474,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:56:29.165Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270026,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794082641,
-   "counter_issued": 270026,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:56:37.629Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391383,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391383,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T20:58:38.148Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T22:24:23.482Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,7 +370,63 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T22:24:23.482Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84521,
+   "owner": "",
+   "owner_addr": "0:414ca848e62dbed1a9f3f8d74178c87c8a4bc6ea678d1739cd255338ab0e76fe",
+   "mint": 1794075119,
+   "counter_issued": 84521,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T23:33:45.770Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84522,
+   "owner": "",
+   "owner_addr": "0:6600c1e0a7407d3eb26500574556504742925e0f84cccf08a9d4c64bfa35b0f2",
+   "mint": 1794075948,
+   "counter_issued": 84522,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T23:33:45.770Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84523,
+   "owner": "",
+   "owner_addr": "0:73de189838e6131b38f61383c3e968ecec3a8dd84a1e2a13e4c82f5f4617c20c",
+   "mint": 1794078098,
+   "counter_issued": 84523,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T23:33:45.770Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84524,
+   "owner": "",
+   "owner_addr": "0:75bf2b7a2aa59496dad2a126f782bc98ed240829ff87ff92c825d69c8f81ed66",
+   "mint": 1794080330,
+   "counter_issued": 84524,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T23:33:45.770Z",
+   "t": 1
   }
  ]
 }
