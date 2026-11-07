@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-07T20:19:20.484Z",
- "updated_unix": 1794082760,
- "runs": 15476,
+ "updated": "2026-11-07T20:22:16.371Z",
+ "updated_unix": 1794082936,
+ "runs": 15477,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120541,
- "sent_total": 4289488,
+ "detected_total": 120542,
+ "sent_total": 4289563,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443462,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443462,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-07T19:24:48.576Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:03:24.843Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:03:24.843Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:03:24.843Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:19:15.370Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T20:19:15.370Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90675,
+   "owner": "",
+   "owner_addr": "0:a9e0ef2e5085bd9fa3b8c326b6444c5cb2bd4db460a3e6ed312a1e85a19add30",
+   "mint": 1794082440,
+   "counter_issued": 90675,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T20:22:14.355Z",
    "t": 1
   }
  ]
