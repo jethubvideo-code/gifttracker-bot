@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-07T14:46:56.797Z",
- "updated_unix": 1794062816,
- "runs": 15434,
+ "updated": "2026-11-07T14:49:35.568Z",
+ "updated_unix": 1794062975,
+ "runs": 15435,
  "collections": 123,
- "checked": 26,
- "errors": 97,
- "detected_total": 120417,
- "sent_total": 4280251,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 120419,
+ "sent_total": 4280399,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190135,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190135,
-   "counter_total": 273898,
-   "img": "https://cdn4.telesco.pe/file/VdFMDbwqRxVYmWHjuvYT5IoirYqnN1LT2aMQLSYnJEZyvTP1QnSgJ13lcXLeEobBCCxpRFuNN1rBuUoY-KK0gfE-1BTS677thz_KcBuWNAeTL8xEL1u_moFVDVOjgFUyJBYAo2z6e0I3FOMyoX0OxDU4yYt2E2fWK0XK30FJ1YJZFi79F9rKh6ZqC1rykjQTGL77W9bq8c2d42JT4pry3EUx0XgFvuTtjlFvEXUX4Y-4oQ3oJAcJAaC6TB2Uk5vX8BeEdXRixXuFUFKJVVwaptecGhNZU-ZoDaqt0ROaKZHJpyZWgecXH4nRG8aXR2VrVZr2KaVUVAF-eipXdGt0Pw.jpg",
-   "sent": 0,
-   "time": "2026-11-07T14:45:12.701Z",
-   "u": 1
-  },
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190136,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190136,
-   "counter_total": 273898,
-   "img": "https://cdn4.telesco.pe/file/E5uiOIknkMXy_xBONVuYLgHKaKGm0wyMWt4gC3PeMlGbGB1lQJCKB2vZthoJjnp7r_CD2vI8Jebed7nniJFRSBAQdUvDugrsoR0yffPZ6hG_Mdby2oP_Z9vWDirLGVas0aP3oFGnLgLjRxd8imzbqn1TMgK_-qH0PBdO4w1c_wq_7Rz_8N_6uEBFj7eeZ1siyES9e9dCinGpTNzD-BZW2MFNb2vH_i8xplj8W5l-itrrZC8yTomjx9gJHlDnbM0F9AR171OQ9iFRRUSj0bIqw0IRftwhgk49ABo0U5hTyoSHdbtu8eqQkGvf5V0vPPOPm4sAAyEnXkNjxsRTuV1Trw.jpg",
-   "sent": 0,
-   "time": "2026-11-07T14:45:12.701Z",
-   "u": 1
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:25.676Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:29.150Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:29.150Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:39.464Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:45.371Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:52.519Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkullFlower",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T14:46:52.519Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "SwagBag",
+   "number": 232357,
+   "owner": "",
+   "owner_addr": "0:23d63b06eb699e051f4d02505aaf85c8ee6aaad2953b6e824ca55adcc9e510c3",
+   "mint": 1794062742,
+   "counter_issued": 232357,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T14:49:29.515Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391370,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391370,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T14:49:33.863Z",
    "t": 1
   }
  ]
