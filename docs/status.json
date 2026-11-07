@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-07T03:23:04.725Z",
- "updated_unix": 1794021784,
- "runs": 15367,
+ "updated": "2026-11-07T05:20:58.064Z",
+ "updated_unix": 1794028858,
+ "runs": 15368,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 119833,
- "sent_total": 4238387,
+ "detected_total": 119836,
+ "sent_total": 4238612,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443422,
-   "owner": "",
-   "owner_addr": "0:85354b83522224769c3237d40cac3f46edc4eb9545f3cb90ad086bf01e2902a3",
-   "mint": 1794006560,
-   "counter_issued": 443422,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T23:24:12.379Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 33024,
-   "owner": "",
-   "owner_addr": "0:41d19ac037ba04230285e15461f9b3ddb4997547cfb34ab274546480ba936286",
-   "mint": 1794007273,
-   "counter_issued": 33024,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T23:27:11.577Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "SleighBell",
-   "number": 23134,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23134,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-06T23:28:08.614Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T03:22:56.548Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-07T03:23:01.517Z",
+   "t": 3
+  },
+  {
+   "slug": "StarNotepad",
+   "gift": "StarNotepad",
+   "number": 74107,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74107,
+   "counter_total": 99082,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T05:20:46.155Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 109185,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 109185,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T05:20:50.993Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 109186,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 109186,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-07T05:20:50.993Z",
    "t": 1
   }
  ]
