@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T12:55:37.613Z",
- "updated_unix": 1794142537,
- "runs": 15573,
+ "updated": "2026-11-08T13:01:37.615Z",
+ "updated_unix": 1794142897,
+ "runs": 15574,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 121484,
- "sent_total": 4360132,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 121485,
+ "sent_total": 4360209,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35877,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35877,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/eCzzISvcmGwMj933FNehn3PleWuQVhWTMNeLeN8-HMuQDHI-chwobo7QsYrVOLsOTibC-cVPwb-WvBeiBZcTAD4hab440iBLeHxljcmKe05ahDuWhSM2xoA8leItulQCFg5f8MUgY0IUH7d8V_ih2ufXdJUP9Sp_OmTAStI7Zg63GdJImYwIeIrnd_vV8ZyGxsznmwIFlflFWya1tmozEjexH1trHPnIgY-fE3sTeGZUudsVGPcj3J5Tm6KXgULxV499jf_eTV6rbarN2Y931fX-DDARYQYWDRSKQGtZqEZgoZvsWZViIhL7lvPkyZFId5eQYcYUbR6KImn4vM8lrQ.jpg",
-   "sent": 0,
-   "time": "2026-11-08T12:24:35.884Z",
-   "u": 1
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T12:48:27.712Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T12:48:34.786Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T12:48:34.786Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T12:55:33.675Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443654,
+   "owner": "",
+   "owner_addr": "0:0bd1299d45c5eeac104fe45dd7acf98310b9cea290040c5f2201419b007e0e05",
+   "mint": 1794140615,
+   "counter_issued": 443654,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T13:01:34.801Z",
    "t": 1
   }
  ]
