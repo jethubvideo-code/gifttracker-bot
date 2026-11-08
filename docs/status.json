@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T09:18:11.578Z",
- "updated_unix": 1794129491,
- "runs": 15540,
+ "updated": "2026-11-08T09:24:10.792Z",
+ "updated_unix": 1794129850,
+ "runs": 15541,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121124,
- "sent_total": 4332374,
+ "detected_total": 121125,
+ "sent_total": 4332450,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134304,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134304,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T08:44:24.980Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:17:39.470Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117678,
+   "owner": "",
+   "owner_addr": "0:7b185311120443a6b9c7e7e4576c99408de5212c059021f211b14e2bae892ace",
+   "mint": 1794127543,
+   "counter_issued": 117678,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:24:04.060Z",
    "t": 1
   }
  ]
