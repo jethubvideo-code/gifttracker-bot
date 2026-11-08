@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T08:13:18.502Z",
- "updated_unix": 1794125598,
- "runs": 15529,
+ "updated": "2026-11-08T08:17:18.336Z",
+ "updated_unix": 1794125838,
+ "runs": 15530,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 121070,
- "sent_total": 4329102,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 121071,
+ "sent_total": 4329178,
  "last_upgrades": [
-  {
-   "slug": "RestlessJar",
-   "gift": "RestlessJar",
-   "number": 103637,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 103637,
-   "counter_total": 120184,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T07:55:48.341Z",
-   "t": 3
-  },
   {
    "slug": "RestlessJar",
    "gift": "RestlessJar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:13:15.634Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443648,
+   "owner": "shohzod-live.ton",
+   "owner_addr": "0:cb5bb2e639b0705f44f046d54336e62b42030cf90862acd8461962169180f02a",
+   "mint": 1794124003,
+   "counter_issued": 443648,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T08:17:15.763Z",
    "t": 1
   }
  ]
