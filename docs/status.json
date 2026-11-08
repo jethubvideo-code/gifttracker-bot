@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T17:47:13.698Z",
- "updated_unix": 1794160033,
- "runs": 15608,
+ "updated": "2026-11-08T18:05:10.078Z",
+ "updated_unix": 1794161110,
+ "runs": 15609,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 121631,
- "sent_total": 4371263,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 121632,
+ "sent_total": 4371341,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391429,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391429,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T16:24:14.246Z",
-   "t": 3
-  },
   {
    "slug": "SwissWatch",
    "gift": "Swiss Watch",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T17:47:08.217Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391435,
+   "owner": "",
+   "owner_addr": "0:0c44d5d245dbad03a9b2fb418fe12815b61ef489d1e73a94f569b8356e23c001",
+   "mint": 1794161053,
+   "counter_issued": 391435,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T18:05:04.804Z",
    "t": 1
   }
  ]
