@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T18:05:10.078Z",
- "updated_unix": 1794161110,
- "runs": 15609,
+ "updated": "2026-11-08T18:06:08.985Z",
+ "updated_unix": 1794161168,
+ "runs": 15610,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121632,
- "sent_total": 4371341,
+ "detected_total": 121633,
+ "sent_total": 4371417,
  "last_upgrades": [
-  {
-   "slug": "SwissWatch",
-   "gift": "Swiss Watch",
-   "number": 26114,
-   "owner": "",
-   "owner_addr": "0:e38d9c2cacd52f4505c4b71ca47eda64287a3cb59351537c0b885cffac61659e",
-   "mint": 1794153612,
-   "counter_issued": 26114,
-   "counter_total": 29323,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T16:24:21.087Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T17:47:08.217Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T18:05:04.804Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134323,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134323,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T18:06:04.155Z",
    "t": 1
   }
  ]
