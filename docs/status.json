@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T13:24:42.700Z",
- "updated_unix": 1794144282,
- "runs": 15576,
+ "updated": "2026-11-08T13:26:44.470Z",
+ "updated_unix": 1794144404,
+ "runs": 15577,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 121487,
- "sent_total": 4360363,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 121488,
+ "sent_total": 4360440,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35880,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35880,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/Lw4M75mmZaw0kXXrL9IrbRVeqkeYorHj1TUy7VviB8SMyzyXvYlSUALyvExSh5JnzTyWeHKJTOCX2of0Y3-CUaFBwajm4Zs-ZwWaVLqhpY-RhyCRwLlBbKgwEU-13MEtJifVjwRRIOvWoKf2HYwQv9TMGcL4EI_cqnBxbbEA1x4vlYZflOypHCiDU3J106MiSMSXesGuWQrLgTYRkOnETudBSiDY8-sLExLmvxBrAkE5PZe8hp9ZqVRuzLMyIN1-a7u-qDAw19obE2HrA59a92Ko25s0k7lCAKGe1scATzKGpttkUReh1mV2DuJNIQWWnO5pPPcvbRwpGCoxmvm7cA.jpg",
-   "sent": 0,
-   "time": "2026-11-08T12:24:35.884Z",
-   "u": 1
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T13:24:40.399Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15585,
+   "owner": "",
+   "owner_addr": "0:2b3ea4799968866d66b36d0dc17dbeab7daa3ce576633c3f6942a902ba9bc667",
+   "mint": 1794114517,
+   "counter_issued": 15585,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T13:26:42.476Z",
    "t": 1
   }
  ]
