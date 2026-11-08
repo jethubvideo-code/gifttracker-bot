@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T09:59:25.838Z",
- "updated_unix": 1794131965,
- "runs": 15544,
+ "updated": "2026-11-08T10:00:04.459Z",
+ "updated_unix": 1794132004,
+ "runs": 15545,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 121133,
- "sent_total": 4333063,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 121134,
+ "sent_total": 4333140,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35469,
-   "owner": "",
-   "owner_addr": "0:e68c21ad9b2e98810b7f3d51ff3b92dfe5f178128fefaa59d0632fdaa024e932",
-   "mint": 1794066654,
-   "counter_issued": 35469,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T08:50:53.115Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:59:04.284Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:59:04.284Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:59:04.284Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:59:04.284Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:59:04.284Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443651,
+   "owner": "",
+   "owner_addr": "0:7d01e3f585a073d4ed13d2b5d8707cc44fef4f732fcdfb2e3a8ae98c507c1d9d",
+   "mint": 1794131650,
+   "counter_issued": 443651,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T10:00:00.802Z",
    "t": 1
   }
  ]
