@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-08T21:15:45.273Z",
- "updated_unix": 1794172545,
- "runs": 15630,
+ "updated": "2026-11-08T21:17:53.509Z",
+ "updated_unix": 1794172673,
+ "runs": 15631,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121932,
- "sent_total": 4393766,
+ "detected_total": 121935,
+ "sent_total": 4393994,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134326,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134326,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:24:41.422Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134327,
-   "owner": "",
-   "owner_addr": "0:ca3433b7f6974815985bccda6b186794a376ae1c37ac25c3b9ab1fda5de316d5",
-   "mint": 1794165658,
-   "counter_issued": 134327,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:24:41.422Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108742,
-   "owner": "",
-   "owner_addr": "0:389b9772052aa82f757f4371bea33e296282a74b140ee5c78b8c3125d51108e9",
-   "mint": 1794165457,
-   "counter_issued": 108742,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:27:41.571Z",
-   "t": 3
-  },
   {
    "slug": "UFCStrike",
    "gift": "UFC Strike",
@@ -370,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:15:29.817Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:15:29.817Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:15:29.817Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:15:29.817Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:15:29.817Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443675,
+   "owner": "",
+   "owner_addr": "0:5387ab46d471cafad281d345bb1457ba5c0e4088a89e3f4b7ab0f044254fa1d7",
+   "mint": 1794170371,
+   "counter_issued": 443675,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T21:17:40.976Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443676,
+   "owner": "",
+   "owner_addr": "0:d001500db6f96dae5998d70c5f815b023cebc5d798715b82bbaadf1cce4f09f6",
+   "mint": 1794170602,
+   "counter_issued": 443676,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T21:17:40.976Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391440,
+   "owner": "",
+   "owner_addr": "0:a8af5269355899a859c592ee9342a6cb19f98b99a41e07774b755f01da5b1639",
+   "mint": 1794170466,
+   "counter_issued": 391440,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T21:17:50.961Z",
    "t": 1
   }
  ]
