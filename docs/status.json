@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T19:20:48.180Z",
- "updated_unix": 1794165648,
- "runs": 15616,
+ "updated": "2026-11-08T19:22:43.883Z",
+ "updated_unix": 1794165763,
+ "runs": 15617,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121900,
- "sent_total": 4391394,
+ "detected_total": 121901,
+ "sent_total": 4391471,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 235338,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 235338,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:03:20.573Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T19:20:42.483Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T19:20:42.483Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391436,
+   "owner": "",
+   "owner_addr": "0:384eff48c48a6d1c4a700acb6cd7bcc35dd8e1e7a2aae0044b3059d1651656da",
+   "mint": 1794164258,
+   "counter_issued": 391436,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T19:22:41.951Z",
    "t": 1
   }
  ]
