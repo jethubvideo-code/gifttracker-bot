@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T12:28:51.977Z",
- "updated_unix": 1794140931,
- "runs": 15570,
+ "updated": "2026-11-08T12:47:31.379Z",
+ "updated_unix": 1794142051,
+ "runs": 15571,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121478,
- "sent_total": 4359665,
+ "detected_total": 121480,
+ "sent_total": 4359821,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35871,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35871,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T12:24:35.884Z",
-   "t": 3
-  },
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35872,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35872,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T12:24:35.884Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T12:28:49.711Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270054,
+   "owner": "",
+   "owner_addr": "0:0bd1299d45c5eeac104fe45dd7acf98310b9cea290040c5f2201419b007e0e05",
+   "mint": 1794140481,
+   "counter_issued": 270054,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T12:47:26.740Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270055,
+   "owner": "giftxona.ton",
+   "owner_addr": "0:2307d1bda4df3095c0ff3ca498c89d7f7ce1c93e604459914705c9fa394e60a6",
+   "mint": 1794141809,
+   "counter_issued": 270055,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T12:47:26.740Z",
    "t": 1
   }
  ]
