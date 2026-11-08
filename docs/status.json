@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T23:40:45.846Z",
- "updated_unix": 1794181245,
- "runs": 15642,
+ "updated": "2026-11-08T23:58:06.108Z",
+ "updated_unix": 1794182286,
+ "runs": 15643,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 121958,
- "sent_total": 4395660,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 121960,
+ "sent_total": 4395812,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85284,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85284,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T21:15:29.817Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85285,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85285,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T21:15:29.817Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T23:40:43.242Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391446,
+   "owner": "",
+   "owner_addr": "0:d01fe1d77a415d63344b7b92f2b08f6e2a2d7fdec0ecdceb8cdfaefea62c746e",
+   "mint": 1794182014,
+   "counter_issued": 391446,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T23:57:56.939Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443684,
+   "owner": "",
+   "owner_addr": "0:9cdb60f4ad0b788cdfaa415f1bbe45d44ebcf4905cdbad42b67922b248296c5b",
+   "mint": 1794180576,
+   "counter_issued": 443684,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T23:58:03.421Z",
    "t": 1
   }
  ]
