@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T20:08:11.043Z",
- "updated_unix": 1794168491,
- "runs": 15620,
+ "updated": "2026-11-08T20:10:08.359Z",
+ "updated_unix": 1794168608,
+ "runs": 15621,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121908,
- "sent_total": 4392010,
+ "detected_total": 121909,
+ "sent_total": 4392086,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 235346,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 235346,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:03:20.573Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:07:55.871Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:08:02.221Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:08:08.412Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232359,
+   "owner": "",
+   "owner_addr": "0:542245bf83f3012047c563ab456b9b77d815b6c537c3714ebf9e26f1d0ea8729",
+   "mint": 1794165653,
+   "counter_issued": 232359,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T20:10:05.144Z",
    "t": 1
   }
  ]
