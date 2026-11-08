@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T19:24:47.803Z",
- "updated_unix": 1794165887,
- "runs": 15618,
+ "updated": "2026-11-08T19:27:43.338Z",
+ "updated_unix": 1794166063,
+ "runs": 15619,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121904,
- "sent_total": 4391702,
+ "detected_total": 121905,
+ "sent_total": 4391779,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 235342,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 235342,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:03:20.573Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T19:24:41.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T19:24:41.422Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T19:24:41.422Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108742,
+   "owner": "",
+   "owner_addr": "0:389b9772052aa82f757f4371bea33e296282a74b140ee5c78b8c3125d51108e9",
+   "mint": 1794165457,
+   "counter_issued": 108742,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T19:27:41.571Z",
    "t": 1
   }
  ]
