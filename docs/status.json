@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T09:16:46.911Z",
- "updated_unix": 1794129406,
- "runs": 15539,
+ "updated": "2026-11-08T09:18:11.578Z",
+ "updated_unix": 1794129491,
+ "runs": 15540,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121123,
- "sent_total": 4332362,
+ "detected_total": 121124,
+ "sent_total": 4332374,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71999,
-   "owner": "",
-   "owner_addr": "0:be0abde5ff4eeffff9586c75d7ebdbe5d8ebe1edc4397957dc7ae7a6b5fca1d4",
-   "mint": 1794118839,
-   "counter_issued": 71999,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/jthV7PZqmbx-pE1UIHldmmvXTYgHMfO-7xksR3efIJ_woQibMr_p4_cnlqUt9YSisT7_xvE5DV73OTx2K0GNHLpT9WIbkKoRkOB989nZltpFoJGOyg1RG6He0fH6Dfvyhz2jKjgnO3wZEt_UlI7O881XZlpjlckgZfTO7c-OtVXMt9r68yQ-PEzlpbUKUg9OHMOPwYAbFgFRg1t79xE7VVulJHxgAhwvgtrq1Ehjv4BEEHN-UdwjBccj_G3SNxshvBSgDsXZdKPHRqj_ErbyeCGzKxhTU6jmnz2-c4RiYsYLZYyedgWYkyMecu9ZtCvVKuHyA-s1iVo161aT_JpFyg.jpg",
-   "sent": 0,
-   "time": "2026-11-08T08:42:21.201Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:16:38.784Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:16:38.784Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270048,
+   "owner": "",
+   "owner_addr": "0:7f0d29cf6ff703bc89235d2f39a0525bd32334331d40864f3c6e0cbfc4ce85d4",
+   "mint": 1794129098,
+   "counter_issued": 270048,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:17:39.470Z",
    "t": 1
   }
  ]
