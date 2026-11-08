@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T21:19:50.274Z",
- "updated_unix": 1794172790,
- "runs": 15632,
+ "updated": "2026-11-08T21:40:28.643Z",
+ "updated_unix": 1794174028,
+ "runs": 15633,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121936,
- "sent_total": 4394070,
+ "detected_total": 121938,
+ "sent_total": 4394140,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74801,
-   "owner": "tgshield.t.me",
-   "owner_addr": "0:3fe4a1b53b45d585f85452460050ee9d56433ac8bea58c9ae58d8e855b7c5edd",
-   "mint": 1794166192,
-   "counter_issued": 74801,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T20:08:02.221Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84536,
-   "owner": "",
-   "owner_addr": "0:c83ee9df3f5e02198709ee328264ad9c2ee0e36f0380dd3afba01c70ec20b467",
-   "mint": 1794168400,
-   "counter_issued": 84536,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T20:08:08.412Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:19:47.989Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270089,
+   "owner": "",
+   "owner_addr": "0:235970ed6d567b2ae04fba0a8cfdc53eaa01a7b83b53b8d1ea71a8ba6c9d181d",
+   "mint": 1794172445,
+   "counter_issued": 270089,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T21:39:50.996Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270090,
+   "owner": "",
+   "owner_addr": "0:235970ed6d567b2ae04fba0a8cfdc53eaa01a7b83b53b8d1ea71a8ba6c9d181d",
+   "mint": 1794172798,
+   "counter_issued": 270090,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T21:39:50.996Z",
+   "t": 1
   }
  ]
 }
