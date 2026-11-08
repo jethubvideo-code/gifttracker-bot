@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T06:03:20.213Z",
- "updated_unix": 1794117800,
- "runs": 15520,
+ "updated": "2026-11-08T06:20:12.193Z",
+ "updated_unix": 1794118812,
+ "runs": 15521,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120837,
- "sent_total": 4311542,
+ "detected_total": 120838,
+ "sent_total": 4311617,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40607,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40607,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T05:45:26.881Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T06:03:18.320Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23136,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794084865,
+   "counter_issued": 23136,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T06:20:10.434Z",
+   "t": 1
   }
  ]
 }
