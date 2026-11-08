@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T14:09:42.702Z",
- "updated_unix": 1794146982,
- "runs": 15584,
+ "updated": "2026-11-08T14:33:23.145Z",
+ "updated_unix": 1794148403,
+ "runs": 15585,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121572,
- "sent_total": 4366901,
+ "detected_total": 121574,
+ "sent_total": 4367055,
  "last_upgrades": [
-  {
-   "slug": "SakuraFlower",
-   "gift": "Sakura Flower",
-   "number": 88004,
-   "owner": "",
-   "owner_addr": "0:b62263c21c492fd322033c65c8ca6e7afd6a789cf9fb25b23d090bd42dbfc7d7",
-   "mint": 1794144544,
-   "counter_issued": 88004,
-   "counter_total": 93115,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:04:18.654Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78452,
-   "owner": "",
-   "owner_addr": "0:af9ae256079afa81131e967a5bd0baf6a88128c805f220e484c7df452f4c5dd1",
-   "mint": 1794100321,
-   "counter_issued": 78452,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:04:44.503Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:09:25.957Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:09:35.841Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:09:35.841Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:09:35.841Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270059,
+   "owner": "",
+   "owner_addr": "0:ee16316ae2eb1925253ff78d7207026f94327e70ca1fc92d96434e03710f5372",
+   "mint": 1794147909,
+   "counter_issued": 270059,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T14:33:15.246Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391419,
+   "owner": "",
+   "owner_addr": "0:8f64db1f5bca764f5f1b49dd91902d2cf24c9507f7ab6c92d3614bf455c77d1d",
+   "mint": 1794148214,
+   "counter_issued": 391419,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T14:33:21.367Z",
    "t": 1
   }
  ]
