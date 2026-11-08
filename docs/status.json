@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T01:07:52.897Z",
- "updated_unix": 1794100072,
- "runs": 15507,
+ "updated": "2026-11-08T01:12:52.237Z",
+ "updated_unix": 1794100372,
+ "runs": 15508,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 120764,
- "sent_total": 4306117,
+ "detected_total": 120765,
+ "sent_total": 4306192,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443618,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443618,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T00:03:03.084Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T01:07:38.163Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T01:07:38.163Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T01:07:38.163Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T01:07:50.305Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443642,
+   "owner": "",
+   "owner_addr": "0:32fd3dad5b1c4898d52fa171373a778f8a59796326f6dd632ee483f9867db686",
+   "mint": 1794096216,
+   "counter_issued": 443642,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T01:12:48.225Z",
    "t": 1
   }
  ]
