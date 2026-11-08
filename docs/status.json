@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T20:26:20.259Z",
- "updated_unix": 1794169580,
- "runs": 15622,
+ "updated": "2026-11-08T20:27:16.521Z",
+ "updated_unix": 1794169636,
+ "runs": 15623,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121912,
- "sent_total": 4392317,
+ "detected_total": 121913,
+ "sent_total": 4392394,
  "last_upgrades": [
-  {
-   "slug": "CloverPin",
-   "gift": "CloverPin",
-   "number": 235350,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 235350,
-   "counter_total": 270970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T19:03:20.573Z",
-   "t": 3
-  },
   {
    "slug": "CloverPin",
    "gift": "CloverPin",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:10:05.144Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:26:13.836Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:26:13.836Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T20:26:13.836Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117679,
+   "owner": "",
+   "owner_addr": "0:1b47a2ca894436806a64fcd8dc5705610710e6573fd1c9c4b71833f1b4bac010",
+   "mint": 1794167196,
+   "counter_issued": 117679,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T20:27:12.871Z",
    "t": 1
   }
  ]
