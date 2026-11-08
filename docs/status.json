@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T13:05:34.969Z",
- "updated_unix": 1794143134,
- "runs": 15575,
+ "updated": "2026-11-08T13:24:42.700Z",
+ "updated_unix": 1794144282,
+ "runs": 15576,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121486,
- "sent_total": 4360286,
+ "detected_total": 121487,
+ "sent_total": 4360363,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35879,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35879,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/sEbsj0cnEqrKCAJS22DWw4KR3w8X6sFwahIa6d84ENEbQaTlqbJuiBR-ri5Wsj0tL4C2CGhSF9iBsferDQCQjO6rqw9YdJRk2Qa7ZnX0kzhshyEjf2OlksaLem7BEx7Xa6rKfxrw66C8-32bgupcDtT2y-UjKliYKw-xtOGlt3_z6YYC_KHK0ciEOj-yjokjwuN2d2SBGEBMCQDiU5TeJ48PnLyzPvnB_JQs0ptisrl0QdAwwpDsQEzCzlV6ig8Cm4k1eUBBg3iJNq8E0WAMg0iCemfHtWkvp4uZ0g9CMhDccvlbe2BlSDD_vUtNEdTK4NS1LUw9B4hc5wu85krR3w.jpg",
-   "sent": 0,
-   "time": "2026-11-08T12:24:35.884Z",
-   "u": 1
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T13:05:32.256Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19821,
+   "owner": "",
+   "owner_addr": "0:9a2fd4fc5a356eab93e803cce8643a863c0e7d0be4da31519aaac19e9c2ef586",
+   "mint": 1794124306,
+   "counter_issued": 19821,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T13:24:40.399Z",
    "t": 1
   }
  ]
