@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T13:42:08.834Z",
- "updated_unix": 1794145328,
- "runs": 15580,
+ "updated": "2026-11-08T13:58:11.822Z",
+ "updated_unix": 1794146291,
+ "runs": 15581,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121510,
- "sent_total": 4362132,
+ "detected_total": 121512,
+ "sent_total": 4362286,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134314,
-   "owner": "",
-   "owner_addr": "0:96327c5f1ed3310978ee8a505f081e9de818cc005911d134ebfd78758d5c7677",
-   "mint": 1794138517,
-   "counter_issued": 134314,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T12:48:27.712Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391407,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391407,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T12:48:34.786Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T13:42:04.649Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T13:42:04.649Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90690,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794142375,
+   "counter_issued": 90690,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T13:58:01.320Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443657,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794145799,
+   "counter_issued": 443657,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T13:58:08.770Z",
    "t": 1
   }
  ]
