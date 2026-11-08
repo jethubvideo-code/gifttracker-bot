@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T21:17:53.509Z",
- "updated_unix": 1794172673,
- "runs": 15631,
+ "updated": "2026-11-08T21:19:50.274Z",
+ "updated_unix": 1794172790,
+ "runs": 15632,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121935,
- "sent_total": 4393994,
+ "detected_total": 121936,
+ "sent_total": 4394070,
  "last_upgrades": [
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58909,
-   "owner": "",
-   "owner_addr": "0:7318dd1c1daaacaa8ffed7fdc8bc77866e6238e6625da5bad7fff4f7376b8ed6",
-   "mint": 1794166009,
-   "counter_issued": 58909,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T20:07:55.871Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:17:40.976Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:17:40.976Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:17:50.961Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134331,
+   "owner": "",
+   "owner_addr": "0:235970ed6d567b2ae04fba0a8cfdc53eaa01a7b83b53b8d1ea71a8ba6c9d181d",
+   "mint": 1794171662,
+   "counter_issued": 134331,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T21:19:47.989Z",
    "t": 1
   }
  ]
