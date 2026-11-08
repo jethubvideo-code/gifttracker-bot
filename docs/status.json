@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T14:47:15.991Z",
- "updated_unix": 1794149235,
- "runs": 15588,
+ "updated": "2026-11-08T14:49:15.418Z",
+ "updated_unix": 1794149355,
+ "runs": 15589,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121578,
- "sent_total": 4367363,
+ "detected_total": 121579,
+ "sent_total": 4367440,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78457,
-   "owner": "",
-   "owner_addr": "0:0bd1299d45c5eeac104fe45dd7acf98310b9cea290040c5f2201419b007e0e05",
-   "mint": 1794140525,
-   "counter_issued": 78457,
-   "counter_total": 101415,
-   "img": "https://cdn4.telesco.pe/file/NB6wtN4dpGMKWoy23rcP_pgi58LNcBLSF_rFgullAieG2nerF5B7J-aBAcuvxnUmtn5GdLINRvDYXtJv0GRQcF1iA74wyKIYy47D9XgPMUk3NKTEA1mUEjGHXaWWc4l_VdXhwP5fES51jl8PBrhdVSckrlHQHsES7yo39Tgb_yHui2Y2MJma_D2NPxaraQuhGVWLqhL4xbboGhm4-rriufK4fOAEQlNx-tvubjnAEyQQlgRE0qxITXotXts3zmczl0DmGGiCQ2k7R7AAl6pvMJ7SvZSQ_156izm8yy_llLjJmsWWp-OQtbDzEz5mXGsXy2BTc_Y2jSWO5AiJt0vxYw.jpg",
-   "sent": 0,
-   "time": "2026-11-08T14:04:44.503Z",
-   "u": 1
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:47:13.628Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "SkullFlower",
+   "number": 22090,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 22090,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T14:49:13.491Z",
    "t": 1
   }
  ]
