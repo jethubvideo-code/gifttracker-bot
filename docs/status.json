@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T15:10:59.387Z",
- "updated_unix": 1794150659,
- "runs": 15591,
+ "updated": "2026-11-08T15:59:03.220Z",
+ "updated_unix": 1794153543,
+ "runs": 15592,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121589,
- "sent_total": 4368209,
+ "detected_total": 121591,
+ "sent_total": 4368363,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74126,
-   "owner": "",
-   "owner_addr": "0:4e860d43883f3d23f057c235d2562b8f732903203fe38f15426142224e591ebd",
-   "mint": 1794115582,
-   "counter_issued": 74126,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:05:29.560Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74127,
-   "owner": "",
-   "owner_addr": "0:4e860d43883f3d23f057c235d2562b8f732903203fe38f15426142224e591ebd",
-   "mint": 1794115817,
-   "counter_issued": 74127,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:05:29.560Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T15:10:45.156Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T15:10:45.156Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T15:10:45.156Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T15:10:56.820Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85278,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85278,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T15:58:52.800Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33048,
+   "owner": "",
+   "owner_addr": "0:05e1e499c95f408201c8f5c7bbfd36ed773b350876220b2c9bdee1ccbd0777da",
+   "mint": 1794150631,
+   "counter_issued": 33048,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T15:59:00.386Z",
    "t": 1
   }
  ]
