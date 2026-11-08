@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T14:34:17.554Z",
- "updated_unix": 1794148457,
- "runs": 15586,
+ "updated": "2026-11-08T14:36:17.755Z",
+ "updated_unix": 1794148577,
+ "runs": 15587,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121576,
- "sent_total": 4367209,
+ "detected_total": 121577,
+ "sent_total": 4367286,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78455,
-   "owner": "",
-   "owner_addr": "0:2a4591b54664d51e7fb2d7ce5c82e22570049e9ad3503aac6f7da4c503b556f2",
-   "mint": 1794134825,
-   "counter_issued": 78455,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:04:44.503Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:34:13.732Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:34:13.732Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108738,
+   "owner": "",
+   "owner_addr": "0:192cda728de2951769de610f86ec5b4d41c149e2beb8e642e431d875ae74be06",
+   "mint": 1794146810,
+   "counter_issued": 108738,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T14:36:16.018Z",
    "t": 1
   }
  ]
