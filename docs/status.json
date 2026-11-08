@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T09:02:09.924Z",
- "updated_unix": 1794128529,
- "runs": 15538,
+ "updated": "2026-11-08T09:16:46.911Z",
+ "updated_unix": 1794129406,
+ "runs": 15539,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121121,
- "sent_total": 4332210,
+ "detected_total": 121123,
+ "sent_total": 4332362,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71997,
-   "owner": "",
-   "owner_addr": "0:2b3ea4799968866d66b36d0dc17dbeab7daa3ce576633c3f6942a902ba9bc667",
-   "mint": 1794115816,
-   "counter_issued": 71997,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/jthV7PZqmbx-pE1UIHldmmvXTYgHMfO-7xksR3efIJ_woQibMr_p4_cnlqUt9YSisT7_xvE5DV73OTx2K0GNHLpT9WIbkKoRkOB989nZltpFoJGOyg1RG6He0fH6Dfvyhz2jKjgnO3wZEt_UlI7O881XZlpjlckgZfTO7c-OtVXMt9r68yQ-PEzlpbUKUg9OHMOPwYAbFgFRg1t79xE7VVulJHxgAhwvgtrq1Ehjv4BEEHN-UdwjBccj_G3SNxshvBSgDsXZdKPHRqj_ErbyeCGzKxhTU6jmnz2-c4RiYsYLZYyedgWYkyMecu9ZtCvVKuHyA-s1iVo161aT_JpFyg.jpg",
-   "sent": 0,
-   "time": "2026-11-08T08:42:21.201Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71998,
-   "owner": "",
-   "owner_addr": "0:2b3ea4799968866d66b36d0dc17dbeab7daa3ce576633c3f6942a902ba9bc667",
-   "mint": 1794115837,
-   "counter_issued": 71998,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/jthV7PZqmbx-pE1UIHldmmvXTYgHMfO-7xksR3efIJ_woQibMr_p4_cnlqUt9YSisT7_xvE5DV73OTx2K0GNHLpT9WIbkKoRkOB989nZltpFoJGOyg1RG6He0fH6Dfvyhz2jKjgnO3wZEt_UlI7O881XZlpjlckgZfTO7c-OtVXMt9r68yQ-PEzlpbUKUg9OHMOPwYAbFgFRg1t79xE7VVulJHxgAhwvgtrq1Ehjv4BEEHN-UdwjBccj_G3SNxshvBSgDsXZdKPHRqj_ErbyeCGzKxhTU6jmnz2-c4RiYsYLZYyedgWYkyMecu9ZtCvVKuHyA-s1iVo161aT_JpFyg.jpg",
-   "sent": 0,
-   "time": "2026-11-08T08:42:21.201Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:00:08.693Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:00:08.693Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:00:08.693Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T09:00:08.693Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443649,
+   "owner": "",
+   "owner_addr": "0:7b185311120443a6b9c7e7e4576c99408de5212c059021f211b14e2bae892ace",
+   "mint": 1794127494,
+   "counter_issued": 443649,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:16:38.784Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443650,
+   "owner": "kittynka.t.me",
+   "owner_addr": "0:07d4144e6e1a5dca7276c7c8ca40a404ae0140e45b701c16a8688b8f3304f607",
+   "mint": 1794127691,
+   "counter_issued": 443650,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:16:38.784Z",
+   "t": 1
   }
  ]
 }
