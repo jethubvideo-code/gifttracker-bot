@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-08T08:58:38.619Z",
- "updated_unix": 1794128318,
- "runs": 15537,
+ "updated": "2026-11-08T09:02:09.924Z",
+ "updated_unix": 1794128529,
+ "runs": 15538,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121117,
- "sent_total": 4332146,
+ "detected_total": 121121,
+ "sent_total": 4332210,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55734,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794122961,
-   "counter_issued": 55734,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T08:41:42.580Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71994,
-   "owner": "",
-   "owner_addr": "0:e3d9367dcd1b728d2bfcefd8f53c953a9cdbc4516ba38eeb42c096d0f025ea9d",
-   "mint": 1794092319,
-   "counter_issued": 71994,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/jthV7PZqmbx-pE1UIHldmmvXTYgHMfO-7xksR3efIJ_woQibMr_p4_cnlqUt9YSisT7_xvE5DV73OTx2K0GNHLpT9WIbkKoRkOB989nZltpFoJGOyg1RG6He0fH6Dfvyhz2jKjgnO3wZEt_UlI7O881XZlpjlckgZfTO7c-OtVXMt9r68yQ-PEzlpbUKUg9OHMOPwYAbFgFRg1t79xE7VVulJHxgAhwvgtrq1Ehjv4BEEHN-UdwjBccj_G3SNxshvBSgDsXZdKPHRqj_ErbyeCGzKxhTU6jmnz2-c4RiYsYLZYyedgWYkyMecu9ZtCvVKuHyA-s1iVo161aT_JpFyg.jpg",
-   "sent": 0,
-   "time": "2026-11-08T08:42:21.201Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71995,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794092405,
-   "counter_issued": 71995,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/jthV7PZqmbx-pE1UIHldmmvXTYgHMfO-7xksR3efIJ_woQibMr_p4_cnlqUt9YSisT7_xvE5DV73OTx2K0GNHLpT9WIbkKoRkOB989nZltpFoJGOyg1RG6He0fH6Dfvyhz2jKjgnO3wZEt_UlI7O881XZlpjlckgZfTO7c-OtVXMt9r68yQ-PEzlpbUKUg9OHMOPwYAbFgFRg1t79xE7VVulJHxgAhwvgtrq1Ehjv4BEEHN-UdwjBccj_G3SNxshvBSgDsXZdKPHRqj_ErbyeCGzKxhTU6jmnz2-c4RiYsYLZYyedgWYkyMecu9ZtCvVKuHyA-s1iVo161aT_JpFyg.jpg",
-   "sent": 0,
-   "time": "2026-11-08T08:42:21.201Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 71996,
-   "owner": "",
-   "owner_addr": "0:b93f7443c53ba75cae281441b17cc2faa6566d6dcd853c0f3cf9767b2f805099",
-   "mint": 1794107300,
-   "counter_issued": 71996,
-   "counter_total": 89034,
-   "img": "https://cdn4.telesco.pe/file/jthV7PZqmbx-pE1UIHldmmvXTYgHMfO-7xksR3efIJ_woQibMr_p4_cnlqUt9YSisT7_xvE5DV73OTx2K0GNHLpT9WIbkKoRkOB989nZltpFoJGOyg1RG6He0fH6Dfvyhz2jKjgnO3wZEt_UlI7O881XZlpjlckgZfTO7c-OtVXMt9r68yQ-PEzlpbUKUg9OHMOPwYAbFgFRg1t79xE7VVulJHxgAhwvgtrq1Ehjv4BEEHN-UdwjBccj_G3SNxshvBSgDsXZdKPHRqj_ErbyeCGzKxhTU6jmnz2-c4RiYsYLZYyedgWYkyMecu9ZtCvVKuHyA-s1iVo161aT_JpFyg.jpg",
-   "sent": 0,
-   "time": "2026-11-08T08:42:21.201Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -216,7 +160,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -230,7 +174,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -244,7 +188,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -258,7 +202,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -272,7 +216,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -286,7 +230,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -300,7 +244,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "RecordPlayer",
@@ -314,7 +258,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:50:53.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -328,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:51:59.170Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:51:59.170Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:51:59.170Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HangingStar",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:51:59.170Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:56:53.150Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:56:53.150Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:56:53.150Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T08:56:53.150Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270044,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270044,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:00:08.693Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270045,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270045,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:00:08.693Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270046,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270046,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:00:08.693Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270047,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270047,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T09:00:08.693Z",
    "t": 1
   }
  ]
