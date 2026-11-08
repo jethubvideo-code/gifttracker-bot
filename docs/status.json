@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T14:36:17.755Z",
- "updated_unix": 1794148577,
- "runs": 15587,
+ "updated": "2026-11-08T14:47:15.991Z",
+ "updated_unix": 1794149235,
+ "runs": 15588,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121577,
- "sent_total": 4367286,
+ "detected_total": 121578,
+ "sent_total": 4367363,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78456,
-   "owner": "",
-   "owner_addr": "0:0022b4bb63422bcc9037920a0bbdb5e77c8f78e2b19547be94af1f8b013ab656",
-   "mint": 1794138888,
-   "counter_issued": 78456,
-   "counter_total": 101415,
-   "img": "https://cdn4.telesco.pe/file/oGzQ0QPqoKGB3558i1EGdimZGgn6CeHi96IjGZFvpHPAoDxNAQAtNMPEM0p5CVrdxTPeJXu5w9LzsQ_0EBr5G3_FXlSOrg83FkeHNaSaR-JlP-ZJW7BLV0MA3I4IEiwhuj9QlnREQ6s1Q2dom8Z75sfE9ZdveRjDdnPn0JOhSOLuf6yo9tj9LVw5T4LRikpoiZCY5pinnAbQjZSBGozxKU3NBrWNCOIG515vHLOONkB6l-JRZfkz7QXfY9LdISX7u_sMNIQgzui0p84eVw8LG2lA9Jzrx4UKv3PV497QAwi4kX-VTuoTtoyzZV8tfopkw3_4H4i7TX0JGfyMXgYZ1Q.jpg",
-   "sent": 0,
-   "time": "2026-11-08T14:04:44.503Z",
-   "u": 1
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T14:36:16.018Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391420,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391420,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T14:47:13.628Z",
    "t": 1
   }
  ]
