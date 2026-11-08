@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-08T16:25:20.012Z",
- "updated_unix": 1794155120,
- "runs": 15598,
+ "updated": "2026-11-08T16:30:22.259Z",
+ "updated_unix": 1794155422,
+ "runs": 15599,
  "collections": 123,
- "checked": 28,
- "errors": 95,
- "detected_total": 121604,
- "sent_total": 4369375,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 121606,
+ "sent_total": 4369531,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134316,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134316,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:34:13.732Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134317,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134317,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T14:34:13.732Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T16:24:14.246Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwissWatch",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T16:24:21.087Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T16:25:16.930Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391430,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391430,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T16:30:15.570Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108740,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108740,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T16:30:20.224Z",
    "t": 1
   }
  ]
