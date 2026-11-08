@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T21:48:14.560Z",
- "updated_unix": 1794174494,
- "runs": 15635,
+ "updated": "2026-11-08T22:12:08.081Z",
+ "updated_unix": 1794175928,
+ "runs": 15636,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 121941,
- "sent_total": 4394368,
+ "detected_total": 121942,
+ "sent_total": 4394444,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391439,
-   "owner": "akmstudent.ton",
-   "owner_addr": "0:3ced39813317fc81f5f77ea3efebbf1c7f0239b21b96502afe170590bcc9d3a0",
-   "mint": 1794167620,
-   "counter_issued": 391439,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T20:26:13.836Z",
-   "t": 3
-  },
   {
    "slug": "SnoopCigar",
    "gift": "Snoop Cigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T21:48:10.777Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391441,
+   "owner": "",
+   "owner_addr": "0:32fd3dad5b1c4898d52fa171373a778f8a59796326f6dd632ee483f9867db686",
+   "mint": 1794174982,
+   "counter_issued": 391441,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T22:12:04.357Z",
    "t": 1
   }
  ]
