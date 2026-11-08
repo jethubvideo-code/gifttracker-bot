@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T11:04:09.496Z",
- "updated_unix": 1794135849,
- "runs": 15556,
+ "updated": "2026-11-08T11:07:40.839Z",
+ "updated_unix": 1794136060,
+ "runs": 15557,
  "collections": 123,
- "checked": 0,
- "errors": 123,
- "detected_total": 121338,
- "sent_total": 4349031,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 121339,
+ "sent_total": 4349108,
  "last_upgrades": [
-  {
-   "slug": "FreshSocks",
-   "gift": "FreshSocks",
-   "number": 166728,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 166728,
-   "counter_total": 200509,
-   "img": "https://cdn4.telesco.pe/file/SAZbvVwHkr5ffAQnCVtBlzFdk4tKwBQzrr-f4rub0E_QqmKpA-Dx-Mf6sXP9EQDLzmd7IQTo7Vv9pRS7X7bHaUZl9DbNjBdY6Wyys8iyjwa8SytfmoCyoD7E0Liq-zNfXNHiVRJZWUfVHXqkd3pTQKfZ5HbFzQ0tZvtFy31kQF4tgEMEkgnU71bN9r4Wshnw1MpFaB7bxLQS7o0QPbVx_PTyGeT6oEyaT0tibpIJAoSzRQ0dgnmR-o4OBAvekkut6jSvGw48qo0jY3xs6HgM87JJT7Ygbg_0U0V9O88Io_ojKHI4dgCEJ3_FFJq4gpLjVgFi3ZA4daWsYo3Cx6Ju7g.jpg",
-   "sent": 0,
-   "time": "2026-11-08T10:08:50.605Z",
-   "t": 3
-  },
   {
    "slug": "FreshSocks",
    "gift": "FreshSocks",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-11-08T11:01:42.250Z",
    "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270049,
+   "owner": "",
+   "owner_addr": "0:838bbdb96b2d1e796eb072dcab9e4c664da6275300b9ce7e862e11114550cc39",
+   "mint": 1794135307,
+   "counter_issued": 270049,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T11:07:37.026Z",
+   "t": 1
   }
  ]
 }
