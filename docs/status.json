@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-08T13:26:44.470Z",
- "updated_unix": 1794144404,
- "runs": 15577,
+ "updated": "2026-11-08T13:29:42.265Z",
+ "updated_unix": 1794144582,
+ "runs": 15578,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 121488,
- "sent_total": 4360440,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 121489,
+ "sent_total": 4360517,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35881,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35881,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-08T12:24:35.884Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-08T13:26:42.476Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26113,
+   "owner": "",
+   "owner_addr": "0:ee83e853dc26df9f09f987dc243cad56cab406dd1acc5e295eb960c089cf2d6b",
+   "mint": 1794113381,
+   "counter_issued": 26113,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-08T13:29:40.393Z",
    "t": 1
   }
  ]
