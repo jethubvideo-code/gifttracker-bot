@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-09T06:41:21.264Z",
- "updated_unix": 1794206481,
- "runs": 15667,
+ "updated": "2026-11-09T06:42:28.785Z",
+ "updated_unix": 1794206548,
+ "runs": 15668,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122139,
- "sent_total": 4409232,
+ "detected_total": 122142,
+ "sent_total": 4409460,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35980,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35980,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/l97gVLjCwgBkgTx6YW_4hSiTXtLYZHs8WS4Up6NMJUqFmN7wtzi9Ca2-A-hjxrL0cK8bRdt5JB-OPkpZa57EYpvVbF2zYjvoU7DYudsKg8FCMF7HJeTEz4rC3j6ZyhcF9WWYCXt1tBIt633R6SAFl9lO17u6Wfab-vVHboE9Q81wvfsyjWd_Rbfq54TAPRg08ugFcDToNpUNzL58YPMr6pZm-MQ27OLzcGtKJBcYm9uf9lRKSvcHuQGttJLggEpTvgBzd3UVIciQgBjuymtEqYzq9iTm6dLmoSayVSpA-a5_3y_-nCF9ov3U4c5Lc4PI1-d5TelVQICA6_e63t8OTw.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "u": 1
-  },
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35981,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35981,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/pPGTWt_I6A7Or765IEBc_CyxlugcW29aL24kwLom8jNobgwpnJY2v6PFosiLWOXAmUyKljmZvyIH2Id5DwtCRJycBcyR0ErqazVMGlpuQFhoJeR0w8s0dFKZIU3q8cfdfNqkGojWl4q12GuJ0yz7x8BdS0GoOup8Km_Zer3ZY0m1WNc5ENzaTW2n2FEeSd2kLsqq_HbJbFFuM4w2szJFpOPC94Q6qVHaVQCB8E8K6WAjxhBaWWhCCSXrn29P4MyEERpZIwSvrbLfWDU7XC3ERtCQfghIVO-2j9N1Fq__cXi2-kGUo6KE2BGWm4sJODWzvKiUKdG41nXbg1Kls8ZtzQ.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "u": 1
-  },
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35982,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35982,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CmqXrI7NY2mrP_9f-TYkf4eWESl1zpxdXri9X_RE58U69MTAKENFBDjtQQD-_o2zq1VMwuj20z7sRmSXhX9A9xQRIzND20JlKeBwFXF8Sur3VLCkI0xKWVPJvuzqzBd19T_MPZlAgpVd8qnq2rEUINYYH5SAh32GbPnupEbQ5WPJH_Mrg0VsHWbedxnNAgUKnzZbuubwLPtxpL7GZnD96rh89Qo2XPEq70oppl8VdArdXTdLsTsGFzq6jYOa4unnqJYL3uYymkaTw8rnb7jr4YLGyZitMdD-E31iXVWxsBfzHVY3IzfZeEg8KfNaBENAwPfNQrWJAQXjOYKRTikFlA.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "u": 1
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:41:10.046Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:41:17.571Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391450,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391450,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T06:42:13.876Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391451,
+   "owner": "",
+   "owner_addr": "0:78fe215b9d58deefff4eec02d0b7e530b37f5b41fcbad35218d384091c6b8c84",
+   "mint": 1794205962,
+   "counter_issued": 391451,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T06:42:13.876Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90698,
+   "owner": "",
+   "owner_addr": "0:13e1480b02505548019ca8b2709e3e6ff5bc7031c9f22d78c0dbdd9c2b630058",
+   "mint": 1794203870,
+   "counter_issued": 90698,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T06:42:25.452Z",
    "t": 1
   }
  ]
