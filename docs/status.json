@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-09T18:29:29.957Z",
- "updated_unix": 1794248969,
- "runs": 15745,
+ "updated": "2026-11-09T18:57:47.171Z",
+ "updated_unix": 1794250667,
+ "runs": 15746,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122835,
- "sent_total": 4459129,
+ "detected_total": 122838,
+ "sent_total": 4459348,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443720,
-   "owner": "mistikafinessova.ton",
-   "owner_addr": "0:b53cf7a586e7142ebcd34b3c37e075dd47539546e685489d854b5a2b9bae4794",
-   "mint": 1794241784,
-   "counter_issued": 443720,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:35:23.561Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391478,
-   "owner": "",
-   "owner_addr": "0:8e5b4a83d7df96936a03d1cd353e77dc8d94d00c6c98c9270789d44c7048d388",
-   "mint": 1794240134,
-   "counter_issued": 391478,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:36:23.662Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134356,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134356,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:39:21.039Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T18:29:27.245Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134362,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134362,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T18:57:37.654Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134363,
+   "owner": "",
+   "owner_addr": "0:3a55d89b9aa8cabb1e9043445160758fe4dc71e824e9235ce49b8c5d97ab4b96",
+   "mint": 1794246889,
+   "counter_issued": 134363,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T18:57:37.654Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134364,
+   "owner": "",
+   "owner_addr": "0:b9e82f960584c48e5324ad109dd3bc4d5334c7fa0c096e4361b2ce561a1ac030",
+   "mint": 1794247055,
+   "counter_issued": 134364,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T18:57:37.654Z",
+   "t": 1
   }
  ]
 }
