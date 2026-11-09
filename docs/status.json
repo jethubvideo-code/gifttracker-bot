@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-09T10:52:39.338Z",
- "updated_unix": 1794221559,
- "runs": 15695,
+ "updated": "2026-11-09T11:09:32.782Z",
+ "updated_unix": 1794222572,
+ "runs": 15696,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122239,
- "sent_total": 4416797,
+ "detected_total": 122242,
+ "sent_total": 4416910,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78476,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78476,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:08.844Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78477,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78477,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:08.844Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78478,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78478,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:08.844Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:52:35.083Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:52:35.083Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270124,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270124,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:08:32.851Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270125,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270125,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:08:32.851Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270126,
+   "owner": "",
+   "owner_addr": "0:51840909d9293390c39b1f596aa45e4d489099e1da68e75f3b9763d76427d555",
+   "mint": 1794221567,
+   "counter_issued": 270126,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:08:32.851Z",
    "t": 1
   }
  ]
