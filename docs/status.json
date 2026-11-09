@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T17:52:08.554Z",
- "updated_unix": 1794246728,
- "runs": 15739,
+ "updated": "2026-11-09T17:53:03.715Z",
+ "updated_unix": 1794246783,
+ "runs": 15740,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122827,
- "sent_total": 4458608,
+ "detected_total": 122828,
+ "sent_total": 4458681,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229166,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229166,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:52:01.469Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:52:01.469Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108757,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108757,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T17:52:59.233Z",
    "t": 1
   }
  ]
