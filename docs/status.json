@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T07:36:47.500Z",
- "updated_unix": 1794209807,
- "runs": 15675,
+ "updated": "2026-11-09T07:41:46.940Z",
+ "updated_unix": 1794210106,
+ "runs": 15676,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122150,
- "sent_total": 4410068,
+ "detected_total": 122151,
+ "sent_total": 4410144,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35991,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35991,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CWYIVfz63aWW15B004YdfrC5Djp8CZ6AGGb5nNAXGGW_gGDL-JyFJvLncWuL54xQerSpyOGW7p8BjuYknCsnW9H85U0uyUFPWXqJsBXXjh0buCTyGEPavYgLcNxqIgt8djqzblUGtSScPhttFGNi3d0SRbxv2dIDbqlytrjqQBghXq4pT3aOtHg6ixqyULVaDtx4kFoVe7Y-G6gLxCNVIQzZH73z8sMS6eJF9JwH5TXIBCwtHquReqjRaxK6onG6hEM_ZoTb7G3kKtv8MJQqz2oI1dO_XCZ7UusfuWxGTpFiKlVE1qC5u7Ob5nqwFsKN2TE7lsf3DONn7tQ4XgXM8A.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T07:14:34.713Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T07:36:44.851Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16989,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794170797,
+   "counter_issued": 16989,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T07:41:44.213Z",
    "t": 1
   }
  ]
