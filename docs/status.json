@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T17:45:56.522Z",
- "updated_unix": 1794246356,
- "runs": 15735,
+ "updated": "2026-11-09T17:46:59.725Z",
+ "updated_unix": 1794246419,
+ "runs": 15736,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122820,
- "sent_total": 4458097,
+ "detected_total": 122821,
+ "sent_total": 4458170,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229159,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229159,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:26:54.840Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "intelligencecup",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:45:54.217Z",
+   "t": 3
+  },
+  {
+   "slug": "GenieLamp",
+   "gift": "Genie Lamp",
+   "number": 6609,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794244542,
+   "counter_issued": 6609,
+   "counter_total": 7666,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T17:46:57.507Z",
    "t": 1
   }
  ]
