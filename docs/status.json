@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T02:19:15.496Z",
- "updated_unix": 1794190755,
- "runs": 15653,
+ "updated": "2026-11-09T02:34:13.295Z",
+ "updated_unix": 1794191653,
+ "runs": 15654,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122022,
- "sent_total": 4400500,
+ "detected_total": 122023,
+ "sent_total": 4400576,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55747,
-   "owner": "",
-   "owner_addr": "0:ccc2a1358a6296478bd6c146b1c130e9a17bb44444a718ff941db0aa79656fd4",
-   "mint": 1794148109,
-   "counter_issued": 55747,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T00:10:40.545Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T01:43:54.441Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T02:19:11.202Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85292,
+   "owner": "littlebrother.ton",
+   "owner_addr": "0:9dac0777422cb8a07fdd87d1557cb5189b24dd3b0c33511c00ff6e78a4b02ecf",
+   "mint": 1794186735,
+   "counter_issued": 85292,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T02:34:11.224Z",
    "t": 1
   }
  ]
