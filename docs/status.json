@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T18:22:32.711Z",
- "updated_unix": 1794248552,
- "runs": 15744,
+ "updated": "2026-11-09T18:29:29.957Z",
+ "updated_unix": 1794248969,
+ "runs": 15745,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122834,
- "sent_total": 4459056,
+ "detected_total": 122835,
+ "sent_total": 4459129,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443719,
-   "owner": "",
-   "owner_addr": "0:b14a5bd846d8f35933fe6d69aa97fec03ef043d73bc8b217232a4a4d2f7fcfb2",
-   "mint": 1794240929,
-   "counter_issued": 443719,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:35:23.561Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T18:22:22.526Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T18:22:29.661Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "SwagBag",
+   "number": 232366,
+   "owner": "",
+   "owner_addr": "0:512afc57d5f7f1b835d0034a553d60e30d2562e732c92227cd11b520d7a5af07",
+   "mint": 1794248502,
+   "counter_issued": 232366,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T18:29:27.245Z",
    "t": 1
   }
  ]
