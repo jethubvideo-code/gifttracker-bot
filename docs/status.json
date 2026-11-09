@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T07:01:41.882Z",
- "updated_unix": 1794207701,
- "runs": 15669,
+ "updated": "2026-11-09T07:06:39.912Z",
+ "updated_unix": 1794207999,
+ "runs": 15670,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122144,
- "sent_total": 4409612,
+ "detected_total": 122145,
+ "sent_total": 4409688,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35985,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35985,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CWYIVfz63aWW15B004YdfrC5Djp8CZ6AGGb5nNAXGGW_gGDL-JyFJvLncWuL54xQerSpyOGW7p8BjuYknCsnW9H85U0uyUFPWXqJsBXXjh0buCTyGEPavYgLcNxqIgt8djqzblUGtSScPhttFGNi3d0SRbxv2dIDbqlytrjqQBghXq4pT3aOtHg6ixqyULVaDtx4kFoVe7Y-G6gLxCNVIQzZH73z8sMS6eJF9JwH5TXIBCwtHquReqjRaxK6onG6hEM_ZoTb7G3kKtv8MJQqz2oI1dO_XCZ7UusfuWxGTpFiKlVE1qC5u7Ob5nqwFsKN2TE7lsf3DONn7tQ4XgXM8A.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:42:13.876Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:42:13.876Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:42:25.452Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T07:01:30.379Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T07:01:38.342Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232364,
+   "owner": "",
+   "owner_addr": "0:db00554d70cf4fc973a6c0f13fe0578e457c00bc13eed1d879b106e590a5ac82",
+   "mint": 1794204063,
+   "counter_issued": 232364,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T07:06:36.867Z",
    "t": 1
   }
  ]
