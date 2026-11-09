@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T10:50:33.560Z",
- "updated_unix": 1794221433,
- "runs": 15693,
+ "updated": "2026-11-09T10:51:33.162Z",
+ "updated_unix": 1794221493,
+ "runs": 15694,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 122236,
- "sent_total": 4416572,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 122237,
+ "sent_total": 4416647,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109232,
-   "owner": "",
-   "owner_addr": "0:a3469d18ea307ca121d43032f5f306cf251525fd3c54853b72b8174ec6b2114e",
-   "mint": 1794218951,
-   "counter_issued": 109232,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:16:58.026Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:50:30.870Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90701,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90701,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T10:51:31.138Z",
    "t": 1
   }
  ]
