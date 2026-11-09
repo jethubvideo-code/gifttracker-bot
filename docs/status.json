@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T22:28:25.180Z",
- "updated_unix": 1794263305,
- "runs": 15769,
+ "updated": "2026-11-09T23:12:49.526Z",
+ "updated_unix": 1794265969,
+ "runs": 15770,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123113,
- "sent_total": 4479263,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 123115,
+ "sent_total": 4479409,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53566,
-   "owner": "",
-   "owner_addr": "0:155557de3a9fa3908d427b64034603c2f7517f4e0893bf4c204c723140b81103",
-   "mint": 1794180097,
-   "counter_issued": 53566,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53567,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794196340,
-   "counter_issued": 53567,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T22:02:01.994Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T22:28:22.593Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33053,
+   "owner": "",
+   "owner_addr": "0:6d7c24e5f621e28d7d6dd812a023b621c035729ba1ed2f804d162b28dbc3affd",
+   "mint": 1794262701,
+   "counter_issued": 33053,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:12:43.557Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33054,
+   "owner": "",
+   "owner_addr": "0:eda28d63141e0b59fe404ad042f98867717eca1e7cf5c72ef8e8cf64ba811449",
+   "mint": 1794263994,
+   "counter_issued": 33054,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:12:43.557Z",
    "t": 1
   }
  ]
