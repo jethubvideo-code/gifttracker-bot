@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T20:45:36.796Z",
- "updated_unix": 1794257136,
- "runs": 15762,
+ "updated": "2026-11-09T21:17:57.677Z",
+ "updated_unix": 1794259077,
+ "runs": 15763,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123068,
- "sent_total": 4476073,
+ "detected_total": 123070,
+ "sent_total": 4476219,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201270,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201270,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T20:27:49.279Z",
-   "t": 3
-  },
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201271,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201271,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T20:27:49.279Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T20:45:28.365Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T20:45:28.365Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T20:45:28.365Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108759,
+   "owner": "",
+   "owner_addr": "0:370e6cc0e10532b9537fcf1f0f8cbe6f5fb790e84ce34eb09e6d5a9b29259838",
+   "mint": 1794258184,
+   "counter_issued": 108759,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T21:17:52.007Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108760,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794258308,
+   "counter_issued": 108760,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T21:17:52.007Z",
    "t": 1
   }
  ]
