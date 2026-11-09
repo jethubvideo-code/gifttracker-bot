@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T17:55:01.229Z",
- "updated_unix": 1794246901,
- "runs": 15741,
+ "updated": "2026-11-09T17:59:28.086Z",
+ "updated_unix": 1794247168,
+ "runs": 15742,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 122829,
- "sent_total": 4458754,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 122830,
+ "sent_total": 4458764,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229168,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229168,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:54:59.298Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270156,
+   "owner": "",
+   "owner_addr": "0:ce728d03c9401b5a96b7753738e26249ba51a32f80a6da46a24867624e96e672",
+   "mint": 1794246614,
+   "counter_issued": 270156,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T17:59:01.763Z",
    "t": 1
   }
  ]
