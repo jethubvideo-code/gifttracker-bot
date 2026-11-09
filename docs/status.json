@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T23:16:51.304Z",
- "updated_unix": 1794266211,
- "runs": 15771,
+ "updated": "2026-11-09T23:17:46.718Z",
+ "updated_unix": 1794266266,
+ "runs": 15772,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 123117,
- "sent_total": 4479555,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 123118,
+ "sent_total": 4479628,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53570,
-   "owner": "",
-   "owner_addr": "0:4cfcb55e4bc9f818ac721b4e70145fc12f446555df8562939771cac1358c03f6",
-   "mint": 1794213813,
-   "counter_issued": 53570,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:16:45.562Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:16:45.562Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134378,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134378,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:17:44.177Z",
    "t": 1
   }
  ]
