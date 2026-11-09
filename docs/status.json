@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T15:04:45.775Z",
- "updated_unix": 1794236685,
- "runs": 15717,
+ "updated": "2026-11-09T15:06:45.845Z",
+ "updated_unix": 1794236805,
+ "runs": 15718,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 122547,
- "sent_total": 4438262,
+ "detected_total": 122549,
+ "sent_total": 4438410,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54690,
-   "owner": "",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1794167846,
-   "counter_issued": 54690,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T13:51:04.500Z",
-   "t": 3
-  },
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54691,
-   "owner": "",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1794167938,
-   "counter_issued": 54691,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T13:51:04.500Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T15:04:37.591Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T15:04:42.539Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134354,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134354,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T15:06:37.989Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108754,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108754,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T15:06:43.014Z",
    "t": 1
   }
  ]
