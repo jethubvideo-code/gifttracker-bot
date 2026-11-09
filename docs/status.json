@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T18:58:43.126Z",
- "updated_unix": 1794250723,
- "runs": 15747,
+ "updated": "2026-11-09T19:02:40.501Z",
+ "updated_unix": 1794250960,
+ "runs": 15748,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122839,
- "sent_total": 4459421,
+ "detected_total": 122840,
+ "sent_total": 4459494,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134358,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134358,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:39:21.039Z",
-   "t": 3
-  },
   {
    "slug": "MadPumpkin",
    "gift": "Mad Pumpkin",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T18:58:40.376Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134365,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134365,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T19:02:38.047Z",
    "t": 1
   }
  ]
