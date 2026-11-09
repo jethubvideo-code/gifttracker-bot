@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T06:42:28.785Z",
- "updated_unix": 1794206548,
- "runs": 15668,
+ "updated": "2026-11-09T07:01:41.882Z",
+ "updated_unix": 1794207701,
+ "runs": 15669,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122142,
- "sent_total": 4409460,
+ "detected_total": 122144,
+ "sent_total": 4409612,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35983,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35983,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CWYIVfz63aWW15B004YdfrC5Djp8CZ6AGGb5nNAXGGW_gGDL-JyFJvLncWuL54xQerSpyOGW7p8BjuYknCsnW9H85U0uyUFPWXqJsBXXjh0buCTyGEPavYgLcNxqIgt8djqzblUGtSScPhttFGNi3d0SRbxv2dIDbqlytrjqQBghXq4pT3aOtHg6ixqyULVaDtx4kFoVe7Y-G6gLxCNVIQzZH73z8sMS6eJF9JwH5TXIBCwtHquReqjRaxK6onG6hEM_ZoTb7G3kKtv8MJQqz2oI1dO_XCZ7UusfuWxGTpFiKlVE1qC5u7Ob5nqwFsKN2TE7lsf3DONn7tQ4XgXM8A.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "t": 3
-  },
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35984,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35984,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CWYIVfz63aWW15B004YdfrC5Djp8CZ6AGGb5nNAXGGW_gGDL-JyFJvLncWuL54xQerSpyOGW7p8BjuYknCsnW9H85U0uyUFPWXqJsBXXjh0buCTyGEPavYgLcNxqIgt8djqzblUGtSScPhttFGNi3d0SRbxv2dIDbqlytrjqQBghXq4pT3aOtHg6ixqyULVaDtx4kFoVe7Y-G6gLxCNVIQzZH73z8sMS6eJF9JwH5TXIBCwtHquReqjRaxK6onG6hEM_ZoTb7G3kKtv8MJQqz2oI1dO_XCZ7UusfuWxGTpFiKlVE1qC5u7Ob5nqwFsKN2TE7lsf3DONn7tQ4XgXM8A.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:42:13.876Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:42:13.876Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T06:42:25.452Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391452,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391452,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T07:01:30.379Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443692,
+   "owner": "",
+   "owner_addr": "0:1e6c2d1492ea1edb8e8322a83b7929f11db42197acfb0788c2a0759435513a98",
+   "mint": 1794207645,
+   "counter_issued": 443692,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T07:01:38.342Z",
    "t": 1
   }
  ]
