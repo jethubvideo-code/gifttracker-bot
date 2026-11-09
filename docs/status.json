@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T14:58:44.990Z",
- "updated_unix": 1794236324,
- "runs": 15715,
+ "updated": "2026-11-09T15:00:41.355Z",
+ "updated_unix": 1794236441,
+ "runs": 15716,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 122544,
- "sent_total": 4438041,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 122545,
+ "sent_total": 4438114,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54687,
-   "owner": "",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1794167445,
-   "counter_issued": 54687,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T13:51:04.500Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T14:58:33.518Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwissWatch",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T14:58:41.505Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134352,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134352,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T15:00:37.491Z",
    "t": 1
   }
  ]
