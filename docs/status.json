@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T23:12:49.526Z",
- "updated_unix": 1794265969,
- "runs": 15770,
+ "updated": "2026-11-09T23:16:51.304Z",
+ "updated_unix": 1794266211,
+ "runs": 15771,
  "collections": 123,
- "checked": 1,
- "errors": 122,
- "detected_total": 123115,
- "sent_total": 4479409,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123117,
+ "sent_total": 4479555,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53568,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794196604,
-   "counter_issued": 53568,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53569,
-   "owner": "",
-   "owner_addr": "0:f59af45b59471a0c081a11311e9898e8349e1d4982630b82f34f634a59efc0c9",
-   "mint": 1794213326,
-   "counter_issued": 53569,
-   "counter_total": 66580,
-   "img": "https://cdn4.telesco.pe/file/d1mGvqdtiUotk_TfK27Zi272Epq-zVaWyOVCrVw5Fwwi42ECZsqEEEIgq-WqVUsgUIuxJoaLN_TMK1kFYoZtxpeZDIeSqAs4EP3TwuibItwXVbzad3BoPeSO7XvDWYEb9f9EefioREANAMA9nFK_5JknaS1YjB4b0Tow1ITVSc5WosOQfZxZvScFiBFVZZFw9OW9Dv8zn2sL7-mYDettS7mLkpUB0IuvhKMbQj4zOQW3IujNz_GnnIBX_4tOGBVHbMO7qHrxmd24h7MkDwfLEPOpvwtVaG-qFefJ-YD1XlMC0MiylL71PYchkHsbQpfa6ZfN1EouWWf-rHr7g9Br6Q.jpg",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "u": 1
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:12:43.557Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:12:43.557Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443730,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443730,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:16:45.562Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443731,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794265765,
+   "counter_issued": 443731,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:16:45.562Z",
    "t": 1
   }
  ]
