@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T04:20:45.200Z",
- "updated_unix": 1794198045,
- "runs": 15660,
+ "updated": "2026-11-09T05:16:19.007Z",
+ "updated_unix": 1794201379,
+ "runs": 15661,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122069,
- "sent_total": 4404008,
+ "detected_total": 122071,
+ "sent_total": 4404096,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78468,
-   "owner": "",
-   "owner_addr": "0:7120ee9a32e34432b1b3f80c90161068f972d4238c65fa772c057d10dc408c7a",
-   "mint": 1794176152,
-   "counter_issued": 78468,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T04:06:25.238Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78469,
-   "owner": "",
-   "owner_addr": "0:f3a7ea2009344c4e0385efef168c085dd4da29709cda4753c7f7f7523f8ae850",
-   "mint": 1794176777,
-   "counter_issued": 78469,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T04:06:25.238Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T04:20:13.320Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443691,
+   "owner": "",
+   "owner_addr": "0:4de6a7950cb52b747ab526835b6aed35076ceedbf5b5335202f97d13648b9d2b",
+   "mint": 1794200256,
+   "counter_issued": 443691,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T05:15:38.563Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270094,
+   "owner": "",
+   "owner_addr": "0:e3940a9a96a744f08c5b583074d391ce67d25559a6e22203771b58becf413311",
+   "mint": 1794199959,
+   "counter_issued": 270094,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T05:15:45.975Z",
    "t": 1
   }
  ]
