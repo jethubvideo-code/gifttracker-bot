@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T23:19:49.212Z",
- "updated_unix": 1794266389,
- "runs": 15774,
+ "updated": "2026-11-09T23:43:01.194Z",
+ "updated_unix": 1794267781,
+ "runs": 15775,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 123120,
- "sent_total": 4479774,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 123121,
+ "sent_total": 4479847,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53573,
-   "owner": "",
-   "owner_addr": "0:51ad48fb31d146dae8580fdc2e94c245719c166045aa7c9430ada93692ef1c02",
-   "mint": 1794253236,
-   "counter_issued": 53573,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:19:46.960Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16990,
+   "owner": "youknowbatman.ton",
+   "owner_addr": "0:16bdb4bccfc56f2ce67097fb53c34733367056b338530e7b185ae9a8550a9648",
+   "mint": 1794262105,
+   "counter_issued": 16990,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:42:59.115Z",
    "t": 1
   }
  ]
