@@ -1,97 +1,13 @@
 {
- "updated": "2026-11-09T11:11:58.073Z",
- "updated_unix": 1794222718,
- "runs": 15697,
+ "updated": "2026-11-09T11:44:19.707Z",
+ "updated_unix": 1794224659,
+ "runs": 15698,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 122244,
- "sent_total": 4417060,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 122250,
+ "sent_total": 4417510,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74135,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794171875,
-   "counter_issued": 74135,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:36.770Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74136,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794172609,
-   "counter_issued": 74136,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:36.770Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74137,
-   "owner": "",
-   "owner_addr": "0:0eeedd3431491f7548bca12fb8727d93c7af980347282519def0df10cead5325",
-   "mint": 1794181731,
-   "counter_issued": 74137,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:36.770Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74138,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794196481,
-   "counter_issued": 74138,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:36.770Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74139,
-   "owner": "",
-   "owner_addr": "0:2e55637297256b33394a767bacbcd47c198a7cfe5e6aecde0c206eeac34ec53e",
-   "mint": 1794201975,
-   "counter_issued": 74139,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:36.770Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74140,
-   "owner": "",
-   "owner_addr": "0:ba1a3627e992e4dce57a94d934e8a8262eba0da419f92424dc4f6f06032040c9",
-   "mint": 1794204478,
-   "counter_issued": 74140,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:17:36.770Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -370,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T11:08:32.851Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T11:08:32.851Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T11:08:32.851Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T11:11:50.071Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +342,90 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T11:11:50.071Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391468,
+   "owner": "",
+   "owner_addr": "0:fcc76d1f5a32a21ece0d28b5d84e2b0d52c225e752b1d13f1a6de7e70781af91",
+   "mint": 1794223572,
+   "counter_issued": 391468,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:43:50.672Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443706,
+   "owner": "",
+   "owner_addr": "0:59e513e1b7edc2fa718aa79934a694a7965b69a84e99070697e75b5f1abffd58",
+   "mint": 1794223361,
+   "counter_issued": 443706,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:43:59.454Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443707,
+   "owner": "",
+   "owner_addr": "0:a36ca2d4a5be32c0e0822fab3c81cefb16ba584308f52647ddc847a5719333e4",
+   "mint": 1794223531,
+   "counter_issued": 443707,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:43:59.454Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90702,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90702,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:44:08.480Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90703,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90703,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:44:08.480Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90704,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90704,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T11:44:08.480Z",
    "t": 1
   }
  ]
