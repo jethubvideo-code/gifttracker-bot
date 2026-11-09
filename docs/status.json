@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T07:07:40.041Z",
- "updated_unix": 1794208060,
- "runs": 15671,
+ "updated": "2026-11-09T07:09:37.080Z",
+ "updated_unix": 1794208177,
+ "runs": 15672,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 122146,
- "sent_total": 4409764,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 122147,
+ "sent_total": 4409840,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35987,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35987,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CWYIVfz63aWW15B004YdfrC5Djp8CZ6AGGb5nNAXGGW_gGDL-JyFJvLncWuL54xQerSpyOGW7p8BjuYknCsnW9H85U0uyUFPWXqJsBXXjh0buCTyGEPavYgLcNxqIgt8djqzblUGtSScPhttFGNi3d0SRbxv2dIDbqlytrjqQBghXq4pT3aOtHg6ixqyULVaDtx4kFoVe7Y-G6gLxCNVIQzZH73z8sMS6eJF9JwH5TXIBCwtHquReqjRaxK6onG6hEM_ZoTb7G3kKtv8MJQqz2oI1dO_XCZ7UusfuWxGTpFiKlVE1qC5u7Ob5nqwFsKN2TE7lsf3DONn7tQ4XgXM8A.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T07:07:37.108Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134339,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134339,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T07:09:34.289Z",
    "t": 1
   }
  ]
