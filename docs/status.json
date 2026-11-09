@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T17:49:08.219Z",
- "updated_unix": 1794246548,
- "runs": 15737,
+ "updated": "2026-11-09T17:51:03.771Z",
+ "updated_unix": 1794246663,
+ "runs": 15738,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122824,
- "sent_total": 4458389,
+ "detected_total": 122825,
+ "sent_total": 4458462,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229163,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229163,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:48:59.931Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:48:59.931Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:48:59.931Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391479,
+   "owner": "",
+   "owner_addr": "0:1795ff74261c61c1738bb11b09feec0d9a0f760fa21e95b5bb58af524e2acc8a",
+   "mint": 1794242329,
+   "counter_issued": 391479,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T17:51:01.582Z",
    "t": 1
   }
  ]
