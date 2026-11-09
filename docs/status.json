@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T10:48:39.318Z",
- "updated_unix": 1794221319,
- "runs": 15692,
+ "updated": "2026-11-09T10:50:33.560Z",
+ "updated_unix": 1794221433,
+ "runs": 15693,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122235,
- "sent_total": 4416497,
+ "detected_total": 122236,
+ "sent_total": 4416572,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109231,
-   "owner": "",
-   "owner_addr": "0:d02777915d667bc2f17765d550299aa3cef3caf45a92837cadc7d42e1e0f6c03",
-   "mint": 1794211971,
-   "counter_issued": 109231,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:16:58.026Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:48:29.367Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:48:37.057Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391465,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391465,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T10:50:30.870Z",
    "t": 1
   }
  ]
