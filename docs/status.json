@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T10:35:35.022Z",
- "updated_unix": 1794220535,
- "runs": 15691,
+ "updated": "2026-11-09T10:48:39.318Z",
+ "updated_unix": 1794221319,
+ "runs": 15692,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122233,
- "sent_total": 4416347,
+ "detected_total": 122235,
+ "sent_total": 4416497,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85300,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85300,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:05:53.728Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109230,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109230,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T10:16:58.026Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:35:26.806Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T10:35:32.963Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22091,
+   "owner": "",
+   "owner_addr": "0:b82c2605038e0376d3fa08344879fe2000e483f3aacbc6dd7566c27cef96ed22",
+   "mint": 1794202714,
+   "counter_issued": 22091,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T10:48:29.367Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23137,
+   "owner": "",
+   "owner_addr": "0:6ed284e46bf3415222e0576988307f8d30fc7a78e4e3350bcaacf6060e38a85d",
+   "mint": 1794198252,
+   "counter_issued": 23137,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T10:48:37.057Z",
    "t": 1
   }
  ]
