@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T00:36:33.678Z",
- "updated_unix": 1794184593,
- "runs": 15649,
+ "updated": "2026-11-09T00:42:35.333Z",
+ "updated_unix": 1794184955,
+ "runs": 15650,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122006,
- "sent_total": 4399284,
+ "detected_total": 122008,
+ "sent_total": 4399436,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "RecordPlayer",
-   "number": 35476,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35476,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T00:10:16.037Z",
-   "t": 3
-  },
-  {
-   "slug": "RecordPlayer",
-   "gift": "RecordPlayer",
-   "number": 35477,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35477,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T00:10:16.037Z",
-   "t": 3
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T00:36:14.127Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T00:36:14.127Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T00:36:14.127Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T00:36:14.127Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T00:36:14.127Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T00:36:14.127Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90697,
+   "owner": "",
+   "owner_addr": "0:46f02f096b240d52c22cf66e8d9b9639da685ed4826daa3be5d18e147b854712",
+   "mint": 1794178103,
+   "counter_issued": 90697,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T00:42:28.299Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134334,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134334,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T00:42:32.555Z",
    "t": 1
   }
  ]
