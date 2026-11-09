@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T17:19:54.632Z",
- "updated_unix": 1794244794,
- "runs": 15732,
+ "updated": "2026-11-09T17:23:18.755Z",
+ "updated_unix": 1794244998,
+ "runs": 15733,
  "collections": 123,
- "checked": 1,
- "errors": 122,
- "detected_total": 122817,
- "sent_total": 4457941,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 122818,
+ "sent_total": 4457951,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229156,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229156,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:19:42.945Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:19:42.945Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:19:42.945Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:19:42.945Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:19:42.945Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270155,
+   "owner": "kayzennnnnn.ton",
+   "owner_addr": "0:e4d242805646084859c10eba13ccad41c8ebb4aaa2e77a70c7f218f8d5ac2e0c",
+   "mint": 1794244803,
+   "counter_issued": 270155,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T17:22:51.202Z",
    "t": 1
   }
  ]
