@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T22:00:07.106Z",
- "updated_unix": 1794261607,
- "runs": 15767,
+ "updated": "2026-11-09T22:02:04.423Z",
+ "updated_unix": 1794261724,
+ "runs": 15768,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123111,
- "sent_total": 4479117,
+ "detected_total": 123112,
+ "sent_total": 4479190,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53564,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794172505,
-   "counter_issued": 53564,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T22:00:04.592Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "MadPumpkin",
+   "number": 19824,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 19824,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T22:02:01.994Z",
    "t": 1
   }
  ]
