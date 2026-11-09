@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T17:26:57.458Z",
- "updated_unix": 1794245217,
- "runs": 15734,
+ "updated": "2026-11-09T17:45:56.522Z",
+ "updated_unix": 1794246356,
+ "runs": 15735,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122819,
- "sent_total": 4458024,
+ "detected_total": 122820,
+ "sent_total": 4458097,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229158,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229158,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T17:26:54.840Z",
+   "t": 2
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 144,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 144,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T17:45:54.217Z",
    "t": 1
   }
  ]
