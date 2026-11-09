@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T19:31:54.583Z",
- "updated_unix": 1794252714,
- "runs": 15753,
+ "updated": "2026-11-09T19:32:56.379Z",
+ "updated_unix": 1794252776,
+ "runs": 15754,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122846,
- "sent_total": 4459932,
+ "detected_total": 122847,
+ "sent_total": 4460004,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74807,
-   "owner": "",
-   "owner_addr": "0:71d352fb90cc7c7220046a50c3c8047e4c91cee2834fc48eec0e3a47cb2bd695",
-   "mint": 1794226026,
-   "counter_issued": 74807,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T17:19:42.945Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T19:14:38.022Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T19:31:52.079Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19823,
+   "owner": "",
+   "owner_addr": "0:6f7810c8f41d9debb59de4953cf4db0f30ec016d576b19623659a69ded852317",
+   "mint": 1794244247,
+   "counter_issued": 19823,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T19:32:54.271Z",
    "t": 1
   }
  ]
