@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T16:00:20.847Z",
- "updated_unix": 1794240020,
- "runs": 15723,
+ "updated": "2026-11-09T16:02:34.450Z",
+ "updated_unix": 1794240154,
+ "runs": 15724,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122561,
- "sent_total": 4439290,
+ "detected_total": 122562,
+ "sent_total": 4439331,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443711,
-   "owner": "",
-   "owner_addr": "0:5553d7e21b01bbf3206386283ed5c2ca25b29709c5ccae040d998ef5ac689475",
-   "mint": 1794226829,
-   "counter_issued": 443711,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T13:57:30.113Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T15:43:51.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T15:43:51.525Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T15:43:59.678Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:00:00.680Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:00:08.887Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:00:15.320Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:00:15.320Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270154,
+   "owner": "",
+   "owner_addr": "0:ed15a00dd18cc334c11ee7020badcaa967898cd74030db6045ea30aa4c968ec0",
+   "mint": 1794239234,
+   "counter_issued": 270154,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T16:02:14.375Z",
    "t": 1
   }
  ]
