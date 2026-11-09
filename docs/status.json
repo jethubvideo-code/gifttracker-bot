@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T20:07:14.915Z",
- "updated_unix": 1794254834,
- "runs": 15755,
+ "updated": "2026-11-09T20:14:15.712Z",
+ "updated_unix": 1794255255,
+ "runs": 15756,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122848,
- "sent_total": 4460077,
+ "detected_total": 122849,
+ "sent_total": 4460150,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134359,
-   "owner": "wweikun.t.me",
-   "owner_addr": "0:c84b37bbfa8e2ba2c070c0dc4cfae8b7b02e2b38f43102a69661926ca1b106c4",
-   "mint": 1794245169,
-   "counter_issued": 134359,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T17:26:54.840Z",
-   "t": 3
-  },
   {
    "slug": "intelligencecup",
    "gift": "intelligencecup",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T19:32:54.271Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T20:07:12.542Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164126,
+   "owner": "dictatorcrypto-gram.ton",
+   "owner_addr": "0:0ea607b8442662434ee0e2c35e479a9f0688a5b500e0c21e74a568da9811466d",
+   "mint": 1794252588,
+   "counter_issued": 164126,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T20:14:13.660Z",
    "t": 1
   }
  ]
