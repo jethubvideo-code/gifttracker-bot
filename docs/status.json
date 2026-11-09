@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-09T14:52:33.846Z",
- "updated_unix": 1794235953,
- "runs": 15714,
+ "updated": "2026-11-09T14:58:44.990Z",
+ "updated_unix": 1794236324,
+ "runs": 15715,
  "collections": 123,
  "checked": 29,
  "errors": 94,
- "detected_total": 122542,
- "sent_total": 4437893,
+ "detected_total": 122544,
+ "sent_total": 4438041,
  "last_upgrades": [
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54685,
-   "owner": "",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1794167155,
-   "counter_issued": 54685,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T13:51:04.500Z",
-   "t": 3
-  },
-  {
-   "slug": "BunnyMuffin",
-   "gift": "Bunny Muffin",
-   "number": 54686,
-   "owner": "",
-   "owner_addr": "0:6ae1ee1e38eef33b2c428fe5cabba70360c166108f2712a38000fb663ef14159",
-   "mint": 1794167438,
-   "counter_issued": 54686,
-   "counter_total": 66655,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T13:51:04.500Z",
-   "t": 3
-  },
   {
    "slug": "BunnyMuffin",
    "gift": "Bunny Muffin",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T14:52:30.480Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391473,
+   "owner": "",
+   "owner_addr": "0:1c0350c8b0b05e8d9c57bdcf3219037476110670a22f6766c1aa4b4ce6ad6bb7",
+   "mint": 1794235485,
+   "counter_issued": 391473,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T14:58:33.518Z",
+   "t": 1
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26115,
+   "owner": "",
+   "owner_addr": "0:30e695ba17f5529248e11b44b5a9079f992f090aedfc30438f4190f11c08cd89",
+   "mint": 1794232222,
+   "counter_issued": 26115,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T14:58:41.505Z",
    "t": 1
   }
  ]
