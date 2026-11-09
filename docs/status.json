@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T23:18:49.067Z",
- "updated_unix": 1794266329,
- "runs": 15773,
+ "updated": "2026-11-09T23:19:49.212Z",
+ "updated_unix": 1794266389,
+ "runs": 15774,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 123119,
- "sent_total": 4479701,
+ "detected_total": 123120,
+ "sent_total": 4479774,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53572,
-   "owner": "",
-   "owner_addr": "0:ebaedc2e359716826a0e5e62674e886a7e61d4709bcded8848da9cb2377eda18",
-   "mint": 1794247854,
-   "counter_issued": 53572,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:18:46.682Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108761,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794263102,
+   "counter_issued": 108761,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:19:46.960Z",
    "t": 1
   }
  ]
