@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T19:14:41.854Z",
- "updated_unix": 1794251681,
- "runs": 15752,
+ "updated": "2026-11-09T19:31:54.583Z",
+ "updated_unix": 1794252714,
+ "runs": 15753,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122845,
- "sent_total": 4459859,
+ "detected_total": 122846,
+ "sent_total": 4459932,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "EvilEye",
-   "number": 74806,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74806,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T17:19:42.945Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T19:14:38.022Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134368,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134368,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T19:31:52.079Z",
    "t": 1
   }
  ]
