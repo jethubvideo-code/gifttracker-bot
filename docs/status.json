@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T05:51:11.433Z",
- "updated_unix": 1794203471,
- "runs": 15664,
+ "updated": "2026-11-09T05:53:09.761Z",
+ "updated_unix": 1794203589,
+ "runs": 15665,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122134,
- "sent_total": 4408852,
+ "detected_total": 122135,
+ "sent_total": 4408928,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 35975,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35975,
-   "counter_total": 66022,
-   "img": "https://cdn4.telesco.pe/file/CWYIVfz63aWW15B004YdfrC5Djp8CZ6AGGb5nNAXGGW_gGDL-JyFJvLncWuL54xQerSpyOGW7p8BjuYknCsnW9H85U0uyUFPWXqJsBXXjh0buCTyGEPavYgLcNxqIgt8djqzblUGtSScPhttFGNi3d0SRbxv2dIDbqlytrjqQBghXq4pT3aOtHg6ixqyULVaDtx4kFoVe7Y-G6gLxCNVIQzZH73z8sMS6eJF9JwH5TXIBCwtHquReqjRaxK6onG6hEM_ZoTb7G3kKtv8MJQqz2oI1dO_XCZ7UusfuWxGTpFiKlVE1qC5u7Ob5nqwFsKN2TE7lsf3DONn7tQ4XgXM8A.jpg",
-   "sent": 0,
-   "time": "2026-11-09T05:21:59.441Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T05:32:15.072Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T05:32:15.072Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T05:50:53.979Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391449,
+   "owner": "aawaaakkcrypto.ton",
+   "owner_addr": "0:2e55637297256b33394a767bacbcd47c198a7cfe5e6aecde0c206eeac34ec53e",
+   "mint": 1794201933,
+   "counter_issued": 391449,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T05:53:04.476Z",
    "t": 1
   }
  ]
