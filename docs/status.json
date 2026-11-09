@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T23:17:46.718Z",
- "updated_unix": 1794266266,
- "runs": 15772,
+ "updated": "2026-11-09T23:18:49.067Z",
+ "updated_unix": 1794266329,
+ "runs": 15773,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123118,
- "sent_total": 4479628,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123119,
+ "sent_total": 4479701,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53571,
-   "owner": "",
-   "owner_addr": "0:ae608bff235d447a3de40a24bc7b73fe70b196d291c8ccec1cd3b235c16833a3",
-   "mint": 1794223870,
-   "counter_issued": 53571,
-   "counter_total": 66580,
-   "img": "https://cdn4.telesco.pe/file/kybb8rdod8H2RwNz933bAhBJTNW3H2FvhTO9kIsxXhh6-moj75QUd4wa0Tr0jDSRPSPNprrmgkdV02vVODr6BNsw1Qf7MnoEwqNIrgkbSDhXIiDY1coyMHoBhJMMQH_mRW1ebZ9NjvUdfD8s7pPl7WV9CCC9L4KXvJiZXCnK9QSq3f7pWn9Wl8QhghPOIVnW7qEncUYldP-EUyxcXxirOo6TxBk-kVgE45jS4BzX5I7Lt0u7E3slZnws95wgsfbFNm0LznHTqtN85ijKbcoScGWe4W2ijGdnUVl2SV47dj4H3XPMi8NkzeetCtzj7IEKQe946CxeVsJ6zydJ2qlNmQ.jpg",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "u": 1
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:17:44.177Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391487,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794265733,
+   "counter_issued": 391487,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T23:18:46.682Z",
    "t": 1
   }
  ]
