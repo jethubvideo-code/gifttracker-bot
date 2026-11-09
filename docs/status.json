@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T16:39:27.674Z",
- "updated_unix": 1794242367,
- "runs": 15729,
+ "updated": "2026-11-09T16:46:26.722Z",
+ "updated_unix": 1794242786,
+ "runs": 15730,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 122810,
- "sent_total": 4457432,
+ "detected_total": 122811,
+ "sent_total": 4457504,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229149,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229149,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T16:22:02.218Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:39:21.039Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:39:21.039Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T16:39:21.039Z",
+   "t": 3
+  },
+  {
+   "slug": "MadPumpkin",
+   "gift": "Mad Pumpkin",
+   "number": 19822,
+   "owner": "",
+   "owner_addr": "0:d01fe1d77a415d63344b7b92f2b08f6e2a2d7fdec0ecdceb8cdfaefea62c746e",
+   "mint": 1794181927,
+   "counter_issued": 19822,
+   "counter_total": 22199,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-09T16:46:24.337Z",
    "t": 1
   }
  ]
