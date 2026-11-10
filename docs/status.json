@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T08:06:34.474Z",
- "updated_unix": 1794297994,
- "runs": 15808,
+ "updated": "2026-11-10T08:09:31.238Z",
+ "updated_unix": 1794298171,
+ "runs": 15809,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123243,
- "sent_total": 4488563,
+ "detected_total": 123244,
+ "sent_total": 4488636,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78487,
-   "owner": "",
-   "owner_addr": "0:a97b46b624805d1b2a6d49f5fc924f3a037785f010739de301a43f0ec2370aa3",
-   "mint": 1794271416,
-   "counter_issued": 78487,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T06:58:59.547Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T08:06:24.381Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T08:06:24.381Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T08:06:24.381Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90713,
+   "owner": "megumi.ton",
+   "owner_addr": "0:e2c7bcedb64bbd39fd83d566b22269deeaeefd93c51a7029d850312fc6fd74a8",
+   "mint": 1794289789,
+   "counter_issued": 90713,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T08:09:28.516Z",
    "t": 1
   }
  ]
