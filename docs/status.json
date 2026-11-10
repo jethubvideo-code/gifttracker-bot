@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T16:21:26.143Z",
- "updated_unix": 1794327686,
- "runs": 15865,
+ "updated": "2026-11-10T16:22:25.584Z",
+ "updated_unix": 1794327745,
+ "runs": 15866,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123884,
- "sent_total": 4533122,
+ "detected_total": 123885,
+ "sent_total": 4533195,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84572,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84572,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T15:02:40.734Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:21:18.221Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:21:18.221Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90725,
+   "owner": "",
+   "owner_addr": "0:503e30895292691d390c5758c5c4173c2643cc12666cfe42debcf27d0d3ab955",
+   "mint": 1794326733,
+   "counter_issued": 90725,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T16:22:21.928Z",
    "t": 1
   }
  ]
