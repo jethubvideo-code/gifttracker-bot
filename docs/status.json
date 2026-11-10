@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T06:56:56.326Z",
- "updated_unix": 1794293816,
- "runs": 15799,
+ "updated": "2026-11-10T06:58:20.410Z",
+ "updated_unix": 1794293900,
+ "runs": 15800,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123208,
- "sent_total": 4486071,
+ "detected_total": 123209,
+ "sent_total": 4486081,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55758,
-   "owner": "",
-   "owner_addr": "0:8e5b4a83d7df96936a03d1cd353e77dc8d94d00c6c98c9270789d44c7048d388",
-   "mint": 1794241467,
-   "counter_issued": 55758,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:56:54.046Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270169,
+   "owner": "",
+   "owner_addr": "0:b46dcc16e4d196f0ed112a761ad317d954026e00da632dab36fec69466a7bc38",
+   "mint": 1794293676,
+   "counter_issued": 270169,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:57:54.258Z",
    "t": 1
   }
  ]
