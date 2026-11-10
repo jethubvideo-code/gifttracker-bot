@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T06:42:59.333Z",
- "updated_unix": 1794292979,
- "runs": 15795,
+ "updated": "2026-11-10T06:47:01.057Z",
+ "updated_unix": 1794293221,
+ "runs": 15796,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123202,
- "sent_total": 4485633,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123204,
+ "sent_total": 4485779,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55752,
-   "owner": "",
-   "owner_addr": "0:3cefef47e757721db17d87ecdcbb5dd2e88e3f44f52168d0ef8053da6d8cd371",
-   "mint": 1794194543,
-   "counter_issued": 55752,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55753,
-   "owner": "",
-   "owner_addr": "0:13e1480b02505548019ca8b2709e3e6ff5bc7031c9f22d78c0dbdd9c2b630058",
-   "mint": 1794203864,
-   "counter_issued": 55753,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:08:22.302Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:08:53.081Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:42:35.603Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:42:43.033Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:42:43.033Z",
+   "t": 2
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232367,
+   "owner": "",
+   "owner_addr": "0:a33e11f21cd8596cba9d68602632eaf7083660d5d4d536891e5f9d98cc54a3f6",
+   "mint": 1794284339,
+   "counter_issued": 232367,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:46:55.142Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232368,
+   "owner": "",
+   "owner_addr": "0:96b2466e9cc9cb7783c816bb0ea4a663355809e0e7e96e93b1b4df74f7f307fc",
+   "mint": 1794284975,
+   "counter_issued": 232368,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:46:55.142Z",
    "t": 1
   }
  ]
