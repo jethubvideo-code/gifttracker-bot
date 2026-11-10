@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T08:09:31.238Z",
- "updated_unix": 1794298171,
- "runs": 15809,
+ "updated": "2026-11-10T08:12:55.140Z",
+ "updated_unix": 1794298375,
+ "runs": 15810,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123244,
- "sent_total": 4488636,
+ "detected_total": 123245,
+ "sent_total": 4488646,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78488,
-   "owner": "cavoidant.t.me",
-   "owner_addr": "0:3971c09fd802894b250b22f1fec51acd40a86ab72c6afe78b8f2ffd3a75e4730",
-   "mint": 1794274573,
-   "counter_issued": 78488,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T06:58:59.547Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T08:09:28.516Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270170,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1794297151,
+   "counter_issued": 270170,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T08:12:28.449Z",
    "t": 1
   }
  ]
