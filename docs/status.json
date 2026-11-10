@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T20:18:34.850Z",
- "updated_unix": 1794341914,
- "runs": 15898,
+ "updated": "2026-11-10T20:21:29.340Z",
+ "updated_unix": 1794342089,
+ "runs": 15899,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123943,
- "sent_total": 4537177,
+ "detected_total": 123944,
+ "sent_total": 4537250,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270235,
-   "owner": "",
-   "owner_addr": "0:84f993866b1f488f4a177f81837dae86656d7cd8a15eadb3b8409c4626003071",
-   "mint": 1794334133,
-   "counter_issued": 270235,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T18:11:34.348Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T20:18:23.589Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T20:18:31.556Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108774,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108774,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T20:21:26.443Z",
    "t": 1
   }
  ]
