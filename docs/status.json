@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T06:07:28.104Z",
- "updated_unix": 1794290848,
- "runs": 15793,
+ "updated": "2026-11-10T06:08:55.434Z",
+ "updated_unix": 1794290935,
+ "runs": 15794,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123197,
- "sent_total": 4485332,
+ "detected_total": 123199,
+ "sent_total": 4485430,
  "last_upgrades": [
-  {
-   "slug": "CupidCharm",
-   "gift": "Cupid Charm",
-   "number": 30431,
-   "owner": "",
-   "owner_addr": "0:19733724593e157c2c8a8fdf4d8d3f63fc1446d4b80f76094191ed395f52d866",
-   "mint": 1794177805,
-   "counter_issued": 30431,
-   "counter_total": 33112,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:09.558Z",
-   "t": 3
-  },
-  {
-   "slug": "CupidCharm",
-   "gift": "Cupid Charm",
-   "number": 30432,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794226978,
-   "counter_issued": 30432,
-   "counter_total": 33112,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:09.558Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "SnowGlobe",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T05:14:45.523Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:07:21.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:07:21.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:07:21.244Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270166,
+   "owner": "",
+   "owner_addr": "0:5795a708dee5f0840a4599ad75d32ddb9d5dcbab1df439f68628a2a399f455c4",
+   "mint": 1794286428,
+   "counter_issued": 270166,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:08:22.302Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108763,
+   "owner": "goddeess.t.me",
+   "owner_addr": "0:a33e11f21cd8596cba9d68602632eaf7083660d5d4d536891e5f9d98cc54a3f6",
+   "mint": 1794284413,
+   "counter_issued": 108763,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:08:53.081Z",
    "t": 1
   }
  ]
