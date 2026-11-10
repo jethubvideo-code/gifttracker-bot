@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T18:29:28.196Z",
- "updated_unix": 1794335368,
- "runs": 15883,
+ "updated": "2026-11-10T18:44:23.883Z",
+ "updated_unix": 1794336263,
+ "runs": 15884,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123916,
- "sent_total": 4535269,
+ "detected_total": 123917,
+ "sent_total": 4535342,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134404,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134404,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T16:23:22.114Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T18:11:34.348Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T18:29:19.764Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T18:29:19.764Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "NekoHelmet",
+   "number": 15587,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 15587,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T18:44:20.285Z",
    "t": 1
   }
  ]
