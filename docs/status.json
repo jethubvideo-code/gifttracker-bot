@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T01:27:59.011Z",
- "updated_unix": 1794274079,
- "runs": 15782,
+ "updated": "2026-11-10T01:36:56.879Z",
+ "updated_unix": 1794274616,
+ "runs": 15783,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123155,
- "sent_total": 4482329,
+ "detected_total": 123156,
+ "sent_total": 4482402,
  "last_upgrades": [
-  {
-   "slug": "AstralShard",
-   "gift": "Astral Shard",
-   "number": 5709,
-   "owner": "",
-   "owner_addr": "0:ff6788bccd3544170fb32bb14745918e86b7bd8d555d75cd61307fe95a42f654",
-   "mint": 1794166242,
-   "counter_issued": 5709,
-   "counter_total": 6196,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T00:56:37.944Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T01:27:56.804Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134381,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134381,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T01:36:54.714Z",
    "t": 1
   }
  ]
