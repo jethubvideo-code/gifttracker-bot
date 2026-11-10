@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T07:20:08.416Z",
- "updated_unix": 1794295208,
- "runs": 15803,
+ "updated": "2026-11-10T07:24:09.629Z",
+ "updated_unix": 1794295449,
+ "runs": 15804,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123233,
- "sent_total": 4487833,
+ "detected_total": 123234,
+ "sent_total": 4487906,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232368,
-   "owner": "",
-   "owner_addr": "0:96b2466e9cc9cb7783c816bb0ea4a663355809e0e7e96e93b1b4df74f7f307fc",
-   "mint": 1794284975,
-   "counter_issued": 232368,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T06:46:55.142Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T07:20:04.916Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134385,
+   "owner": "",
+   "owner_addr": "0:b17c4fb81a177db822ae22ff74bea1f94e9a134ec4b2e7f1235a85cbd08f45c6",
+   "mint": 1794294068,
+   "counter_issued": 134385,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T07:24:04.678Z",
    "t": 1
   }
  ]
