@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T09:58:04.032Z",
- "updated_unix": 1794304684,
- "runs": 15822,
+ "updated": "2026-11-10T10:16:21.805Z",
+ "updated_unix": 1794305781,
+ "runs": 15823,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123447,
- "sent_total": 4503391,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123448,
+ "sent_total": 4503463,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142679,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142679,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:58:01.943Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391502,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391502,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T10:16:19.536Z",
    "t": 1
   }
  ]
