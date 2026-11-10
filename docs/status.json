@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T09:39:08.803Z",
- "updated_unix": 1794303548,
- "runs": 15819,
+ "updated": "2026-11-10T09:40:06.534Z",
+ "updated_unix": 1794303606,
+ "runs": 15820,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123444,
- "sent_total": 4503172,
+ "detected_total": 123445,
+ "sent_total": 4503245,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142676,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142676,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:24:25.052Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:39:02.357Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:39:06.597Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22093,
+   "owner": "",
+   "owner_addr": "0:78ecf91f4229d3c81087a05781041189eb7b02401cc5a6d120f0262a700214f1",
+   "mint": 1794248933,
+   "counter_issued": 22093,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:40:04.676Z",
    "t": 1
   }
  ]
