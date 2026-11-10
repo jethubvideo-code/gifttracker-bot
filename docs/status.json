@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T02:35:57.084Z",
- "updated_unix": 1794278157,
- "runs": 15786,
+ "updated": "2026-11-10T02:38:32.988Z",
+ "updated_unix": 1794278312,
+ "runs": 15787,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123162,
- "sent_total": 4482777,
+ "detected_total": 123163,
+ "sent_total": 4482850,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85307,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85307,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T00:59:41.791Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T02:17:20.721Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T02:35:30.736Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23138,
+   "owner": "",
+   "owner_addr": "0:f06db0abf653cec9d0589786510a3706af154f894dfa8689f5c92be7ca224538",
+   "mint": 1794234893,
+   "counter_issued": 23138,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T02:38:30.625Z",
    "t": 1
   }
  ]
