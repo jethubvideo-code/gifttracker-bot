@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T14:34:50.160Z",
- "updated_unix": 1794321290,
- "runs": 15853,
+ "updated": "2026-11-10T15:00:46.331Z",
+ "updated_unix": 1794322846,
+ "runs": 15854,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123851,
- "sent_total": 4531052,
+ "detected_total": 123852,
+ "sent_total": 4531125,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270209,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270209,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T13:22:39.007Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T14:34:41.827Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T14:34:46.467Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23139,
+   "owner": "lilshot.t.me",
+   "owner_addr": "0:1dd10bca01a119905afc2be06ef93146a9d5315b00490c358bc94d64abdde1d9",
+   "mint": 1794293586,
+   "counter_issued": 23139,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T15:00:43.583Z",
    "t": 1
   }
  ]
