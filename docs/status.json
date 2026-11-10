@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T19:09:52.265Z",
- "updated_unix": 1794337792,
- "runs": 15885,
+ "updated": "2026-11-10T19:11:26.584Z",
+ "updated_unix": 1794337886,
+ "runs": 15886,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123920,
- "sent_total": 4535561,
+ "detected_total": 123922,
+ "sent_total": 4535644,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134408,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134408,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T16:25:34.092Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391521,
-   "owner": "",
-   "owner_addr": "0:ef2a9c3bab521557b7522e0a0864f2e491eebe0ff49be2112e539c1bc168e173",
-   "mint": 1794327699,
-   "counter_issued": 391521,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T16:26:37.132Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:09:40.019Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:09:40.019Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:09:40.019Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270236,
+   "owner": "",
+   "owner_addr": "0:986836418023e79173d79b515c7291ab7869ce14dd61ed1bacdc4810e771cb31",
+   "mint": 1794336769,
+   "counter_issued": 270236,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:10:47.556Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134414,
+   "owner": "",
+   "owner_addr": "0:6d8948df5cf007df4efc8b9ab40b98ae3afdd5646d1730cec95b091b5c2c53e0",
+   "mint": 1794333859,
+   "counter_issued": 134414,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:11:20.003Z",
    "t": 1
   }
  ]
