@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T20:23:35.081Z",
- "updated_unix": 1794342215,
- "runs": 15900,
+ "updated": "2026-11-10T20:30:31.174Z",
+ "updated_unix": 1794342631,
+ "runs": 15901,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123946,
- "sent_total": 4537396,
+ "detected_total": 123947,
+ "sent_total": 4537469,
  "last_upgrades": [
-  {
-   "slug": "NekoHelmet",
-   "gift": "NekoHelmet",
-   "number": 15587,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 15587,
-   "counter_total": 16149,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T18:44:20.285Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T20:23:26.503Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T20:23:32.044Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443755,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443755,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T20:30:26.811Z",
    "t": 1
   }
  ]
