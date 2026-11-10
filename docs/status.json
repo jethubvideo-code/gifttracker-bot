@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-10T12:20:52.296Z",
- "updated_unix": 1794313252,
- "runs": 15834,
+ "updated": "2026-11-10T12:36:51.467Z",
+ "updated_unix": 1794314211,
+ "runs": 15835,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123769,
- "sent_total": 4526798,
+ "detected_total": 123772,
+ "sent_total": 4526846,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 231394,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231394,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:17:42.927Z",
-   "t": 3
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 231395,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231395,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:17:42.927Z",
-   "t": 3
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 231396,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231396,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:17:42.927Z",
-   "t": 3
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:20:45.800Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:20:45.800Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:20:45.800Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270180,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270180,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:35:33.277Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270181,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794312454,
+   "counter_issued": 270181,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:35:33.277Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270182,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794312630,
+   "counter_issued": 270182,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:35:33.277Z",
    "t": 1
   }
  ]
