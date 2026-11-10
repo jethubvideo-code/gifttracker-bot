@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T08:28:30.845Z",
- "updated_unix": 1794299310,
- "runs": 15811,
+ "updated": "2026-11-10T09:03:51.817Z",
+ "updated_unix": 1794301431,
+ "runs": 15812,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123246,
- "sent_total": 4488719,
+ "detected_total": 123247,
+ "sent_total": 4488792,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74152,
-   "owner": "",
-   "owner_addr": "0:b9e82f960584c48e5324ad109dd3bc4d5334c7fa0c096e4361b2ce561a1ac030",
-   "mint": 1794247037,
-   "counter_issued": 74152,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T06:59:38.056Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T08:12:28.449Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T08:28:26.241Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90714,
+   "owner": "fromtimer-gift.ton",
+   "owner_addr": "0:5c4baff728da370765f551f107c9a3fc2dbe00d099eaec7bca5a3bb6b559397c",
+   "mint": 1794299132,
+   "counter_issued": 90714,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:03:47.848Z",
    "t": 1
   }
  ]
