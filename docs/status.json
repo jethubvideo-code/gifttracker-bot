@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T06:47:01.057Z",
- "updated_unix": 1794293221,
- "runs": 15796,
+ "updated": "2026-11-10T06:49:56.415Z",
+ "updated_unix": 1794293396,
+ "runs": 15797,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 123204,
- "sent_total": 4485779,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 123205,
+ "sent_total": 4485852,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55754,
-   "owner": "",
-   "owner_addr": "0:5b577f0013126ab4f1076f50a64adcab79804a7b2120c8f20cf1a6431ee811f6",
-   "mint": 1794219159,
-   "counter_issued": 55754,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:42:35.603Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:42:43.033Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:42:43.033Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:46:55.142Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:46:55.142Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391490,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1794292603,
+   "counter_issued": 391490,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:49:53.964Z",
    "t": 1
   }
  ]
