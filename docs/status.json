@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-10T06:08:55.434Z",
- "updated_unix": 1794290935,
- "runs": 15794,
+ "updated": "2026-11-10T06:42:59.333Z",
+ "updated_unix": 1794292979,
+ "runs": 15795,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123199,
- "sent_total": 4485430,
+ "detected_total": 123202,
+ "sent_total": 4485633,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "SnowGlobe",
-   "number": 55749,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 55749,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "SnowGlobe",
-   "number": 55750,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 55750,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55751,
-   "owner": "",
-   "owner_addr": "0:2378e24d9fc4c04b39628c457810d8d18e40a84c16c5200dc8628df4d3e0730a",
-   "mint": 1794194165,
-   "counter_issued": 55751,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T04:04:30.136Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:08:22.302Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T06:08:53.081Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443737,
+   "owner": "",
+   "owner_addr": "0:7ae8b78cf71dedd532d45bbb03d3f026650184b77a2bcdbb51d3a673bcefa855",
+   "mint": 1794291985,
+   "counter_issued": 443737,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:42:35.603Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270167,
+   "owner": "",
+   "owner_addr": "0:36d1074bb723c1378ef152416e02227d4267ea5ff0035f5600e384e0bbce80d3",
+   "mint": 1794291198,
+   "counter_issued": 270167,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:42:43.033Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270168,
+   "owner": "",
+   "owner_addr": "0:36d1074bb723c1378ef152416e02227d4267ea5ff0035f5600e384e0bbce80d3",
+   "mint": 1794291212,
+   "counter_issued": 270168,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T06:42:43.033Z",
    "t": 1
   }
  ]
