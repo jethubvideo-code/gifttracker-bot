@@ -1,52 +1,13 @@
 {
- "updated": "2026-11-10T09:18:26.170Z",
- "updated_unix": 1794302306,
- "runs": 15816,
+ "updated": "2026-11-10T09:20:33.016Z",
+ "updated_unix": 1794302433,
+ "runs": 15817,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123438,
- "sent_total": 4502734,
+ "detected_total": 123441,
+ "sent_total": 4502953,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142670,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142670,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z"
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142671,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142671,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z"
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142672,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142672,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z"
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -58,7 +19,8 @@
    "counter_total": 172784,
    "img": "",
    "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z"
+   "time": "2026-11-10T09:17:44.359Z",
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -72,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:17:44.359Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -86,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:17:44.359Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "FaithAmulet",
@@ -408,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:18:21.252Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -422,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:18:21.252Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391499,
+   "owner": "",
+   "owner_addr": "0:3f9175dfd6c639ea9fd0fa1e52ed22ef14df51abdd9ab692ba1fb46d1856759b",
+   "mint": 1794298528,
+   "counter_issued": 391499,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:20:21.833Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391500,
+   "owner": "",
+   "owner_addr": "0:3f9175dfd6c639ea9fd0fa1e52ed22ef14df51abdd9ab692ba1fb46d1856759b",
+   "mint": 1794298572,
+   "counter_issued": 391500,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:20:21.833Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443739,
+   "owner": "",
+   "owner_addr": "0:d89d81a079e249ead53143f2be0b00e5afad1aee7732ddfa4aeb8076d88698db",
+   "mint": 1794300856,
+   "counter_issued": 443739,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:20:30.454Z",
    "t": 1
   }
  ]
