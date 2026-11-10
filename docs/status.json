@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T09:52:07.253Z",
- "updated_unix": 1794304327,
- "runs": 15821,
+ "updated": "2026-11-10T09:58:04.032Z",
+ "updated_unix": 1794304684,
+ "runs": 15822,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123446,
- "sent_total": 4503318,
+ "detected_total": 123447,
+ "sent_total": 4503391,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142678,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142678,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:52:05.093Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84566,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84566,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:58:01.943Z",
    "t": 1
   }
  ]
