@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T19:53:19.419Z",
- "updated_unix": 1794340399,
- "runs": 15894,
+ "updated": "2026-11-10T19:56:15.822Z",
+ "updated_unix": 1794340575,
+ "runs": 15895,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 123935,
- "sent_total": 4536593,
+ "detected_total": 123936,
+ "sent_total": 4536666,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134412,
-   "owner": "",
-   "owner_addr": "0:b55ad7a9447d8fbc07e74cdfac3642016f88dee5085682114268fe4951355d28",
-   "mint": 1794331523,
-   "counter_issued": 134412,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T17:54:18.909Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:53:10.839Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:53:10.839Z",
+   "t": 3
+  },
+  {
+   "slug": "LowRider",
+   "gift": "LowRider",
+   "number": 23538,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23538,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:56:12.144Z",
    "t": 1
   }
  ]
