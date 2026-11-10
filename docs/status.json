@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T16:23:41.336Z",
- "updated_unix": 1794327821,
- "runs": 15867,
+ "updated": "2026-11-10T16:25:37.407Z",
+ "updated_unix": 1794327937,
+ "runs": 15868,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123890,
- "sent_total": 4533560,
+ "detected_total": 123891,
+ "sent_total": 4533633,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 33061,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 33061,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T15:03:07.268Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:23:22.114Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:23:22.114Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:23:22.114Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:23:22.114Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:23:22.114Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134408,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134408,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T16:25:34.092Z",
    "t": 1
   }
  ]
