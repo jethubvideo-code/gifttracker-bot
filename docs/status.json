@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T19:18:09.865Z",
- "updated_unix": 1794338289,
- "runs": 15888,
+ "updated": "2026-11-10T19:22:11.128Z",
+ "updated_unix": 1794338531,
+ "runs": 15889,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123924,
- "sent_total": 4535790,
+ "detected_total": 123925,
+ "sent_total": 4535863,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443744,
-   "owner": "",
-   "owner_addr": "0:cca5244f4c698986323f097ab27d1b825a7bd4fd14427a73eba188e9f7a3493a",
-   "mint": 1794328720,
-   "counter_issued": 443744,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T16:44:41.950Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:18:04.137Z",
+   "t": 3
+  },
+  {
+   "slug": "LowRider",
+   "gift": "Low Rider",
+   "number": 23537,
+   "owner": "",
+   "owner_addr": "0:2f5a40bc82dd6f109deed7726b085685849e44b12494d3ec3a45eaf744172589",
+   "mint": 1794300021,
+   "counter_issued": 23537,
+   "counter_total": 23950,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:22:05.692Z",
    "t": 1
   }
  ]
