@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T09:24:27.069Z",
- "updated_unix": 1794302667,
- "runs": 15818,
+ "updated": "2026-11-10T09:39:08.803Z",
+ "updated_unix": 1794303548,
+ "runs": 15819,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 123442,
- "sent_total": 4503026,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 123444,
+ "sent_total": 4503172,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142674,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142674,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142675,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142675,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:24:25.052Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108766,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108766,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:39:02.357Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391501,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391501,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:39:06.597Z",
    "t": 1
   }
  ]
