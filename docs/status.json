@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T10:52:49.597Z",
- "updated_unix": 1794307969,
- "runs": 15826,
+ "updated": "2026-11-10T11:28:06.547Z",
+ "updated_unix": 1794310086,
+ "runs": 15827,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123455,
- "sent_total": 4503974,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123456,
+ "sent_total": 4504047,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142687,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142687,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T10:52:47.698Z",
+   "t": 2
+  },
+  {
+   "slug": "AstralShard",
+   "gift": "Astral Shard",
+   "number": 5710,
+   "owner": "",
+   "owner_addr": "0:eebbf71fcb5bf762793efae8fb51096c2a5d1876ae443cb42a9059e85c35fe11",
+   "mint": 1794305146,
+   "counter_issued": 5710,
+   "counter_total": 6196,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T11:28:03.632Z",
    "t": 1
   }
  ]
