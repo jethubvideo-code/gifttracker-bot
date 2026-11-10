@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T13:51:33.600Z",
- "updated_unix": 1794318693,
- "runs": 15846,
+ "updated": "2026-11-10T14:00:33.242Z",
+ "updated_unix": 1794319233,
+ "runs": 15847,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123839,
- "sent_total": 4530177,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123840,
+ "sent_total": 4530250,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270197,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270197,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T13:10:58.919Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T13:51:25.580Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90721,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90721,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T14:00:25.495Z",
    "t": 1
   }
  ]
