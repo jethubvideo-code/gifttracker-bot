@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-10T12:18:49.235Z",
- "updated_unix": 1794313129,
- "runs": 15833,
+ "updated": "2026-11-10T12:20:52.296Z",
+ "updated_unix": 1794313252,
+ "runs": 15834,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123766,
- "sent_total": 4526579,
+ "detected_total": 123769,
+ "sent_total": 4526798,
  "last_upgrades": [
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 231391,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231391,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:17:42.927Z",
-   "t": 1
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 231392,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231392,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:17:42.927Z",
-   "t": 1
-  },
-  {
-   "slug": "CandyCane",
-   "gift": "CandyCane",
-   "number": 231393,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 231393,
-   "counter_total": 320622,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:17:42.927Z",
-   "t": 1
-  },
   {
    "slug": "CandyCane",
    "gift": "CandyCane",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:18:37.764Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:18:41.671Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:18:47.272Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391504,
+   "owner": "",
+   "owner_addr": "0:6f2a90fa67ec05eb226d8b5350660ffa8ad7814f25a03b9d2f2f5f7fff1a02fb",
+   "mint": 1794312155,
+   "counter_issued": 391504,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:20:45.800Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391505,
+   "owner": "",
+   "owner_addr": "0:6f2a90fa67ec05eb226d8b5350660ffa8ad7814f25a03b9d2f2f5f7fff1a02fb",
+   "mint": 1794312193,
+   "counter_issued": 391505,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:20:45.800Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391506,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794312405,
+   "counter_issued": 391506,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:20:45.800Z",
    "t": 1
   }
  ]
