@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-09T23:43:01.194Z",
- "updated_unix": 1794267781,
- "runs": 15775,
+ "updated": "2026-11-10T00:14:22.191Z",
+ "updated_unix": 1794269662,
+ "runs": 15776,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123121,
- "sent_total": 4479847,
+ "detected_total": 123122,
+ "sent_total": 4479920,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53574,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794258545,
-   "counter_issued": 53574,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-09T21:30:13.010Z",
-   "t": 3
-  },
   {
    "slug": "EternalCandle",
    "gift": "Eternal Candle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-09T23:42:59.115Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134379,
+   "owner": "",
+   "owner_addr": "0:cb456206da6ff7183ea9adc70fadedbb34730c4ddd1add456bc047c6c917ad28",
+   "mint": 1794268407,
+   "counter_issued": 134379,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T00:14:19.641Z",
    "t": 1
   }
  ]
