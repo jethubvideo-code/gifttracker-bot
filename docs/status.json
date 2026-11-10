@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T12:43:55.650Z",
- "updated_unix": 1794314635,
- "runs": 15838,
+ "updated": "2026-11-10T12:44:50.851Z",
+ "updated_unix": 1794314690,
+ "runs": 15839,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123793,
- "sent_total": 4528379,
+ "detected_total": 123794,
+ "sent_total": 4528452,
  "last_upgrades": [
-  {
-   "slug": "SnoopCigar",
-   "gift": "Snoop Cigar",
-   "number": 117680,
-   "owner": "",
-   "owner_addr": "0:bc16da2232a64121a4cca0bd0fddb62e6c19929d20aaa6a9f520ead272fad5c1",
-   "mint": 1794309286,
-   "counter_issued": 117680,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T12:18:37.764Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:43:45.102Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T12:43:45.102Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108768,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108768,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T12:44:45.954Z",
    "t": 1
   }
  ]
