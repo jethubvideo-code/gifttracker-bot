@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T19:47:08.617Z",
- "updated_unix": 1794340028,
- "runs": 15892,
+ "updated": "2026-11-10T19:49:13.331Z",
+ "updated_unix": 1794340153,
+ "runs": 15893,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123931,
- "sent_total": 4536301,
+ "detected_total": 123933,
+ "sent_total": 4536447,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "SleighBell",
-   "number": 23140,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23140,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T17:21:52.864Z",
-   "t": 3
-  },
-  {
-   "slug": "SleighBell",
-   "gift": "SleighBell",
-   "number": 23141,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23141,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T17:21:52.864Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:47:04.527Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391529,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391529,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:49:04.451Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391530,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391530,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:49:04.451Z",
    "t": 1
   }
  ]
