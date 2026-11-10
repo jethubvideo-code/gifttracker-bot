@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-10T09:05:10.414Z",
- "updated_unix": 1794301510,
- "runs": 15813,
+ "updated": "2026-11-10T09:09:29.103Z",
+ "updated_unix": 1794301769,
+ "runs": 15814,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123251,
- "sent_total": 4489084,
+ "detected_total": 123256,
+ "sent_total": 4489448,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74157,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794285683,
-   "counter_issued": 74157,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T06:59:38.056Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109241,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109241,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T07:00:20.991Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109242,
-   "owner": "",
-   "owner_addr": "0:1f3cd555a8433a17d27c4e4163908a11883b8817b419beb0243b7e7e00f9d876",
-   "mint": 1794240684,
-   "counter_issued": 109242,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T07:00:20.991Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109243,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794247087,
-   "counter_issued": 109243,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T07:00:20.991Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109244,
-   "owner": "",
-   "owner_addr": "0:3c4dfd83ff56dd32a096a82db6310ab4a3667ad8a80fc017f69de733c3ec025a",
-   "mint": 1794247619,
-   "counter_issued": 109244,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T07:00:20.991Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:04:46.570Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:04:57.547Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:04:57.547Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T09:04:57.547Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270171,
+   "owner": "",
+   "owner_addr": "0:a41bd8adc20c7c39017ddd8bad54a11374c931bc391a77773a7a0fad57215c39",
+   "mint": 1794299187,
+   "counter_issued": 270171,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:09:10.059Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270172,
+   "owner": "",
+   "owner_addr": "0:a41bd8adc20c7c39017ddd8bad54a11374c931bc391a77773a7a0fad57215c39",
+   "mint": 1794299192,
+   "counter_issued": 270172,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:09:10.059Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270173,
+   "owner": "",
+   "owner_addr": "0:ce2d96b12bedea293e62e9787661dc7879d86f5e1a7f7b8df95fdf009d1ce4aa",
+   "mint": 1794299907,
+   "counter_issued": 270173,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:09:10.059Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270174,
+   "owner": "",
+   "owner_addr": "0:69b65c1b53da5d80e47c923f78dcf61ab4ad7a5e6e6fe38d715c7763a7001e9c",
+   "mint": 1794300667,
+   "counter_issued": 270174,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:09:10.059Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270175,
+   "owner": "",
+   "owner_addr": "0:aca085fc6bedff36a80222749f0edfd819b6c02bdcffbebb47764c68a1695d5b",
+   "mint": 1794301422,
+   "counter_issued": 270175,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T09:09:10.059Z",
    "t": 1
   }
  ]
