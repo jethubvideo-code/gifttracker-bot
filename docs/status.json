@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T19:49:13.331Z",
- "updated_unix": 1794340153,
- "runs": 15893,
+ "updated": "2026-11-10T19:53:19.419Z",
+ "updated_unix": 1794340399,
+ "runs": 15894,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123933,
- "sent_total": 4536447,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123935,
+ "sent_total": 4536593,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391522,
-   "owner": "",
-   "owner_addr": "0:d483092a6a89413eeef7c0336a06a40eea02c269062a0455101a3c951c77cd71",
-   "mint": 1794333008,
-   "counter_issued": 391522,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T17:53:16.061Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134411,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134411,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T17:54:18.909Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:49:04.451Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T19:49:04.451Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108772,
+   "owner": "",
+   "owner_addr": "0:6d8948df5cf007df4efc8b9ab40b98ae3afdd5646d1730cec95b091b5c2c53e0",
+   "mint": 1794334143,
+   "counter_issued": 108772,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:53:10.839Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108773,
+   "owner": "",
+   "owner_addr": "0:8211e88986cfa23a5dcef65049b7ef6b08e7e233cd0cbac1c8440ab148f7bc6f",
+   "mint": 1794338204,
+   "counter_issued": 108773,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T19:53:10.839Z",
    "t": 1
   }
  ]
