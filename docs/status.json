@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T16:44:48.902Z",
- "updated_unix": 1794329088,
- "runs": 15871,
+ "updated": "2026-11-10T16:48:32.187Z",
+ "updated_unix": 1794329312,
+ "runs": 15872,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123895,
- "sent_total": 4533925,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123897,
+ "sent_total": 4534007,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90723,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90723,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T15:06:43.348Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391518,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794322876,
-   "counter_issued": 391518,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T15:14:45.570Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:44:41.950Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T16:44:41.950Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270228,
+   "owner": "",
+   "owner_addr": "0:97978700ac9a9b150fd479ce2e144f8c893bc85d553f99b70e139fc2a40bfdfe",
+   "mint": 1794327020,
+   "counter_issued": 270228,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T16:47:53.657Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270229,
+   "owner": "",
+   "owner_addr": "0:1bf67971666979b2d55f237e8e3956313e1bd048ec61833352d3a62c70a0c295",
+   "mint": 1794327736,
+   "counter_issued": 270229,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T16:47:53.657Z",
    "t": 1
   }
  ]
