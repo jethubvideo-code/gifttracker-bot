@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T10:16:21.805Z",
- "updated_unix": 1794305781,
- "runs": 15823,
+ "updated": "2026-11-10T10:17:24.127Z",
+ "updated_unix": 1794305844,
+ "runs": 15824,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 123448,
- "sent_total": 4503463,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 123449,
+ "sent_total": 4503536,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142680,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142680,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T10:16:19.536Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15586,
+   "owner": "ytdaniel.t.me",
+   "owner_addr": "0:83be89431d075375609e405ecca56992b6fbd7deef778be4208b48897fa5316c",
+   "mint": 1794245086,
+   "counter_issued": 15586,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T10:17:21.809Z",
    "t": 1
   }
  ]
