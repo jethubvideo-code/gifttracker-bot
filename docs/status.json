@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-10T14:00:33.242Z",
- "updated_unix": 1794319233,
- "runs": 15847,
+ "updated": "2026-11-10T14:26:42.321Z",
+ "updated_unix": 1794320802,
+ "runs": 15848,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 123840,
- "sent_total": 4530250,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 123843,
+ "sent_total": 4530469,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270198,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270198,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T13:10:58.919Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270199,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270199,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T13:10:58.919Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270200,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270200,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T13:10:58.919Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T14:00:25.495Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84567,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84567,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T14:26:29.514Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84568,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84568,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T14:26:29.514Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84569,
+   "owner": "",
+   "owner_addr": "0:6e0eb561c43b93d2fbbb0e38663fbb85c822723b0351bb2d8d42b12bf33eb917",
+   "mint": 1794316810,
+   "counter_issued": 84569,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T14:26:29.514Z",
+   "t": 1
   }
  ]
 }
