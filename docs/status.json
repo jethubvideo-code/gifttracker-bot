@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T22:01:15.271Z",
- "updated_unix": 1794348075,
- "runs": 15911,
+ "updated": "2026-11-10T22:03:12.440Z",
+ "updated_unix": 1794348192,
+ "runs": 15912,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124069,
- "sent_total": 4545695,
+ "detected_total": 124070,
+ "sent_total": 4545768,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 74161,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74161,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T21:00:01.097Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T21:35:30.792Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T22:01:05.842Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T22:01:11.337Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391538,
+   "owner": "",
+   "owner_addr": "0:57031519d77e4868e8ea43573b7acff09a9e37ab55b8ec05a1e310c1c4b6b317",
+   "mint": 1794346172,
+   "counter_issued": 391538,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T22:03:08.705Z",
    "t": 1
   }
  ]
