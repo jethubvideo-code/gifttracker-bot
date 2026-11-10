@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-10T11:28:06.547Z",
- "updated_unix": 1794310086,
- "runs": 15827,
+ "updated": "2026-11-10T11:42:05.129Z",
+ "updated_unix": 1794310925,
+ "runs": 15828,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 123456,
- "sent_total": 4504047,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 123458,
+ "sent_total": 4504193,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142688,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142688,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142689,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142689,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T09:17:44.359Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T10:52:47.698Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "AstralShard",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T11:28:03.632Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85331,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85331,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T11:41:59.657Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85332,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85332,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T11:41:59.657Z",
    "t": 1
   }
  ]
