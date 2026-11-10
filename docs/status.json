@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-10T15:06:45.567Z",
- "updated_unix": 1794323205,
- "runs": 15857,
+ "updated": "2026-11-10T15:14:47.747Z",
+ "updated_unix": 1794323687,
+ "runs": 15858,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 123866,
- "sent_total": 4532142,
+ "detected_total": 123867,
+ "sent_total": 4532215,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270218,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270218,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T13:46:05.423Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-10T15:06:43.348Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391518,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794322876,
+   "counter_issued": 391518,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-10T15:14:45.570Z",
    "t": 1
   }
  ]
