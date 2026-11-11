@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T03:19:48.135Z",
- "updated_unix": 1794367188,
- "runs": 15929,
+ "updated": "2026-11-11T04:02:06.209Z",
+ "updated_unix": 1794369726,
+ "runs": 15930,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124423,
- "sent_total": 4571315,
+ "detected_total": 124424,
+ "sent_total": 4571388,
  "last_upgrades": [
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118187,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118187,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T23:56:06.800Z",
-   "t": 3
-  },
   {
    "slug": "JollyChimp",
    "gift": "JollyChimp",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T03:19:46.392Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90731,
+   "owner": "",
+   "owner_addr": "0:bc193beeeb78af8769584f6e99edc1d71016ac706cd734304c551dd981ab9e51",
+   "mint": 1794368257,
+   "counter_issued": 90731,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T04:02:04.175Z",
    "t": 1
   }
  ]
