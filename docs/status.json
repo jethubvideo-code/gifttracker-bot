@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T10:22:28.604Z",
- "updated_unix": 1794392548,
- "runs": 15963,
+ "updated": "2026-11-11T10:23:26.114Z",
+ "updated_unix": 1794392606,
+ "runs": 15964,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124726,
- "sent_total": 4593164,
+ "detected_total": 124727,
+ "sent_total": 4593237,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270261,
-   "owner": "",
-   "owner_addr": "0:3b312a7665f38bbb9c97ff692e0abc6cf2b42086a1099fb64c02d20d05a57f7a",
-   "mint": 1794382034,
-   "counter_issued": 270261,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/HkyaqYy_BxkDGbP1QAnSmd5y0RFREMSfiB4hU0a5D69PLcduoB5e3PgUQbEMYeWUdayE5s2-SSRzRYMfbjQgqKnj2vpxSsql5uOZLa5ax_VZBXOTfmXbYWl-VZqfMkamEQg7ITgFotzWN3qrooSxnCKOs19ksT3L9v1U8pamcVyZXX_BgQ4G3yVHt8s0M9CZoem5ZkFT3q4kpsIreaqYwPDOxpmB2_SPppKV3g8mONwza0MhQzcstYGtQQp5dCHVN6cEi8L0qR7gh7ERWY16NfLn4AOqO5IxJKd_KFCTAzK62n8dSrNf-SsFhgd1ciapzasajMlYrUTBFgg345V33w.jpg",
-   "sent": 0,
-   "time": "2026-11-11T08:01:14.590Z",
-   "u": 1
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:47:01.431Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:47:01.431Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T10:22:18.905Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T10:22:24.805Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270265,
+   "owner": "bloodymaan.t.me",
+   "owner_addr": "0:b29a05c197ad0b3391101cae167d3eea515a430c648c3fee8fb1bfd5b238c0ce",
+   "mint": 1794392451,
+   "counter_issued": 270265,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T10:23:22.675Z",
    "t": 1
   }
  ]
