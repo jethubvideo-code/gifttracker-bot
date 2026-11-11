@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T22:43:07.499Z",
- "updated_unix": 1794436987,
- "runs": 16047,
+ "updated": "2026-11-11T22:53:08.055Z",
+ "updated_unix": 1794437588,
+ "runs": 16048,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124931,
- "sent_total": 4607087,
+ "detected_total": 124933,
+ "sent_total": 4607233,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391588,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794434866,
-   "counter_issued": 391588,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T22:21:57.129Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90756,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90756,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T22:22:15.028Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:42:46.345Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:42:50.224Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108794,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108794,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T22:53:03.361Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108795,
+   "owner": "lutomo.t.me",
+   "owner_addr": "0:4fb8fc104cd642d95573d8cdbc124de851f34dba01123a2453ccf345aec01063",
+   "mint": 1794424734,
+   "counter_issued": 108795,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T22:53:03.361Z",
    "t": 1
   }
  ]
