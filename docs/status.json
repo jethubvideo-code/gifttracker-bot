@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T19:48:20.658Z",
- "updated_unix": 1794426500,
- "runs": 16039,
+ "updated": "2026-11-11T19:50:20.267Z",
+ "updated_unix": 1794426620,
+ "runs": 16040,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124874,
- "sent_total": 4602958,
+ "detected_total": 124875,
+ "sent_total": 4603031,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134462,
-   "owner": "",
-   "owner_addr": "0:10f17fdbcf9cc1b3f98e7dfb88ae13608643ea2cef3af428708348c9511ffb09",
-   "mint": 1794419512,
-   "counter_issued": 134462,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T18:02:30.825Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:21:02.415Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:21:09.712Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:48:17.623Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26117,
+   "owner": "",
+   "owner_addr": "0:f2fb82ecdda0c4840cdaaab62a65338399a047beb7ce6a02ffb2495996bb77a6",
+   "mint": 1794409707,
+   "counter_issued": 26117,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T19:50:17.251Z",
    "t": 1
   }
  ]
