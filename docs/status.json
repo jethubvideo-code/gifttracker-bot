@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T09:15:03.991Z",
- "updated_unix": 1794388503,
- "runs": 15956,
+ "updated": "2026-11-11T09:16:21.331Z",
+ "updated_unix": 1794388581,
+ "runs": 15957,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 124711,
- "sent_total": 4592132,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 124712,
+ "sent_total": 4592142,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201340,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201340,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:27:49.491Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:14:49.248Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:14:49.248Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:14:49.248Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270264,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270264,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T09:15:54.404Z",
    "t": 1
   }
  ]
