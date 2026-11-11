@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T22:27:12.327Z",
- "updated_unix": 1794436032,
- "runs": 16046,
+ "updated": "2026-11-11T22:43:07.499Z",
+ "updated_unix": 1794436987,
+ "runs": 16047,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124929,
- "sent_total": 4606973,
+ "detected_total": 124931,
+ "sent_total": 4607087,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391586,
-   "owner": "",
-   "owner_addr": "0:636b797c332d323098143d18eb4f12e3a42f8a621cc244019b74bff1b8297444",
-   "mint": 1794429394,
-   "counter_issued": 391586,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T22:21:57.129Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391587,
-   "owner": "",
-   "owner_addr": "0:b2f7bbaae9c1f9c53322c797e40e7d22d19542e4bebc1441315d3385e24023ee",
-   "mint": 1794430780,
-   "counter_issued": 391587,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T22:21:57.129Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T22:27:00.747Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443790,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443790,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T22:42:46.345Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270300,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270300,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T22:42:50.224Z",
    "t": 1
   }
  ]
