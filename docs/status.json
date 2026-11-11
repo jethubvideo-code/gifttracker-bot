@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T04:04:02.480Z",
- "updated_unix": 1794369842,
- "runs": 15931,
+ "updated": "2026-11-11T04:05:12.708Z",
+ "updated_unix": 1794369912,
+ "runs": 15932,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124425,
- "sent_total": 4571461,
+ "detected_total": 124427,
+ "sent_total": 4571607,
  "last_upgrades": [
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118189,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118189,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T23:56:06.800Z",
-   "t": 3
-  },
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118190,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118190,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T23:56:06.800Z",
-   "t": 3
-  },
   {
    "slug": "JollyChimp",
    "gift": "JollyChimp",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T04:04:00.801Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164136,
+   "owner": "",
+   "owner_addr": "0:b7fd8dd19085526e47dff396cbabf7d1cfef9b399ce443a1650cbe6c89fb7557",
+   "mint": 1794369351,
+   "counter_issued": 164136,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T04:05:03.779Z",
+   "t": 1
+  },
+  {
+   "slug": "StarNotepad",
+   "gift": "StarNotepad",
+   "number": 74174,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74174,
+   "counter_total": 99082,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T04:05:09.100Z",
    "t": 1
   }
  ]
