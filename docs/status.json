@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T12:22:44.269Z",
- "updated_unix": 1794399764,
- "runs": 15977,
+ "updated": "2026-11-11T12:24:37.174Z",
+ "updated_unix": 1794399877,
+ "runs": 15978,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124767,
- "sent_total": 4596155,
+ "detected_total": 124768,
+ "sent_total": 4596228,
  "last_upgrades": [
-  {
-   "slug": "DurovsGlasses",
-   "gift": "Durov’s Glasses",
-   "number": 3981,
-   "owner": "",
-   "owner_addr": "0:1df7a18a46b007ef4120030c02fc7e54b9b7189299f9e760c60f035509ab0aad",
-   "mint": 1794354194,
-   "counter_issued": 3981,
-   "counter_total": 4982,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T11:34:00.297Z",
-   "t": 3
-  },
   {
    "slug": "DurovsGlasses",
    "gift": "Durov’s Glasses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T12:22:39.552Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T12:22:39.552Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134445,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134445,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T12:24:35.166Z",
    "t": 1
   }
  ]
