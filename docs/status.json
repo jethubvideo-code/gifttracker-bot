@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T19:13:30.354Z",
- "updated_unix": 1794424410,
- "runs": 16035,
+ "updated": "2026-11-11T19:15:09.535Z",
+ "updated_unix": 1794424509,
+ "runs": 16036,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124869,
- "sent_total": 4602594,
+ "detected_total": 124870,
+ "sent_total": 4602666,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270276,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270276,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T17:38:12.740Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:37:41.163Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:13:03.669Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:13:03.669Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:13:03.669Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:13:03.669Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:13:22.295Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T19:13:22.295Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443784,
+   "owner": "",
+   "owner_addr": "0:aebba49f7ec2aab371f4f4d554f6366fbc2d0090ce5a7761a6073c46473b25a8",
+   "mint": 1794423483,
+   "counter_issued": 443784,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T19:15:06.262Z",
    "t": 1
   }
  ]
