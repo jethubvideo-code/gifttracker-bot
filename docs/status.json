@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T06:53:33.450Z",
- "updated_unix": 1794380013,
- "runs": 15946,
+ "updated": "2026-11-11T07:26:02.227Z",
+ "updated_unix": 1794381962,
+ "runs": 15947,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124692,
- "sent_total": 4590904,
+ "detected_total": 124694,
+ "sent_total": 4591050,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201321,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201321,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:27:49.491Z",
-   "t": 3
-  },
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201322,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201322,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:27:49.491Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T06:53:31.592Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391546,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391546,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T07:25:57.809Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391547,
+   "owner": "",
+   "owner_addr": "0:24fbabf13eb3ad7708c7c3ac1a77551959255190231aa85d13f54613f2d54a52",
+   "mint": 1794381702,
+   "counter_issued": 391547,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T07:25:57.809Z",
    "t": 1
   }
  ]
