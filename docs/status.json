@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T05:23:47.170Z",
- "updated_unix": 1794374627,
- "runs": 15938,
+ "updated": "2026-11-11T05:56:09.989Z",
+ "updated_unix": 1794376569,
+ "runs": 15939,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124436,
- "sent_total": 4572264,
+ "detected_total": 124438,
+ "sent_total": 4572410,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 33089,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 33089,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T00:35:17.908Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 33090,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 33090,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T00:35:17.908Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T05:23:44.488Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84583,
+   "owner": "",
+   "owner_addr": "0:74dfe073b3b2846e2ccebadc291420e76c63bc0d8634880c22eb8570431ced79",
+   "mint": 1794376478,
+   "counter_issued": 84583,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T05:56:00.339Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74811,
+   "owner": "",
+   "owner_addr": "0:9cc4bbded100f5140f515aa3d8c18cc4e89e5ee87ad80efd2b41690bb1037a07",
+   "mint": 1794367317,
+   "counter_issued": 74811,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T05:56:07.566Z",
    "t": 1
   }
  ]
