@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T08:02:07.572Z",
- "updated_unix": 1794384127,
- "runs": 15949,
+ "updated": "2026-11-11T08:04:27.578Z",
+ "updated_unix": 1794384267,
+ "runs": 15950,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 124698,
- "sent_total": 4591246,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 124699,
+ "sent_total": 4591319,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201327,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201327,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:27:49.491Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -428,6 +414,20 @@
    "sent": 0,
    "time": "2026-11-11T08:01:14.590Z",
    "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443764,
+   "owner": "euphory.t.me",
+   "owner_addr": "0:4384583dd648fc62fc733faefd1fbde23ed397a93483aca5517821e2518d1bb2",
+   "mint": 1794382126,
+   "counter_issued": 443764,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T08:04:24.734Z",
+   "t": 1
   }
  ]
 }
