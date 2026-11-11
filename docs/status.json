@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T09:25:05.781Z",
- "updated_unix": 1794389105,
- "runs": 15960,
+ "updated": "2026-11-11T09:28:03.876Z",
+ "updated_unix": 1794389283,
+ "runs": 15961,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124721,
- "sent_total": 4592799,
+ "detected_total": 124722,
+ "sent_total": 4592872,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391545,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391545,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:53:31.592Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:24:53.914Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:24:53.914Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23142,
+   "owner": "",
+   "owner_addr": "0:c1a9a4cdd98db0d36a707b4f952a248c76b2059edd607f71a77b984123c68da2",
+   "mint": 1794356698,
+   "counter_issued": 23142,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T09:27:58.916Z",
    "t": 1
   }
  ]
