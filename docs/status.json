@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T18:22:56.616Z",
- "updated_unix": 1794421376,
- "runs": 16032,
+ "updated": "2026-11-11T18:25:01.022Z",
+ "updated_unix": 1794421501,
+ "runs": 16033,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124861,
- "sent_total": 4602010,
+ "detected_total": 124862,
+ "sent_total": 4602083,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134457,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134457,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T17:26:59.414Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:20:58.780Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:20:58.780Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:20:58.780Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SignetRing",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:22:39.967Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SignetRing",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:22:39.967Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443783,
+   "owner": "",
+   "owner_addr": "0:6a3ac67fdae694b7ae8dde8ce6941c834d346b11666b9fc0c3e0e2a65ce6f3e7",
+   "mint": 1794420978,
+   "counter_issued": 443783,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T18:24:53.715Z",
    "t": 1
   }
  ]
