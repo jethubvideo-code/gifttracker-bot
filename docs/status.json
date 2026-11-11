@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T13:21:31.388Z",
- "updated_unix": 1794403291,
- "runs": 15987,
+ "updated": "2026-11-11T13:22:16.988Z",
+ "updated_unix": 1794403336,
+ "runs": 15988,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 124790,
- "sent_total": 4597676,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 124792,
+ "sent_total": 4597822,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134442,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134442,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:14:29.915Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134443,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134443,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:14:29.915Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:20:57.071Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:20:57.071Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:20:57.071Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108784,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108784,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:22:03.862Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134449,
+   "owner": "",
+   "owner_addr": "0:97fb03dc9f15a4ceef3dc7c9fc80be1a701999428c2fe5bdca9e7bfc31a2fbe9",
+   "mint": 1794402358,
+   "counter_issued": 134449,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:22:12.606Z",
    "t": 1
   }
  ]
