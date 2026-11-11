@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-11T13:57:14.741Z",
- "updated_unix": 1794405434,
- "runs": 15992,
+ "updated": "2026-11-11T13:59:22.750Z",
+ "updated_unix": 1794405562,
+ "runs": 15993,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124799,
- "sent_total": 4598128,
+ "detected_total": 124802,
+ "sent_total": 4598346,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391562,
-   "owner": "",
-   "owner_addr": "0:03ab8a41ee910ee0ec7bd37a529c574352be239018497291368a9ad85517255e",
-   "mint": 1794399441,
-   "counter_issued": 391562,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:26:38.180Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443773,
-   "owner": "",
-   "owner_addr": "0:39b2435835221f57dce6d3cfc38cb409fbc96be015db008c4a49d74c1d853e99",
-   "mint": 1794400550,
-   "counter_issued": 443773,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:43:33.374Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84584,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794382668,
-   "counter_issued": 84584,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:46:36.538Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:57:06.333Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:57:06.333Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443777,
+   "owner": "",
+   "owner_addr": "0:2c211ba14645a1dc1df214496a265cc0a501bf111644499c0c0cff43ae88fc5e",
+   "mint": 1794403717,
+   "counter_issued": 443777,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:59:09.202Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134450,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134450,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:59:14.635Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134451,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134451,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:59:14.635Z",
    "t": 1
   }
  ]
