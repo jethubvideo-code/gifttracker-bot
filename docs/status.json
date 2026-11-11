@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T18:22:23.311Z",
- "updated_unix": 1794421343,
- "runs": 16031,
+ "updated": "2026-11-11T18:22:56.616Z",
+ "updated_unix": 1794421376,
+ "runs": 16032,
  "collections": 123,
- "checked": 10,
- "errors": 113,
- "detected_total": 124859,
- "sent_total": 4601864,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 124861,
+ "sent_total": 4602010,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90753,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90753,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T17:02:50.665Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391574,
-   "owner": "",
-   "owner_addr": "0:5f192dd2daf31cac1a440bee4488845a9a11017c13b10be9fc73e3d79fb007e9",
-   "mint": 1794416711,
-   "counter_issued": 391574,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T17:06:12.906Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:15:50.541Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:20:58.780Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:20:58.780Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:20:58.780Z",
+   "t": 2
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16991,
+   "owner": "",
+   "owner_addr": "0:f2fb82ecdda0c4840cdaaab62a65338399a047beb7ce6a02ffb2495996bb77a6",
+   "mint": 1794409688,
+   "counter_issued": 16991,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T18:22:39.967Z",
+   "t": 1
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16992,
+   "owner": "",
+   "owner_addr": "0:36794bdb64e019c42775b69a8a535874a855fb072cd37a4dd5d5276e79135be6",
+   "mint": 1794411347,
+   "counter_issued": 16992,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T18:22:39.967Z",
    "t": 1
   }
  ]
