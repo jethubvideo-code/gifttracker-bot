@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T06:51:36.325Z",
- "updated_unix": 1794379896,
- "runs": 15945,
+ "updated": "2026-11-11T06:53:33.450Z",
+ "updated_unix": 1794380013,
+ "runs": 15946,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124691,
- "sent_total": 4590831,
+ "detected_total": 124692,
+ "sent_total": 4590904,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201320,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201320,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:27:49.491Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T06:51:31.561Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T06:51:31.561Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391545,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391545,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T06:53:31.592Z",
    "t": 1
   }
  ]
