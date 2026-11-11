@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T10:30:40.977Z",
- "updated_unix": 1794393040,
- "runs": 15966,
+ "updated": "2026-11-11T10:57:50.475Z",
+ "updated_unix": 1794394670,
+ "runs": 15967,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124731,
- "sent_total": 4593529,
+ "detected_total": 124733,
+ "sent_total": 4593675,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391548,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391548,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T08:36:36.269Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391549,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391549,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T08:36:36.269Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T10:30:37.849Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391554,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794393096,
+   "counter_issued": 391554,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T10:57:43.370Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391555,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794393893,
+   "counter_issued": 391555,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T10:57:43.370Z",
    "t": 1
   }
  ]
