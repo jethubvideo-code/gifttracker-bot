@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T09:19:43.405Z",
- "updated_unix": 1794388783,
- "runs": 15959,
+ "updated": "2026-11-11T09:25:05.781Z",
+ "updated_unix": 1794389105,
+ "runs": 15960,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124719,
- "sent_total": 4592653,
+ "detected_total": 124721,
+ "sent_total": 4592799,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90735,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90735,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:51:31.561Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90736,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90736,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:51:31.561Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -357,7 +329,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:18:56.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -371,7 +343,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:18:56.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -385,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:18:56.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -399,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:18:56.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -413,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:18:56.504Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T09:19:37.331Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108779,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108779,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T09:24:53.914Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108780,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108780,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T09:24:53.914Z",
    "t": 1
   }
  ]
