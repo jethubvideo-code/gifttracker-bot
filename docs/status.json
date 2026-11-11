@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T16:27:39.363Z",
- "updated_unix": 1794414459,
- "runs": 16014,
+ "updated": "2026-11-11T17:01:53.571Z",
+ "updated_unix": 1794416513,
+ "runs": 16015,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124827,
- "sent_total": 4600103,
+ "detected_total": 124828,
+ "sent_total": 4600175,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391565,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391565,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T13:57:06.333Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T16:27:36.390Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108790,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108790,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T17:01:50.673Z",
    "t": 1
   }
  ]
