@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T08:39:42.792Z",
- "updated_unix": 1794386382,
- "runs": 15953,
+ "updated": "2026-11-11T09:12:14.736Z",
+ "updated_unix": 1794388334,
+ "runs": 15954,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124705,
- "sent_total": 4591757,
+ "detected_total": 124706,
+ "sent_total": 4591767,
  "last_upgrades": [
-  {
-   "slug": "CookieHeart",
-   "gift": "CookieHeart",
-   "number": 201334,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 201334,
-   "counter_total": 264486,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T06:27:49.491Z",
-   "t": 3
-  },
   {
    "slug": "CookieHeart",
    "gift": "CookieHeart",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T08:39:40.192Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270263,
+   "owner": "spivtg.t.me",
+   "owner_addr": "0:00b1b56ef2ed27038acc61bb4fb71c05570daeb0e02ab128d9877dcdfdf0784a",
+   "mint": 1794388035,
+   "counter_issued": 270263,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T09:11:46.357Z",
    "t": 1
   }
  ]
