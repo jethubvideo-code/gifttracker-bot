@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T11:10:54.233Z",
- "updated_unix": 1794395454,
- "runs": 15969,
+ "updated": "2026-11-11T11:34:06.523Z",
+ "updated_unix": 1794396846,
+ "runs": 15970,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 124737,
- "sent_total": 4593967,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 124739,
+ "sent_total": 4594113,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90740,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90740,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T09:13:45.290Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443766,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443766,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T09:14:49.248Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T11:10:51.328Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3981,
+   "owner": "",
+   "owner_addr": "0:1df7a18a46b007ef4120030c02fc7e54b9b7189299f9e760c60f035509ab0aad",
+   "mint": 1794354194,
+   "counter_issued": 3981,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T11:34:00.297Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3982,
+   "owner": "zombilend.ton",
+   "owner_addr": "0:a0bc9de4ec21e90d9559cbc0ab49ee19561b194cf86cf78b5ceeff2ea686efa9",
+   "mint": 1794390799,
+   "counter_issued": 3982,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T11:34:00.297Z",
    "t": 1
   }
  ]
