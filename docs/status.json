@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-11T18:04:23.547Z",
- "updated_unix": 1794420263,
- "runs": 16025,
+ "updated": "2026-11-11T18:05:51.729Z",
+ "updated_unix": 1794420351,
+ "runs": 16026,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 124849,
- "sent_total": 4601327,
+ "checked": 2,
+ "errors": 121,
+ "detected_total": 124851,
+ "sent_total": 4601472,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391572,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391572,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T15:40:56.632Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391573,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391573,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T15:40:56.632Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:03:31.730Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:03:42.669Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T18:03:42.669Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-11-11T18:03:42.669Z",
    "u": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108791,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108791,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T18:05:38.226Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108792,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108792,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T18:05:38.226Z",
+   "t": 1
   }
  ]
 }
