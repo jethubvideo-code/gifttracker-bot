@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-11T05:21:51.877Z",
- "updated_unix": 1794374511,
- "runs": 15937,
+ "updated": "2026-11-11T05:23:47.170Z",
+ "updated_unix": 1794374627,
+ "runs": 15938,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124435,
- "sent_total": 4572191,
+ "detected_total": 124436,
+ "sent_total": 4572264,
  "last_upgrades": [
-  {
-   "slug": "JollyChimp",
-   "gift": "JollyChimp",
-   "number": 118199,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 118199,
-   "counter_total": 132155,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-10T23:56:06.800Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T05:21:43.144Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T05:21:47.350Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T05:21:47.350Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391543,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391543,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T05:23:44.488Z",
    "t": 1
   }
  ]
