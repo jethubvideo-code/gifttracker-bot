@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-11T13:22:16.988Z",
- "updated_unix": 1794403336,
- "runs": 15988,
+ "updated": "2026-11-11T13:25:15.201Z",
+ "updated_unix": 1794403515,
+ "runs": 15989,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124792,
- "sent_total": 4597822,
+ "detected_total": 124795,
+ "sent_total": 4597899,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134444,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134444,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:14:29.915Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391559,
-   "owner": "",
-   "owner_addr": "0:f89dbf2ea4c67a1a61037743fb97958126f37c75c76178141bb7ad0599a9a513",
-   "mint": 1794397672,
-   "counter_issued": 391559,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:16:36.192Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391560,
-   "owner": "",
-   "owner_addr": "0:becf2b95b5f4977777def1797e2fdbbc8930071f769762866ce18ae69c9cf091",
-   "mint": 1794398052,
-   "counter_issued": 391560,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T12:16:36.192Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:22:03.862Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-11T13:22:12.606Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270270,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270270,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:24:11.389Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270271,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270271,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:24:11.389Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270272,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270272,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-11T13:24:11.389Z",
    "t": 1
   }
  ]
