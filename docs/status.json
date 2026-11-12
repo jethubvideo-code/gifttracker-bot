@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T10:41:42.564Z",
- "updated_unix": 1794480102,
- "runs": 16108,
+ "updated": "2026-11-12T10:42:43.184Z",
+ "updated_unix": 1794480163,
+ "runs": 16109,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 125929,
- "sent_total": 4678982,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 125930,
+ "sent_total": 4679054,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181092,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181092,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:36:39.328Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:41:39.919Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391608,
+   "owner": "",
+   "owner_addr": "0:98891852c47cd0bee2559002ed2495fcec02239bf8c2a77eeaa93827b38fa638",
+   "mint": 1794479821,
+   "counter_issued": 391608,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:42:40.703Z",
    "t": 1
   }
  ]
