@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T07:37:11.276Z",
- "updated_unix": 1794469031,
- "runs": 16089,
+ "updated": "2026-11-12T07:42:10.373Z",
+ "updated_unix": 1794469330,
+ "runs": 16090,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 125675,
- "sent_total": 4660757,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 125676,
+ "sent_total": 4660829,
  "last_upgrades": [
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 152383,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 152383,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T07:20:08.705Z",
-   "t": 3
-  },
   {
    "slug": "GingerCookie",
    "gift": "GingerCookie",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T07:37:06.244Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T07:37:09.683Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84597,
+   "owner": "",
+   "owner_addr": "0:e8c2a93f2044666a1db7d25b46d6d7cc5e21efa47e39471b6eddd710227d4a91",
+   "mint": 1794461514,
+   "counter_issued": 84597,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T07:42:08.535Z",
    "t": 1
   }
  ]
