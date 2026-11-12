@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T04:14:49.396Z",
- "updated_unix": 1794456889,
- "runs": 16075,
+ "updated": "2026-11-12T04:35:47.778Z",
+ "updated_unix": 1794458147,
+ "runs": 16076,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125286,
- "sent_total": 4632747,
+ "detected_total": 125287,
+ "sent_total": 4632820,
  "last_upgrades": [
-  {
-   "slug": "FreshSocks",
-   "gift": "FreshSocks",
-   "number": 166806,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 166806,
-   "counter_total": 200509,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T03:10:09.231Z",
-   "t": 3
-  },
   {
    "slug": "FreshSocks",
    "gift": "FreshSocks",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T04:14:32.138Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T04:14:32.138Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T04:14:39.972Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T04:14:47.679Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443794,
+   "owner": "a_b_3.t.me",
+   "owner_addr": "0:0bfadb0242a7e936e96fa8195231a7eb90269991aafe8d6374d363ce2ca7f83f",
+   "mint": 1794456546,
+   "counter_issued": 443794,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T04:35:46.087Z",
    "t": 1
   }
  ]
