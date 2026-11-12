@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T11:52:22.088Z",
- "updated_unix": 1794484342,
- "runs": 16120,
+ "updated": "2026-11-12T11:53:18.929Z",
+ "updated_unix": 1794484398,
+ "runs": 16121,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 125983,
- "sent_total": 4682729,
+ "detected_total": 125984,
+ "sent_total": 4682801,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78512,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794427517,
-   "counter_issued": 78512,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:52:18.514Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85395,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85395,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:53:15.459Z",
    "t": 1
   }
  ]
