@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T01:41:14.715Z",
- "updated_unix": 1794447674,
- "runs": 16062,
+ "updated": "2026-11-12T01:53:14.752Z",
+ "updated_unix": 1794448394,
+ "runs": 16063,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124990,
- "sent_total": 4611158,
+ "detected_total": 124991,
+ "sent_total": 4611231,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74813,
-   "owner": "",
-   "owner_addr": "0:86102d246fb3d0d45416684833a0356d19148367c76eb4d0f0036870769c3f49",
-   "mint": 1794421549,
-   "counter_issued": 74813,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T01:15:28.367Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:41:12.617Z",
+   "t": 3
+  },
+  {
+   "slug": "GemSignet",
+   "gift": "Gem Signet",
+   "number": 6264,
+   "owner": "",
+   "owner_addr": "0:7ab7a9c78ee5c12fad84e43a7529c3330acab4129bf7e86d711da40d73d5182b",
+   "mint": 1794337876,
+   "counter_issued": 6264,
+   "counter_total": 6962,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T01:53:12.730Z",
    "t": 1
   }
  ]
