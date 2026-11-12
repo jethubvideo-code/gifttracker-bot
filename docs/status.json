@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T04:49:48.639Z",
- "updated_unix": 1794458988,
- "runs": 16077,
+ "updated": "2026-11-12T05:11:12.494Z",
+ "updated_unix": 1794460272,
+ "runs": 16078,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125288,
- "sent_total": 4632893,
+ "detected_total": 125290,
+ "sent_total": 4633037,
  "last_upgrades": [
-  {
-   "slug": "FreshSocks",
-   "gift": "FreshSocks",
-   "number": 166808,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 166808,
-   "counter_total": 200509,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T03:10:09.231Z",
-   "t": 3
-  },
-  {
-   "slug": "FreshSocks",
-   "gift": "FreshSocks",
-   "number": 166809,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 166809,
-   "counter_total": 200509,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T03:10:09.231Z",
-   "t": 3
-  },
   {
    "slug": "FreshSocks",
    "gift": "FreshSocks",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T04:49:47.130Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391598,
+   "owner": "",
+   "owner_addr": "0:1c0e61f14c6788fabb42c1993baf74ae7acc29fefce2884cce31e9f52507904e",
+   "mint": 1794458596,
+   "counter_issued": 391598,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T05:11:07.934Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391599,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794459891,
+   "counter_issued": 391599,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T05:11:07.934Z",
    "t": 1
   }
  ]
