@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T10:09:42.526Z",
- "updated_unix": 1794478182,
- "runs": 16102,
+ "updated": "2026-11-12T10:11:39.921Z",
+ "updated_unix": 1794478299,
+ "runs": 16103,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 125922,
- "sent_total": 4678540,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 125923,
+ "sent_total": 4678612,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181085,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181085,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:09:39.590Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134488,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134488,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:11:37.221Z",
    "t": 1
   }
  ]
