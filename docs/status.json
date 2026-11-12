@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T02:21:40.821Z",
- "updated_unix": 1794450100,
- "runs": 16065,
+ "updated": "2026-11-12T02:53:05.501Z",
+ "updated_unix": 1794451985,
+ "runs": 16066,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124993,
- "sent_total": 4611377,
+ "detected_total": 124994,
+ "sent_total": 4611431,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109266,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109266,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T01:15:57.405Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T02:21:38.858Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270305,
+   "owner": "tonvetonweb.ton",
+   "owner_addr": "0:36e46d5a0308b8d98a12c5ea9617b8898e45f22cb96769646fa369a30e5fc4e1",
+   "mint": 1794446028,
+   "counter_issued": 270305,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T02:52:50.790Z",
    "t": 1
   }
  ]
