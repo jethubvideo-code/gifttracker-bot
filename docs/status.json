@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T11:39:24.096Z",
- "updated_unix": 1794483564,
- "runs": 16117,
+ "updated": "2026-11-12T11:41:19.012Z",
+ "updated_unix": 1794483679,
+ "runs": 16118,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 125980,
- "sent_total": 4682513,
+ "detected_total": 125981,
+ "sent_total": 4682585,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78509,
-   "owner": "",
-   "owner_addr": "0:f2057398a2bca3d9a0df812a3f40e9b7006ee3e421637f10faa279de983feaa4",
-   "mint": 1794422673,
-   "counter_issued": 78509,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:19:14.126Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:39:13.878Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:39:20.121Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134492,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134492,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:41:15.414Z",
    "t": 1
   }
  ]
