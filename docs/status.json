@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-12T12:56:40.073Z",
- "updated_unix": 1794488200,
- "runs": 16126,
+ "updated": "2026-11-12T12:57:39.607Z",
+ "updated_unix": 1794488259,
+ "runs": 16127,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126072,
- "sent_total": 4689075,
+ "detected_total": 126075,
+ "sent_total": 4689291,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227817,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227817,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 1
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227818,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227818,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 1
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227819,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227819,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 1
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -62,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T12:55:39.420Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HappyBrownie",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T12:56:34.493Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T12:56:34.493Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90768,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90768,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T12:57:33.081Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90769,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90769,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T12:57:33.081Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90770,
+   "owner": "",
+   "owner_addr": "0:0c1a3b9f31b0f24a3dad6fb2d38e99366cc0d018dabf16e06b16ff736f35fd21",
+   "mint": 1794487767,
+   "counter_issued": 90770,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T12:57:33.081Z",
    "t": 1
   }
  ]
