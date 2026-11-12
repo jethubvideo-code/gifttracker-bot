@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T08:12:30.179Z",
- "updated_unix": 1794471150,
- "runs": 16093,
+ "updated": "2026-11-12T08:13:25.596Z",
+ "updated_unix": 1794471205,
+ "runs": 16094,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125682,
- "sent_total": 4661261,
+ "detected_total": 125683,
+ "sent_total": 4661333,
  "last_upgrades": [
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 152390,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 152390,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T07:20:08.705Z",
-   "t": 3
-  },
   {
    "slug": "GingerCookie",
    "gift": "GingerCookie",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T08:12:23.664Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T08:12:23.664Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T08:12:23.664Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90763,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90763,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T08:13:23.632Z",
    "t": 1
   }
  ]
