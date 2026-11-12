@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T15:48:26.780Z",
- "updated_unix": 1794498506,
- "runs": 16144,
+ "updated": "2026-11-12T15:49:29.418Z",
+ "updated_unix": 1794498569,
+ "runs": 16145,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126110,
- "sent_total": 4691715,
+ "detected_total": 126111,
+ "sent_total": 4691787,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391616,
-   "owner": "",
-   "owner_addr": "0:453e3ee3ff69e214c83d9d2ed6464cb4a75b89467d026a69601184cdabc1fcba",
-   "mint": 1794489789,
-   "counter_issued": 391616,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T14:02:37.214Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:48:24.420Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391624,
+   "owner": "capybarov.ton",
+   "owner_addr": "0:7ebe7df23e9ec3abb51fd6d55113e3ff02ff6ac696b409f53fc7c5d0e8c6178d",
+   "mint": 1794498377,
+   "counter_issued": 391624,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T15:49:26.993Z",
    "t": 1
   }
  ]
