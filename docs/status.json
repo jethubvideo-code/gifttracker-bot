@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-12T20:29:38.160Z",
- "updated_unix": 1794515378,
- "runs": 16181,
+ "updated": "2026-11-12T20:31:17.254Z",
+ "updated_unix": 1794515477,
+ "runs": 16182,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126388,
- "sent_total": 4710186,
+ "detected_total": 126392,
+ "sent_total": 4710474,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270338,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270338,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T18:56:00.455Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270339,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270339,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T18:56:00.455Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270340,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270340,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T18:56:00.455Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270341,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270341,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T18:56:00.455Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -328,7 +272,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T19:53:25.088Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -427,6 +371,62 @@
    "sent": 0,
    "time": "2026-11-12T20:28:51.691Z",
    "u": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134508,
+   "owner": "",
+   "owner_addr": "0:9f507ded7b73c73fca41bf346e365a978026f12ecd28bc89b8fec29eea80a316",
+   "mint": 1794515410,
+   "counter_issued": 134508,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T20:30:51.558Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443817,
+   "owner": "",
+   "owner_addr": "0:df27dce20c758c90f302938539f8193fa7feb201f01b9758489490eae1cf1e7e",
+   "mint": 1794515128,
+   "counter_issued": 443817,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T20:31:02.534Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443818,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794515139,
+   "counter_issued": 443818,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T20:31:02.534Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443819,
+   "owner": "",
+   "owner_addr": "0:2352d5c45f03924d8f4432a045497306b4a8c6e7383666b053ba11cdadbf2efc",
+   "mint": 1794515399,
+   "counter_issued": 443819,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T20:31:02.534Z",
+   "t": 1
   }
  ]
 }
