@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T15:16:57.663Z",
- "updated_unix": 1794496617,
- "runs": 16141,
+ "updated": "2026-11-12T15:24:03.853Z",
+ "updated_unix": 1794497043,
+ "runs": 16142,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126101,
- "sent_total": 4691099,
+ "detected_total": 126103,
+ "sent_total": 4691243,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391615,
-   "owner": "",
-   "owner_addr": "0:e6029447ffd21fc628f63ab069ef95b3a7c55c5bc3292f490dabb29f6ffc608f",
-   "mint": 1794488126,
-   "counter_issued": 391615,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:56:34.493Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90768,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90768,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:57:33.081Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:16:55.385Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85396,
+   "owner": "",
+   "owner_addr": "0:4f8ec63da293184fabdf12c1f1676af938aed6fcdf0b28d3bf7c6306e93ce507",
+   "mint": 1794488964,
+   "counter_issued": 85396,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T15:23:58.602Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85397,
+   "owner": "",
+   "owner_addr": "0:8ae41705d0b21b51c5b04e1779d8547420e42107c158f9b9bb01623340d8ed74",
+   "mint": 1794492904,
+   "counter_issued": 85397,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T15:23:58.602Z",
    "t": 1
   }
  ]
