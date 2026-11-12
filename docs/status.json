@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T18:14:59.167Z",
- "updated_unix": 1794507299,
- "runs": 16165,
+ "updated": "2026-11-12T18:25:00.633Z",
+ "updated_unix": 1794507900,
+ "runs": 16166,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126335,
- "sent_total": 4707368,
+ "detected_total": 126336,
+ "sent_total": 4707440,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 186245,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 186245,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T17:21:50.941Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T18:14:52.127Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108802,
+   "owner": "",
+   "owner_addr": "0:e9215af562c7d6602e8cd8fd529c95513595fb0819f143af7368f49f887a5cde",
+   "mint": 1794507590,
+   "counter_issued": 108802,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T18:24:53.980Z",
    "t": 1
   }
  ]
