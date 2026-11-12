@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T18:45:56.509Z",
- "updated_unix": 1794509156,
- "runs": 16168,
+ "updated": "2026-11-12T18:46:58.787Z",
+ "updated_unix": 1794509218,
+ "runs": 16169,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126342,
- "sent_total": 4707872,
+ "detected_total": 126343,
+ "sent_total": 4707944,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 186252,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 186252,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T17:21:50.941Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T18:45:53.207Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232372,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794506979,
+   "counter_issued": 232372,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T18:46:55.590Z",
    "t": 1
   }
  ]
