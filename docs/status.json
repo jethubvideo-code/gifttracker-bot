@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T14:35:43.672Z",
- "updated_unix": 1794494143,
- "runs": 16134,
+ "updated": "2026-11-12T14:44:45.012Z",
+ "updated_unix": 1794494685,
+ "runs": 16135,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126089,
- "sent_total": 4690298,
+ "detected_total": 126090,
+ "sent_total": 4690370,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227834,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227834,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:18:43.674Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:35:39.429Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:35:39.429Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164142,
+   "owner": "",
+   "owner_addr": "0:6a823e67c88ffbffe1a5f4e4d9ac0972ce1f104ef4349d734854c6908f73fe3c",
+   "mint": 1794494203,
+   "counter_issued": 164142,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:44:41.787Z",
    "t": 1
   }
  ]
