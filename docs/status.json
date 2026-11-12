@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T22:14:44.550Z",
- "updated_unix": 1794521684,
- "runs": 16193,
+ "updated": "2026-11-12T22:20:46.846Z",
+ "updated_unix": 1794522046,
+ "runs": 16194,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126472,
- "sent_total": 4715816,
+ "detected_total": 126473,
+ "sent_total": 4715888,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90782,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90782,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T20:39:58.170Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T21:47:52.773Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T22:14:40.377Z",
+   "t": 3
+  },
+  {
+   "slug": "MiniOscar",
+   "gift": "Mini Oscar",
+   "number": 4896,
+   "owner": "",
+   "owner_addr": "0:3ed66b617cda41d4b0c7a6f27da4ec000a15bc635e020851b6544d942437eb25",
+   "mint": 1794516499,
+   "counter_issued": 4896,
+   "counter_total": 5614,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T22:20:43.173Z",
    "t": 1
   }
  ]
