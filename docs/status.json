@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T16:02:37.410Z",
- "updated_unix": 1794499357,
- "runs": 16149,
+ "updated": "2026-11-12T16:04:37.385Z",
+ "updated_unix": 1794499477,
+ "runs": 16150,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126117,
- "sent_total": 4692219,
+ "detected_total": 126118,
+ "sent_total": 4692290,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391620,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391620,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T14:35:39.429Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T16:02:34.763Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13024,
+   "owner": "",
+   "owner_addr": "0:12c1a5deb98b4e1273ae7430589576dd0c98ffb3755d18e900875e8f9b54664b",
+   "mint": 1794477207,
+   "counter_issued": 13024,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T16:04:35.064Z",
    "t": 1
   }
  ]
