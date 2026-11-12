@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T11:08:18.523Z",
- "updated_unix": 1794481698,
- "runs": 16114,
+ "updated": "2026-11-12T11:11:21.584Z",
+ "updated_unix": 1794481881,
+ "runs": 16115,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125976,
- "sent_total": 4682225,
+ "detected_total": 125977,
+ "sent_total": 4682297,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78505,
-   "owner": "",
-   "owner_addr": "0:f3189cacb842318431f06691816d8bc5c68d5d9f31709fde57cca867350bcabc",
-   "mint": 1794410138,
-   "counter_issued": 78505,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:08:10.337Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90766,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794480220,
+   "counter_issued": 90766,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:11:13.869Z",
    "t": 1
   }
  ]
