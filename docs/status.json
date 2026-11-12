@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T18:46:58.787Z",
- "updated_unix": 1794509218,
- "runs": 16169,
+ "updated": "2026-11-12T18:48:58.932Z",
+ "updated_unix": 1794509338,
+ "runs": 16170,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 126343,
- "sent_total": 4707944,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 126344,
+ "sent_total": 4708016,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 186253,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 186253,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T17:21:50.941Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T18:46:55.590Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443814,
+   "owner": "",
+   "owner_addr": "0:152d5c46dedcecd389723b42769bb2bd2dbd09840d6d814cd1c633fd2f1b8fd0",
+   "mint": 1794508539,
+   "counter_issued": 443814,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T18:48:55.623Z",
    "t": 1
   }
  ]
