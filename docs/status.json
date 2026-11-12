@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T05:11:12.494Z",
- "updated_unix": 1794460272,
- "runs": 16078,
+ "updated": "2026-11-12T05:17:15.538Z",
+ "updated_unix": 1794460635,
+ "runs": 16079,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 125290,
- "sent_total": 4633037,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 125291,
+ "sent_total": 4633109,
  "last_upgrades": [
-  {
-   "slug": "FreshSocks",
-   "gift": "FreshSocks",
-   "number": 166810,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 166810,
-   "counter_total": 200509,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T03:10:09.231Z",
-   "t": 3
-  },
   {
    "slug": "FreshSocks",
    "gift": "FreshSocks",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T04:49:47.130Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T05:11:07.934Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T05:11:07.934Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90761,
+   "owner": "",
+   "owner_addr": "0:1c0e61f14c6788fabb42c1993baf74ae7acc29fefce2884cce31e9f52507904e",
+   "mint": 1794458036,
+   "counter_issued": 90761,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T05:17:13.078Z",
    "t": 1
   }
  ]
