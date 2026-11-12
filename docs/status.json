@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T10:11:39.921Z",
- "updated_unix": 1794478299,
- "runs": 16103,
+ "updated": "2026-11-12T10:12:42.080Z",
+ "updated_unix": 1794478362,
+ "runs": 16104,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 125923,
- "sent_total": 4678612,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 125924,
+ "sent_total": 4678684,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181086,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181086,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:11:37.221Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117681,
+   "owner": "",
+   "owner_addr": "0:09338db87fe5f86686e9e1e72cc9ccb1b152732c401d1da6dc850305e5ea3453",
+   "mint": 1794476777,
+   "counter_issued": 117681,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:12:39.736Z",
    "t": 1
   }
  ]
