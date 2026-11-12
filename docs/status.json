@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T01:18:15.908Z",
- "updated_unix": 1794446295,
- "runs": 16060,
+ "updated": "2026-11-12T01:23:18.942Z",
+ "updated_unix": 1794446598,
+ "runs": 16061,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124988,
- "sent_total": 4611012,
+ "detected_total": 124989,
+ "sent_total": 4611085,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33095,
-   "owner": "",
-   "owner_addr": "0:544c13e0b77c38ab1caf927c812b778b9d77eddea9ec441611006ecaeef74b72",
-   "mint": 1794442344,
-   "counter_issued": 33095,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T01:15:01.778Z",
-   "t": 1
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:15:28.367Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:15:28.367Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:15:28.367Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:15:57.405Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:18:13.434Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443791,
+   "owner": "tonvetonweb.ton",
+   "owner_addr": "0:36e46d5a0308b8d98a12c5ea9617b8898e45f22cb96769646fa369a30e5fc4e1",
+   "mint": 1794446002,
+   "counter_issued": 443791,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T01:23:16.074Z",
    "t": 1
   }
  ]
