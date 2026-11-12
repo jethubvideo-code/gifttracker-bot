@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T22:20:46.846Z",
- "updated_unix": 1794522046,
- "runs": 16194,
+ "updated": "2026-11-12T22:25:48.949Z",
+ "updated_unix": 1794522348,
+ "runs": 16195,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126473,
- "sent_total": 4715888,
+ "detected_total": 126474,
+ "sent_total": 4715960,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391642,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391642,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T20:43:02.768Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T22:20:43.173Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33104,
+   "owner": "",
+   "owner_addr": "0:01a493c76aa5d29c511a168b664182d93fc7a509abdc4a925301ce3ae5ec1e0a",
+   "mint": 1794521074,
+   "counter_issued": 33104,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T22:25:45.417Z",
    "t": 1
   }
  ]
