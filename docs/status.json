@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T11:19:21.353Z",
- "updated_unix": 1794482361,
- "runs": 16116,
+ "updated": "2026-11-12T11:39:24.096Z",
+ "updated_unix": 1794483564,
+ "runs": 16117,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 125978,
- "sent_total": 4682369,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 125980,
+ "sent_total": 4682513,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78507,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794419116,
-   "counter_issued": 78507,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78508,
-   "owner": "",
-   "owner_addr": "0:f2057398a2bca3d9a0df812a3f40e9b7006ee3e421637f10faa279de983feaa4",
-   "mint": 1794422657,
-   "counter_issued": 78508,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:19:14.126Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391611,
+   "owner": "",
+   "owner_addr": "0:5cafb67c716501d0d5e87085365f7afead031d199ea9e70c8439e9edf8f2b0dd",
+   "mint": 1794482621,
+   "counter_issued": 391611,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:39:13.878Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90767,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90767,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:39:20.121Z",
    "t": 1
   }
  ]
