@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T15:46:52.292Z",
- "updated_unix": 1794498412,
- "runs": 16143,
+ "updated": "2026-11-12T15:48:26.780Z",
+ "updated_unix": 1794498506,
+ "runs": 16144,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126109,
- "sent_total": 4691643,
+ "detected_total": 126110,
+ "sent_total": 4691715,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90771,
-   "owner": "",
-   "owner_addr": "0:710b0d32077e5c76e26d08095e436af343ee171e260ee1b8eb2c62b096823944",
-   "mint": 1794490175,
-   "counter_issued": 90771,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T14:00:35.524Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -328,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:23:58.602Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:23:58.602Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:46:19.821Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:46:19.821Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:46:30.201Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:46:36.647Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:46:36.647Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T15:46:36.647Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90774,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90774,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T15:48:24.420Z",
    "t": 1
   }
  ]
