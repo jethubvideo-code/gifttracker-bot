@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T18:48:58.932Z",
- "updated_unix": 1794509338,
- "runs": 16170,
+ "updated": "2026-11-12T18:55:04.066Z",
+ "updated_unix": 1794509704,
+ "runs": 16171,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 126344,
- "sent_total": 4708016,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 126346,
+ "sent_total": 4708160,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 186254,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 186254,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T17:21:50.941Z",
-   "t": 3
-  },
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 186255,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 186255,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T17:21:50.941Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T18:48:55.623Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391633,
+   "owner": "",
+   "owner_addr": "0:81e43d4c35c8d4c5a5409f1814c4a05da0f4229f07c17b1cf45e6d46ca7f4a4d",
+   "mint": 1794509144,
+   "counter_issued": 391633,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T18:54:57.159Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391634,
+   "owner": "",
+   "owner_addr": "0:81e43d4c35c8d4c5a5409f1814c4a05da0f4229f07c17b1cf45e6d46ca7f4a4d",
+   "mint": 1794509492,
+   "counter_issued": 391634,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T18:54:57.159Z",
    "t": 1
   }
  ]
