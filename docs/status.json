@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T10:12:42.080Z",
- "updated_unix": 1794478362,
- "runs": 16104,
+ "updated": "2026-11-12T10:28:44.713Z",
+ "updated_unix": 1794479324,
+ "runs": 16105,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125924,
- "sent_total": 4678684,
+ "detected_total": 125926,
+ "sent_total": 4678828,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181087,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181087,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181088,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181088,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:12:39.736Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108797,
+   "owner": "",
+   "owner_addr": "0:1c0e61f14c6788fabb42c1993baf74ae7acc29fefce2884cce31e9f52507904e",
+   "mint": 1794458300,
+   "counter_issued": 108797,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:28:40.453Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108798,
+   "owner": "wewillalldie.ton",
+   "owner_addr": "0:8ed3894a77fa85690c777805418c73b1989d907af98c70ca160bb2d3d62cd688",
+   "mint": 1794466827,
+   "counter_issued": 108798,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:28:40.453Z",
    "t": 1
   }
  ]
