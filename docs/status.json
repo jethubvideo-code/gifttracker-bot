@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T14:16:48.623Z",
- "updated_unix": 1794493008,
- "runs": 16132,
+ "updated": "2026-11-12T14:18:45.781Z",
+ "updated_unix": 1794493125,
+ "runs": 16133,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126086,
- "sent_total": 4690082,
+ "detected_total": 126087,
+ "sent_total": 4690154,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227831,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227831,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:16:46.379Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90772,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90772,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:18:43.674Z",
    "t": 1
   }
  ]
