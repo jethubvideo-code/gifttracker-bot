@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T01:03:59.123Z",
- "updated_unix": 1794445439,
- "runs": 16057,
+ "updated": "2026-11-12T01:08:58.034Z",
+ "updated_unix": 1794445738,
+ "runs": 16058,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124953,
- "sent_total": 4608457,
+ "detected_total": 124954,
+ "sent_total": 4608530,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270299,
-   "owner": "",
-   "owner_addr": "0:580ffbbb0826800cdb03a22c12c14c056b31d164efd36c845bd7681f401a029a",
-   "mint": 1794435158,
-   "counter_issued": 270299,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-11T22:25:08.561Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T00:35:57.651Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:03:55.153Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84596,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84596,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T01:08:54.302Z",
    "t": 1
   }
  ]
