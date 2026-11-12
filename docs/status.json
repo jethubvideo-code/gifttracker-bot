@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T14:52:56.600Z",
- "updated_unix": 1794495176,
- "runs": 16139,
+ "updated": "2026-11-12T15:11:00.572Z",
+ "updated_unix": 1794496260,
+ "runs": 16140,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126099,
- "sent_total": 4690956,
+ "detected_total": 126100,
+ "sent_total": 4691028,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227844,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227844,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:52:53.948Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391622,
+   "owner": "",
+   "owner_addr": "0:e228bfd1445039aa50fc8516113eb9272a2281c8cb5aa7756a00fb0eb7de59b8",
+   "mint": 1794495055,
+   "counter_issued": 391622,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T15:10:58.082Z",
    "t": 1
   }
  ]
