@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T11:47:19.115Z",
- "updated_unix": 1794484039,
- "runs": 16119,
+ "updated": "2026-11-12T11:52:22.088Z",
+ "updated_unix": 1794484342,
+ "runs": 16120,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 125982,
- "sent_total": 4682657,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 125983,
+ "sent_total": 4682729,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78511,
-   "owner": "",
-   "owner_addr": "0:c034451a71434839c014f6f4b62f0e1ee4f87544dcc2739f7a515c8ead11f8ab",
-   "mint": 1794426317,
-   "counter_issued": 78511,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:47:15.574Z",
+   "t": 3
+  },
+  {
+   "slug": "AstralShard",
+   "gift": "Astral Shard",
+   "number": 5711,
+   "owner": "",
+   "owner_addr": "0:133ad8530f11e53d92deccd7df0fce5aa96edcce3c9b37280c57fd2986dafcff",
+   "mint": 1794420857,
+   "counter_issued": 5711,
+   "counter_total": 6196,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:52:18.514Z",
    "t": 1
   }
  ]
