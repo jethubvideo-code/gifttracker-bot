@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T01:53:14.752Z",
- "updated_unix": 1794448394,
- "runs": 16063,
+ "updated": "2026-11-12T02:14:31.419Z",
+ "updated_unix": 1794449671,
+ "runs": 16064,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 124991,
- "sent_total": 4611231,
+ "detected_total": 124992,
+ "sent_total": 4611304,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74814,
-   "owner": "",
-   "owner_addr": "0:f11278e201b2ee30341165891e46d6ed3b0a1c3641f3955bef5995be4d02ea21",
-   "mint": 1794430947,
-   "counter_issued": 74814,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T01:15:28.367Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T01:53:12.730Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443792,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443792,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T02:14:29.183Z",
    "t": 1
   }
  ]
