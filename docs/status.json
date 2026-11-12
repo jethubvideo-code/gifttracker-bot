@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T07:42:10.373Z",
- "updated_unix": 1794469330,
- "runs": 16090,
+ "updated": "2026-11-12T08:07:31.553Z",
+ "updated_unix": 1794470851,
+ "runs": 16091,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 125676,
- "sent_total": 4660829,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 125678,
+ "sent_total": 4660973,
  "last_upgrades": [
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 152384,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 152384,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T07:20:08.705Z",
-   "t": 3
-  },
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 152385,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 152385,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T07:20:08.705Z",
-   "t": 3
-  },
   {
    "slug": "GingerCookie",
    "gift": "GingerCookie",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T07:42:08.535Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443797,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1794466776,
+   "counter_issued": 443797,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T08:07:27.219Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443798,
+   "owner": "",
+   "owner_addr": "0:8e7260d02ac1c2b4c26a5a0243da32083201f5c29f95eeefec2867f1a17b6f19",
+   "mint": 1794469813,
+   "counter_issued": 443798,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T08:07:27.219Z",
    "t": 1
   }
  ]
