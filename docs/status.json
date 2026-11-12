@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T10:37:06.004Z",
- "updated_unix": 1794479826,
- "runs": 16107,
+ "updated": "2026-11-12T10:41:42.564Z",
+ "updated_unix": 1794480102,
+ "runs": 16108,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 125928,
- "sent_total": 4678910,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 125929,
+ "sent_total": 4678982,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181091,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181091,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:36:39.328Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90765,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90765,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:41:39.919Z",
    "t": 1
   }
  ]
