@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-12T14:00:37.716Z",
- "updated_unix": 1794492037,
- "runs": 16130,
+ "updated": "2026-11-12T14:02:49.938Z",
+ "updated_unix": 1794492169,
+ "runs": 16131,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126080,
- "sent_total": 4689651,
+ "detected_total": 126085,
+ "sent_total": 4690010,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227825,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227825,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227826,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227826,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227827,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227827,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227828,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227828,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227829,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227829,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T13:26:05.186Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:00:27.154Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:00:27.154Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:00:35.524Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391616,
+   "owner": "",
+   "owner_addr": "0:453e3ee3ff69e214c83d9d2ed6464cb4a75b89467d026a69601184cdabc1fcba",
+   "mint": 1794489789,
+   "counter_issued": 391616,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:02:37.214Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391617,
+   "owner": "",
+   "owner_addr": "0:7e3b928e4e2f56dee76f22fbca0a4c353e5b1b19e145d6b9a86ffb37b7d52199",
+   "mint": 1794491392,
+   "counter_issued": 391617,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:02:37.214Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391618,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794491905,
+   "counter_issued": 391618,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:02:37.214Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391619,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794491911,
+   "counter_issued": 391619,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:02:37.214Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134494,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134494,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:02:48.037Z",
    "t": 1
   }
  ]
