@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T19:26:17.725Z",
- "updated_unix": 1794511577,
- "runs": 16177,
+ "updated": "2026-11-12T19:28:17.970Z",
+ "updated_unix": 1794511697,
+ "runs": 16178,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126378,
- "sent_total": 4709514,
+ "detected_total": 126379,
+ "sent_total": 4709586,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270328,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270328,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T18:56:00.455Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T19:26:13.086Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90779,
+   "owner": "nevron-garant.ton",
+   "owner_addr": "0:ab51e541b78928d83c831452276cab4f522d5d87e4bfd0628c9b17e315af841a",
+   "mint": 1794510455,
+   "counter_issued": 90779,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T19:28:13.668Z",
    "t": 1
   }
  ]
