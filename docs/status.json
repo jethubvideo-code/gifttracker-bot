@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T09:23:15.610Z",
- "updated_unix": 1794475395,
- "runs": 16098,
+ "updated": "2026-11-12T09:35:18.272Z",
+ "updated_unix": 1794476118,
+ "runs": 16099,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125697,
- "sent_total": 4662341,
+ "detected_total": 125698,
+ "sent_total": 4662413,
  "last_upgrades": [
-  {
-   "slug": "GingerCookie",
-   "gift": "GingerCookie",
-   "number": 152405,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 152405,
-   "counter_total": 188888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T07:20:08.705Z",
-   "t": 3
-  },
   {
    "slug": "GingerCookie",
    "gift": "GingerCookie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T09:23:13.861Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23144,
+   "owner": "",
+   "owner_addr": "0:3770e6c1831068b693923e76d74d0660db45546d41ed20bb52f4cc48ff05f286",
+   "mint": 1794447003,
+   "counter_issued": 23144,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T09:35:16.477Z",
    "t": 1
   }
  ]
