@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T17:33:34.892Z",
- "updated_unix": 1794504814,
- "runs": 16159,
+ "updated": "2026-11-12T17:39:35.015Z",
+ "updated_unix": 1794505175,
+ "runs": 16160,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126322,
- "sent_total": 4706776,
+ "detected_total": 126323,
+ "sent_total": 4706848,
  "last_upgrades": [
-  {
-   "slug": "SpringBasket",
-   "gift": "SpringBasket",
-   "number": 186232,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 186232,
-   "counter_total": 231311,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T17:21:50.941Z",
-   "t": 3
-  },
   {
    "slug": "SpringBasket",
    "gift": "SpringBasket",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T17:33:23.219Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T17:33:23.219Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T17:33:23.219Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T17:33:32.430Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391631,
+   "owner": "",
+   "owner_addr": "0:6b743124fad9a8afe181d7708df1954b8e40ce7e45619a5e1c380d724259a9fe",
+   "mint": 1794504188,
+   "counter_issued": 391631,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T17:39:32.599Z",
    "t": 1
   }
  ]
