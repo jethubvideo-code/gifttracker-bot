@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T22:29:48.090Z",
- "updated_unix": 1794522588,
- "runs": 16198,
+ "updated": "2026-11-12T22:33:46.632Z",
+ "updated_unix": 1794522826,
+ "runs": 16199,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126481,
- "sent_total": 4716464,
+ "detected_total": 126482,
+ "sent_total": 4716536,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85402,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85402,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T21:11:23.319Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T22:29:44.498Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391646,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391646,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T22:33:43.587Z",
    "t": 1
   }
  ]
