@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T11:53:18.929Z",
- "updated_unix": 1794484398,
- "runs": 16121,
+ "updated": "2026-11-12T11:54:26.694Z",
+ "updated_unix": 1794484466,
+ "runs": 16122,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 125984,
- "sent_total": 4682801,
+ "detected_total": 125986,
+ "sent_total": 4682945,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78513,
-   "owner": "",
-   "owner_addr": "0:da8e1cef273f74c99ea096767aff101bbbb4111906c1b66fdc566fcbadd6e7c8",
-   "mint": 1794433184,
-   "counter_issued": 78513,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78514,
-   "owner": "",
-   "owner_addr": "0:af8d6fb9ac0a03de321569d49615e70fa774d85fb28714de0ae09fcd62eddc4d",
-   "mint": 1794438148,
-   "counter_issued": 78514,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:49:35.614Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T11:53:15.459Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74816,
+   "owner": "",
+   "owner_addr": "0:4dd74dca534e2af3dbf2ea018c1c1339785923ea1572c3f9dd4b629de681d890",
+   "mint": 1794480046,
+   "counter_issued": 74816,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:54:19.498Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74817,
+   "owner": "",
+   "owner_addr": "0:27876810163d5816427a719e24c3a78b7aa43c83cf74b8980e05d2c143c4ecb7",
+   "mint": 1794483845,
+   "counter_issued": 74817,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T11:54:19.498Z",
    "t": 1
   }
  ]
