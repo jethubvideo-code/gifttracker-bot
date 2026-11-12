@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T05:27:21.313Z",
- "updated_unix": 1794461241,
- "runs": 16080,
+ "updated": "2026-11-12T05:47:19.219Z",
+ "updated_unix": 1794462439,
+ "runs": 16081,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125292,
- "sent_total": 4633181,
+ "detected_total": 125293,
+ "sent_total": 4633253,
  "last_upgrades": [
-  {
-   "slug": "FreshSocks",
-   "gift": "FreshSocks",
-   "number": 166812,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 166812,
-   "counter_total": 200509,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T03:10:09.231Z",
-   "t": 3
-  },
   {
    "slug": "FreshSocks",
    "gift": "FreshSocks",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T05:27:19.054Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443795,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443795,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T05:47:17.120Z",
    "t": 1
   }
  ]
