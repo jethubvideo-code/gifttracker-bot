@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T10:43:52.947Z",
- "updated_unix": 1794480232,
- "runs": 16110,
+ "updated": "2026-11-12T10:47:11.866Z",
+ "updated_unix": 1794480431,
+ "runs": 16111,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 125933,
- "sent_total": 4679270,
+ "detected_total": 125934,
+ "sent_total": 4679280,
  "last_upgrades": [
-  {
-   "slug": "MousseCake",
-   "gift": "MousseCake",
-   "number": 181096,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 181096,
-   "counter_total": 230505,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T10:04:00.736Z",
-   "t": 3
-  },
   {
    "slug": "MousseCake",
    "gift": "MousseCake",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:43:43.884Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:43:43.884Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T10:43:43.884Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270307,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270307,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T10:46:44.999Z",
    "t": 1
   }
  ]
