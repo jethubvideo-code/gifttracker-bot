@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T13:25:07.628Z",
- "updated_unix": 1794489907,
- "runs": 16128,
+ "updated": "2026-11-12T13:26:07.108Z",
+ "updated_unix": 1794489967,
+ "runs": 16129,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126076,
- "sent_total": 4689363,
+ "detected_total": 126077,
+ "sent_total": 4689435,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227821,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227821,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T12:57:33.081Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T12:57:33.081Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T12:57:33.081Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T13:25:05.437Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16993,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794427889,
+   "counter_issued": 16993,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T13:26:05.186Z",
    "t": 1
   }
  ]
