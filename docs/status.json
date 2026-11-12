@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T14:52:19.946Z",
- "updated_unix": 1794495139,
- "runs": 16138,
+ "updated": "2026-11-12T14:52:56.600Z",
+ "updated_unix": 1794495176,
+ "runs": 16139,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126098,
- "sent_total": 4690884,
+ "detected_total": 126099,
+ "sent_total": 4690956,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227843,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227843,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:52:17.243Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443805,
+   "owner": "",
+   "owner_addr": "0:dcae30902e8d5d5a63d30fea5dca9320eedf624294ca686be5da03460780a1e2",
+   "mint": 1794493287,
+   "counter_issued": 443805,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:52:53.948Z",
    "t": 1
   }
  ]
