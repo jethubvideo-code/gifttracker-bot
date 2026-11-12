@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-12T14:02:49.938Z",
- "updated_unix": 1794492169,
- "runs": 16131,
+ "updated": "2026-11-12T14:16:48.623Z",
+ "updated_unix": 1794493008,
+ "runs": 16132,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126085,
- "sent_total": 4690010,
+ "detected_total": 126086,
+ "sent_total": 4690082,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227830,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227830,
-   "counter_total": 264231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T12:55:39.420Z",
-   "t": 3
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:02:37.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:02:37.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:02:37.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:02:37.214Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T14:02:48.037Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108799,
+   "owner": "",
+   "owner_addr": "0:32dd49cef36e16b85c8af89aa3bc71881e4d95fe90f54df4cb936106d91d4a82",
+   "mint": 1794486819,
+   "counter_issued": 108799,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-12T14:16:46.379Z",
    "t": 1
   }
  ]
