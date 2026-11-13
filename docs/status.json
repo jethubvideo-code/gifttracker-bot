@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-13T17:55:03.992Z",
- "updated_unix": 1794592503,
- "runs": 16301,
+ "updated": "2026-11-13T18:16:31.624Z",
+ "updated_unix": 1794593791,
+ "runs": 16302,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127093,
- "sent_total": 4759444,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127096,
+ "sent_total": 4759660,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108812,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794578467,
-   "counter_issued": 108812,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:23:51.171Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134528,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134528,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:32:12.437Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134529,
-   "owner": "",
-   "owner_addr": "0:39ae0ad47c942bb01bb6aa0454ed446c79895e5a033c5af614779727ae6e2013",
-   "mint": 1794583071,
-   "counter_issued": 134529,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:32:12.437Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:23:08.623Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:54:57.440Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:54:57.440Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108815,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108815,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T18:16:17.651Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108816,
+   "owner": "sanguinius.ton",
+   "owner_addr": "0:fefa450deebff266eb826d6a2d3fd8d30a339183999a543c156c5a0f38fe6804",
+   "mint": 1794592081,
+   "counter_issued": 108816,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T18:16:17.651Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270396,
+   "owner": "",
+   "owner_addr": "0:6290afc3311a2bb848361bcebc77665fd061b53db092aded19ebe18490a3838a",
+   "mint": 1794591847,
+   "counter_issued": 270396,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T18:16:29.121Z",
    "t": 1
   }
  ]
