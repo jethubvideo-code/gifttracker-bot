@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T15:23:56.468Z",
- "updated_unix": 1794583436,
- "runs": 16288,
+ "updated": "2026-11-13T15:32:18.863Z",
+ "updated_unix": 1794583938,
+ "runs": 16289,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127064,
- "sent_total": 4757367,
+ "detected_total": 127066,
+ "sent_total": 4757510,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24696,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24696,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T14:55:08.044Z",
-   "t": 3
-  },
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24697,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24697,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T14:55:08.044Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:23:51.171Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:23:51.171Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134528,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134528,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T15:32:12.437Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134529,
+   "owner": "",
+   "owner_addr": "0:39ae0ad47c942bb01bb6aa0454ed446c79895e5a033c5af614779727ae6e2013",
+   "mint": 1794583071,
+   "counter_issued": 134529,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T15:32:12.437Z",
    "t": 1
   }
  ]
