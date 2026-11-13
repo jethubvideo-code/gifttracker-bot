@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-13T21:50:16.019Z",
- "updated_unix": 1794606616,
- "runs": 16317,
+ "updated": "2026-11-13T21:57:14.291Z",
+ "updated_unix": 1794607034,
+ "runs": 16318,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127124,
+ "detected_total": 127127,
  "sent_total": 4760886,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108816,
-   "owner": "sanguinius.ton",
-   "owner_addr": "0:fefa450deebff266eb826d6a2d3fd8d30a339183999a543c156c5a0f38fe6804",
-   "mint": 1794592081,
-   "counter_issued": 108816,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T18:16:17.651Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270396,
-   "owner": "",
-   "owner_addr": "0:6290afc3311a2bb848361bcebc77665fd061b53db092aded19ebe18490a3838a",
-   "mint": 1794591847,
-   "counter_issued": 270396,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T18:16:29.121Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443882,
-   "owner": "",
-   "owner_addr": "0:b4b3c8e781f04c5bb017f43f7195151700cd95388419a38f72a587fa1d9e65d4",
-   "mint": 1794593319,
-   "counter_issued": 443882,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T18:18:26.002Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -431,6 +389,48 @@
    "sent": 0,
    "time": "2026-11-13T21:48:45.249Z",
    "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443888,
+   "owner": "",
+   "owner_addr": "0:4a201871212c630962ddd3fa70bbd5dcb9b0029f30f2b51e3c4798fc9f566525",
+   "mint": 1794606700,
+   "counter_issued": 443888,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T21:52:37.571Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134537,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134537,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T21:54:12.499Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134538,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794605449,
+   "counter_issued": 134538,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T21:54:12.499Z",
+   "t": 1
   }
  ]
 }
