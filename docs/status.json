@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-13T07:44:37.224Z",
- "updated_unix": 1794555877,
- "runs": 16228,
+ "updated": "2026-11-13T07:45:41.286Z",
+ "updated_unix": 1794555941,
+ "runs": 16229,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 126600,
- "sent_total": 4724704,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 126603,
+ "sent_total": 4724920,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84606,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84606,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T03:15:10.240Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84607,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84607,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T03:15:10.240Z",
-   "t": 3
-  },
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84608,
-   "owner": "",
-   "owner_addr": "0:615d34e3a6bcd28eb8070c5307d67104d03b37cad69850dff7a5db757de95605",
-   "mint": 1794499132,
-   "counter_issued": 84608,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T03:15:10.240Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:44:28.421Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:44:34.599Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391650,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391650,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:45:33.164Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391651,
+   "owner": "",
+   "owner_addr": "0:c8a7f8d7b617fc79a2e855726b0fcd2230e21c5a170d559a8f05cb85b0b94d3c",
+   "mint": 1794552581,
+   "counter_issued": 391651,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:45:33.164Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391652,
+   "owner": "",
+   "owner_addr": "0:0c93df0a27a7027f8378c1fa29033f85e8393865daf06eb00922d1695b57029c",
+   "mint": 1794555884,
+   "counter_issued": 391652,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:45:33.164Z",
    "t": 1
   }
  ]
