@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T15:21:09.280Z",
- "updated_unix": 1794583269,
- "runs": 16285,
+ "updated": "2026-11-13T15:21:45.783Z",
+ "updated_unix": 1794583305,
+ "runs": 16286,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127054,
- "sent_total": 4756648,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127055,
+ "sent_total": 4756719,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24686,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24686,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T14:55:08.044Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:18:38.699Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:20:54.247Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:21:04.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:21:04.105Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "SleighBell",
+   "number": 23149,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 23149,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T15:21:42.801Z",
    "t": 1
   }
  ]
