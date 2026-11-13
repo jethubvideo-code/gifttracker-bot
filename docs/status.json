@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T13:50:17.788Z",
- "updated_unix": 1794577817,
- "runs": 16273,
+ "updated": "2026-11-13T14:08:08.839Z",
+ "updated_unix": 1794578888,
+ "runs": 16274,
  "collections": 123,
- "checked": 0,
- "errors": 123,
- "detected_total": 126887,
- "sent_total": 4744579,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 126889,
+ "sent_total": 4744724,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78281,
-   "owner": "",
-   "owner_addr": "0:cb2339f469f7db124658b58bd601f5175c8d490da884730fe6f48e830bf325dc",
-   "mint": 1794554104,
-   "counter_issued": 78281,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78282,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794571922,
-   "counter_issued": 78282,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-11-13T13:40:44.943Z",
    "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90794,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90794,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T14:08:02.170Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90795,
+   "owner": "",
+   "owner_addr": "0:402e8133585967e8f954d5ea897155fa6b2e3bb6debf5e035973bba01bfadd2b",
+   "mint": 1794576882,
+   "counter_issued": 90795,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T14:08:02.170Z",
+   "t": 1
   }
  ]
 }
