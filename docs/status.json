@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T05:26:25.157Z",
- "updated_unix": 1794547585,
- "runs": 16220,
+ "updated": "2026-11-13T05:27:17.087Z",
+ "updated_unix": 1794547637,
+ "runs": 16221,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126591,
- "sent_total": 4724073,
+ "detected_total": 126592,
+ "sent_total": 4724145,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109308,
-   "owner": "",
-   "owner_addr": "0:93bc5d762d36329f1e47200cdd8e035ab21b25ee451349182e604668e68aa52f",
-   "mint": 1794500476,
-   "counter_issued": 109308,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T05:26:19.552Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T05:26:19.552Z",
+   "t": 3
+  },
+  {
+   "slug": "intelligencecup",
+   "gift": "intelligencecup",
+   "number": 145,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 145,
+   "counter_total": 220,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T05:27:14.854Z",
    "t": 1
   }
  ]
