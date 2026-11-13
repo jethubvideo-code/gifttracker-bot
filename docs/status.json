@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T07:51:37.182Z",
- "updated_unix": 1794556297,
- "runs": 16232,
+ "updated": "2026-11-13T07:57:37.066Z",
+ "updated_unix": 1794556657,
+ "runs": 16233,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126606,
- "sent_total": 4725074,
+ "detected_total": 126607,
+ "sent_total": 4725146,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84612,
-   "owner": "",
-   "owner_addr": "0:36d1074bb723c1378ef152416e02227d4267ea5ff0035f5600e384e0bbce80d3",
-   "mint": 1794531786,
-   "counter_issued": 84612,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T03:15:10.240Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:51:33.839Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164145,
+   "owner": "",
+   "owner_addr": "0:75577ed41b850a01ff60a6e1213a8ad951b9c8ee33b7738cb65b23eaa703609c",
+   "mint": 1794555931,
+   "counter_issued": 164145,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:57:33.799Z",
    "t": 1
   }
  ]
