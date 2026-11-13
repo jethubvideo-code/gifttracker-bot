@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T10:07:09.782Z",
- "updated_unix": 1794564429,
- "runs": 16243,
+ "updated": "2026-11-13T10:14:34.432Z",
+ "updated_unix": 1794564874,
+ "runs": 16244,
  "collections": 123,
- "checked": 24,
- "errors": 99,
- "detected_total": 126744,
- "sent_total": 4734952,
+ "checked": 27,
+ "errors": 96,
+ "detected_total": 126745,
+ "sent_total": 4735024,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190515,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190515,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T09:32:32.039Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T10:04:47.559Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T10:07:07.743Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90787,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90787,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T10:14:31.764Z",
    "t": 1
   }
  ]
