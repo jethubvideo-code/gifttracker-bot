@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T11:14:37.311Z",
- "updated_unix": 1794568477,
- "runs": 16253,
+ "updated": "2026-11-13T11:15:39.960Z",
+ "updated_unix": 1794568539,
+ "runs": 16254,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126771,
- "sent_total": 4736820,
+ "detected_total": 126772,
+ "sent_total": 4736892,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134517,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794560087,
-   "counter_issued": 134517,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T10:01:16.713Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T11:14:34.426Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391658,
+   "owner": "",
+   "owner_addr": "0:beb94c9a82c5ac4267b9af6529bce5f0c7f47d3184417fa4c6dafd10323a06d1",
+   "mint": 1794567779,
+   "counter_issued": 391658,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T11:15:37.408Z",
    "t": 1
   }
  ]
