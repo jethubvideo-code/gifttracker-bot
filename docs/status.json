@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T10:14:34.432Z",
- "updated_unix": 1794564874,
- "runs": 16244,
+ "updated": "2026-11-13T10:18:39.346Z",
+ "updated_unix": 1794565119,
+ "runs": 16245,
  "collections": 123,
- "checked": 27,
- "errors": 96,
- "detected_total": 126745,
- "sent_total": 4735024,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 126747,
+ "sent_total": 4735167,
  "last_upgrades": [
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190516,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190516,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T09:32:32.039Z",
-   "t": 3
-  },
-  {
-   "slug": "SnakeBox",
-   "gift": "SnakeBox",
-   "number": 190517,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190517,
-   "counter_total": 273898,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T09:32:32.039Z",
-   "t": 3
-  },
   {
    "slug": "SnakeBox",
    "gift": "SnakeBox",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T10:07:07.743Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T10:14:31.764Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3984,
+   "owner": "",
+   "owner_addr": "0:08f7be45dfbc50fbae94e0f92e736f008d9ed0b235434ff59fb080b08e92d807",
+   "mint": 1794506223,
+   "counter_issued": 3984,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T10:18:35.288Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3985,
+   "owner": "",
+   "owner_addr": "0:046bda089f21dc8cc1a200c952ad82ef93fc734dafb14de2280837350c2d21e6",
+   "mint": 1794556897,
+   "counter_issued": 3985,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T10:18:35.288Z",
    "t": 1
   }
  ]
