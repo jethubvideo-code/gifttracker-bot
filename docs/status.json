@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T20:55:04.617Z",
- "updated_unix": 1794603304,
- "runs": 16315,
+ "updated": "2026-11-13T20:58:34.907Z",
+ "updated_unix": 1794603514,
+ "runs": 16316,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127121,
+ "detected_total": 127122,
  "sent_total": 4760886,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84619,
-   "owner": "",
-   "owner_addr": "0:13501ae65a035e6a1a7e7b6c482501ecf607b0d277891136d573a246f652be0b",
-   "mint": 1794587385,
-   "counter_issued": 84619,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T17:54:57.440Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -414,7 +400,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T20:51:06.684Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -428,6 +414,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T20:53:34.214Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443886,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794602645,
+   "counter_issued": 443886,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T20:57:04.520Z",
    "t": 1
   }
  ]
