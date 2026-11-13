@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T14:13:33.180Z",
- "updated_unix": 1794579213,
- "runs": 16275,
+ "updated": "2026-11-13T14:17:25.722Z",
+ "updated_unix": 1794579445,
+ "runs": 16276,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126893,
- "sent_total": 4745015,
+ "detected_total": 126894,
+ "sent_total": 4745086,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82932,
-   "owner": "",
-   "owner_addr": "0:46504364126dfdbf96cf11e47cf443904a60335463937fd7fc4ee9bffbe6b1fc",
-   "mint": 1794521774,
-   "counter_issued": 82932,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:02:57.477Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T14:13:21.685Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T14:13:21.685Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T14:13:21.685Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T14:13:21.685Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90796,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90796,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T14:17:23.542Z",
    "t": 1
   }
  ]
