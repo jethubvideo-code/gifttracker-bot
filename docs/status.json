@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T06:35:02.172Z",
- "updated_unix": 1794551702,
- "runs": 16225,
+ "updated": "2026-11-13T07:04:17.346Z",
+ "updated_unix": 1794553457,
+ "runs": 16226,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126596,
- "sent_total": 4724417,
+ "detected_total": 126597,
+ "sent_total": 4724488,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109313,
-   "owner": "",
-   "owner_addr": "0:fb05b8263e12740fed3ec8aafbb206d41c3ce0c27d289ae1b582d2323ec55d40",
-   "mint": 1794523529,
-   "counter_issued": 109313,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T06:34:59.808Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90785,
+   "owner": "",
+   "owner_addr": "0:3d34359495ad95d08867e5f053c900d6949cf2f12a221d083bddfd5361ab1fd7",
+   "mint": 1794531634,
+   "counter_issued": 90785,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:04:14.113Z",
    "t": 1
   }
  ]
