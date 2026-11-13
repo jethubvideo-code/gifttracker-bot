@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T13:07:33.858Z",
- "updated_unix": 1794575253,
- "runs": 16266,
+ "updated": "2026-11-13T13:09:27.791Z",
+ "updated_unix": 1794575367,
+ "runs": 16267,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126880,
- "sent_total": 4744138,
+ "detected_total": 126881,
+ "sent_total": 4744209,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78274,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794479658,
-   "counter_issued": 78274,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:07:19.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BowTie",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:07:19.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BowTie",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:07:19.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:07:29.855Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90793,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90793,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:09:25.944Z",
    "t": 1
   }
  ]
