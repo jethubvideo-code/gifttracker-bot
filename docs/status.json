@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-13T20:43:32.708Z",
- "updated_unix": 1794602612,
- "runs": 16312,
+ "updated": "2026-11-13T20:48:49.311Z",
+ "updated_unix": 1794602929,
+ "runs": 16313,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127116,
+ "detected_total": 127119,
  "sent_total": 4760886,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90800,
-   "owner": "",
-   "owner_addr": "0:6bf1624d0e75553d1814eef228f23a183b3c71fda40214a2e2677d616fbb0f7e",
-   "mint": 1794587014,
-   "counter_issued": 90800,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T17:04:37.725Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391677,
-   "owner": "andychan520.ton",
-   "owner_addr": "0:314f183ad49f3002964292e4325b52c1e0a0d6459f40a2a90ce77f0f0cad5d96",
-   "mint": 1794587654,
-   "counter_issued": 391677,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T17:04:45.098Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108814,
-   "owner": "",
-   "owner_addr": "0:bc9338f6e8e16da18ce4785a96539c26115eaf6ceda7f8908680a76c67ffce67",
-   "mint": 1794589264,
-   "counter_issued": 108814,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T17:04:52.333Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -409,10 +367,11 @@
    "mint": 0,
    "counter_issued": 391685,
    "counter_total": 457382,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/tdQ6y3wtAknkikTcXyL5OLpYT9c_lYEVm05njc0ZhK5s3HA4dXEXcpyPynlhaH0aplCjjmfN6c4kjxfDkh83TTmQkOpEgX_UciIQ4GHczOUqmb_CR-DP7ng5cLootyVlvojVVlYAuYXK8CsM5enXyz2wzj8VBRWgXdp40R8PYfmOfUBfa4b1KcDjwMsIzOv4Ztutk8sAUSvUByCx5OadWzGX43VTA5nCcL7pYpr0IVgsrIaslTsBiQevyFuAA0cuOwG9hAm-2yES3dDE8uLa1a89bzQcxQswT_Zb5u9NSAPURKJhaF5vsEnbamUJTViewmcPqT9T5l3Sd2CCv0i_oA.jpg",
    "sent": 0,
    "time": "2026-11-13T20:40:30.132Z",
-   "t": 1
+   "t": 1,
+   "u": 1
   },
   {
    "slug": "HolidayDrink",
@@ -423,10 +382,53 @@
    "mint": 0,
    "counter_issued": 90805,
    "counter_total": 120989,
-   "img": "",
+   "img": "https://cdn4.telesco.pe/file/v_rcxqUkKKQOk6ZvQqmoRFHyP4gfBGC2UPyOQwEAUexvPmWqGAHH9oAy8VNWZZSUlObAn83l163nZ_cId8NFIsDLp_s8tcpE8_1BFef6JKnxnWxVAmp90bfo-hfeKCIYIhcT9TAK_V7kn5ZhrUtF8JO2DAZlb5i9lLZQjR0sG3sQMwVfTKnzGQLNO3gErz1xBb97ZdlMG1I5quRxZy1dJZkH-0GMKUD6diwRq17GhdEwr00FlL_jpRbcAPmOxn_bdxy4Qd0ZoBFGhoSLAnI9VGDiCi8lJzv2qBogoO0rcDQJc7hnG8585WpPEBYSglMJo5jSdP01dKGPQlwlbP1ctA.jpg",
    "sent": 0,
    "time": "2026-11-13T20:42:02.307Z",
-   "t": 1
+   "t": 1,
+   "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443884,
+   "owner": "",
+   "owner_addr": "0:0a2ca977d4004227defc80a267419e5e47be33a6e150be74d7f8ef5dc3048521",
+   "mint": 1794600073,
+   "counter_issued": 443884,
+   "counter_total": 490553,
+   "img": "https://cdn4.telesco.pe/file/THKD-yYrVW-iQ070pgI5OFKgJycsSk8Y6kdAXPiVyW8qLKGhGAVH7VpC3J_eOKsc4aY3BiN5J7J-Z9DYxNnGB1GWaeN_2-sR0HPhiND5IvlEF4304ygO8B5mef0uKhCbU1WAHCYkBO8yaT-rwBwDBO-J7VhczFNU2U6g8XRL95AhD712ornpBkHCOSL33QwCRkR7V8eFgAyV_Y-VgdjJtfjMPy_RMjEj8yMpZ03-PQ92wHR_wbQmDpdhcuuCrZ65xzFlz6llzkZ9TsqWQdhU_aeBuNB1ygUaRqIKOOmftv07ZbbpBU5GcN5iiGB1fI62YI42XSaQnkuUuW9mn84MoA.jpg",
+   "sent": 0,
+   "time": "2026-11-13T20:44:13.865Z",
+   "u": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443885,
+   "owner": "",
+   "owner_addr": "0:2e18509db10440fd5b09a64daf4e299beec4e8a386e381c04b271f729fdd1f69",
+   "mint": 1794602645,
+   "counter_issued": 443885,
+   "counter_total": 490553,
+   "img": "https://cdn4.telesco.pe/file/hH5sIdFKfFZntnNpSorVLZAg8DElNKnm24YLcs02ogRMNvxtXrDaKvXjKYM6nNQXAs3uLrF5fO302OqRYFnJIzSlm4DWlkJE5fCjws9pVDHO5TVdWcL1liNGAXgV9YR6SWYTWlwsUzWKZx31yyikCCoYFK2ymcOD33AD9pWzbUOnL4swmEMpRtSiF_0zMdAp01_PdeM77xaxxWZUiqMtJOsDxJrID4cvtIG84yJKzZRrYtcq6H8y5F56UqxOy4wqQbY-tj0BNbH6FMw4a5DrH2UHxRbvGDZwT4C8-KPwDaftkJbbIGg0ZMoFakDi3d7wxyE-qvltQRl5_RhaUzyS1A.jpg",
+   "sent": 0,
+   "time": "2026-11-13T20:44:13.865Z",
+   "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270398,
+   "owner": "",
+   "owner_addr": "0:04c2cccd0969a479feaf0f59ed7afff0d63eddc7b2ed6d29d110748b833a06ab",
+   "mint": 1794602750,
+   "counter_issued": 270398,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/tbmxkaDKU_KYbjt3WYJW4_akW1QWmSJ89cpDGjaXeaIsDnhkg30TQTxAQGN7YLanAzGB3jgy0pOcE6abCmcnLsNmHfKax_uM_35IWWSJGhZMEJDmYP5221AltPZYAG8p_vJuNgjpI-maMJIhSqBpR_CgW8z5xROggmsq2oFjJ0Jkmpqb65JaR4QMQCr5clhabiytJh2TWZ5LBFfwtvfHy3drEmPcdI1MWjzUNGGViMyJ-kHaG7nG0V-eUpqiNkSZMw0zRyROnOpa4UaFfUxhhJZzdQNp0AbkU_cC5OkzKjZKa_nymjodGMEIb2s0LD2u1zR5m539AU5DwboYSDmJkA.jpg",
+   "sent": 0,
+   "time": "2026-11-13T20:47:18.752Z",
+   "u": 1
   }
  ]
 }
