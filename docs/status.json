@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T16:10:38.997Z",
- "updated_unix": 1794586238,
- "runs": 16296,
+ "updated": "2026-11-13T16:30:20.531Z",
+ "updated_unix": 1794587420,
+ "runs": 16297,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 127085,
- "sent_total": 4758872,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127086,
+ "sent_total": 4758944,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33112,
-   "owner": "",
-   "owner_addr": "0:96fc8c22b42c6c4ee5e7de26bb97ca5dd50b966382606a63ae838a1433e5d745",
-   "mint": 1794581142,
-   "counter_issued": 33112,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:22:44.862Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:03:15.713Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:03:15.713Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:03:15.713Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:10:36.233Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391676,
+   "owner": "wweikun.t.me",
+   "owner_addr": "0:c84b37bbfa8e2ba2c070c0dc4cfae8b7b02e2b38f43102a69661926ca1b106c4",
+   "mint": 1794585711,
+   "counter_issued": 391676,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T16:30:17.023Z",
    "t": 1
   }
  ]
