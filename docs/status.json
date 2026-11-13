@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T07:45:41.286Z",
- "updated_unix": 1794555941,
- "runs": 16229,
+ "updated": "2026-11-13T07:48:36.373Z",
+ "updated_unix": 1794556116,
+ "runs": 16230,
  "collections": 123,
- "checked": 1,
- "errors": 122,
- "detected_total": 126603,
- "sent_total": 4724920,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 126604,
+ "sent_total": 4724992,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84609,
-   "owner": "",
-   "owner_addr": "0:aac5865d0d2d15b060fa1df3ecababff2a7d5b43cb7b85dfa7b511fc5af63fbf",
-   "mint": 1794503015,
-   "counter_issued": 84609,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T03:15:10.240Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:44:28.421Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:44:34.599Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:45:33.164Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:45:33.164Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:45:33.164Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108806,
+   "owner": "",
+   "owner_addr": "0:33a5499aee9640ec2e1331209a01b641e752f377d2b66124d777fcd1360831fd",
+   "mint": 1794551011,
+   "counter_issued": 108806,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:48:34.311Z",
    "t": 1
   }
  ]
