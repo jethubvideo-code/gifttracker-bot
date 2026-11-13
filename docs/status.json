@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T17:04:55.072Z",
- "updated_unix": 1794589495,
- "runs": 16298,
+ "updated": "2026-11-13T17:12:53.815Z",
+ "updated_unix": 1794589973,
+ "runs": 16299,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127089,
- "sent_total": 4759156,
+ "detected_total": 127090,
+ "sent_total": 4759228,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84616,
-   "owner": "",
-   "owner_addr": "0:5ad0737005da0ebe04889e609e87ab871b44befb297033eee9f8ed14c21a6e4a",
-   "mint": 1794575283,
-   "counter_issued": 84616,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:22:59.218Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:30:17.023Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:04:37.725Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:04:45.098Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:04:52.333Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443881,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794589587,
+   "counter_issued": 443881,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T17:12:51.348Z",
    "t": 1
   }
  ]
