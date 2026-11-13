@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T14:17:25.722Z",
- "updated_unix": 1794579445,
- "runs": 16276,
+ "updated": "2026-11-13T14:26:27.946Z",
+ "updated_unix": 1794579987,
+ "runs": 16277,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126894,
- "sent_total": 4745086,
+ "detected_total": 126895,
+ "sent_total": 4745158,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82933,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794540953,
-   "counter_issued": 82933,
-   "counter_total": 88480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:02:57.477Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "BerryBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T14:17:23.542Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23148,
+   "owner": "",
+   "owner_addr": "0:402e8133585967e8f954d5ea897155fa6b2e3bb6debf5e035973bba01bfadd2b",
+   "mint": 1794577569,
+   "counter_issued": 23148,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T14:26:25.943Z",
    "t": 1
   }
  ]
