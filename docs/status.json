@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T13:37:11.606Z",
- "updated_unix": 1794577031,
- "runs": 16270,
+ "updated": "2026-11-13T13:38:46.746Z",
+ "updated_unix": 1794577126,
+ "runs": 16271,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126885,
- "sent_total": 4744435,
+ "detected_total": 126886,
+ "sent_total": 4744507,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78279,
-   "owner": "",
-   "owner_addr": "0:7e544b80dd02f662d104b3ab5792e683452269d8f3a080fbabd2ee528077f335",
-   "mint": 1794547598,
-   "counter_issued": 78279,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:36:45.218Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108810,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108810,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:38:43.306Z",
    "t": 1
   }
  ]
