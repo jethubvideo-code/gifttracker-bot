@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T16:03:24.069Z",
- "updated_unix": 1794585804,
- "runs": 16295,
+ "updated": "2026-11-13T16:10:38.997Z",
+ "updated_unix": 1794586238,
+ "runs": 16296,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127084,
- "sent_total": 4758800,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 127085,
+ "sent_total": 4758872,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "SleighBell",
-   "number": 23149,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 23149,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:21:42.801Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:03:15.713Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:03:15.713Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T16:03:15.713Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90799,
+   "owner": "",
+   "owner_addr": "0:2609156ffb9d2ddc468ee6915f46a58bf73e6666517cb21db8a741777712d3a5",
+   "mint": 1794585674,
+   "counter_issued": 90799,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T16:10:36.233Z",
    "t": 1
   }
  ]
