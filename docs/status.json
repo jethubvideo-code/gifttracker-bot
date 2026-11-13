@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-12T22:58:00.011Z",
- "updated_unix": 1794524280,
- "runs": 16200,
+ "updated": "2026-11-13T00:01:03.374Z",
+ "updated_unix": 1794528063,
+ "runs": 16201,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126483,
- "sent_total": 4716608,
+ "detected_total": 126485,
+ "sent_total": 4716690,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85404,
-   "owner": "",
-   "owner_addr": "0:e9215af562c7d6602e8cd8fd529c95513595fb0819f143af7368f49f887a5cde",
-   "mint": 1794506363,
-   "counter_issued": 85404,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T21:11:23.319Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85405,
-   "owner": "",
-   "owner_addr": "0:e957bef7aad5f029f4f0665814d385f03acc1781786ad1ec18c61ae5ee8faa33",
-   "mint": 1794508127,
-   "counter_issued": 85405,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-12T21:11:23.319Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-12T22:57:57.206Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270371,
+   "owner": "",
+   "owner_addr": "0:33e7f21fd2f436a4c4d80189a29033fad8eb2ad7b3def20aa9a89081733b49a7",
+   "mint": 1794522908,
+   "counter_issued": 270371,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T00:00:33.674Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270372,
+   "owner": "",
+   "owner_addr": "0:7cddfa2c54f8632b20e461965b035bbb120ada92103221ca8d0f0aaeb534d9c9",
+   "mint": 1794527328,
+   "counter_issued": 270372,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T00:00:33.674Z",
    "t": 1
   }
  ]
