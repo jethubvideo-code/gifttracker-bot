@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T15:00:25.833Z",
- "updated_unix": 1794582025,
- "runs": 16282,
+ "updated": "2026-11-13T15:03:29.631Z",
+ "updated_unix": 1794582209,
+ "runs": 16283,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127049,
- "sent_total": 4756322,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127050,
+ "sent_total": 4756393,
  "last_upgrades": [
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24681,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24681,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T14:55:08.044Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T15:00:23.609Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391672,
+   "owner": "",
+   "owner_addr": "0:5fc002f431f1d9f15d9ecb2da552b5a3feefa01436669f65b71779c4d10afcb3",
+   "mint": 1794581965,
+   "counter_issued": 391672,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T15:03:27.369Z",
    "t": 1
   }
  ]
