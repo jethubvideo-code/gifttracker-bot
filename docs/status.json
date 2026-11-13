@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T17:23:11.632Z",
- "updated_unix": 1794590591,
- "runs": 16300,
+ "updated": "2026-11-13T17:55:03.992Z",
+ "updated_unix": 1794592503,
+ "runs": 16301,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127091,
- "sent_total": 4759300,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 127093,
+ "sent_total": 4759444,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84618,
-   "owner": "",
-   "owner_addr": "0:402e8133585967e8f954d5ea897155fa6b2e3bb6debf5e035973bba01bfadd2b",
-   "mint": 1794576451,
-   "counter_issued": 84618,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:22:59.218Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108811,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108811,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:23:51.171Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T17:23:08.623Z",
+   "t": 2
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84619,
+   "owner": "",
+   "owner_addr": "0:13501ae65a035e6a1a7e7b6c482501ecf607b0d277891136d573a246f652be0b",
+   "mint": 1794587385,
+   "counter_issued": 84619,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T17:54:57.440Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84620,
+   "owner": "",
+   "owner_addr": "0:53c0a8a96151364643e3e5f38477d84515620ca72468f15fe2d8a12e18ed36d1",
+   "mint": 1794588925,
+   "counter_issued": 84620,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T17:54:57.440Z",
    "t": 1
   }
  ]
