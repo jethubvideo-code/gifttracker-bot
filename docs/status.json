@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T07:50:00.732Z",
- "updated_unix": 1794556200,
- "runs": 16231,
+ "updated": "2026-11-13T07:51:37.182Z",
+ "updated_unix": 1794556297,
+ "runs": 16232,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 126605,
- "sent_total": 4725002,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 126606,
+ "sent_total": 4725074,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84611,
-   "owner": "",
-   "owner_addr": "0:f21b39b8163ee7c290fca6ac29e1ca487503532521fb8e163f8e12424393db88",
-   "mint": 1794516740,
-   "counter_issued": 84611,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T03:15:10.240Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T07:49:34.500Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33109,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794555231,
+   "counter_issued": 33109,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T07:51:33.839Z",
    "t": 1
   }
  ]
