@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T05:55:37.047Z",
- "updated_unix": 1794549337,
- "runs": 16222,
+ "updated": "2026-11-13T06:29:06.424Z",
+ "updated_unix": 1794551346,
+ "runs": 16223,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126593,
- "sent_total": 4724217,
+ "detected_total": 126594,
+ "sent_total": 4724273,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109310,
-   "owner": "",
-   "owner_addr": "0:7fdaeb4fcd0f9d41c04c590ea2e25330350971521165e14f7d980bba3556713a",
-   "mint": 1794510973,
-   "counter_issued": 109310,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T05:55:34.762Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270377,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794548043,
+   "counter_issued": 270377,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T06:28:53.199Z",
    "t": 1
   }
  ]
