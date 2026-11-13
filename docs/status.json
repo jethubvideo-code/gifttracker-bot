@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T05:18:21.172Z",
- "updated_unix": 1794547101,
- "runs": 16219,
+ "updated": "2026-11-13T05:26:25.157Z",
+ "updated_unix": 1794547585,
+ "runs": 16220,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126589,
- "sent_total": 4723929,
+ "detected_total": 126591,
+ "sent_total": 4724073,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109306,
-   "owner": "",
-   "owner_addr": "0:ea9ad6bec907bc06cb6d28398f56e986e4c4700debf7920b5912c91d1a1f1f46",
-   "mint": 1794495325,
-   "counter_issued": 109306,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109307,
-   "owner": "",
-   "owner_addr": "0:00c977ff46843c8a0a413a54cea675c8904a7d5ac9efd835873a670aad9dd12c",
-   "mint": 1794499271,
-   "counter_issued": 109307,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:45:05.168Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T05:18:18.574Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85407,
+   "owner": "",
+   "owner_addr": "0:2176f65c31a90771dc679b2218a83b22301ab0982c7f01cc211603b90c01d5b7",
+   "mint": 1794543653,
+   "counter_issued": 85407,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T05:26:19.552Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85408,
+   "owner": "elizbano.t.me",
+   "owner_addr": "0:fadf763d6617bb7bc784e512ea9461b46b61678b43e238faab908952229d84dc",
+   "mint": 1794546471,
+   "counter_issued": 85408,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T05:26:19.552Z",
    "t": 1
   }
  ]
