@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T04:18:58.082Z",
- "updated_unix": 1794543538,
- "runs": 16214,
+ "updated": "2026-11-13T04:19:55.959Z",
+ "updated_unix": 1794543595,
+ "runs": 16215,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126582,
- "sent_total": 4723487,
+ "detected_total": 126583,
+ "sent_total": 4723559,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109299,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109299,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:18:47.523Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:18:47.523Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:18:47.523Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:18:47.523Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443854,
+   "owner": "",
+   "owner_addr": "0:34978a8ba1aec09210bd56a3459dc33a2e87197c09029f558d92957ed9b1cd7e",
+   "mint": 1794543287,
+   "counter_issued": 443854,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T04:19:53.247Z",
    "t": 1
   }
  ]
