@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T04:24:00.314Z",
- "updated_unix": 1794543840,
- "runs": 16216,
+ "updated": "2026-11-13T04:43:29.864Z",
+ "updated_unix": 1794545009,
+ "runs": 16217,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126586,
- "sent_total": 4723775,
+ "detected_total": 126587,
+ "sent_total": 4723785,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109303,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109303,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T02:03:58.138Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:23:53.298Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:23:53.298Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T04:23:53.298Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270376,
+   "owner": "shmoks-kent.ton",
+   "owner_addr": "0:d59ba5104f20d70507516c209b13dcb397946238397ecc456c1db91630ad5a8d",
+   "mint": 1794541475,
+   "counter_issued": 270376,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T04:43:02.867Z",
    "t": 1
   }
  ]
