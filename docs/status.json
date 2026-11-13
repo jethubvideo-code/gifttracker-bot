@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T13:11:34.060Z",
- "updated_unix": 1794575494,
- "runs": 16268,
+ "updated": "2026-11-13T13:32:44.500Z",
+ "updated_unix": 1794576764,
+ "runs": 16269,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126883,
- "sent_total": 4744353,
+ "detected_total": 126884,
+ "sent_total": 4744425,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78277,
-   "owner": "",
-   "owner_addr": "0:159fa7c20bf35fb443f8439ddc60bff750d51cfbd2cfda44d7496b3d5fdbd161",
-   "mint": 1794500183,
-   "counter_issued": 78277,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:11:29.679Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:11:29.679Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443873,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794576563,
+   "counter_issued": 443873,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:32:41.605Z",
    "t": 1
   }
  ]
