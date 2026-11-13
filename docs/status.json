@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T14:48:53.890Z",
- "updated_unix": 1794581333,
- "runs": 16279,
+ "updated": "2026-11-13T14:51:59.414Z",
+ "updated_unix": 1794581519,
+ "runs": 16280,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126951,
- "sent_total": 4749184,
+ "detected_total": 126953,
+ "sent_total": 4749325,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55799,
-   "owner": "",
-   "owner_addr": "0:3fdb6cf6785332f816c9b1666503994dc787145d89401bd873a75ac39fba0342",
-   "mint": 1794473730,
-   "counter_issued": 55799,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T14:45:41.655Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55800,
-   "owner": "",
-   "owner_addr": "0:5459987d82be79788c2d95dc518e0c999640dc7ea6d7dad473572b551c7d36fe",
-   "mint": 1794478442,
-   "counter_issued": 55800,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T14:45:41.655Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T14:48:51.922Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134526,
+   "owner": "",
+   "owner_addr": "0:402e8133585967e8f954d5ea897155fa6b2e3bb6debf5e035973bba01bfadd2b",
+   "mint": 1794577451,
+   "counter_issued": 134526,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T14:51:51.795Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90797,
+   "owner": "",
+   "owner_addr": "0:2c658d1ef7af721845d5fafea0182e55fcc3b46a9e5e694ef490b2bb9cbbc287",
+   "mint": 1794581488,
+   "counter_issued": 90797,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T14:51:57.652Z",
    "t": 1
   }
  ]
