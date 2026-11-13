@@ -1,65 +1,13 @@
 {
- "updated": "2026-11-13T13:04:19.328Z",
- "updated_unix": 1794575059,
- "runs": 16265,
+ "updated": "2026-11-13T13:07:33.858Z",
+ "updated_unix": 1794575253,
+ "runs": 16266,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 126876,
- "sent_total": 4743850,
+ "detected_total": 126880,
+ "sent_total": 4744138,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78270,
-   "owner": "",
-   "owner_addr": "0:f77460acce178d28ea753bdfa72931b9fdf0392cb697d8029a97706d637406ed",
-   "mint": 1794461683,
-   "counter_issued": 78270,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z"
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78271,
-   "owner": "",
-   "owner_addr": "0:f77460acce178d28ea753bdfa72931b9fdf0392cb697d8029a97706d637406ed",
-   "mint": 1794461713,
-   "counter_issued": 78271,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z"
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78272,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794462024,
-   "counter_issued": 78272,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z"
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78273,
-   "owner": "",
-   "owner_addr": "0:0ab678a9dce55444901b3163a04d98582cdcc82c0e5a2207eb1c3b110bec03d4",
-   "mint": 1794462374,
-   "counter_issued": 78273,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z"
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -71,7 +19,8 @@
    "counter_total": 100846,
    "img": "",
    "sent": 0,
-   "time": "2026-11-13T13:01:09.563Z"
+   "time": "2026-11-13T13:01:09.563Z",
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -85,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:01:09.563Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -421,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T13:04:16.423Z",
+   "t": 3
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56663,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794555268,
+   "counter_issued": 56663,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:07:19.105Z",
+   "t": 1
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56664,
+   "owner": "",
+   "owner_addr": "0:3535dd233fe02468905705ed34f009db69db2f741776af65210ab469d94e2d86",
+   "mint": 1794568045,
+   "counter_issued": 56664,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:07:19.105Z",
+   "t": 1
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56665,
+   "owner": "jianglin.ton",
+   "owner_addr": "0:22ceedc09b4781cfade26d000c4b8fc9edea45a89f0c4a1c3d8b6b732820c323",
+   "mint": 1794572844,
+   "counter_issued": 56665,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:07:19.105Z",
+   "t": 1
+  },
+  {
+   "slug": "ValentineBox",
+   "gift": "Valentine Box",
+   "number": 35700,
+   "owner": "",
+   "owner_addr": "0:0948c9d762931225cbb1163107f90b7b41400fbdb4447b9f0c8738b499c5b4c7",
+   "mint": 1794559069,
+   "counter_issued": 35700,
+   "counter_total": 41025,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T13:07:29.855Z",
    "t": 1
   }
  ]
