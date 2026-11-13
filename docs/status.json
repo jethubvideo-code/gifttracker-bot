@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-13T18:53:42.332Z",
- "updated_unix": 1794596022,
- "runs": 16306,
+ "updated": "2026-11-13T18:55:43.006Z",
+ "updated_unix": 1794596143,
+ "runs": 16307,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127105,
- "sent_total": 4760307,
+ "detected_total": 127106,
+ "sent_total": 4760379,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85419,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794565833,
-   "counter_issued": 85419,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:59:21.219Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:53:38.271Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:53:38.271Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443883,
+   "owner": "",
+   "owner_addr": "0:07cb6183e810e3dcccffbd201d90d7e3a2be4e218d15fe417e0e23e1c56f4609",
+   "mint": 1794595908,
+   "counter_issued": 443883,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T18:55:41.298Z",
    "t": 1
   }
  ]
