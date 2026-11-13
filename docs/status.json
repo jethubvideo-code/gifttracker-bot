@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-13T18:50:46.421Z",
- "updated_unix": 1794595846,
- "runs": 16305,
+ "updated": "2026-11-13T18:53:42.332Z",
+ "updated_unix": 1794596022,
+ "runs": 16306,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127103,
- "sent_total": 4760163,
+ "detected_total": 127105,
+ "sent_total": 4760307,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85417,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794565606,
-   "counter_issued": 85417,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:59:21.219Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85418,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794565708,
-   "counter_issued": 85418,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-13T15:59:21.219Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:20:23.882Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:50:33.805Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:50:33.805Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:50:33.805Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:50:33.805Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-13T18:50:33.805Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90803,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90803,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T18:53:38.271Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90804,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90804,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-13T18:53:38.271Z",
    "t": 1
   }
  ]
