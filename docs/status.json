@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T07:12:45.839Z",
- "updated_unix": 1794640365,
- "runs": 16354,
+ "updated": "2026-11-14T07:13:48.966Z",
+ "updated_unix": 1794640428,
+ "runs": 16355,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127419,
- "sent_total": 4781415,
+ "detected_total": 127421,
+ "sent_total": 4781557,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78284,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794586095,
-   "counter_issued": 78284,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T03:51:13.976Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78285,
-   "owner": "",
-   "owner_addr": "0:59b2a9266f0f0a3764ace02f0eef9ade2da99db916b06e757b4155fbbe56f98e",
-   "mint": 1794586386,
-   "counter_issued": 78285,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T03:51:13.976Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T07:12:43.730Z",
+   "t": 3
+  },
+  {
+   "slug": "StarNotepad",
+   "gift": "Star Notepad",
+   "number": 74224,
+   "owner": "degol77.t.me",
+   "owner_addr": "0:fc6ff5905aed9b18f0863dc0bd41ea46946d56ad8550cefbb5a712aa1845e334",
+   "mint": 1794640136,
+   "counter_issued": 74224,
+   "counter_total": 99082,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T07:13:43.668Z",
+   "t": 1
+  },
+  {
+   "slug": "WinterWreath",
+   "gift": "WinterWreath",
+   "number": 78292,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 78292,
+   "counter_total": 100846,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T07:13:47.086Z",
    "t": 1
   }
  ]
