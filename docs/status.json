@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T14:30:38.266Z",
- "updated_unix": 1794666638,
- "runs": 16381,
+ "updated": "2026-11-14T14:31:43.572Z",
+ "updated_unix": 1794666703,
+ "runs": 16382,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127783,
- "sent_total": 4806926,
+ "detected_total": 127785,
+ "sent_total": 4807068,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90810,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90810,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T13:13:30.102Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90811,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90811,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T13:13:30.102Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:30:35.166Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "SkullFlower",
+   "number": 22097,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 22097,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:31:32.806Z",
+   "t": 1
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23150,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794656643,
+   "counter_issued": 23150,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:31:40.378Z",
    "t": 1
   }
  ]
