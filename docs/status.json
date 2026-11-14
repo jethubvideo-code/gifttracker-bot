@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T04:50:36.880Z",
- "updated_unix": 1794631836,
- "runs": 16345,
+ "updated": "2026-11-14T04:59:37.014Z",
+ "updated_unix": 1794632377,
+ "runs": 16346,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127399,
- "sent_total": 4779995,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 127400,
+ "sent_total": 4780066,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78550,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794617743,
-   "counter_issued": 78550,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T02:32:12.058Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T04:34:20.999Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T04:50:35.098Z",
+   "t": 2
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84623,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84623,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T04:59:35.307Z",
    "t": 1
   }
  ]
