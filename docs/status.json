@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T16:11:39.729Z",
- "updated_unix": 1794672699,
- "runs": 16393,
+ "updated": "2026-11-14T16:21:45.404Z",
+ "updated_unix": 1794673305,
+ "runs": 16394,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127831,
- "sent_total": 4810330,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127833,
+ "sent_total": 4810472,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109338,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794658110,
-   "counter_issued": 109338,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/SWUlDnEIG8l3YhawHYc2rpBE3hjezZo5eBfFMk0SrZ_Z5jNFa__1jhwV5WVgOHI-ggH-CBG9jz7nsFxIf-j3nNLfI0bI7bAopE8rYlmKj1TNohcn4t06L9ljt44X21GJiLeBcNh_mpnxNwSCzDGlzj6-84mH-eGyj83SRAuNAoo9lx6QZLzR2tWjMG-5Jh5jHny9un5Br9WyBq2qIkwaOBbMDTzOMJQEZWQWRwyaP4oI3JDMou1z4nXxVc_XYSfHx_z9ITDV1AEIKesy6QvKCW5Rf1PR6uortNCSDVJJMo0sp6XYN1Qv2HpIL00NcoNE_oAm_CVROD_UNddpGq0-vw.jpg",
-   "sent": 0,
-   "time": "2026-11-14T15:28:56.173Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109339,
-   "owner": "",
-   "owner_addr": "0:649953a486e263e811a392de9d6e624977ca367f47ece60381b75d91f440e68f",
-   "mint": 1794663323,
-   "counter_issued": 109339,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/SWUlDnEIG8l3YhawHYc2rpBE3hjezZo5eBfFMk0SrZ_Z5jNFa__1jhwV5WVgOHI-ggH-CBG9jz7nsFxIf-j3nNLfI0bI7bAopE8rYlmKj1TNohcn4t06L9ljt44X21GJiLeBcNh_mpnxNwSCzDGlzj6-84mH-eGyj83SRAuNAoo9lx6QZLzR2tWjMG-5Jh5jHny9un5Br9WyBq2qIkwaOBbMDTzOMJQEZWQWRwyaP4oI3JDMou1z4nXxVc_XYSfHx_z9ITDV1AEIKesy6QvKCW5Rf1PR6uortNCSDVJJMo0sp6XYN1Qv2HpIL00NcoNE_oAm_CVROD_UNddpGq0-vw.jpg",
-   "sent": 0,
-   "time": "2026-11-14T15:28:56.173Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:11:35.664Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:11:35.664Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23151,
+   "owner": "",
+   "owner_addr": "0:a8df687fddfe0b18220292b5ce2bb699b3f825c5af3a95e17a989e14a278bf04",
+   "mint": 1794668969,
+   "counter_issued": 23151,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:21:38.069Z",
+   "t": 1
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16994,
+   "owner": "",
+   "owner_addr": "0:a8df687fddfe0b18220292b5ce2bb699b3f825c5af3a95e17a989e14a278bf04",
+   "mint": 1794668912,
+   "counter_issued": 16994,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:21:43.547Z",
    "t": 1
   }
  ]
