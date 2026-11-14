@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T14:31:43.572Z",
- "updated_unix": 1794666703,
- "runs": 16382,
+ "updated": "2026-11-14T14:33:38.939Z",
+ "updated_unix": 1794666818,
+ "runs": 16383,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127785,
- "sent_total": 4807068,
+ "detected_total": 127786,
+ "sent_total": 4807139,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90812,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90812,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T13:13:30.102Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:31:32.806Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SleighBell",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:31:40.378Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90817,
+   "owner": "",
+   "owner_addr": "0:0acae4c45d909ba1a2ca96ce48b37e4b1c7cec301c59bd9d776c6e597a880311",
+   "mint": 1794665346,
+   "counter_issued": 90817,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:33:36.131Z",
    "t": 1
   }
  ]
