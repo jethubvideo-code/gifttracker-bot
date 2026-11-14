@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T08:01:24.520Z",
- "updated_unix": 1794643284,
- "runs": 16363,
+ "updated": "2026-11-14T08:02:31.456Z",
+ "updated_unix": 1794643351,
+ "runs": 16364,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127453,
- "sent_total": 4783829,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127454,
+ "sent_total": 4783884,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56668,
-   "owner": "",
-   "owner_addr": "0:b8bddc57b73dc8a4c392c824f49bf8c2cedfdb8d18f5da6be8ad0050d56d09db",
-   "mint": 1794618066,
-   "counter_issued": 56668,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:14:47.553Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T08:01:20.834Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270401,
+   "owner": "",
+   "owner_addr": "0:48e7f310f3cf540ab7ad96369cbc2570e31a9caac387017379da66f6f36c28e2",
+   "mint": 1794642627,
+   "counter_issued": 270401,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T08:02:20.592Z",
    "t": 1
   }
  ]
