@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T06:02:42.236Z",
- "updated_unix": 1794636162,
- "runs": 16350,
+ "updated": "2026-11-14T06:18:36.677Z",
+ "updated_unix": 1794637116,
+ "runs": 16351,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127412,
- "sent_total": 4780918,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 127413,
+ "sent_total": 4780989,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74219,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794595914,
-   "counter_issued": 74219,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T03:06:02.981Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:02:20.071Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:02:20.071Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:02:27.987Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "VintageCigar",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:02:35.796Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "VintageCigar",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:02:35.796Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "VintageCigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:02:35.796Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443904,
+   "owner": "",
+   "owner_addr": "0:84ef6fec27f244afcd0809fc8526dfb223cd4213a0e276fe654b57bead22073a",
+   "mint": 1794636415,
+   "counter_issued": 443904,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T06:18:34.900Z",
    "t": 1
   }
  ]
