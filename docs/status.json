@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-14T13:47:09.692Z",
- "updated_unix": 1794664029,
- "runs": 16377,
+ "updated": "2026-11-14T14:19:39.150Z",
+ "updated_unix": 1794665979,
+ "runs": 16378,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127775,
- "sent_total": 4806358,
+ "detected_total": 127778,
+ "sent_total": 4806571,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391706,
-   "owner": "",
-   "owner_addr": "0:5675eff1305cec98f4f51ff12a53b52f6341706ee2bd6f7a9cbe77fe26ef5e98",
-   "mint": 1794655213,
-   "counter_issued": 391706,
-   "counter_total": 457382,
-   "img": "https://cdn4.telesco.pe/file/fOFGJAM4CRsEJJYpnGmB4QqLvKURsYLk-VSzx7wbKefvqTyqz7xseq0R-jMi0myp9w4I376UDiludzXwUc6I4vjdDat9RLv0MiJTsxUi8C-WugQ-g9R10092B2GdfvU6Azeq2-TE2zoZ_XohAk1mXngFBviS2xLwfOtzrYQkRJHeU9dhWDYwcE5jS53EfQSCnzHAvujldrPJnPqlBBXsqt0-UaU8SC5fzHAR1gU1NCwcFxI1e35KNxpvsYrybrXoBtzOggQVb23clg4RP2yKn22J-oxmy6PdqubxAtz7SKTwf17uTvljxtAn29YWW1t2fyH7Ui_vtEDtMJYX346hpQ.jpg",
-   "sent": 0,
-   "time": "2026-11-14T13:10:11.234Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391707,
-   "owner": "",
-   "owner_addr": "0:9f9fc30aa95171fde1edef1b1e8603bf5770d3f138b0f218c7e3035ec4b89e5a",
-   "mint": 1794658821,
-   "counter_issued": 391707,
-   "counter_total": 457382,
-   "img": "https://cdn4.telesco.pe/file/fOFGJAM4CRsEJJYpnGmB4QqLvKURsYLk-VSzx7wbKefvqTyqz7xseq0R-jMi0myp9w4I376UDiludzXwUc6I4vjdDat9RLv0MiJTsxUi8C-WugQ-g9R10092B2GdfvU6Azeq2-TE2zoZ_XohAk1mXngFBviS2xLwfOtzrYQkRJHeU9dhWDYwcE5jS53EfQSCnzHAvujldrPJnPqlBBXsqt0-UaU8SC5fzHAR1gU1NCwcFxI1e35KNxpvsYrybrXoBtzOggQVb23clg4RP2yKn22J-oxmy6PdqubxAtz7SKTwf17uTvljxtAn29YWW1t2fyH7Ui_vtEDtMJYX346hpQ.jpg",
-   "sent": 0,
-   "time": "2026-11-14T13:10:11.234Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443908,
-   "owner": "",
-   "owner_addr": "0:1e442a52f215205ac1db24f04c502628657ad0711e1db34d1e78a00e4f5ae112",
-   "mint": 1794656440,
-   "counter_issued": 443908,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T13:11:00.687Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T13:47:04.623Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "EvilEye",
+   "number": 74824,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74824,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:19:26.306Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74825,
+   "owner": "",
+   "owner_addr": "0:169d36c7628d3bf8171a2be335da010fa40bc12ffa39c68d7fe10dfdb77115ac",
+   "mint": 1794633318,
+   "counter_issued": 74825,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:19:26.306Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74826,
+   "owner": "",
+   "owner_addr": "0:26e7babc0b28aab088b59d1c9ebc06b1f6db71e6844c268a8339722bc05363a2",
+   "mint": 1794641862,
+   "counter_issued": 74826,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:19:26.306Z",
+   "t": 1
   }
  ]
 }
