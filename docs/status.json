@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T07:30:14.105Z",
- "updated_unix": 1794641414,
- "runs": 16361,
+ "updated": "2026-11-14T08:00:24.750Z",
+ "updated_unix": 1794643224,
+ "runs": 16362,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127450,
- "sent_total": 4783616,
+ "detected_total": 127452,
+ "sent_total": 4783758,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "WinterWreath",
-   "number": 78292,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78292,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:13:47.086Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56666,
-   "owner": "",
-   "owner_addr": "0:4d0e2ea303f61c7b3447a62a1c6c7f9373061ff96c17cd1a19bb1f519f7092cb",
-   "mint": 1794602147,
-   "counter_issued": 56666,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:14:47.553Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T07:30:06.618Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T07:30:12.235Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391699,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391699,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T08:00:20.589Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391700,
+   "owner": "",
+   "owner_addr": "0:1069ca1684f25ddeb35e381b88b990de3ab3fcb8dff14421495be02d2855d125",
+   "mint": 1794642816,
+   "counter_issued": 391700,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T08:00:20.589Z",
    "t": 1
   }
  ]
