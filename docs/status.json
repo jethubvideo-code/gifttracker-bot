@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T16:10:39.870Z",
- "updated_unix": 1794672639,
- "runs": 16392,
+ "updated": "2026-11-14T16:11:39.729Z",
+ "updated_unix": 1794672699,
+ "runs": 16393,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127829,
- "sent_total": 4810188,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 127831,
+ "sent_total": 4810330,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109336,
-   "owner": "",
-   "owner_addr": "0:808eb370238290153fcfe6cbe9a5ccf60cfceb243f0dbb3c95158b2793fbb0a9",
-   "mint": 1794643220,
-   "counter_issued": 109336,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/SWUlDnEIG8l3YhawHYc2rpBE3hjezZo5eBfFMk0SrZ_Z5jNFa__1jhwV5WVgOHI-ggH-CBG9jz7nsFxIf-j3nNLfI0bI7bAopE8rYlmKj1TNohcn4t06L9ljt44X21GJiLeBcNh_mpnxNwSCzDGlzj6-84mH-eGyj83SRAuNAoo9lx6QZLzR2tWjMG-5Jh5jHny9un5Br9WyBq2qIkwaOBbMDTzOMJQEZWQWRwyaP4oI3JDMou1z4nXxVc_XYSfHx_z9ITDV1AEIKesy6QvKCW5Rf1PR6uortNCSDVJJMo0sp6XYN1Qv2HpIL00NcoNE_oAm_CVROD_UNddpGq0-vw.jpg",
-   "sent": 0,
-   "time": "2026-11-14T15:28:56.173Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109337,
-   "owner": "",
-   "owner_addr": "0:1916520112d33b81f8f95b5e59fd77f7d494cfe418b82aa93999a150709aa30b",
-   "mint": 1794653394,
-   "counter_issued": 109337,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/SWUlDnEIG8l3YhawHYc2rpBE3hjezZo5eBfFMk0SrZ_Z5jNFa__1jhwV5WVgOHI-ggH-CBG9jz7nsFxIf-j3nNLfI0bI7bAopE8rYlmKj1TNohcn4t06L9ljt44X21GJiLeBcNh_mpnxNwSCzDGlzj6-84mH-eGyj83SRAuNAoo9lx6QZLzR2tWjMG-5Jh5jHny9un5Br9WyBq2qIkwaOBbMDTzOMJQEZWQWRwyaP4oI3JDMou1z4nXxVc_XYSfHx_z9ITDV1AEIKesy6QvKCW5Rf1PR6uortNCSDVJJMo0sp6XYN1Qv2HpIL00NcoNE_oAm_CVROD_UNddpGq0-vw.jpg",
-   "sent": 0,
-   "time": "2026-11-14T15:28:56.173Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:10:35.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:10:35.684Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134567,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134567,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:11:35.664Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134568,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134568,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:11:35.664Z",
    "t": 1
   }
  ]
