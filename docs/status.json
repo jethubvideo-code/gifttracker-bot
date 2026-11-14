@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T08:58:41.632Z",
- "updated_unix": 1794646721,
- "runs": 16366,
+ "updated": "2026-11-14T08:59:40.353Z",
+ "updated_unix": 1794646780,
+ "runs": 16367,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127456,
- "sent_total": 4784026,
+ "detected_total": 127457,
+ "sent_total": 4784097,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "BerryBox",
-   "number": 53602,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 53602,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:15:00.706Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "BerryBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T08:58:38.723Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232380,
+   "owner": "huethos.t.me",
+   "owner_addr": "0:fb7061b0629159f5885a89ebc765e3e21796253ed4e47ef9e1c40277c0a8ce76",
+   "mint": 1794644527,
+   "counter_issued": 232380,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T08:59:38.123Z",
    "t": 1
   }
  ]
