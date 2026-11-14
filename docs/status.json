@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T17:55:26.991Z",
- "updated_unix": 1794678926,
- "runs": 16408,
+ "updated": "2026-11-14T17:58:26.074Z",
+ "updated_unix": 1794679106,
+ "runs": 16409,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128113,
- "sent_total": 4829966,
+ "detected_total": 128115,
+ "sent_total": 4830108,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 184889,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 184889,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T17:44:50.017Z",
-   "t": 3
-  },
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 184890,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 184890,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T17:44:50.017Z",
-   "t": 3
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T17:55:16.591Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T17:55:16.591Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T17:55:16.591Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391721,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391721,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T17:58:19.337Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391722,
+   "owner": "",
+   "owner_addr": "0:4209b9d17ccb1cd50e71662ccb124e5ddd1c535f9273cee5db10590214f46287",
+   "mint": 1794677717,
+   "counter_issued": 391722,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T17:58:19.337Z",
    "t": 1
   }
  ]
