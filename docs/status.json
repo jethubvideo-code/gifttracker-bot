@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T04:34:23.255Z",
- "updated_unix": 1794630863,
- "runs": 16344,
+ "updated": "2026-11-14T04:50:36.880Z",
+ "updated_unix": 1794631836,
+ "runs": 16345,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127398,
- "sent_total": 4779924,
+ "detected_total": 127399,
+ "sent_total": 4779995,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78549,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794613968,
-   "counter_issued": 78549,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T02:32:12.058Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T04:34:20.999Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391697,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391697,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T04:50:35.098Z",
    "t": 1
   }
  ]
