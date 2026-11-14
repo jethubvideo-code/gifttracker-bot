@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T06:48:34.462Z",
- "updated_unix": 1794638914,
- "runs": 16353,
+ "updated": "2026-11-14T07:12:45.839Z",
+ "updated_unix": 1794640365,
+ "runs": 16354,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127418,
- "sent_total": 4781344,
+ "detected_total": 127419,
+ "sent_total": 4781415,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78283,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794583446,
-   "counter_issued": 78283,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T03:51:13.976Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:48:27.999Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:48:27.999Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:48:27.999Z",
+   "t": 3
+  },
+  {
+   "slug": "HexPot",
+   "gift": "Hex Pot",
+   "number": 57175,
+   "owner": "",
+   "owner_addr": "0:3bb2272c261a4dcb1a8b1b8669c84aeb4a1596b520ea210aaafb1ef193c697f9",
+   "mint": 1794632906,
+   "counter_issued": 57175,
+   "counter_total": 69837,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T07:12:43.730Z",
    "t": 1
   }
  ]
