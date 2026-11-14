@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T06:18:36.677Z",
- "updated_unix": 1794637116,
- "runs": 16351,
+ "updated": "2026-11-14T06:37:35.018Z",
+ "updated_unix": 1794638255,
+ "runs": 16352,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127413,
- "sent_total": 4780989,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127415,
+ "sent_total": 4781131,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74220,
-   "owner": "",
-   "owner_addr": "0:b7d7c9b8968275c63b672faa6b328b285c4f5251554db51146319c8a06815cd3",
-   "mint": 1794607429,
-   "counter_issued": 74220,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T03:06:02.981Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74221,
-   "owner": "",
-   "owner_addr": "0:33cdff385646dbb34722c6dcabcb26c69bbdb853c76a40abb26d983b942f20d4",
-   "mint": 1794621712,
-   "counter_issued": 74221,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T03:06:02.981Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T06:18:34.900Z",
+   "t": 3
+  },
+  {
+   "slug": "BlingBinky",
+   "gift": "Bling Binky",
+   "number": 9435,
+   "owner": "",
+   "owner_addr": "0:6f70ce3179951097c2662c1c8b1803f50b60bdfe1a8def2f483e97e16d61e54b",
+   "mint": 1794603727,
+   "counter_issued": 9435,
+   "counter_total": 9990,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T06:37:27.339Z",
+   "t": 1
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22096,
+   "owner": "sobolev.ton",
+   "owner_addr": "0:14e88c1f35eb2dd23849828c39c34814bf5c36a248d19edee089a211dda76d36",
+   "mint": 1794625627,
+   "counter_issued": 22096,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T06:37:33.261Z",
    "t": 1
   }
  ]
