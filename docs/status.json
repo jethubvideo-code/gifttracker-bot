@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-14T15:45:45.264Z",
- "updated_unix": 1794671145,
- "runs": 16387,
+ "updated": "2026-11-14T15:46:52.753Z",
+ "updated_unix": 1794671212,
+ "runs": 16388,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127820,
- "sent_total": 4809552,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127823,
+ "sent_total": 4809765,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78553,
-   "owner": "",
-   "owner_addr": "0:f2c49cfc3b2c48cff2902640c988a03e3167d6216436078dd7f597b05b1b8418",
-   "mint": 1794637343,
-   "counter_issued": 78553,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78554,
-   "owner": "",
-   "owner_addr": "0:d99775ddf2ec46870d17c6b99105f042e28ff7650abc5e092fc98f83ee457a40",
-   "mint": 1794645312,
-   "counter_issued": 78554,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78555,
-   "owner": "",
-   "owner_addr": "0:d99775ddf2ec46870d17c6b99105f042e28ff7650abc5e092fc98f83ee457a40",
-   "mint": 1794645317,
-   "counter_issued": 78555,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:45:40.600Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:45:40.600Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90819,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90819,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T15:46:40.573Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108823,
+   "owner": "",
+   "owner_addr": "0:d0ae3908a46563a8c74a83f57b710a145de26962cd8d043167acfca03995dd77",
+   "mint": 1794666304,
+   "counter_issued": 108823,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T15:46:48.241Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108824,
+   "owner": "",
+   "owner_addr": "0:a8df687fddfe0b18220292b5ce2bb699b3f825c5af3a95e17a989e14a278bf04",
+   "mint": 1794668921,
+   "counter_issued": 108824,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T15:46:48.241Z",
    "t": 1
   }
  ]
