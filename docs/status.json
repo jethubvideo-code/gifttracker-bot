@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T17:58:26.074Z",
- "updated_unix": 1794679106,
- "runs": 16409,
+ "updated": "2026-11-14T18:23:21.512Z",
+ "updated_unix": 1794680601,
+ "runs": 16410,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128115,
- "sent_total": 4830108,
+ "detected_total": 128116,
+ "sent_total": 4830179,
  "last_upgrades": [
-  {
-   "slug": "MoodPack",
-   "gift": "MoodPack",
-   "number": 184891,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 184891,
-   "counter_total": 198560,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T17:44:50.017Z",
-   "t": 3
-  },
   {
    "slug": "MoodPack",
    "gift": "MoodPack",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T17:58:19.337Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T17:58:19.337Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134574,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794679617,
+   "counter_issued": 134574,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T18:23:18.072Z",
    "t": 1
   }
  ]
