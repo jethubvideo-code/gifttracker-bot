@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T15:46:52.753Z",
- "updated_unix": 1794671212,
- "runs": 16388,
+ "updated": "2026-11-14T16:02:25.218Z",
+ "updated_unix": 1794672145,
+ "runs": 16389,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127823,
- "sent_total": 4809765,
+ "detected_total": 127825,
+ "sent_total": 4809906,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78556,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794663610,
-   "counter_issued": 78556,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78557,
-   "owner": "",
-   "owner_addr": "0:ad818b1268ccbcc6e9d1228f5346f3c29fca1b62a65b5e8953a2dcabc63b8e73",
-   "mint": 1794665450,
-   "counter_issued": 78557,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
   {
    "slug": "SakuraFlower",
    "gift": "Sakura Flower",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:46:40.573Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:46:48.241Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:46:48.241Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90820,
+   "owner": "",
+   "owner_addr": "0:72f348be23e6f1f7ad09c8961b0d86b1bba43b3bf98e0120c4fcb21ed1688853",
+   "mint": 1794672114,
+   "counter_issued": 90820,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:02:17.706Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391714,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391714,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:02:23.340Z",
    "t": 1
   }
  ]
