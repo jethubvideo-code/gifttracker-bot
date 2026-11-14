@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T14:23:42.879Z",
- "updated_unix": 1794666222,
- "runs": 16379,
+ "updated": "2026-11-14T14:26:38.813Z",
+ "updated_unix": 1794666398,
+ "runs": 16380,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 127781,
- "sent_total": 4806784,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 127782,
+ "sent_total": 4806855,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443912,
-   "owner": "",
-   "owner_addr": "0:bcf8c5bb75af31cca14291866632d666fa4d6dd0142d6027024a149a54caa52b",
-   "mint": 1794661211,
-   "counter_issued": 443912,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T13:11:00.687Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:19:26.306Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:19:26.306Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:19:26.306Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:23:30.769Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:23:30.769Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T14:23:30.769Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391711,
+   "owner": "n_z_k.t.me",
+   "owner_addr": "0:f305e8aee03f99d72eccd88869a718c655e91bf676dd3e83130e3cb38c350e52",
+   "mint": 1794664103,
+   "counter_issued": 391711,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T14:26:35.462Z",
    "t": 1
   }
  ]
