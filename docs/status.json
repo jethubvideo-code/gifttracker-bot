@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T08:00:24.750Z",
- "updated_unix": 1794643224,
- "runs": 16362,
+ "updated": "2026-11-14T08:01:24.520Z",
+ "updated_unix": 1794643284,
+ "runs": 16363,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127452,
- "sent_total": 4783758,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 127453,
+ "sent_total": 4783829,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56667,
-   "owner": "",
-   "owner_addr": "0:4a201871212c630962ddd3fa70bbd5dcb9b0029f30f2b51e3c4798fc9f566525",
-   "mint": 1794606744,
-   "counter_issued": 56667,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:14:47.553Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T08:00:20.589Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T08:00:20.589Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134549,
+   "owner": "",
+   "owner_addr": "0:cd29d623487b1e5396c1a15fa86c2ae5b9a1e41f9f35268b8995bd7c6171c298",
+   "mint": 1794643149,
+   "counter_issued": 134549,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T08:01:20.834Z",
    "t": 1
   }
  ]
