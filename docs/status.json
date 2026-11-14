@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T22:30:47.854Z",
- "updated_unix": 1794695447,
- "runs": 16436,
+ "updated": "2026-11-14T22:38:22.487Z",
+ "updated_unix": 1794695902,
+ "runs": 16437,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128340,
- "sent_total": 4845988,
+ "detected_total": 128341,
+ "sent_total": 4846059,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443936,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443936,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T20:44:25.127Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:13:58.005Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:30:23.245Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:30:23.245Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:30:23.245Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:30:37.982Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:30:37.982Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T22:30:37.982Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90832,
+   "owner": "nesanya.ton",
+   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
+   "mint": 1794695041,
+   "counter_issued": 90832,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T22:38:20.498Z",
    "t": 1
   }
  ]
