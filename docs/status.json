@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T16:21:45.404Z",
- "updated_unix": 1794673305,
- "runs": 16394,
+ "updated": "2026-11-14T16:37:25.877Z",
+ "updated_unix": 1794674245,
+ "runs": 16395,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127833,
- "sent_total": 4810472,
+ "detected_total": 127834,
+ "sent_total": 4810543,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109340,
-   "owner": "",
-   "owner_addr": "0:306b618b9c2da00eff50ad1f5dc27d5ea969e7193f7ff55e7edf9774f066228f",
-   "mint": 1794665611,
-   "counter_issued": 109340,
-   "counter_total": 146090,
-   "img": "https://cdn4.telesco.pe/file/SWUlDnEIG8l3YhawHYc2rpBE3hjezZo5eBfFMk0SrZ_Z5jNFa__1jhwV5WVgOHI-ggH-CBG9jz7nsFxIf-j3nNLfI0bI7bAopE8rYlmKj1TNohcn4t06L9ljt44X21GJiLeBcNh_mpnxNwSCzDGlzj6-84mH-eGyj83SRAuNAoo9lx6QZLzR2tWjMG-5Jh5jHny9un5Br9WyBq2qIkwaOBbMDTzOMJQEZWQWRwyaP4oI3JDMou1z4nXxVc_XYSfHx_z9ITDV1AEIKesy6QvKCW5Rf1PR6uortNCSDVJJMo0sp6XYN1Qv2HpIL00NcoNE_oAm_CVROD_UNddpGq0-vw.jpg",
-   "sent": 0,
-   "time": "2026-11-14T15:28:56.173Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:21:38.069Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SignetRing",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:21:43.547Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391715,
+   "owner": "",
+   "owner_addr": "0:9eb695e51969b0517ddcd5ab0f355af48f7f40b13e76c27bf68b5d6b47b0f1ad",
+   "mint": 1794673988,
+   "counter_issued": 391715,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:37:23.992Z",
    "t": 1
   }
  ]
