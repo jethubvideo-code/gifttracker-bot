@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T08:02:31.456Z",
- "updated_unix": 1794643351,
- "runs": 16364,
+ "updated": "2026-11-14T08:24:21.340Z",
+ "updated_unix": 1794644661,
+ "runs": 16365,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127454,
- "sent_total": 4783884,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 127455,
+ "sent_total": 4783955,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56669,
-   "owner": "",
-   "owner_addr": "0:4adb4b1feb16a4a552af68c8d2b5618dcab85563efab45f14334ccc7337e70c1",
-   "mint": 1794635304,
-   "counter_issued": 56669,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:14:47.553Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "BerryBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T08:02:20.592Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391701,
+   "owner": "",
+   "owner_addr": "0:060f71cdbcde0058c66f7a8e4ea79ec3cc2e3bc818daaf986bfdab5feeb2f294",
+   "mint": 1794643911,
+   "counter_issued": 391701,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T08:24:19.075Z",
    "t": 1
   }
  ]
