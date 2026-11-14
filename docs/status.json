@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T16:37:25.877Z",
- "updated_unix": 1794674245,
- "runs": 16395,
+ "updated": "2026-11-14T16:38:27.514Z",
+ "updated_unix": 1794674307,
+ "runs": 16396,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127834,
- "sent_total": 4810543,
+ "detected_total": 127835,
+ "sent_total": 4810614,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 74225,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74225,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:29:30.209Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:21:38.069Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SignetRing",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:21:43.547Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:37:23.992Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90821,
+   "owner": "",
+   "owner_addr": "0:72f348be23e6f1f7ad09c8961b0d86b1bba43b3bf98e0120c4fcb21ed1688853",
+   "mint": 1794672114,
+   "counter_issued": 90821,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:38:23.705Z",
    "t": 1
   }
  ]
