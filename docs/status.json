@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T07:21:13.706Z",
- "updated_unix": 1794640873,
- "runs": 16360,
+ "updated": "2026-11-14T07:30:14.105Z",
+ "updated_unix": 1794641414,
+ "runs": 16361,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127448,
- "sent_total": 4783474,
+ "detected_total": 127450,
+ "sent_total": 4783616,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 57175,
-   "owner": "",
-   "owner_addr": "0:3bb2272c261a4dcb1a8b1b8669c84aeb4a1596b520ea210aaafb1ef193c697f9",
-   "mint": 1794632906,
-   "counter_issued": 57175,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:12:43.730Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74224,
-   "owner": "degol77.t.me",
-   "owner_addr": "0:fc6ff5905aed9b18f0863dc0bd41ea46946d56ad8550cefbb5a712aa1845e334",
-   "mint": 1794640136,
-   "counter_issued": 74224,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T07:13:43.668Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "WinterWreath",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T07:21:02.028Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T07:21:08.115Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T07:21:08.115Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391698,
+   "owner": "",
+   "owner_addr": "0:0862a51c63b17d3f78d55e4bcf367af0615aa98bf3573de8b308876bed21e8a9",
+   "mint": 1794641081,
+   "counter_issued": 391698,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T07:30:06.618Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134548,
+   "owner": "",
+   "owner_addr": "0:01040831b5889bf1cd025d1bc34a7e56f0f8e99de2e062001b863be5ef7405e2",
+   "mint": 1794641390,
+   "counter_issued": 134548,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T07:30:12.235Z",
    "t": 1
   }
  ]
