@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-14T15:41:50.603Z",
- "updated_unix": 1794670910,
- "runs": 16386,
+ "updated": "2026-11-14T15:45:45.264Z",
+ "updated_unix": 1794671145,
+ "runs": 16387,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 127818,
- "sent_total": 4809410,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 127820,
+ "sent_total": 4809552,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78551,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78551,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "BigYear",
-   "number": 78552,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 78552,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:28:14.434Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:41:37.513Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:41:37.513Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:41:37.513Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:41:37.513Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T15:41:37.513Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134565,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134565,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T15:45:40.600Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134566,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134566,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T15:45:40.600Z",
    "t": 1
   }
  ]
