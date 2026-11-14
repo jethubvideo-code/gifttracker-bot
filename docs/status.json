@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-14T16:38:27.514Z",
- "updated_unix": 1794674307,
- "runs": 16396,
+ "updated": "2026-11-14T16:39:25.337Z",
+ "updated_unix": 1794674365,
+ "runs": 16397,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 127835,
- "sent_total": 4810614,
+ "detected_total": 127836,
+ "sent_total": 4810684,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74226,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794645035,
-   "counter_issued": 74226,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-14T15:29:30.209Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-14T16:38:23.705Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108827,
+   "owner": "",
+   "owner_addr": "0:46aa2cbb0fa10d317454f7842ddea3fd4b24c7b063291cce5b783814719d945d",
+   "mint": 1794673100,
+   "counter_issued": 108827,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-14T16:39:23.761Z",
    "t": 1
   }
  ]
