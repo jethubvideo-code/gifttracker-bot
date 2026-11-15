@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T04:24:27.386Z",
- "updated_unix": 1794716667,
- "runs": 16460,
+ "updated": "2026-11-15T04:38:21.506Z",
+ "updated_unix": 1794717501,
+ "runs": 16461,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128621,
- "sent_total": 4865862,
+ "detected_total": 128622,
+ "sent_total": 4865933,
  "last_upgrades": [
-  {
-   "slug": "LightSword",
-   "gift": "LightSword",
-   "number": 125372,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 125372,
-   "counter_total": 131222,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T03:53:19.235Z",
-   "t": 2
-  },
   {
    "slug": "LightSword",
    "gift": "LightSword",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T04:24:05.526Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "UFCStrike",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T04:24:05.526Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T04:24:15.022Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T04:24:15.022Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T04:24:23.708Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134598,
+   "owner": "",
+   "owner_addr": "0:51e1ddee0b346378754bdfb42e3f2f39c0ff1e0d344531905376bdda5eaef3fb",
+   "mint": 1794715314,
+   "counter_issued": 134598,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T04:38:19.986Z",
    "t": 1
   }
  ]
