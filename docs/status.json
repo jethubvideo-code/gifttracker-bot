@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T16:55:36.531Z",
- "updated_unix": 1794761736,
- "runs": 16533,
+ "updated": "2026-11-15T17:19:41.658Z",
+ "updated_unix": 1794763181,
+ "runs": 16534,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 129119,
- "sent_total": 4900499,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 129120,
+ "sent_total": 4900554,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391774,
-   "owner": "",
-   "owner_addr": "0:cb41fc45de62f09ad49c1a292dabe40ae28ddbd836c0a4f4c047e4480ec4fe5f",
-   "mint": 1794753611,
-   "counter_issued": 391774,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T15:05:26.538Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T16:52:32.115Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T16:55:32.966Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270477,
+   "owner": "trixty.t.me",
+   "owner_addr": "0:6041097d92b1a64d3835ad50dba8f7148d8a7f97b2f27bcbc03cca929d19ff19",
+   "mint": 1794762568,
+   "counter_issued": 270477,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T17:19:27.870Z",
    "t": 1
   }
  ]
