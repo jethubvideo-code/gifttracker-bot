@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T19:48:46.091Z",
- "updated_unix": 1794772126,
- "runs": 16560,
+ "updated": "2026-11-15T19:53:48.451Z",
+ "updated_unix": 1794772428,
+ "runs": 16561,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129221,
- "sent_total": 4907534,
+ "detected_total": 129222,
+ "sent_total": 4907605,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74248,
-   "owner": "",
-   "owner_addr": "0:2edb815863b929e5d7fde8a10104dbcb227bb1853a06df203b158a65cd65bbd8",
-   "mint": 1794741548,
-   "counter_issued": 74248,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:01.911Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:48:43.480Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23154,
+   "owner": "tgtgvip.t.me",
+   "owner_addr": "0:d4841da952368a2c9b8505bce5c5551d35dd4a2f321698567d80a038a02ad6f9",
+   "mint": 1794761862,
+   "counter_issued": 23154,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T19:53:46.057Z",
    "t": 1
   }
  ]
