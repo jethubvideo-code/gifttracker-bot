@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T06:44:40.280Z",
- "updated_unix": 1794725080,
- "runs": 16465,
+ "updated": "2026-11-15T06:56:17.756Z",
+ "updated_unix": 1794725777,
+ "runs": 16466,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128646,
- "sent_total": 4867605,
+ "detected_total": 128647,
+ "sent_total": 4867676,
  "last_upgrades": [
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58912,
-   "owner": "",
-   "owner_addr": "0:e3cb359a3b704df7b450e078a9bf10a107110b15ec37e34bc29b9a6c4839bdcd",
-   "mint": 1794698650,
-   "counter_issued": 58912,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T04:24:05.526Z",
-   "t": 3
-  },
   {
    "slug": "UFCStrike",
    "gift": "UFC Strike",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T06:14:25.325Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T06:44:09.370Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T06:44:35.288Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T06:44:35.288Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232382,
+   "owner": "",
+   "owner_addr": "0:8cae62a6e78f476f8d3704d2f8ead09bba3f442c55b860feb616386499d2fd46",
+   "mint": 1794725361,
+   "counter_issued": 232382,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T06:56:15.454Z",
    "t": 1
   }
  ]
