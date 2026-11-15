@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-15T20:24:14.617Z",
- "updated_unix": 1794774254,
- "runs": 16565,
+ "updated": "2026-11-15T21:26:39.538Z",
+ "updated_unix": 1794777999,
+ "runs": 16566,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129229,
- "sent_total": 4908006,
+ "detected_total": 129232,
+ "sent_total": 4908219,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78309,
-   "owner": "",
-   "owner_addr": "0:5e5d13b94ce2a566bfd2c30f8f4506f9b4cf9e17a02b6e631713bcfec68dcb7b",
-   "mint": 1794754070,
-   "counter_issued": 78309,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:54.712Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78310,
-   "owner": "",
-   "owner_addr": "0:580ce9cd9c7e82afeacb9ddc4c8ed2f2904b8fd473a2d22a0e970b5c7719c195",
-   "mint": 1794766990,
-   "counter_issued": 78310,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:54.712Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78311,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794767976,
-   "counter_issued": 78311,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:54.712Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T20:24:03.415Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T20:24:03.415Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391786,
+   "owner": "",
+   "owner_addr": "0:7a1f8661bc9de781bbc68ce53793c8f09383a33a513fe82f1962415b1a2f51d8",
+   "mint": 1794776486,
+   "counter_issued": 391786,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T21:26:23.488Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391787,
+   "owner": "",
+   "owner_addr": "0:a9f3655cc8eb445836b67da842b6087c5d67e5ef6ae3e239f16d4061dfa0c950",
+   "mint": 1794777196,
+   "counter_issued": 391787,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T21:26:23.488Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443973,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794777780,
+   "counter_issued": 443973,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T21:26:35.766Z",
+   "t": 1
   }
  ]
 }
