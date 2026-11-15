@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T02:48:32.304Z",
- "updated_unix": 1794710912,
- "runs": 16455,
+ "updated": "2026-11-15T02:55:34.555Z",
+ "updated_unix": 1794711334,
+ "runs": 16456,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128520,
- "sent_total": 4858691,
+ "detected_total": 128521,
+ "sent_total": 4858762,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85436,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85436,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T02:44:16.050Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T02:48:29.793Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23152,
+   "owner": "sanyalox.ton",
+   "owner_addr": "0:178d565685f095557fd695b93f522bef75ae396f8fc4d3b6053fa312454c1523",
+   "mint": 1794691660,
+   "counter_issued": 23152,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T02:55:32.685Z",
    "t": 1
   }
  ]
