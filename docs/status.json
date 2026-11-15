@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T16:19:23.476Z",
- "updated_unix": 1794759563,
- "runs": 16527,
+ "updated": "2026-11-15T16:23:21.708Z",
+ "updated_unix": 1794759801,
+ "runs": 16528,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 129111,
- "sent_total": 4899931,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 129112,
+ "sent_total": 4900002,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "SurgeBoard",
-   "number": 33135,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 33135,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:58:42.669Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "SleighBell",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T16:19:12.254Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T16:19:12.254Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391777,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391777,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T16:23:16.658Z",
    "t": 1
   }
  ]
