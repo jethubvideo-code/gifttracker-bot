@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T07:28:31.147Z",
- "updated_unix": 1794727711,
- "runs": 16468,
+ "updated": "2026-11-15T07:59:03.288Z",
+ "updated_unix": 1794729543,
+ "runs": 16469,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 128649,
- "sent_total": 4867818,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 128651,
+ "sent_total": 4867960,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84636,
-   "owner": "",
-   "owner_addr": "0:ab9bae3c48bea02454ae8b990941428f4da33d75eac2832634fce2d7d8506396",
-   "mint": 1794707025,
-   "counter_issued": 84636,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T04:24:15.022Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85450,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85450,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T04:24:23.708Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T07:28:28.683Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391750,
+   "owner": "",
+   "owner_addr": "0:4054196d5c1ca1ee57c77a5e6af0ceafe9c371f82813ff4fbcb0008f26aaedb6",
+   "mint": 1794727628,
+   "counter_issued": 391750,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T07:58:50.998Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391751,
+   "owner": "",
+   "owner_addr": "0:cf06bce5343b340cba09379fb1869de4d023e131cdaab2f63b7b5a450e17eefc",
+   "mint": 1794728251,
+   "counter_issued": 391751,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T07:58:50.998Z",
    "t": 1
   }
  ]
