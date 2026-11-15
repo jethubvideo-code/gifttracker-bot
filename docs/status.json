@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T08:05:58.392Z",
- "updated_unix": 1794729958,
- "runs": 16471,
+ "updated": "2026-11-15T08:30:33.343Z",
+ "updated_unix": 1794731433,
+ "runs": 16472,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 128653,
- "sent_total": 4868102,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 128655,
+ "sent_total": 4868170,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164152,
-   "owner": "",
-   "owner_addr": "0:bbc7179752fd92cb2e46beb69d9ee52ec17eca4c61912d4d1bcc4db437b8a629",
-   "mint": 1794715592,
-   "counter_issued": 164152,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T06:09:59.446Z",
-   "t": 3
-  },
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164153,
-   "owner": "",
-   "owner_addr": "0:ecbeee1b9c9233ed0d3154990449838d20600eea345c1b49cf45ca9ee463d648",
-   "mint": 1794717143,
-   "counter_issued": 164153,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T06:09:59.446Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T08:05:56.058Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270459,
+   "owner": "zeinab.t.me",
+   "owner_addr": "0:73e2ecace2018ffc574018fb84b365dd9bdb0fa2c842e0c13476566fa9887ba2",
+   "mint": 1794731174,
+   "counter_issued": 270459,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T08:30:01.298Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391752,
+   "owner": "",
+   "owner_addr": "0:8275756d59bc44e451bcc55d5776ae5bdfb9387c20e8ab2fe34e231854a692f5",
+   "mint": 1794731299,
+   "counter_issued": 391752,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T08:30:31.132Z",
    "t": 1
   }
  ]
