@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T09:51:50.906Z",
- "updated_unix": 1794736310,
- "runs": 16483,
+ "updated": "2026-11-15T09:52:50.596Z",
+ "updated_unix": 1794736370,
+ "runs": 16484,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128686,
- "sent_total": 4870371,
+ "detected_total": 128688,
+ "sent_total": 4870513,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134600,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134600,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T08:44:05.153Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33131,
-   "owner": "giftshop.t.me",
-   "owner_addr": "0:318a2b28a20180274354d410707442e9811e60ad213dca719166d087bf0c9878",
-   "mint": 1794721319,
-   "counter_issued": 33131,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T09:18:18.434Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:51:46.380Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:51:46.380Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90835,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90835,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:52:46.151Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90836,
+   "owner": "",
+   "owner_addr": "0:575bd4d92d746db333a4a6dc084782c657127035ae0c8906866ffa58477c6fc4",
+   "mint": 1794732134,
+   "counter_issued": 90836,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:52:46.151Z",
    "t": 1
   }
  ]
