@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T15:34:33.967Z",
- "updated_unix": 1794756873,
- "runs": 16520,
+ "updated": "2026-11-15T15:48:41.476Z",
+ "updated_unix": 1794757721,
+ "runs": 16521,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 129097,
- "sent_total": 4899002,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 129099,
+ "sent_total": 4899144,
  "last_upgrades": [
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19825,
-   "owner": "",
-   "owner_addr": "0:15e2bee2669c6ca3f16d8c5f53ce7251a9d354e76a9a4db0ecb7c8d71daf1ced",
-   "mint": 1794731741,
-   "counter_issued": 19825,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:12:45.081Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85454,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85454,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:20:24.011Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:34:30.329Z",
+   "t": 3
+  },
+  {
+   "slug": "UFCStrike",
+   "gift": "UFC Strike",
+   "number": 58914,
+   "owner": "",
+   "owner_addr": "0:2edb815863b929e5d7fde8a10104dbcb227bb1853a06df203b158a65cd65bbd8",
+   "mint": 1794741355,
+   "counter_issued": 58914,
+   "counter_total": 60000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T15:48:30.096Z",
+   "t": 1
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74832,
+   "owner": "",
+   "owner_addr": "0:9c50846df7a92e5a50865e3aeb84a9ae8f6b78d145fdd1690f5e9a79501f92f7",
+   "mint": 1794755182,
+   "counter_issued": 74832,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T15:48:37.841Z",
    "t": 1
   }
  ]
