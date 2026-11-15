@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-15T22:37:43.330Z",
- "updated_unix": 1794782263,
- "runs": 16576,
+ "updated": "2026-11-15T22:39:23.578Z",
+ "updated_unix": 1794782363,
+ "runs": 16577,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129251,
- "sent_total": 4909400,
+ "detected_total": 129254,
+ "sent_total": 4909613,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23154,
-   "owner": "tgtgvip.t.me",
-   "owner_addr": "0:d4841da952368a2c9b8505bce5c5551d35dd4a2f321698567d80a038a02ad6f9",
-   "mint": 1794761862,
-   "counter_issued": 23154,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T19:53:46.057Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270482,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270482,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/cwuy5BnLousxBG9lnJK9MoBEWPIhkxDwAfSSX3-h-V_Uxgp6K3QKDOjcjXTob55IwLVPTQi52WtBLOh-RwI8dwpfFYNNbDyyNo44BdEPzbBW_nUBi1hO1nuymr8bfQfQkSHwub9RqE-7mvfySc7ujZnCq8BA1odWkKNfay5FYjX2YqVAmmAapPCzQzrMf8aeLHRaryO9O57Cr6aHzebyMKK2JjRfTAdjBwm1Fo__NVSPTaT-zrDsbbeIjlqQbRgkfdWCC9Bytin1IRZBOz52TpDWHvBdIHzyVybn_BAJqsojSvgUaaCO-yCQQb6LZc5gyAqum53r9y2UMFptCE-xRw.jpg",
-   "sent": 0,
-   "time": "2026-11-15T20:16:48.059Z",
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270483,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1794772939,
-   "counter_issued": 270483,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/OAwPbqqC3fs8NYSRZlOg6SWXSNr8j9OOTja8YzxEb83CKuJnrfWFekLNmWT1W4P2xJk_LdQwOgJxMKF6RqsWNRWePyeIfCqVSTgKt6ykXmB6jbKm7-gpZUxdeykZkml9x9T9-mjyXy3LXt3CIXsoOk8IcFZdqpu9asD1pBsMK3mv0ff8YgsA3pT6os8zzkXfvsySY-i07u1ERL01yqcIMCHkGSOT1GOioZUP79wX2KraPxjp6L5IDDZZvhxTRaWZ_iCTTocx8JWONNNp4yeufVRMLp-Jo0EfCYUgRbeFt06FXDwK5w2q1tStmq0aw34Kjr2Xab-GBbAKTfZYXziZXw.jpg",
-   "sent": 0,
-   "time": "2026-11-15T20:16:48.059Z",
-   "u": 1
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T22:13:49.273Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T22:36:57.213Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T22:36:57.213Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90855,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90855,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T22:38:54.615Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108847,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108847,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T22:39:04.558Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134636,
+   "owner": "",
+   "owner_addr": "0:5e6f97dd64a4b1ad19296846ac2e9f000b4ef9fcd1c00120fe1fd4f2cffa5287",
+   "mint": 1794780206,
+   "counter_issued": 134636,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T22:39:16.308Z",
    "t": 1
   }
  ]
