@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T19:11:41.985Z",
- "updated_unix": 1794769901,
- "runs": 16554,
+ "updated": "2026-11-15T19:20:35.486Z",
+ "updated_unix": 1794770435,
+ "runs": 16555,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 129211,
- "sent_total": 4906900,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 129212,
+ "sent_total": 4906971,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78574,
-   "owner": "",
-   "owner_addr": "0:9527d8d5c1c853ed02c717c754a165cad525f375bba83590c9d52ce2de5837fe",
-   "mint": 1794762733,
-   "counter_issued": 78574,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:42:20.087Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:11:34.959Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:11:34.959Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:11:34.959Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90850,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90850,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T19:20:33.450Z",
    "t": 1
   }
  ]
