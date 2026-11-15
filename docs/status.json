@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T03:18:37.898Z",
- "updated_unix": 1794712717,
- "runs": 16457,
+ "updated": "2026-11-15T03:48:54.562Z",
+ "updated_unix": 1794714534,
+ "runs": 16458,
  "collections": 123,
- "checked": 2,
- "errors": 121,
- "detected_total": 128524,
- "sent_total": 4858975,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 128525,
+ "sent_total": 4859046,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85440,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85440,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T02:44:16.050Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T03:18:30.654Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T03:18:30.654Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T03:18:30.654Z",
+   "t": 3
+  },
+  {
+   "slug": "SnowGlobe",
+   "gift": "SnowGlobe",
+   "number": 55828,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 55828,
+   "counter_total": 72788,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T03:48:50.775Z",
    "t": 1
   }
  ]
