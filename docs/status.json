@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T23:26:47.848Z",
- "updated_unix": 1794785207,
- "runs": 16580,
+ "updated": "2026-11-15T23:27:48.325Z",
+ "updated_unix": 1794785268,
+ "runs": 16581,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129519,
- "sent_total": 4928428,
+ "detected_total": 129520,
+ "sent_total": 4928499,
  "last_upgrades": [
-  {
-   "slug": "LushBouquet",
-   "gift": "LushBouquet",
-   "number": 112978,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 112978,
-   "counter_total": 140116,
-   "img": "https://cdn4.telesco.pe/file/vVDjaQFytatMH53BIEE1G0i2yijEHCALbcegyJP_nAfos0buH42y89k_BC1T4A1ECa5URQCexxQYYcgYXHpozxb1kdeNP3-Qi9h41Wyd4PPWBIrP71gv6b7YRuUfnI5qat-N_Lq1oI7nMPjhxPU1SACMF48WcVjOa51HpQXYahpv42xEyaq4UzFesAUmBo-QVbI0UHO7wo9F9mkdOC7h9mq18bVarUEHUxlCMRYtnfvTwvMTI7bwzUyeDQ1QTPe2_XYyDaOEhYiMvNyonYGv0OB6DBoOUmOPFk8A7ksvltuLARCdsOfg_1o3JCqGan3d8f9PQlXEMGAXzInU7N3XYg.jpg",
-   "sent": 0,
-   "time": "2026-11-15T23:24:59.366Z",
-   "t": 3
-  },
   {
    "slug": "LushBouquet",
    "gift": "LushBouquet",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T23:26:43.217Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T23:26:43.217Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391789,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794782138,
+   "counter_issued": 391789,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T23:27:45.558Z",
    "t": 1
   }
  ]
