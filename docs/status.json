@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T20:22:11.044Z",
- "updated_unix": 1794774131,
- "runs": 16564,
+ "updated": "2026-11-15T20:24:14.617Z",
+ "updated_unix": 1794774254,
+ "runs": 16565,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129227,
- "sent_total": 4907864,
+ "detected_total": 129229,
+ "sent_total": 4908006,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78307,
-   "owner": "",
-   "owner_addr": "0:cd789ffcae1d0590ca53621cb1852dce07657799df00afbd867b0defb9170a6a",
-   "mint": 1794744347,
-   "counter_issued": 78307,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:54.712Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78308,
-   "owner": "",
-   "owner_addr": "0:76fce966323db4eceb34a39c9bbf4f1b6c64afbb5caa494954e8bb56603f36a4",
-   "mint": 1794750320,
-   "counter_issued": 78308,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:54.712Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T20:22:05.661Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90852,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90852,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T20:24:03.415Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90853,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90853,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T20:24:03.415Z",
    "t": 1
   }
  ]
