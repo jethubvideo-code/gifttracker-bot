@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T09:19:21.509Z",
- "updated_unix": 1794734361,
- "runs": 16476,
+ "updated": "2026-11-15T09:20:18.155Z",
+ "updated_unix": 1794734418,
+ "runs": 16477,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128659,
- "sent_total": 4868454,
+ "detected_total": 128660,
+ "sent_total": 4868525,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78565,
-   "owner": "",
-   "owner_addr": "0:c9a67f28caa49d9ea0015550254996fa88902230d236a45d0a2bbe7951a30dfb",
-   "mint": 1794713964,
-   "counter_issued": 78565,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T06:10:12.409Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:19:18.912Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85451,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85451,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:20:15.893Z",
    "t": 1
   }
  ]
