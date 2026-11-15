@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T17:31:03.606Z",
- "updated_unix": 1794763863,
- "runs": 16537,
+ "updated": "2026-11-15T17:39:00.916Z",
+ "updated_unix": 1794764340,
+ "runs": 16538,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129128,
- "sent_total": 4901121,
+ "detected_total": 129129,
+ "sent_total": 4901192,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74832,
-   "owner": "",
-   "owner_addr": "0:9c50846df7a92e5a50865e3aeb84a9ae8f6b78d145fdd1690f5e9a79501f92f7",
-   "mint": 1794755182,
-   "counter_issued": 74832,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T15:48:37.841Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:30:47.466Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:30:47.466Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:30:59.832Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108842,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108842,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T17:38:57.565Z",
    "t": 1
   }
  ]
