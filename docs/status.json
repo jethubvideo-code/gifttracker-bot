@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T15:51:07.818Z",
- "updated_unix": 1794757867,
- "runs": 16523,
+ "updated": "2026-11-15T15:52:50.714Z",
+ "updated_unix": 1794757970,
+ "runs": 16524,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129103,
- "sent_total": 4899379,
+ "detected_total": 129105,
+ "sent_total": 4899521,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134612,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134612,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:30:57.261Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90841,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794748408,
-   "counter_issued": 90841,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:31:59.926Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:50:34.639Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:50:34.639Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:51:03.350Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391775,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391775,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T15:52:41.291Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391776,
+   "owner": "",
+   "owner_addr": "0:efbcf4203501a5a19ea5505de19ac6c30dcf3184585777dfc0157e7af0f51d68",
+   "mint": 1794755162,
+   "counter_issued": 391776,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T15:52:41.291Z",
    "t": 1
   }
  ]
