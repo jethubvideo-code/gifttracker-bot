@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-15T13:12:48.774Z",
- "updated_unix": 1794748368,
- "runs": 16504,
+ "updated": "2026-11-15T13:20:44.650Z",
+ "updated_unix": 1794748844,
+ "runs": 16505,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 129068,
- "sent_total": 4897139,
+ "detected_total": 129072,
+ "sent_total": 4897423,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142777,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142777,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:20:31.364Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142778,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142778,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:20:31.364Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142779,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142779,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:20:31.364Z",
-   "t": 3
-  },
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142780,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142780,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:20:31.364Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T12:45:29.387Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:12:14.722Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:12:14.722Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:12:14.722Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:12:32.205Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:12:32.205Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "MadPumpkin",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:12:45.081Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85454,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85454,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:20:24.011Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85455,
+   "owner": "",
+   "owner_addr": "0:3362c0e5a0b884753f47fb3260e89941181bb3514eb5174bc53d7fd457d30955",
+   "mint": 1794745996,
+   "counter_issued": 85455,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:20:24.011Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33132,
+   "owner": "",
+   "owner_addr": "0:dd6e96c29a6737b89d7b8a68d7c74413449f4742ef5fe8bf3056d0945d50b73b",
+   "mint": 1794739782,
+   "counter_issued": 33132,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:20:37.270Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33133,
+   "owner": "",
+   "owner_addr": "0:2edb815863b929e5d7fde8a10104dbcb227bb1853a06df203b158a65cd65bbd8",
+   "mint": 1794740070,
+   "counter_issued": 33133,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:20:37.270Z",
    "t": 1
   }
  ]
