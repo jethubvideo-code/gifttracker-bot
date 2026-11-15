@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T18:45:46.868Z",
- "updated_unix": 1794768346,
- "runs": 16551,
+ "updated": "2026-11-15T18:46:48.791Z",
+ "updated_unix": 1794768408,
+ "runs": 16552,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129204,
- "sent_total": 4906404,
+ "detected_total": 129206,
+ "sent_total": 4906546,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78567,
-   "owner": "",
-   "owner_addr": "0:478e88826f1b72d650c000f9950cb1567c36fcebe19327820d596f34b4e54090",
-   "mint": 1794730679,
-   "counter_issued": 78567,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:42:20.087Z",
-   "t": 2
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78568,
-   "owner": "",
-   "owner_addr": "0:2f120fd826204e5b1638439ce3ca08bf43b4609d7823b1255f9b6acd2f4a6e15",
-   "mint": 1794735171,
-   "counter_issued": 78568,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:42:20.087Z",
-   "t": 2
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T18:42:20.087Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T18:42:20.087Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T18:45:42.109Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T18:45:42.109Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90849,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794764177,
+   "counter_issued": 90849,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T18:46:40.907Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443970,
+   "owner": "",
+   "owner_addr": "0:fe1d4d35d3b0f34f934f8636eb64dd6ba40c8f06fd424ce32f3ba40fe2b6bc9e",
+   "mint": 1794768224,
+   "counter_issued": 443970,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T18:46:46.768Z",
    "t": 1
   }
  ]
