@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T15:33:36.689Z",
- "updated_unix": 1794756816,
- "runs": 16519,
+ "updated": "2026-11-15T15:34:33.967Z",
+ "updated_unix": 1794756873,
+ "runs": 16520,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129096,
- "sent_total": 4898931,
+ "detected_total": 129097,
+ "sent_total": 4899002,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391769,
-   "owner": "",
-   "owner_addr": "0:cadf714dab47cdd4bede556c776d0bcfab22da58beb5255052d9e7c7ffe86b81",
-   "mint": 1794746796,
-   "counter_issued": 391769,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:12:32.205Z",
-   "t": 3
-  },
   {
    "slug": "MadPumpkin",
    "gift": "Mad Pumpkin",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:33:28.157Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:33:28.157Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26119,
+   "owner": "",
+   "owner_addr": "0:a98d088b0da4fff390aed4694a083afa03897d4b288165eef835f25208e3ef6c",
+   "mint": 1794751890,
+   "counter_issued": 26119,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T15:34:30.329Z",
    "t": 1
   }
  ]
