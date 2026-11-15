@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T09:20:18.155Z",
- "updated_unix": 1794734418,
- "runs": 16477,
+ "updated": "2026-11-15T09:22:20.514Z",
+ "updated_unix": 1794734540,
+ "runs": 16478,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128660,
- "sent_total": 4868525,
+ "detected_total": 128661,
+ "sent_total": 4868596,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109350,
-   "owner": "",
-   "owner_addr": "0:71d095155de8a0ac63fcfee296d0dfe0766598b6ad5254dec67d9a501a7d05be",
-   "mint": 1794704494,
-   "counter_issued": 109350,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T06:10:31.153Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:20:15.893Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164154,
+   "owner": "",
+   "owner_addr": "0:8ee15c6f64b3c8fe09c315968a5c5cb3bc94fe77b21bccc222c5756e84d029b9",
+   "mint": 1794729383,
+   "counter_issued": 164154,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:22:18.352Z",
    "t": 1
   }
  ]
