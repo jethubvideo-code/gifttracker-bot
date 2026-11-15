@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T19:46:45.902Z",
- "updated_unix": 1794772005,
- "runs": 16559,
+ "updated": "2026-11-15T19:48:46.091Z",
+ "updated_unix": 1794772126,
+ "runs": 16560,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129220,
- "sent_total": 4907463,
+ "detected_total": 129221,
+ "sent_total": 4907534,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74247,
-   "owner": "",
-   "owner_addr": "0:2edb815863b929e5d7fde8a10104dbcb227bb1853a06df203b158a65cd65bbd8",
-   "mint": 1794738883,
-   "counter_issued": 74247,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:01.911Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:46:43.511Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270481,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270481,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T19:48:43.480Z",
    "t": 1
   }
  ]
