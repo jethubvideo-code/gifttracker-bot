@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T12:22:54.573Z",
- "updated_unix": 1794745374,
- "runs": 16500,
+ "updated": "2026-11-15T12:23:11.835Z",
+ "updated_unix": 1794745391,
+ "runs": 16501,
  "collections": 123,
  "checked": 5,
- "errors": 118,
- "detected_total": 129052,
- "sent_total": 4896320,
+ "errors": 113,
+ "detected_total": 129053,
+ "sent_total": 4896391,
  "last_upgrades": [
-  {
-   "slug": "HappyBrownie",
-   "gift": "HappyBrownie",
-   "number": 227912,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 227912,
-   "counter_total": 264231,
-   "img": "https://cdn4.telesco.pe/file/jV62SPaPcdXKk6KVwDeqtHXGa8Qz_jcu2PdsYZ-axuDOzxWszJWtrf-ZGUpShOB3CGjwJmBXS91QKokgSGaUiDhRS3VTS2ujsnS1Ipu6k4WprEkaU1Rgf4YlLRrzNjn0z18IMU4bhPTk5MUvJ1CBiimj6ALwMQCfL8kKIG61N1H8Vmu53NnWYhxld2KZAWl2SD9NZgJYd7Mdnhfift5nAUG4Yx742gjwRKTcqSJUy8mpJxzoaGhj8ztKgDqe96PzIAOWwaAf8opVbADG2toJJZNxW4rd7ImqNVmmyc34V38ZWWbsANDzUDmFquypOKJw5U4IIOcr-X7vtZbH_bDl-Q.jpg",
-   "sent": 0,
-   "time": "2026-11-15T12:20:27.688Z",
-   "u": 1
-  },
   {
    "slug": "HappyBrownie",
    "gift": "HappyBrownie",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T12:22:47.657Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T12:22:50.878Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270463,
+   "owner": "",
+   "owner_addr": "0:1324c9d172721a586965eb28815d7adec585ec8933f8d6bf4b175923dfacbe23",
+   "mint": 1794745348,
+   "counter_issued": 270463,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T12:23:10.089Z",
    "t": 1
   }
  ]
