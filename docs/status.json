@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T13:31:00.606Z",
- "updated_unix": 1794749460,
- "runs": 16507,
+ "updated": "2026-11-15T13:32:02.807Z",
+ "updated_unix": 1794749522,
+ "runs": 16508,
  "collections": 123,
- "checked": 24,
- "errors": 99,
- "detected_total": 129074,
- "sent_total": 4897565,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 129075,
+ "sent_total": 4897636,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142783,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142783,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:20:31.364Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:21:36.615Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:30:57.261Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90841,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794748408,
+   "counter_issued": 90841,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:31:59.926Z",
    "t": 1
   }
  ]
