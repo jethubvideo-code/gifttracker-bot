@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T19:44:13.038Z",
- "updated_unix": 1794771853,
- "runs": 16558,
+ "updated": "2026-11-15T19:46:45.902Z",
+ "updated_unix": 1794772005,
+ "runs": 16559,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129219,
- "sent_total": 4907392,
+ "detected_total": 129220,
+ "sent_total": 4907463,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74246,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794738369,
-   "counter_issued": 74246,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:01.911Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:43:43.373Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:44:10.770Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90851,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90851,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T19:46:43.511Z",
    "t": 1
   }
  ]
