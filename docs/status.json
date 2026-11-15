@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-15T13:51:45.494Z",
- "updated_unix": 1794750705,
- "runs": 16510,
+ "updated": "2026-11-15T13:58:48.842Z",
+ "updated_unix": 1794751128,
+ "runs": 16511,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 129079,
- "sent_total": 4897920,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 129082,
+ "sent_total": 4898133,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391767,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391767,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:22:11.803Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108835,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108835,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:22:47.657Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134608,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134608,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:22:50.878Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:51:38.020Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:51:42.558Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85456,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85456,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:58:37.916Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 33134,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 33134,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:58:42.669Z",
+   "t": 1
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "SurgeBoard",
+   "number": 33135,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 33135,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:58:42.669Z",
    "t": 1
   }
  ]
