@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T19:41:50.494Z",
- "updated_unix": 1794771710,
- "runs": 16556,
+ "updated": "2026-11-15T19:42:45.003Z",
+ "updated_unix": 1794771765,
+ "runs": 16557,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129216,
- "sent_total": 4907255,
+ "detected_total": 129217,
+ "sent_total": 4907326,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "StarNotepad",
-   "number": 74243,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 74243,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:01.911Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:41:32.258Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EasterEgg",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:41:32.258Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SakuraFlower",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:41:40.588Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T19:41:46.558Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391785,
+   "owner": "",
+   "owner_addr": "0:5b6957fe2834f4787f9cf03932c4697602f4928c6a68cefec5acdcaad366b968",
+   "mint": 1794771044,
+   "counter_issued": 391785,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T19:42:43.393Z",
    "t": 1
   }
  ]
