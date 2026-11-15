@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T20:20:09.869Z",
- "updated_unix": 1794774009,
- "runs": 16563,
+ "updated": "2026-11-15T20:22:11.044Z",
+ "updated_unix": 1794774131,
+ "runs": 16564,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129226,
- "sent_total": 4907793,
+ "detected_total": 129227,
+ "sent_total": 4907864,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74253,
-   "owner": "nesanya.ton",
-   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
-   "mint": 1794762518,
-   "counter_issued": 74253,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T18:43:01.911Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T20:19:57.092Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T20:19:57.092Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134628,
+   "owner": "tushkan4ik.ton",
+   "owner_addr": "0:889adb5be92cf01225ef248c4d9f0c8d8abb3d288a096ec307ffb0ba73e1e2e7",
+   "mint": 1794772953,
+   "counter_issued": 134628,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T20:22:05.661Z",
    "t": 1
   }
  ]
