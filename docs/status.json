@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T13:20:44.650Z",
- "updated_unix": 1794748844,
- "runs": 16505,
+ "updated": "2026-11-15T13:21:39.987Z",
+ "updated_unix": 1794748899,
+ "runs": 16506,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 129072,
- "sent_total": 4897423,
+ "checked": 24,
+ "errors": 99,
+ "detected_total": 129073,
+ "sent_total": 4897494,
  "last_upgrades": [
-  {
-   "slug": "FaithAmulet",
-   "gift": "FaithAmulet",
-   "number": 142781,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 142781,
-   "counter_total": 172784,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:20:31.364Z",
-   "t": 3
-  },
   {
    "slug": "FaithAmulet",
    "gift": "FaithAmulet",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:20:24.011Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:20:24.011Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:20:37.270Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:20:37.270Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134611,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134611,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:21:36.615Z",
    "t": 1
   }
  ]
