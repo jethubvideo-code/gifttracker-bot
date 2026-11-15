@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T21:40:23.455Z",
- "updated_unix": 1794778823,
- "runs": 16572,
+ "updated": "2026-11-15T21:46:04.847Z",
+ "updated_unix": 1794779164,
+ "runs": 16573,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 129244,
- "sent_total": 4908983,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 129246,
+ "sent_total": 4909125,
  "last_upgrades": [
-  {
-   "slug": "SakuraFlower",
-   "gift": "Sakura Flower",
-   "number": 88009,
-   "owner": "",
-   "owner_addr": "0:379ebf41e95878adc765d173cf9a011b12d96a8b0b6e911748fdd269f2d82784",
-   "mint": 1794762988,
-   "counter_issued": 88009,
-   "counter_total": 93115,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T19:41:40.588Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109364,
-   "owner": "",
-   "owner_addr": "0:edef6fbf4c44f6076d269fef9bfd5573e4ae98fdfb4df89384b7f1d5cf38a49a",
-   "mint": 1794768050,
-   "counter_issued": 109364,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T19:41:46.558Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T21:39:48.030Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T21:39:48.030Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T21:39:48.030Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134634,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134634,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T21:45:54.062Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134635,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134635,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T21:45:54.062Z",
    "t": 1
   }
  ]
