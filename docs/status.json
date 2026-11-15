@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T08:33:08.560Z",
- "updated_unix": 1794731588,
- "runs": 16473,
+ "updated": "2026-11-15T08:44:07.635Z",
+ "updated_unix": 1794732247,
+ "runs": 16474,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 128656,
- "sent_total": 4868241,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 128657,
+ "sent_total": 4868312,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78562,
-   "owner": "",
-   "owner_addr": "0:64e2247e25ffea5dcd56959b88cf0dbaece374dbba94cb7706a60442ec59dc6d",
-   "mint": 1794689684,
-   "counter_issued": 78562,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T06:10:12.409Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T08:33:06.050Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134600,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134600,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T08:44:05.153Z",
    "t": 1
   }
  ]
