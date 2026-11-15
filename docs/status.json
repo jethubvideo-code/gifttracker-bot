@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T13:47:46.442Z",
- "updated_unix": 1794750466,
- "runs": 16509,
+ "updated": "2026-11-15T13:51:45.494Z",
+ "updated_unix": 1794750705,
+ "runs": 16510,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 129077,
- "sent_total": 4897778,
+ "checked": 29,
+ "errors": 94,
+ "detected_total": 129079,
+ "sent_total": 4897920,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443963,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443963,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:22:06.041Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391766,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391766,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T12:22:11.803Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:31:59.926Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:47:35.964Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T13:47:43.379Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90842,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90842,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:51:38.020Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391771,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391771,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T13:51:42.558Z",
    "t": 1
   }
  ]
