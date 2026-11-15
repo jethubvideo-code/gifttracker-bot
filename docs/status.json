@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T04:38:21.506Z",
- "updated_unix": 1794717501,
- "runs": 16461,
+ "updated": "2026-11-15T05:02:19.948Z",
+ "updated_unix": 1794718939,
+ "runs": 16462,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128622,
- "sent_total": 4865933,
+ "detected_total": 128623,
+ "sent_total": 4866004,
  "last_upgrades": [
-  {
-   "slug": "LightSword",
-   "gift": "LightSword",
-   "number": 125373,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 125373,
-   "counter_total": 131222,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T03:53:19.235Z",
-   "t": 3
-  },
   {
    "slug": "LightSword",
    "gift": "LightSword",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T04:38:19.986Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391747,
+   "owner": "",
+   "owner_addr": "0:ecbeee1b9c9233ed0d3154990449838d20600eea345c1b49cf45ca9ee463d648",
+   "mint": 1794717943,
+   "counter_issued": 391747,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T05:02:17.776Z",
    "t": 1
   }
  ]
