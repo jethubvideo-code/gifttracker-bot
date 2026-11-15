@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-15T17:24:51.997Z",
- "updated_unix": 1794763491,
- "runs": 16536,
+ "updated": "2026-11-15T17:31:03.606Z",
+ "updated_unix": 1794763863,
+ "runs": 16537,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129125,
- "sent_total": 4900908,
+ "detected_total": 129128,
+ "sent_total": 4901121,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108840,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108840,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T15:33:28.157Z",
-   "t": 3
-  },
-  {
-   "slug": "SwissWatch",
-   "gift": "Swiss Watch",
-   "number": 26119,
-   "owner": "",
-   "owner_addr": "0:a98d088b0da4fff390aed4694a083afa03897d4b288165eef835f25208e3ef6c",
-   "mint": 1794751890,
-   "counter_issued": 26119,
-   "counter_total": 29323,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T15:34:30.329Z",
-   "t": 3
-  },
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58914,
-   "owner": "",
-   "owner_addr": "0:2edb815863b929e5d7fde8a10104dbcb227bb1853a06df203b158a65cd65bbd8",
-   "mint": 1794741355,
-   "counter_issued": 58914,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T15:48:30.096Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -384,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:24:34.785Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:24:34.785Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:24:34.785Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T17:24:34.785Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134620,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134620,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T17:30:47.466Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134621,
+   "owner": "",
+   "owner_addr": "0:a38f70e3a8a6bcc12a6e7f3d61d47313d9be4f8da348bbc0545b75efd7e6ee49",
+   "mint": 1794761280,
+   "counter_issued": 134621,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T17:30:47.466Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232385,
+   "owner": "nesanya.ton",
+   "owner_addr": "0:4fe93575ae90321b5f5488608630f160339a8c54aa769387cd8c682217ccae65",
+   "mint": 1794762657,
+   "counter_issued": 232385,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T17:30:59.832Z",
    "t": 1
   }
  ]
