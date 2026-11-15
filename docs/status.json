@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T11:01:20.295Z",
- "updated_unix": 1794740480,
- "runs": 16491,
+ "updated": "2026-11-15T11:05:23.674Z",
+ "updated_unix": 1794740723,
+ "runs": 16492,
  "collections": 123,
- "checked": 28,
- "errors": 95,
- "detected_total": 128702,
- "sent_total": 4871474,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 128704,
+ "sent_total": 4871616,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78297,
-   "owner": "",
-   "owner_addr": "0:6b94c82eedb325354346c246bb2a2deb3acf50e0b0d2477ca620685c0f5546c2",
-   "mint": 1794677427,
-   "counter_issued": 78297,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T09:47:53.114Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78298,
-   "owner": "",
-   "owner_addr": "0:4a2b4dcea3f40081b82a7f47fee2b70490a52afd07273d642d6cff232815f108",
-   "mint": 1794680384,
-   "counter_issued": 78298,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T09:47:53.114Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T10:55:16.197Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T11:01:18.083Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85452,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85452,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T11:05:18.781Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85453,
+   "owner": "",
+   "owner_addr": "0:2edb815863b929e5d7fde8a10104dbcb227bb1853a06df203b158a65cd65bbd8",
+   "mint": 1794739033,
+   "counter_issued": 85453,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T11:05:18.781Z",
    "t": 1
   }
  ]
