@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T15:48:41.476Z",
- "updated_unix": 1794757721,
- "runs": 16521,
+ "updated": "2026-11-15T15:49:38.346Z",
+ "updated_unix": 1794757778,
+ "runs": 16522,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 129099,
- "sent_total": 4899144,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 129100,
+ "sent_total": 4899215,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85455,
-   "owner": "",
-   "owner_addr": "0:3362c0e5a0b884753f47fb3260e89941181bb3514eb5174bc53d7fd457d30955",
-   "mint": 1794745996,
-   "counter_issued": 85455,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:20:24.011Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:48:30.096Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:48:37.841Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90844,
+   "owner": "",
+   "owner_addr": "0:f9e9a54539cb8c8738a3e3c8c67d5b76edcc36b9f59a6517b7c910ceaa425c38",
+   "mint": 1794754594,
+   "counter_issued": 90844,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T15:49:34.506Z",
    "t": 1
   }
  ]
