@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T22:01:54.055Z",
- "updated_unix": 1794780114,
- "runs": 16574,
+ "updated": "2026-11-15T22:13:53.755Z",
+ "updated_unix": 1794780833,
+ "runs": 16575,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129248,
- "sent_total": 4909267,
+ "detected_total": 129249,
+ "sent_total": 4909338,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134627,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134627,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T19:44:10.770Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T21:45:54.062Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T21:45:54.062Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T22:01:43.713Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T22:01:43.713Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26120,
+   "owner": "tlttt.t.me",
+   "owner_addr": "0:f89ed0fa60a7095041f8adf6d0ae51b04fd1aa7c6c723ed5c90fee2b17e5c000",
+   "mint": 1794764480,
+   "counter_issued": 26120,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T22:13:49.273Z",
    "t": 1
   }
  ]
