@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-15T15:05:45.459Z",
- "updated_unix": 1794755145,
- "runs": 16517,
+ "updated": "2026-11-15T15:13:38.555Z",
+ "updated_unix": 1794755618,
+ "runs": 16518,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129092,
- "sent_total": 4898769,
+ "detected_total": 129094,
+ "sent_total": 4898789,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90838,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90838,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:12:14.722Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90839,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90839,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T13:12:14.722Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:05:26.538Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:05:37.046Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SwagBag",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T15:05:37.046Z",
-   "t": 1
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270472,
+   "owner": "",
+   "owner_addr": "0:f3247dabf4b80e04f951878964547cb26f668e8d5f44b6b135114883f229c094",
+   "mint": 1794754591,
+   "counter_issued": 270472,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/Ev-8jVEnFr0dlL_8mWR3eCyXp41X4YLyLRCdvcfWYWdTiRZlnB6ySD6QN3V8vChi9KN_tRS5D8NnWWqvJjrOG8RD5z7W_S-0jQoKrBTwFNw4gXAXWxiN_AcHMIegWLWtNIuJ6Sz47Jdp2tr_IXriqtewW3vZMvAzL3gnN0LHCetdEsO0vj26Rg7Ex5RwVyDZiN87ecJUWgoBAHp4j_Ym-MKr16IadiwbC7oK_WjvxcqUwQ2fbrFrpff-bbpDOLWlPWK18Xz8oHvQOQTU4pDKqOexgrdZmBCo8qqSvhzHHoAE6IOfY_aA1ct8XKa4jArMxnGAknQUZcomi_7VIroLEQ.jpg",
+   "sent": 0,
+   "time": "2026-11-15T15:12:43.211Z",
+   "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270473,
+   "owner": "",
+   "owner_addr": "0:03517d022298810334813bd6ccc90edfe148be7585e475a278159500536e844c",
+   "mint": 1794754647,
+   "counter_issued": 270473,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/mHAZxl71DCPWufxmpyL7fLYMGgAVdV5566rXj69udGkHSHa1QHkLGpIJAolgq_dKnG3ncuf_2mEkN-hkSQF98w7g1BZj-Og0ltRqMfksoVWsWF7ZCIL8OUOjG0UhpTYWAxrLSuoefOZVE6GwgltYo0jzpoKAReqar2WgJPZ9UvBZhswQcoNZ8KA02l6Qc3A1sa8mVE-FjhavYv0d6D1ct6gDeAoBr2p0yUljz9ZD8z-VaEh_XcZuMmrsCEt6afZjjOBJPT0OcJ-qg6fPULEUh6gtk0IU6kn0awdi97X9T-XZuwq-Wh6-_8hka63eemrZLwBgiRifvUVw00kUKZqnWg.jpg",
+   "sent": 0,
+   "time": "2026-11-15T15:12:43.211Z",
+   "u": 1
   }
  ]
 }
