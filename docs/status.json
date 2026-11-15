@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T09:52:50.596Z",
- "updated_unix": 1794736370,
- "runs": 16484,
+ "updated": "2026-11-15T09:54:45.250Z",
+ "updated_unix": 1794736485,
+ "runs": 16485,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128688,
- "sent_total": 4870513,
+ "detected_total": 128689,
+ "sent_total": 4870584,
  "last_upgrades": [
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74831,
-   "owner": "",
-   "owner_addr": "0:dab857232e09d39bec4980138c878b8904552672e400de46f97239a9f90d37fd",
-   "mint": 1794726578,
-   "counter_issued": 74831,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T09:19:18.912Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:52:46.151Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:52:46.151Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391755,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391755,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:54:43.154Z",
    "t": 1
   }
  ]
