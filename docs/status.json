@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T09:54:45.250Z",
- "updated_unix": 1794736485,
- "runs": 16485,
+ "updated": "2026-11-15T09:55:44.965Z",
+ "updated_unix": 1794736544,
+ "runs": 16486,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128689,
- "sent_total": 4870584,
+ "detected_total": 128690,
+ "sent_total": 4870655,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85451,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85451,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T09:20:15.893Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T09:54:43.154Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108834,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108834,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:55:42.999Z",
    "t": 1
   }
  ]
