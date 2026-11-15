@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T07:19:31.896Z",
- "updated_unix": 1794727171,
- "runs": 16467,
+ "updated": "2026-11-15T07:28:31.147Z",
+ "updated_unix": 1794727711,
+ "runs": 16468,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128648,
- "sent_total": 4867747,
+ "detected_total": 128649,
+ "sent_total": 4867818,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84635,
-   "owner": "",
-   "owner_addr": "0:655fae05d2aaf00010383d036d184cb86af1b28353a64ff1dc65c9f4d22f1ac5",
-   "mint": 1794701125,
-   "counter_issued": 84635,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T04:24:15.022Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T06:56:15.454Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T07:19:28.971Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391749,
+   "owner": "",
+   "owner_addr": "0:4054196d5c1ca1ee57c77a5e6af0ceafe9c371f82813ff4fbcb0008f26aaedb6",
+   "mint": 1794727628,
+   "counter_issued": 391749,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T07:28:28.683Z",
    "t": 1
   }
  ]
