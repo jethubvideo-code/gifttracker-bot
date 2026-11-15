@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-15T08:44:07.635Z",
- "updated_unix": 1794732247,
- "runs": 16474,
+ "updated": "2026-11-15T09:18:20.808Z",
+ "updated_unix": 1794734300,
+ "runs": 16475,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 128657,
- "sent_total": 4868312,
+ "detected_total": 128658,
+ "sent_total": 4868383,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78563,
-   "owner": "",
-   "owner_addr": "0:64e2247e25ffea5dcd56959b88cf0dbaece374dbba94cb7706a60442ec59dc6d",
-   "mint": 1794689947,
-   "counter_issued": 78563,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-15T06:10:12.409Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "Big Year",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-15T08:44:05.153Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33131,
+   "owner": "giftshop.t.me",
+   "owner_addr": "0:318a2b28a20180274354d410707442e9811e60ad213dca719166d087bf0c9878",
+   "mint": 1794721319,
+   "counter_issued": 33131,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-15T09:18:18.434Z",
+   "t": 1
   }
  ]
 }
