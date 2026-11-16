@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T11:33:34.878Z",
- "updated_unix": 1794828814,
- "runs": 16650,
+ "updated": "2026-11-16T11:48:30.694Z",
+ "updated_unix": 1794829710,
+ "runs": 16651,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129996,
- "sent_total": 4961919,
+ "detected_total": 129997,
+ "sent_total": 4961990,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109371,
-   "owner": "",
-   "owner_addr": "0:58b2f216ab95d8adb60abff7cd5c0a9ca75be912ec37d5dfc353e4c37ae1d787",
-   "mint": 1794819899,
-   "counter_issued": 109371,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T10:06:30.364Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T11:14:33.766Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T11:33:29.558Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T11:33:29.558Z",
+   "t": 3
+  },
+  {
+   "slug": "SignetRing",
+   "gift": "Signet Ring",
+   "number": 16995,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794827396,
+   "counter_issued": 16995,
+   "counter_total": 18499,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T11:48:28.627Z",
    "t": 1
   }
  ]
