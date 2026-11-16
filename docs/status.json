@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T01:51:38.747Z",
- "updated_unix": 1794793898,
- "runs": 16592,
+ "updated": "2026-11-16T02:09:48.785Z",
+ "updated_unix": 1794794988,
+ "runs": 16593,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129587,
- "sent_total": 4933180,
+ "detected_total": 129588,
+ "sent_total": 4933251,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 57178,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794651120,
-   "counter_issued": 57178,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T01:00:33.431Z",
-   "t": 3
-  },
   {
    "slug": "HexPot",
    "gift": "Hex Pot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T01:51:36.580Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443978,
+   "owner": "",
+   "owner_addr": "0:e66138623ab2cef3b94506c2b539592ef297c566df916074a7470906044869e0",
+   "mint": 1794793658,
+   "counter_issued": 443978,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T02:09:46.979Z",
    "t": 1
   }
  ]
