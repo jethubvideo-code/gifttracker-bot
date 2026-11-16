@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-16T17:01:34.193Z",
- "updated_unix": 1794848494,
- "runs": 16687,
+ "updated": "2026-11-16T17:03:25.552Z",
+ "updated_unix": 1794848605,
+ "runs": 16688,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130341,
- "sent_total": 4985859,
+ "detected_total": 130346,
+ "sent_total": 4986213,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78330,
-   "owner": "",
-   "owner_addr": "0:974e696592a83a09ebe4d4718b88128a01a6a7606abf10693523cfbc4783d38d",
-   "mint": 1794842628,
-   "counter_issued": 78330,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:55:52.056Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74259,
-   "owner": "",
-   "owner_addr": "0:4a804fcd58a2172d4091e6f5840e42a6ff274faa1369c81569f6aca7a693783f",
-   "mint": 1794831275,
-   "counter_issued": 74259,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:56:10.897Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74260,
-   "owner": "",
-   "owner_addr": "0:85354b83522224769c3237d40cac3f46edc4eb9545f3cb90ad086bf01e2902a3",
-   "mint": 1794831959,
-   "counter_issued": 74260,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:56:10.897Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74261,
-   "owner": "",
-   "owner_addr": "0:5b3a0e41572d33001733e30c990bea42053403cf3d1fa3029b5fe748bfe9695b",
-   "mint": 1794836986,
-   "counter_issued": 74261,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:56:10.897Z",
-   "t": 3
-  },
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74262,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794839465,
-   "counter_issued": 74262,
-   "counter_total": 99082,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:56:10.897Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -384,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T17:00:41.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T17:00:41.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T17:00:41.738Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T17:00:41.738Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90872,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90872,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:02:44.948Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108856,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108856,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:02:54.701Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108857,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108857,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:02:54.701Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108858,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108858,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:02:54.701Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108859,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108859,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:02:54.701Z",
    "t": 1
   }
  ]
