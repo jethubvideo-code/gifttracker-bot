@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T07:29:38.501Z",
- "updated_unix": 1794814178,
- "runs": 16619,
+ "updated": "2026-11-16T07:30:37.625Z",
+ "updated_unix": 1794814237,
+ "runs": 16620,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129896,
- "sent_total": 4955119,
+ "detected_total": 129898,
+ "sent_total": 4955261,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107666,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107666,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:03.413Z",
-   "t": 3
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107667,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107667,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:03.413Z",
-   "t": 3
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:29:20.651Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BowTie",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:29:26.312Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:29:33.202Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:29:33.202Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90857,
+   "owner": "",
+   "owner_addr": "0:180cd571a298eeaab5c46bf08b95eb68b0d63001bd9665231b162e4273b5d76f",
+   "mint": 1794802264,
+   "counter_issued": 90857,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:30:32.376Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90858,
+   "owner": "",
+   "owner_addr": "0:cd8c755df3acd27c3941cae0efab63672f201365d266b5e9c0c399b8e00608fa",
+   "mint": 1794805591,
+   "counter_issued": 90858,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:30:32.376Z",
    "t": 1
   }
  ]
