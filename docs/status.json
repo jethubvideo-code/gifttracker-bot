@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T03:23:29.250Z",
- "updated_unix": 1794799409,
- "runs": 16597,
+ "updated": "2026-11-16T03:26:32.164Z",
+ "updated_unix": 1794799592,
+ "runs": 16598,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129624,
- "sent_total": 4935807,
+ "detected_total": 129626,
+ "sent_total": 4935949,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "BerryBox",
-   "number": 53609,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 53609,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:20:26.500Z",
-   "t": 3
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "BerryBox",
-   "number": 53610,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 53610,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:20:26.500Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "BerryBox",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T03:23:27.426Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443980,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443980,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T03:26:27.893Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443981,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443981,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T03:26:27.893Z",
    "t": 1
   }
  ]
