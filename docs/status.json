@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T13:23:40.228Z",
- "updated_unix": 1794835420,
- "runs": 16665,
+ "updated": "2026-11-16T13:30:36.305Z",
+ "updated_unix": 1794835836,
+ "runs": 16666,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130269,
- "sent_total": 4981294,
+ "detected_total": 130270,
+ "sent_total": 4981365,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229349,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229349,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:23:31.253Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:23:38.055Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443998,
+   "owner": "",
+   "owner_addr": "0:5f56a03ea11aebd4d1a2a6e5a03173e83ed18384dbbfd247aadf5a62265d7797",
+   "mint": 1794835105,
+   "counter_issued": 443998,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T13:30:34.388Z",
    "t": 1
   }
  ]
