@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T22:17:15.217Z",
- "updated_unix": 1794867435,
- "runs": 16715,
+ "updated": "2026-11-16T22:44:44.706Z",
+ "updated_unix": 1794869084,
+ "runs": 16716,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130573,
- "sent_total": 5001979,
+ "detected_total": 130575,
+ "sent_total": 5002121,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85489,
-   "owner": "",
-   "owner_addr": "0:e3cda1db10bcd2f7c5583d69dce98ee019c95de56b567e8406e50836af0e2d18",
-   "mint": 1794858691,
-   "counter_issued": 85489,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T20:07:05.735Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33145,
-   "owner": "",
-   "owner_addr": "0:a6353159ef9a78abba82793799ebd5ae663790d7c82686b3e613cf8d448d02bd",
-   "mint": 1794844648,
-   "counter_issued": 33145,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T20:07:37.379Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T22:17:13.085Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444012,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794865221,
+   "counter_issued": 444012,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T22:44:34.244Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391835,
+   "owner": "",
+   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
+   "mint": 1794865645,
+   "counter_issued": 391835,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T22:44:41.088Z",
    "t": 1
   }
  ]
