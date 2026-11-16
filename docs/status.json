@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T05:42:46.006Z",
- "updated_unix": 1794807766,
- "runs": 16607,
+ "updated": "2026-11-16T05:43:49.042Z",
+ "updated_unix": 1794807829,
+ "runs": 16608,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129647,
- "sent_total": 4937440,
+ "detected_total": 129648,
+ "sent_total": 4937511,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56678,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1794795922,
-   "counter_issued": 56678,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:21:37.243Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T05:42:44.006Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391793,
+   "owner": "",
+   "owner_addr": "0:4bdc2dd6253c375631af756c52389569a5e0ead054e1e3d83de4d7a17710b445",
+   "mint": 1794807295,
+   "counter_issued": 391793,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T05:43:47.111Z",
    "t": 1
   }
  ]
