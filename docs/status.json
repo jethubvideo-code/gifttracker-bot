@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T04:30:56.586Z",
- "updated_unix": 1794803456,
- "runs": 16601,
+ "updated": "2026-11-16T04:35:02.998Z",
+ "updated_unix": 1794803702,
+ "runs": 16602,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129630,
- "sent_total": 4936233,
+ "detected_total": 129632,
+ "sent_total": 4936375,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "BerryBox",
-   "number": 53615,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 53615,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:20:26.500Z",
-   "t": 3
-  },
-  {
-   "slug": "BerryBox",
-   "gift": "BerryBox",
-   "number": 53616,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 53616,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:20:26.500Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "BerryBox",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T04:30:54.807Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108848,
+   "owner": "",
+   "owner_addr": "0:1824307a3c27e270fb1a3c21819f4a6ac7573e308e5f79b80ec2bd86e0393b33",
+   "mint": 1794785979,
+   "counter_issued": 108848,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T04:34:58.761Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108849,
+   "owner": "",
+   "owner_addr": "0:61534aeb98dd9b55859c8955436f333678507cca479ac71651a20d4921333cec",
+   "mint": 1794801750,
+   "counter_issued": 108849,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T04:34:58.761Z",
    "t": 1
   }
  ]
