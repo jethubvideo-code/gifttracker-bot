@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T05:50:48.288Z",
- "updated_unix": 1794808248,
- "runs": 16610,
+ "updated": "2026-11-16T05:57:46.675Z",
+ "updated_unix": 1794808666,
+ "runs": 16611,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129651,
- "sent_total": 4937724,
+ "detected_total": 129652,
+ "sent_total": 4937795,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52544,
-   "owner": "",
-   "owner_addr": "0:969d451af6f38cceb28d0f79be20b8602230ed5ea1552d81e71b011a3b7febe6",
-   "mint": 1794778040,
-   "counter_issued": 52544,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:22:11.023Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T05:50:44.040Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T05:50:44.040Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134644,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134644,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T05:57:44.462Z",
    "t": 1
   }
  ]
