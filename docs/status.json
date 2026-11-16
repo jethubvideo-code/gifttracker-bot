@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T22:44:44.706Z",
- "updated_unix": 1794869084,
- "runs": 16716,
+ "updated": "2026-11-16T22:45:43.489Z",
+ "updated_unix": 1794869143,
+ "runs": 16717,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 130575,
- "sent_total": 5002121,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 130576,
+ "sent_total": 5002192,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33146,
-   "owner": "sashakoshka.ton",
-   "owner_addr": "0:9ec13b09702284b0bf0d75e65f9ca75baf2dd86e25a72f3c940bcda13200e378",
-   "mint": 1794847681,
-   "counter_issued": 33146,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T20:07:37.379Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "EvilEye",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T22:17:13.085Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T22:44:34.244Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T22:44:41.088Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90878,
+   "owner": "",
+   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
+   "mint": 1794867116,
+   "counter_issued": 90878,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T22:45:41.241Z",
    "t": 1
   }
  ]
