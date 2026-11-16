@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T12:56:47.769Z",
- "updated_unix": 1794833807,
- "runs": 16659,
+ "updated": "2026-11-16T12:57:53.027Z",
+ "updated_unix": 1794833873,
+ "runs": 16660,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130257,
- "sent_total": 4980445,
+ "detected_total": 130259,
+ "sent_total": 4980587,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229337,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229337,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 2
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229338,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229338,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 2
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -48,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T12:54:49.529Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PoolFloat",
@@ -62,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T12:54:49.529Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PoolFloat",
@@ -76,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T12:54:49.529Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PoolFloat",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T12:56:44.990Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134654,
+   "owner": "",
+   "owner_addr": "0:daf81d7ceed71ab858fe6924e4903c48cb36ce803c0584cab1bb8baf65df82b4",
+   "mint": 1794833625,
+   "counter_issued": 134654,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T12:57:44.643Z",
+   "t": 1
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232386,
+   "owner": "",
+   "owner_addr": "0:4e0be57dc74c05e83df1431f182bc16861152457fb697a39abd6a65721932494",
+   "mint": 1794828647,
+   "counter_issued": 232386,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T12:57:50.947Z",
    "t": 1
   }
  ]
