@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T05:43:49.042Z",
- "updated_unix": 1794807829,
- "runs": 16608,
+ "updated": "2026-11-16T05:46:48.446Z",
+ "updated_unix": 1794808008,
+ "runs": 16609,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129648,
- "sent_total": 4937511,
+ "detected_total": 129649,
+ "sent_total": 4937582,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56679,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1794795956,
-   "counter_issued": 56679,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:21:37.243Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T05:43:47.111Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 443986,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794805046,
+   "counter_issued": 443986,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T05:46:46.556Z",
    "t": 1
   }
  ]
