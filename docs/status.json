@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-16T10:23:17.100Z",
- "updated_unix": 1794824597,
- "runs": 16642,
+ "updated": "2026-11-16T10:41:10.161Z",
+ "updated_unix": 1794825670,
+ "runs": 16643,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129973,
- "sent_total": 4960288,
+ "detected_total": 129977,
+ "sent_total": 4960572,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90860,
-   "owner": "",
-   "owner_addr": "0:8ac20e3e77dc24a0a791484901a6cf1a1475ca57045bf48c4840b5607e457542",
-   "mint": 1794819260,
-   "counter_issued": 90860,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:48:12.679Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270499,
-   "owner": "",
-   "owner_addr": "0:8054e2064af3185231b50f76c1a6cdd0b048fb5aba1fcb29a14e8eb071653fae",
-   "mint": 1794815281,
-   "counter_issued": 270499,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:50:10.429Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270500,
-   "owner": "",
-   "owner_addr": "0:8054e2064af3185231b50f76c1a6cdd0b048fb5aba1fcb29a14e8eb071653fae",
-   "mint": 1794815319,
-   "counter_issued": 270500,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:50:10.429Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270501,
-   "owner": "",
-   "owner_addr": "0:fbbfec7be9f56a2774b5725fff67e8ed4c888eff8d56007c74b4bc1aaada8ff5",
-   "mint": 1794816714,
-   "counter_issued": 270501,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:50:10.429Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:07:29.825Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:07:34.538Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:22:56.394Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:22:56.394Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:22:56.394Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:22:56.394Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84651,
+   "owner": "",
+   "owner_addr": "0:828757e01b10b43e280d46c602637fa3dbf97da9765b6e14749b16753c547fb8",
+   "mint": 1794805831,
+   "counter_issued": 84651,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:40:55.960Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84652,
+   "owner": "",
+   "owner_addr": "0:3102cff839bc15912a4e18cbb8d9212c6095f60b8cac644e8eb4c5b68d33ba65",
+   "mint": 1794811321,
+   "counter_issued": 84652,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:40:55.960Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84653,
+   "owner": "",
+   "owner_addr": "0:3102cff839bc15912a4e18cbb8d9212c6095f60b8cac644e8eb4c5b68d33ba65",
+   "mint": 1794811472,
+   "counter_issued": 84653,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:40:55.960Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84654,
+   "owner": "",
+   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
+   "mint": 1794813284,
+   "counter_issued": 84654,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:40:55.960Z",
    "t": 1
   }
  ]
