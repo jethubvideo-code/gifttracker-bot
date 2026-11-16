@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T05:57:46.675Z",
- "updated_unix": 1794808666,
- "runs": 16611,
+ "updated": "2026-11-16T06:15:51.734Z",
+ "updated_unix": 1794809751,
+ "runs": 16612,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129652,
- "sent_total": 4937795,
+ "detected_total": 129653,
+ "sent_total": 4937866,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52545,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794780792,
-   "counter_issued": 52545,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:22:11.023Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T05:57:44.462Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391796,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391796,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T06:15:49.223Z",
    "t": 1
   }
  ]
