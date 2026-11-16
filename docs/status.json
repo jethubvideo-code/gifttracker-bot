@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T18:56:51.334Z",
- "updated_unix": 1794855411,
- "runs": 16702,
+ "updated": "2026-11-16T19:12:47.404Z",
+ "updated_unix": 1794856367,
+ "runs": 16703,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130528,
- "sent_total": 4998784,
+ "detected_total": 130529,
+ "sent_total": 4998855,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 449386,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 449386,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T18:18:30.174Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T18:56:49.283Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90874,
+   "owner": "",
+   "owner_addr": "0:8d75af9529667bd3117361941fbf541e00ad345e686584413c08c083a5c575b0",
+   "mint": 1794855099,
+   "counter_issued": 90874,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T19:12:44.925Z",
    "t": 1
   }
  ]
