@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T07:37:59.183Z",
- "updated_unix": 1794814679,
- "runs": 16623,
+ "updated": "2026-11-16T07:38:32.059Z",
+ "updated_unix": 1794814712,
+ "runs": 16624,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 129904,
- "sent_total": 4955626,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 129905,
+ "sent_total": 4955697,
  "last_upgrades": [
-  {
-   "slug": "SpyAgaric",
-   "gift": "SpyAgaric",
-   "number": 86945,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 86945,
-   "counter_total": 89438,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:07.691Z",
-   "t": 3
-  },
   {
    "slug": "SpyAgaric",
    "gift": "SpyAgaric",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:37:32.707Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "EvilEye",
+   "number": 74837,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 74837,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:38:29.508Z",
    "t": 1
   }
  ]
