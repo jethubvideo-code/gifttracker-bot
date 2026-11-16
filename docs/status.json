@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-16T09:55:45.437Z",
- "updated_unix": 1794822945,
- "runs": 16639,
+ "updated": "2026-11-16T10:06:38.243Z",
+ "updated_unix": 1794823598,
+ "runs": 16640,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 129963,
- "sent_total": 4959629,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 129967,
+ "sent_total": 4959911,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78582,
-   "owner": "",
-   "owner_addr": "0:f2057398a2bca3d9a0df812a3f40e9b7006ee3e421637f10faa279de983feaa4",
-   "mint": 1794819839,
-   "counter_issued": 78582,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:31:18.048Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78583,
-   "owner": "",
-   "owner_addr": "0:d9038d0f97b6e636281543b6a4ab64ca9f2defc7e0d600487021ca19eff655bb",
-   "mint": 1794820965,
-   "counter_issued": 78583,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:31:18.048Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33142,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794811791,
-   "counter_issued": 33142,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:31:31.169Z",
-   "t": 3
-  },
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33143,
-   "owner": "",
-   "owner_addr": "0:725b3888d3366ba27bdd3fd5e4c2f6749683cba7b010c84e25358b227a6b739d",
-   "mint": 1794811930,
-   "counter_issued": 33143,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:31:31.169Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T09:55:28.038Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T09:55:28.038Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T09:55:28.038Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T09:55:28.038Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T09:55:28.038Z",
+   "t": 3
+  },
+  {
+   "slug": "BigYear",
+   "gift": "BigYear",
+   "number": 78584,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 78584,
+   "counter_total": 101415,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:06:18.963Z",
+   "t": 1
+  },
+  {
+   "slug": "BigYear",
+   "gift": "BigYear",
+   "number": 78585,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 78585,
+   "counter_total": 101415,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:06:18.963Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 109370,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 109370,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:06:30.364Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "Spiced Wine",
+   "number": 109371,
+   "owner": "",
+   "owner_addr": "0:58b2f216ab95d8adb60abff7cd5c0a9ca75be912ec37d5dfc353e4c37ae1d787",
+   "mint": 1794819899,
+   "counter_issued": 109371,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:06:30.364Z",
    "t": 1
   }
  ]
