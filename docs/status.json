@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T11:10:40.643Z",
- "updated_unix": 1794827440,
- "runs": 16647,
+ "updated": "2026-11-16T11:11:39.922Z",
+ "updated_unix": 1794827499,
+ "runs": 16648,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129992,
- "sent_total": 4961636,
+ "detected_total": 129993,
+ "sent_total": 4961706,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391808,
-   "owner": "",
-   "owner_addr": "0:d49471f046212129cce014cb83b623c6e31ce9be588542cc196c5ca80b4eb860",
-   "mint": 1794820139,
-   "counter_issued": 391808,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:55:28.038Z",
-   "t": 3
-  },
   {
    "slug": "BigYear",
    "gift": "BigYear",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T11:10:32.405Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T11:10:32.405Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T11:10:32.405Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108853,
+   "owner": "",
+   "owner_addr": "0:0982e1ee54e9de90b8bb15a302c87363f89926581cb7ac3281e2485c809a07f5",
+   "mint": 1794825044,
+   "counter_issued": 108853,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T11:11:36.738Z",
    "t": 1
   }
  ]
