@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T08:39:19.124Z",
- "updated_unix": 1794818359,
- "runs": 16631,
+ "updated": "2026-11-16T08:40:17.198Z",
+ "updated_unix": 1794818417,
+ "runs": 16632,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129931,
- "sent_total": 4957389,
+ "detected_total": 129932,
+ "sent_total": 4957460,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134647,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134647,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T07:33:28.789Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T08:39:03.006Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T08:39:03.006Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T08:39:03.006Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T08:39:03.006Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134651,
+   "owner": "",
+   "owner_addr": "0:62a717ba94b7247aa8c7816ee884a88c7b3202aec0dc713a703b9c02cd8721d4",
+   "mint": 1794817048,
+   "counter_issued": 134651,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T08:40:14.001Z",
    "t": 1
   }
  ]
