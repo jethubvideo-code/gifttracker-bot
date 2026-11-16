@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T12:11:47.159Z",
- "updated_unix": 1794831107,
- "runs": 16652,
+ "updated": "2026-11-16T12:14:49.197Z",
+ "updated_unix": 1794831289,
+ "runs": 16653,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129998,
- "sent_total": 4962061,
+ "detected_total": 129999,
+ "sent_total": 4962132,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 443995,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 443995,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T10:07:34.538Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T12:11:44.247Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391816,
+   "owner": "",
+   "owner_addr": "0:f4f08ea480ec669ca33ab2387d23cf08173065cf16a95062c77d72eb54db8ff8",
+   "mint": 1794830761,
+   "counter_issued": 391816,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T12:14:46.789Z",
    "t": 1
   }
  ]
