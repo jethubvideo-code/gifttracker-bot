@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T13:00:46.867Z",
- "updated_unix": 1794834046,
- "runs": 16661,
+ "updated": "2026-11-16T13:01:51.652Z",
+ "updated_unix": 1794834111,
+ "runs": 16662,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 130260,
- "sent_total": 4980657,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 130261,
+ "sent_total": 4980728,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229340,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229340,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:00:44.568Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391817,
+   "owner": "",
+   "owner_addr": "0:f2997fc9cf9aa29049915850bcdaa0e6f319424c1e3fa2dfac61320aa88bbf00",
+   "mint": 1794832782,
+   "counter_issued": 391817,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T13:01:49.190Z",
    "t": 1
   }
  ]
