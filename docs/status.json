@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T19:13:46.367Z",
- "updated_unix": 1794856426,
- "runs": 16704,
+ "updated": "2026-11-16T19:18:43.921Z",
+ "updated_unix": 1794856723,
+ "runs": 16705,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130531,
- "sent_total": 4998997,
+ "detected_total": 130532,
+ "sent_total": 4999068,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 449389,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 449389,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T18:18:30.174Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T19:13:41.831Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T19:13:41.831Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134671,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134671,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T19:18:41.962Z",
    "t": 1
   }
  ]
