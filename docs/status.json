@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T15:06:20.870Z",
- "updated_unix": 1794841580,
- "runs": 16675,
+ "updated": "2026-11-16T15:10:23.129Z",
+ "updated_unix": 1794841823,
+ "runs": 16676,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130283,
- "sent_total": 4982267,
+ "detected_total": 130284,
+ "sent_total": 4982337,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229363,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229363,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T15:06:18.995Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444001,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794840391,
+   "counter_issued": 444001,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T15:10:21.096Z",
    "t": 1
   }
  ]
