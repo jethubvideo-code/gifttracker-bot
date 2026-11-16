@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-16T16:56:30.977Z",
- "updated_unix": 1794848190,
- "runs": 16686,
+ "updated": "2026-11-16T17:01:34.193Z",
+ "updated_unix": 1794848494,
+ "runs": 16687,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 130337,
- "sent_total": 4985648,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 130341,
+ "sent_total": 4985859,
  "last_upgrades": [
-  {
-   "slug": "SakuraFlower",
-   "gift": "Sakura Flower",
-   "number": 88010,
-   "owner": "urkuncdev.ton",
-   "owner_addr": "0:182b335c075a79f99310eb980dddd4f3f2f02b046cc4c27ce6a177c1ba834664",
-   "mint": 1794830267,
-   "counter_issued": 88010,
-   "counter_total": 93115,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:55:39.836Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78327,
-   "owner": "",
-   "owner_addr": "0:738cd6e4be047b2c404f383e9a57e7ab63e041a2ead1021ccb03872e65ea51e6",
-   "mint": 1794829961,
-   "counter_issued": 78327,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:55:52.056Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78328,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794840388,
-   "counter_issued": 78328,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:55:52.056Z",
-   "t": 3
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78329,
-   "owner": "",
-   "owner_addr": "0:5ee1c3e72e8f4fdb5f96e37829204a292536d1b467be712b1c636038c27f662a",
-   "mint": 1794841913,
-   "counter_issued": 78329,
-   "counter_total": 100846,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T15:55:52.056Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:53:13.750Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:54:12.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:54:12.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:54:12.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:54:12.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:54:12.684Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T16:54:12.684Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270544,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270544,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:00:41.738Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270545,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270545,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:00:41.738Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270546,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270546,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:00:41.738Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270547,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270547,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T17:00:41.738Z",
    "t": 1
   }
  ]
