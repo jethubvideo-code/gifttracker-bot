@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T02:09:48.785Z",
- "updated_unix": 1794794988,
- "runs": 16593,
+ "updated": "2026-11-16T03:01:04.819Z",
+ "updated_unix": 1794798064,
+ "runs": 16594,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129588,
- "sent_total": 4933251,
+ "detected_total": 129589,
+ "sent_total": 4933322,
  "last_upgrades": [
-  {
-   "slug": "HexPot",
-   "gift": "Hex Pot",
-   "number": 57179,
-   "owner": "",
-   "owner_addr": "0:5b3a0e41572d33001733e30c990bea42053403cf3d1fa3029b5fe748bfe9695b",
-   "mint": 1794660427,
-   "counter_issued": 57179,
-   "counter_total": 69837,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T01:00:33.431Z",
-   "t": 3
-  },
   {
    "slug": "HexPot",
    "gift": "Hex Pot",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T02:09:46.979Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3987,
+   "owner": "",
+   "owner_addr": "0:4b91704931105b53fa564ccb940dce08788ad70c7a86d632236618afd6599452",
+   "mint": 1794793693,
+   "counter_issued": 3987,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T03:01:03.262Z",
    "t": 1
   }
  ]
