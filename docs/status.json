@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T13:30:36.305Z",
- "updated_unix": 1794835836,
- "runs": 16666,
+ "updated": "2026-11-16T13:34:36.530Z",
+ "updated_unix": 1794836076,
+ "runs": 16667,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130270,
- "sent_total": 4981365,
+ "detected_total": 130272,
+ "sent_total": 4981507,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229350,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229350,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229351,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229351,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:30:34.388Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443999,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443999,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T13:34:31.940Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 444000,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 444000,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T13:34:31.940Z",
    "t": 1
   }
  ]
