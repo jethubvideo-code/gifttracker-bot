@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T19:18:43.921Z",
- "updated_unix": 1794856723,
- "runs": 16705,
+ "updated": "2026-11-16T19:23:47.045Z",
+ "updated_unix": 1794857027,
+ "runs": 16706,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130532,
- "sent_total": 4999068,
+ "detected_total": 130533,
+ "sent_total": 4999139,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 449390,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 449390,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T18:18:30.174Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T19:18:41.962Z",
+   "t": 3
+  },
+  {
+   "slug": "VoodooDoll",
+   "gift": "Voodoo Doll",
+   "number": 26841,
+   "owner": "",
+   "owner_addr": "0:7d3b53db8bfb2f0bf48357fc5343c85d51b577ab5beb11b7d4a4529e3e198ca5",
+   "mint": 1794844054,
+   "counter_issued": 26841,
+   "counter_total": 27620,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T19:23:44.461Z",
    "t": 1
   }
  ]
