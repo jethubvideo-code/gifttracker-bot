@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T05:46:48.446Z",
- "updated_unix": 1794808008,
- "runs": 16609,
+ "updated": "2026-11-16T05:50:48.288Z",
+ "updated_unix": 1794808248,
+ "runs": 16610,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129649,
- "sent_total": 4937582,
+ "detected_total": 129651,
+ "sent_total": 4937724,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56680,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1794796030,
-   "counter_issued": 56680,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:21:37.243Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56681,
-   "owner": "",
-   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
-   "mint": 1794796068,
-   "counter_issued": 56681,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T03:21:37.243Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T05:46:46.556Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391794,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391794,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T05:50:44.040Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391795,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391795,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T05:50:44.040Z",
    "t": 1
   }
  ]
