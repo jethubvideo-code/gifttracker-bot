@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T19:12:47.404Z",
- "updated_unix": 1794856367,
- "runs": 16703,
+ "updated": "2026-11-16T19:13:46.367Z",
+ "updated_unix": 1794856426,
+ "runs": 16704,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130529,
- "sent_total": 4998855,
+ "detected_total": 130531,
+ "sent_total": 4998997,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 449387,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 449387,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T18:18:30.174Z",
-   "t": 3
-  },
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 449388,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 449388,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T18:18:30.174Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T18:56:49.283Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T19:12:44.925Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391828,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391828,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T19:13:41.831Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391829,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391829,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T19:13:41.831Z",
    "t": 1
   }
  ]
