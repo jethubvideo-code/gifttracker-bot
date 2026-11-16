@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T13:21:39.868Z",
- "updated_unix": 1794835299,
- "runs": 16664,
+ "updated": "2026-11-16T13:23:40.228Z",
+ "updated_unix": 1794835420,
+ "runs": 16665,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130267,
- "sent_total": 4981152,
+ "detected_total": 130269,
+ "sent_total": 4981294,
  "last_upgrades": [
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229347,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229347,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
-  {
-   "slug": "PoolFloat",
-   "gift": "PoolFloat",
-   "number": 229348,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 229348,
-   "counter_total": 246862,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T12:54:49.529Z",
-   "t": 3
-  },
   {
    "slug": "PoolFloat",
    "gift": "PoolFloat",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:21:21.105Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:21:24.705Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:21:33.195Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:21:33.195Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T13:21:33.195Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108855,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108855,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T13:23:31.253Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391818,
+   "owner": "",
+   "owner_addr": "0:5f56a03ea11aebd4d1a2a6e5a03173e83ed18384dbbfd247aadf5a62265d7797",
+   "mint": 1794835114,
+   "counter_issued": 391818,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T13:23:38.055Z",
    "t": 1
   }
  ]
