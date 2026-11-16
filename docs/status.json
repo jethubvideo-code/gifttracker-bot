@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-16T10:06:38.243Z",
- "updated_unix": 1794823598,
- "runs": 16640,
+ "updated": "2026-11-16T10:07:37.466Z",
+ "updated_unix": 1794823657,
+ "runs": 16641,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129967,
- "sent_total": 4959911,
+ "detected_total": 129969,
+ "sent_total": 4960052,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443989,
-   "owner": "",
-   "owner_addr": "0:f2057398a2bca3d9a0df812a3f40e9b7006ee3e421637f10faa279de983feaa4",
-   "mint": 1794819911,
-   "counter_issued": 443989,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:47:49.694Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 443990,
-   "owner": "",
-   "owner_addr": "0:f2057398a2bca3d9a0df812a3f40e9b7006ee3e421637f10faa279de983feaa4",
-   "mint": 1794819916,
-   "counter_issued": 443990,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T09:47:49.694Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:06:18.963Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "BigYear",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:06:18.963Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:06:30.364Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T10:06:30.364Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391809,
+   "owner": "",
+   "owner_addr": "0:c7d1455b0eb5feb72bc4c3b7478029ed7af04d411cb082eeba9bdd201f77a07d",
+   "mint": 1794823576,
+   "counter_issued": 391809,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:07:29.825Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 443995,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 443995,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T10:07:34.538Z",
    "t": 1
   }
  ]
