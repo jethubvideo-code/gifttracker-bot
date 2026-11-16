@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T18:46:48.933Z",
- "updated_unix": 1794854808,
- "runs": 16699,
+ "updated": "2026-11-16T18:53:51.678Z",
+ "updated_unix": 1794855231,
+ "runs": 16700,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 130525,
- "sent_total": 4998571,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 130526,
+ "sent_total": 4998642,
  "last_upgrades": [
-  {
-   "slug": "ChillFlame",
-   "gift": "ChillFlame",
-   "number": 449383,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 449383,
-   "counter_total": 482271,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T18:18:30.174Z",
-   "t": 3
-  },
   {
    "slug": "ChillFlame",
    "gift": "ChillFlame",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T18:46:46.933Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391827,
+   "owner": "",
+   "owner_addr": "0:9da81ebb80080c0c96b87944ca330f1e0af8d6a3e55d25a80824133c1041cf61",
+   "mint": 1794853248,
+   "counter_issued": 391827,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T18:53:49.833Z",
    "t": 1
   }
  ]
