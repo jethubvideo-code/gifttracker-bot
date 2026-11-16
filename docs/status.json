@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-16T07:28:24.534Z",
- "updated_unix": 1794814104,
- "runs": 16618,
+ "updated": "2026-11-16T07:29:38.501Z",
+ "updated_unix": 1794814178,
+ "runs": 16619,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 129892,
- "sent_total": 4954835,
+ "detected_total": 129896,
+ "sent_total": 4955119,
  "last_upgrades": [
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107662,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107662,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:03.413Z",
-   "t": 3
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107663,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107663,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:03.413Z",
-   "t": 3
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107664,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107664,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:03.413Z",
-   "t": 3
-  },
-  {
-   "slug": "VictoryMedal",
-   "gift": "VictoryMedal",
-   "number": 107665,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 107665,
-   "counter_total": 124608,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:03.413Z",
-   "t": 3
-  },
   {
    "slug": "VictoryMedal",
    "gift": "VictoryMedal",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:28:18.144Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:28:18.144Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "WinterWreath",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:28:18.144Z",
+   "t": 3
+  },
+  {
+   "slug": "BerryBox",
+   "gift": "Berry Box",
+   "number": 53623,
+   "owner": "auroraveils.ton",
+   "owner_addr": "0:d8769d7a4483d80c8be3d8231d2157e8143813b2e1bbc8068c1e4e39cce83f71",
+   "mint": 1794805353,
+   "counter_issued": 53623,
+   "counter_total": 66580,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:29:20.651Z",
+   "t": 1
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56682,
+   "owner": "",
+   "owner_addr": "0:cd8c755df3acd27c3941cae0efab63672f201365d266b5e9c0c399b8e00608fa",
+   "mint": 1794805532,
+   "counter_issued": 56682,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:29:26.312Z",
+   "t": 1
+  },
+  {
+   "slug": "ValentineBox",
+   "gift": "Valentine Box",
+   "number": 35704,
+   "owner": "",
+   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
+   "mint": 1794810652,
+   "counter_issued": 35704,
+   "counter_total": 41025,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:29:33.202Z",
+   "t": 1
+  },
+  {
+   "slug": "ValentineBox",
+   "gift": "Valentine Box",
+   "number": 35705,
+   "owner": "",
+   "owner_addr": "0:d268f15d4736f878432d0d283b241f4b235e30dbafbcb0b95f42516daee3b63b",
+   "mint": 1794810689,
+   "counter_issued": 35705,
+   "counter_total": 41025,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:29:33.202Z",
    "t": 1
   }
  ]
