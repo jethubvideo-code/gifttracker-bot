@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-16T07:33:39.781Z",
- "updated_unix": 1794814419,
- "runs": 16622,
+ "updated": "2026-11-16T07:37:59.183Z",
+ "updated_unix": 1794814679,
+ "runs": 16623,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 129903,
- "sent_total": 4955616,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 129904,
+ "sent_total": 4955626,
  "last_upgrades": [
-  {
-   "slug": "SpyAgaric",
-   "gift": "SpyAgaric",
-   "number": 86944,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 86944,
-   "counter_total": 89438,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T06:43:07.691Z",
-   "t": 3
-  },
   {
    "slug": "SpyAgaric",
    "gift": "SpyAgaric",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:33:28.789Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:33:28.789Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:33:28.789Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-16T07:33:28.789Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270493,
+   "owner": "superyc168168.ton",
+   "owner_addr": "0:9027636f623b53c550318b813a809dc37a060ebabcbba2f6193a16c80607d66b",
+   "mint": 1794813357,
+   "counter_issued": 270493,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-16T07:37:32.707Z",
    "t": 1
   }
  ]
