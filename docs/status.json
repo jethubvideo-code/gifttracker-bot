@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-17T09:19:48.703Z",
- "updated_unix": 1794907188,
- "runs": 16758,
+ "updated": "2026-11-17T09:27:53.590Z",
+ "updated_unix": 1794907673,
+ "runs": 16759,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130687,
- "sent_total": 5009992,
+ "detected_total": 130690,
+ "sent_total": 5010205,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391839,
-   "owner": "",
-   "owner_addr": "0:4bb8ab37d47741ba05b23510e46df5514ab06f974da483b4f9c7453b3101dd0a",
-   "mint": 1794890590,
-   "counter_issued": 391839,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T05:14:55.524Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391840,
-   "owner": "",
-   "owner_addr": "0:7c19ace0af1585699acbfd76549b29d42319e0e31d59c8c738dbdb4ef4cbff89",
-   "mint": 1794891061,
-   "counter_issued": 391840,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T05:14:55.524Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134686,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134686,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:05:40.101Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:56:28.136Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T09:19:46.810Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85498,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85498,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T09:27:45.913Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85499,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85499,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T09:27:45.913Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85500,
+   "owner": "ukorapat.t.me",
+   "owner_addr": "0:d0896f48cae8c7c1d9b44f798e84fbd23cca1d149486e2a189101bf057def9bc",
+   "mint": 1794906373,
+   "counter_issued": 85500,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T09:27:45.913Z",
    "t": 1
   }
  ]
