@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T08:56:29.939Z",
- "updated_unix": 1794905789,
- "runs": 16757,
+ "updated": "2026-11-17T09:19:48.703Z",
+ "updated_unix": 1794907188,
+ "runs": 16758,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130686,
- "sent_total": 5009921,
+ "detected_total": 130687,
+ "sent_total": 5009992,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56685,
-   "owner": "",
-   "owner_addr": "0:0aa7a0e66eb8fbdb554a2b03d805d67b5d1e075ada111cb513b7d97215aefa52",
-   "mint": 1794886939,
-   "counter_issued": 56685,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T05:13:53.472Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:56:28.136Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444018,
+   "owner": "",
+   "owner_addr": "0:5fb5b4fe0d9403e3e111a226c6ec30c973975f5f498774ba2505a2edc892938c",
+   "mint": 1794906491,
+   "counter_issued": 444018,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T09:19:46.810Z",
    "t": 1
   }
  ]
