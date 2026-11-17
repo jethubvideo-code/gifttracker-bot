@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T15:54:33.755Z",
- "updated_unix": 1794930873,
- "runs": 16784,
+ "updated": "2026-11-17T15:55:31.524Z",
+ "updated_unix": 1794930931,
+ "runs": 16785,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130748,
- "sent_total": 5014206,
+ "detected_total": 130749,
+ "sent_total": 5014278,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391853,
-   "owner": "",
-   "owner_addr": "0:3cde72dea4e85067ff4756252d202ca9c41d6838d21b1657ea06908ee7d7d875",
-   "mint": 1794924949,
-   "counter_issued": 391853,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:37:43.181Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T15:54:24.681Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T15:54:24.681Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232387,
+   "owner": "",
+   "owner_addr": "0:7da87d7bf770195c06fc90affbd4a86122629528fc002003441b125519ee3374",
+   "mint": 1794926422,
+   "counter_issued": 232387,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T15:55:28.795Z",
    "t": 1
   }
  ]
