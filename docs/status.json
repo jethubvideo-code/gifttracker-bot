@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T09:31:48.499Z",
- "updated_unix": 1794907908,
- "runs": 16761,
+ "updated": "2026-11-17T09:33:12.740Z",
+ "updated_unix": 1794907992,
+ "runs": 16762,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 130692,
- "sent_total": 5010347,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 130693,
+ "sent_total": 5010357,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "SantaHat",
-   "number": 72104,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 72104,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:12:07.328Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "SantaHat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T09:31:46.525Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270581,
+   "owner": "",
+   "owner_addr": "0:5b3a0e41572d33001733e30c990bea42053403cf3d1fa3029b5fe748bfe9695b",
+   "mint": 1794904956,
+   "counter_issued": 270581,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T09:32:46.722Z",
    "t": 1
   }
  ]
