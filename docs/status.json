@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T03:05:44.143Z",
- "updated_unix": 1794884744,
- "runs": 16737,
+ "updated": "2026-11-17T03:06:39.858Z",
+ "updated_unix": 1794884799,
+ "runs": 16738,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130637,
- "sent_total": 5006522,
+ "detected_total": 130638,
+ "sent_total": 5006593,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35707,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1794867157,
-   "counter_issued": 35707,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T00:31:56.239Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T03:05:35.262Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T03:05:35.262Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T03:05:35.262Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "StarNotepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T03:05:35.262Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90882,
+   "owner": "",
+   "owner_addr": "0:9b8b54a4d808f406f5ed8a381a73905abc6a22a74f9f4a5f854ed245cdfb9e43",
+   "mint": 1794873934,
+   "counter_issued": 90882,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T03:06:38.138Z",
    "t": 1
   }
  ]
