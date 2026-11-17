@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T17:29:53.336Z",
- "updated_unix": 1794936593,
- "runs": 16798,
+ "updated": "2026-11-17T17:39:50.070Z",
+ "updated_unix": 1794937190,
+ "runs": 16799,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130785,
- "sent_total": 5016803,
+ "detected_total": 130786,
+ "sent_total": 5016875,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56689,
-   "owner": "",
-   "owner_addr": "0:8d36e2576ec57255a1057e3bc238e202d39178c4260be92fd9725babab63f303",
-   "mint": 1794914526,
-   "counter_issued": 56689,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:18:57.118Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "SkyStilettos",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T17:29:49.790Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391860,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391860,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T17:39:47.315Z",
    "t": 1
   }
  ]
