@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T17:39:50.070Z",
- "updated_unix": 1794937190,
- "runs": 16799,
+ "updated": "2026-11-17T17:58:56.729Z",
+ "updated_unix": 1794938336,
+ "runs": 16800,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130786,
- "sent_total": 5016875,
+ "detected_total": 130787,
+ "sent_total": 5016947,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "SkyStilettos",
-   "number": 52550,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 52550,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:14.556Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "SkyStilettos",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T17:39:47.315Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391861,
+   "owner": "generalisimo.ton",
+   "owner_addr": "0:9f21158dc748f58e88a2c7859cb9bf93a627726ed492e850874ef9f5b2f36662",
+   "mint": 1794937839,
+   "counter_issued": 391861,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T17:58:53.730Z",
    "t": 1
   }
  ]
