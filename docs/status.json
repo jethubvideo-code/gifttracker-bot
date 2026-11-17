@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T16:28:20.916Z",
- "updated_unix": 1794932900,
- "runs": 16791,
+ "updated": "2026-11-17T16:48:27.078Z",
+ "updated_unix": 1794934107,
+ "runs": 16792,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130769,
- "sent_total": 5015714,
+ "detected_total": 130771,
+ "sent_total": 5015857,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134694,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134694,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:45:12.993Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134695,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134695,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:45:12.993Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T16:28:18.639Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90895,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90895,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T16:48:16.353Z",
+   "t": 1
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117711,
+   "owner": "kryptodiebstahl.t.me",
+   "owner_addr": "0:5dc72cab47aca1df69d812ab10ae88dd9f25704193ec4b127bbfd106434d09af",
+   "mint": 1794933244,
+   "counter_issued": 117711,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T16:48:24.536Z",
    "t": 1
   }
  ]
