@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T08:09:27.201Z",
- "updated_unix": 1794902967,
- "runs": 16753,
+ "updated": "2026-11-17T08:11:21.982Z",
+ "updated_unix": 1794903081,
+ "runs": 16754,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130681,
- "sent_total": 5009566,
+ "detected_total": 130682,
+ "sent_total": 5009637,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134683,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134683,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T04:41:31.020Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T07:41:11.767Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:09:13.141Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444016,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794902213,
+   "counter_issued": 444016,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T08:11:20.202Z",
    "t": 1
   }
  ]
