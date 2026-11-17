@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T01:48:15.133Z",
- "updated_unix": 1794880095,
- "runs": 16734,
+ "updated": "2026-11-17T01:50:10.691Z",
+ "updated_unix": 1794880210,
+ "runs": 16735,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 130631,
- "sent_total": 5006096,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 130632,
+ "sent_total": 5006167,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35520,
-   "owner": "",
-   "owner_addr": "0:c090dac22ee943a83fb0e392447adf05a4355caded537ef677a2abff8ac36b61",
-   "mint": 1794845447,
-   "counter_issued": 35520,
-   "counter_total": 46888,
-   "img": "https://cdn4.telesco.pe/file/cwBF-zGHB4AYFdfBfMkdINO36T3DyMh4IqoCBu1cjrR5TJXTRD4nR4BHZohJsUvM0UZk9XNe8Z3hpMyyNL1BJJzuCGjeVojdPeEGE7wiGyywc2CfR5qxT4yrf_u9BnYdM085fK0aVUQlKFmGbx-0pBn6x64ksQl-63UZ3Skn-UE3I-BLdIgCW0iXfY9qlZMuxGtGVfqPzYfIpW8xMNaMP6n1j5H0vM3t5jg1eWlToLhFcUMKrE9hG2rFA62XQXoPRIuxjceRdNLYNfWwwwZLGeq-JYSULZALwIqf8qUM6AzDvFq_xZyYCS6OS9IMw0--EDTrR43kt6gTONa56v5cdw.jpg",
-   "sent": 0,
-   "time": "2026-11-17T00:31:35.096Z",
-   "u": 1
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T01:48:06.740Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T01:48:06.740Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T01:48:06.740Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391838,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391838,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T01:50:08.246Z",
    "t": 1
   }
  ]
