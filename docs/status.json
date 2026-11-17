@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T15:55:31.524Z",
- "updated_unix": 1794930931,
- "runs": 16785,
+ "updated": "2026-11-17T15:57:32.924Z",
+ "updated_unix": 1794931052,
+ "runs": 16786,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130749,
- "sent_total": 5014278,
+ "detected_total": 130751,
+ "sent_total": 5014422,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270584,
-   "owner": "",
-   "owner_addr": "0:1509ad6fe679a1d035792040b13fbf87367d4363c8893d59e74cb17821120912",
-   "mint": 1794928135,
-   "counter_issued": 270584,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:38:11.655Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270585,
-   "owner": "",
-   "owner_addr": "0:7aaa7ba5c0da2b6e8991002f0fc46fc61468b7c52adf022ddca81ba31558ed78",
-   "mint": 1794928313,
-   "counter_issued": 270585,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:38:11.655Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T15:55:28.795Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "SnoopCigar",
+   "number": 117708,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 117708,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T15:57:26.856Z",
+   "t": 1
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "SnoopCigar",
+   "number": 117709,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 117709,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T15:57:26.856Z",
    "t": 1
   }
  ]
