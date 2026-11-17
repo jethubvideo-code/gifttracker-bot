@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-17T19:09:29.928Z",
- "updated_unix": 1794942569,
- "runs": 16803,
+ "updated": "2026-11-17T19:11:53.819Z",
+ "updated_unix": 1794942713,
+ "runs": 16804,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130790,
- "sent_total": 5017163,
+ "detected_total": 130793,
+ "sent_total": 5017377,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "ValentineBox",
-   "number": 35708,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35708,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:29.950Z",
-   "t": 3
-  },
-  {
-   "slug": "ValentineBox",
-   "gift": "ValentineBox",
-   "number": 35709,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35709,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:29.950Z",
-   "t": 3
-  },
-  {
-   "slug": "ValentineBox",
-   "gift": "ValentineBox",
-   "number": 35710,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 35710,
-   "counter_total": 41025,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:29.950Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "ValentineBox",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T18:09:57.899Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:09:27.617Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90896,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90896,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:11:39.261Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90897,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90897,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:11:39.261Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134707,
+   "owner": "m1stervlad.ton",
+   "owner_addr": "0:4e6ac06009b341c0164a4f3946d6da34afa2b859547a923f7d9863f6eadaa827",
+   "mint": 1794942111,
+   "counter_issued": 134707,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:11:48.377Z",
    "t": 1
   }
  ]
