@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T16:21:01.259Z",
- "updated_unix": 1794932461,
- "runs": 16789,
+ "updated": "2026-11-17T16:25:17.580Z",
+ "updated_unix": 1794932717,
+ "runs": 16790,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130767,
- "sent_total": 5015572,
+ "detected_total": 130768,
+ "sent_total": 5015644,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134692,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134692,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:45:12.993Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T16:20:58.755Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108866,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108866,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T16:25:15.172Z",
    "t": 1
   }
  ]
