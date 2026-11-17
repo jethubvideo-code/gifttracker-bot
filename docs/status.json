@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T10:05:29.666Z",
- "updated_unix": 1794909929,
- "runs": 16765,
+ "updated": "2026-11-17T10:30:30.181Z",
+ "updated_unix": 1794911430,
+ "runs": 16766,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130697,
- "sent_total": 5010641,
+ "detected_total": 130699,
+ "sent_total": 5010783,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 72109,
-   "owner": "",
-   "owner_addr": "0:282839752682bc7ea210560d76b225c3cbdc0facc71325fd8e6ab494e2838aea",
-   "mint": 1794891246,
-   "counter_issued": 72109,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:12:07.328Z",
-   "t": 3
-  },
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 72110,
-   "owner": "",
-   "owner_addr": "0:842b7ce89fd94304354030a5520550fa85c294070b22929b9ccabbb5ab93e569",
-   "mint": 1794894743,
-   "counter_issued": 72110,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:12:07.328Z",
-   "t": 3
-  },
   {
    "slug": "MadPumpkin",
    "gift": "Mad Pumpkin",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T10:05:27.453Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90885,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90885,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T10:30:21.577Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444019,
+   "owner": "",
+   "owner_addr": "0:5d79666c50e9fff5c7869b98e83abdab438ca7920d5e3e7e4b47b9d444e826ea",
+   "mint": 1794910842,
+   "counter_issued": 444019,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T10:30:27.929Z",
    "t": 1
   }
  ]
