@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T20:24:23.678Z",
- "updated_unix": 1794947063,
- "runs": 16816,
+ "updated": "2026-11-17T20:26:49.356Z",
+ "updated_unix": 1794947209,
+ "runs": 16817,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130841,
- "sent_total": 5020442,
+ "detected_total": 130842,
+ "sent_total": 5020452,
  "last_upgrades": [
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20955,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20955,
-   "counter_total": 25719,
-   "img": "https://cdn4.telesco.pe/file/tVIihQPm87b64FhalTHKbf0Kd8xxK3Q9f6we_QJ5WCm2L7nB6z_D2VMLTMtx3E6duetKc0SmvATpDLRnr22R11oG1FeRcl2irqtLwqYcggMj9MieE8kKILpAf6WhwYjQB150QgzUSrLF6pDjZAsZUKcBS9H5OWKj8opOhxEMNbzpZb2mbZtXEjSnrsGZc1kF-cwr6JClF8tqa0vyl9u5jNZ3yirswpo5ypAkiTZZQnvuAI0YNk0RG-07bGA6UhGnNsgtTJrqGkD2zNqC94SfAqVo5hzDvsDtWrb31NPZMuQktbnDgIrkB6EcpeaBixvoNuITcd8PXvXQlbrBEHn9cg.jpg",
-   "sent": 0,
-   "time": "2026-11-17T19:22:53.081Z",
-   "t": 3
-  },
   {
    "slug": "ionicdryer",
    "gift": "Ionic Dryers",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T20:24:18.560Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270594,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794947109,
+   "counter_issued": 270594,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T20:26:21.498Z",
    "t": 1
   }
  ]
