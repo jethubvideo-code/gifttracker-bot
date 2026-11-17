@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T18:07:02.075Z",
- "updated_unix": 1794938822,
- "runs": 16801,
+ "updated": "2026-11-17T18:10:00.735Z",
+ "updated_unix": 1794939000,
+ "runs": 16802,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130788,
- "sent_total": 5017019,
+ "detected_total": 130789,
+ "sent_total": 5017091,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52552,
-   "owner": "",
-   "owner_addr": "0:f9420ae55f179a1c2d25ceb3fb56d983158bdd6273536f4f68fbbe96a570aba3",
-   "mint": 1794914814,
-   "counter_issued": 52552,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:14.556Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T18:06:53.181Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134706,
+   "owner": "",
+   "owner_addr": "0:3e9768357aab39ffe867173c024ce82a1c84d9d5ace027984e82c4547ce3bb50",
+   "mint": 1794937524,
+   "counter_issued": 134706,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T18:09:57.899Z",
    "t": 1
   }
  ]
