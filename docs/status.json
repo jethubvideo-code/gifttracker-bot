@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T18:10:00.735Z",
- "updated_unix": 1794939000,
- "runs": 16802,
+ "updated": "2026-11-17T19:09:29.928Z",
+ "updated_unix": 1794942569,
+ "runs": 16803,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130789,
- "sent_total": 5017091,
+ "detected_total": 130790,
+ "sent_total": 5017163,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52553,
-   "owner": "",
-   "owner_addr": "0:6f80865a45e3a100adeffc5ead8b4960876a4f9cf811c74aff10a1aa7a1a7e7f",
-   "mint": 1794920605,
-   "counter_issued": 52553,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:14.556Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "ValentineBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T18:09:57.899Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444033,
+   "owner": "",
+   "owner_addr": "0:9092cd2394076e0d4f0ca1224fe5865163ee671ed73c4d79a38bd721acaf3bc6",
+   "mint": 1794942066,
+   "counter_issued": 444033,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:09:27.617Z",
    "t": 1
   }
  ]
