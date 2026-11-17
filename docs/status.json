@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T01:50:10.691Z",
- "updated_unix": 1794880210,
- "runs": 16735,
+ "updated": "2026-11-17T02:52:34.478Z",
+ "updated_unix": 1794883954,
+ "runs": 16736,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 130632,
- "sent_total": 5006167,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 130633,
+ "sent_total": 5006238,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35521,
-   "owner": "",
-   "owner_addr": "0:1080a554a415cf73d587fe099c9072564d0f665ad82d3f33706828cc1b77c08e",
-   "mint": 1794847322,
-   "counter_issued": 35521,
-   "counter_total": 46888,
-   "img": "https://cdn4.telesco.pe/file/XpZN6lzrGFIl3ylz_WaADkbplYdjQyOERbgKLNQSMAHbGwztVW624_WDr38uDrLOviurKdBCnxUthZYfA-ckyemo0GZu_UXe79v9oMvhx5YbUBQrnJd7HdYkYEKFbG-ZbqM9kRKQ6a3zfc3-59I7T-hdFSvebkEKAHtsRnGI2Q23iuR3zq8N1Z0YO5SRSboCSNNkx2xkn_rugD-2QVNr0AhIO860q4jMpZvqUInGajiNzit-phUQ5WUEn3mHBl1e5dI5scAZjUyfJz7fFMmu9nonnHBEstW0LfdlKIgOKYM_sCs9EFjskd-3_lSFIxLsxcKYFrezwGO3y3E6tKjkqw.jpg",
-   "sent": 0,
-   "time": "2026-11-17T00:31:35.096Z",
-   "u": 1
-  },
   {
    "slug": "RecordPlayer",
    "gift": "Record Player",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T01:50:08.246Z",
+   "t": 3
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 109384,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 109384,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T02:52:32.748Z",
    "t": 1
   }
  ]
