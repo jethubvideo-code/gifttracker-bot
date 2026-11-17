@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T11:10:45.119Z",
- "updated_unix": 1794913845,
- "runs": 16772,
+ "updated": "2026-11-17T11:11:42.786Z",
+ "updated_unix": 1794913902,
+ "runs": 16773,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130706,
- "sent_total": 5011281,
+ "detected_total": 130707,
+ "sent_total": 5011353,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90883,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90883,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T07:34:04.753Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T11:10:42.824Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391849,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391849,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T11:11:40.471Z",
    "t": 1
   }
  ]
