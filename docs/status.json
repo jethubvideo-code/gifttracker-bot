@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-17T19:13:09.350Z",
- "updated_unix": 1794942789,
- "runs": 16805,
+ "updated": "2026-11-17T19:15:23.147Z",
+ "updated_unix": 1794942923,
+ "runs": 16806,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130796,
- "sent_total": 5017526,
+ "detected_total": 130801,
+ "sent_total": 5017836,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134700,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134700,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:20:58.755Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108866,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108866,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:25:15.172Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopCigar",
-   "gift": "SnoopCigar",
-   "number": 117710,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 117710,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:28:18.639Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90895,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90895,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:48:16.353Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopCigar",
-   "gift": "Snoop Cigar",
-   "number": 117711,
-   "owner": "kryptodiebstahl.t.me",
-   "owner_addr": "0:5dc72cab47aca1df69d812ab10ae88dd9f25704193ec4b127bbfd106434d09af",
-   "mint": 1794933244,
-   "counter_issued": 117711,
-   "counter_total": 119573,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:48:24.536Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -398,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:12:40.946Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:12:40.946Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:12:40.946Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391862,
+   "owner": "",
+   "owner_addr": "0:1e6d91b344681803524fe95aae9c4c6ace21e75e90e09c012164cb0a10181dc8",
+   "mint": 1794939218,
+   "counter_issued": 391862,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:14:47.889Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391863,
+   "owner": "",
+   "owner_addr": "0:a8718c105d954ed79fed39a45bcf51255777d00d534b1dcd1a049b47adecd59e",
+   "mint": 1794939245,
+   "counter_issued": 391863,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:14:47.889Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391864,
+   "owner": "",
+   "owner_addr": "0:3d5e378e95537f91d0668cc545107b4342e1698e8df1ed62b2165ef5bada5fdd",
+   "mint": 1794941271,
+   "counter_issued": 391864,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:14:47.889Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391865,
+   "owner": "",
+   "owner_addr": "0:4e6ac06009b341c0164a4f3946d6da34afa2b859547a923f7d9863f6eadaa827",
+   "mint": 1794942180,
+   "counter_issued": 391865,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:14:47.889Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391866,
+   "owner": "",
+   "owner_addr": "0:7960e2a0839abd7f292b1e361253392c7ecbd6213a2d6d9e2d0972403e08e639",
+   "mint": 1794942306,
+   "counter_issued": 391866,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:14:47.889Z",
    "t": 1
   }
  ]
