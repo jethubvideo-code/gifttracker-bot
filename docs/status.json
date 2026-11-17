@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T17:27:52.432Z",
- "updated_unix": 1794936472,
- "runs": 16797,
+ "updated": "2026-11-17T17:29:53.336Z",
+ "updated_unix": 1794936593,
+ "runs": 16798,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130784,
- "sent_total": 5016731,
+ "detected_total": 130785,
+ "sent_total": 5016803,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56688,
-   "owner": "",
-   "owner_addr": "0:d9038d0f97b6e636281543b6a4ab64ca9f2defc7e0d600487021ca19eff655bb",
-   "mint": 1794896553,
-   "counter_issued": 56688,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:18:57.118Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T17:27:49.826Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108867,
+   "owner": "",
+   "owner_addr": "0:6a48e4c78aa14b3e72006ff58137ea11e731176e8728330695e5d562e725e213",
+   "mint": 1794936168,
+   "counter_issued": 108867,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T17:29:49.790Z",
    "t": 1
   }
  ]
