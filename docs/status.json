@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T09:55:13.349Z",
- "updated_unix": 1794909313,
- "runs": 16763,
+ "updated": "2026-11-17T10:01:09.705Z",
+ "updated_unix": 1794909669,
+ "runs": 16764,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130695,
- "sent_total": 5010499,
+ "detected_total": 130696,
+ "sent_total": 5010570,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 72107,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1794866782,
-   "counter_issued": 72107,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:12:07.328Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T09:32:46.722Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T09:55:07.832Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T09:55:07.832Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23155,
+   "owner": "",
+   "owner_addr": "0:923ef6602f3ec90d3dc1082c50e3cd1a9b9db0596d35bf399aebe8fc2b46d3a9",
+   "mint": 1794901650,
+   "counter_issued": 23155,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T10:01:07.475Z",
    "t": 1
   }
  ]
