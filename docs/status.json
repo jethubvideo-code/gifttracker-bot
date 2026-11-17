@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T20:26:49.356Z",
- "updated_unix": 1794947209,
- "runs": 16817,
+ "updated": "2026-11-17T20:29:30.524Z",
+ "updated_unix": 1794947370,
+ "runs": 16818,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130842,
- "sent_total": 5020452,
+ "detected_total": 130843,
+ "sent_total": 5020524,
  "last_upgrades": [
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20956,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20956,
-   "counter_total": 25719,
-   "img": "https://cdn4.telesco.pe/file/tVIihQPm87b64FhalTHKbf0Kd8xxK3Q9f6we_QJ5WCm2L7nB6z_D2VMLTMtx3E6duetKc0SmvATpDLRnr22R11oG1FeRcl2irqtLwqYcggMj9MieE8kKILpAf6WhwYjQB150QgzUSrLF6pDjZAsZUKcBS9H5OWKj8opOhxEMNbzpZb2mbZtXEjSnrsGZc1kF-cwr6JClF8tqa0vyl9u5jNZ3yirswpo5ypAkiTZZQnvuAI0YNk0RG-07bGA6UhGnNsgtTJrqGkD2zNqC94SfAqVo5hzDvsDtWrb31NPZMuQktbnDgIrkB6EcpeaBixvoNuITcd8PXvXQlbrBEHn9cg.jpg",
-   "sent": 0,
-   "time": "2026-11-17T19:22:53.081Z",
-   "t": 3
-  },
   {
    "slug": "ionicdryer",
    "gift": "Ionic Dryers",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T20:26:21.498Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108871,
+   "owner": "",
+   "owner_addr": "0:cbeda00b882736196da3a50b4ff9198321e1db9e4c7ccfde87de8355db5b8834",
+   "mint": 1794944495,
+   "counter_issued": 108871,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T20:29:24.750Z",
    "t": 1
   }
  ]
