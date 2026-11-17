@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T00:32:22.920Z",
- "updated_unix": 1794875542,
- "runs": 16727,
+ "updated": "2026-11-17T01:06:44.860Z",
+ "updated_unix": 1794877604,
+ "runs": 16728,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 130612,
- "sent_total": 5004747,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 130613,
+ "sent_total": 5004818,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84659,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84659,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T23:25:54.619Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:31:35.096Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:31:56.239Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:31:56.239Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:32:13.401Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:32:13.401Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:32:13.401Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SkyStilettos",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T00:32:13.401Z",
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3988,
+   "owner": "",
+   "owner_addr": "0:b6ceb056e934093135fb7cce1b96fc6e21fdc3dd06e2937c54e2ef4cb8a2dde5",
+   "mint": 1794827590,
+   "counter_issued": 3988,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T01:06:42.814Z",
    "t": 1
   }
  ]
