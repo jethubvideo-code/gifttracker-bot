@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T15:57:32.924Z",
- "updated_unix": 1794931052,
- "runs": 16786,
+ "updated": "2026-11-17T16:12:58.746Z",
+ "updated_unix": 1794931978,
+ "runs": 16787,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130751,
- "sent_total": 5014422,
+ "detected_total": 130752,
+ "sent_total": 5014493,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270586,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794928989,
-   "counter_issued": 270586,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:38:11.655Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T15:57:26.856Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SnoopCigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T15:57:26.856Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90894,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90894,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T16:12:55.940Z",
    "t": 1
   }
  ]
