@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T20:20:20.489Z",
- "updated_unix": 1794946820,
- "runs": 16814,
+ "updated": "2026-11-17T20:23:25.289Z",
+ "updated_unix": 1794947005,
+ "runs": 16815,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130838,
- "sent_total": 5020226,
+ "detected_total": 130840,
+ "sent_total": 5020370,
  "last_upgrades": [
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20952,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20952,
-   "counter_total": 25719,
-   "img": "https://cdn4.telesco.pe/file/tVIihQPm87b64FhalTHKbf0Kd8xxK3Q9f6we_QJ5WCm2L7nB6z_D2VMLTMtx3E6duetKc0SmvATpDLRnr22R11oG1FeRcl2irqtLwqYcggMj9MieE8kKILpAf6WhwYjQB150QgzUSrLF6pDjZAsZUKcBS9H5OWKj8opOhxEMNbzpZb2mbZtXEjSnrsGZc1kF-cwr6JClF8tqa0vyl9u5jNZ3yirswpo5ypAkiTZZQnvuAI0YNk0RG-07bGA6UhGnNsgtTJrqGkD2zNqC94SfAqVo5hzDvsDtWrb31NPZMuQktbnDgIrkB6EcpeaBixvoNuITcd8PXvXQlbrBEHn9cg.jpg",
-   "sent": 0,
-   "time": "2026-11-17T19:22:53.081Z",
-   "t": 3
-  },
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20953,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20953,
-   "counter_total": 25719,
-   "img": "https://cdn4.telesco.pe/file/tVIihQPm87b64FhalTHKbf0Kd8xxK3Q9f6we_QJ5WCm2L7nB6z_D2VMLTMtx3E6duetKc0SmvATpDLRnr22R11oG1FeRcl2irqtLwqYcggMj9MieE8kKILpAf6WhwYjQB150QgzUSrLF6pDjZAsZUKcBS9H5OWKj8opOhxEMNbzpZb2mbZtXEjSnrsGZc1kF-cwr6JClF8tqa0vyl9u5jNZ3yirswpo5ypAkiTZZQnvuAI0YNk0RG-07bGA6UhGnNsgtTJrqGkD2zNqC94SfAqVo5hzDvsDtWrb31NPZMuQktbnDgIrkB6EcpeaBixvoNuITcd8PXvXQlbrBEHn9cg.jpg",
-   "sent": 0,
-   "time": "2026-11-17T19:22:53.081Z",
-   "t": 3
-  },
   {
    "slug": "ionicdryer",
    "gift": "Ionic Dryers",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:47:44.573Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T20:20:02.942Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T20:20:12.465Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T20:20:12.465Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444034,
+   "owner": "",
+   "owner_addr": "0:905ad56febcff072ca0c33e26249b59f7273d1dbd9ba2ca14547c9e8ed369d54",
+   "mint": 1794945548,
+   "counter_issued": 444034,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T20:23:17.484Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444035,
+   "owner": "",
+   "owner_addr": "0:eb4cf4887de4b7c6ed2da8bdc9305fd67c50f699f2442bbd7781e553669f3309",
+   "mint": 1794945811,
+   "counter_issued": 444035,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T20:23:17.484Z",
    "t": 1
   }
  ]
