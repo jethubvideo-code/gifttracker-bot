@@ -1,83 +1,13 @@
 {
- "updated": "2026-11-17T19:25:29.105Z",
- "updated_unix": 1794943529,
- "runs": 16809,
+ "updated": "2026-11-17T19:27:48.508Z",
+ "updated_unix": 1794943668,
+ "runs": 16810,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130827,
- "sent_total": 5019586,
+ "detected_total": 130832,
+ "sent_total": 5019794,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391863,
-   "owner": "",
-   "owner_addr": "0:a8718c105d954ed79fed39a45bcf51255777d00d534b1dcd1a049b47adecd59e",
-   "mint": 1794939245,
-   "counter_issued": 391863,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:14:47.889Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391864,
-   "owner": "",
-   "owner_addr": "0:3d5e378e95537f91d0668cc545107b4342e1698e8df1ed62b2165ef5bada5fdd",
-   "mint": 1794941271,
-   "counter_issued": 391864,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:14:47.889Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391865,
-   "owner": "",
-   "owner_addr": "0:4e6ac06009b341c0164a4f3946d6da34afa2b859547a923f7d9863f6eadaa827",
-   "mint": 1794942180,
-   "counter_issued": 391865,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:14:47.889Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391866,
-   "owner": "",
-   "owner_addr": "0:7960e2a0839abd7f292b1e361253392c7ecbd6213a2d6d9e2d0972403e08e639",
-   "mint": 1794942306,
-   "counter_issued": 391866,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:14:47.889Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391867,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391867,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:17:54.520Z",
-   "t": 3
-  },
   {
    "slug": "eternalrose",
    "gift": "Eternal Roses",
@@ -90,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:21:53.035Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "eternalrose",
@@ -412,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:25:17.875Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +356,76 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:25:17.875Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270589,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1794942734,
+   "counter_issued": 270589,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:26:28.257Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270590,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1794943081,
+   "counter_issued": 270590,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:26:28.257Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270591,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1794943087,
+   "counter_issued": 270591,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:26:28.257Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270592,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1794943097,
+   "counter_issued": 270592,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:26:28.257Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270593,
+   "owner": "",
+   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
+   "mint": 1794943104,
+   "counter_issued": 270593,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:26:28.257Z",
    "t": 1
   }
  ]
