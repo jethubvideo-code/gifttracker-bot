@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T06:05:42.352Z",
- "updated_unix": 1794895542,
- "runs": 16744,
+ "updated": "2026-11-17T06:09:04.247Z",
+ "updated_unix": 1794895744,
+ "runs": 16745,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130660,
- "sent_total": 5008091,
+ "detected_total": 130661,
+ "sent_total": 5008162,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85492,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85492,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T01:48:06.740Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T06:05:40.101Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84669,
+   "owner": "",
+   "owner_addr": "0:047836e72eea02fba33576888ca4ea8c6ab1fa2a33ec1f8afd2cac6d9f4a5f38",
+   "mint": 1794889346,
+   "counter_issued": 84669,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T06:09:02.180Z",
    "t": 1
   }
  ]
