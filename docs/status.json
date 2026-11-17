@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-17T04:41:39.398Z",
- "updated_unix": 1794890499,
- "runs": 16741,
+ "updated": "2026-11-17T05:14:01.703Z",
+ "updated_unix": 1794892441,
+ "runs": 16742,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 130654,
- "sent_total": 5007665,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 130657,
+ "sent_total": 5007878,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78591,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1794865561,
-   "counter_issued": 78591,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T01:22:09.188Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78592,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1794865565,
-   "counter_issued": 78592,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T01:22:09.188Z",
-   "t": 3
-  },
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78593,
-   "owner": "",
-   "owner_addr": "0:276be25c318cab348775e5eef6004a140d6831f70a28aecbff49d42edde3eaa0",
-   "mint": 1794865568,
-   "counter_issued": 78593,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T01:22:09.188Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -398,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T04:41:31.020Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T04:41:31.020Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T04:41:31.020Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56683,
+   "owner": "",
+   "owner_addr": "0:fcd261d3d88c08acef5b8b53f138e0f1ce67183f56bfdd8bb86f4dee7d49ab64",
+   "mint": 1794861975,
+   "counter_issued": 56683,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T05:13:53.472Z",
+   "t": 1
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56684,
+   "owner": "",
+   "owner_addr": "0:3bfa5fdb4bdfdf636dea97feb877d6fe16e954a2afa8dff02df6169559bf3108",
+   "mint": 1794881393,
+   "counter_issued": 56684,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T05:13:53.472Z",
+   "t": 1
+  },
+  {
+   "slug": "BowTie",
+   "gift": "Bow Tie",
+   "number": 56685,
+   "owner": "",
+   "owner_addr": "0:0aa7a0e66eb8fbdb554a2b03d805d67b5d1e075ada111cb513b7d97215aefa52",
+   "mint": 1794886939,
+   "counter_issued": 56685,
+   "counter_total": 65687,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T05:13:53.472Z",
+   "t": 1
   }
  ]
 }
