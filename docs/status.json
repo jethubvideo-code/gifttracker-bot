@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T19:44:46.361Z",
- "updated_unix": 1794944686,
- "runs": 16812,
+ "updated": "2026-11-17T19:47:48.227Z",
+ "updated_unix": 1794944868,
+ "runs": 16813,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130834,
- "sent_total": 5019938,
+ "detected_total": 130835,
+ "sent_total": 5020010,
  "last_upgrades": [
-  {
-   "slug": "eternalrose",
-   "gift": "Eternal Roses",
-   "number": 32178,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 32178,
-   "counter_total": 37640,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:21:53.035Z",
-   "t": 3
-  },
   {
    "slug": "eternalrose",
    "gift": "Eternal Roses",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:29:41.059Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T19:44:42.299Z",
+   "t": 3
+  },
+  {
+   "slug": "SleighBell",
+   "gift": "Sleigh Bell",
+   "number": 23156,
+   "owner": "mahdizamani.ton",
+   "owner_addr": "0:2cf4b4f5f7a62a57c17cc4895b262c479e9301b001013ffef34d1937244c6d76",
+   "mint": 1794940335,
+   "counter_issued": 23156,
+   "counter_total": 28000,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T19:47:44.573Z",
    "t": 1
   }
  ]
