@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T10:01:09.705Z",
- "updated_unix": 1794909669,
- "runs": 16764,
+ "updated": "2026-11-17T10:05:29.666Z",
+ "updated_unix": 1794909929,
+ "runs": 16765,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130696,
- "sent_total": 5010570,
+ "detected_total": 130697,
+ "sent_total": 5010641,
  "last_upgrades": [
-  {
-   "slug": "SantaHat",
-   "gift": "Santa Hat",
-   "number": 72108,
-   "owner": "",
-   "owner_addr": "0:047836e72eea02fba33576888ca4ea8c6ab1fa2a33ec1f8afd2cac6d9f4a5f38",
-   "mint": 1794889877,
-   "counter_issued": 72108,
-   "counter_total": 89034,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:12:07.328Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T10:01:07.475Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108863,
+   "owner": "almaazov.t.me",
+   "owner_addr": "0:64c7f8b60ed0f8c71e277b43fdec9d2925c5061334732cf9393670424e3585e7",
+   "mint": 1794890160,
+   "counter_issued": 108863,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T10:05:27.453Z",
    "t": 1
   }
  ]
