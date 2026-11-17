@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T06:36:31.061Z",
- "updated_unix": 1794897391,
- "runs": 16749,
+ "updated": "2026-11-17T07:34:15.270Z",
+ "updated_unix": 1794900855,
+ "runs": 16750,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130676,
- "sent_total": 5009227,
+ "detected_total": 130678,
+ "sent_total": 5009369,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270575,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1794888725,
-   "counter_issued": 270575,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T04:37:35.302Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270576,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1794888746,
-   "counter_issued": 270576,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T04:37:35.302Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T06:36:19.143Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T06:36:19.143Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T06:36:19.143Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T06:36:19.143Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T06:36:19.143Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90883,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90883,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T07:34:04.753Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391841,
+   "owner": "sanguinius.ton",
+   "owner_addr": "0:fefa450deebff266eb826d6a2d3fd8d30a339183999a543c156c5a0f38fe6804",
+   "mint": 1794899926,
+   "counter_issued": 391841,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T07:34:12.245Z",
    "t": 1
   }
  ]
