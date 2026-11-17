@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T16:48:27.078Z",
- "updated_unix": 1794934107,
- "runs": 16792,
+ "updated": "2026-11-17T16:53:26.033Z",
+ "updated_unix": 1794934406,
+ "runs": 16793,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130771,
- "sent_total": 5015857,
+ "detected_total": 130773,
+ "sent_total": 5016001,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134696,
-   "owner": "",
-   "owner_addr": "0:41836d299a107a382bd4fe8c5367d206776f0977a98851fc39245036e07a3f58",
-   "mint": 1794917489,
-   "counter_issued": 134696,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:45:12.993Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134697,
-   "owner": "",
-   "owner_addr": "0:7515a93cceea2fee54024323d945cc4019d803508472cbe401d0d6945a191de5",
-   "mint": 1794918501,
-   "counter_issued": 134697,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T15:45:12.993Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T16:28:18.639Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T16:48:16.353Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopCigar",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T16:48:24.536Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134701,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134701,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T16:53:21.069Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134702,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134702,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T16:53:21.069Z",
    "t": 1
   }
  ]
