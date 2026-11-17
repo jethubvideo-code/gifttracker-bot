@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T10:30:30.181Z",
- "updated_unix": 1794911430,
- "runs": 16766,
+ "updated": "2026-11-17T10:32:23.779Z",
+ "updated_unix": 1794911543,
+ "runs": 16767,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130699,
- "sent_total": 5010783,
+ "detected_total": 130700,
+ "sent_total": 5010854,
  "last_upgrades": [
-  {
-   "slug": "MadPumpkin",
-   "gift": "Mad Pumpkin",
-   "number": 19826,
-   "owner": "",
-   "owner_addr": "0:dd08436e4a3f9d9580dda2ca45ddb8a50b7bd9956731f4efd8140ff7d436f351",
-   "mint": 1794854233,
-   "counter_issued": 19826,
-   "counter_total": 22199,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T06:26:19.635Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "SurgeBoard",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T10:05:27.453Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T10:30:21.577Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T10:30:27.929Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90886,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90886,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T10:32:21.350Z",
    "t": 1
   }
  ]
