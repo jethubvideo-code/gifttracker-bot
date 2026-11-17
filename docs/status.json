@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-17T08:23:22.226Z",
- "updated_unix": 1794903802,
- "runs": 16755,
+ "updated": "2026-11-17T08:44:36.382Z",
+ "updated_unix": 1794905076,
+ "runs": 16756,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130683,
- "sent_total": 5009708,
+ "detected_total": 130685,
+ "sent_total": 5009850,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134685,
-   "owner": "galya.ton",
-   "owner_addr": "0:03b23f2c956265d776ffe35c4862151685088261585bb8691fff140ade153725",
-   "mint": 1794881279,
-   "counter_issued": 134685,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T04:41:31.020Z",
-   "t": 3
-  },
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56683,
-   "owner": "",
-   "owner_addr": "0:fcd261d3d88c08acef5b8b53f138e0f1ce67183f56bfdd8bb86f4dee7d49ab64",
-   "mint": 1794861975,
-   "counter_issued": 56683,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T05:13:53.472Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:23:20.225Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90884,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90884,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T08:44:28.531Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444017,
+   "owner": "",
+   "owner_addr": "0:50d15c92c207031693ff794fd1dea7df66c8b4189437b8e751d10c01cddb8041",
+   "mint": 1794904049,
+   "counter_issued": 444017,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T08:44:34.490Z",
    "t": 1
   }
  ]
