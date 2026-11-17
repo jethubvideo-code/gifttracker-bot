@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T01:19:44.854Z",
- "updated_unix": 1794878384,
- "runs": 16730,
+ "updated": "2026-11-17T01:20:44.809Z",
+ "updated_unix": 1794878444,
+ "runs": 16731,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130615,
- "sent_total": 5004960,
+ "detected_total": 130616,
+ "sent_total": 5005031,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "HypnoLollipop",
-   "number": 84662,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 84662,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-16T23:25:54.619Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "HypnoLollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T01:19:42.483Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74842,
+   "owner": "",
+   "owner_addr": "0:df2860f42b085f233c0f83f62c55441980189b8c8e96fe3808fcfda081ce71d4",
+   "mint": 1794872309,
+   "counter_issued": 74842,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T01:20:42.820Z",
    "t": 1
   }
  ]
