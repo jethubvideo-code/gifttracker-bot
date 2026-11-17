@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T17:58:56.729Z",
- "updated_unix": 1794938336,
- "runs": 16800,
+ "updated": "2026-11-17T18:07:02.075Z",
+ "updated_unix": 1794938822,
+ "runs": 16801,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130787,
- "sent_total": 5016947,
+ "detected_total": 130788,
+ "sent_total": 5017019,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "SkyStilettos",
-   "number": 52551,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 52551,
-   "counter_total": 58460,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T16:19:14.556Z",
-   "t": 3
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T17:39:47.315Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T17:58:53.730Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "SwissWatch",
+   "number": 26123,
+   "owner": "",
+   "owner_addr": "0:441e44f46820cad1fc105460c924b0601dea08ef377297a6f63a4103180d7e3a",
+   "mint": 1794938692,
+   "counter_issued": 26123,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T18:06:53.181Z",
    "t": 1
   }
  ]
