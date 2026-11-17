@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T08:44:36.382Z",
- "updated_unix": 1794905076,
- "runs": 16756,
+ "updated": "2026-11-17T08:56:29.939Z",
+ "updated_unix": 1794905789,
+ "runs": 16757,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130685,
- "sent_total": 5009850,
+ "detected_total": 130686,
+ "sent_total": 5009921,
  "last_upgrades": [
-  {
-   "slug": "BowTie",
-   "gift": "Bow Tie",
-   "number": 56684,
-   "owner": "",
-   "owner_addr": "0:3bfa5fdb4bdfdf636dea97feb877d6fe16e954a2afa8dff02df6169559bf3108",
-   "mint": 1794881393,
-   "counter_issued": 56684,
-   "counter_total": 65687,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T05:13:53.472Z",
-   "t": 3
-  },
   {
    "slug": "BowTie",
    "gift": "Bow Tie",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:23:20.225Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:44:28.531Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-17T08:44:34.490Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84670,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84670,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-17T08:56:28.136Z",
    "t": 1
   }
  ]
