@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T08:31:27.342Z",
- "updated_unix": 1794990687,
- "runs": 16863,
+ "updated": "2026-11-18T08:33:21.530Z",
+ "updated_unix": 1794990801,
+ "runs": 16864,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131141,
- "sent_total": 5041855,
+ "detected_total": 131142,
+ "sent_total": 5041927,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109408,
-   "owner": "",
-   "owner_addr": "0:9e2b1fa010fed2d1d60656f05768ab3b64fb04afad33775700381a8002474527",
-   "mint": 1794978088,
-   "counter_issued": 109408,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:33:05.346Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:31:17.353Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:31:17.353Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:31:17.353Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:31:17.353Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134730,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134730,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:33:18.882Z",
    "t": 1
   }
  ]
