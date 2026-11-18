@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T01:19:54.917Z",
- "updated_unix": 1794964794,
- "runs": 16828,
+ "updated": "2026-11-18T01:25:12.914Z",
+ "updated_unix": 1794965112,
+ "runs": 16829,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 130895,
- "sent_total": 5024268,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 130897,
+ "sent_total": 5024320,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85511,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 85511,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T00:49:11.350Z",
-   "t": 3
-  },
-  {
-   "slug": "EvilEye",
-   "gift": "Evil Eye",
-   "number": 74843,
-   "owner": "",
-   "owner_addr": "0:a3adc77b7d469bf5babd2eb71f6471de266c7bc18ca8a252d9e07ecbabadf1f6",
-   "mint": 1794946069,
-   "counter_issued": 74843,
-   "counter_total": 85204,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T00:58:19.751Z",
-   "t": 3
-  },
   {
    "slug": "EvilEye",
    "gift": "Evil Eye",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:19:35.449Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:19:35.449Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:19:35.449Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:19:49.051Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:19:49.051Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270601,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270601,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T01:24:44.988Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270602,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270602,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T01:24:44.988Z",
    "t": 1
   }
  ]
