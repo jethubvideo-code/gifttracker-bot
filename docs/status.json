@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T07:11:38.449Z",
- "updated_unix": 1794985898,
- "runs": 16855,
+ "updated": "2026-11-18T07:13:35.171Z",
+ "updated_unix": 1794986015,
+ "runs": 16856,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131120,
- "sent_total": 5040375,
+ "detected_total": 131121,
+ "sent_total": 5040447,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47623,
-   "owner": "",
-   "owner_addr": "0:98fad01b10cf74e49d821a5b4fdce3617d0ed15ae311a99765ea5212ab12d790",
-   "mint": 1794851476,
-   "counter_issued": 47623,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T05:59:39.735Z",
-   "t": 3
-  },
   {
    "slug": "HangingStar",
    "gift": "Hanging Star",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T07:11:28.310Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T07:11:35.602Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134724,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134724,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T07:13:32.330Z",
    "t": 1
   }
  ]
