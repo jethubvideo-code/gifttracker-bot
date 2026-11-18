@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T18:54:17.881Z",
- "updated_unix": 1795028057,
- "runs": 16933,
+ "updated": "2026-11-18T18:54:42.446Z",
+ "updated_unix": 1795028082,
+ "runs": 16934,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131561,
- "sent_total": 5070209,
+ "detected_total": 131563,
+ "sent_total": 5070353,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37185,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37185,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:48:17.144Z",
-   "t": 3
-  },
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37186,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37186,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:48:17.144Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -328,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:36:38.235Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:53:34.471Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:53:34.471Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:53:34.471Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:53:34.471Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:54:00.953Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:54:07.917Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:54:07.917Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134747,
+   "owner": "",
+   "owner_addr": "0:9073f02a2f0da7bb56e0a6ab60683cb42e4b8ab877a3e0d60549537cfccab30a",
+   "mint": 1795026198,
+   "counter_issued": 134747,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T18:54:32.978Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134748,
+   "owner": "",
+   "owner_addr": "0:f0f70268c767dbd0c70c3010d927d61ceb2e780f06ba7c4e8b5e001389cd5660",
+   "mint": 1795027662,
+   "counter_issued": 134748,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T18:54:32.978Z",
    "t": 1
   }
  ]
