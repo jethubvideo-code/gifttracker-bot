@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T06:02:28.028Z",
- "updated_unix": 1794981748,
- "runs": 16848,
+ "updated": "2026-11-18T06:06:30.597Z",
+ "updated_unix": 1794981990,
+ "runs": 16849,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131109,
- "sent_total": 5039583,
+ "detected_total": 131110,
+ "sent_total": 5039655,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47612,
-   "owner": "",
-   "owner_addr": "0:e305d07b757fc5a3d4d222f2d138bcdfc40029c449b2ef94a43ca0f34b7ad5ea",
-   "mint": 1794748214,
-   "counter_issued": 47612,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T05:59:39.735Z",
-   "t": 3
-  },
   {
    "slug": "HangingStar",
    "gift": "Hanging Star",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T06:02:26.494Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444048,
+   "owner": "",
+   "owner_addr": "0:e8018cee2854334e1f465989aec26fe2d5f51e5aec0beb68e42769fe4066d699",
+   "mint": 1794981600,
+   "counter_issued": 444048,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T06:06:28.658Z",
    "t": 1
   }
  ]
