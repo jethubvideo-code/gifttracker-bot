@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T06:12:28.225Z",
- "updated_unix": 1794982348,
- "runs": 16850,
+ "updated": "2026-11-18T06:33:09.710Z",
+ "updated_unix": 1794983589,
+ "runs": 16851,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 131111,
- "sent_total": 5039727,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 131113,
+ "sent_total": 5039871,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47614,
-   "owner": "",
-   "owner_addr": "0:98fad01b10cf74e49d821a5b4fdce3617d0ed15ae311a99765ea5212ab12d790",
-   "mint": 1794800886,
-   "counter_issued": 47614,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T05:59:39.735Z",
-   "t": 3
-  },
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47615,
-   "owner": "",
-   "owner_addr": "0:98fad01b10cf74e49d821a5b4fdce3617d0ed15ae311a99765ea5212ab12d790",
-   "mint": 1794800982,
-   "counter_issued": 47615,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T05:59:39.735Z",
-   "t": 3
-  },
   {
    "slug": "HangingStar",
    "gift": "Hanging Star",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T06:12:26.291Z",
+   "t": 3
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "Spiced Wine",
+   "number": 109408,
+   "owner": "",
+   "owner_addr": "0:9e2b1fa010fed2d1d60656f05768ab3b64fb04afad33775700381a8002474527",
+   "mint": 1794978088,
+   "counter_issued": 109408,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T06:33:05.346Z",
+   "t": 1
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "Spiced Wine",
+   "number": 109409,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794979354,
+   "counter_issued": 109409,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T06:33:05.346Z",
    "t": 1
   }
  ]
