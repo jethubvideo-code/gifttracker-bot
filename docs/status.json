@@ -1,42 +1,13 @@
 {
- "updated": "2026-11-18T11:24:00.276Z",
- "updated_unix": 1795001040,
- "runs": 16880,
+ "updated": "2026-11-18T11:28:04.404Z",
+ "updated_unix": 1795001284,
+ "runs": 16881,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131182,
- "sent_total": 5044503,
+ "detected_total": 131184,
+ "sent_total": 5044647,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 444055,
-   "owner": "",
-   "owner_addr": "0:aded3885bd768d4b6724f5ef9600e9ba992f94f2d9ba61a55737fb7b2daff2e0",
-   "mint": 1794991864,
-   "counter_issued": 444055,
-   "counter_total": 490553,
-   "img": "https://cdn4.telesco.pe/file/ElvazjVgJc0WUSSFcGNiIF_4NKIMWcklO_7dRZfNF8B80zhaoGoB_8dibQk6gb2W8OYtEnqZUuHDlRrISytemyo9yQEVuvHFg7h5efReGFxc6OheZpsCaZWkhKngyxmY3X_fKRQyZ9aEIxcMo9aB1o7c-ZuY4g0_FysDXC5wvcvOZKnEfeSMab7UG-dFrGHXJmvjkWD8FISjYRr00gor-Ls1OfL2N-kLD-bRRvGqQa7bGVQ86dj5n5Ui1eR_jweReOqzoPNlS0D17y2VmdCfl5tqUlrP7DIQuXzglk0GhnRdX1fcK_rE6hHeT5aqHpL3nM784IJyKiaN8YNPoaOMPA.jpg",
-   "sent": 0,
-   "time": "2026-11-18T09:02:19.419Z",
-   "t": 1,
-   "u": 1
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270604,
-   "owner": "",
-   "owner_addr": "0:267dd6c19d5b04cf6e92d3b56974c85cd837d552c7a06b26724d8a8b99f807ca",
-   "mint": 1794994069,
-   "counter_issued": 270604,
-   "counter_total": 295480,
-   "img": "https://cdn4.telesco.pe/file/ES79h0UYXEr7dKBii0Zn2ShY35FzychZfT-KuDtHjmhNAuisUlR0AIPoV0iJLxSIXggKEE4AM35M3gL-Xg2nd9_VN-iYJ3yUpPRWTmgwTybx2JUmJtC6ZupVAHAQxcRgvEffZ5ZZf26IUfeghkekrh-YTIpoeHYrYFznWzKDWla5d2Bryw2rDHgp0eDq2l9FwYPgM7R00-pLzwKc-_M0G8uQzg2M0_h_MmJC1Hi69QxaRyDwqHg4ZzEaShDdX01gIrxfk8zQ_woveNphSDL8SCV4o-RfyDbgbf3ob1q6fLsouiYRwjKQ2_8r9PPpa28hZgGAn0rd9OQgE0qT6rj7aw.jpg",
-   "sent": 0,
-   "time": "2026-11-18T09:28:35.325Z",
-   "u": 1
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -427,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:23:56.690Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 444061,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 444061,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:27:56.614Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 444062,
+   "owner": "",
+   "owner_addr": "0:b0534cf4c962c4167e3588a698d78f153191f5cdf647449b2622839eebf66191",
+   "mint": 1795001049,
+   "counter_issued": 444062,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:27:56.614Z",
    "t": 1
   }
  ]
