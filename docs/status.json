@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T18:23:37.840Z",
- "updated_unix": 1795026217,
- "runs": 16927,
+ "updated": "2026-11-18T18:28:34.758Z",
+ "updated_unix": 1795026514,
+ "runs": 16928,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131548,
- "sent_total": 5069338,
+ "detected_total": 131549,
+ "sent_total": 5069410,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37172,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37172,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:48:17.144Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:23:34.246Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90913,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90913,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T18:28:31.238Z",
    "t": 1
   }
  ]
