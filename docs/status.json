@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T07:46:47.972Z",
- "updated_unix": 1794988007,
- "runs": 16859,
+ "updated": "2026-11-18T07:49:44.476Z",
+ "updated_unix": 1794988184,
+ "runs": 16860,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131127,
- "sent_total": 5040879,
+ "detected_total": 131128,
+ "sent_total": 5040951,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47630,
-   "owner": "",
-   "owner_addr": "0:aeafea1eaef959bdf1122ec3297e11591e559124f865d1e3c37b09328a83c4fe",
-   "mint": 1794924586,
-   "counter_issued": 47630,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T05:59:39.735Z",
-   "t": 3
-  },
   {
    "slug": "TrappedHeart",
    "gift": "Trapped Heart",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T07:46:43.647Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T07:46:43.647Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444050,
+   "owner": "",
+   "owner_addr": "0:ac801425ba68f6d52bc80c36462ed26686a602207734c51313d8319fa6bf3609",
+   "mint": 1794986288,
+   "counter_issued": 444050,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T07:49:42.589Z",
    "t": 1
   }
  ]
