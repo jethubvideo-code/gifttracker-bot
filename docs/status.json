@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T20:08:36.740Z",
- "updated_unix": 1795032516,
- "runs": 16947,
+ "updated": "2026-11-18T20:09:35.890Z",
+ "updated_unix": 1795032575,
+ "runs": 16948,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 131583,
- "sent_total": 5071502,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 131584,
+ "sent_total": 5071574,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90914,
-   "owner": "",
-   "owner_addr": "0:1a931a0e15f188eb45b6eff8104d8ebc39eb2aa88a91d7277725b2ee792e2a00",
-   "mint": 1795026931,
-   "counter_issued": 90914,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T18:36:38.235Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T20:07:22.785Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T20:07:31.232Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T20:07:31.232Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ValentineBox",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T20:08:24.757Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391915,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391915,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T20:09:29.442Z",
    "t": 1
   }
  ]
