@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-18T11:33:14.236Z",
- "updated_unix": 1795001594,
- "runs": 16883,
+ "updated": "2026-11-18T11:51:00.653Z",
+ "updated_unix": 1795002660,
+ "runs": 16884,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131189,
- "sent_total": 5044869,
+ "detected_total": 131192,
+ "sent_total": 5045085,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84689,
-   "owner": "",
-   "owner_addr": "0:f50768533d8e803a8f7bf665170c13dc32ecf625e7b83014778197da0ad82542",
-   "mint": 1794991309,
-   "counter_issued": 84689,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T09:44:44.667Z",
-   "t": 3
-  },
-  {
-   "slug": "ionicdryer",
-   "gift": "Ionic Dryers",
-   "number": 20964,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 20964,
-   "counter_total": 25719,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T10:04:47.423Z",
-   "t": 3
-  },
-  {
-   "slug": "lovecandle",
-   "gift": "Love Candles",
-   "number": 24707,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 24707,
-   "counter_total": 30296,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T10:04:59.561Z",
-   "t": 3
-  },
   {
    "slug": "lovecandle",
    "gift": "Love Candles",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:32:57.345Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,7 +384,49 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:32:57.345Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3989,
+   "owner": "",
+   "owner_addr": "0:1ff669aac88d4fb36a97a9c26d0604216e2a0d2b29fa05a0ed00014aff2e448f",
+   "mint": 1794891875,
+   "counter_issued": 3989,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:50:47.632Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3990,
+   "owner": "",
+   "owner_addr": "0:a1c8ff8d23ebf8f0871ab649af1cadeabe05ad4ac71dbe208e329311f45ec13f",
+   "mint": 1794991818,
+   "counter_issued": 3990,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:50:47.632Z",
+   "t": 1
+  },
+  {
+   "slug": "DurovsGlasses",
+   "gift": "Durov’s Glasses",
+   "number": 3991,
+   "owner": "",
+   "owner_addr": "0:a1c8ff8d23ebf8f0871ab649af1cadeabe05ad4ac71dbe208e329311f45ec13f",
+   "mint": 1794995073,
+   "counter_issued": 3991,
+   "counter_total": 4982,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:50:47.632Z",
+   "t": 1
   }
  ]
 }
