@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T04:47:18.856Z",
- "updated_unix": 1794977238,
- "runs": 16842,
+ "updated": "2026-11-18T04:51:15.356Z",
+ "updated_unix": 1794977475,
+ "runs": 16843,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131034,
- "sent_total": 5034183,
+ "detected_total": 131035,
+ "sent_total": 5034255,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78340,
-   "owner": "",
-   "owner_addr": "0:d1449f57712043cb21671f8ac352a112506108d0dba3edbb265fa151e5160b44",
-   "mint": 1794908661,
-   "counter_issued": 78340,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/e_yPGrnz-06i8rW2Vk9hNLH82DyJ4l83hNdMQ0_r06oLNo8YiOjKWPNvsKN93RzTPwGRqJiVjR1Q9pyxn9ut9ccJZfF0_GbTVkTFPa3DXzWU8sI5NJPgnCWkL7R3Y7CyHjKmEKABYUxKNo5sVoifhfq4fXFJSnZm4hgRZUhwHvHXJMm5m5aOScMPgb0p8ATgnyWUk0B_HRVqXaWPkGIJxlA_YxbVlqpClu4dAi4-4vHJq4eTylSPAq9LIhWiWM7T3a-wUnt5stTtU_oB7S2nv3IyyVXTuPL13wbIweuMhjVKzh7kfuKIUKRVru66-MubOowD6cbZ572hlp6QJ_nFrQ.jpg",
-   "sent": 0,
-   "time": "2026-11-18T03:47:42.385Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T04:47:15.856Z",
+   "t": 3
+  },
+  {
+   "slug": "SpicedWine",
+   "gift": "SpicedWine",
+   "number": 109407,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 109407,
+   "counter_total": 146090,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T04:51:13.027Z",
    "t": 1
   }
  ]
