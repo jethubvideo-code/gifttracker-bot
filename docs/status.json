@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T19:35:32.203Z",
- "updated_unix": 1795030532,
- "runs": 16942,
+ "updated": "2026-11-18T19:38:33.655Z",
+ "updated_unix": 1795030713,
+ "runs": 16943,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131574,
- "sent_total": 5071007,
+ "detected_total": 131575,
+ "sent_total": 5071017,
  "last_upgrades": [
-  {
-   "slug": "NekoHelmet",
-   "gift": "Neko Helmet",
-   "number": 15588,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795019961,
-   "counter_issued": 15588,
-   "counter_total": 16149,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:57:37.323Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T19:35:04.646Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270745,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270745,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T19:38:05.870Z",
    "t": 1
   }
  ]
