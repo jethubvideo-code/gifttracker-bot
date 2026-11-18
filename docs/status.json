@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T14:27:18.019Z",
- "updated_unix": 1795012038,
- "runs": 16901,
+ "updated": "2026-11-18T14:58:25.599Z",
+ "updated_unix": 1795013905,
+ "runs": 16902,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131401,
- "sent_total": 5058913,
+ "detected_total": 131402,
+ "sent_total": 5058985,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37141,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37141,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T14:18:59.367Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T14:27:15.759Z",
+   "t": 3
+  },
+  {
+   "slug": "KissedFrog",
+   "gift": "Kissed Frog",
+   "number": 14092,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794950214,
+   "counter_issued": 14092,
+   "counter_total": 14278,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T14:58:20.395Z",
    "t": 1
   }
  ]
