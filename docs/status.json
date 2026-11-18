@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T17:53:43.042Z",
- "updated_unix": 1795024423,
- "runs": 16924,
+ "updated": "2026-11-18T17:57:39.669Z",
+ "updated_unix": 1795024659,
+ "runs": 16925,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 131544,
- "sent_total": 5069114,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 131545,
+ "sent_total": 5069186,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37168,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37168,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:48:17.144Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T17:53:37.227Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T17:53:37.227Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15588,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795019961,
+   "counter_issued": 15588,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T17:57:37.323Z",
    "t": 1
   }
  ]
