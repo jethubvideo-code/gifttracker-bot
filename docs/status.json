@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T04:10:57.988Z",
- "updated_unix": 1794975057,
- "runs": 16840,
+ "updated": "2026-11-18T04:17:57.807Z",
+ "updated_unix": 1794975477,
+ "runs": 16841,
  "collections": 123,
  "checked": 30,
  "errors": 93,
- "detected_total": 131032,
- "sent_total": 5034039,
+ "detected_total": 131033,
+ "sent_total": 5034111,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78338,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794908654,
-   "counter_issued": 78338,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/e_yPGrnz-06i8rW2Vk9hNLH82DyJ4l83hNdMQ0_r06oLNo8YiOjKWPNvsKN93RzTPwGRqJiVjR1Q9pyxn9ut9ccJZfF0_GbTVkTFPa3DXzWU8sI5NJPgnCWkL7R3Y7CyHjKmEKABYUxKNo5sVoifhfq4fXFJSnZm4hgRZUhwHvHXJMm5m5aOScMPgb0p8ATgnyWUk0B_HRVqXaWPkGIJxlA_YxbVlqpClu4dAi4-4vHJq4eTylSPAq9LIhWiWM7T3a-wUnt5stTtU_oB7S2nv3IyyVXTuPL13wbIweuMhjVKzh7kfuKIUKRVru66-MubOowD6cbZ572hlp6QJ_nFrQ.jpg",
-   "sent": 0,
-   "time": "2026-11-18T03:47:42.385Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T03:51:52.560Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T04:10:55.579Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33154,
+   "owner": "",
+   "owner_addr": "0:ee1160ae531f4d2e904f52a87ea07f0837ab0bba02d6523a3947fa410d134ada",
+   "mint": 1794972090,
+   "counter_issued": 33154,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T04:17:55.539Z",
    "t": 1
   }
  ]
