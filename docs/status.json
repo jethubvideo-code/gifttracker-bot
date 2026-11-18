@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T21:55:49.920Z",
- "updated_unix": 1795038949,
- "runs": 16961,
+ "updated": "2026-11-18T21:59:47.841Z",
+ "updated_unix": 1795039187,
+ "runs": 16962,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131615,
- "sent_total": 5073574,
+ "detected_total": 131616,
+ "sent_total": 5073584,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "Swag Bag",
-   "number": 232388,
-   "owner": "",
-   "owner_addr": "0:6ac1e7443aed2be7c23c7b0af8e28f60a6e9acd82600e31c54d376deebafec99",
-   "mint": 1795022475,
-   "counter_issued": 232388,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T20:13:34.770Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "Swag Bag",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T21:55:10.287Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T21:55:10.287Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T21:55:10.287Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270752,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270752,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T21:59:20.322Z",
    "t": 1
   }
  ]
