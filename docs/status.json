@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T00:47:18.417Z",
- "updated_unix": 1794962838,
- "runs": 16822,
+ "updated": "2026-11-18T00:49:18.673Z",
+ "updated_unix": 1794962958,
+ "runs": 16823,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130864,
- "sent_total": 5022036,
+ "detected_total": 130866,
+ "sent_total": 5022180,
  "last_upgrades": [
-  {
-   "slug": "SleighBell",
-   "gift": "Sleigh Bell",
-   "number": 23156,
-   "owner": "mahdizamani.ton",
-   "owner_addr": "0:2cf4b4f5f7a62a57c17cc4895b262c479e9301b001013ffef34d1937244c6d76",
-   "mint": 1794940335,
-   "counter_issued": 23156,
-   "counter_total": 28000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:47:44.573Z",
-   "t": 3
-  },
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391870,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391870,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T20:20:02.942Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -432,6 +404,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T00:47:14.779Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85510,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85510,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T00:49:11.350Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85511,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85511,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T00:49:11.350Z",
    "t": 1
   }
  ]
