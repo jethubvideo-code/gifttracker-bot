@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T19:33:09.310Z",
- "updated_unix": 1795030389,
- "runs": 16941,
+ "updated": "2026-11-18T19:35:32.203Z",
+ "updated_unix": 1795030532,
+ "runs": 16942,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131573,
- "sent_total": 5070997,
+ "detected_total": 131574,
+ "sent_total": 5071007,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134745,
-   "owner": "",
-   "owner_addr": "0:d07f2252d0849f6c1986415c2e6968701a9bedd1bbb76cd2b2a4226df990c849",
-   "mint": 1795022232,
-   "counter_issued": 134745,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:53:37.227Z",
-   "t": 3
-  },
   {
    "slug": "NekoHelmet",
    "gift": "Neko Helmet",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T19:33:03.448Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270744,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270744,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T19:35:04.646Z",
    "t": 1
   }
  ]
