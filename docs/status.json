@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T07:49:44.476Z",
- "updated_unix": 1794988184,
- "runs": 16860,
+ "updated": "2026-11-18T08:18:00.897Z",
+ "updated_unix": 1794989880,
+ "runs": 16861,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131128,
- "sent_total": 5040951,
+ "detected_total": 131130,
+ "sent_total": 5041095,
  "last_upgrades": [
-  {
-   "slug": "TrappedHeart",
-   "gift": "Trapped Heart",
-   "number": 25150,
-   "owner": "",
-   "owner_addr": "0:845e15f96b16c42624287630e79a5038accc35c9ec9ed00b9c204eda427057b3",
-   "mint": 1794908725,
-   "counter_issued": 25150,
-   "counter_total": 26407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:00:35.740Z",
-   "t": 3
-  },
-  {
-   "slug": "TrappedHeart",
-   "gift": "Trapped Heart",
-   "number": 25151,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794924902,
-   "counter_issued": 25151,
-   "counter_total": 26407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:00:35.740Z",
-   "t": 3
-  },
   {
    "slug": "LovePotion",
    "gift": "Love Potion",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T07:49:42.589Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134728,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134728,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:17:56.604Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134729,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134729,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:17:56.604Z",
    "t": 1
   }
  ]
