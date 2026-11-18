@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T18:32:59.619Z",
- "updated_unix": 1795026779,
- "runs": 16930,
+ "updated": "2026-11-18T18:34:42.089Z",
+ "updated_unix": 1795026882,
+ "runs": 16931,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 131552,
- "sent_total": 5069564,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 131553,
+ "sent_total": 5069634,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37176,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37176,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:48:17.144Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T18:32:32.120Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444071,
+   "owner": "",
+   "owner_addr": "0:9073f02a2f0da7bb56e0a6ab60683cb42e4b8ab877a3e0d60549537cfccab30a",
+   "mint": 1795026486,
+   "counter_issued": 444071,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T18:34:36.019Z",
    "t": 1
   }
  ]
