@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T06:33:09.710Z",
- "updated_unix": 1794983589,
- "runs": 16851,
+ "updated": "2026-11-18T06:34:05.495Z",
+ "updated_unix": 1794983645,
+ "runs": 16852,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131113,
- "sent_total": 5039871,
+ "detected_total": 131114,
+ "sent_total": 5039943,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47616,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794804906,
-   "counter_issued": 47616,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T05:59:39.735Z",
-   "t": 3
-  },
   {
    "slug": "HangingStar",
    "gift": "Hanging Star",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T06:33:05.346Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T06:33:05.346Z",
+   "t": 3
+  },
+  {
+   "slug": "WinterWreath",
+   "gift": "Winter Wreath",
+   "number": 78351,
+   "owner": "",
+   "owner_addr": "0:0ae58e017708a3dd8cb19f15d4d7aff632b40aa1f6f37c1ba6223869bc5ff012",
+   "mint": 1794983071,
+   "counter_issued": 78351,
+   "counter_total": 100846,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T06:34:03.768Z",
    "t": 1
   }
  ]
