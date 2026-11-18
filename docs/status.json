@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T22:27:05.896Z",
- "updated_unix": 1795040825,
- "runs": 16965,
+ "updated": "2026-11-18T23:00:42.184Z",
+ "updated_unix": 1795042842,
+ "runs": 16966,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131635,
- "sent_total": 5074952,
+ "detected_total": 131637,
+ "sent_total": 5075096,
  "last_upgrades": [
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134753,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134753,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T21:33:40.161Z",
-   "t": 3
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "PrettyPosy",
-   "number": 134754,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 134754,
-   "counter_total": 181231,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T21:33:40.161Z",
-   "t": 3
-  },
   {
    "slug": "PrettyPosy",
    "gift": "PrettyPosy",
@@ -342,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:13.714Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -356,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:26.099Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:26.099Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EvilEye",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:26.099Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SurgeBoard",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:45.723Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "UFCStrike",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:56.706Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "UFCStrike",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T22:26:56.706Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391916,
+   "owner": "",
+   "owner_addr": "0:4673eff9afa0fed47f58c91200113a7dbab7f61692820e303eb2dbfa2ef59726",
+   "mint": 1795035108,
+   "counter_issued": 391916,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T23:00:33.538Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391917,
+   "owner": "",
+   "owner_addr": "0:bc07d9f975ea93109631c5b3f02556b1d4c225c637f5746e9b321a1e4a53f135",
+   "mint": 1795039487,
+   "counter_issued": 391917,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T23:00:33.538Z",
    "t": 1
   }
  ]
