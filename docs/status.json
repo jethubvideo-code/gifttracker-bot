@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T03:08:50.895Z",
- "updated_unix": 1794971330,
- "runs": 16835,
+ "updated": "2026-11-18T03:16:53.380Z",
+ "updated_unix": 1794971813,
+ "runs": 16836,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130985,
- "sent_total": 5030655,
+ "detected_total": 130986,
+ "sent_total": 5030727,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84684,
-   "owner": "",
-   "owner_addr": "0:2e10a27d0accbe10254708e34e372c50fb11c36984fe984e8eb5c2d0db4c6aa5",
-   "mint": 1794958064,
-   "counter_issued": 84684,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T03:01:58.569Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T03:08:49.145Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90901,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794969464,
+   "counter_issued": 90901,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T03:16:51.694Z",
    "t": 1
   }
  ]
