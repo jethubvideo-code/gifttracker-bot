@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T11:30:04.880Z",
- "updated_unix": 1795001404,
- "runs": 16882,
+ "updated": "2026-11-18T11:33:14.236Z",
+ "updated_unix": 1795001594,
+ "runs": 16883,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131187,
- "sent_total": 5044725,
+ "detected_total": 131189,
+ "sent_total": 5044869,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391883,
-   "owner": "",
-   "owner_addr": "0:267dd6c19d5b04cf6e92d3b56974c85cd837d552c7a06b26724d8a8b99f807ca",
-   "mint": 1794994198,
-   "counter_issued": 391883,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T09:36:44.814Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108877,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794990163,
-   "counter_issued": 108877,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T09:38:44.801Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:27:56.614Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:27:56.614Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:29:00.551Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T11:29:00.551Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +398,34 @@
    "img": "https://cdn4.telesco.pe/file/DAYoKXd5Zp0f0DF533A30K-WjpsODiTLXx2o6q2GvIHQfrBgJK_4-CX9mX5TOeQAaxQJxCDAFZ7EuhLsJCZxNrlhGwCEHnCdzkqqPy2-E3WDYVo2aSXRB7X4VSagLXMLCbrUndOU6MsSQaHSsDBdd2jPnUkKOmVp7yM-5HnWbrD8b5IEQNKnRaPQ9l82FkDm0KoRT7RCllMZEB9iS-m9rnG2rojVdd-Bu7p6KbwM2yxkJ9acVAj7j1o5XkcEWmnrYcHvqeVQBL7YPj0jiFd94RuadY8tDg039a_Nmu4V_AiCKXfTqAnCgMokN11W9GA_lutdreYKWdaCJV2ckggBxw.jpg",
    "sent": 0,
    "time": "2026-11-18T11:29:56.532Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270607,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270607,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:32:57.345Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270608,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270608,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T11:32:57.345Z",
    "t": 1
   }
  ]
