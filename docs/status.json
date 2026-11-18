@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-18T01:51:02.219Z",
- "updated_unix": 1794966662,
- "runs": 16831,
+ "updated": "2026-11-18T01:54:59.387Z",
+ "updated_unix": 1794966899,
+ "runs": 16832,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130932,
- "sent_total": 5026840,
+ "detected_total": 130934,
+ "sent_total": 5026984,
  "last_upgrades": [
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40682,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40682,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T01:25:45.727Z",
-   "t": 2
-  },
-  {
-   "slug": "snowmittens",
-   "gift": "Snow Mittens",
-   "number": 40683,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 40683,
-   "counter_total": 49969,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T01:25:45.727Z",
-   "t": 3
-  },
   {
    "slug": "snowmittens",
    "gift": "Snow Mittens",
@@ -370,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:50:43.461Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:50:43.461Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:50:43.461Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:50:43.461Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T01:50:43.461Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134721,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134721,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T01:54:52.599Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134722,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134722,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T01:54:52.599Z",
    "t": 1
   }
  ]
