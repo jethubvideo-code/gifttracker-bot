@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T17:50:43.022Z",
- "updated_unix": 1795024243,
- "runs": 16922,
+ "updated": "2026-11-18T17:52:37.360Z",
+ "updated_unix": 1795024357,
+ "runs": 16923,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131541,
- "sent_total": 5068898,
+ "detected_total": 131542,
+ "sent_total": 5068970,
  "last_upgrades": [
-  {
-   "slug": "luckylocket",
-   "gift": "Lucky Lockets",
-   "number": 37165,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 37165,
-   "counter_total": 66022,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T17:48:17.144Z",
-   "t": 3
-  },
   {
    "slug": "luckylocket",
    "gift": "Lucky Lockets",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T17:50:33.787Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T17:50:33.787Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T17:50:33.787Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391903,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391903,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T17:52:34.912Z",
    "t": 1
   }
  ]
