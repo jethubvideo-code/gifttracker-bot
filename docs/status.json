@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T23:39:56.629Z",
- "updated_unix": 1795045196,
- "runs": 16970,
+ "updated": "2026-11-18T23:40:56.530Z",
+ "updated_unix": 1795045256,
+ "runs": 16971,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 131650,
- "sent_total": 5076032,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 131651,
+ "sent_total": 5076104,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 444081,
-   "owner": "",
-   "owner_addr": "0:f37f2c9ff018f78d1f5f37e22e9cdddaaff9c105de9095147d5c3ddc868a6c3b",
-   "mint": 1795038882,
-   "counter_issued": 444081,
-   "counter_total": 490553,
-   "img": "https://cdn4.telesco.pe/file/KebSGx8btW65I5aB7f4PVIWrHEac5i55l5cjBjsKt0DT_zo15ncJFWvK28a5s-YHpiCpaMF_rqNcHxLyzGIXJURrx3AjeWFjUfiXm0G40vXteIBWZzw5Yh7cQn_kbL-q30cvL2Nv-YD3mjuTqr5yCDL1d2kd93JIrLOVLiFhIua7hPu8NrOUebJF6Z8g8IYrEI2cV50-1alYO0GNJfGrbV96gj-hzhDxogzY915aNmbX1bEFlBRN4zTNbRHeJU8shV2iAu3YyQvOd1rwr_8hCIJvxb8otsn0HWmYwEuH-AAlo9U6hMYeipaQm7EDjFvuekVoJ7QllXGgBy2V0h-_lQ.jpg",
-   "sent": 0,
-   "time": "2026-11-18T22:01:44.449Z",
-   "u": 1
-  },
   {
    "slug": "ViceCream",
    "gift": "ViceCream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T23:39:53.332Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391918,
+   "owner": "",
+   "owner_addr": "0:0dbea26890ac7abe0e34715ba15fa5ac40a4fbe575b952c1386b07410e1080d2",
+   "mint": 1795042924,
+   "counter_issued": 391918,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T23:40:53.344Z",
    "t": 1
   }
  ]
