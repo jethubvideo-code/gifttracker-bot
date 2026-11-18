@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-17T20:58:31.149Z",
- "updated_unix": 1794949111,
- "runs": 16821,
+ "updated": "2026-11-18T00:47:18.417Z",
+ "updated_unix": 1794962838,
+ "runs": 16822,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 130863,
- "sent_total": 5021964,
+ "detected_total": 130864,
+ "sent_total": 5022036,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "InstantRamen",
-   "number": 391869,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 391869,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-17T19:44:42.299Z",
-   "t": 3
-  },
   {
    "slug": "SleighBell",
    "gift": "Sleigh Bell",
@@ -433,6 +419,20 @@
    "sent": 0,
    "time": "2026-11-17T20:57:52.265Z",
    "u": 1
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22098,
+   "owner": "",
+   "owner_addr": "0:e33d9fbc4790e24eef0995234dbe0e36222eb82944aed5712c9b0b65deb811c1",
+   "mint": 1794911324,
+   "counter_issued": 22098,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T00:47:14.779Z",
+   "t": 1
   }
  ]
 }
