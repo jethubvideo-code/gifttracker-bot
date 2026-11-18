@@ -1,69 +1,13 @@
 {
- "updated": "2026-11-18T08:29:40.701Z",
- "updated_unix": 1794990580,
- "runs": 16862,
+ "updated": "2026-11-18T08:31:27.342Z",
+ "updated_unix": 1794990687,
+ "runs": 16863,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131137,
- "sent_total": 5041567,
+ "detected_total": 131141,
+ "sent_total": 5041855,
  "last_upgrades": [
-  {
-   "slug": "RecordPlayer",
-   "gift": "Record Player",
-   "number": 35530,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794928428,
-   "counter_issued": 35530,
-   "counter_total": 46888,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:01:00.769Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90903,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90903,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:02:26.494Z",
-   "t": 3
-  },
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 444048,
-   "owner": "",
-   "owner_addr": "0:e8018cee2854334e1f465989aec26fe2d5f51e5aec0beb68e42769fe4066d699",
-   "mint": 1794981600,
-   "counter_issued": 444048,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:06:28.658Z",
-   "t": 3
-  },
-  {
-   "slug": "HolidayDrink",
-   "gift": "HolidayDrink",
-   "number": 90904,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 90904,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T06:12:26.291Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -342,7 +286,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:28:56.341Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -356,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:28:56.341Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -370,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:29:09.604Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SurgeBoard",
@@ -384,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:29:09.604Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -398,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:29:28.755Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -412,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:29:28.755Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HypnoLollipop",
@@ -426,6 +370,62 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T08:29:28.755Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 444051,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 444051,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:31:17.353Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444052,
+   "owner": "",
+   "owner_addr": "0:1a73b64a34864351faf80cde8bbc8a1ec8265096fb6f9f3abce904269401d103",
+   "mint": 1794989493,
+   "counter_issued": 444052,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:31:17.353Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444053,
+   "owner": "",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1794990459,
+   "counter_issued": 444053,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:31:17.353Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "ViceCream",
+   "number": 444054,
+   "owner": "",
+   "owner_addr": "0:fe85ebcf0d4e82cb3aa116e89554374bbbca3d8c26c1d16e1c16e65087d547ba",
+   "mint": 1794990594,
+   "counter_issued": 444054,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-18T08:31:17.353Z",
    "t": 1
   }
  ]
