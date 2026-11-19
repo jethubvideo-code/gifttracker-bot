@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T19:30:05.569Z",
- "updated_unix": 1795116605,
- "runs": 17058,
+ "updated": "2026-11-19T19:31:58.129Z",
+ "updated_unix": 1795116718,
+ "runs": 17059,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 132177,
- "sent_total": 5111998,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 132178,
+ "sent_total": 5112054,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270781,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270781,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T18:19:08.541Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T19:29:39.073Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T19:29:39.073Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T19:29:39.073Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T19:29:39.073Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T19:29:39.073Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T19:29:39.073Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270797,
+   "owner": "",
+   "owner_addr": "0:aadd87254f154d4b3f0e4a5509c3bd9e4c085d989689f607bfd9635e198603a0",
+   "mint": 1795116265,
+   "counter_issued": 270797,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T19:31:42.782Z",
    "t": 1
   }
  ]
