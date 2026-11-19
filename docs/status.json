@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T22:30:14.557Z",
- "updated_unix": 1795127414,
- "runs": 17072,
+ "updated": "2026-11-19T22:39:14.718Z",
+ "updated_unix": 1795127954,
+ "runs": 17073,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 132206,
- "sent_total": 5113711,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 132207,
+ "sent_total": 5113783,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85545,
-   "owner": "",
-   "owner_addr": "0:ff7c4f1d650b1af0106771ad27f32577790afe00def51287fcce489003ac3afc",
-   "mint": 1795112800,
-   "counter_issued": 85545,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T19:29:39.073Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T22:30:11.318Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15589,
+   "owner": "ivakidragon.ton",
+   "owner_addr": "0:de3ea972a7c1116c838fcff3dce9d08b64f360e2fe649cef5a2df77f7f8e9231",
+   "mint": 1795112664,
+   "counter_issued": 15589,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T22:39:11.593Z",
    "t": 1
   }
  ]
