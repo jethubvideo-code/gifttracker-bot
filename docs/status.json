@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T10:02:50.314Z",
- "updated_unix": 1795082570,
- "runs": 16998,
+ "updated": "2026-11-19T10:07:46.755Z",
+ "updated_unix": 1795082866,
+ "runs": 16999,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131743,
- "sent_total": 5082261,
+ "detected_total": 131744,
+ "sent_total": 5082333,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164173,
-   "owner": "",
-   "owner_addr": "0:3de3fd777287e7e107719583733b83a61de572e2bed96e0a6aabcf3dc540e260",
-   "mint": 1795060958,
-   "counter_issued": 164173,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:44:43.960Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T09:45:44.558Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T10:02:41.031Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T10:02:41.031Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108893,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108893,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T10:07:42.754Z",
    "t": 1
   }
  ]
