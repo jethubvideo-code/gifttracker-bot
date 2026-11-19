@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T10:07:46.755Z",
- "updated_unix": 1795082866,
- "runs": 16999,
+ "updated": "2026-11-19T10:08:46.519Z",
+ "updated_unix": 1795082926,
+ "runs": 17000,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131744,
- "sent_total": 5082333,
+ "detected_total": 131745,
+ "sent_total": 5082405,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164174,
-   "owner": "",
-   "owner_addr": "0:1b5b9a92a9508350adb7ca86724eb3a6d80b73256f7dc353fff5d7ebf4add27a",
-   "mint": 1795065204,
-   "counter_issued": 164174,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:44:43.960Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T10:07:42.754Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134764,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134764,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T10:08:42.685Z",
    "t": 1
   }
  ]
