@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T17:45:43.284Z",
- "updated_unix": 1795110343,
- "runs": 17043,
+ "updated": "2026-11-19T17:46:44.883Z",
+ "updated_unix": 1795110404,
+ "runs": 17044,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 132120,
- "sent_total": 5109385,
+ "checked": 2,
+ "errors": 121,
+ "detected_total": 132121,
+ "sent_total": 5109458,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582719,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582719,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T16:56:59.514Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T17:45:33.334Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T17:45:40.576Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90929,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795107235,
+   "counter_issued": 90929,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T17:46:40.681Z",
    "t": 1
   }
  ]
