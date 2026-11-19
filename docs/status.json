@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-18T23:41:56.465Z",
- "updated_unix": 1795045316,
- "runs": 16972,
+ "updated": "2026-11-19T00:14:12.972Z",
+ "updated_unix": 1795047252,
+ "runs": 16973,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131652,
- "sent_total": 5076176,
+ "detected_total": 131653,
+ "sent_total": 5076248,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 444083,
-   "owner": "",
-   "owner_addr": "0:f37f2c9ff018f78d1f5f37e22e9cdddaaff9c105de9095147d5c3ddc868a6c3b",
-   "mint": 1795038904,
-   "counter_issued": 444083,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T22:01:44.449Z",
-   "t": 3
-  },
   {
    "slug": "ViceCream",
    "gift": "Vice Cream",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-18T23:41:53.629Z",
+   "t": 3
+  },
+  {
+   "slug": "RareBird",
+   "gift": "Rare Bird",
+   "number": 13026,
+   "owner": "simbusechka.ton",
+   "owner_addr": "0:71dff9702ec38c200cdec06dfd8825e6f6617d0392454a5c3e0dcad4f42d2408",
+   "mint": 1795046947,
+   "counter_issued": 13026,
+   "counter_total": 14971,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T00:14:10.167Z",
    "t": 1
   }
  ]
