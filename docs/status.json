@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T17:06:45.454Z",
- "updated_unix": 1795108005,
- "runs": 17039,
+ "updated": "2026-11-19T17:09:12.160Z",
+ "updated_unix": 1795108152,
+ "runs": 17040,
  "collections": 123,
- "checked": 0,
- "errors": 123,
- "detected_total": 132116,
- "sent_total": 5109093,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 132117,
+ "sent_total": 5109166,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582715,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582715,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T16:56:59.514Z",
-   "t": 1
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:56:59.514Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopDogg",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:56:59.514Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopDogg",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:56:59.514Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnoopDogg",
@@ -76,7 +62,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:56:59.514Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SnoopDogg",
@@ -90,7 +76,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:56:59.514Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "SnoopDogg",
@@ -427,6 +413,20 @@
    "sent": 0,
    "time": "2026-11-19T17:06:10.481Z",
    "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391948,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391948,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T17:09:10.515Z",
+   "t": 1
   }
  ]
 }
