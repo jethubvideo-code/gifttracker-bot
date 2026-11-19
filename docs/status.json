@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T17:51:42.478Z",
- "updated_unix": 1795110702,
- "runs": 17045,
+ "updated": "2026-11-19T17:55:40.628Z",
+ "updated_unix": 1795110940,
+ "runs": 17046,
  "collections": 123,
  "checked": 4,
  "errors": 119,
- "detected_total": 132122,
- "sent_total": 5109531,
+ "detected_total": 132123,
+ "sent_total": 5109604,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582721,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582721,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T16:56:59.514Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T17:46:40.681Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T17:51:39.839Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391950,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391950,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T17:55:37.886Z",
    "t": 1
   }
  ]
