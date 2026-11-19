@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T08:17:51.281Z",
- "updated_unix": 1795076271,
- "runs": 16985,
+ "updated": "2026-11-19T08:19:45.235Z",
+ "updated_unix": 1795076385,
+ "runs": 16986,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131727,
- "sent_total": 5081233,
+ "detected_total": 131728,
+ "sent_total": 5081305,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109423,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109423,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T08:17:44.587Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T08:17:44.587Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T08:17:44.587Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108891,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108891,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T08:19:43.332Z",
    "t": 1
   }
  ]
