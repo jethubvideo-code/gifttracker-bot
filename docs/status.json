@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T22:27:18.122Z",
- "updated_unix": 1795127238,
- "runs": 17071,
+ "updated": "2026-11-19T22:30:14.557Z",
+ "updated_unix": 1795127414,
+ "runs": 17072,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132205,
- "sent_total": 5113639,
+ "detected_total": 132206,
+ "sent_total": 5113711,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85544,
-   "owner": "",
-   "owner_addr": "0:aeafea1eaef959bdf1122ec3297e11591e559124f865d1e3c37b09328a83c4fe",
-   "mint": 1795106956,
-   "counter_issued": 85544,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T19:29:39.073Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T22:27:05.766Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T22:27:14.273Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391959,
+   "owner": "",
+   "owner_addr": "0:d6f5afc083c0a8a90e93cef63165d844738c6fe249ab24d5a0335b1505fc8aac",
+   "mint": 1795126209,
+   "counter_issued": 391959,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T22:30:11.318Z",
    "t": 1
   }
  ]
