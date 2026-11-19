@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-19T08:57:03.841Z",
- "updated_unix": 1795078623,
- "runs": 16990,
+ "updated": "2026-11-19T09:27:38.846Z",
+ "updated_unix": 1795080458,
+ "runs": 16991,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131732,
- "sent_total": 5081593,
+ "detected_total": 131734,
+ "sent_total": 5081737,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109428,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109428,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109429,
-   "owner": "",
-   "owner_addr": "0:246c8037db39daf78617d4e8a2dfbd7317e08738f1c1f032c825ad5005c74d34",
-   "mint": 1795005998,
-   "counter_issued": 109429,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T08:57:01.850Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391929,
+   "owner": "",
+   "owner_addr": "0:aeafea1eaef959bdf1122ec3297e11591e559124f865d1e3c37b09328a83c4fe",
+   "mint": 1795079502,
+   "counter_issued": 391929,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T09:27:34.063Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391930,
+   "owner": "",
+   "owner_addr": "0:d849c235a6521d94d3149bfd81095971b59104ef038de406c0afed2990daa9fb",
+   "mint": 1795079504,
+   "counter_issued": 391930,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T09:27:34.063Z",
    "t": 1
   }
  ]
