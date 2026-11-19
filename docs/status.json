@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T20:19:50.341Z",
- "updated_unix": 1795119590,
- "runs": 17062,
+ "updated": "2026-11-19T20:49:05.948Z",
+ "updated_unix": 1795121345,
+ "runs": 17063,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132184,
- "sent_total": 5112350,
+ "detected_total": 132185,
+ "sent_total": 5112423,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270788,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270788,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T18:19:08.541Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T20:18:55.060Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T20:18:55.060Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "GemSignet",
+   "gift": "Gem Signet",
+   "number": 6265,
+   "owner": "sgramwallet.ton",
+   "owner_addr": "0:c9cbc38c940d56445d35abcecb49b95827d077b451a0c871728f2ccef5ae77ab",
+   "mint": 1795107811,
+   "counter_issued": 6265,
+   "counter_total": 6962,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T20:49:02.045Z",
+   "t": 1
   }
  ]
 }
