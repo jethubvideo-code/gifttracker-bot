@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T15:55:41.878Z",
- "updated_unix": 1795103741,
- "runs": 17021,
+ "updated": "2026-11-19T15:57:40.723Z",
+ "updated_unix": 1795103860,
+ "runs": 17022,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131850,
- "sent_total": 5089703,
+ "detected_total": 131851,
+ "sent_total": 5089775,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55862,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794995186,
-   "counter_issued": 55862,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T15:24:03.196Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T15:38:39.697Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T15:38:39.697Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T15:55:37.923Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164176,
+   "owner": "",
+   "owner_addr": "0:5e9ea599335e22729b851c4b83d5eefb98219254978e0360a0b8e7b9359e8e42",
+   "mint": 1795103676,
+   "counter_issued": 164176,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T15:57:37.074Z",
    "t": 1
   }
  ]
