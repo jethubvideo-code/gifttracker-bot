@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T09:33:39.009Z",
- "updated_unix": 1795080819,
- "runs": 16993,
+ "updated": "2026-11-19T09:39:05.847Z",
+ "updated_unix": 1795081145,
+ "runs": 16994,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131736,
- "sent_total": 5081819,
+ "detected_total": 131737,
+ "sent_total": 5081829,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109432,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795029640,
-   "counter_issued": 109432,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T09:33:36.129Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270755,
+   "owner": "negrypidorasy.ton",
+   "owner_addr": "0:8b6af5a89e2315c36c3ad24aeecef9e007121f247c559ab2b37c599a1d8003f5",
+   "mint": 1795080566,
+   "counter_issued": 270755,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T09:38:38.490Z",
    "t": 1
   }
  ]
