@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T12:30:23.997Z",
- "updated_unix": 1795091423,
- "runs": 17008,
+ "updated": "2026-11-19T13:01:10.888Z",
+ "updated_unix": 1795093270,
+ "runs": 17009,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 131778,
- "sent_total": 5084764,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 131779,
+ "sent_total": 5084836,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84708,
-   "owner": "",
-   "owner_addr": "0:14fc172af1126c9e6492486798615a81d7f026a334e05e5f36156850de28d993",
-   "mint": 1795074403,
-   "counter_issued": 84708,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T10:39:55.380Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T12:30:05.986Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T12:30:05.986Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T12:30:05.986Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T12:30:05.986Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T12:30:05.986Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90926,
+   "owner": "stacy-official.ton",
+   "owner_addr": "0:362f32d521b6894509facbf130cd25ad57b68d165ea9f125cc21e4cc9485eecd",
+   "mint": 1795082079,
+   "counter_issued": 90926,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T13:01:07.880Z",
+   "t": 1
   }
  ]
 }
