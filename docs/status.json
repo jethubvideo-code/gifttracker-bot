@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T16:14:52.789Z",
- "updated_unix": 1795104892,
- "runs": 17024,
+ "updated": "2026-11-19T16:30:59.743Z",
+ "updated_unix": 1795105859,
+ "runs": 17025,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131867,
- "sent_total": 5090927,
+ "detected_total": 131868,
+ "sent_total": 5090997,
  "last_upgrades": [
-  {
-   "slug": "HangingStar",
-   "gift": "Hanging Star",
-   "number": 47635,
-   "owner": "",
-   "owner_addr": "0:bd703d1cce146216462de54d2b93bb0c93cf00bd09359fff9bd2406e2a988c98",
-   "mint": 1795038140,
-   "counter_issued": 47635,
-   "counter_total": 58118,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T15:26:04.206Z",
-   "t": 3
-  },
   {
    "slug": "TrappedHeart",
    "gift": "Trapped Heart",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:14:50.125Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90928,
+   "owner": "",
+   "owner_addr": "0:e86809ee6ad93dfd5521f502ff4d46de2409f058ba4d0f0e4a0a2099569fd375",
+   "mint": 1795104518,
+   "counter_issued": 90928,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T16:30:56.455Z",
    "t": 1
   }
  ]
