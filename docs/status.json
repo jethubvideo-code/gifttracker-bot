@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-19T23:14:15.966Z",
- "updated_unix": 1795130055,
- "runs": 17074,
+ "updated": "2026-11-19T23:15:22.160Z",
+ "updated_unix": 1795130122,
+ "runs": 17075,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 132209,
- "sent_total": 5113927,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 132212,
+ "sent_total": 5114143,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391954,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795115561,
-   "counter_issued": 391954,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T19:37:54.228Z",
-   "t": 3
-  },
-  {
-   "slug": "JellyBunny",
-   "gift": "JellyBunny",
-   "number": 108901,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 108901,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T20:02:40.739Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270798,
-   "owner": "",
-   "owner_addr": "0:fbbfec7be9f56a2774b5725fff67e8ed4c888eff8d56007c74b4bc1aaada8ff5",
-   "mint": 1795117391,
-   "counter_issued": 270798,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T20:02:48.808Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T23:14:08.843Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T23:14:08.843Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "HypnoLollipop",
+   "number": 84710,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 84710,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T23:15:11.640Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84711,
+   "owner": "",
+   "owner_addr": "0:c39a12c0cee265eb75efb648fa0db05f305a157bad54e9bc3b82fd0d49aabfaa",
+   "mint": 1795114718,
+   "counter_issued": 84711,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T23:15:11.640Z",
+   "t": 1
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84712,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795124497,
+   "counter_issued": 84712,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T23:15:11.640Z",
    "t": 1
   }
  ]
