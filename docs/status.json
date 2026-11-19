@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T18:34:33.484Z",
- "updated_unix": 1795113273,
- "runs": 17052,
+ "updated": "2026-11-19T18:36:35.612Z",
+ "updated_unix": 1795113395,
+ "runs": 17053,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132162,
- "sent_total": 5111061,
+ "detected_total": 132163,
+ "sent_total": 5111134,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109448,
-   "owner": "",
-   "owner_addr": "0:aeafea1eaef959bdf1122ec3297e11591e559124f865d1e3c37b09328a83c4fe",
-   "mint": 1795107001,
-   "counter_issued": 109448,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T18:17:50.943Z",
-   "t": 3
-  },
   {
    "slug": "StarNotepad",
    "gift": "StarNotepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T18:34:25.787Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444102,
+   "owner": "",
+   "owner_addr": "0:6bb24c62611fc94fe47dae52f4eae6941532755c35405ecd2694c189d047a59e",
+   "mint": 1795112355,
+   "counter_issued": 444102,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T18:36:28.363Z",
    "t": 1
   }
  ]
