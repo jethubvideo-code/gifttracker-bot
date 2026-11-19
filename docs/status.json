@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-19T17:25:45.356Z",
- "updated_unix": 1795109145,
- "runs": 17042,
+ "updated": "2026-11-19T17:45:43.284Z",
+ "updated_unix": 1795110343,
+ "runs": 17043,
  "collections": 123,
- "checked": 0,
- "errors": 123,
- "detected_total": 132118,
- "sent_total": 5109239,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 132120,
+ "sent_total": 5109385,
  "last_upgrades": [
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582717,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582717,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T16:56:59.514Z",
-   "t": 3
-  },
-  {
-   "slug": "SnoopDogg",
-   "gift": "SnoopDogg",
-   "number": 582718,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 582718,
-   "counter_total": 593781,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T16:56:59.514Z",
-   "t": 3
-  },
   {
    "slug": "SnoopDogg",
    "gift": "SnoopDogg",
@@ -427,6 +399,34 @@
    "sent": 0,
    "time": "2026-11-19T17:23:12.981Z",
    "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391949,
+   "owner": "",
+   "owner_addr": "0:5347823870760f6868b2dc9d1c7bfb5ac0851837aa9d65c14cf4e0dac72e1eab",
+   "mint": 1795108569,
+   "counter_issued": 391949,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T17:45:33.334Z",
+   "t": 1
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108898,
+   "owner": "",
+   "owner_addr": "0:a3469d18ea307ca121d43032f5f306cf251525fd3c54853b72b8174ec6b2114e",
+   "mint": 1795108552,
+   "counter_issued": 108898,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T17:45:40.576Z",
+   "t": 1
   }
  ]
 }
