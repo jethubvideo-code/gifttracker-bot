@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-19T22:24:11.308Z",
- "updated_unix": 1795127051,
- "runs": 17070,
+ "updated": "2026-11-19T22:27:18.122Z",
+ "updated_unix": 1795127238,
+ "runs": 17071,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132203,
- "sent_total": 5113495,
+ "detected_total": 132205,
+ "sent_total": 5113639,
  "last_upgrades": [
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85542,
-   "owner": "",
-   "owner_addr": "0:8fdd73c0eaca689e2f26bbaaf8c77118763180280466680d44ca2bee85407a65",
-   "mint": 1795100730,
-   "counter_issued": 85542,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T19:29:39.073Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "Joyful Bundle",
-   "number": 85543,
-   "owner": "",
-   "owner_addr": "0:8fdd73c0eaca689e2f26bbaaf8c77118763180280466680d44ca2bee85407a65",
-   "mint": 1795100964,
-   "counter_issued": 85543,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T19:29:39.073Z",
-   "t": 3
-  },
   {
    "slug": "JoyfulBundle",
    "gift": "Joyful Bundle",
@@ -384,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T21:56:36.864Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T22:23:58.003Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T22:23:58.003Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T22:23:58.003Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232393,
+   "owner": "",
+   "owner_addr": "0:c56bee26a2a071a8e09fec2b0555f6da4f7d591408bac72ea0d8b8bc52b9d6f7",
+   "mint": 1795120981,
+   "counter_issued": 232393,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T22:27:05.766Z",
+   "t": 1
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134777,
+   "owner": "saidislomrash.ton",
+   "owner_addr": "0:b353e5696478920ec6b48a97bebffc65db380389039bad6630452c222b384218",
+   "mint": 1795124605,
+   "counter_issued": 134777,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T22:27:14.273Z",
    "t": 1
   }
  ]
