@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T14:45:19.757Z",
- "updated_unix": 1795099519,
- "runs": 17015,
+ "updated": "2026-11-19T14:46:16.139Z",
+ "updated_unix": 1795099576,
+ "runs": 17016,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131794,
- "sent_total": 5085916,
+ "detected_total": 131795,
+ "sent_total": 5085988,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33168,
-   "owner": "",
-   "owner_addr": "0:b324fae9c235f730035126dc5103d5a1aed1923b43cb00149adfe3e0d586f31e",
-   "mint": 1795083705,
-   "counter_issued": 33168,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T11:27:34.776Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T14:09:40.319Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T14:09:44.027Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T14:45:16.761Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391941,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391941,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T14:46:13.594Z",
    "t": 1
   }
  ]
