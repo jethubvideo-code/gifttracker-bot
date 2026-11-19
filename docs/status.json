@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-19T09:42:43.777Z",
- "updated_unix": 1795081363,
- "runs": 16995,
+ "updated": "2026-11-19T09:44:48.819Z",
+ "updated_unix": 1795081488,
+ "runs": 16996,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131738,
- "sent_total": 5081901,
+ "detected_total": 131740,
+ "sent_total": 5082045,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109434,
-   "owner": "",
-   "owner_addr": "0:f76a876163a29506017b9bdd26d6a76f0b79b51f48acd1c9b9f1b1b89631299d",
-   "mint": 1795034762,
-   "counter_issued": 109434,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
-  {
-   "slug": "SpicedWine",
-   "gift": "Spiced Wine",
-   "number": 109435,
-   "owner": "",
-   "owner_addr": "0:f5d510b0a65526d4f7ee977990d241c3602638173f7b176db6977f01004dcfec",
-   "mint": 1795037923,
-   "counter_issued": 109435,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T09:42:39.071Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90924,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90924,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T09:44:39.077Z",
+   "t": 1
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90925,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90925,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T09:44:39.077Z",
    "t": 1
   }
  ]
