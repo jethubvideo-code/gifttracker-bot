@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T08:26:47.485Z",
- "updated_unix": 1795076807,
- "runs": 16988,
+ "updated": "2026-11-19T08:32:46.016Z",
+ "updated_unix": 1795077166,
+ "runs": 16989,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 131730,
- "sent_total": 5081449,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 131731,
+ "sent_total": 5081521,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109426,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109426,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:43:36.709Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "SpicedWine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T08:26:43.643Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90923,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90923,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T08:32:43.813Z",
    "t": 1
   }
  ]
