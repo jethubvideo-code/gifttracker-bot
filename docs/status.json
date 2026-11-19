@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T16:31:58.245Z",
- "updated_unix": 1795105918,
- "runs": 17026,
+ "updated": "2026-11-19T16:32:57.993Z",
+ "updated_unix": 1795105977,
+ "runs": 17027,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131869,
- "sent_total": 5091069,
+ "detected_total": 131870,
+ "sent_total": 5091141,
  "last_upgrades": [
-  {
-   "slug": "TrappedHeart",
-   "gift": "Trapped Heart",
-   "number": 25153,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795063038,
-   "counter_issued": 25153,
-   "counter_total": 26407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T15:26:40.493Z",
-   "t": 3
-  },
   {
    "slug": "TrappedHeart",
    "gift": "Trapped Heart",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:31:55.674Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232392,
+   "owner": "",
+   "owner_addr": "0:b232c0b5aa8bb3856c2545786d8f0ada2e3dba06df20459e6be3da9d66c896c5",
+   "mint": 1795103993,
+   "counter_issued": 232392,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T16:32:55.428Z",
    "t": 1
   }
  ]
