@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T09:44:48.819Z",
- "updated_unix": 1795081488,
- "runs": 16996,
+ "updated": "2026-11-19T09:45:51.870Z",
+ "updated_unix": 1795081551,
+ "runs": 16997,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131740,
- "sent_total": 5082045,
+ "detected_total": 131741,
+ "sent_total": 5082117,
  "last_upgrades": [
-  {
-   "slug": "EasterEgg",
-   "gift": "Easter Egg",
-   "number": 164170,
-   "owner": "",
-   "owner_addr": "0:b05f13efd5cbbc3d07d28134e2d02313ea4e09897d1b2e99d61d97cc43ff3f15",
-   "mint": 1795038026,
-   "counter_issued": 164170,
-   "counter_total": 173176,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T07:44:43.960Z",
-   "t": 3
-  },
   {
    "slug": "EasterEgg",
    "gift": "Easter Egg",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T09:44:39.077Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T09:44:39.077Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391932,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795081034,
+   "counter_issued": 391932,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T09:45:44.558Z",
    "t": 1
   }
  ]
