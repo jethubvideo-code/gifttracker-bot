@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T07:09:02.508Z",
- "updated_unix": 1795072142,
- "runs": 16977,
+ "updated": "2026-11-19T07:09:38.519Z",
+ "updated_unix": 1795072178,
+ "runs": 16978,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 131665,
- "sent_total": 5076769,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 131666,
+ "sent_total": 5076841,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391916,
-   "owner": "",
-   "owner_addr": "0:4673eff9afa0fed47f58c91200113a7dbab7f61692820e303eb2dbfa2ef59726",
-   "mint": 1795035108,
-   "counter_issued": 391916,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T23:00:33.538Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -329,7 +315,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -343,7 +329,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -357,7 +343,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -371,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -385,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -399,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -413,7 +399,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:08:32.509Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:09:00.046Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90920,
+   "owner": "",
+   "owner_addr": "0:3429352d6c11841be78fbcdfee1c324dd812d69937683b256352bf0dbd9fab44",
+   "mint": 1795036217,
+   "counter_issued": 90920,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T07:09:36.064Z",
    "t": 1
   }
  ]
