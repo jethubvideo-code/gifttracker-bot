@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T18:29:34.027Z",
- "updated_unix": 1795112974,
- "runs": 17051,
+ "updated": "2026-11-19T18:34:33.484Z",
+ "updated_unix": 1795113273,
+ "runs": 17052,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132161,
- "sent_total": 5110988,
+ "detected_total": 132162,
+ "sent_total": 5111061,
  "last_upgrades": [
-  {
-   "slug": "SpicedWine",
-   "gift": "SpicedWine",
-   "number": 109447,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109447,
-   "counter_total": 146090,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T18:17:50.943Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T18:29:25.810Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "JellyBunny",
+   "number": 108899,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 108899,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T18:34:25.787Z",
    "t": 1
   }
  ]
