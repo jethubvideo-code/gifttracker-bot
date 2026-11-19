@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-19T07:06:37.132Z",
- "updated_unix": 1795071997,
- "runs": 16976,
+ "updated": "2026-11-19T07:09:02.508Z",
+ "updated_unix": 1795072142,
+ "runs": 16977,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 131663,
- "sent_total": 5076680,
+ "checked": 3,
+ "errors": 120,
+ "detected_total": 131665,
+ "sent_total": 5076769,
  "last_upgrades": [
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58916,
-   "owner": "",
-   "owner_addr": "0:cb1c4079062927ecec5baeb539593083c2d684ce9a178950e05c9153d407af0b",
-   "mint": 1795036667,
-   "counter_issued": 58916,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T22:26:56.706Z",
-   "t": 3
-  },
-  {
-   "slug": "UFCStrike",
-   "gift": "UFC Strike",
-   "number": 58917,
-   "owner": "",
-   "owner_addr": "0:82f0e248a9d1821e0687181a750e6cdc5c7abe06fa67a6c63179ab60de8988b6",
-   "mint": 1795039140,
-   "counter_issued": 58917,
-   "counter_total": 60000,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-18T22:26:56.706Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -343,7 +315,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T02:08:28.658Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -357,7 +329,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -371,7 +343,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -385,7 +357,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -399,7 +371,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -413,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T07:06:20.665Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270753,
+   "owner": "",
+   "owner_addr": "0:0155294ab72075846c27502dc762cba296a7d82727c4c95cfadaa523d8cc45b2",
+   "mint": 1795066945,
+   "counter_issued": 270753,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T07:08:32.509Z",
+   "t": 1
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444092,
+   "owner": "",
+   "owner_addr": "0:df70a65ddd90e92172413bef09733b6fb0da1c5b2ba80c22ff9b879a255c5ecf",
+   "mint": 1795071472,
+   "counter_issued": 444092,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T07:09:00.046Z",
    "t": 1
   }
  ]
