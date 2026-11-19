@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T16:30:59.743Z",
- "updated_unix": 1795105859,
- "runs": 17025,
+ "updated": "2026-11-19T16:31:58.245Z",
+ "updated_unix": 1795105918,
+ "runs": 17026,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131868,
- "sent_total": 5090997,
+ "detected_total": 131869,
+ "sent_total": 5091069,
  "last_upgrades": [
-  {
-   "slug": "TrappedHeart",
-   "gift": "Trapped Heart",
-   "number": 25152,
-   "owner": "",
-   "owner_addr": "0:ee626e4cc17ac985dfa0d4fe3f66776e112be4f25056e2e177548ee5ebdd9c82",
-   "mint": 1795035441,
-   "counter_issued": 25152,
-   "counter_total": 26407,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T15:26:40.493Z",
-   "t": 3
-  },
   {
    "slug": "TrappedHeart",
    "gift": "Trapped Heart",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:14:50.125Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T16:30:56.455Z",
+   "t": 3
+  },
+  {
+   "slug": "SnoopCigar",
+   "gift": "Snoop Cigar",
+   "number": 117712,
+   "owner": "",
+   "owner_addr": "0:a73dec98269d9d0215bdf174e1208106bb46a56da85b7cbec55e822104381cf2",
+   "mint": 1795098672,
+   "counter_issued": 117712,
+   "counter_total": 119573,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T16:31:55.674Z",
    "t": 1
   }
  ]
