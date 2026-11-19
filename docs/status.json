@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T21:29:32.356Z",
- "updated_unix": 1795123772,
- "runs": 17068,
+ "updated": "2026-11-19T21:56:43.074Z",
+ "updated_unix": 1795125403,
+ "runs": 17069,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132199,
- "sent_total": 5113207,
+ "detected_total": 132200,
+ "sent_total": 5113279,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "Vice Cream",
-   "number": 444103,
-   "owner": "",
-   "owner_addr": "0:50d307d6081a389a83ba5783b6964017da500ce8f22f2fc87369efc8f35e2f31",
-   "mint": 1795114607,
-   "counter_issued": 444103,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T19:01:30.076Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "JellyBunny",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T21:29:01.342Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T21:29:01.342Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T21:29:01.342Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T21:29:01.342Z",
+   "t": 3
+  },
+  {
+   "slug": "SwissWatch",
+   "gift": "Swiss Watch",
+   "number": 26125,
+   "owner": "shazamopenai.ton",
+   "owner_addr": "0:aadd87254f154d4b3f0e4a5509c3bd9e4c085d989689f607bfd9635e198603a0",
+   "mint": 1795123702,
+   "counter_issued": 26125,
+   "counter_total": 29323,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T21:56:36.864Z",
    "t": 1
   }
  ]
