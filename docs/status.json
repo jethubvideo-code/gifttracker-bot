@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T13:50:47.985Z",
- "updated_unix": 1795096247,
- "runs": 17012,
+ "updated": "2026-11-19T13:51:48.482Z",
+ "updated_unix": 1795096308,
+ "runs": 17013,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131790,
- "sent_total": 5085628,
+ "detected_total": 131791,
+ "sent_total": 5085700,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33164,
-   "owner": "",
-   "owner_addr": "0:9107e1bc443136fe13d3e0f7bb3fb9fb939ae7087082c72ff603227be2299487",
-   "mint": 1795065656,
-   "counter_issued": 33164,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T11:27:34.776Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T13:50:45.549Z",
+   "t": 3
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108896,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795096217,
+   "counter_issued": 108896,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T13:51:46.251Z",
    "t": 1
   }
  ]
