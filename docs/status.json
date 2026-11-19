@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-19T14:09:46.273Z",
- "updated_unix": 1795097386,
- "runs": 17014,
+ "updated": "2026-11-19T14:45:19.757Z",
+ "updated_unix": 1795099519,
+ "runs": 17015,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 131793,
- "sent_total": 5085844,
+ "detected_total": 131794,
+ "sent_total": 5085916,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33167,
-   "owner": "",
-   "owner_addr": "0:8b650d3e2a23e2d17732198fac68262b1b6eeb280223acb443217122126b835e",
-   "mint": 1795080486,
-   "counter_issued": 33167,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T11:27:34.776Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T13:51:46.251Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T14:09:40.319Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-19T14:09:44.027Z",
+   "t": 2
+  },
+  {
+   "slug": "JellyBunny",
+   "gift": "Jelly Bunny",
+   "number": 108897,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795096217,
+   "counter_issued": 108897,
+   "counter_total": 129350,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-19T14:45:16.761Z",
    "t": 1
   }
  ]
