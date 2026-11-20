@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T16:49:13.703Z",
- "updated_unix": 1795193353,
- "runs": 17161,
+ "updated": "2026-11-20T16:56:16.977Z",
+ "updated_unix": 1795193776,
+ "runs": 17162,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 132890,
- "sent_total": 5162142,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 132891,
+ "sent_total": 5162214,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53639,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1794994940,
-   "counter_issued": 53639,
-   "counter_total": 66580,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T15:32:30.563Z",
-   "t": 3
-  },
   {
    "slug": "BerryBox",
    "gift": "Berry Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T16:49:09.131Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "Neko Helmet",
+   "number": 15590,
+   "owner": "",
+   "owner_addr": "0:e2f8b0a518d8d119b237f8600eb4e0c20a46c5fd7fc83b679a38dfcfbb374b25",
+   "mint": 1795189983,
+   "counter_issued": 15590,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T16:56:12.278Z",
    "t": 1
   }
  ]
