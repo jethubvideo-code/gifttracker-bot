@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T20:23:19.110Z",
- "updated_unix": 1795206199,
- "runs": 17184,
+ "updated": "2026-11-20T20:29:16.531Z",
+ "updated_unix": 1795206556,
+ "runs": 17185,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132959,
- "sent_total": 5166608,
+ "detected_total": 132960,
+ "sent_total": 5166680,
  "last_upgrades": [
-  {
-   "slug": "HypnoLollipop",
-   "gift": "Hypno Lollipop",
-   "number": 84720,
-   "owner": "",
-   "owner_addr": "0:73e1925248bcf1808da094a258091114ffb2458b8769857108d19a815eadb162",
-   "mint": 1795194746,
-   "counter_issued": 84720,
-   "counter_total": 116639,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T19:06:44.419Z",
-   "t": 3
-  },
   {
    "slug": "HypnoLollipop",
    "gift": "Hypno Lollipop",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T20:23:16.568Z",
+   "t": 3
+  },
+  {
+   "slug": "NekoHelmet",
+   "gift": "NekoHelmet",
+   "number": 15591,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 15591,
+   "counter_total": 16149,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T20:29:13.594Z",
    "t": 1
   }
  ]
