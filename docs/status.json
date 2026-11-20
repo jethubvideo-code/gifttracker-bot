@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T05:40:25.646Z",
- "updated_unix": 1795153225,
- "runs": 17096,
+ "updated": "2026-11-20T05:41:30.198Z",
+ "updated_unix": 1795153290,
+ "runs": 17097,
  "collections": 123,
- "checked": 4,
- "errors": 119,
- "detected_total": 132542,
- "sent_total": 5137871,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 132543,
+ "sent_total": 5137943,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33175,
-   "owner": "",
-   "owner_addr": "0:d2d6140d2637540b5b4babbc1fd562c0cdec3da1c83718fa59bfff2e76596d26",
-   "mint": 1795140206,
-   "counter_issued": 33175,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T03:44:53.950Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T05:40:23.395Z",
+   "t": 3
+  },
+  {
+   "slug": "EasterEgg",
+   "gift": "Easter Egg",
+   "number": 164178,
+   "owner": "",
+   "owner_addr": "0:0e4efc4a6a9d188f906c63a750043667e0befdfb2df45ffa9ea83894756a7c42",
+   "mint": 1795152035,
+   "counter_issued": 164178,
+   "counter_total": 173176,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T05:41:25.974Z",
    "t": 1
   }
  ]
