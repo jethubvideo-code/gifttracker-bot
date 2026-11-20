@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T09:02:33.709Z",
- "updated_unix": 1795165353,
- "runs": 17109,
+ "updated": "2026-11-20T09:04:31.053Z",
+ "updated_unix": 1795165471,
+ "runs": 17110,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 132586,
- "sent_total": 5140791,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 132587,
+ "sent_total": 5140863,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270820,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1795149604,
-   "counter_issued": 270820,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:02:16.793Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:02:16.793Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:02:29.865Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90941,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90941,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:04:27.321Z",
    "t": 1
   }
  ]
