@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-20T09:12:39.985Z",
- "updated_unix": 1795165959,
- "runs": 17112,
+ "updated": "2026-11-20T09:34:32.946Z",
+ "updated_unix": 1795167272,
+ "runs": 17113,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132591,
- "sent_total": 5141151,
+ "detected_total": 132593,
+ "sent_total": 5141295,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270825,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1795149652,
-   "counter_issued": 270825,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270826,
-   "owner": "",
-   "owner_addr": "0:9fd79d9824041c0baf3cdbb9851d977feff0f20111184a8f920e1a0cbed4b7d9",
-   "mint": 1795149795,
-   "counter_issued": 270826,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:12:32.444Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:12:32.444Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391970,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391970,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:34:25.886Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391971,
+   "owner": "meytik.t.me",
+   "owner_addr": "0:0f76456e71236477705fe4b6bb9c62845c87d643cd97cd576fbdaba7b401e2cd",
+   "mint": 1795165641,
+   "counter_issued": 391971,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:34:25.886Z",
    "t": 1
   }
  ]
