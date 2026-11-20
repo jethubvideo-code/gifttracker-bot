@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T12:11:57.692Z",
- "updated_unix": 1795176717,
- "runs": 17128,
+ "updated": "2026-11-20T12:13:54.803Z",
+ "updated_unix": 1795176834,
+ "runs": 17129,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132625,
- "sent_total": 5143475,
+ "detected_total": 132626,
+ "sent_total": 5143547,
  "last_upgrades": [
-  {
-   "slug": "BigYear",
-   "gift": "Big Year",
-   "number": 78623,
-   "owner": "bubble-market.ton",
-   "owner_addr": "0:06ef86d733ca1197dab88f0c5b39c84bb2fec130550f2d394f6a1d61721e82b9",
-   "mint": 1795166321,
-   "counter_issued": 78623,
-   "counter_total": 101415,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T10:10:46.035Z",
-   "t": 3
-  },
   {
    "slug": "SpicedWine",
    "gift": "Spiced Wine",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T12:11:53.839Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90945,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90945,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T12:13:51.282Z",
    "t": 1
   }
  ]
