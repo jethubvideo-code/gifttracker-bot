@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T09:34:32.946Z",
- "updated_unix": 1795167272,
- "runs": 17113,
+ "updated": "2026-11-20T09:38:28.905Z",
+ "updated_unix": 1795167508,
+ "runs": 17114,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132593,
- "sent_total": 5141295,
+ "detected_total": 132594,
+ "sent_total": 5141367,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270827,
-   "owner": "",
-   "owner_addr": "0:eddeeb473185a088e795dacecf720afc4e514c83528ce9c7221021b78636886d",
-   "mint": 1795151720,
-   "counter_issued": 270827,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:12:32.444Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:12:32.444Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:34:25.886Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T09:34:25.886Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444115,
+   "owner": "bubble-market.ton",
+   "owner_addr": "0:06ef86d733ca1197dab88f0c5b39c84bb2fec130550f2d394f6a1d61721e82b9",
+   "mint": 1795166117,
+   "counter_issued": 444115,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:38:26.062Z",
    "t": 1
   }
  ]
