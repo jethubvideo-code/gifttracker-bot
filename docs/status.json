@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T04:58:09.272Z",
- "updated_unix": 1795150689,
- "runs": 17094,
+ "updated": "2026-11-20T05:39:28.228Z",
+ "updated_unix": 1795153168,
+ "runs": 17095,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132540,
- "sent_total": 5137727,
+ "detected_total": 132541,
+ "sent_total": 5137799,
  "last_upgrades": [
-  {
-   "slug": "SurgeBoard",
-   "gift": "Surge Board",
-   "number": 33173,
-   "owner": "",
-   "owner_addr": "0:4595956b29359988fa3f8806329d31ca116edc99e44cf2892dc2cb27dd2a956c",
-   "mint": 1795140177,
-   "counter_issued": 33173,
-   "counter_total": 39464,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T03:44:53.950Z",
-   "t": 3
-  },
   {
    "slug": "SurgeBoard",
    "gift": "Surge Board",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T04:58:07.296Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84713,
+   "owner": "giftmemory.t.me",
+   "owner_addr": "0:a62c2c698100bce79a25c1a978f386649029f867f2bd95552fedf4112466d396",
+   "mint": 1795152294,
+   "counter_issued": 84713,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T05:39:25.780Z",
    "t": 1
   }
  ]
