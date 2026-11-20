@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-20T02:02:37.367Z",
- "updated_unix": 1795140157,
- "runs": 17081,
+ "updated": "2026-11-20T02:47:01.064Z",
+ "updated_unix": 1795142821,
+ "runs": 17082,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132253,
- "sent_total": 5117095,
+ "detected_total": 132255,
+ "sent_total": 5117239,
  "last_upgrades": [
-  {
-   "slug": "SwagBag",
-   "gift": "SwagBag",
-   "number": 232398,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 232398,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T01:24:23.451Z",
-   "t": 3
-  },
-  {
-   "slug": "SwagBag",
-   "gift": "SwagBag",
-   "number": 232399,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 232399,
-   "counter_total": 237970,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T01:24:23.451Z",
-   "t": 3
-  },
   {
    "slug": "SwagBag",
    "gift": "SwagBag",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T02:02:35.355Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85546,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85546,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T02:46:56.171Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85547,
+   "owner": "",
+   "owner_addr": "0:36d1074bb723c1378ef152416e02227d4267ea5ff0035f5600e384e0bbce80d3",
+   "mint": 1795137624,
+   "counter_issued": 85547,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T02:46:56.171Z",
    "t": 1
   }
  ]
