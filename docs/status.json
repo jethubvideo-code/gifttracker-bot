@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-20T13:41:49.941Z",
- "updated_unix": 1795182109,
- "runs": 17138,
+ "updated": "2026-11-20T14:16:58.580Z",
+ "updated_unix": 1795184218,
+ "runs": 17139,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132642,
- "sent_total": 5144481,
+ "detected_total": 132644,
+ "sent_total": 5144625,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55874,
-   "owner": "",
-   "owner_addr": "0:1fe7971dffacf13a49a5b9a8c20920f9538a75f71fef83cd88c891895efbcb40",
-   "mint": 1795131550,
-   "counter_issued": 55874,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T11:30:22.535Z",
-   "t": 3
-  },
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55875,
-   "owner": "",
-   "owner_addr": "0:9a09b5d10b90d0b9ee3fc699b03c401cbdb1ef155cc7d8ec8e34462325ae0f57",
-   "mint": 1795151061,
-   "counter_issued": 55875,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T11:30:22.535Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -413,7 +385,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T13:14:36.473Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -427,6 +399,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T13:41:45.716Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391975,
+   "owner": "",
+   "owner_addr": "0:72d13a58784ecf7dad8d96fd6a4fdce745365a88ee86a4a98a5a4051b16771d6",
+   "mint": 1795183729,
+   "counter_issued": 391975,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T14:16:50.298Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391976,
+   "owner": "",
+   "owner_addr": "0:09338db87fe5f86686e9e1e72cc9ccb1b152732c401d1da6dc850305e5ea3453",
+   "mint": 1795184184,
+   "counter_issued": 391976,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T14:16:50.298Z",
    "t": 1
   }
  ]
