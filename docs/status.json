@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T11:30:36.005Z",
- "updated_unix": 1795174236,
- "runs": 17122,
+ "updated": "2026-11-20T11:32:29.855Z",
+ "updated_unix": 1795174349,
+ "runs": 17123,
  "collections": 123,
- "checked": 1,
- "errors": 122,
- "detected_total": 132615,
- "sent_total": 5142879,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 132616,
+ "sent_total": 5142951,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270831,
-   "owner": "",
-   "owner_addr": "0:98a2e36750516e817d44147c0f403e0aeaaf5c1d05b073d9ca4e686588916044",
-   "mint": 1795164199,
-   "counter_issued": 270831,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T09:02:29.865Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T11:30:22.535Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T11:30:22.535Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T11:30:22.535Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T11:30:22.535Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "SnowGlobe",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T11:30:22.535Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90944,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90944,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T11:32:27.518Z",
    "t": 1
   }
  ]
