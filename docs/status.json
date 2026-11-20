@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T04:34:01.844Z",
- "updated_unix": 1795149241,
- "runs": 17090,
+ "updated": "2026-11-20T04:52:07.666Z",
+ "updated_unix": 1795150327,
+ "runs": 17091,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132535,
- "sent_total": 5137367,
+ "detected_total": 132536,
+ "sent_total": 5137439,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 109039,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109039,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T03:17:42.183Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T04:33:59.231Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90938,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90938,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T04:52:05.121Z",
    "t": 1
   }
  ]
