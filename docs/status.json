@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T15:02:31.269Z",
- "updated_unix": 1795186951,
- "runs": 17145,
+ "updated": "2026-11-20T15:03:30.251Z",
+ "updated_unix": 1795187010,
+ "runs": 17146,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132801,
- "sent_total": 5155927,
+ "detected_total": 132802,
+ "sent_total": 5155999,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 272032,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 272032,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T14:56:54.485Z",
-   "t": 2
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -34,7 +20,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T14:56:54.485Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BDayCandle",
@@ -48,7 +34,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T14:56:54.485Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BDayCandle",
@@ -62,7 +48,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T14:56:54.485Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "BDayCandle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T15:02:26.041Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T15:02:26.041Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134797,
+   "owner": "canglou.ton",
+   "owner_addr": "0:48a49b1d096df0649ab73a938da5130de3a52c2e6a4072cc3cdff0b256e23164",
+   "mint": 1795185292,
+   "counter_issued": 134797,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T15:03:28.431Z",
    "t": 1
   }
  ]
