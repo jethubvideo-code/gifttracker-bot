@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T21:20:28.109Z",
- "updated_unix": 1795209628,
- "runs": 17190,
+ "updated": "2026-11-20T21:29:27.016Z",
+ "updated_unix": 1795210167,
+ "runs": 17191,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132967,
- "sent_total": 5167122,
+ "detected_total": 132968,
+ "sent_total": 5167194,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270846,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270846,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T19:17:31.140Z",
-   "t": 3
-  },
   {
    "slug": "SantaHat",
    "gift": "Santa Hat",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T20:54:13.828Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T21:20:24.017Z",
+   "t": 3
+  },
+  {
+   "slug": "HypnoLollipop",
+   "gift": "Hypno Lollipop",
+   "number": 84725,
+   "owner": "e_b_p.t.me",
+   "owner_addr": "0:41a9bea0e5c9d9330712c00681f5b96bd8c50a07f295f298beb273dffb947634",
+   "mint": 1795209621,
+   "counter_issued": 84725,
+   "counter_total": 116639,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T21:29:23.323Z",
    "t": 1
   }
  ]
