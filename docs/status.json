@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T15:06:41.355Z",
- "updated_unix": 1795187201,
- "runs": 17148,
+ "updated": "2026-11-20T15:27:25.021Z",
+ "updated_unix": 1795188445,
+ "runs": 17149,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132805,
- "sent_total": 5156187,
+ "detected_total": 132806,
+ "sent_total": 5156259,
  "last_upgrades": [
-  {
-   "slug": "BDayCandle",
-   "gift": "BDayCandle",
-   "number": 272036,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 272036,
-   "counter_total": 307521,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T14:59:24.795Z",
-   "t": 3
-  },
   {
    "slug": "BDayCandle",
    "gift": "BDayCandle",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T15:06:36.620Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T15:06:36.620Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134798,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134798,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T15:27:22.599Z",
    "t": 1
   }
  ]
