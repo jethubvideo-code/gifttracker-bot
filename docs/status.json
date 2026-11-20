@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T16:14:02.046Z",
- "updated_unix": 1795191242,
- "runs": 17157,
+ "updated": "2026-11-20T16:39:15.839Z",
+ "updated_unix": 1795192755,
+ "runs": 17158,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132886,
- "sent_total": 5161854,
+ "detected_total": 132887,
+ "sent_total": 5161926,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78381,
-   "owner": "",
-   "owner_addr": "0:411ed8cf387289e05904fdec5cf02136d407c1649af99856a0b01f7316b48578",
-   "mint": 1795175591,
-   "counter_issued": 78381,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/VFjJrdJfP8UIXTq4doV-U-37bGXsmgzCVkZ9IaPxjpIq4Lj3uIkQWbeP294k28gkLNaD0fbTtiw07Svy5qpvNttSrtPJryGCQDuI7B7ks42goTDmo5VytOQ3rZMFnwLwxS8syHqrrAp3QHOSxMZ4lQNzmQupt10hN2NeCFjFncks3FZ4Wmtl58NfYMSpferXrhvgH9nfrHiRgsp3U0nupbu9gWKG-Af10hIuoVfWft2LjN_9So3DESMxw0Z3FFRVct-dBHQwxhn9I_AsU61m2Nmj5VHIYtPDY2qLydZgiS5iD6aQENQi0nx4enKBTjIX3lRQ8xg_OKw9GL-c-zlllQ.jpg",
-   "sent": 0,
-   "time": "2026-11-20T15:30:44.349Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T16:13:09.661Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "LibertyFigure",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T16:13:09.661Z",
+   "t": 3
+  },
+  {
+   "slug": "SkullFlower",
+   "gift": "Skull Flower",
+   "number": 22100,
+   "owner": "forgotttten.ton",
+   "owner_addr": "0:4d8669719785f84c15b071e90c092a06495ad329aecd4105e29d2ed594051ed3",
+   "mint": 1795164842,
+   "counter_issued": 22100,
+   "counter_total": 24126,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T16:39:10.613Z",
    "t": 1
   }
  ]
