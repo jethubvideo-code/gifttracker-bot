@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T07:15:39.668Z",
- "updated_unix": 1795158939,
- "runs": 17105,
+ "updated": "2026-11-20T07:22:37.576Z",
+ "updated_unix": 1795159357,
+ "runs": 17106,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132580,
- "sent_total": 5140359,
+ "detected_total": 132581,
+ "sent_total": 5140431,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "LibertyFigure",
-   "number": 270814,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 270814,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "LibertyFigure",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T07:15:23.025Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T07:15:23.025Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391966,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391966,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T07:22:30.306Z",
    "t": 1
   }
  ]
