@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T11:00:16.116Z",
- "updated_unix": 1795172416,
- "runs": 17120,
+ "updated": "2026-11-20T11:29:20.692Z",
+ "updated_unix": 1795174160,
+ "runs": 17121,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 132609,
- "sent_total": 5142447,
+ "checked": 1,
+ "errors": 122,
+ "detected_total": 132610,
+ "sent_total": 5142519,
  "last_upgrades": [
-  {
-   "slug": "JellyBunny",
-   "gift": "Jelly Bunny",
-   "number": 108903,
-   "owner": "",
-   "owner_addr": "0:aeafea1eaef959bdf1122ec3297e11591e559124f865d1e3c37b09328a83c4fe",
-   "mint": 1795153382,
-   "counter_issued": 108903,
-   "counter_total": 129350,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T07:15:23.025Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T11:00:13.297Z",
+   "t": 3
+  },
+  {
+   "slug": "RecordPlayer",
+   "gift": "Record Player",
+   "number": 35535,
+   "owner": "nevron-garant.ton",
+   "owner_addr": "0:ab51e541b78928d83c831452276cab4f522d5d87e4bfd0628c9b17e315af841a",
+   "mint": 1795153706,
+   "counter_issued": 35535,
+   "counter_total": 46888,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T11:29:18.577Z",
    "t": 1
   }
  ]
