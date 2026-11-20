@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T12:44:16.944Z",
- "updated_unix": 1795178656,
- "runs": 17133,
+ "updated": "2026-11-20T12:48:18.117Z",
+ "updated_unix": 1795178898,
+ "runs": 17134,
  "collections": 123,
  "checked": 28,
  "errors": 95,
- "detected_total": 132632,
- "sent_total": 5143855,
+ "detected_total": 132633,
+ "sent_total": 5143927,
  "last_upgrades": [
-  {
-   "slug": "ViceCream",
-   "gift": "ViceCream",
-   "number": 444116,
-   "owner": "",
-   "owner_addr": "0:7a256053ff94c38145fa348aaae3cec7f869dc08dc4a79e843701796b5ba7c1b",
-   "mint": 1795171225,
-   "counter_issued": 444116,
-   "counter_total": 490553,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T10:45:09.074Z",
-   "t": 3
-  },
   {
    "slug": "JellyBunny",
    "gift": "Jelly Bunny",
@@ -427,6 +413,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T12:44:09.327Z",
+   "t": 2
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "HolidayDrink",
+   "number": 90947,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 90947,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T12:48:11.157Z",
    "t": 1
   }
  ]
