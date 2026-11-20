@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T21:31:37.851Z",
- "updated_unix": 1795210297,
- "runs": 17192,
+ "updated": "2026-11-20T21:32:33.384Z",
+ "updated_unix": 1795210353,
+ "runs": 17193,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132971,
- "sent_total": 5167410,
+ "detected_total": 132972,
+ "sent_total": 5167482,
  "last_upgrades": [
-  {
-   "slug": "SnowGlobe",
-   "gift": "Snow Globe",
-   "number": 55877,
-   "owner": "",
-   "owner_addr": "0:411ed8cf387289e05904fdec5cf02136d407c1649af99856a0b01f7316b48578",
-   "mint": 1795175570,
-   "counter_issued": 55877,
-   "counter_total": 72788,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T19:36:00.374Z",
-   "t": 3
-  },
   {
    "slug": "SnowGlobe",
    "gift": "Snow Globe",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T21:31:25.630Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T21:31:25.630Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "EvilEye",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T21:31:25.630Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391996,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391996,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T21:32:30.104Z",
    "t": 1
   }
  ]
