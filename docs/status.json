@@ -1,55 +1,13 @@
 {
- "updated": "2026-11-20T08:23:52.506Z",
- "updated_unix": 1795163032,
- "runs": 17108,
+ "updated": "2026-11-20T09:02:33.709Z",
+ "updated_unix": 1795165353,
+ "runs": 17109,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132583,
- "sent_total": 5140575,
+ "detected_total": 132586,
+ "sent_total": 5140791,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270817,
-   "owner": "",
-   "owner_addr": "0:c731ba0e19952c14b543e2b492563aee0332957774728384a0799e926b8dfe85",
-   "mint": 1795147635,
-   "counter_issued": 270817,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270818,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795149079,
-   "counter_issued": 270818,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270819,
-   "owner": "",
-   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
-   "mint": 1795149596,
-   "counter_issued": 270819,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T06:03:00.761Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -412,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T07:49:29.075Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +384,48 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T08:23:48.686Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391968,
+   "owner": "",
+   "owner_addr": "0:3c8742e390b0ccbf9f8b56b4213135bb6ab05a66052883bdaed4c5142e8f2162",
+   "mint": 1795162973,
+   "counter_issued": 391968,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:02:16.793Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391969,
+   "owner": "",
+   "owner_addr": "0:a07121160d788ad5b18ae877c19aca884e2c4cd6075bc03c76aab45b717eb1a6",
+   "mint": 1795163286,
+   "counter_issued": 391969,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:02:16.793Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270831,
+   "owner": "",
+   "owner_addr": "0:98a2e36750516e817d44147c0f403e0aeaaf5c1d05b073d9ca4e686588916044",
+   "mint": 1795164199,
+   "counter_issued": 270831,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T09:02:29.865Z",
    "t": 1
   }
  ]
