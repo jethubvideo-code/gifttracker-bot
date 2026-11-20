@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T19:36:31.091Z",
- "updated_unix": 1795203391,
- "runs": 17178,
+ "updated": "2026-11-20T19:36:44.735Z",
+ "updated_unix": 1795203404,
+ "runs": 17179,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132947,
- "sent_total": 5166152,
+ "detected_total": 132948,
+ "sent_total": 5166224,
  "last_upgrades": [
-  {
-   "slug": "HolidayDrink",
-   "gift": "Holiday Drink",
-   "number": 90957,
-   "owner": "",
-   "owner_addr": "0:cb38dbf8283ba5502b5c4cbed6a91aad5ddc197196385585035acd83ae28e78c",
-   "mint": 1795199387,
-   "counter_issued": 90957,
-   "counter_total": 120989,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T18:59:14.554Z",
-   "t": 3
-  },
   {
    "slug": "InstantRamen",
    "gift": "Instant Ramen",
@@ -314,7 +300,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:35:39.650Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SantaHat",
@@ -328,7 +314,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:35:39.650Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "RecordPlayer",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:35:50.012Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SnowGlobe",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:00.374Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SnowGlobe",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:00.374Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SnowGlobe",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:00.374Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HangingStar",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:19.155Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HangingStar",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:19.155Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "HangingStar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:19.155Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134807,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134807,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T19:36:41.271Z",
    "t": 1
   }
  ]
