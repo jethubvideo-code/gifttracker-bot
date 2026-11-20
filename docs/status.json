@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T04:52:07.666Z",
- "updated_unix": 1795150327,
- "runs": 17091,
+ "updated": "2026-11-20T04:53:06.898Z",
+ "updated_unix": 1795150386,
+ "runs": 17092,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132536,
- "sent_total": 5137439,
+ "detected_total": 132537,
+ "sent_total": 5137511,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 109040,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109040,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T03:17:42.183Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "HolidayDrink",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T04:33:59.231Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T04:52:05.121Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134780,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 134780,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T04:53:04.898Z",
    "t": 1
   }
  ]
