@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T00:12:57.657Z",
- "updated_unix": 1795133577,
- "runs": 17077,
+ "updated": "2026-11-20T00:45:03.083Z",
+ "updated_unix": 1795135503,
+ "runs": 17078,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132216,
- "sent_total": 5114431,
+ "detected_total": 132217,
+ "sent_total": 5114503,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270802,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795120366,
-   "counter_issued": 270802,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-19T21:13:36.037Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T00:12:44.064Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "SpicedWine",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T00:12:44.064Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "EasterEgg",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T00:12:54.903Z",
+   "t": 2
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391960,
+   "owner": "",
+   "owner_addr": "0:b64c66029207a0d6349fe05b1d2226325297fc859df5d13ee101c2c3b096bd9c",
+   "mint": 1795134898,
+   "counter_issued": 391960,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T00:45:00.373Z",
    "t": 1
   }
  ]
