@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T03:48:47.497Z",
- "updated_unix": 1795146527,
- "runs": 17086,
+ "updated": "2026-11-20T03:54:05.593Z",
+ "updated_unix": 1795146845,
+ "runs": 17087,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132516,
- "sent_total": 5136031,
+ "detected_total": 132517,
+ "sent_total": 5136071,
  "last_upgrades": [
-  {
-   "slug": "TamaGadget",
-   "gift": "TamaGadget",
-   "number": 109020,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 109020,
-   "counter_total": 135097,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-20T03:17:42.183Z",
-   "t": 3
-  },
   {
    "slug": "TamaGadget",
    "gift": "TamaGadget",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T03:48:45.235Z",
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270807,
+   "owner": "",
+   "owner_addr": "0:a750738ebdeb5981311e15d9b8e5ca45774f59143f9fe05f5821e7589913b65b",
+   "mint": 1795146437,
+   "counter_issued": 270807,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T03:53:45.071Z",
    "t": 1
   }
  ]
