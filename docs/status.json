@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-20T16:05:15.440Z",
- "updated_unix": 1795190715,
- "runs": 17155,
+ "updated": "2026-11-20T16:07:11.246Z",
+ "updated_unix": 1795190831,
+ "runs": 17156,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 132883,
- "sent_total": 5161762,
+ "detected_total": 132884,
+ "sent_total": 5161834,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78378,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795170906,
-   "counter_issued": 78378,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/VFjJrdJfP8UIXTq4doV-U-37bGXsmgzCVkZ9IaPxjpIq4Lj3uIkQWbeP294k28gkLNaD0fbTtiw07Svy5qpvNttSrtPJryGCQDuI7B7ks42goTDmo5VytOQ3rZMFnwLwxS8syHqrrAp3QHOSxMZ4lQNzmQupt10hN2NeCFjFncks3FZ4Wmtl58NfYMSpferXrhvgH9nfrHiRgsp3U0nupbu9gWKG-Af10hIuoVfWft2LjN_9So3DESMxw0Z3FFRVct-dBHQwxhn9I_AsU61m2Nmj5VHIYtPDY2qLydZgiS5iD6aQENQi0nx4enKBTjIX3lRQ8xg_OKw9GL-c-zlllQ.jpg",
-   "sent": 0,
-   "time": "2026-11-20T15:30:44.349Z",
-   "t": 3
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T16:04:54.837Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444125,
+   "owner": "bubble-market.ton",
+   "owner_addr": "0:06ef86d733ca1197dab88f0c5b39c84bb2fec130550f2d394f6a1d61721e82b9",
+   "mint": 1795190612,
+   "counter_issued": 444125,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T16:07:09.141Z",
    "t": 1
   }
  ]
