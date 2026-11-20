@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-20T19:37:54.322Z",
- "updated_unix": 1795203474,
- "runs": 17180,
+ "updated": "2026-11-20T19:38:54.059Z",
+ "updated_unix": 1795203534,
+ "runs": 17181,
  "collections": 123,
- "checked": 3,
- "errors": 120,
- "detected_total": 132950,
- "sent_total": 5166368,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 132952,
+ "sent_total": 5166512,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 391990,
-   "owner": "",
-   "owner_addr": "0:23d1ac8f29bea8aec7a23045a9fcec13a1a1fbd2f0e841f8b69aabcb708ca1c8",
-   "mint": 1795200345,
-   "counter_issued": 391990,
-   "counter_total": 457382,
-   "img": "https://cdn4.telesco.pe/file/T9q7xxz3AQl76GdIV_G3TrJwhcacEqbQBlX7SdmVq9dQAIRzq9IHKumTiQVcn1U0JMwn7N_ESb7K2dGEF-cqaEBxRSb-OStIMxRIVEY8hFkJGxG4CJQlP-aHg5aPHCkDb09V1a2ycchMx0u6-N-A5G-nt0Uir5POX4M-R97q-tTfY8QJslj5Pk76vh4iQrBH2HqhK13cQMRD8USOidQ9GRK3oAbrIJDHiiswmoZ5dmpwVbO06cv6ca4rXihx3MhwM5mH8UNR-Xlms-IONOjiUZ_2HpLePVX3MjmtdRjDYL4wdhZB8-Ckoy7S1DTmFjhtrvxkzNVOVYdW7h86BHOc3w.jpg",
-   "sent": 0,
-   "time": "2026-11-20T19:00:16.687Z",
-   "u": 1
-  },
-  {
-   "slug": "PrettyPosy",
-   "gift": "Pretty Posy",
-   "number": 134803,
-   "owner": "",
-   "owner_addr": "0:bf5eef5b12898bb5cdba6666fd829c777b6d6f634c19b4fbbe68f40762ddb06b",
-   "mint": 1795197803,
-   "counter_issued": 134803,
-   "counter_total": 181231,
-   "img": "https://cdn4.telesco.pe/file/NLGPcX1ejTvO_Le38-m9xQHvH6YRv5iry1ctowKcLi5ygs3amhiwaCqHTY6t8d0X6q96B6lLu208L7_LxKfHtXWBLg7PGZWVQ07VaLfCTmuumEvYqhdCnMNXBVRfBZIl_kl2z48-_p7v4RQcZxMivdOPVQBb7OOWZeX--6gn9Ir8DAJY89DkX-CY-M8FRJvmLzU9Pi9UFReLj_3VA9TxTA6Yqk-oAZahavs7Y5_DNuZyVwTwG2VzxV36BTcCOgr_c1LD7FvgnaQyIcuy-rtrd_rBdEK8UNyWvNfZsRrwSeVpcZhshBc0ovoxmI-Y23y4Ne6SYK0h3oXgIXrT8P9sNg.jpg",
-   "sent": 0,
-   "time": "2026-11-20T19:00:35.722Z",
-   "u": 1
-  },
   {
    "slug": "PrettyPosy",
    "gift": "Pretty Posy",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:36:41.271Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:37:47.136Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-20T19:37:47.136Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 391991,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 391991,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T19:38:47.004Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391992,
+   "owner": "",
+   "owner_addr": "0:422973dcb5293072e46d27c40538c8a2fc321f0d61aa3defc3aed6f750a2b393",
+   "mint": 1795201858,
+   "counter_issued": 391992,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-20T19:38:47.004Z",
    "t": 1
   }
  ]
