@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T05:46:41.774Z",
- "updated_unix": 1795240001,
- "runs": 17223,
+ "updated": "2026-11-21T05:50:41.389Z",
+ "updated_unix": 1795240241,
+ "runs": 17224,
  "collections": 123,
- "checked": 29,
- "errors": 94,
- "detected_total": 133161,
- "sent_total": 5180690,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 133162,
+ "sent_total": 5180761,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78386,
-   "owner": "",
-   "owner_addr": "0:b9887f98585b4fb9197b9787f0a279f400fbe0e599939d25ad22f87dcdc82f16",
-   "mint": 1795225186,
-   "counter_issued": 78386,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/okA0CSnsqlgcK4Fki53YYlC0TQjfiFnowsH8rP31Ac5TWo6q-SREX3aovZiFxDvMPA7fLt_ZrW235JPFYBwBtZ_ycOGRAxMeCP4Dy8eN4VeGtBVZcpQkIvo7Eg_mFgg248Uco7LjjqKTVArPZEjWM-W-KkEXozqfiDzNshP-Tk1IqVzSGmg8MIYY_-PZS40eT-mPNCFeewWsGGc_khbNpZKMIPnb2qpFPaIg7slvrkg4iO_gAdk3uRofm0_mmDY0gFClYj1aNaZiTRIBZ2VNeXkImN8PYHpIA9d6H0Bc4pZXgmoyeFkoVZmsGS37TMWJYgzlUUzIOHRSns7WLPS6VQ.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:53:06.049Z",
-   "u": 1
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T05:46:37.942Z",
+   "t": 3
+  },
+  {
+   "slug": "HolidayDrink",
+   "gift": "Holiday Drink",
+   "number": 90961,
+   "owner": "",
+   "owner_addr": "0:b9887f98585b4fb9197b9787f0a279f400fbe0e599939d25ad22f87dcdc82f16",
+   "mint": 1795225144,
+   "counter_issued": 90961,
+   "counter_total": 120989,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T05:50:37.951Z",
    "t": 1
   }
  ]
