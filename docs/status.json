@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T08:47:59.683Z",
- "updated_unix": 1795250879,
- "runs": 17234,
+ "updated": "2026-11-21T09:19:16.716Z",
+ "updated_unix": 1795252756,
+ "runs": 17235,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133182,
- "sent_total": 5181834,
+ "detected_total": 133183,
+ "sent_total": 5181905,
  "last_upgrades": [
-  {
-   "slug": "VintageCigar",
-   "gift": "Vintage Cigar",
-   "number": 26889,
-   "owner": "",
-   "owner_addr": "0:284c4be1da81b3c2806468920ee7ef80bd1b0d79a6993fc610d768af4e8637e5",
-   "mint": 1795219045,
-   "counter_issued": 26889,
-   "counter_total": 31024,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T04:28:57.965Z",
-   "t": 3
-  },
   {
    "slug": "VintageCigar",
    "gift": "Vintage Cigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T08:47:56.004Z",
+   "t": 3
+  },
+  {
+   "slug": "EvilEye",
+   "gift": "Evil Eye",
+   "number": 74861,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795233196,
+   "counter_issued": 74861,
+   "counter_total": 85204,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T09:19:12.933Z",
    "t": 1
   }
  ]
