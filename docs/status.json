@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T11:30:54.957Z",
- "updated_unix": 1795260654,
- "runs": 17248,
+ "updated": "2026-11-21T11:34:54.429Z",
+ "updated_unix": 1795260894,
+ "runs": 17249,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133449,
- "sent_total": 5200211,
+ "detected_total": 133450,
+ "sent_total": 5200282,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 190721,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190721,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T11:18:29.434Z",
-   "t": 3
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -403,7 +389,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T11:30:37.945Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -417,7 +403,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T11:30:46.224Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "JellyBunny",
@@ -431,6 +417,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T11:30:46.224Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 392004,
+   "owner": "",
+   "owner_addr": "0:a04c8610d07062af2c11894fa03573288bfcfaae8c74d8b45bdd5b4e7010c14d",
+   "mint": 1795260396,
+   "counter_issued": 392004,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T11:34:50.566Z",
    "t": 1
   }
  ]
