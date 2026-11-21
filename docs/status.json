@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-21T06:16:51.824Z",
- "updated_unix": 1795241811,
- "runs": 17225,
+ "updated": "2026-11-21T06:19:55.865Z",
+ "updated_unix": 1795241995,
+ "runs": 17226,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133163,
- "sent_total": 5180832,
+ "detected_total": 133165,
+ "sent_total": 5180974,
  "last_upgrades": [
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52557,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795203371,
-   "counter_issued": 52557,
-   "counter_total": 58460,
-   "img": "https://cdn4.telesco.pe/file/OxrAKS71o2o_j3jYcjdWB1c0zVFy1r-lnfxGEQYCLE_Q3EJ7Z7eVFGVFxJzaezUZ3HF0iQkxUiXZSlKAeO3b4cOM1COp7tGzv_BwlMcfXhi92iks9UTb1KKW23UdtV21ZUeoDR-QUZM8L1xNJmToVmOXSKXKN2B1T8z3hHdZZ4DJmEZxmQb1heyGQv1BCC_SwcNZP_HHYPK9CKXpqycLv-cPoqUR5s6Ty0HKIZEEWq1eFI6x25OGu-rekptq1J60W38HZc0t7E6h-GHFc2svDh-EdAeTi6smaf8eCpDBKaf2YuH1EMA5GhnwXLNzfHNejovEMTy9c9FIys9wBn7mbQ.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:53:34.585Z",
-   "u": 1
-  },
-  {
-   "slug": "SkyStilettos",
-   "gift": "Sky Stilettos",
-   "number": 52558,
-   "owner": "",
-   "owner_addr": "0:6a61d80279139a4cc1e855e0ea5d270122770cbaa3d3fdfc75bdf2c5b1fc8da2",
-   "mint": 1795210198,
-   "counter_issued": 52558,
-   "counter_total": 58460,
-   "img": "https://cdn4.telesco.pe/file/fxuXHeyFQ7Vfz6tl0jUolW_vgYx-R_5KmQBFR-BVOJL32mm6HoJ04vFLW9Zg_lQ-sv-rUa7e-Y-8kmREFE4Rq44-YiyxGJkz64f--r65ZYBKizSvkjSHjAN-cU0lRH4yt_8sW-ESCpFLkBKkpxhtWLSR6e1LIfhnKfWhz2k41h_nLPZTllJvUD9NnDIgQK8_HlamZ-zNuWQD8v7gHbW04RI8UDvJ9s15DdPmJoo3patjFZQMKK0X5rLwrGFkm3DBBVJEcgxEAno1TjZMffbD2DenbTmI_6B7fHWM-K4VO5l5GRl5XewgifzqzdCnROu2Gbtq8afG6hEdA4bzzgCXXg.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:53:34.585Z",
-   "u": 1
-  },
   {
    "slug": "SkyStilettos",
    "gift": "Sky Stilettos",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T06:16:48.420Z",
+   "t": 3
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "JoyfulBundle",
+   "number": 85565,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 85565,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T06:19:48.353Z",
+   "t": 1
+  },
+  {
+   "slug": "JoyfulBundle",
+   "gift": "Joyful Bundle",
+   "number": 85566,
+   "owner": "cinoflex.ton",
+   "owner_addr": "0:4227cc3b276d7246a3f3ef1578f2a6d85ecfd65118c9dcdf5777e88e4a39100b",
+   "mint": 1795233817,
+   "counter_issued": 85566,
+   "counter_total": 114092,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T06:19:48.353Z",
    "t": 1
   }
  ]
