@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T04:31:06.643Z",
- "updated_unix": 1795235466,
- "runs": 17219,
+ "updated": "2026-11-21T04:34:06.264Z",
+ "updated_unix": 1795235646,
+ "runs": 17220,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133156,
- "sent_total": 5180396,
+ "detected_total": 133157,
+ "sent_total": 5180467,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74298,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795217516,
-   "counter_issued": 74298,
-   "counter_total": 99082,
-   "img": "https://cdn4.telesco.pe/file/GH5Kn_k9qNKBP47xe3SCKufXNpnGk21ZCmQ-7EX6RkM17Bv4L_vCUfz8GAymVG1c6f1Nv80cuRHYa1JIoLB4vagNtN4WMT5NV_P3N1CRNkPa5aXhKIdSl5HwnJU1TAA3EKWMc_tZGzVjz9HUnCt_ols-e3f9x7rUOzo5ehs-Dc-H8bT8WJiSrkFoO0YcXn1jaIKc6Xt40NOwDruVmeCwdesYrAWeZUDX-eYMYFCHqRTzCmHmdNyrOEPKah7tEkd7kU_ReVxqNCF7NZKk11RMxf47Jbpz7TndVZswFV8aDSGZZfR_DL6OD-wbUlFelXTCWlSV9Yrl6baZBZ-__6kRcQ.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:52:38.462Z",
-   "u": 1
-  },
   {
    "slug": "StarNotepad",
    "gift": "Star Notepad",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T04:31:02.986Z",
+   "t": 3
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "PrettyPosy",
+   "number": 134818,
+   "owner": "",
+   "owner_addr": "0:0bf8aa8a834f22a232a8476663c7eda9e19c7f05e4dcc657131090be650bd0fb",
+   "mint": 1795235561,
+   "counter_issued": 134818,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T04:34:03.164Z",
    "t": 1
   }
  ]
