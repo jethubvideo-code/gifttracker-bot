@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T07:23:49.617Z",
- "updated_unix": 1795245829,
- "runs": 17229,
+ "updated": "2026-11-21T07:25:48.910Z",
+ "updated_unix": 1795245948,
+ "runs": 17230,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133175,
- "sent_total": 5181446,
+ "detected_total": 133176,
+ "sent_total": 5181517,
  "last_upgrades": [
-  {
-   "slug": "BerryBox",
-   "gift": "Berry Box",
-   "number": 53654,
-   "owner": "Fragment Gift Minter",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795201104,
-   "counter_issued": 53654,
-   "counter_total": 66580,
-   "img": "https://cdn4.telesco.pe/file/f8opfvt-vslJtqBIOStRCeP97hPQSFRVWha_CEQM6c9KvCuHSGtV-HmiAN7zz5INzyszfefbJKpM60Ll9lHMXeSOkIb99Rl7VRiSuuQeT-SzBYYbsOWHX7jl0dTaKYB594RWQn68IMfOW3AskSrIO0yPB9Csgro98q-YbmEP2PV6YMqnRUn3ErrGn-obj0Odus31ENg5bWUZksAWKPVk02SqGAjHXCQ_4TWjSwEEcwh14JG9zmprd_ct-MdLBn-y542khawenTXLdysY4U_78Lj2bPxJrF7mbxR_pZKzVzFoQaTI11gkU8w21BokpDdabRqLMYATHqaFu_zUt1NZ7w.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:54:10.388Z",
-   "t": 3
-  },
   {
    "slug": "ValentineBox",
    "gift": "Valentine Box",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T07:23:41.433Z",
+   "t": 3
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "InstantRamen",
+   "number": 392002,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 392002,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T07:25:41.083Z",
    "t": 1
   }
  ]
