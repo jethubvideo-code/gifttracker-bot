@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T09:42:08.953Z",
- "updated_unix": 1795254128,
- "runs": 17237,
+ "updated": "2026-11-21T09:42:48.097Z",
+ "updated_unix": 1795254168,
+ "runs": 17238,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133190,
- "sent_total": 5182402,
+ "detected_total": 133191,
+ "sent_total": 5182473,
  "last_upgrades": [
-  {
-   "slug": "InstantRamen",
-   "gift": "Instant Ramen",
-   "number": 392000,
-   "owner": "",
-   "owner_addr": "0:e11bf58d55ce906151c793b67fd051c99a85e0045116de50cf1aa82b9b65001e",
-   "mint": 1795239342,
-   "counter_issued": 392000,
-   "counter_total": 457382,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T05:46:37.942Z",
-   "t": 3
-  },
   {
    "slug": "HolidayDrink",
    "gift": "Holiday Drink",
@@ -342,7 +328,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:20:09.853Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "JoyfulBundle",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:20:09.853Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:41:44.676Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:41:44.676Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:41:44.676Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "ViceCream",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:41:44.676Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "InstantRamen",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:42:05.251Z",
+   "t": 3
+  },
+  {
+   "slug": "SwagBag",
+   "gift": "Swag Bag",
+   "number": 232427,
+   "owner": "",
+   "owner_addr": "0:fb2bcc4294b0baa315f4f8084b75fb414bf6bd9d41fc9b59c0b9b8cb46e310d4",
+   "mint": 1795246209,
+   "counter_issued": 232427,
+   "counter_total": 237970,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T09:42:44.639Z",
    "t": 1
   }
  ]
