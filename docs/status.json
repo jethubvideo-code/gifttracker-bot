@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T04:05:12.374Z",
- "updated_unix": 1795233912,
- "runs": 17216,
+ "updated": "2026-11-21T04:24:21.304Z",
+ "updated_unix": 1795235061,
+ "runs": 17217,
  "collections": 123,
- "checked": 30,
- "errors": 93,
- "detected_total": 133150,
- "sent_total": 5180031,
+ "checked": 5,
+ "errors": 118,
+ "detected_total": 133151,
+ "sent_total": 5180041,
  "last_upgrades": [
-  {
-   "slug": "WitchHat",
-   "gift": "Witch Hat",
-   "number": 82944,
-   "owner": "",
-   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
-   "mint": 1795202363,
-   "counter_issued": 82944,
-   "counter_total": 88480,
-   "img": "https://cdn4.telesco.pe/file/eHhdYdyh7lmDSJ0k8Hr1rBZ-IcWHllrnjBb9xY7f7LESfMLWAifb38BriyniO704APuyPiIE_ybJ5GdkoWmU6_Vx9nEMWhwgCXx8uqq2XuGkLOzTsdeWhNZQLZ9-fnwNRlhNb5o42edjGc83mj82bifG_-owVpsc7Z3RoT3xrwKei9AQiQttCXscH7-tjMFT6XZISmKP8tXLD4O3mA5QG0WgwZySz9-g8YuJdp98lE4r8gpDodP6d0MKy6skFAXWv2DlfIB7wu-b1wZpR4CslGZ_Td2Q60MC7gQ1Xtj5rDxgRCthILhtec51jdc3EMiRoSWYQJ8zsIBBkwYqQFiq_Q.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:52:19.092Z",
-   "t": 3
-  },
   {
    "slug": "WitchHat",
    "gift": "Witch Hat",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T04:05:10.033Z",
+   "t": 2
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270850,
+   "owner": "",
+   "owner_addr": "0:37bcaac4cbe037458769f7815dc756ac1dd94cf9060e19884ca2d6c01ec435ca",
+   "mint": 1795234547,
+   "counter_issued": 270850,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T04:23:55.234Z",
    "t": 1
   }
  ]
