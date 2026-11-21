@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T04:34:06.264Z",
- "updated_unix": 1795235646,
- "runs": 17220,
+ "updated": "2026-11-21T05:03:38.296Z",
+ "updated_unix": 1795237418,
+ "runs": 17221,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133157,
- "sent_total": 5180467,
+ "detected_total": 133158,
+ "sent_total": 5180477,
  "last_upgrades": [
-  {
-   "slug": "StarNotepad",
-   "gift": "Star Notepad",
-   "number": 74299,
-   "owner": "",
-   "owner_addr": "0:b90bbcabf4bfbb367c0ddd75478f73f2a47c2ed85f80ad498ed90c9891cfc560",
-   "mint": 1795223260,
-   "counter_issued": 74299,
-   "counter_total": 99082,
-   "img": "https://cdn4.telesco.pe/file/vellrVNK8HtcdL9tK40kw2svAaY7h5lYRRFmAIruy_DQDxqkvlmTgxp9W1wpqLNIy9o7VQoWUVyzStKvuaUZ3QGO7WrNDfAKIMTtPHEFpKGaKSYyBX6XohAM7ZJTsyKhQh52M0j9J-MO1M8Iq0lEPbbvb4mV1-FcRBeQA0LGNeX-1_tpZq5NqzwdTM_aMREJe-ZQtepoc0TjD7wz3X3hsWl7rRX3eShISVzhcCRIUm23PP8Qae44J46ToUYJdcx-RFkd5yqPzIQ3gwXN7oAzx9p9xMHY2qUlXj-IVvpl5xvErE3fXYpkXuMdW_kSla4SWdoRqWIzZkODn47Sei3wFA.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:52:38.462Z",
-   "u": 1
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,7 +412,21 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T04:34:03.164Z",
-   "t": 2
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270851,
+   "owner": "",
+   "owner_addr": "0:b765b1370cbfde9618169cfffc136738ff1628c6ce5ad70a53dd0c8e63d74138",
+   "mint": 1795237363,
+   "counter_issued": 270851,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T05:03:12.015Z",
+   "t": 1
   }
  ]
 }
