@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-21T11:34:54.429Z",
- "updated_unix": 1795260894,
- "runs": 17249,
+ "updated": "2026-11-21T11:37:00.809Z",
+ "updated_unix": 1795261020,
+ "runs": 17250,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133450,
- "sent_total": 5200282,
+ "detected_total": 133452,
+ "sent_total": 5200424,
  "last_upgrades": [
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 190722,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190722,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T11:18:29.434Z",
-   "t": 3
-  },
-  {
-   "slug": "PartySparkler",
-   "gift": "PartySparkler",
-   "number": 190723,
-   "owner": "",
-   "owner_addr": "",
-   "mint": 0,
-   "counter_issued": 190723,
-   "counter_total": 243771,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T11:18:29.434Z",
-   "t": 3
-  },
   {
    "slug": "PartySparkler",
    "gift": "PartySparkler",
@@ -431,6 +403,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T11:34:50.566Z",
+   "t": 3
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444155,
+   "owner": "",
+   "owner_addr": "0:6ef910e0eda3cd198c59b8c388f597cd794add3f3d025b8bdaaaccd5405f7474",
+   "mint": 1795259877,
+   "counter_issued": 444155,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T11:36:50.151Z",
+   "t": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "LibertyFigure",
+   "number": 270875,
+   "owner": "",
+   "owner_addr": "",
+   "mint": 0,
+   "counter_issued": 270875,
+   "counter_total": 295480,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T11:36:56.678Z",
    "t": 1
   }
  ]
