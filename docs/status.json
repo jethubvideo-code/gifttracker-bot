@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-21T05:03:38.296Z",
- "updated_unix": 1795237418,
- "runs": 17221,
+ "updated": "2026-11-21T05:34:43.283Z",
+ "updated_unix": 1795239283,
+ "runs": 17222,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 133158,
- "sent_total": 5180477,
+ "checked": 30,
+ "errors": 93,
+ "detected_total": 133160,
+ "sent_total": 5180619,
  "last_upgrades": [
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78383,
-   "owner": "",
-   "owner_addr": "0:5dd7e94d46910c60e30e98bcd9440e3732580d9ba702e10a572236d0431bb332",
-   "mint": 1795210414,
-   "counter_issued": 78383,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/W3UO08h_vBca3lFjlR3aXoS1WWFVI0HRTOE4cnkrIz8FdHkeRxttWecL1v1oyLgBGf3ci7fXGi5kI4SVRLCouoGA_fAEYVnXDdm3hXCMd6DN3iH9126pT2_XOudkzs_uuZnJNc_clpqWofQWtAn_11_rcAVxfq4YExlUwJbQwO7VpEcpahqQOCt54II2SFkcYrtFb8iYpwqLADDqawrbfmk5nTxe7pa0Y91X-vzLAAIA0JCKXNWM3Dnp9JehwMKsJLPgJCc-pA8Nviux7xVgKwLPIAz5l0dADaJ-Lw4aP04gD3t1PiSwFLHZBOzTdrnMQl-YTGWeSDUIS226Ewrr1w.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:53:06.049Z",
-   "u": 1
-  },
-  {
-   "slug": "WinterWreath",
-   "gift": "Winter Wreath",
-   "number": 78384,
-   "owner": "",
-   "owner_addr": "0:78d7ea53cf1df3657a53d8f6be010c4a0bdf3ed4b709806794658ab249cba359",
-   "mint": 1795216312,
-   "counter_issued": 78384,
-   "counter_total": 100846,
-   "img": "https://cdn4.telesco.pe/file/GwOPk3g7egPHnhm51bbdL2KU9S19rYeW7Z1SEwIfW010pRbnOZrpxTGPECHv8WLpS7qTR1yID75rt9HIZneN5tDrbmteJQTArb6JXTeeKtAtx6M0yLN4lNriMr20BKwWvSw8dS8ZcxQs2uCSZnSgd2pT790JOw99wu067B7Pkt2AkSzZnQRegc_WxjwJNDPZD3BGm8zgs9wRwOU5dJ1GclYVjYrqANXb2jM-GSBfk_ma3OHx9BRGGLHIVrPWd5Dckzij0NKsUfIWtoElnYBSJB9zBwKFuptAAQQkgeJ2EWqT2pDOni-vjnRHwcZtDM_HptWYgDI9Avp8m9_1hM6SFA.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:53:06.049Z",
-   "u": 1
-  },
   {
    "slug": "WinterWreath",
    "gift": "Winter Wreath",
@@ -426,6 +398,34 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T05:03:12.015Z",
+   "t": 2
+  },
+  {
+   "slug": "PrettyPosy",
+   "gift": "Pretty Posy",
+   "number": 134819,
+   "owner": "",
+   "owner_addr": "0:0bf8aa8a834f22a232a8476663c7eda9e19c7f05e4dcc657131090be650bd0fb",
+   "mint": 1795235561,
+   "counter_issued": 134819,
+   "counter_total": 181231,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T05:34:30.153Z",
+   "t": 1
+  },
+  {
+   "slug": "InstantRamen",
+   "gift": "Instant Ramen",
+   "number": 391999,
+   "owner": "",
+   "owner_addr": "0:2185a4907b3f0763e9d816de4d0795c2243bf0f15b8056510386ee04581417b5",
+   "mint": 1795237766,
+   "counter_issued": 391999,
+   "counter_total": 457382,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T05:34:38.785Z",
    "t": 1
   }
  ]
