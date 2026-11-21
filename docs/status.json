@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T08:30:57.399Z",
- "updated_unix": 1795249857,
- "runs": 17233,
+ "updated": "2026-11-21T08:47:59.683Z",
+ "updated_unix": 1795250879,
+ "runs": 17234,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133181,
- "sent_total": 5181763,
+ "detected_total": 133182,
+ "sent_total": 5181834,
  "last_upgrades": [
-  {
-   "slug": "VintageCigar",
-   "gift": "Vintage Cigar",
-   "number": 26888,
-   "owner": "",
-   "owner_addr": "0:cc292c91acdedd66b78af0f9a598a9df93cf22e012bad5a204a619e73f6707e9",
-   "mint": 1795205808,
-   "counter_issued": 26888,
-   "counter_total": 31024,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T04:28:57.965Z",
-   "t": 3
-  },
   {
    "slug": "VintageCigar",
    "gift": "Vintage Cigar",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T08:30:53.521Z",
+   "t": 3
+  },
+  {
+   "slug": "SurgeBoard",
+   "gift": "Surge Board",
+   "number": 33188,
+   "owner": "",
+   "owner_addr": "0:96fc8c22b42c6c4ee5e7de26bb97ca5dd50b966382606a63ae838a1433e5d745",
+   "mint": 1795246391,
+   "counter_issued": 33188,
+   "counter_total": 39464,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T08:47:56.004Z",
    "t": 1
   }
  ]
