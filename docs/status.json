@@ -1,27 +1,13 @@
 {
- "updated": "2026-11-21T09:52:04.263Z",
- "updated_unix": 1795254724,
- "runs": 17240,
+ "updated": "2026-11-21T09:55:03.990Z",
+ "updated_unix": 1795254903,
+ "runs": 17241,
  "collections": 123,
- "checked": 5,
- "errors": 118,
- "detected_total": 133198,
- "sent_total": 5182970,
+ "checked": 4,
+ "errors": 119,
+ "detected_total": 133199,
+ "sent_total": 5183041,
  "last_upgrades": [
-  {
-   "slug": "LibertyFigure",
-   "gift": "Liberty Figure",
-   "number": 270852,
-   "owner": "",
-   "owner_addr": "0:248c50023ad9d98b55834e155f0dbba357dd2ddda31ffc9f4152413960fb01ac",
-   "mint": 1795243123,
-   "counter_issued": 270852,
-   "counter_total": 295480,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T07:20:34.491Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -356,7 +342,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:51:43.372Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -370,7 +356,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:51:43.372Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -384,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:51:43.372Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -398,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:51:43.372Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -412,7 +398,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:51:43.372Z",
-   "t": 1
+   "t": 2
   },
   {
    "slug": "PrettyPosy",
@@ -426,6 +412,20 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T09:51:43.372Z",
+   "t": 2
+  },
+  {
+   "slug": "ViceCream",
+   "gift": "Vice Cream",
+   "number": 444154,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795254874,
+   "counter_issued": 444154,
+   "counter_total": 490553,
+   "img": "",
+   "sent": 0,
+   "time": "2026-11-21T09:55:00.702Z",
    "t": 1
   }
  ]
