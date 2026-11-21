@@ -1,41 +1,13 @@
 {
- "updated": "2026-11-21T07:55:47.250Z",
- "updated_unix": 1795247747,
- "runs": 17231,
+ "updated": "2026-11-21T07:58:37.432Z",
+ "updated_unix": 1795247917,
+ "runs": 17232,
  "collections": 123,
  "checked": 5,
  "errors": 118,
- "detected_total": 133178,
- "sent_total": 5181659,
+ "detected_total": 133180,
+ "sent_total": 5181692,
  "last_upgrades": [
-  {
-   "slug": "ValentineBox",
-   "gift": "Valentine Box",
-   "number": 35718,
-   "owner": "",
-   "owner_addr": "0:655945c56d37b50de4dc0e3ae6a4e7258e904e47323b30c250b6b0cd2184bc9b",
-   "mint": 1795220252,
-   "counter_issued": 35718,
-   "counter_total": 41025,
-   "img": "https://cdn4.telesco.pe/file/ffwf6SeMh8M8ylGH0Bxo1veni-5BplqgCTqq1epXoo5khoyFv44hFUY9Rq2Egg_KIAkkGUj2T64zP_QuCc7G19PioEBOzv1oA-w0obXcdZ5dDXbl-Ac1vMhkfduo522jVBsU89TWVcB4krRfWigbzddy3UL_uqoyqqa1vNYAfUj2TcdWD6geGV_FfmWoDk8cy_n3kIYQLx-3KWNdo2vVXxiRCJRe0C0bD2nwSkdXn46i-C6ZZvGfOGuxCisTPT9uDw0fZi4UFto0zk48SvFWDbqip7tYHhsTDmlssEvxvoYaUiJxYF0Hz6EYJkiym32FAZEnRHR1JV1tuw2PRg3gYg.jpg",
-   "sent": 0,
-   "time": "2026-11-21T03:54:28.042Z",
-   "t": 3
-  },
-  {
-   "slug": "JoyfulBundle",
-   "gift": "JoyfulBundle",
-   "number": 85564,
-   "owner": "",
-   "owner_addr": "0:d79c5825a58ac276fe5a58d1630dd27386369b0dfe8ec536fcffb6263dc37568",
-   "mint": 1795233817,
-   "counter_issued": 85564,
-   "counter_total": 114092,
-   "img": "",
-   "sent": 0,
-   "time": "2026-11-21T04:05:10.033Z",
-   "t": 3
-  },
   {
    "slug": "LibertyFigure",
    "gift": "Liberty Figure",
@@ -398,7 +370,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T07:25:41.083Z",
-   "t": 2
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -412,7 +384,7 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T07:55:38.572Z",
-   "t": 1
+   "t": 3
   },
   {
    "slug": "HolidayDrink",
@@ -426,7 +398,35 @@
    "img": "",
    "sent": 0,
    "time": "2026-11-21T07:55:38.572Z",
-   "t": 1
+   "t": 3
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270858,
+   "owner": "",
+   "owner_addr": "0:451a3565c453abdbd2867bedc3369c4aa4f5365098b21155d2ac231d065458a3",
+   "mint": 1795246915,
+   "counter_issued": 270858,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/F42n9EJei6Dmvm9usk5_DsHE7sw7-g1EbmfG4wqpjkJ35YkxzEnXsw9gMxg1pSgOAxAIqfm3e_WWKHqoVGTjccREbHfxr4V8qcCjR7-RA_UOg1I2-4To-Kbncv7ErFaG0iDLsbdi7TfCFSCdphji5MZbMhM1IAIYmHzK0LOIN0n4Lsrdle923CbCmjBTX5lF3TCiswrw37W5pqDBJ5gZFRSK_1IKncJsVLGzKX5aecTxfUp5F8Kyf3V0s_HSc0ThmFZF38fi3pMi73F6acQwNIVd6ghlcnYR6s7pIPdbt8iLaafZSakjKBnKhbICulwxGtiYsxbK4wvPEWckDQPZgQ.jpg",
+   "sent": 0,
+   "time": "2026-11-21T07:57:43.235Z",
+   "u": 1
+  },
+  {
+   "slug": "LibertyFigure",
+   "gift": "Liberty Figure",
+   "number": 270859,
+   "owner": "Fragment Gift Minter",
+   "owner_addr": "0:158136239adb15dd59df90c641f9efd312cfeb8664f218f4c3e5fce9d95e6c07",
+   "mint": 1795247223,
+   "counter_issued": 270859,
+   "counter_total": 295480,
+   "img": "https://cdn4.telesco.pe/file/DSNEVsuBIbYX_k-WTNZFB31zrFrN3wxDZ3IGEMaB2cW04nMmsreff72TuaIjT0G4Ov0TdZkNqb4OwhJrFHpa1awqUvX4DNQQzksieTlqgTGYKeLYZj1FdONZ2WKckXX_2QSjrYqANdPR1gq6WCu-6mc5c5wbq-bF6tXAG3G-7LEqKhtEDmhLWBrLFjqnJ-MOrsTiBbQiGktBM6ndVSUJvzAPw3uAzsGKPqooY3r4rE0WycWjKHWybHAdgueB5H_bEM-AusXSUhZn9wmk5GptpxEtTvPAJ43MYLuvo11RJPmBOCTrHPEqE83ZdyTyAuPJK3_51zqLZDjnoJwlfFHRxw.jpg",
+   "sent": 0,
+   "time": "2026-11-21T07:57:43.235Z",
+   "u": 1
   }
  ]
 }
